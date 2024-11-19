@@ -20,13 +20,22 @@ from selenium.webdriver.chrome.options import Options
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin
 import os
+import subprocess
+
 
 def get_driver():
     # Set Chrome options
     options = Options()
-    options.add_argument("--disable-gpu")
-    options.add_argument("--no-sandbox")
-    options.add_argument("--disable-dev-shm-usage")
+    # options.add_argument("--disable-gpu")
+    # options.add_argument("--no-sandbox")
+    # options.add_argument("--disable-dev-shm-usage")
+
+
+    if os.getenv("STREAMLIT_ENV") == "cloud":
+        chromium_version = subprocess.run(["chromium", "--version"], capture_output=True, text=True).stdout.strip()
+        chromedriver_version = subprocess.run(["chromedriver", "--version"], capture_output=True, text=True).stdout.strip()
+        print(f"Chromium version: {chromium_version}")
+        print(f"Chromedriver version: {chromedriver_version}")
 
     # Check environment (Streamlit Cloud or local)
     if os.getenv("STREAMLIT_ENV") == "cloud":  # Assume this variable is set in Streamlit Cloud
