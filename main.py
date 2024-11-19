@@ -10,20 +10,29 @@ from scrape import (
     get_select_data
 )
 from parse import parse_with_ollama, parse_with_chatgpt
+from download import is_downloadable, download_files
+from user_comms import introduction
 
 import pandas as pd
 import streamlit as st
 from io import BytesIO
 
 st.title("Scraper")
+st.header(introduction)
 domain = st.text_input("Enter a website URL:")
 
 # Initialize session state for second-level headlines and selected pages
 if "second_level_headlines" not in st.session_state:
     st.session_state.second_level_headlines = []
 
+if "downloadable_files" not in st.session_state:
+    st.session_state.downloadable_files = []
+
 if "selected_pages" not in st.session_state:
     st.session_state.selected_pages = []
+
+if "selected_files" not in st.session_state:
+    st.session_state.selected_files = []
 
 # Parse website to extract second-level headlines
 if st.button("Parse website"):
@@ -31,6 +40,7 @@ if st.button("Parse website"):
         st.write("Parsing...")
         links = get_all_links(domain)  # Ensure this function returns a list of links
         st.session_state.second_level_headlines = extract_second_level_headlines(links)
+        st.session_state.downloadable_files = is_downloadable(links)
 
 # Display checkboxes for second-level headlines
 if st.session_state.second_level_headlines:
@@ -43,6 +53,16 @@ if st.session_state.second_level_headlines:
             if headline in st.session_state.selected_pages:
                 st.session_state.selected_pages.remove(headline)
 
+# Display checkboxes for downloadable files
+if st.session_state.downloadable_files:
+    st.write("The website you passed has the following downloadable files. Please select the ones you are interested in:")
+    for file in st.session_state.downloadable_files:
+        if st.checkbox(file, key=f"checkbox_{file}"):
+            if file not in st.session_state.selected_files:
+                st.session_state.selected_files.append(file)
+        else:
+            if headline in st.session_state.selected_files:
+                st.session_state.selected_files.remove(file)
 
 if st.button("Scrape site"):
     if not st.session_state.selected_pages:
@@ -52,6 +72,12 @@ if st.button("Scrape site"):
         result = get_select_data(st.session_state.selected_pages, domain)
         st.text_area("Scraped Data:", str(result), height=200)
         st.session_state.dom_content = result
+
+if st.button("Download files"):
+    download_path = st.text_input("Enter the path where you would like to save the files:")
+    st.write("Downloading...")
+    result = download_files(st.session_state.selected_files, download_path)
+
 
 if 'dom_content' in st.session_state and st.session_state.dom_content:
     for key in st.session_state.dom_content:
