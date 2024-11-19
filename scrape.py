@@ -22,36 +22,28 @@ from urllib.parse import urljoin
 def get_all_links(domain):
     links_to_visit = []
 
-    # Set up options for headless browsing
-    options = Options()
-    options.add_argument("--headless")
-    options.add_argument("--disable-gpu")
-    options.add_argument("--no-sandbox")
-    options.add_argument("--disable-dev-shm-usage")
-    options.binary_location = "/usr/bin/chromium"  # Explicitly point to Chromium binary
+    # # Ensure ChromeDriver is installed and up to date
+    chromedriver_autoinstaller.install()
 
-    # Use Chromium chromedriver
-    driver = webdriver.Chrome(
-        service=Service("/usr/bin/chromedriver"),
-        options=options
-    )
+    chrome_driver_path = ""
+    options = webdriver.ChromeOptions()
+    driver = webdriver.Chrome(service = Service(chrome_driver_path), options = options)
 
     try:
         driver.get(domain)
-        print('Page loaded')
+        print('page loaded')
         html = driver.page_source
+        time.sleep(10)
 
-        # Parse page content
         soup = BeautifulSoup(html, 'html.parser')
         for a_tag in soup.find_all('a', href=True):
             # Resolve relative URLs
             full_url = urljoin(domain, a_tag['href'])
             links_to_visit.append(full_url)
 
+
     except Exception as e:
-        print(f"Error visiting {domain}: {e}")
-    finally:
-        driver.quit()
+        print(f"Error visiting {full_url}: {e}")
 
     return links_to_visit
 
