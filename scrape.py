@@ -31,15 +31,15 @@ def get_driver():
     # options.add_argument("--disable-dev-shm-usage")
 
     # Check environment (Streamlit Cloud or local)
-    if os.getenv("STREAMLIT_ENV") == "cloud":  # Assume this variable is set in Streamlit Cloud
+    # if os.getenv("STREAMLIT_ENV") == "cloud":  # Assume this variable is set in Streamlit Cloud
         # Use the system-installed Chromium in Streamlit Cloud
         # options.binary_location = "/usr/bin/chromium"
-        driver = webdriver.Chrome(options=options)
-    else:
-        # Use WebDriverManager to install and manage ChromeDriver locally
-        driver = webdriver.Chrome(
-            service=Service(ChromeDriverManager().install()), options=options
-        )
+    driver = webdriver.Chrome(options=options)
+    # else:
+    #     # Use WebDriverManager to install and manage ChromeDriver locally
+    #     driver = webdriver.Chrome(
+    #         service=Service(ChromeDriverManager().install()), options=options
+    #     )
 
     return driver
 
