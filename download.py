@@ -11,6 +11,8 @@ import streamlit as st
 from urllib.parse import urlparse
 import os
 
+
+
 def is_downloadable(urls):
     """
     Check if the URL points to a downloadable file by inspecting its headers or file extension.
@@ -29,17 +31,18 @@ def download_files(urls, save_dir):
     """
     Use Selenium WebDriver to download a file from a URL and save it to the specified directory.
     """
+    chrome_driver_path = ""
     # Setup Chrome WebDriver with download preferences
-    chrome_options = webdriver.ChromeOptions()
+    options = webdriver.ChromeOptions()
     prefs = {
         "download.default_directory": save_dir,  # Set the directory where files will be downloaded
         "download.prompt_for_download": False,   # Suppress download prompt
         "safebrowsing.enabled": True             # Allow downloads even if Chrome flags them as "unsafe"
     }
-    chrome_options.add_experimental_option("prefs", prefs)
+    options.add_experimental_option("prefs", prefs)
 
     # Initialize WebDriver
-    driver = webdriver.Chrome(service=Service(), options=chrome_options)
+    driver = webdriver.Chrome(service = Service(chrome_driver_path), options=options)
     for url in urls:
         try:
             # Navigate to the URL
