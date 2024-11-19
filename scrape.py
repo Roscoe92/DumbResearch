@@ -46,15 +46,13 @@ def extract_second_level_headlines(links):
     headlines = set()  # Use a set to avoid duplicates
     for link in links:
         parsed = urlparse(link)
-        path = parsed.path
+        path_parts = parsed.path.strip('/').split('/')
 
         # Match second-level paths (e.g., /solutions/, /locations/)
-        if re.match(r'^/[^/]+/$', path):  # Ensure only one level after the root
-            headline = path.strip('/').replace('-', ' ')  # Clean and format the headline
-            headlines.add(headline)
+        headline = "/".join(path_parts[:1])
+        headlines.add(headline)
 
     return sorted(headlines)
-
 
 def scrape_website(website):
     print('Launching Chrome browser')
@@ -136,3 +134,15 @@ def get_select_data(headlines, domain):
             content_dict[page] += cleaned_content + " "  # Add a space between concatenated content
 
     return content_dict
+
+# Function to extract deeper-level headlines
+def extract_headlines_with_depth(links, depth):
+    headlines = set()
+    for link in links:
+        parsed = urlparse(link)
+        path_parts = parsed.path.strip('/').split('/')
+        if len(path_parts) == depth:
+            headline = "/".join(path_parts[:depth])
+            headlines.add(headline)
+    return sorted(headlines)
+
