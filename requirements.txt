@@ -6,3 +6,10 @@ beautifulsoup4
 lxml
 html5lib
 python-dotenv
+openai
+pandas
+io
+urllib
+time
+re
+collections
