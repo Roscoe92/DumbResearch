@@ -16,8 +16,8 @@ from urllib.parse import urlparse
 def get_all_links(domain):
     links_to_visit = []
 
-    # Ensure ChromeDriver is installed and up to date
-    chromedriver_autoinstaller.install()
+    # # Ensure ChromeDriver is installed and up to date
+    # chromedriver_autoinstaller.install()
 
     chrome_driver_path = ""
     options = webdriver.ChromeOptions()
@@ -57,7 +57,7 @@ def extract_second_level_headlines(links):
 def scrape_website(website):
     print('Launching Chrome browser')
     # Ensure ChromeDriver is installed and up to date
-    chromedriver_autoinstaller.install()
+    # chromedriver_autoinstaller.install()
 
     chrome_driver_path = ""
     options = webdriver.ChromeOptions()
@@ -145,4 +145,3 @@ def extract_headlines_with_depth(links, depth):
             headline = "/".join(path_parts[:depth])
             headlines.add(headline)
     return sorted(headlines)
-
