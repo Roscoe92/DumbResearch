@@ -1,4 +1,4 @@
-# import chromedriver_autoinstaller
+
 import selenium.webdriver as webdriver
 from selenium.webdriver.chrome.service import Service
 from bs4 import BeautifulSoup
@@ -10,24 +10,32 @@ import re
 from collections import defaultdict
 import streamlit as st
 from urllib.parse import urlparse
-
-
-
+from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.chrome.service import Service
+from webdriver_manager.chrome import ChromeDriverManager
+from webdriver_manager.core.os_manager import ChromeType
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin
 
+def get_driver():
+    return webdriver.Chrome(
+        service=Service(
+            ChromeDriverManager(chrome_type=ChromeType.CHROMIUM).install()
+        ),
+        options=Options(),
+    )
+
 def get_all_links(domain):
     links_to_visit = []
 
     # # Ensure ChromeDriver is installed and up to date
     # chromedriver_autoinstaller.install()
-
-    chrome_driver_path = ""
-    options = webdriver.ChromeOptions()
-    driver = webdriver.Chrome(service = Service(chrome_driver_path), options = options)
+    
+    driver = get_driver()
 
     try:
         driver.get(domain)
