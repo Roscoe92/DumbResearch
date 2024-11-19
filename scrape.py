@@ -1,4 +1,3 @@
-
 import selenium.webdriver as webdriver
 from selenium.webdriver.chrome.service import Service
 from bs4 import BeautifulSoup
@@ -20,21 +19,36 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin
+import os
 
 def get_driver():
-    return webdriver.Chrome(
-        service=Service(
-            ChromeDriverManager(chrome_type=ChromeType.CHROMIUM).install()
-        ),
-        options=Options(),
-    )
+    # Set Chrome options
+    options = Options()
+    options.add_argument("--disable-gpu")
+    options.add_argument("--no-sandbox")
+    options.add_argument("--disable-dev-shm-usage")
+
+    # Check environment (Streamlit Cloud or local)
+    if os.getenv("STREAMLIT_ENV") == "cloud":  # Assume this variable is set in Streamlit Cloud
+        # Use the system-installed Chromium in Streamlit Cloud
+        options.binary_location = "/usr/bin/chromium"
+        driver = webdriver.Chrome(
+            service=Service("/usr/bin/chromedriver"), options=options
+        )
+    else:
+        # Use WebDriverManager to install and manage ChromeDriver locally
+        driver = webdriver.Chrome(
+            service=Service(ChromeDriverManager().install()), options=options
+        )
+
+    return driver
 
 def get_all_links(domain):
     links_to_visit = []
 
     # # Ensure ChromeDriver is installed and up to date
     # chromedriver_autoinstaller.install()
-    
+
     driver = get_driver()
 
     try:
