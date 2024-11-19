@@ -46,7 +46,7 @@ if st.session_state.second_level_headlines:
 
 if st.button("Scrape site"):
     if not st.session_state.selected_pages:
-        st.warning("Please select at least one page to scrape.")
+        st.warning("Please first parse the page and then select at least one subdomain to scrape.")
     else:
         st.write("Scraping...")
         result = get_select_data(st.session_state.selected_pages, domain)
