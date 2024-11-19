@@ -1,3 +1,4 @@
+import chromedriver_autoinstaller
 import selenium.webdriver as webdriver
 from selenium.webdriver.chrome.service import Service
 from bs4 import BeautifulSoup
@@ -31,6 +32,9 @@ def download_files(urls, save_dir):
     """
     Use Selenium WebDriver to download a file from a URL and save it to the specified directory.
     """
+    # Ensure ChromeDriver is installed and up to date
+    chromedriver_autoinstaller.install()
+
     chrome_driver_path = ""
     # Setup Chrome WebDriver with download preferences
     options = webdriver.ChromeOptions()
