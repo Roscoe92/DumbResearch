@@ -8,5 +8,4 @@ html5lib
 python-dotenv
 openai
 pandas
-# chromedriver-autoinstaller
-
+webdriver_manager
