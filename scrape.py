@@ -28,7 +28,7 @@ def get_all_links(domain):
     options.add_argument("--disable-gpu")
     options.add_argument("--no-sandbox")
     options.add_argument("--disable-dev-shm-usage")
-    options.binary_location = "/usr/bin/chromium-browser"  # Explicitly point to Chromium binary
+    options.binary_location = "/usr/bin/chromium"  # Explicitly point to Chromium binary
 
     # Use Chromium chromedriver
     driver = webdriver.Chrome(
