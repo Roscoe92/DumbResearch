@@ -13,31 +13,45 @@ from urllib.parse import urlparse
 
 
 
+from selenium import webdriver
+from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.chrome.options import Options
+from bs4 import BeautifulSoup
+from urllib.parse import urljoin
+
 def get_all_links(domain):
     links_to_visit = []
 
-    # # Ensure ChromeDriver is installed and up to date
-    # chromedriver_autoinstaller.install()
+    # Set up options for headless browsing
+    options = Options()
+    options.add_argument("--headless")
+    options.add_argument("--disable-gpu")
+    options.add_argument("--no-sandbox")
+    options.add_argument("--disable-dev-shm-usage")
+    options.binary_location = "/usr/bin/chromium-browser"  # Explicitly point to Chromium binary
 
-    chrome_driver_path = ""
-    options = webdriver.ChromeOptions()
-    driver = webdriver.Chrome(service = Service(chrome_driver_path), options = options)
+    # Use Chromium chromedriver
+    driver = webdriver.Chrome(
+        service=Service("/usr/bin/chromedriver"),
+        options=options
+    )
 
     try:
         driver.get(domain)
-        print('page loaded')
+        print('Page loaded')
         html = driver.page_source
-        time.sleep(10)
 
+        # Parse page content
         soup = BeautifulSoup(html, 'html.parser')
         for a_tag in soup.find_all('a', href=True):
             # Resolve relative URLs
             full_url = urljoin(domain, a_tag['href'])
             links_to_visit.append(full_url)
 
-
     except Exception as e:
-        print(f"Error visiting {full_url}: {e}")
+        print(f"Error visiting {domain}: {e}")
+    finally:
+        driver.quit()
 
     return links_to_visit
 
@@ -57,7 +71,7 @@ def extract_second_level_headlines(links):
 def scrape_website(website):
     print('Launching Chrome browser')
     # Ensure ChromeDriver is installed and up to date
-    # chromedriver_autoinstaller.install()
+    chromedriver_autoinstaller.install()
 
     chrome_driver_path = ""
     options = webdriver.ChromeOptions()
