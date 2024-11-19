@@ -1,4 +1,4 @@
-import chromedriver_autoinstaller
+# import chromedriver_autoinstaller
 import selenium.webdriver as webdriver
 from selenium.webdriver.chrome.service import Service
 from bs4 import BeautifulSoup
@@ -23,7 +23,7 @@ def get_all_links(domain):
     links_to_visit = []
 
     # # Ensure ChromeDriver is installed and up to date
-    chromedriver_autoinstaller.install()
+    # chromedriver_autoinstaller.install()
 
     chrome_driver_path = ""
     options = webdriver.ChromeOptions()
@@ -63,7 +63,7 @@ def extract_second_level_headlines(links):
 def scrape_website(website):
     print('Launching Chrome browser')
     # Ensure ChromeDriver is installed and up to date
-    chromedriver_autoinstaller.install()
+    # chromedriver_autoinstaller.install()
 
     chrome_driver_path = ""
     options = webdriver.ChromeOptions()
