@@ -5,3 +5,17 @@ Summary: Desk research automation
 Author: Roscoe92
 Author-email: maxpappert4292@gmail.com
 License: MIT
+Requires-Dist: streamlit
+Requires-Dist: langchain
+Requires-Dist: langchain_ollama
+Requires-Dist: selenium
+Requires-Dist: beautifulsoup4
+Requires-Dist: lxml
+Requires-Dist: html5lib
+Requires-Dist: python-dotenv
+Requires-Dist: openai
+Requires-Dist: pandas
+Requires-Dist: webdriver_manager
+Requires-Dist: fastapi
+Requires-Dist: pytz
+Requires-Dist: uvicorn
