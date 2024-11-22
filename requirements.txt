@@ -13,3 +13,5 @@ webdriver_manager
 fastapi
 pytz
 uvicorn
+subprocess
+shutil
