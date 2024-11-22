@@ -68,15 +68,9 @@ def run_selenium(domain):
             driver.get(url)
             time.sleep(2)
             # Wait for the element to be rendered:
-            element = WebDriverWait(driver=driver, timeout=10).until(lambda x: x.find_elements(by=By.CSS_SELECTOR, value="h2.eventcard-content-name"))
-            name = element[0].get_property('attributes')[0]['name']
             html_content = driver.page_source
-        except Exception as e:
-            st.error(body='Selenium Exception occured!', icon='🔥')
-            st.error(body=str(e), icon='🔥')
-        finally:
-            performance_log = driver.get_log('performance')
-            browser_log = driver.get_log('browser')
+        except:
+            print('Error occured')
     return html_content
 
 if st.button('Parse website'):
