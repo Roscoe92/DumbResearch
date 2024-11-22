@@ -7,3 +7,7 @@ DumbResearch.egg-info/SOURCES.txt
 DumbResearch.egg-info/dependency_links.txt
 DumbResearch.egg-info/requires.txt
 DumbResearch.egg-info/top_level.txt
+scrape_logic/__init__.py
+scrape_logic/parse.py
+scrape_logic/scrape.py
+scrape_logic/user_comms.py
