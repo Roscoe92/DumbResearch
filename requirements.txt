@@ -1,3 +1,4 @@
+-e .
 streamlit
 langchain
 langchain_ollama
@@ -12,4 +13,3 @@ webdriver_manager
 fastapi
 pytz
 uvicorn
--e .
