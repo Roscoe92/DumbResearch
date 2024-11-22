@@ -37,7 +37,7 @@ def get_chromedriver_version() -> str:
 def get_chromedriver_path() -> str:
     return shutil.which('chromedriver')
 
-def get_webdriver_options(proxy: str = None, socksStr: str = None) -> Options:
+def get_webdriver_options():
     options = Options()
     options.add_argument("--headless")
     options.add_argument("--no-sandbox")
@@ -47,25 +47,21 @@ def get_webdriver_options(proxy: str = None, socksStr: str = None) -> Options:
     options.add_argument("--window-size=1920x1080")
     options.add_argument("--disable-features=VizDisplayCompositor")
     options.add_argument('--ignore-certificate-errors')
-    if proxy is not None and socksStr is not None:
-        options.add_argument(f"--proxy-server={socksStr}://{proxy}")
-    options.set_capability('goog:loggingPrefs', {'performance': 'ALL'})
     return options
 
 domain = st.text_input("Enter a website URL:")
 
-def get_webdriver_service(logpath) -> Service:
+def get_webdriver_service():
     service = Service(
-        executable_path=get_chromedriver_path(),
-        log_output=logpath,
+        executable_path=get_chromedriver_path()
     )
     return service
 
-def run_selenium(logpath: str, proxy: str, socksStr: str, domain):
+def run_selenium(domain):
     name = None
     html_content = None
-    options = get_webdriver_options(proxy=proxy, socksStr=socksStr)
-    service = get_webdriver_service(logpath=logpath)
+    options = get_webdriver_options()
+    service = get_webdriver_service()
     with webdriver.Chrome(options=options, service=service) as driver:
         url = domain
         try:
