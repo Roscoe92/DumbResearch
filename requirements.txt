@@ -9,3 +9,6 @@ python-dotenv
 openai
 pandas
 webdriver_manager
+fastapi
+pytz
+uvicorn
