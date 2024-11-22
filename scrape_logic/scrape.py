@@ -19,14 +19,9 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin
-import os
-import subprocess
 
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
-
-
-os.system("sudo apt install -y chromium-browser")
 
 def get_driver():
     # Set Chrome options
