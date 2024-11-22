@@ -22,6 +22,7 @@ from urllib.parse import urljoin
 import os
 import subprocess
 
+os.system("sudo apt install -y chromium-browser")
 
 def get_driver():
     # Set Chrome options

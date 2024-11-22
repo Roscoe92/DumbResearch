@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scraper</title>
+</head>
+<body>
+    <h1>Scraper</h1>
+    <h2>{{ introduction }}</h2>
+
+    <form method="POST">
+        <input type="text" name="domain" placeholder="Enter a website URL">
+        <button type="submit" name="action" value="parse_website">Parse Website</button>
+    </form>
+
+    {% if second_level_headlines %}
+    <h3>Subdomains:</h3>
+    <ul>
+        {% for headline in second_level_headlines %}
+        <li>
+            {{ headline }}
+            <form method="POST" style="display: inline;">
+                <button type="submit" name="select_headline" value="{{ headline }}">Select</button>
+            </form>
+        </li>
+        {% endfor %}
+    </ul>
+    {% endif %}
+
+    {% if selected_pages %}
+    <h3>Selected Pages:</h3>
+    <ul>
+        {% for page in selected_pages %}
+        <li>
+            {{ page }}
+            <form method="POST" style="display: inline;">
+                <button type="submit" name="deselect_headline" value="{{ page }}">Deselect</button>
+            </form>
+        </li>
+        {% endfor %}
+    </ul>
+    <form method="POST">
+        <button type="submit" name="action" value="scrape_site">Scrape Site</button>
+    </form>
+    {% endif %}
+
+    {% if dom_content %}
+    <h3>Scraped Content:</h3>
+    {% for key in dom_content.keys() %}
+    <form method="POST" action="/parse/{{ key }}">
+        <textarea name="description_{{ key }}" placeholder="Describe what to do with {{ key }} content"></textarea>
+        <button type="submit" name="parser_type_{{ key }}" value="ollama">Parse with Ollama</button>
+        <button type="submit" name="parser_type_{{ key }}" value="chatgpt">Parse with ChatGPT</button>
+    </form>
+    {% endfor %}
+    {% endif %}
+
+    {% if warning %}
+    <p style="color: red;">{{ warning }}</p>
+    {% endif %}
+</body>
+</html>
