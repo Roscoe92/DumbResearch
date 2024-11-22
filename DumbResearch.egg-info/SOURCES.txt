@@ -1,0 +1,9 @@
+README.md
+setup.py
+API/__init__.py
+API/scraper.py
+DumbResearch.egg-info/PKG-INFO
+DumbResearch.egg-info/SOURCES.txt
+DumbResearch.egg-info/dependency_links.txt
+DumbResearch.egg-info/requires.txt
+DumbResearch.egg-info/top_level.txt
