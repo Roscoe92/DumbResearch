@@ -13,7 +13,7 @@ setup(name='DumbResearch',
       author_email="maxpappert4292@gmail.com",
       #url="https://github.com/Roscoe92/DumbResearch",
       install_requires=requirements,
-      packages=find_packages(include=["API", "API.*", "scrape_logic", "scrape_logic.*"]),
+      packages=find_packages(),
       # include_package_data: to install data from MANIFEST.in
       include_package_data=True
 )
