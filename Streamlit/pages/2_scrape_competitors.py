@@ -76,22 +76,35 @@ def main():
 
     # If subpages have been fetched, display them and let user select
     if st.session_state.all_subpages_dict:
+        # Within your "if st.session_state.all_subpages_dict:" block:
         st.write("### 2) Select Which Subpages You Want to Scrape")
-
+        st.write("Hint: Select pages that are high up in the hierachy, e.g. 'https://website/product' DumbResearch then loops through all its subpages")
         # We'll store the user's chosen subpages in another dict
         if "chosen_subpages" not in st.session_state:
             st.session_state.chosen_subpages = {}
 
         for domain, subpages_list in st.session_state.all_subpages_dict.items():
             st.write(f"**Domain**: {domain}")
-            # Let user pick from the subpages discovered
-            chosen_for_domain = st.multiselect(
-                label=f"Select subpages for {domain}",
-                options=subpages_list,
-                default=subpages_list  # By default, select all
-            )
-            # Store the user's choice
-            st.session_state.chosen_subpages[domain] = chosen_for_domain
+
+            # Put all checkboxes inside an expander (so it collapses if there are many links)
+            with st.expander(f"Subpages for {domain}", expanded=True):
+                chosen_for_domain = []
+                # Show each subpage as a checkbox
+                for i, subpage in enumerate(subpages_list):
+                    # You can default to True or False depending on what you want
+                    # e.g. True if you want them all selected by default
+                    checkbox_key = f"{domain}_{subpage}_{i}"
+
+                    is_selected = st.checkbox(
+                        subpage,
+                        value=False,
+                        key=checkbox_key
+                    )
+                    if is_selected:
+                        chosen_for_domain.append(subpage)
+
+                # Store the user's choice for this domain
+                st.session_state.chosen_subpages[domain] = chosen_for_domain
 
     # 3) Button to run preprocess() on the chosen subpages
     if st.button("Run Preprocessing & Extraction"):
@@ -121,7 +134,7 @@ def main():
         st.write("Running GPT extraction on the selected pages...")
 
         start_time = time.time()
-        results = scrape_to_df(content_dict_master, default_parse_description)
+        results = scrape_to_df(content_dict_master)
         end_time = time.time()
         st.success(f"Extraction completed in {end_time - start_time:.2f} seconds.")
 

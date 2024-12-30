@@ -117,7 +117,7 @@ def parse_semicolon_csv(llm_output, delimiters=None):
     df.reset_index(drop=True, inplace=True)
     return df
 
-def scrape_to_df(content_dict, parse_description):
+def scrape_to_df(content_dict):
     start_time = time.time()
     outputs = {}
     master_dict = preprocess_content(content_dict)
@@ -127,7 +127,7 @@ def scrape_to_df(content_dict, parse_description):
         print(f'Processing {key}, {counter} out of {len(master_dict.keys())} datasets to process.')
         dom_content = master_dict[key]
         dom_chunks = split_dom_content(dom_content)
-        csv_output = first_pass_with_chatGPT(dom_chunks, parse_description)
+        csv_output = first_pass_with_chatGPT(dom_chunks)
         outputs[key] = parse_semicolon_csv(csv_output)
     end_time = time.time()
     print(f"\nParsing scrape results finished in {end_time - start_time:.2f} seconds")

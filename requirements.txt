@@ -13,3 +13,4 @@ webdriver_manager
 fastapi
 pytz
 uvicorn
+deutschland
