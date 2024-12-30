@@ -40,22 +40,21 @@ def user_task():
     user_input = input('\nPlease let DumbResearch know:\n1. What web content it is looking at\n2. What columns you would like your research output table to have.\n')
     return user_input
 
-def initialize_dumbresearch(players=None):
+
+def initialize_dumbresearch(players = None):
     if players is not None and not isinstance(players, (list, pd.Series)):
         raise ValueError("`players` must be a list or Pandas Series of URLs")
     domains_selected = user_selects(players)
-    parse_description = user_task()
-    return domains_selected, parse_description
+    return domains_selected
 
-def dumbresearch_workflow(players=None):
+def dumbresearch_workflow(players = None):
     from scraper.link_utils import preprocess
     from processing.extraction import scrape_to_df
 
-    domains, parse_description = initialize_dumbresearch(players)
-    print(domains)
+    domains = initialize_dumbresearch(players)
     outputs = {}
     for key in domains.keys():
         links, content = preprocess(domains[key])
-        output = scrape_to_df(content, parse_description)
+        output = scrape_to_df(content)
         outputs[key] = output
     return outputs

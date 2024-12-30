@@ -29,31 +29,54 @@ def run_chatgpt(prompt, model="gpt-3.5-turbo"):
     )
     return response
 
-def first_pass_with_chatGPT(dom_chunks, parse_description):
+def first_pass_with_chatGPT(dom_chunks):
+    """
+    Sends chunks of website content to OpenAI's GPT API for parsing based on a description.
+    """
+
+    # Loop through chunks and get responses
     parsed_results = []
+    # Step 1: Analyze the first chunk with GPT-4o
+    first_chunk = dom_chunks[0]
+    context_prompt = (
+        f"You are tasked with analyzing the following content:\n\n{first_chunk}\n\n"
+        "1. Identify the type of business described in the content.\n"
+        "2. Determine what is being described (e.g., business's products, infrastructure, locations, or verticals).\n"
+        "3. Your output has to be a consise summary of points 1 and 2 in one sentence (not more than 15 words). And clear instructions on which table columns to use to summarise the information (not more than 5 columns)"
+        " For example if its product information the columns should be 'product','description','target customers', 'KPIs', if its data centers"
+        " the columns should be 'data center','location','Power size in MW', 'size in SQM','customers','expansion capacity' etc.")
+
+    context = run_chatgpt(context_prompt,model = 'gpt-4o')
+    context = context.choices[0].message.content
+
     for i, chunk in enumerate(dom_chunks, start=1):
         template = (
             f'You are tasked with extracting specific information from the following text content: {chunk}.'
             'Please follow these instructions carefully: \n\n'
-            f' 1. ** Extract Information** : Only extract the information that directly matches the provided description {parse_description}'
+            ' 1. ** Extract Information** : Only extract the information that directly matches the below description'
             ' 2. ** No Extra Content** : Do not include any additional text, comments or explanations in your response.'
             ' 3. ** Empty Response** : If no information matches the description return to an empty string'
-            ' 4. ** Direct Data** : Your response should contain only data that is explicitly requested, with no other text.'
+            f' 4. ** Content instructions** : {context}.'
             ' 5. ** Format** : **Single Table**: Output exactly one table, no extra lines or text.'
-            '  - Use semicolons (`;`) to separate columns.'
-            '  - Properly quote cells with ("") if they contain semicolons or commas.'
-            '  - If a cell has no data, use `empty`.'
-        )
+                            '  - Use semicolons (`;`) to separate columns.'
+                            '  - Properly quote cells with ("") if they contain semicolons or commas.'
+                            '  - If a cell has no data, use `empty`.'
+            )
         prompt = template
         print(f"Processing chunk {i}/{len(dom_chunks)}...")
+
         try:
             response = run_chatgpt(prompt)
             parsed_results.append(response.choices[0].message.content)
+
         except Exception as e:
             print(f"Error processing chunk {i}: {e}")
-            parsed_results.append("")
+            parsed_results.append("")  # Append an empty string if there's an error
+
     initial_result = "\n".join(parsed_results)
+
     return initial_result
+
 
 def parse_semicolon_csv(llm_output, delimiters=None):
     if delimiters is None:
