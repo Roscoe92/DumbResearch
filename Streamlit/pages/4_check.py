@@ -1,7 +1,7 @@
+import os
 import streamlit as st
 from scraper.link_utils import get_all_links, process_link, preprocess, extract_topics
 from scraper.scraper import run_selenium
-import shutil
 
 def main():
     # Initialize `links` in session state if not already set
@@ -29,12 +29,16 @@ def main():
     else:
         st.write("No links fetched yet.")
 
-    st.download_button(
-        label="Download ChromeDriver Log",
-        data=open("chromedriver.log", "rb"),
-        file_name="chromedriver.log",
-        mime="text/plain"
-    )
+    # Check for ChromeDriver log and provide download option
+    if os.path.exists("chromedriver.log"):
+        st.download_button(
+            label="Download ChromeDriver Log",
+            data=open("chromedriver.log", "rb"),
+            file_name="chromedriver.log",
+            mime="text/plain"
+        )
+    else:
+        st.warning("ChromeDriver log file not found.")
 
 # Run the app
 if __name__ == "__main__":
