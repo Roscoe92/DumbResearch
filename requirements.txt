@@ -9,7 +9,7 @@ html5lib
 python-dotenv
 openai
 pandas
-webdriver_manager
+webdriver-manager
 fastapi
 pytz
 uvicorn
