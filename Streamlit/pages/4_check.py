@@ -8,7 +8,7 @@ def main():
     if st.button("Fetch Subpages"):
         links, _ = get_all_links(check_site)
         results = st.session_state.links
-    return st.write(links)
+    return st.write(results)
 
 # Example usage
 if __name__ == "__main__":
