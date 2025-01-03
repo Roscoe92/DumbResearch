@@ -1,3 +1,4 @@
+import streamlit as st
 import subprocess
 
 def get_chrome_version():
@@ -23,5 +24,5 @@ def get_chromedriver_version():
 
 # Example usage
 if __name__ == "__main__":
-    print("Chrome/Chromium Version:", get_chrome_version())
-    print("ChromeDriver Version:", get_chromedriver_version())
+    st.write("Chrome/Chromium Version:", get_chrome_version())
+    st.write("ChromeDriver Version:", get_chromedriver_version())
