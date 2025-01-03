@@ -1,28 +1,15 @@
 import streamlit as st
-import subprocess
+from scraper.link_utils import get_all_links, process_link, preprocess,extract_topics
 
-def get_chrome_version():
-    try:
-        # Check Chromium version
-        result = subprocess.run(['chromium', '--version'], capture_output=True, text=True)
-        if result.returncode == 0:
-            return result.stdout.strip()
-        # Check Google Chrome version as a fallback
-        result = subprocess.run(['google-chrome', '--version'], capture_output=True, text=True)
-        if result.returncode == 0:
-            return result.stdout.strip()
-    except Exception as e:
-        return f"Error fetching Chrome version: {e}"
+def main():
+    check_site = st.text_input(
+            "Add any additional competitors by entering their websites (comma-separated):"
+        )
+    if st.button("Fetch Subpages"):
+        links, _ = get_all_links(check_site)
 
-def get_chromedriver_version():
-    try:
-        result = subprocess.run(['chromedriver', '--version'], capture_output=True, text=True)
-        if result.returncode == 0:
-            return result.stdout.strip()
-    except Exception as e:
-        return f"Error fetching ChromeDriver version: {e}"
+    return st.write(links)
 
 # Example usage
 if __name__ == "__main__":
-    st.write("Chrome/Chromium Version:", get_chrome_version())
-    st.write("ChromeDriver Version:", get_chromedriver_version())
+    main()
