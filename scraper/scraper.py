@@ -44,7 +44,10 @@ def get_webdriver_options(headless=False):
     return options
 
 def get_webdriver_service():
-    service = Service(executable_path=get_chromedriver_path())
+    service = Service(
+        executable_path=get_chromedriver_path(),
+        log_path="chromedriver.log"  # Log file for ChromeDriver
+    )
     return service
 
 def run_selenium(domain, headless=False):
