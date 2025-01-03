@@ -7,10 +7,9 @@ import os
 from io import StringIO
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from scraper.scraper import *
-from scraper.link_utils import get_all_links, process_link, preprocess,extract_topics
+from scraper.link_utils import get_all_links, process_link, preprocess
 from processing.extraction import scrape_to_df, run_chatgpt
 from scraper.scraper import *
-
 
 
 from openai import OpenAI
@@ -59,75 +58,88 @@ def main():
 
     st.write("### 1) Gather Subpages for Each Competitor Website")
 
-    # Store discovered subpages in session state as a dict: {domain: [list_of_subpages]}
+    # We'll store discovered subpages in session state as a dict: {domain: [list_of_subpages]}
     if "all_subpages_dict" not in st.session_state:
         st.session_state.all_subpages_dict = {}
 
     # Button to fetch subpages for each domain
     if st.button("Fetch Subpages"):
+        # For each domain, get_all_links
         all_subpages_dict = {}
         for domain in websites:
-            # Fetch all links for each domain
-            links, _ = get_all_links(domain)
+            # Safely handle errors
+            links, cleaned_content = get_all_links(domain)
             all_subpages_dict[domain] = links
 
         st.session_state.all_subpages_dict = all_subpages_dict
         st.success("Fetched all subpages for each domain.")
 
-    # Process subpages with `extract_topics` if they exist
+    # If subpages have been fetched, display them and let user select
     if st.session_state.all_subpages_dict:
-        st.write("### 2) Select Topics to Scrape")
-        if "selected_topics" not in st.session_state:
-            st.session_state.selected_topics = {}
+        # Within your "if st.session_state.all_subpages_dict:" block:
+        st.write("### 2) Select Which Subpages You Want to Scrape")
+        st.write("Hint: Select pages that are high up in the hierachy, e.g. 'https://website/product' DumbResearch then loops through all its subpages")
+        # We'll store the user's chosen subpages in another dict
+        if "chosen_subpages" not in st.session_state:
+            st.session_state.chosen_subpages = {}
 
         for domain, subpages_list in st.session_state.all_subpages_dict.items():
             st.write(f"**Domain**: {domain}")
 
-            # Use `extract_topics` to get the links and topics
-            topics_df = extract_topics(subpages_list, domain)
-            st.write("**Available Topics**:")
-            st.dataframe(topics_df)
+            # Put all checkboxes inside an expander (so it collapses if there are many links)
+            with st.expander(f"Subpages for {domain}", expanded=True):
+                chosen_for_domain = []
+                # Show each subpage as a checkbox
+                for i, subpage in enumerate(subpages_list):
+                    # You can default to True or False depending on what you want
+                    # e.g. True if you want them all selected by default
+                    checkbox_key = f"{domain}_{subpage}_{i}"
 
-            # Allow users to select topics
-            selected_topics = st.multiselect(
-                f"Select topics to scrape for {domain}",
-                options=topics_df.index.tolist(),
-                key=f"topics_{domain}"
-            )
-            st.session_state.selected_topics[domain] = selected_topics
+                    is_selected = st.checkbox(
+                        subpage,
+                        value=False,
+                        key=checkbox_key
+                    )
+                    if is_selected:
+                        chosen_for_domain.append(subpage)
 
-        # Filter the DataFrame for selected topics
-        filtered_links = []
-        for domain, selected_topics in st.session_state.selected_topics.items():
-            if selected_topics:
-                topics_df = extract_topics(st.session_state.all_subpages_dict[domain], domain)
-                domain_links = topics_df.loc[selected_topics]["links"].tolist()
-                filtered_links.extend(domain_links)
+                # Store the user's choice for this domain
+                st.session_state.chosen_subpages[domain] = chosen_for_domain
 
-        # 3) Run preprocess() on the filtered links
-        if st.button("Run Preprocessing & Extraction"):
-            if not filtered_links:
-                st.error("No topics selected. Please select topics first.")
-                return
+    # 3) Button to run preprocess() on the chosen subpages
+    if st.button("Run Preprocessing & Extraction"):
+        if "chosen_subpages" not in st.session_state or not st.session_state.chosen_subpages:
+            st.error("No subpages selected. Please fetch subpages and make a selection first.")
+            return
 
-            st.write(f"Preprocessing {len(filtered_links)} subpages...")
+        # Flatten the user's chosen subpages into a single list
+        all_chosen_links = []
+        for domain, subpages in st.session_state.chosen_subpages.items():
+            all_chosen_links.extend(subpages)
 
-            start_time = time.time()
-            link_library, content_dict_master = preprocess(filtered_links)
-            end_time = time.time()
-            st.write(f"Finished preprocessing in {end_time - start_time:.2f} seconds.")
+        if not all_chosen_links:
+            st.error("You haven't selected any links to scrape.")
+            return
 
-            # 4) Run scrape_to_df with an automated parse description
-            default_parse_description = "Please extract any relevant textual information from the pages in a semicolon-delimited table."
-            st.write("Running GPT extraction on the selected pages...")
+        st.write(f"Preprocessing {len(all_chosen_links)} subpages...")
 
-            start_time = time.time()
-            results = scrape_to_df(content_dict_master)
-            end_time = time.time()
-            st.success(f"Extraction completed in {end_time - start_time:.2f} seconds.")
+        start_time = time.time()
+        link_library, content_dict_master = preprocess(all_chosen_links)
+        end_time = time.time()
+        st.write(f"Finished preprocessing in {end_time - start_time:.2f} seconds.")
 
-            # Store results in session_state for display and download
-            st.session_state.scrape_results = results
+        # 4) Run scrape_to_df with an automated parse description (or none if your code can handle it)
+        # We'll define a default parse description. Or you can remove it entirely if your code doesn't require it.
+        default_parse_description = "Please extract any relevant textual information from the pages in a semicolon-delimited table."
+        st.write("Running GPT extraction on the selected pages...")
+
+        start_time = time.time()
+        results = scrape_to_df(content_dict_master)
+        end_time = time.time()
+        st.success(f"Extraction completed in {end_time - start_time:.2f} seconds.")
+
+        # Store results in session_state for display and download
+        st.session_state.scrape_results = results
 
     # 5) Display results if available
     if "scrape_results" in st.session_state and st.session_state.scrape_results:
@@ -143,14 +155,8 @@ def main():
             excel_buffer = io.BytesIO()
             with pd.ExcelWriter(excel_buffer, engine='xlsxwriter') as writer:
                 for domain, df in results.items():
-                    # Sanitize sheet name
                     sheet_name = domain.replace("http://", "").replace("https://", "")
-                    sheet_name = re.sub(r'[\\/*?:"<>|]', "", sheet_name)  # Remove invalid characters
-                    sheet_name = sheet_name[:31]  # Truncate to maximum length
-                    if not sheet_name:  # Fallback in case sheet_name becomes empty
-                        sheet_name = "Sheet"
-
-                    # Write to Excel
+                    sheet_name = sheet_name[:31]
                     df.to_excel(writer, sheet_name=sheet_name, index=False)
             excel_buffer.seek(0)
 

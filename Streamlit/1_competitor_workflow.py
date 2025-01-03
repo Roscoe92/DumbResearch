@@ -20,7 +20,7 @@ def competitors_with_chatGPT(company, company_context):
         '  - Use semicolons (`;`) to separate columns.'
         '  - Properly quote cells with ("") if they contain semicolons or commas.'
         '  - If a cell has no data, use `empty`.'
-        '  - Columns are the 1) respective competitors ("Competitor"), 2) the industry they are in ("Industry"), 3) the link to their website ("Website"), 4) The name of the legal entity ("Legal entity")'
+        '  - Columns are the 1) respective competitors ("Competitor"), 2) the industry they are in ("Industry"), 3) the link to their website ("Website"), 4) The name of the legal entity ("Legal entity") 5) The country where the company is registered ("Country")'
     )
     prompt = template
     st.write(f"Finding competitors of {company}...")

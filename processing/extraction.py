@@ -122,13 +122,22 @@ def scrape_to_df(content_dict):
     outputs = {}
     master_dict = preprocess_content(content_dict)
     counter = 0
+
     for key in master_dict:
         counter += 1
         print(f'Processing {key}, {counter} out of {len(master_dict.keys())} datasets to process.')
+
         dom_content = master_dict[key]
         dom_chunks = split_dom_content(dom_content)
+
+        # Skip processing if dom_chunks exceed the limit
+        if len(dom_chunks) > 10:
+            print(f"Skipping {key}: Too much content to summarise intelligently. Head over to the in-depth scraping page where we can investigate in detail.")
+            continue
+
         csv_output = first_pass_with_chatGPT(dom_chunks)
         outputs[key] = parse_semicolon_csv(csv_output)
+
     end_time = time.time()
     print(f"\nParsing scrape results finished in {end_time - start_time:.2f} seconds")
     return outputs
