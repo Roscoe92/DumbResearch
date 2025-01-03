@@ -1,5 +1,6 @@
 import streamlit as st
 from scraper.link_utils import get_all_links, process_link, preprocess, extract_topics
+from scraper.scraper import run_selenium
 
 def main():
     # Initialize `links` in session state if not already set
@@ -14,7 +15,7 @@ def main():
     # Button to fetch subpages
     if st.button("Fetch Subpages"):
         if check_site:  # Ensure `check_site` is not empty
-            links, _ = get_all_links(check_site)
+            links, _ = run_selenium(check_site)
             st.session_state["links"] = links  # Update session state
             st.success("Subpages fetched successfully!")
         else:
