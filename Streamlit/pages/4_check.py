@@ -1,23 +1,36 @@
-from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
-from selenium.webdriver.chrome.options import Options
-import shutil
+import streamlit as st
 
-def test_selenium():
+"""
+## Web scraping on Streamlit Cloud with Selenium
+
+[![Source](https://img.shields.io/badge/View-Source-<COLOR>.svg)](https://github.com/snehankekre/streamlit-selenium-chrome/)
+
+This is a minimal, reproducible example of how to scrape the web with Selenium and Chrome on Streamlit's Community Cloud.
+
+Fork this repo, and edit `/streamlit_app.py` to customize this app to your heart's desire. :heart:
+"""
+
+with st.echo():
+    from selenium import webdriver
+    from selenium.webdriver.chrome.options import Options
+    from selenium.webdriver.chrome.service import Service
+    from webdriver_manager.chrome import ChromeDriverManager
+    from webdriver_manager.core.os_manager import ChromeType
+
+    @st.cache_resource
+    def get_driver():
+        return webdriver.Chrome(
+            service=Service(
+                ChromeDriverManager(chrome_type=ChromeType.CHROMIUM).install()
+            ),
+            options=options,
+        )
+
     options = Options()
-    options.add_argument("--no-sandbox")
-    options.add_argument("--disable-dev-shm-usage")
     options.add_argument("--disable-gpu")
-    options.add_argument("--window-size=1920x1080")
-    service = Service(executable_path=shutil.which("chromedriver"))
+    options.add_argument("--headless")
 
-    try:
-        driver = webdriver.Chrome(options=options, service=service)
-        driver.get("https://www.google.com")
-        print("Successfully launched Chrome.")
-        print(f"Page title: {driver.title}")
-        driver.quit()
-    except Exception as e:
-        print(f"Error: {e}")
+    driver = get_driver()
+    driver.get("http://example.com")
 
-test_selenium()
+    st.code(driver.page_source)
