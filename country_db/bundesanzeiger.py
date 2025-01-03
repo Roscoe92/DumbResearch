@@ -254,7 +254,6 @@ def parse_bundesanzeiger_reports(reports_dict):
     }
     """
     master_outputs = {}
-
     for report_id, report_data in reports_dict.items():
         company_name = report_data.get("company", "Unknown Company")
 

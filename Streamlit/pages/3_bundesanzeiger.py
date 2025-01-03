@@ -60,7 +60,6 @@ def main():
             # Store the raw Bundesanzeiger data in session_state
             st.session_state.ba_reports = ba_reports
             st.success(f"Fetched Bundesanzeiger reports for {len(ba_reports)} German companies.")
-            st.write(ba_reports)
 
     # Fetch Companies House Filings
     if st.button("Fetch Companies House Filings (UK)"):
@@ -109,7 +108,7 @@ def main():
         combined_reports = {}
         unique_id_counter = 0
         for company_name, reports_list in ba_raw.items():
-            for rpt in reports_list:
+            for report_id,rpt in reports_list.items():
                 unique_id = f"{company_name}_{unique_id_counter}"
                 combined_reports[unique_id] = rpt
                 unique_id_counter += 1
