@@ -46,9 +46,17 @@ def get_webdriver_options(headless=False):
     options.add_argument("--disable-background-networking")
     return options
 
+
+# def get_webdriver_service():
+#     log_path = "chromedriver.log"  # Ensure the log file path is consistent
+#     service = Service(executable_path=get_chromedriver_path(), log_path=log_path)
+#     return service
+
 def get_webdriver_service():
     log_path = "chromedriver.log"  # Ensure the log file path is consistent
-    service = Service(executable_path=get_chromedriver_path(), log_path=log_path)
+    service = Service(
+            ChromeDriverManager(chrome_type=ChromeType.CHROMIUM).install()
+        )
     return service
 
 def run_selenium(domain, headless=False):

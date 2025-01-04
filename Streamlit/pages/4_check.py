@@ -1,36 +1,44 @@
 import streamlit as st
+from scraper.scraper import run_selenium
+import os
 
-"""
-## Web scraping on Streamlit Cloud with Selenium
+def main():
+    # Initialize `links` in session state if not already set
+    if "links" not in st.session_state:
+        st.session_state["links"] = []
 
-[![Source](https://img.shields.io/badge/View-Source-<COLOR>.svg)](https://github.com/snehankekre/streamlit-selenium-chrome/)
+    # Input field for website
+    check_site = st.text_input(
+        "Add any additional competitors by entering their websites (comma-separated):"
+    )
 
-This is a minimal, reproducible example of how to scrape the web with Selenium and Chrome on Streamlit's Community Cloud.
+    # Button to fetch subpages
+    if st.button("Fetch Subpages"):
+        if check_site:  # Ensure `check_site` is not empty
+            links, _ = run_selenium(check_site)
+            st.session_state["links"] = links  # Update session state
+            st.success("Subpages fetched successfully!")
+        else:
+            st.warning("Please enter a valid website.")
 
-Fork this repo, and edit `/streamlit_app.py` to customize this app to your heart's desire. :heart:
-"""
+    # Display results if available
+    if st.session_state["links"]:
+        st.write("Fetched Links:")
+        st.write(st.session_state["links"])
+    else:
+        st.write("No links fetched yet.")
 
-with st.echo():
-    from selenium import webdriver
-    from selenium.webdriver.chrome.options import Options
-    from selenium.webdriver.chrome.service import Service
-    from webdriver_manager.chrome import ChromeDriverManager
-    from webdriver_manager.core.os_manager import ChromeType
-
-    @st.cache_resource
-    def get_driver():
-        return webdriver.Chrome(
-            service=Service(
-                ChromeDriverManager(chrome_type=ChromeType.CHROMIUM).install()
-            ),
-            options=options,
+    # Check for ChromeDriver log and provide download option
+    if os.path.exists("chromedriver.log"):
+        st.download_button(
+            label="Download ChromeDriver Log",
+            data=open("chromedriver.log", "rb"),
+            file_name="chromedriver.log",
+            mime="text/plain"
         )
+    else:
+        st.warning("ChromeDriver log file not found.")
 
-    options = Options()
-    options.add_argument("--disable-gpu")
-    options.add_argument("--headless")
-
-    driver = get_driver()
-    driver.get("https://www.myrasecurity.com/en/")
-
-    st.code(driver.page_source)
+# Run the app
+if __name__ == "__main__":
+    main()
