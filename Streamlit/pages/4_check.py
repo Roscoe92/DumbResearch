@@ -19,6 +19,10 @@ def get_driver():
 
 def main():
     driver = get_driver()
+    check_site = st.text_input(
+    "Add any additional competitors by entering their websites (comma-separated):"
+)
+    
     if st.button("Fetch Subpages"):
         result = driver.get()
         st.session_state.result = result
