@@ -33,8 +33,7 @@ def main():
 )
 
     if st.button("Fetch Subpages"):
-        driver.get(check_site)
-        st.session_state.result = driver.page_source
+        st.session_state.result = run_selenium(check_site)
 
     if st.session_state.result:
         st.write(st.session_state.result)

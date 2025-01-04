@@ -47,10 +47,11 @@ def get_webdriver_options(headless=False):
     return options
 
 
-# def get_webdriver_service():
-#     log_path = "chromedriver.log"  # Ensure the log file path is consistent
-#     service = Service(executable_path=get_chromedriver_path(), log_path=log_path)
-#     return service
+def get_driver(options):
+    return webdriver.Chrome(
+        service=Service(
+            ChromeDriverManager(chrome_type=ChromeType.CHROMIUM).install()
+        ), options=options,)
 
 def get_webdriver_service():
     service = Service(
@@ -66,16 +67,15 @@ def run_selenium(domain, headless=False):
     """
     html_content = None
     options = get_webdriver_options(headless=headless)
-    service = get_webdriver_service()
+    driver = get_driver(options)
 
-    with webdriver.Chrome(options=options, service=service) as driver:
-        try:
-            driver.get(domain)
-            WebDriverWait(driver, 10).until(
-                EC.presence_of_element_located((By.TAG_NAME, "body"))
-            )
-            html_content = driver.page_source
-        except Exception as e:
-            print(f"Error occurred while fetching {domain} in headless={headless} mode: {e}")
+    try:
+        driver.get(domain)
+        WebDriverWait(driver, 10).until(
+            EC.presence_of_element_located((By.TAG_NAME, "body"))
+        )
+        html_content = driver.page_source
+    except Exception as e:
+        print(f"Error occurred while fetching {domain} in headless={headless} mode: {e}")
 
     return html_content
