@@ -34,16 +34,10 @@ def get_webdriver_options(headless=False):
     options = Options()
     if headless:
         options.add_argument("--headless")
-    options.add_argument("--no-sandbox")
-    options.add_argument("--disable-dev-shm-usage")  # Required for environments with small /dev/shm
+    # options.add_argument("--no-sandbox")
+    # options.add_argument("--disable-dev-shm-usage")  # Required for environments with small /dev/shm
     options.add_argument("--disable-gpu")           # Avoid GPU issues
-    options.add_argument("--window-size=1920x1080") # Ensure sufficient resolution for rendering
-    options.add_argument("--disable-software-rasterizer")
-    options.add_argument("--disable-extensions")
-    options.add_argument("--remote-debugging-port=9222")  # Ensure DevToolsActivePort can connect
-    options.add_argument("--disable-background-timer-throttling")
-    options.add_argument("--disable-renderer-backgrounding")
-    options.add_argument("--disable-background-networking")
+    # options.add_argument("--window-size=1920x1080") # Ensure sufficient resolution for rendering
     return options
 
 
