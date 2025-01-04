@@ -11,7 +11,7 @@ from webdriver_manager.core.os_manager import ChromeType
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 
-def get_driver():
+def get_driver(options):
     return webdriver.Chrome(
         service=Service(
             ChromeDriverManager(chrome_type=ChromeType.CHROMIUM).install()
@@ -22,7 +22,7 @@ def main():
     options.add_argument("--disable-gpu")
     options.add_argument("--headless")
 
-    driver = get_driver()
+    driver = get_driver(options)
 
         # Initialize session state
     if "result" not in st.session_state:
