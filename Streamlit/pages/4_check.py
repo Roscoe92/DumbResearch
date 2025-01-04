@@ -15,14 +15,18 @@ def get_driver():
     return webdriver.Chrome(
         service=Service(
             ChromeDriverManager(chrome_type=ChromeType.CHROMIUM).install()
-        ))
+        ) options=options,)
 
 def main():
+    options = Options()
+    options.add_argument("--disable-gpu")
+    options.add_argument("--headless")
+
     driver = get_driver()
     check_site = st.text_input(
     "Add any additional competitors by entering their websites (comma-separated):"
 )
-    
+
     if st.button("Fetch Subpages"):
         result = driver.get()
         st.session_state.result = result
