@@ -15,7 +15,7 @@ def get_driver():
     return webdriver.Chrome(
         service=Service(
             ChromeDriverManager(chrome_type=ChromeType.CHROMIUM).install()
-        ) options=options,)
+        ), options=options,)
 
 def main():
     options = Options()
@@ -23,13 +23,18 @@ def main():
     options.add_argument("--headless")
 
     driver = get_driver()
+
+        # Initialize session state
+    if "result" not in st.session_state:
+        st.session_state.result = None
+
     check_site = st.text_input(
     "Add any additional competitors by entering their websites (comma-separated):"
 )
 
     if st.button("Fetch Subpages"):
-        result = driver.get()
-        st.session_state.result = result
+        driver.get(check_site)
+        st.session_state.result = driver.page_source
 
     if st.session_state.result:
         st.write(st.session_state.result)
