@@ -9,7 +9,10 @@ Requires a key (OpenAI by default): auto-generating a new tree via `generate`.
 """
 
 from .schema import Tree, Node, Scores, Source, DachSignals, slugify, validate
-from .scoring import composite_score, apply_scores, ranked_leaves, DEFAULT_WEIGHTS
+from .scoring import (
+    composite_score, apply_scores, ranked_leaves, ranked_leaf_rows,
+    attractiveness, actionability, blended, quadrant, DEFAULT_WEIGHTS,
+)
 
 __all__ = [
     "Tree",
@@ -22,5 +25,10 @@ __all__ = [
     "composite_score",
     "apply_scores",
     "ranked_leaves",
+    "ranked_leaf_rows",
+    "attractiveness",
+    "actionability",
+    "blended",
+    "quadrant",
     "DEFAULT_WEIGHTS",
 ]

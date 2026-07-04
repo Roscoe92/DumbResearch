@@ -4,16 +4,31 @@ Build, score and visualise a **detailed value-chain tree** of an industry to fin
 non-obvious **buy-and-build / roll-up** targets in the DACH region (DE/AT/CH).
 
 Every node is scored 1–5 on the Peak Two thesis criteria and grounded in real
-web sources:
+web sources, on **two axes**:
 
-1. **recurring** — recurring / reoccurring revenue (subscriptions, maintenance
-   contracts, statutory-funded repeat spend).
-2. **fragmentation** — decentralised / low professionalism: many owner-operated
-   firms at low-single-digit-million EUR revenue, no dominant consolidator.
-3. **compliance** — compliance- or sovereignty-driven mandatory spend.
+**Attractiveness** (is this a good market?)
+1. **recurring** — recurring / reoccurring revenue.
+2. **fragmentation** — many owner-operated firms, no dominant consolidator.
+3. **regulatory demand** — regulation-mandated spend (the `compliance` field).
+4. **scale** — platform / TAM potential (can you build a €50–150m platform?).
+5. **margin** — margin quality & asset-lightness.
+6. **growth** — structural demand tailwind (ageing, mandate expansion).
+   *minus* a **reimbursement-risk** penalty (statutory funding ≠ pure upside).
 
-A weighted **composite fit score (0–100)** ranks the tree; the interactive HTML
-surfaces the top roll-up candidates automatically.
+**Actionability** (can we still win / own it?)
+7. **headroom** — consolidation whitespace / how early (5 = virgin, no PE yet).
+8. **confidence** — evidence confidence.
+   *gated by* **investability** ∈ {open, restricted, **blocked**} — a hard flag
+   for structurally un-ownable niches (e.g. pharmacy Fremdbesitzverbot,
+   person-bound Kassensitz, member-owned cooperatives).
+
+The two axes drive a **2×2 portfolio map** — *Act now · Too late · Watchlist ·
+Pass* (plus *Too small* and *Blocked*) — and a **blended score**
+(attractiveness × actionability) that ranks the shortlist so crowded and
+un-ownable niches sink. The interactive HTML has a **Tree** view and a **◱ Map**
+view, a **⚙ Weights** popover to retune every criterion live, and an auto-ranked
+top-candidate list. The top candidates are additionally **verified** (✓): a
+"why now" catalyst, known PE consolidators, and confirmed player/revenue figures.
 
 ## The interactive tree
 

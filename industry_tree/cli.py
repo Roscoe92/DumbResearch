@@ -62,13 +62,17 @@ def cmd_assemble(args) -> int:
 
 
 def cmd_shortlist(args) -> int:
-    tree = Tree.load(args.tree)
+    tree = Tree.load(tree_path := args.tree)
     apply_scores(tree)
     rows = ranked_leaf_rows(tree, min_level=args.min_level)[: args.top]
     for i, r in enumerate(rows, 1):
-        print(f"{i:2d}. {r['composite']:5.1f}  {r['path']}")
-        print(f"       rec {r['recurring']} · frag {r['fragmentation']} · comp {r['compliance']}"
+        gate = "" if r["investability"] == "open" else f" [{r['investability']}]"
+        print(f"{i:2d}. blend {r['blended']:5.1f}  (A {r['attractiveness']:.0f} / X {r['actionability']:.0f})"
+              f"  {r['quadrant']:9s}{gate}  {r['name']}")
+        print(f"       {' > '.join(r['path'].split(' > ')[1:3])}"
               f"  | {r['players_dach']} | {r['revenue_band']}")
+        if r["pe_activity"]:
+            print(f"       PE: {r['pe_activity'][:110]}")
     return 0
 
 

@@ -13,6 +13,7 @@ LLM-generation path (`generate.py`) emit this shape, so one ingester serves both
 from __future__ import annotations
 
 import json
+import re
 from pathlib import Path
 
 from .schema import Tree, Scores, DachSignals, Source
@@ -78,14 +79,37 @@ def build_tree(root_industry: str, branches: list[dict], region: str = "DACH") -
     return tree
 
 
+def _norm(s: str) -> str:
+    """Normalize for tolerant matching: expand umlauts then keep alnum only.
+
+    Makes 'häusliche', 'haeusliche' and 'hausliche' all compare equal, so a
+    graft/enrich target still resolves despite German transliteration variance.
+    """
+    s = (s or "").lower()
+    for a, b in (("ä", "ae"), ("ö", "oe"), ("ü", "ue"), ("ß", "ss")):
+        s = s.replace(a, b)
+    import unicodedata as _u
+    s = _u.normalize("NFKD", s).encode("ascii", "ignore").decode()
+    return re.sub(r"[^a-z0-9]+", "", s)
+
+
 def find_by_path(tree: Tree, names: list[str]) -> str | None:
     """Return the node id whose path (ancestor names incl. self) equals `names`."""
+    if not names:
+        return None
     for nid, node in tree.nodes.items():
         if node.path == names:
             return nid
-    # fall back: match on the last name if unique
+    # fall back: exact match on the last name if unique
     matches = [nid for nid, n in tree.nodes.items() if n.name == names[-1]]
-    return matches[0] if len(matches) == 1 else None
+    if len(matches) == 1:
+        return matches[0]
+    # tolerant fallback: umlaut/transliteration-insensitive full-path match
+    target = [_norm(x) for x in names]
+    for nid, n in tree.nodes.items():
+        if [_norm(x) for x in n.path] == target:
+            return nid
+    return None
 
 
 def graft(tree: Tree, target_names: list[str], children: list[dict]) -> int:
@@ -151,6 +175,14 @@ def apply_enrich_files(tree: Tree, paths: list[str | Path]) -> int:
                 node.dach_signals.revenue_band_eur = str(b["revenue_band_eur"])
             if b.get("confidence"):
                 node.confidence = _i(b["confidence"])
+            # new two-axis criteria (set on node.scores when present)
+            for fld in ("scale", "margin", "growth", "headroom", "reimbursement_risk"):
+                if b.get(fld) is not None:
+                    setattr(node.scores, fld, _i(b[fld]))
+            if b.get("investability") in ("open", "restricted", "blocked"):
+                node.investability = b["investability"]
+            if b.get("investability_note"):
+                node.investability_note = str(b["investability_note"])
             have = {s.url for s in node.sources}
             for s in (b.get("sources") or []):
                 if s.get("url") and s["url"] not in have:

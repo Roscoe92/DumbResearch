@@ -21,8 +21,15 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Optional
 
-SCHEMA_VERSION = 1
+SCHEMA_VERSION = 2
+# Attractiveness axis (market quality). `compliance` is the field name for what
+# the UI labels "Regulatory demand" (mandated/regulated demand pull).
+ATTRACT_CRITERIA = ("recurring", "fragmentation", "compliance", "scale", "margin", "growth")
+# Actionability axis (can we win / own it). `confidence` lives on Node.
+ACTION_CRITERIA = ("headroom",)
+# Back-compat alias: the original three attractiveness criteria.
 CRITERIA = ("recurring", "fragmentation", "compliance")
+INVESTABILITY = ("open", "restricted", "blocked")
 
 
 def slugify(text: str) -> str:
@@ -38,16 +45,28 @@ def _now() -> str:
 
 @dataclass
 class Scores:
-    """1-5 per criterion (1 = clearly absent, 5 = textbook fit)."""
+    """1-5 per criterion (1 = clearly absent, 5 = textbook fit); 0 = unscored.
+
+    Attractiveness: recurring, fragmentation, compliance (regulatory demand),
+    scale (platform/TAM potential), margin (margin quality / asset-lightness),
+    growth (structural demand tailwind).
+    Actionability: headroom (consolidation whitespace / how early).
+    reimbursement_risk (1-5, 5 = high) is a penalty on attractiveness, not a fit.
+    """
 
     recurring: int = 0
     fragmentation: int = 0
     compliance: int = 0
+    scale: int = 0
+    margin: int = 0
+    growth: int = 0
+    headroom: int = 0
+    reimbursement_risk: int = 0
 
     def clamp(self) -> "Scores":
-        self.recurring = _clamp15(self.recurring)
-        self.fragmentation = _clamp15(self.fragmentation)
-        self.compliance = _clamp15(self.compliance)
+        for f in ("recurring", "fragmentation", "compliance", "scale",
+                  "margin", "growth", "headroom", "reimbursement_risk"):
+            setattr(self, f, _clamp15(getattr(self, f)))
         return self
 
 
@@ -84,6 +103,8 @@ class Node:
     status: str = "stub"                                # "stub" | "grounded" | "verified"
     why_now: str = ""                                   # verification: catalyst / timing thesis
     pe_activity: list[str] = field(default_factory=list) # verification: known consolidators / PE platforms
+    investability: str = "open"                          # gate: open | restricted | blocked
+    investability_note: str = ""                         # why open/restricted/blocked
     child_ids: list[str] = field(default_factory=list)
 
     # ---- serialization ----------------------------------------------------
