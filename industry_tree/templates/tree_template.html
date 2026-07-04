@@ -28,6 +28,11 @@
   #it-legend{ display:flex; align-items:center; gap:6px; font-size:11px; color:var(--muted); }
   #it-legend .bar{ width:120px; height:10px; border-radius:5px;
     background:linear-gradient(90deg,#d64545,#e0a83e,#3f9d58); }
+  #it-weights{ display:flex; align-items:center; gap:9px; font-size:11px; color:var(--muted); }
+  #it-weights .wl{ text-transform:uppercase; letter-spacing:.04em; }
+  #it-weights label{ display:flex; align-items:center; gap:3px; }
+  #it-weights input[type=range]{ width:52px; accent-color:var(--link); }
+  #it-weights .rk{ gap:4px; }
 
   #it-body{ flex:1; display:flex; min-height:0; }
   #it-canvas{ flex:1; overflow:auto; position:relative; }
@@ -80,6 +85,13 @@
   <span class="sub" id="it-meta"></span>
   <div class="spacer"></div>
   <div id="it-legend"><span>fit</span><span class="bar"></span><span>low → high</span></div>
+  <div id="it-weights" title="Re-weight the three criteria; the tree recolours and re-ranks live.">
+    <span class="wl">weights</span>
+    <label>rec<input type="range" id="w-recurring" min="0" max="2" step="0.5" value="1"></label>
+    <label>frag<input type="range" id="w-fragmentation" min="0" max="2" step="0.5" value="1"></label>
+    <label>comp<input type="range" id="w-compliance" min="0" max="2" step="0.5" value="1"></label>
+    <label class="rk"><input type="checkbox" id="rank-pct"> rank%</label>
+  </div>
   <input type="search" id="it-search" placeholder="search sub-sectors…" />
   <button id="it-expand">Expand all</button>
   <button id="it-collapse">Collapse</button>
@@ -107,10 +119,36 @@
   var svg=document.getElementById('it-svg');
   var side=document.getElementById('it-side');
   var selId=null, topOnly=false, query="";
+  var WEIGHTS={recurring:1,fragmentation:1,compliance:1};
+  var RANKPCT=false;
 
   // stable ids + parent links; default collapse below level 1
   (function init(n,d,par){ n._d=d; n._par=par; n._col=(d>=2)&&(n.children&&n.children.length>0);
     (n.children||[]).forEach(function(c){init(c,d+1,n);}); })(DATA,0,null);
+
+  // client-side composite from scores + live weights (0-100); 0 if unscored
+  function rawComposite(n){
+    var s=n.scores||{}, cs=['recurring','fragmentation','compliance'];
+    for(var i=0;i<cs.length;i++){ if(!(s[cs[i]]>0)) return 0; }
+    var num=0,den=0;
+    cs.forEach(function(c){ var w=WEIGHTS[c]; num+=s[c]*w; den+=w; });
+    if(den<=0) return 0;
+    return Math.round(((num/den)-1)/4*1000)/10;
+  }
+  function computeAll(){
+    var vals=[];
+    (function w(n){ n._raw=rawComposite(n); if(n._raw>0) vals.push(n._raw); (n.children||[]).forEach(w); })(DATA);
+    vals.sort(function(a,b){return a-b;});
+    (function w(n){
+      if(RANKPCT && n._raw>0){
+        var hi=0; for(var i=0;i<vals.length;i++){ if(vals[i]<=n._raw) hi=i+1; }
+        n._comp = vals.length>1 ? Math.round((hi-1)/(vals.length-1)*1000)/10 : 100;
+        n._compRaw=n._raw;
+      } else { n._comp=n._raw; n._compRaw=n._raw; }
+      (n.children||[]).forEach(w);
+    })(DATA);
+  }
+  computeAll();
 
   function color(c){
     if(!c||c<=0) return getComputedStyle(document.documentElement).getPropertyValue('--chip')||'#ccc';
@@ -160,9 +198,9 @@
       var has=(n.children&&n.children.length>0);
       var cls='node'+(n._col?' collapsed':'')+(n.id===selId?' sel':'');
       if(query){ cls += anyDescMatch(n)? (visibleMatch(n)?' match':'') : ' dim'; }
-      var fill=color(n.composite);
+      var fill=color(n._comp);
       var label=n.name.length>26? n.name.slice(0,25)+'…' : n.name;
-      var comp=(n.composite>0)? String(Math.round(n.composite)) : '';
+      var comp=(n._comp>0)? String(Math.round(n._comp)) : '';
       parts.push('<g class="'+cls+'" data-id="'+n.id+'" transform="translate('+n._x+','+(n._y-RH/2)+')">'
         +'<rect width="'+RW+'" height="'+RH+'" fill="'+fill+'" fill-opacity="0.9"/>'
         +'<text x="8" y="'+(RH/2)+'" font-size="11.5" style="fill:#10151b">'+esc(label)+'</text>'
@@ -194,7 +232,7 @@
   function showSide(n){
     var s=n.scores||{}, r=n.rationale||{}, sig=n.dach_signals||{};
     var html='';
-    if(n.composite>0) html+='<span class="comp-pill" style="background:'+color(n.composite)+'">'+Math.round(n.composite)+'</span>';
+    if(n._comp>0) html+='<span class="comp-pill" style="background:'+color(n._comp)+'">'+Math.round(n._comp)+(RANKPCT?'%':'')+'</span>';
     html+='<h2>'+esc(n.name)+'</h2>';
     html+='<div class="path">'+esc((n.path||[]).join('  ›  '))+'</div>';
     if(n.value_chain_stage) html+='<span class="stage">'+esc(n.value_chain_stage)+'</span>';
@@ -217,8 +255,8 @@
 
   function allLeaves(){ var out=[]; (function w(n){ if(!(n.children&&n.children.length)) out.push(n); else n.children.forEach(w); })(DATA); return out; }
   function shortlist(){
-    var ls=allLeaves().filter(function(n){return n._d>=2 && n.composite>0;});
-    ls.sort(function(a,b){return b.composite-a.composite;});
+    var ls=allLeaves().filter(function(n){return n._d>=2 && n._comp>0;});
+    ls.sort(function(a,b){return b._comp-a._comp;});
     return ls.slice(0,12);
   }
   function renderShortlist(){
@@ -226,7 +264,7 @@
     var ls=shortlist(); if(!ls.length) return;
     var div=document.createElement('div'); div.id='it-shortlist';
     div.innerHTML='<h3>Top roll-up candidates</h3><ol>'+ls.map(function(n){
-      return '<li data-id="'+n.id+'"><span class="lc" style="color:'+color(n.composite)+'">'+Math.round(n.composite)+'</span> '+esc(n.name)+'</li>';
+      return '<li data-id="'+n.id+'"><span class="lc" style="color:'+color(n._comp)+'">'+Math.round(n._comp)+'</span> '+esc(n.name)+'</li>';
     }).join('')+'</ol>';
     side.appendChild(div);
     Array.prototype.forEach.call(div.querySelectorAll('li'),function(li){
@@ -247,6 +285,21 @@
   document.getElementById('it-expand').addEventListener('click',function(){ (function w(n){ n._col=false; (n.children||[]).forEach(w); })(DATA); render(); });
   document.getElementById('it-collapse').addEventListener('click',function(){ (function w(n){ n._col=(n._d>=1&&n.children&&n.children.length>0); (n.children||[]).forEach(w); })(DATA); render(); });
   document.getElementById('it-top-toggle').addEventListener('click',function(){ if(side.querySelector('#it-shortlist')){ side.querySelector('#it-shortlist').remove(); } else { renderShortlist(); } });
+
+  function reweight(){
+    ['recurring','fragmentation','compliance'].forEach(function(c){
+      var el=document.getElementById('w-'+c); if(el) WEIGHTS[c]=parseFloat(el.value);
+    });
+    RANKPCT=document.getElementById('rank-pct').checked;
+    var hadSL = !!side.querySelector('#it-shortlist');
+    computeAll(); render();
+    var cur = selId? find(DATA,selId) : DATA; if(cur) showSide(cur);  // rebuilds side, drops shortlist
+    if(hadSL) renderShortlist();                                       // so re-append it after
+  }
+  ['w-recurring','w-fragmentation','w-compliance'].forEach(function(id){
+    document.getElementById(id).addEventListener('input', reweight);
+  });
+  document.getElementById('rank-pct').addEventListener('change', reweight);
 
   render();
   // default: show root detail + shortlist
