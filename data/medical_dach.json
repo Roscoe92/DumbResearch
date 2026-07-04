@@ -710,7 +710,13 @@
       ],
       "confidence": 3,
       "status": "grounded",
-      "child_ids": []
+      "child_ids": [
+        "medical-value-chain/pharmaceuticals-biotech/gxp-gmp-compliance-services/gmp-gxp-consulting-auditing/computerised-system-validation-csv-csa",
+        "medical-value-chain/pharmaceuticals-biotech/gxp-gmp-compliance-services/gmp-gxp-consulting-auditing/qp-on-demand-qp-as-a-service-sachkundige-person-14-amg",
+        "medical-value-chain/pharmaceuticals-biotech/gxp-gmp-compliance-services/gmp-gxp-consulting-auditing/cleanroom-gmp-qualification-validation-dq-iq-oq-pq",
+        "medical-value-chain/pharmaceuticals-biotech/gxp-gmp-compliance-services/gmp-gxp-consulting-auditing/gdp-cold-chain-audits-good-distribution-practice",
+        "medical-value-chain/pharmaceuticals-biotech/gxp-gmp-compliance-services/gmp-gxp-consulting-auditing/supplier-lohnhersteller-contract-manufacturer-auditing"
+      ]
     },
     "medical-value-chain/pharmaceuticals-biotech/gxp-gmp-compliance-services/cleanroom-qualification-validation-dq-iq-oq-pq": {
       "id": "medical-value-chain/pharmaceuticals-biotech/gxp-gmp-compliance-services/cleanroom-qualification-validation-dq-iq-oq-pq",
@@ -1471,7 +1477,13 @@
       "child_ids": [
         "medical-value-chain/medical-devices-equipment/medical-equipment-servicing-inspection-maintenance-medizintechnik-service/statutory-safety-metrology-inspections-stk-mtk-per-mpbetreibv",
         "medical-value-chain/medical-devices-equipment/medical-equipment-servicing-inspection-maintenance-medizintechnik-service/independent-multivendor-maintenance-repair-hospital-biomed",
-        "medical-value-chain/medical-devices-equipment/medical-equipment-servicing-inspection-maintenance-medizintechnik-service/calibration-metrology-of-medical-equipment-dakks-iso-17025"
+        "medical-value-chain/medical-devices-equipment/medical-equipment-servicing-inspection-maintenance-medizintechnik-service/calibration-metrology-of-medical-equipment-dakks-iso-17025",
+        "medical-value-chain/medical-devices-equipment/medical-equipment-servicing-inspection-maintenance-medizintechnik-service/multivendor-imaging-radiology-equipment-service-mrt-ct-rontgen",
+        "medical-value-chain/medical-devices-equipment/medical-equipment-servicing-inspection-maintenance-medizintechnik-service/anaesthesia-ventilator-service-narkose-beatmungsgerate",
+        "medical-value-chain/medical-devices-equipment/medical-equipment-servicing-inspection-maintenance-medizintechnik-service/dialysis-machine-service-dialysegerate",
+        "medical-value-chain/medical-devices-equipment/medical-equipment-servicing-inspection-maintenance-medizintechnik-service/flexible-endoscope-repair-reprocessing-service",
+        "medical-value-chain/medical-devices-equipment/medical-equipment-servicing-inspection-maintenance-medizintechnik-service/electro-medical-safety-testing-dguv-v3-din-en-62353-vde-0751",
+        "medical-value-chain/medical-devices-equipment/medical-equipment-servicing-inspection-maintenance-medizintechnik-service/multivendor-independent-service-organisations-iso-as-a-business-model"
       ]
     },
     "medical-value-chain/medical-devices-equipment/medical-equipment-servicing-inspection-maintenance-medizintechnik-service/statutory-safety-metrology-inspections-stk-mtk-per-mpbetreibv": {
@@ -1521,7 +1533,12 @@
       ],
       "confidence": 4,
       "status": "grounded",
-      "child_ids": []
+      "child_ids": [
+        "medical-value-chain/medical-devices-equipment/medical-equipment-servicing-inspection-maintenance-medizintechnik-service/statutory-safety-metrology-inspections-stk-mtk-per-mpbetreibv/sicherheitstechnische-kontrolle-stk-of-anlage-1-devices",
+        "medical-value-chain/medical-devices-equipment/medical-equipment-servicing-inspection-maintenance-medizintechnik-service/statutory-safety-metrology-inspections-stk-mtk-per-mpbetreibv/messtechnische-kontrolle-mtk-of-anlage-2-measuring-devices",
+        "medical-value-chain/medical-devices-equipment/medical-equipment-servicing-inspection-maintenance-medizintechnik-service/statutory-safety-metrology-inspections-stk-mtk-per-mpbetreibv/electrical-safety-inspection-under-dguv-vorschrift-3",
+        "medical-value-chain/medical-devices-equipment/medical-equipment-servicing-inspection-maintenance-medizintechnik-service/statutory-safety-metrology-inspections-stk-mtk-per-mpbetreibv/radiology-constancy-expert-testing-konstanz-sachverstandigenprufung"
+      ]
     },
     "medical-value-chain/medical-devices-equipment/medical-equipment-servicing-inspection-maintenance-medizintechnik-service/independent-multivendor-maintenance-repair-hospital-biomed": {
       "id": "medical-value-chain/medical-devices-equipment/medical-equipment-servicing-inspection-maintenance-medizintechnik-service/independent-multivendor-maintenance-repair-hospital-biomed",
@@ -1621,7 +1638,11 @@
       ],
       "confidence": 4,
       "status": "grounded",
-      "child_ids": []
+      "child_ids": [
+        "medical-value-chain/medical-devices-equipment/medical-equipment-servicing-inspection-maintenance-medizintechnik-service/calibration-metrology-of-medical-equipment-dakks-iso-17025/dakks-accredited-medical-measuring-device-calibration-labs",
+        "medical-value-chain/medical-devices-equipment/medical-equipment-servicing-inspection-maintenance-medizintechnik-service/calibration-metrology-of-medical-equipment-dakks-iso-17025/in-vitro-pipette-calibration-services",
+        "medical-value-chain/medical-devices-equipment/medical-equipment-servicing-inspection-maintenance-medizintechnik-service/calibration-metrology-of-medical-equipment-dakks-iso-17025/temperature-cold-chain-qualification-mapping-gxp"
+      ]
     },
     "medical-value-chain/medical-devices-equipment/reprocessing-reconditioning-of-medical-devices-aufbereitung": {
       "id": "medical-value-chain/medical-devices-equipment/reprocessing-reconditioning-of-medical-devices-aufbereitung",
@@ -3919,7 +3940,13 @@
       "confidence": 4,
       "status": "grounded",
       "child_ids": [
-        "medical-value-chain/care-delivery-providers/outpatient-mobile-nursing-services-ambulante-pflegedienste/outpatient-intensive-care-ausserklinische-intensivpflege"
+        "medical-value-chain/care-delivery-providers/outpatient-mobile-nursing-services-ambulante-pflegedienste/outpatient-intensive-care-ausserklinische-intensivpflege",
+        "medical-value-chain/care-delivery-providers/outpatient-mobile-nursing-services-ambulante-pflegedienste/sgb-xi-basic-care-grundpflege-pflegesachleistung",
+        "medical-value-chain/care-delivery-providers/outpatient-mobile-nursing-services-ambulante-pflegedienste/sgb-v-medical-home-care-behandlungspflege-hausliche-krankenpflege",
+        "medical-value-chain/care-delivery-providers/outpatient-mobile-nursing-services-ambulante-pflegedienste/specialised-palliative-home-care-sapv",
+        "medical-value-chain/care-delivery-providers/outpatient-mobile-nursing-services-ambulante-pflegedienste/day-care-tagespflege-teilstationar",
+        "medical-value-chain/care-delivery-providers/outpatient-mobile-nursing-services-ambulante-pflegedienste/dementia-everyday-support-services-betreuungsdienste-45a",
+        "medical-value-chain/care-delivery-providers/outpatient-mobile-nursing-services-ambulante-pflegedienste/respite-substitute-care-verhinderungspflege-household-support"
       ]
     },
     "medical-value-chain/care-delivery-providers/outpatient-mobile-nursing-services-ambulante-pflegedienste/outpatient-intensive-care-ausserklinische-intensivpflege": {
@@ -3970,7 +3997,12 @@
       ],
       "confidence": 3,
       "status": "grounded",
-      "child_ids": []
+      "child_ids": [
+        "medical-value-chain/care-delivery-providers/outpatient-mobile-nursing-services-ambulante-pflegedienste/outpatient-intensive-care-ausserklinische-intensivpflege/ventilation-shared-living-groups-beatmungs-wg-wohngemeinschaften",
+        "medical-value-chain/care-delivery-providers/outpatient-mobile-nursing-services-ambulante-pflegedienste/outpatient-intensive-care-ausserklinische-intensivpflege/1-1-individual-home-ventilation-einzelversorgung",
+        "medical-value-chain/care-delivery-providers/outpatient-mobile-nursing-services-ambulante-pflegedienste/outpatient-intensive-care-ausserklinische-intensivpflege/paediatric-intensive-home-care-kinderintensivpflege",
+        "medical-value-chain/care-delivery-providers/outpatient-mobile-nursing-services-ambulante-pflegedienste/outpatient-intensive-care-ausserklinische-intensivpflege/ventilator-weaning-beatmungsentwohnung-weaning"
+      ]
     },
     "medical-value-chain/care-delivery-providers/assisted-senior-living-betreutes-wohnen": {
       "id": "medical-value-chain/care-delivery-providers/assisted-senior-living-betreutes-wohnen",
@@ -6348,7 +6380,13 @@
       ],
       "confidence": 4,
       "status": "grounded",
-      "child_ids": []
+      "child_ids": [
+        "medical-value-chain/distribution-medical-retail/medical-supply-stores-homecare-sanitatshauser-hilfsmittel/sanitatshaus-retail-custom-aids/compression-therapy-bandagen-kompressionsversorgung",
+        "medical-value-chain/distribution-medical-retail/medical-supply-stores-homecare-sanitatshauser-hilfsmittel/sanitatshaus-retail-custom-aids/rehatechnik-equipment-rental-rollstuehle-pflegebetten-wiedereinsatz",
+        "medical-value-chain/distribution-medical-retail/medical-supply-stores-homecare-sanitatshauser-hilfsmittel/sanitatshaus-retail-custom-aids/breast-prosthetics-mastectomy-care-brustprothetik-brustversorgung",
+        "medical-value-chain/distribution-medical-retail/medical-supply-stores-homecare-sanitatshauser-hilfsmittel/sanitatshaus-retail-custom-aids/custom-seating-children-s-aids-reha-kinderversorgung-sitzschalen",
+        "medical-value-chain/distribution-medical-retail/medical-supply-stores-homecare-sanitatshauser-hilfsmittel/sanitatshaus-retail-custom-aids/medical-footwear-inserts-insoles-einlagen-schuhzurichtung"
+      ]
     },
     "medical-value-chain/distribution-medical-retail/medical-supply-stores-homecare-sanitatshauser-hilfsmittel/ambulatory-homecare-provisioning-wound-stoma-incontinence-enteral-respiratory": {
       "id": "medical-value-chain/distribution-medical-retail/medical-supply-stores-homecare-sanitatshauser-hilfsmittel/ambulatory-homecare-provisioning-wound-stoma-incontinence-enteral-respiratory",
@@ -6404,7 +6442,15 @@
       ],
       "confidence": 4,
       "status": "grounded",
-      "child_ids": []
+      "child_ids": [
+        "medical-value-chain/distribution-medical-retail/medical-supply-stores-homecare-sanitatshauser-hilfsmittel/ambulatory-homecare-provisioning-wound-stoma-incontinence-enteral-respiratory/chronic-wound-care-re-supply-moderne-wundversorgung",
+        "medical-value-chain/distribution-medical-retail/medical-supply-stores-homecare-sanitatshauser-hilfsmittel/ambulatory-homecare-provisioning-wound-stoma-incontinence-enteral-respiratory/stoma-care-re-supply-stomaversorgung",
+        "medical-value-chain/distribution-medical-retail/medical-supply-stores-homecare-sanitatshauser-hilfsmittel/ambulatory-homecare-provisioning-wound-stoma-incontinence-enteral-respiratory/continence-incontinence-re-supply-aufsaugend-ableitend",
+        "medical-value-chain/distribution-medical-retail/medical-supply-stores-homecare-sanitatshauser-hilfsmittel/ambulatory-homecare-provisioning-wound-stoma-incontinence-enteral-respiratory/enteral-parenteral-nutrition-homecare-ernaehrungstherapie",
+        "medical-value-chain/distribution-medical-retail/medical-supply-stores-homecare-sanitatshauser-hilfsmittel/ambulatory-homecare-provisioning-wound-stoma-incontinence-enteral-respiratory/respiratory-oxygen-home-ventilation-sauerstoff-beatmung",
+        "medical-value-chain/distribution-medical-retail/medical-supply-stores-homecare-sanitatshauser-hilfsmittel/ambulatory-homecare-provisioning-wound-stoma-incontinence-enteral-respiratory/tracheostomy-care-re-supply-tracheostomaversorgung",
+        "medical-value-chain/distribution-medical-retail/medical-supply-stores-homecare-sanitatshauser-hilfsmittel/ambulatory-homecare-provisioning-wound-stoma-incontinence-enteral-respiratory/diabetes-supply-re-supply-diabetesbedarf-cgm"
+      ]
     },
     "medical-value-chain/distribution-medical-retail/medical-supply-stores-homecare-sanitatshauser-hilfsmittel/rehab-equipment-rental-reissue-reha-technik-wiedereinsatz": {
       "id": "medical-value-chain/distribution-medical-retail/medical-supply-stores-homecare-sanitatshauser-hilfsmittel/rehab-equipment-rental-reissue-reha-technik-wiedereinsatz",
@@ -6671,7 +6717,13 @@
       ],
       "confidence": 3,
       "status": "grounded",
-      "child_ids": []
+      "child_ids": [
+        "medical-value-chain/distribution-medical-retail/orthopaedic-technology-shoe-making-orthopadietechnik-schuhtechnik/orthopaedic-technology-prostheses-orthoses/lower-limb-prosthetics-beinprothetik",
+        "medical-value-chain/distribution-medical-retail/orthopaedic-technology-shoe-making-orthopadietechnik-schuhtechnik/orthopaedic-technology-prostheses-orthoses/upper-limb-prosthetics-armprothetik",
+        "medical-value-chain/distribution-medical-retail/orthopaedic-technology-shoe-making-orthopadietechnik-schuhtechnik/orthopaedic-technology-prostheses-orthoses/orthotics-bracing-orthetik-orthesen",
+        "medical-value-chain/distribution-medical-retail/orthopaedic-technology-shoe-making-orthopadietechnik-schuhtechnik/orthopaedic-technology-prostheses-orthoses/cranial-remoulding-paediatric-ot-kopforthesen-kinderorthopadie",
+        "medical-value-chain/distribution-medical-retail/orthopaedic-technology-shoe-making-orthopadietechnik-schuhtechnik/orthopaedic-technology-prostheses-orthoses/myoelectric-high-tech-prosthetics-bionik-myoelektrik"
+      ]
     },
     "medical-value-chain/distribution-medical-retail/orthopaedic-technology-shoe-making-orthopadietechnik-schuhtechnik/orthopaedic-shoe-technology-orthopadieschuhtechnik": {
       "id": "medical-value-chain/distribution-medical-retail/orthopaedic-technology-shoe-making-orthopadietechnik-schuhtechnik/orthopaedic-shoe-technology-orthopadieschuhtechnik",
@@ -7596,7 +7648,13 @@
       ],
       "confidence": 4,
       "status": "grounded",
-      "child_ids": []
+      "child_ids": [
+        "medical-value-chain/payers-regulatory-ecosystem/regulatory-affairs-market-access-hta-pharmacovigilance-services/regulatory-affairs-mdr-consulting-medtech/mdr-technical-documentation-annex-ii-iii-authoring-remediation",
+        "medical-value-chain/payers-regulatory-ecosystem/regulatory-affairs-market-access-hta-pharmacovigilance-services/regulatory-affairs-mdr-consulting-medtech/clinical-evaluation-reports-cer-pmcf",
+        "medical-value-chain/payers-regulatory-ecosystem/regulatory-affairs-market-access-hta-pharmacovigilance-services/regulatory-affairs-mdr-consulting-medtech/udi-eudamed-registration-data-management",
+        "medical-value-chain/payers-regulatory-ecosystem/regulatory-affairs-market-access-hta-pharmacovigilance-services/regulatory-affairs-mdr-consulting-medtech/notified-body-liaison-conformity-assessment-support",
+        "medical-value-chain/payers-regulatory-ecosystem/regulatory-affairs-market-access-hta-pharmacovigilance-services/regulatory-affairs-mdr-consulting-medtech/ivdr-consulting-in-vitro-diagnostics"
+      ]
     },
     "medical-value-chain/payers-regulatory-ecosystem/regulatory-affairs-market-access-hta-pharmacovigilance-services/hta-market-access-consulting-pharma-amnog-eu-hta": {
       "id": "medical-value-chain/payers-regulatory-ecosystem/regulatory-affairs-market-access-hta-pharmacovigilance-services/hta-market-access-consulting-pharma-amnog-eu-hta",
@@ -7705,7 +7763,12 @@
       ],
       "confidence": 4,
       "status": "grounded",
-      "child_ids": []
+      "child_ids": [
+        "medical-value-chain/payers-regulatory-ecosystem/regulatory-affairs-market-access-hta-pharmacovigilance-services/pharmacovigilance-outsourcing-qppv-stufenplanbeauftragter/eu-qppv-as-a-service",
+        "medical-value-chain/payers-regulatory-ecosystem/regulatory-affairs-market-access-hta-pharmacovigilance-services/pharmacovigilance-outsourcing-qppv-stufenplanbeauftragter/literature-monitoring-signal-management",
+        "medical-value-chain/payers-regulatory-ecosystem/regulatory-affairs-market-access-hta-pharmacovigilance-services/pharmacovigilance-outsourcing-qppv-stufenplanbeauftragter/psur-pbrer-and-dsur-authoring",
+        "medical-value-chain/payers-regulatory-ecosystem/regulatory-affairs-market-access-hta-pharmacovigilance-services/pharmacovigilance-outsourcing-qppv-stufenplanbeauftragter/local-safety-officer-stufenplanbeauftragter-63a-amg"
+      ]
     },
     "medical-value-chain/payers-regulatory-ecosystem/healthcare-data-protection-labelling-compliance-services": {
       "id": "medical-value-chain/payers-regulatory-ecosystem/healthcare-data-protection-labelling-compliance-services",
@@ -7819,7 +7882,12 @@
       ],
       "confidence": 4,
       "status": "grounded",
-      "child_ids": []
+      "child_ids": [
+        "medical-value-chain/payers-regulatory-ecosystem/healthcare-data-protection-labelling-compliance-services/external-data-protection-officer-dsb-for-healthcare/hospital-external-dsb-75c-b3s-it-security-officer-isb-krankenhaus-isms",
+        "medical-value-chain/payers-regulatory-ecosystem/healthcare-data-protection-labelling-compliance-services/external-data-protection-officer-dsb-for-healthcare/mvz-practice-group-external-dsb-ambulatory",
+        "medical-value-chain/payers-regulatory-ecosystem/healthcare-data-protection-labelling-compliance-services/external-data-protection-officer-dsb-for-healthcare/pharma-medtech-external-dsb-life-sciences-specialist",
+        "medical-value-chain/payers-regulatory-ecosystem/healthcare-data-protection-labelling-compliance-services/external-data-protection-officer-dsb-for-healthcare/dsgvo-audit-isms-as-a-service-iso-27001-nis2-dora"
+      ]
     },
     "medical-value-chain/payers-regulatory-ecosystem/healthcare-data-protection-labelling-compliance-services/medical-translation-labelling-compliance-iso-17100-mdr": {
       "id": "medical-value-chain/payers-regulatory-ecosystem/healthcare-data-protection-labelling-compliance-services/medical-translation-labelling-compliance-iso-17100-mdr",
@@ -7932,6 +8000,3310 @@
         }
       ],
       "confidence": 4,
+      "status": "grounded",
+      "child_ids": []
+    },
+    "medical-value-chain/payers-regulatory-ecosystem/healthcare-data-protection-labelling-compliance-services/external-data-protection-officer-dsb-for-healthcare/hospital-external-dsb-75c-b3s-it-security-officer-isb-krankenhaus-isms": {
+      "id": "medical-value-chain/payers-regulatory-ecosystem/healthcare-data-protection-labelling-compliance-services/external-data-protection-officer-dsb-for-healthcare/hospital-external-dsb-75c-b3s-it-security-officer-isb-krankenhaus-isms",
+      "name": "Hospital external DSB & §75c/B3S IT-security officer (ISB Krankenhaus, ISMS)",
+      "parent_id": "medical-value-chain/payers-regulatory-ecosystem/healthcare-data-protection-labelling-compliance-services/external-data-protection-officer-dsb-for-healthcare",
+      "level": 4,
+      "path": [
+        "Medical value chain",
+        "Payers & Regulatory Ecosystem",
+        "Healthcare Data-Protection & Labelling Compliance Services",
+        "External Data-Protection Officer (DSB) for Healthcare",
+        "Hospital external DSB & §75c/B3S IT-security officer (ISB Krankenhaus, ISMS)"
+      ],
+      "value_chain_stage": "services",
+      "description": "Combined external Datenschutzbeauftragter and Informationssicherheitsbeauftragter mandate for hospitals, building/running the ISMS demanded by §75c SGB V and the B3S Krankenhaus sector standard, often funded via KHZG.",
+      "scores": {
+        "recurring": 5,
+        "fragmentation": 4,
+        "compliance": 5
+      },
+      "rationale": {
+        "recurring": "Statutory ongoing mandate plus annual ISMS maintenance/penetration tests; B3S requires continuous operation, not a one-off project.",
+        "fragmentation": "Regional DSB/ISB boutiques and IT-security houses (activeMind, DSN Group, TÜV SÜD) compete alongside a long tail; no consolidator across ~1,700+ German hospitals.",
+        "compliance": "§75c SGB V + PDSG make state-of-the-art IT security mandatory since 2022; KHZG earmarks >=15% of funding for information security."
+      },
+      "composite": 91.7,
+      "dach_signals": {
+        "est_players": "~100-200 specialised DSB/ISB providers serving hospitals",
+        "revenue_band_eur": "EUR 1.5-8k/month per hospital retainer; ISMS build-outs EUR 50-200k",
+        "example_companies": [
+          "activeMind AG",
+          "DSN GROUP",
+          "TÜV SÜD",
+          "vicotec"
+        ],
+        "regulation": [
+          "§75c SGB V",
+          "PDSG",
+          "B3S Branchenspezifischer Sicherheitsstandard Krankenhaus",
+          "KHZG",
+          "DSGVO",
+          "Landeskrankenhausgesetze/KDG"
+        ]
+      },
+      "sources": [
+        {
+          "title": "Informationssicherheit für Krankenhäuser | activeMind AG",
+          "url": "https://www.activemind.de/informationssicherheit/krankenhaus/",
+          "note": "External ISB/DSB service for hospitals under §75c/B3S"
+        },
+        {
+          "title": "B3S - Branchenspezifischer Sicherheitsstandard Krankenhaus",
+          "url": "https://datenschutzfachmann.eu/b3s-branchenspezifischer-sicherheitsstandard-krankenhaus/",
+          "note": "B3S ISMS with 168 measures; mandatory since 2022"
+        },
+        {
+          "title": "Informationssicherheit im Gesundheitswesen – DSN GROUP",
+          "url": "https://www.dsn-group.de/informationssicherheit/informationssicherheit-im-gesundheitswesen",
+          "note": "Hospital IT-security/ISMS consultancy"
+        }
+      ],
+      "confidence": 4,
+      "status": "grounded",
+      "child_ids": []
+    },
+    "medical-value-chain/payers-regulatory-ecosystem/healthcare-data-protection-labelling-compliance-services/external-data-protection-officer-dsb-for-healthcare/mvz-practice-group-external-dsb-ambulatory": {
+      "id": "medical-value-chain/payers-regulatory-ecosystem/healthcare-data-protection-labelling-compliance-services/external-data-protection-officer-dsb-for-healthcare/mvz-practice-group-external-dsb-ambulatory",
+      "name": "MVZ & practice-group external DSB (ambulatory)",
+      "parent_id": "medical-value-chain/payers-regulatory-ecosystem/healthcare-data-protection-labelling-compliance-services/external-data-protection-officer-dsb-for-healthcare",
+      "level": 4,
+      "path": [
+        "Medical value chain",
+        "Payers & Regulatory Ecosystem",
+        "Healthcare Data-Protection & Labelling Compliance Services",
+        "External Data-Protection Officer (DSB) for Healthcare",
+        "MVZ & practice-group external DSB (ambulatory)"
+      ],
+      "value_chain_stage": "services",
+      "description": "Flat-fee external data-protection officer for MVZ, Berufsausübungsgemeinschaften and larger practices, triggered once >=20 staff process patient data.",
+      "scores": {
+        "recurring": 5,
+        "fragmentation": 5,
+        "compliance": 5
+      },
+      "rationale": {
+        "recurring": "Sold as a fixed monthly subscription (from ~EUR 79-500/month) with rolling multi-year mandates.",
+        "fragmentation": "Highly fragmented: legal-tech platforms (fraghugo, proliance), lawyers (Spirit Legal, TYR) and QM/health specialists (datenschutzundgesundheit, qmedicus) all compete for tens of thousands of practices.",
+        "compliance": "DSGVO Art. 37 + §38 BDSG make a DSB mandatory at 20 processors; health data is Art. 9 special category."
+      },
+      "composite": 100.0,
+      "dach_signals": {
+        "est_players": "Several hundred providers (legal-tech + boutiques)",
+        "revenue_band_eur": "EUR 79-500/month per practice; portfolios of hundreds of clients",
+        "example_companies": [
+          "datenschutzundgesundheit.de",
+          "fraghugo",
+          "TYR.legal",
+          "QMedicus"
+        ],
+        "regulation": [
+          "DSGVO Art. 37 / Art. 9",
+          "§38 BDSG (20-person threshold)",
+          "MBO-Ä ärztliche Schweigepflicht",
+          "KBV Datenschutz"
+        ]
+      },
+      "sources": [
+        {
+          "title": "Externer Datenschutzbeauftragter Arztpraxen & MVZ ab 79 EUR/Monat | fraghugo",
+          "url": "https://www.fraghugo.de/externer-datenschutzbeauftragter-arztpraxen/",
+          "note": "Subscription pricing and MVZ scope"
+        },
+        {
+          "title": "Externer Datenschutzbeauftragter für Arztpraxen & MVZ – TYR",
+          "url": "https://tyr.legal/datenschutz-arztpraxis-mvz/",
+          "note": "Legal DSB provider for MVZ"
+        },
+        {
+          "title": "Externer Datenschutzbeauftragter – Kosten für Arztpraxis & Apotheke",
+          "url": "https://www.datenschutzundgesundheit.de/kosten-externer-datenschutzbeauftragter/",
+          "note": "20-person threshold and monthly cost bands"
+        }
+      ],
+      "confidence": 4,
+      "status": "grounded",
+      "child_ids": []
+    },
+    "medical-value-chain/payers-regulatory-ecosystem/healthcare-data-protection-labelling-compliance-services/external-data-protection-officer-dsb-for-healthcare/pharma-medtech-external-dsb-life-sciences-specialist": {
+      "id": "medical-value-chain/payers-regulatory-ecosystem/healthcare-data-protection-labelling-compliance-services/external-data-protection-officer-dsb-for-healthcare/pharma-medtech-external-dsb-life-sciences-specialist",
+      "name": "Pharma & medtech external DSB (life-sciences specialist)",
+      "parent_id": "medical-value-chain/payers-regulatory-ecosystem/healthcare-data-protection-labelling-compliance-services/external-data-protection-officer-dsb-for-healthcare",
+      "level": 4,
+      "path": [
+        "Medical value chain",
+        "Payers & Regulatory Ecosystem",
+        "Healthcare Data-Protection & Labelling Compliance Services",
+        "External Data-Protection Officer (DSB) for Healthcare",
+        "Pharma & medtech external DSB (life-sciences specialist)"
+      ],
+      "value_chain_stage": "services",
+      "description": "External DSB mandates for pharma, biotech and medical-device companies where clinical-trial, patient-support-programme and connected-device data raise Art. 9 and cross-border complexity.",
+      "scores": {
+        "recurring": 5,
+        "fragmentation": 4,
+        "compliance": 5
+      },
+      "rationale": {
+        "recurring": "Long-term DSB appointment plus recurring DPIA/records-of-processing upkeep as product portfolios evolve.",
+        "fragmentation": "Specialist life-sciences privacy boutiques (dataandlaw, Proliance) sit alongside big-four/TÜV; expertise gate keeps it fragmented.",
+        "compliance": "DSGVO + sector rules (clinical-trial data, health Art. 9, international transfers) drive mandatory spend."
+      },
+      "composite": 91.7,
+      "dach_signals": {
+        "est_players": "~50-150 life-sciences-focused privacy providers",
+        "revenue_band_eur": "EUR 2-15k/month retainer per company",
+        "example_companies": [
+          "dataandlaw",
+          "Proliance GmbH",
+          "intersoft consulting services AG",
+          "TÜV SÜD"
+        ],
+        "regulation": [
+          "DSGVO Art. 9 / Art. 37",
+          "BDSG",
+          "Clinical Trials Regulation 536/2014",
+          "international transfer rules (SCC)"
+        ]
+      },
+      "sources": [
+        {
+          "title": "dataandlaw – Datenschutz, Compliance, KI und Cybersecurity",
+          "url": "https://dataandlaw.com/",
+          "note": "Privacy team with medical-device/healthcare background"
+        },
+        {
+          "title": "Externer Datenschutzbeauftragter (DSB) vom Experten | Proliance",
+          "url": "https://www.proliance.ai/loesungen/externer-datenschutzbeauftragter",
+          "note": "External DSB provider covering regulated industries"
+        },
+        {
+          "title": "Datenschutz im Gesundheitswesen | intersoft consulting",
+          "url": "https://www.intersoft-consulting.de/datenschutzberatung/gesundheitswesen/",
+          "note": "Health-data (incl. pharma) privacy consulting"
+        }
+      ],
+      "confidence": 3,
+      "status": "grounded",
+      "child_ids": []
+    },
+    "medical-value-chain/payers-regulatory-ecosystem/healthcare-data-protection-labelling-compliance-services/external-data-protection-officer-dsb-for-healthcare/dsgvo-audit-isms-as-a-service-iso-27001-nis2-dora": {
+      "id": "medical-value-chain/payers-regulatory-ecosystem/healthcare-data-protection-labelling-compliance-services/external-data-protection-officer-dsb-for-healthcare/dsgvo-audit-isms-as-a-service-iso-27001-nis2-dora",
+      "name": "DSGVO audit & ISMS-as-a-service (ISO 27001 / NIS2 / DORA)",
+      "parent_id": "medical-value-chain/payers-regulatory-ecosystem/healthcare-data-protection-labelling-compliance-services/external-data-protection-officer-dsb-for-healthcare",
+      "level": 4,
+      "path": [
+        "Medical value chain",
+        "Payers & Regulatory Ecosystem",
+        "Healthcare Data-Protection & Labelling Compliance Services",
+        "External Data-Protection Officer (DSB) for Healthcare",
+        "DSGVO audit & ISMS-as-a-service (ISO 27001 / NIS2 / DORA)"
+      ],
+      "value_chain_stage": "services",
+      "description": "Recurring managed audits and outsourced ISMS operation (gap assessment, TOM review, ISO 27001 readiness) sold as a subscription to healthcare and life-sciences clients now also caught by NIS2 and DORA.",
+      "scores": {
+        "recurring": 4,
+        "fragmentation": 4,
+        "compliance": 5
+      },
+      "rationale": {
+        "recurring": "'as-a-service' packaging plus annual surveillance audits and continuous NIS2/DORA monitoring create repeat revenue.",
+        "fragmentation": "Mix of IT-security houses (iKomm), privacy boutiques (activeMind) and certifiers; no dominant player.",
+        "compliance": "ISO 27001, NIS2 (2024/2555) and DORA turn security governance into mandatory, audited spend for KRITIS healthcare entities."
+      },
+      "composite": 83.3,
+      "dach_signals": {
+        "est_players": "~200+ ISMS/security consultancies (subset healthcare-focused)",
+        "revenue_band_eur": "EUR 1-10k/month managed ISMS; audits EUR 8-40k",
+        "example_companies": [
+          "iKomm GmbH",
+          "activeMind AG",
+          "TÜV SÜD"
+        ],
+        "regulation": [
+          "ISO/IEC 27001",
+          "NIS2 (EU 2022/2555)",
+          "DORA",
+          "BSI KRITIS",
+          "DSGVO Art. 32"
+        ]
+      },
+      "sources": [
+        {
+          "title": "Informationssicherheit (ISMS) – iKomm GmbH",
+          "url": "https://www.ikomm.de/informationssicherheit-isms/",
+          "note": "ISMS-as-a-service offering"
+        },
+        {
+          "title": "Informationssicherheit für Krankenhäuser | activeMind AG",
+          "url": "https://www.activemind.de/informationssicherheit/krankenhaus/",
+          "note": "ISMS build and audit incl. NIS2/KRITIS context"
+        }
+      ],
+      "confidence": 3,
+      "status": "grounded",
+      "child_ids": []
+    },
+    "medical-value-chain/pharmaceuticals-biotech/gxp-gmp-compliance-services/gmp-gxp-consulting-auditing/computerised-system-validation-csv-csa": {
+      "id": "medical-value-chain/pharmaceuticals-biotech/gxp-gmp-compliance-services/gmp-gxp-consulting-auditing/computerised-system-validation-csv-csa",
+      "name": "Computerised-system validation (CSV / CSA)",
+      "parent_id": "medical-value-chain/pharmaceuticals-biotech/gxp-gmp-compliance-services/gmp-gxp-consulting-auditing",
+      "level": 4,
+      "path": [
+        "Medical value chain",
+        "Pharmaceuticals & Biotech",
+        "GxP / GMP Compliance Services",
+        "GMP/GxP consulting & auditing",
+        "Computerised-system validation (CSV / CSA)"
+      ],
+      "value_chain_stage": "services",
+      "description": "Validation of GxP-relevant IT and software (ERP, LIMS, MES, cloud) to GAMP 5 2nd ed., EU GMP Annex 11 and 21 CFR Part 11, increasingly using the FDA's risk-based CSA approach.",
+      "scores": {
+        "recurring": 4,
+        "fragmentation": 4,
+        "compliance": 5
+      },
+      "rationale": {
+        "recurring": "Each system upgrade, patch and periodic review re-triggers revalidation; large clients run continuous programmes.",
+        "fragmentation": "Many specialised houses (DHC, Valicare, Network Assistance, qbiq) plus freelancers; no consolidator.",
+        "compliance": "Annex 11 / 21 CFR Part 11 make CSV mandatory for all GxP computerised systems; data-integrity focus is intensifying."
+      },
+      "composite": 83.3,
+      "dach_signals": {
+        "est_players": "~100-200 CSV consultancies/freelancers in DACH",
+        "revenue_band_eur": "EUR 800-1,400/day; projects EUR 20-150k",
+        "example_companies": [
+          "DHC Dr. Herterich & Consultants",
+          "Valicare GmbH",
+          "Network Assistance GmbH",
+          "qbiq"
+        ],
+        "regulation": [
+          "EU GMP Annex 11",
+          "21 CFR Part 11",
+          "GAMP 5 (2nd edition)",
+          "FDA CSA guidance (2022)",
+          "ALCOA+ data integrity"
+        ]
+      },
+      "sources": [
+        {
+          "title": "GxP Compliance & CSV / Software Validation – DHC",
+          "url": "https://www.dhc-consulting.com/en/gxp-compliance/",
+          "note": "25+ yrs CSV in pharma/medtech"
+        },
+        {
+          "title": "Computer System Validation (CSV) – Valicare GmbH",
+          "url": "https://www.valicare.com/en/qualification-validation/computer-system-validation-csv/",
+          "note": "GAMP 5 2nd ed CSV for GLP/GCP/GMP"
+        },
+        {
+          "title": "Computer System Validation (CSV) for Pharma – Network Assistance",
+          "url": "https://computervalidierung.berlin/computer-system-validation/",
+          "note": "CSVMP aligned to GAMP 5 2nd ed and FDA CSA"
+        }
+      ],
+      "confidence": 4,
+      "status": "grounded",
+      "child_ids": []
+    },
+    "medical-value-chain/pharmaceuticals-biotech/gxp-gmp-compliance-services/gmp-gxp-consulting-auditing/qp-on-demand-qp-as-a-service-sachkundige-person-14-amg": {
+      "id": "medical-value-chain/pharmaceuticals-biotech/gxp-gmp-compliance-services/gmp-gxp-consulting-auditing/qp-on-demand-qp-as-a-service-sachkundige-person-14-amg",
+      "name": "QP-on-demand / QP-as-a-service (Sachkundige Person §14 AMG)",
+      "parent_id": "medical-value-chain/pharmaceuticals-biotech/gxp-gmp-compliance-services/gmp-gxp-consulting-auditing",
+      "level": 4,
+      "path": [
+        "Medical value chain",
+        "Pharmaceuticals & Biotech",
+        "GxP / GMP Compliance Services",
+        "GMP/GxP consulting & auditing",
+        "QP-on-demand / QP-as-a-service (Sachkundige Person §14 AMG)"
+      ],
+      "value_chain_stage": "services",
+      "description": "Freelance or interim Qualified Person / Sachkundige Person mandates for batch certification and release, covering vacancies, ramp-ups and small manufacturers who cannot justify a full-time QP.",
+      "scores": {
+        "recurring": 4,
+        "fragmentation": 4,
+        "compliance": 5
+      },
+      "rationale": {
+        "recurring": "Named-person mandates run for years; batch-release duties recur with every production lot.",
+        "fragmentation": "Scarce qualified individuals supplied via boutiques (pates, ENTOURAGE) and independents; talent-gated and fragmented.",
+        "compliance": "§§14/15/19 AMG and EU GMP Annex 16 make a named QP legally mandatory for release; no product ships without it."
+      },
+      "composite": 83.3,
+      "dach_signals": {
+        "est_players": "Dozens of QP-service boutiques + independent QPs",
+        "revenue_band_eur": "EUR 1,000-1,800/day; retained mandates EUR 3-12k/month",
+        "example_companies": [
+          "pates AG",
+          "ENTOURAGE (theentourage.de)"
+        ],
+        "regulation": [
+          "§14 / §15 / §19 AMG",
+          "EU GMP Annex 16",
+          "Directive 2001/83/EC",
+          "AMWHV"
+        ]
+      },
+      "sources": [
+        {
+          "title": "Qualified Person / Sachkundige Person gem. §14 AMG – pates AG",
+          "url": "https://www.pates-experts.com/stellenangebote/6297-qualified-person-sachkundige-person-gem-%C2%A714-amg-m-w/",
+          "note": "QP staffing/service provider"
+        },
+        {
+          "title": "Was ist eine Sachkundige Person nach §14 AMG – PTS",
+          "url": "https://www.pts.eu/fragen/was-ist-eine-sachkundige-person-nach-dem-amg-%C2%A7-14-arzneimittelgesetz-qualified-person-qp/",
+          "note": "Legal QP role and §15 qualification requirements"
+        }
+      ],
+      "confidence": 3,
+      "status": "grounded",
+      "child_ids": []
+    },
+    "medical-value-chain/pharmaceuticals-biotech/gxp-gmp-compliance-services/gmp-gxp-consulting-auditing/cleanroom-gmp-qualification-validation-dq-iq-oq-pq": {
+      "id": "medical-value-chain/pharmaceuticals-biotech/gxp-gmp-compliance-services/gmp-gxp-consulting-auditing/cleanroom-gmp-qualification-validation-dq-iq-oq-pq",
+      "name": "Cleanroom & GMP qualification/validation (DQ/IQ/OQ/PQ)",
+      "parent_id": "medical-value-chain/pharmaceuticals-biotech/gxp-gmp-compliance-services/gmp-gxp-consulting-auditing",
+      "level": 4,
+      "path": [
+        "Medical value chain",
+        "Pharmaceuticals & Biotech",
+        "GxP / GMP Compliance Services",
+        "GMP/GxP consulting & auditing",
+        "Cleanroom & GMP qualification/validation (DQ/IQ/OQ/PQ)"
+      ],
+      "value_chain_stage": "services",
+      "description": "Field qualification and periodic re-qualification of cleanrooms, HVAC and equipment to EU GMP Annex 1, ISO 14644 and VDI 2083, including particle/airflow measurement and mapping.",
+      "scores": {
+        "recurring": 5,
+        "fragmentation": 5,
+        "compliance": 5
+      },
+      "rationale": {
+        "recurring": "Requalification is cyclical (typically annual/biennial) per Annex 1, plus post-change qualification.",
+        "fragmentation": "Very fragmented: many owner-operated metrology/qualification firms (GMP Reinraum Service, QP-Engineering, HG Messtechnik, bc-technology) plus Testo.",
+        "compliance": "Revised EU GMP Annex 1 (2023) and ISO 14644 make qualification mandatory for sterile/aseptic manufacturing."
+      },
+      "composite": 100.0,
+      "dach_signals": {
+        "est_players": "~100+ cleanroom qualification/metrology firms in DACH",
+        "revenue_band_eur": "EUR 1-5m typical; day rates EUR 900-1,300",
+        "example_companies": [
+          "Testo Industrial Services",
+          "GMP Reinraum Service",
+          "QP-Engineering",
+          "bc-technology",
+          "HG Messtechnik"
+        ],
+        "regulation": [
+          "EU GMP Annex 1 (2023 revision)",
+          "DIN EN ISO 14644",
+          "VDI 2083",
+          "ICH Q9 (QRM)"
+        ]
+      },
+      "sources": [
+        {
+          "title": "Cleanroom qualification – Testo Industrial Services",
+          "url": "https://www.testotis.com/services/qualification/cleanroom-qualification",
+          "note": "Annex 1 / ISO 14644 / VDI 2083 qualification"
+        },
+        {
+          "title": "Reinraumqualifizierung nach EG GMP – GMP Reinraum Service",
+          "url": "https://www.gmp-reinraumservice.de/leistungen/reinraum-qualifizierung",
+          "note": "ISO 14644 + EU GMP qualification and maintenance"
+        },
+        {
+          "title": "Reinraum qualifizieren nach GMP-Standards – QP-Engineering",
+          "url": "https://qp-eng.de/reinraum-qualifizieren/",
+          "note": "Full DQ/IQ/OQ/PQ validation to Annex 1"
+        }
+      ],
+      "confidence": 4,
+      "status": "grounded",
+      "child_ids": []
+    },
+    "medical-value-chain/pharmaceuticals-biotech/gxp-gmp-compliance-services/gmp-gxp-consulting-auditing/gdp-cold-chain-audits-good-distribution-practice": {
+      "id": "medical-value-chain/pharmaceuticals-biotech/gxp-gmp-compliance-services/gmp-gxp-consulting-auditing/gdp-cold-chain-audits-good-distribution-practice",
+      "name": "GDP & cold-chain audits (Good Distribution Practice)",
+      "parent_id": "medical-value-chain/pharmaceuticals-biotech/gxp-gmp-compliance-services/gmp-gxp-consulting-auditing",
+      "level": 4,
+      "path": [
+        "Medical value chain",
+        "Pharmaceuticals & Biotech",
+        "GxP / GMP Compliance Services",
+        "GMP/GxP consulting & auditing",
+        "GDP & cold-chain audits (Good Distribution Practice)"
+      ],
+      "value_chain_stage": "services",
+      "description": "GDP consulting and audit services for pharma wholesalers and logistics providers: temperature mapping, transport validation, cold-chain deviation handling and outsourced-activity audits under GDP Chapter 7.",
+      "scores": {
+        "recurring": 4,
+        "fragmentation": 4,
+        "compliance": 5
+      },
+      "rationale": {
+        "recurring": "Warehouses need periodic (re-)mapping and wholesalers must audit each logistics provider at regular intervals.",
+        "fragmentation": "Specialist GDP institutes (EIPL), QP-auditors and training houses plus a long tail of freelancers.",
+        "compliance": "GDP Guideline 2013/C 343/01 makes qualification, mapping and supplier audits mandatory for §52a AMG wholesale licences."
+      },
+      "composite": 83.3,
+      "dach_signals": {
+        "est_players": "~50-100 GDP consultancy/audit providers",
+        "revenue_band_eur": "EUR 900-1,500/day; audit engagements EUR 3-20k",
+        "example_companies": [
+          "EIPL Institute",
+          "allcox",
+          "Movianto Deutschland"
+        ],
+        "regulation": [
+          "EU GDP Guideline 2013/C 343/01 (Ch. 7 & 9)",
+          "§52a AMG",
+          "temperature mapping / ISPE cold-chain"
+        ]
+      },
+      "sources": [
+        {
+          "title": "GDP Audit – prüfend | EIPL Institute",
+          "url": "https://www.eipl-institute.eu/de/dienstleistungen-de/gdp-audit-prüfend",
+          "note": "Third-party GDP audit service provider"
+        },
+        {
+          "title": "Pharma Logistik 2026: GDP, Kühlkette, Mapping | allcox",
+          "url": "https://allcox.de/logistikbranche/pharma-logistik-2026/",
+          "note": "Cold-chain mapping and GDP obligations"
+        }
+      ],
+      "confidence": 3,
+      "status": "grounded",
+      "child_ids": []
+    },
+    "medical-value-chain/pharmaceuticals-biotech/gxp-gmp-compliance-services/gmp-gxp-consulting-auditing/supplier-lohnhersteller-contract-manufacturer-auditing": {
+      "id": "medical-value-chain/pharmaceuticals-biotech/gxp-gmp-compliance-services/gmp-gxp-consulting-auditing/supplier-lohnhersteller-contract-manufacturer-auditing",
+      "name": "Supplier & Lohnhersteller (contract-manufacturer) auditing",
+      "parent_id": "medical-value-chain/pharmaceuticals-biotech/gxp-gmp-compliance-services/gmp-gxp-consulting-auditing",
+      "level": 4,
+      "path": [
+        "Medical value chain",
+        "Pharmaceuticals & Biotech",
+        "GxP / GMP Compliance Services",
+        "GMP/GxP consulting & auditing",
+        "Supplier & Lohnhersteller (contract-manufacturer) auditing"
+      ],
+      "value_chain_stage": "services",
+      "description": "Third-party GMP audits of APIs, excipients, packaging suppliers, contract labs and contract manufacturers on behalf of MAHs, per EU GMP Chapter 7 and the VDI-EE 6306 best-practice for 3rd-party audits.",
+      "scores": {
+        "recurring": 4,
+        "fragmentation": 5,
+        "compliance": 5
+      },
+      "rationale": {
+        "recurring": "Suppliers/CMOs must be re-audited on a risk-based cycle (typically every 1-3 years) — a rolling audit programme.",
+        "fragmentation": "Fragmented pool of independent lead auditors and boutiques (zicura, blue-inspection, Hälsa Pharma, qualitaetswandel).",
+        "compliance": "EU GMP Chapter 7 + Annex 16 make supplier qualification and physical CMO/API audits mandatory; API audits are obligatory."
+      },
+      "composite": 91.7,
+      "dach_signals": {
+        "est_players": "~100+ GMP audit boutiques/independent auditors",
+        "revenue_band_eur": "EUR 1,200-2,500/audit-day incl. travel",
+        "example_companies": [
+          "zicura",
+          "blue inspection body",
+          "Hälsa Pharma Inspektionsstelle",
+          "Qualitätswandel"
+        ],
+        "regulation": [
+          "EU GMP Chapter 7 (outsourced activities)",
+          "EU GMP Annex 16",
+          "VDI-EE 6306 (3rd-party GMP audits)",
+          "API audit obligation"
+        ]
+      },
+      "sources": [
+        {
+          "title": "VDI-EE 6306 – 3rd-Party-GMP-Audits / Lieferantenaudits",
+          "url": "https://www.vdi.de/mitgliedschaft/vdi-richtlinien/details/vdi-ee-6306-3rd-party-gmp-audits-lieferantenaudits-in-der-pharmaindustrie",
+          "note": "Best-practice standard for third-party supplier audits"
+        },
+        {
+          "title": "Leistungen GMP Auditierung – zicura",
+          "url": "https://zicura.de/en/services-2/services-in-gmp-auditing/",
+          "note": "Contract GMP/supplier audit services"
+        },
+        {
+          "title": "Pflicht zu API-Audits – Lösungen für die Praxis (pharma-food)",
+          "url": "https://www.pharma-food.de/ausruestung/feststofftechnik/pflicht-zu-api-audits-loesungen-fuer-die-praxis.html",
+          "note": "Mandatory API audits; accredited third-party providers (Hälsa Pharma)"
+        }
+      ],
+      "confidence": 3,
+      "status": "grounded",
+      "child_ids": []
+    },
+    "medical-value-chain/payers-regulatory-ecosystem/regulatory-affairs-market-access-hta-pharmacovigilance-services/regulatory-affairs-mdr-consulting-medtech/mdr-technical-documentation-annex-ii-iii-authoring-remediation": {
+      "id": "medical-value-chain/payers-regulatory-ecosystem/regulatory-affairs-market-access-hta-pharmacovigilance-services/regulatory-affairs-mdr-consulting-medtech/mdr-technical-documentation-annex-ii-iii-authoring-remediation",
+      "name": "MDR technical documentation (Annex II/III authoring & remediation)",
+      "parent_id": "medical-value-chain/payers-regulatory-ecosystem/regulatory-affairs-market-access-hta-pharmacovigilance-services/regulatory-affairs-mdr-consulting-medtech",
+      "level": 4,
+      "path": [
+        "Medical value chain",
+        "Payers & Regulatory Ecosystem",
+        "Regulatory Affairs, Market Access, HTA & Pharmacovigilance Services",
+        "Regulatory Affairs / MDR Consulting (Medtech)",
+        "MDR technical documentation (Annex II/III authoring & remediation)"
+      ],
+      "value_chain_stage": "services",
+      "description": "Creation and MDR remediation of technical documentation (Device Master File, IFU, GSPR checklists, risk files) for all device classes under Regulation (EU) 2017/745.",
+      "scores": {
+        "recurring": 4,
+        "fragmentation": 5,
+        "compliance": 5
+      },
+      "rationale": {
+        "recurring": "Tech docs must be kept current over the product lifecycle and updated for each change/re-certification.",
+        "fragmentation": "Long tail of RA boutiques and technical writers (WQS, ZINDEL, Hopp+Flaig, Trautmann, MDRC) plus Johner Institut.",
+        "compliance": "MDR Annex II/III makes complete technical documentation mandatory for market access for every class of device."
+      },
+      "composite": 91.7,
+      "dach_signals": {
+        "est_players": "~200+ RA/tech-doc consultancies & freelancers in DACH",
+        "revenue_band_eur": "EUR 900-1,400/day; per-device dossiers EUR 15-80k",
+        "example_companies": [
+          "WQS GmbH",
+          "ZINDEL AG",
+          "Hopp + Flaig",
+          "A. Trautmann",
+          "MDRC"
+        ],
+        "regulation": [
+          "MDR (EU) 2017/745 Annex II/III",
+          "ISO 13485",
+          "ISO 14971 (risk)",
+          "BfArM oversight"
+        ]
+      },
+      "sources": [
+        {
+          "title": "Technische Dokumentation für Medizinprodukte MDR – WQS",
+          "url": "https://us.wqs.de/",
+          "note": "MDR technical documentation service provider"
+        },
+        {
+          "title": "Technische Dokumentation – Hopp + Flaig",
+          "url": "https://www.hopp-flaig.de/dienstleistungen/themen/zulassung-von-medizinprodukten/mdr/technische-dokumentation/",
+          "note": "MDR tech-doc consulting"
+        },
+        {
+          "title": "Medical Device Regulation MDR – Johner Institut",
+          "url": "https://www.johner-institut.de/blog/regulatory-affairs/medical-device-regulation-mdr-medizinprodukteverordnung/",
+          "note": "MDR requirements incl. Annex II documentation"
+        }
+      ],
+      "confidence": 4,
+      "status": "grounded",
+      "child_ids": []
+    },
+    "medical-value-chain/payers-regulatory-ecosystem/regulatory-affairs-market-access-hta-pharmacovigilance-services/regulatory-affairs-mdr-consulting-medtech/clinical-evaluation-reports-cer-pmcf": {
+      "id": "medical-value-chain/payers-regulatory-ecosystem/regulatory-affairs-market-access-hta-pharmacovigilance-services/regulatory-affairs-mdr-consulting-medtech/clinical-evaluation-reports-cer-pmcf",
+      "name": "Clinical evaluation reports (CER) & PMCF",
+      "parent_id": "medical-value-chain/payers-regulatory-ecosystem/regulatory-affairs-market-access-hta-pharmacovigilance-services/regulatory-affairs-mdr-consulting-medtech",
+      "level": 4,
+      "path": [
+        "Medical value chain",
+        "Payers & Regulatory Ecosystem",
+        "Regulatory Affairs, Market Access, HTA & Pharmacovigilance Services",
+        "Regulatory Affairs / MDR Consulting (Medtech)",
+        "Clinical evaluation reports (CER) & PMCF"
+      ],
+      "value_chain_stage": "services",
+      "description": "Authoring of Clinical Evaluation Plans/Reports and Post-Market Clinical Follow-up plans/reports under MDR Annex XIV, including literature review and clinical-data gap analysis.",
+      "scores": {
+        "recurring": 5,
+        "fragmentation": 4,
+        "compliance": 5
+      },
+      "rationale": {
+        "recurring": "CERs must be updated periodically (often annually for higher-risk devices) and PMCF is continuous by design.",
+        "fragmentation": "Specialist clinical-affairs firms (Metecon, MEDIACC, TentaConsult, Heimed, NAMSA) plus freelance medical writers.",
+        "compliance": "MDR Annex XIV makes clinical evaluation and PMCF mandatory; PMCF is now compulsory for the evaluation cycle."
+      },
+      "composite": 91.7,
+      "dach_signals": {
+        "est_players": "~100-150 clinical-affairs/medical-writing providers",
+        "revenue_band_eur": "EUR 15-60k per CER; retained PMCF programmes EUR 20-100k/yr",
+        "example_companies": [
+          "Metecon GmbH",
+          "MEDIACC",
+          "TentaConsult",
+          "Heimed",
+          "MEC ABC"
+        ],
+        "regulation": [
+          "MDR (EU) 2017/745 Annex XIV",
+          "MEDDEV 2.7/1 rev.4",
+          "MDCG guidance on clinical evaluation"
+        ]
+      },
+      "sources": [
+        {
+          "title": "Klinische Bewertung von Medizinprodukten: Leitfaden – Metecon",
+          "url": "https://www.metecon.de/en/news/klinische-bewertung-leitfaden/u/1158/",
+          "note": "CER/PMCF process and services"
+        },
+        {
+          "title": "MDR Anhang XIV: Klinische Bewertung und PMCF – MEDIACC",
+          "url": "https://www.mediacc.de/medizinprodukte-wiki/inhalte-des-anhangs-xiv-der-mdr",
+          "note": "Annex XIV clinical evaluation & PMCF mandatory"
+        },
+        {
+          "title": "Klinischer Bewertungsprozess nach MDR – WQS",
+          "url": "https://wqs.de/klinischer-bewertungsprozess-mdr-cep-cer/",
+          "note": "CEP/CER authoring service"
+        }
+      ],
+      "confidence": 4,
+      "status": "grounded",
+      "child_ids": []
+    },
+    "medical-value-chain/payers-regulatory-ecosystem/regulatory-affairs-market-access-hta-pharmacovigilance-services/regulatory-affairs-mdr-consulting-medtech/udi-eudamed-registration-data-management": {
+      "id": "medical-value-chain/payers-regulatory-ecosystem/regulatory-affairs-market-access-hta-pharmacovigilance-services/regulatory-affairs-mdr-consulting-medtech/udi-eudamed-registration-data-management",
+      "name": "UDI & EUDAMED registration/data management",
+      "parent_id": "medical-value-chain/payers-regulatory-ecosystem/regulatory-affairs-market-access-hta-pharmacovigilance-services/regulatory-affairs-mdr-consulting-medtech",
+      "level": 4,
+      "path": [
+        "Medical value chain",
+        "Payers & Regulatory Ecosystem",
+        "Regulatory Affairs, Market Access, HTA & Pharmacovigilance Services",
+        "Regulatory Affairs / MDR Consulting (Medtech)",
+        "UDI & EUDAMED registration/data management"
+      ],
+      "value_chain_stage": "services",
+      "description": "Assignment of UDI, actor/device registration and ongoing EUDAMED data upload/maintenance for manufacturers, ARs and importers, now mandatory following EUDAMED go-live.",
+      "scores": {
+        "recurring": 4,
+        "fragmentation": 4,
+        "compliance": 5
+      },
+      "rationale": {
+        "recurring": "UDI/EUDAMED records need continuous maintenance for every new device, variant and change — an ongoing data-governance task.",
+        "fragmentation": "Mix of GS1 issuing agency, RA consultancies and software vendors (VDE, Johner, innovation.world); emerging niche.",
+        "compliance": "MDR Art. 27-31 mandate UDI and EUDAMED registration; four modules mandatory since May 2026 with 28 Nov 2026 legacy deadline."
+      },
+      "composite": 83.3,
+      "dach_signals": {
+        "est_players": "~50-100 providers (issuing agencies, RA firms, software)",
+        "revenue_band_eur": "EUR 5-40k setup; retained data-management EUR 1-5k/month",
+        "example_companies": [
+          "GS1 Germany",
+          "Johner Institut",
+          "VDE",
+          "innovation.world"
+        ],
+        "regulation": [
+          "MDR (EU) 2017/745 Art. 27-31",
+          "EUDAMED (mandatory modules 2026)",
+          "BfArM registration",
+          "GS1 UDI-DI"
+        ]
+      },
+      "sources": [
+        {
+          "title": "UDI für Medizinprodukte + IVD | GS1 Germany",
+          "url": "https://www.gs1-germany.de/branchen-themen/gesundheitswesen/udi/",
+          "note": "UDI issuing agency and assignment"
+        },
+        {
+          "title": "BfArM – Europa und EUDAMED",
+          "url": "https://www.bfarm.de/DE/Medizinprodukte/Ueberblick/Europa-und-EUDAMED/_node.html",
+          "note": "EUDAMED mandatory modules and deadlines"
+        },
+        {
+          "title": "EUDAMED: European Database on Medical Devices – Johner Institut",
+          "url": "https://www.johner-institut.de/blog/regulatory-affairs/eudamed/",
+          "note": "EUDAMED registration obligations and timelines"
+        }
+      ],
+      "confidence": 3,
+      "status": "grounded",
+      "child_ids": []
+    },
+    "medical-value-chain/payers-regulatory-ecosystem/regulatory-affairs-market-access-hta-pharmacovigilance-services/regulatory-affairs-mdr-consulting-medtech/notified-body-liaison-conformity-assessment-support": {
+      "id": "medical-value-chain/payers-regulatory-ecosystem/regulatory-affairs-market-access-hta-pharmacovigilance-services/regulatory-affairs-mdr-consulting-medtech/notified-body-liaison-conformity-assessment-support",
+      "name": "Notified-body liaison & conformity-assessment support",
+      "parent_id": "medical-value-chain/payers-regulatory-ecosystem/regulatory-affairs-market-access-hta-pharmacovigilance-services/regulatory-affairs-mdr-consulting-medtech",
+      "level": 4,
+      "path": [
+        "Medical value chain",
+        "Payers & Regulatory Ecosystem",
+        "Regulatory Affairs, Market Access, HTA & Pharmacovigilance Services",
+        "Regulatory Affairs / MDR Consulting (Medtech)",
+        "Notified-body liaison & conformity-assessment support"
+      ],
+      "value_chain_stage": "services",
+      "description": "Managing the manufacturer's dialogue with notified bodies through the conformity-assessment process: application strategy, deficiency-response management and audit preparation amid NB capacity shortages.",
+      "scores": {
+        "recurring": 3,
+        "fragmentation": 4,
+        "compliance": 5
+      },
+      "rationale": {
+        "recurring": "Re-certification cycles (~5 yrs) plus annual surveillance audits generate repeat engagements, though less continuous than tech-doc upkeep.",
+        "fragmentation": "RA consultancies and ex-NB auditors compete; the NB bottleneck sustains demand across many boutiques.",
+        "compliance": "MDR conformity assessment via a notified body is mandatory for all class IIa+ devices; NB scarcity makes expert liaison valuable."
+      },
+      "composite": 75.0,
+      "dach_signals": {
+        "est_players": "~100+ RA consultancies offering NB liaison",
+        "revenue_band_eur": "EUR 1,000-1,500/day; audit-prep projects EUR 10-50k",
+        "example_companies": [
+          "Johner Institut",
+          "TÜV SÜD (advisory)",
+          "Metecon"
+        ],
+        "regulation": [
+          "MDR (EU) 2017/745 (conformity assessment, Annex IX-XI)",
+          "MDCG guidance",
+          "notified-body designation rules"
+        ]
+      },
+      "sources": [
+        {
+          "title": "MDR-Zertifizierung für Medizinprodukte | TÜV SÜD",
+          "url": "https://www.tuvsud.com/de-de/branchen/gesundheit-und-medizintechnik/marktzulassung-und-zertifizierung-von-medizinprodukten/mdr-zertifizierung",
+          "note": "Notified-body conformity assessment process"
+        },
+        {
+          "title": "Medical Device Regulation MDR – Johner Institut",
+          "url": "https://www.johner-institut.de/blog/regulatory-affairs/medical-device-regulation-mdr-medizinprodukteverordnung/",
+          "note": "Conformity assessment routes and NB role"
+        }
+      ],
+      "confidence": 3,
+      "status": "grounded",
+      "child_ids": []
+    },
+    "medical-value-chain/payers-regulatory-ecosystem/regulatory-affairs-market-access-hta-pharmacovigilance-services/regulatory-affairs-mdr-consulting-medtech/ivdr-consulting-in-vitro-diagnostics": {
+      "id": "medical-value-chain/payers-regulatory-ecosystem/regulatory-affairs-market-access-hta-pharmacovigilance-services/regulatory-affairs-mdr-consulting-medtech/ivdr-consulting-in-vitro-diagnostics",
+      "name": "IVDR consulting (In-vitro diagnostics)",
+      "parent_id": "medical-value-chain/payers-regulatory-ecosystem/regulatory-affairs-market-access-hta-pharmacovigilance-services/regulatory-affairs-mdr-consulting-medtech",
+      "level": 4,
+      "path": [
+        "Medical value chain",
+        "Payers & Regulatory Ecosystem",
+        "Regulatory Affairs, Market Access, HTA & Pharmacovigilance Services",
+        "Regulatory Affairs / MDR Consulting (Medtech)",
+        "IVDR consulting (In-vitro diagnostics)"
+      ],
+      "value_chain_stage": "services",
+      "description": "IVDR (EU 2017/746) implementation for diagnostics: risk-class up-classification, performance evaluation, QMS and technical documentation as most IVDs now require notified-body involvement.",
+      "scores": {
+        "recurring": 4,
+        "fragmentation": 4,
+        "compliance": 5
+      },
+      "rationale": {
+        "recurring": "IVDR transition, performance-evaluation updates and QMS surveillance create multi-year engagements.",
+        "fragmentation": "Consultancies (Eurofins, senetics, WQS) and certifiers (SGS, TÜV SÜD) with a specialist long tail.",
+        "compliance": "IVDR mandates QMS by May 2025 and NB conformity assessment for ~85% of IVDs (vs ~20% under IVDD) — a step-change in mandatory spend."
+      },
+      "composite": 83.3,
+      "dach_signals": {
+        "est_players": "~50-100 IVDR-focused consultancies",
+        "revenue_band_eur": "EUR 900-1,400/day; transition projects EUR 30-150k",
+        "example_companies": [
+          "Eurofins MDS",
+          "senetics",
+          "WQS",
+          "SGS (NB)"
+        ],
+        "regulation": [
+          "IVDR (EU) 2017/746",
+          "performance evaluation (Annex XIII)",
+          "ISO 13485",
+          "PEI/BfArM oversight"
+        ]
+      },
+      "sources": [
+        {
+          "title": "In-Vitro-Diagnostik (IVD) und IVDR – Eurofins MDS",
+          "url": "https://www.eurofins.de/medical-device/consulting/in-vitro-diagnostik-ivd-und-ivdr/",
+          "note": "IVDR consulting services"
+        },
+        {
+          "title": "IVDR-Frist bis 26.05.2025 – Handlungsbedarf für IVD-Hersteller | senetics",
+          "url": "https://senetics.de/2025/05/ivdr-wichtige-frist-bis-26-mai-2025-handlungsbedarf-fuer-hersteller-von-in-vitro-diagnostika/",
+          "note": "IVDR QMS deadline and up-classification impact"
+        },
+        {
+          "title": "Verordnung über In-vitro-Diagnostika IVDR | TÜV SÜD",
+          "url": "https://www.tuvsud.com/de-de/branchen/gesundheit-und-medizintechnik/marktzulassung-und-zertifizierung-von-medizinprodukten/ivdr-in-vitro-diagnostika-verordnung",
+          "note": "IVDR conformity assessment scope"
+        }
+      ],
+      "confidence": 3,
+      "status": "grounded",
+      "child_ids": []
+    },
+    "medical-value-chain/payers-regulatory-ecosystem/regulatory-affairs-market-access-hta-pharmacovigilance-services/pharmacovigilance-outsourcing-qppv-stufenplanbeauftragter/eu-qppv-as-a-service": {
+      "id": "medical-value-chain/payers-regulatory-ecosystem/regulatory-affairs-market-access-hta-pharmacovigilance-services/pharmacovigilance-outsourcing-qppv-stufenplanbeauftragter/eu-qppv-as-a-service",
+      "name": "EU-QPPV as a service",
+      "parent_id": "medical-value-chain/payers-regulatory-ecosystem/regulatory-affairs-market-access-hta-pharmacovigilance-services/pharmacovigilance-outsourcing-qppv-stufenplanbeauftragter",
+      "level": 4,
+      "path": [
+        "Medical value chain",
+        "Payers & Regulatory Ecosystem",
+        "Regulatory Affairs, Market Access, HTA & Pharmacovigilance Services",
+        "Pharmacovigilance Outsourcing (QPPV / Stufenplanbeauftragter)",
+        "EU-QPPV as a service"
+      ],
+      "value_chain_stage": "services",
+      "description": "Outsourced EU/EEA Qualified Person Responsible for Pharmacovigilance holding 24/7 personal responsibility for the MAH's PV system, provided as outsourcing, interim or backup under a written QPPV mandate.",
+      "scores": {
+        "recurring": 5,
+        "fragmentation": 4,
+        "compliance": 5
+      },
+      "rationale": {
+        "recurring": "A named QPPV mandate is a standing, multi-year contractual obligation with 24/7 availability.",
+        "fragmentation": "Boutiques (CSO Pharma, ENTOURAGE, Proppert) and mid-caps (PharmaLex, Diapharm) share a talent-gated market.",
+        "compliance": "GVP Module I / Directive 2001/83/EC make a named EU-QPPV mandatory for every EU marketing authorisation holder."
+      },
+      "composite": 91.7,
+      "dach_signals": {
+        "est_players": "~30-60 QPPV-service providers active in DACH",
+        "revenue_band_eur": "EUR 3-15k/month retainer per MAH",
+        "example_companies": [
+          "CSO Pharma",
+          "ENTOURAGE",
+          "Diapharm",
+          "PharmaLex"
+        ],
+        "regulation": [
+          "GVP Module I",
+          "Directive 2001/83/EC",
+          "EMA QPPV requirements",
+          "§63b AMG"
+        ]
+      },
+      "sources": [
+        {
+          "title": "Qualified Person – QPPV | CSO Pharma",
+          "url": "https://www.cso-pharma.eu/en/services/pharmacovigilance/qualified-person-qppv.html",
+          "note": "Outsourced EU-QPPV service"
+        },
+        {
+          "title": "QPPV Services – Qualified Person for Pharmacovigilance on Demand | ENTOURAGE",
+          "url": "https://theentourage.de/en/expertise/qppv-services/",
+          "note": "Outsourcing/interim/backup QPPV"
+        },
+        {
+          "title": "Why more pharma companies are outsourcing their EU QPPV function | IQVIA",
+          "url": "https://www.iqvia.com/blogs/2025/07/why-more-pharma-companies-are-outsourcing-their-eu-qppv-function",
+          "note": "Market trend to outsource the QPPV role"
+        }
+      ],
+      "confidence": 4,
+      "status": "grounded",
+      "child_ids": []
+    },
+    "medical-value-chain/payers-regulatory-ecosystem/regulatory-affairs-market-access-hta-pharmacovigilance-services/pharmacovigilance-outsourcing-qppv-stufenplanbeauftragter/literature-monitoring-signal-management": {
+      "id": "medical-value-chain/payers-regulatory-ecosystem/regulatory-affairs-market-access-hta-pharmacovigilance-services/pharmacovigilance-outsourcing-qppv-stufenplanbeauftragter/literature-monitoring-signal-management",
+      "name": "Literature monitoring & signal management",
+      "parent_id": "medical-value-chain/payers-regulatory-ecosystem/regulatory-affairs-market-access-hta-pharmacovigilance-services/pharmacovigilance-outsourcing-qppv-stufenplanbeauftragter",
+      "level": 4,
+      "path": [
+        "Medical value chain",
+        "Payers & Regulatory Ecosystem",
+        "Regulatory Affairs, Market Access, HTA & Pharmacovigilance Services",
+        "Pharmacovigilance Outsourcing (QPPV / Stufenplanbeauftragter)",
+        "Literature monitoring & signal management"
+      ],
+      "value_chain_stage": "services",
+      "description": "Ongoing scientific-literature screening (Medline/Embase, local sources) and signal detection/evaluation feeding the MAH's safety database under GVP Modules VI and IX.",
+      "scores": {
+        "recurring": 5,
+        "fragmentation": 4,
+        "compliance": 5
+      },
+      "rationale": {
+        "recurring": "Literature screening is weekly/continuous and signal management runs on a fixed periodic cadence — pure recurring workload.",
+        "fragmentation": "Specialist PV agencies (LITERO, VigiPRO, sanofeld, PharmaSupport) plus freelancers on RA marketplaces.",
+        "compliance": "GVP Module VI (ICSR/literature) and IX (signals) make continuous monitoring legally mandatory for MAHs."
+      },
+      "composite": 91.7,
+      "dach_signals": {
+        "est_players": "~50-100 PV service agencies/freelancers in DACH",
+        "revenue_band_eur": "EUR 1-8k/month per product family; day rates EUR 700-1,200",
+        "example_companies": [
+          "LITERO GmbH",
+          "VigiPRO GmbH",
+          "sanofeld",
+          "PharmaSupport"
+        ],
+        "regulation": [
+          "GVP Module VI",
+          "GVP Module IX (signal management)",
+          "Art. 107 Directive 2001/83/EC",
+          "EudraVigilance"
+        ]
+      },
+      "sources": [
+        {
+          "title": "Signalmanagement – Pharmakovigilanz | LITERO GmbH",
+          "url": "https://www.litero-agency.com/de_pharmakovigilanz_signalmanagement.html",
+          "note": "Signal management and literature monitoring service"
+        },
+        {
+          "title": "Pharmakovigilanz | sanofeld",
+          "url": "https://sanofeld.de/pharmakovigilanz/",
+          "note": "Literature search and PV outsourcing"
+        },
+        {
+          "title": "Pharmakovigilanz – Dienstleister und Freelancer | regulatory-affairs-manager.com",
+          "url": "https://www.regulatory-affairs-manager.com/marktplatz/pharmakovigilanz/",
+          "note": "Marketplace of PV service providers/freelancers"
+        }
+      ],
+      "confidence": 3,
+      "status": "grounded",
+      "child_ids": []
+    },
+    "medical-value-chain/payers-regulatory-ecosystem/regulatory-affairs-market-access-hta-pharmacovigilance-services/pharmacovigilance-outsourcing-qppv-stufenplanbeauftragter/psur-pbrer-and-dsur-authoring": {
+      "id": "medical-value-chain/payers-regulatory-ecosystem/regulatory-affairs-market-access-hta-pharmacovigilance-services/pharmacovigilance-outsourcing-qppv-stufenplanbeauftragter/psur-pbrer-and-dsur-authoring",
+      "name": "PSUR / PBRER (and DSUR) authoring",
+      "parent_id": "medical-value-chain/payers-regulatory-ecosystem/regulatory-affairs-market-access-hta-pharmacovigilance-services/pharmacovigilance-outsourcing-qppv-stufenplanbeauftragter",
+      "level": 4,
+      "path": [
+        "Medical value chain",
+        "Payers & Regulatory Ecosystem",
+        "Regulatory Affairs, Market Access, HTA & Pharmacovigilance Services",
+        "Pharmacovigilance Outsourcing (QPPV / Stufenplanbeauftragter)",
+        "PSUR / PBRER (and DSUR) authoring"
+      ],
+      "value_chain_stage": "services",
+      "description": "Periodic aggregate safety report authoring — PSUR/PBRER and DSUR — including data collation, benefit-risk evaluation and PSUSA submission support under GVP Module VII.",
+      "scores": {
+        "recurring": 4,
+        "fragmentation": 4,
+        "compliance": 5
+      },
+      "rationale": {
+        "recurring": "PSURs/PBRERs are due on a fixed regulatory schedule per product (EURD list), generating predictable repeat work.",
+        "fragmentation": "PV agencies and medical-writing boutiques (Diapharm, PharmaSupport, sanofeld) plus freelancers.",
+        "compliance": "GVP Module VII / ICH E2C(R2) make periodic PBRER submission mandatory to EMA/national authorities."
+      },
+      "composite": 83.3,
+      "dach_signals": {
+        "est_players": "~50-100 PV/medical-writing providers",
+        "revenue_band_eur": "EUR 8-30k per PSUR/PBRER cycle",
+        "example_companies": [
+          "Diapharm",
+          "PharmaSupport",
+          "sanofeld",
+          "CSO Pharma"
+        ],
+        "regulation": [
+          "GVP Module VII",
+          "ICH E2C(R2) PBRER",
+          "EURD list / PSUSA",
+          "§63b AMG"
+        ]
+      },
+      "sources": [
+        {
+          "title": "PharmaSupport: Pharmakovigilanz",
+          "url": "https://www.pharmasupport.de/dienstleistungen/pharmakovigilanz",
+          "note": "PSUR/DSUR creation, RMP, PSMF services"
+        },
+        {
+          "title": "Effiziente Gestaltung von Pharmakovigilanz-Systemen | Diapharm",
+          "url": "https://www.diapharm.com/news/effiziente-gestaltung-von-pharmakovigilanz-systemen/",
+          "note": "Outsourced PV system incl. aggregate reporting"
+        }
+      ],
+      "confidence": 3,
+      "status": "grounded",
+      "child_ids": []
+    },
+    "medical-value-chain/payers-regulatory-ecosystem/regulatory-affairs-market-access-hta-pharmacovigilance-services/pharmacovigilance-outsourcing-qppv-stufenplanbeauftragter/local-safety-officer-stufenplanbeauftragter-63a-amg": {
+      "id": "medical-value-chain/payers-regulatory-ecosystem/regulatory-affairs-market-access-hta-pharmacovigilance-services/pharmacovigilance-outsourcing-qppv-stufenplanbeauftragter/local-safety-officer-stufenplanbeauftragter-63a-amg",
+      "name": "Local safety officer – Stufenplanbeauftragter (§63a AMG)",
+      "parent_id": "medical-value-chain/payers-regulatory-ecosystem/regulatory-affairs-market-access-hta-pharmacovigilance-services/pharmacovigilance-outsourcing-qppv-stufenplanbeauftragter",
+      "level": 4,
+      "path": [
+        "Medical value chain",
+        "Payers & Regulatory Ecosystem",
+        "Regulatory Affairs, Market Access, HTA & Pharmacovigilance Services",
+        "Pharmacovigilance Outsourcing (QPPV / Stufenplanbeauftragter)",
+        "Local safety officer – Stufenplanbeauftragter (§63a AMG)"
+      ],
+      "value_chain_stage": "services",
+      "description": "Externally appointed German Graduated Plan Officer responsible for collecting, assessing and coordinating drug-risk reports and reporting obligations, provided on an interim or permanent outsourced basis.",
+      "scores": {
+        "recurring": 5,
+        "fragmentation": 4,
+        "compliance": 5
+      },
+      "rationale": {
+        "recurring": "A named, authority-notified standing mandate — a permanent recurring role for every German pharmaceutical entrepreneur.",
+        "fragmentation": "Supplied by PV boutiques and independents (Diapharm, sanofeld, CSO Pharma); talent-gated and fragmented.",
+        "compliance": "§63a AMG makes a named Stufenplanbeauftragter mandatory; the competent authority must be notified in advance of the person and any change."
+      },
+      "composite": 91.7,
+      "dach_signals": {
+        "est_players": "~30-60 providers offering external Stufenplanbeauftragter",
+        "revenue_band_eur": "EUR 2-10k/month retainer per MAH",
+        "example_companies": [
+          "Diapharm",
+          "sanofeld",
+          "CSO Pharma"
+        ],
+        "regulation": [
+          "§63a AMG",
+          "§63b AMG",
+          "GVP Module I",
+          "BfArM/PEI PV inspections"
+        ]
+      },
+      "sources": [
+        {
+          "title": "§ 63a AMG – Stufenplanbeauftragter | gesetze-im-internet.de",
+          "url": "https://www.gesetze-im-internet.de/amg_1976/__63a.html",
+          "note": "Legal basis for the mandatory Graduated Plan Officer"
+        },
+        {
+          "title": "Bestätigung externe/r Stufenplanbeauftragte/r (§63a AMG) | HLfGP Hessen",
+          "url": "https://hlfgp.hessen.de/sites/hlfgp.hessen.de/files/2024-05/anlage_bestaetigung_externer_stufenplanbeauftragter.pdf",
+          "note": "Official form confirming an external Stufenplanbeauftragter is permitted"
+        },
+        {
+          "title": "Pharmakovigilanz Services | CSO Pharma",
+          "url": "https://www.cso-pharma.eu/en/services/pharmacovigilance.html",
+          "note": "Local/national responsible PV person services incl. GPO"
+        }
+      ],
+      "confidence": 4,
+      "status": "grounded",
+      "child_ids": []
+    },
+    "medical-value-chain/medical-devices-equipment/medical-equipment-servicing-inspection-maintenance-medizintechnik-service/multivendor-imaging-radiology-equipment-service-mrt-ct-rontgen": {
+      "id": "medical-value-chain/medical-devices-equipment/medical-equipment-servicing-inspection-maintenance-medizintechnik-service/multivendor-imaging-radiology-equipment-service-mrt-ct-rontgen",
+      "name": "Multivendor imaging/radiology equipment service (MRT/CT/Röntgen)",
+      "parent_id": "medical-value-chain/medical-devices-equipment/medical-equipment-servicing-inspection-maintenance-medizintechnik-service",
+      "level": 3,
+      "path": [
+        "Medical value chain",
+        "Medical Devices & Equipment",
+        "Medical Equipment Servicing, Inspection & Maintenance (Medizintechnik-Service)",
+        "Multivendor imaging/radiology equipment service (MRT/CT/Röntgen)"
+      ],
+      "value_chain_stage": "services",
+      "description": "Manufacturer-independent (ISO) maintenance, repair, spare-part supply and uptime contracts for high-value imaging modalities (CT, MRI, X-ray, angiography) in DACH clinics and radiology practices, competing with OEM service (Siemens Healthineers, GE, Philips).",
+      "scores": {
+        "recurring": 4,
+        "fragmentation": 3,
+        "compliance": 3
+      },
+      "rationale": {
+        "recurring": "Tiered flat-rate service contracts (e.g. Medser Bronze/Silver/Gold) create multi-year recurring revenue on capital-critical machines",
+        "fragmentation": "OEMs dominate installed base but a long tail of independents (Meva, MSG, Medser, MRT GmbH) contest off-warranty machines",
+        "compliance": "MPBetreibV maintenance duty and StrlSchG apply, but purchase driver is uptime/cost vs OEM rather than a legal mandate"
+      },
+      "composite": 58.3,
+      "dach_signals": {
+        "est_players": "~50-150 independent imaging-service firms",
+        "revenue_band_eur": "EUR 2-30m (independents), OEM service arms far larger",
+        "example_companies": [
+          "Meva bildgebende Systeme GmbH & Co. KG",
+          "MRT Medizin- und Röntgentechnik GmbH",
+          "Medser",
+          "MSG Medical Solutions Germany GmbH"
+        ],
+        "regulation": [
+          "MPBetreibV",
+          "StrlSchG/StrlSchV",
+          "DIN 6868 (Konstanzprüfung)"
+        ]
+      },
+      "sources": [
+        {
+          "title": "MRT Medizin- und Röntgentechnik GmbH",
+          "url": "https://www.mrt-xray.de/",
+          "note": "manufacturer-independent imaging service from server to workstation"
+        },
+        {
+          "title": "Medser CT-Services",
+          "url": "https://medser.de/en/ct-services/",
+          "note": "tiered Bronze/Silver/Gold flat-rate CT maintenance contracts"
+        },
+        {
+          "title": "MSG Medical Solutions Germany GmbH",
+          "url": "https://med-technik.net/en/service-mri-ct/",
+          "note": "independent MRI/CT service network since 2007"
+        }
+      ],
+      "confidence": 3,
+      "status": "grounded",
+      "child_ids": []
+    },
+    "medical-value-chain/medical-devices-equipment/medical-equipment-servicing-inspection-maintenance-medizintechnik-service/anaesthesia-ventilator-service-narkose-beatmungsgerate": {
+      "id": "medical-value-chain/medical-devices-equipment/medical-equipment-servicing-inspection-maintenance-medizintechnik-service/anaesthesia-ventilator-service-narkose-beatmungsgerate",
+      "name": "Anaesthesia & ventilator service (Narkose-/Beatmungsgeräte)",
+      "parent_id": "medical-value-chain/medical-devices-equipment/medical-equipment-servicing-inspection-maintenance-medizintechnik-service",
+      "level": 3,
+      "path": [
+        "Medical value chain",
+        "Medical Devices & Equipment",
+        "Medical Equipment Servicing, Inspection & Maintenance (Medizintechnik-Service)",
+        "Anaesthesia & ventilator service (Narkose-/Beatmungsgeräte)"
+      ],
+      "value_chain_stage": "services",
+      "description": "Independent servicing, STK and repair of life-support respiratory and anaesthesia workstations for OR, ICU and emergency use in DACH hospitals and clinics.",
+      "scores": {
+        "recurring": 5,
+        "fragmentation": 3,
+        "compliance": 5
+      },
+      "rationale": {
+        "recurring": "Anlage-1 life-support devices require mandatory STK at fixed intervals plus manufacturer-specified maintenance, locking in recurring visits",
+        "fragmentation": "Niche technical barrier keeps this to regional specialists plus OEM service; fewer pure-play firms than commodity testing",
+        "compliance": "Highest-risk Anlage 1 class under §11 MPBetreibV makes STK and maintenance legally mandatory"
+      },
+      "composite": 83.3,
+      "dach_signals": {
+        "est_players": "~100-300 firms (often within broader Medizintechnik-Service)",
+        "revenue_band_eur": "EUR 0.5-5m typical",
+        "example_companies": [
+          "CRS Medical",
+          "EBA AG",
+          "WiBU ServicePlus"
+        ],
+        "regulation": [
+          "§11 MPBetreibV (STK)",
+          "DIN EN 62353",
+          "Anlage 1 MPBetreibV"
+        ]
+      },
+      "sources": [
+        {
+          "title": "EBA AG Narkose- & Beatmungsgeräte",
+          "url": "https://www.eba-ag.de/medizintechnik/angebote/",
+          "note": "sale and independent maintenance of anaesthesia/ventilation devices"
+        },
+        {
+          "title": "WiBU ServicePlus Prüfung und Wartung von Medizinprodukten",
+          "url": "https://www.wibu.care/de-de/wartung-reparatur/leistungen/pruefung-und-wartung-von-medizinprodukten/",
+          "note": "independent inspection/maintenance of medical devices per MPBetreibV"
+        }
+      ],
+      "confidence": 3,
+      "status": "grounded",
+      "child_ids": []
+    },
+    "medical-value-chain/medical-devices-equipment/medical-equipment-servicing-inspection-maintenance-medizintechnik-service/dialysis-machine-service-dialysegerate": {
+      "id": "medical-value-chain/medical-devices-equipment/medical-equipment-servicing-inspection-maintenance-medizintechnik-service/dialysis-machine-service-dialysegerate",
+      "name": "Dialysis machine service (Dialysegeräte)",
+      "parent_id": "medical-value-chain/medical-devices-equipment/medical-equipment-servicing-inspection-maintenance-medizintechnik-service",
+      "level": 3,
+      "path": [
+        "Medical value chain",
+        "Medical Devices & Equipment",
+        "Medical Equipment Servicing, Inspection & Maintenance (Medizintechnik-Service)",
+        "Dialysis machine service (Dialysegeräte)"
+      ],
+      "value_chain_stage": "services",
+      "description": "Maintenance, water-treatment and repair services for haemodialysis machines across DACH dialysis centres and nephrology units, an installed base heavily tied to Fresenius/B.Braun.",
+      "scores": {
+        "recurring": 5,
+        "fragmentation": 2,
+        "compliance": 4
+      },
+      "rationale": {
+        "recurring": "Continuous-use renal devices need frequent scheduled maintenance and STK, driving dense recurring service",
+        "fragmentation": "Highly concentrated: Fresenius and B.Braun dominate both device supply and service, leaving few independents (e.g. CRS Medical)",
+        "compliance": "MPBetreibV STK obligations and water-quality/hygiene norms make servicing largely non-discretionary"
+      },
+      "composite": 66.7,
+      "dach_signals": {
+        "est_players": "~10-40 independent service firms",
+        "revenue_band_eur": "EUR 0.5-5m (independents)",
+        "example_companies": [
+          "CRS Medical",
+          "WiBU ServicePlus"
+        ],
+        "regulation": [
+          "§11 MPBetreibV",
+          "DIN EN 62353",
+          "water-treatment/hygiene standards"
+        ]
+      },
+      "sources": [
+        {
+          "title": "CRS Medical Wartung und Service für Dialysegeräte",
+          "url": "https://www.crs-medical.com/en/fields-of-operation/dialysis",
+          "note": "dedicated independent dialysis-equipment maintenance and service"
+        }
+      ],
+      "confidence": 2,
+      "status": "grounded",
+      "child_ids": []
+    },
+    "medical-value-chain/medical-devices-equipment/medical-equipment-servicing-inspection-maintenance-medizintechnik-service/flexible-endoscope-repair-reprocessing-service": {
+      "id": "medical-value-chain/medical-devices-equipment/medical-equipment-servicing-inspection-maintenance-medizintechnik-service/flexible-endoscope-repair-reprocessing-service",
+      "name": "Flexible endoscope repair & reprocessing service",
+      "parent_id": "medical-value-chain/medical-devices-equipment/medical-equipment-servicing-inspection-maintenance-medizintechnik-service",
+      "level": 3,
+      "path": [
+        "Medical value chain",
+        "Medical Devices & Equipment",
+        "Medical Equipment Servicing, Inspection & Maintenance (Medizintechnik-Service)",
+        "Flexible endoscope repair & reprocessing service"
+      ],
+      "value_chain_stage": "services",
+      "description": "Manufacturer-independent repair, refurbishment and maintenance of flexible/rigid endoscopes and ultrasound probes (Olympus, Pentax, Fujinon) for GI, ENT and surgical departments, with mandatory RKI/KRINKO reprocessing after repair.",
+      "scores": {
+        "recurring": 4,
+        "fragmentation": 4,
+        "compliance": 4
+      },
+      "rationale": {
+        "recurring": "Endoscopes are fragile, high-throughput consumable-like capital: recurring repair cycles (~1,500 units/yr per shop) but jobs re-won transactionally",
+        "fragmentation": "Many ISO 13485 owner-operated repair shops (Endomobil, Cantel, Endoscope Complete Services, endorepair, Reparis) with no dominant independent consolidator",
+        "compliance": "Post-repair reprocessing must follow RKI/KRINKO and repairs sit under MPBetreibV/MDR; ISO 13485 required to operate"
+      },
+      "composite": 75.0,
+      "dach_signals": {
+        "est_players": "~30-80 specialised endoscope-repair firms",
+        "revenue_band_eur": "EUR 1-10m typical",
+        "example_companies": [
+          "Endomobil",
+          "Cantel Medical (Heiligenberg)",
+          "Endoscope Complete Services GmbH & Co. KG",
+          "endorepair"
+        ],
+        "regulation": [
+          "DIN EN ISO 13485",
+          "RKI/KRINKO reprocessing recommendation",
+          "MPBetreibV",
+          "MDR"
+        ]
+      },
+      "sources": [
+        {
+          "title": "Endomobil der Endoskopieexperte",
+          "url": "https://www.endomobil.de/",
+          "note": "ISO 13485 Meisterbetrieb, one of Europe's largest independent endoscope-repair firms"
+        },
+        {
+          "title": "Endoscope Complete Services GmbH & Co. KG",
+          "url": "https://www.wlw.de/de/firma/endoscope-complete-services-gmbh-co-kg-1544306/produkte/reparatur-und-wartung-flexibler-endoskope-und-ultraschallsonden-19698258",
+          "note": "manufacturer-independent flexible endoscope/probe repair since 2008, ISO 13485"
+        },
+        {
+          "title": "Cantel Medical Reparaturservice für Endoskope",
+          "url": "https://www.cantelmedical.eu/de/product/reparaturservice-fuer-endoskope/",
+          "note": "~1,500 endoscopes repaired per year in Bodensee workshop"
+        }
+      ],
+      "confidence": 4,
+      "status": "grounded",
+      "child_ids": []
+    },
+    "medical-value-chain/medical-devices-equipment/medical-equipment-servicing-inspection-maintenance-medizintechnik-service/electro-medical-safety-testing-dguv-v3-din-en-62353-vde-0751": {
+      "id": "medical-value-chain/medical-devices-equipment/medical-equipment-servicing-inspection-maintenance-medizintechnik-service/electro-medical-safety-testing-dguv-v3-din-en-62353-vde-0751",
+      "name": "Electro-medical safety testing (DGUV V3 / DIN EN 62353 / VDE 0751)",
+      "parent_id": "medical-value-chain/medical-devices-equipment/medical-equipment-servicing-inspection-maintenance-medizintechnik-service",
+      "level": 3,
+      "path": [
+        "Medical value chain",
+        "Medical Devices & Equipment",
+        "Medical Equipment Servicing, Inspection & Maintenance (Medizintechnik-Service)",
+        "Electro-medical safety testing (DGUV V3 / DIN EN 62353 / VDE 0751)"
+      ],
+      "value_chain_stage": "services",
+      "description": "Recurring electrical-safety testing of medical electrical equipment per DGUV Vorschrift 3 and DIN EN 62353 (formerly VDE 0751) across clinics, practices and care homes, typically at 6-24 month intervals.",
+      "scores": {
+        "recurring": 5,
+        "fragmentation": 5,
+        "compliance": 5
+      },
+      "rationale": {
+        "recurring": "Mandatory periodic electrical-safety re-tests (6-24 month intervals) produce statutory recurring revenue",
+        "fragmentation": "Hundreds of small e-check/Elektrotechnik firms (EFM, KS, ITB7, GHG, bau-medizintechnik) offer this bundled with STK; no consolidator",
+        "compliance": "DGUV V3 (BetrSichV/employer duty) plus DIN EN 62353 make testing legally required for operators"
+      },
+      "composite": 100.0,
+      "dach_signals": {
+        "est_players": "several hundred firms (overlaps electrical-testing sector)",
+        "revenue_band_eur": "EUR 0.3-3m typical",
+        "example_companies": [
+          "EFM Medizingeräteprüfung",
+          "KS Medizintechnik",
+          "ITB7",
+          "bau-medizintechnik"
+        ],
+        "regulation": [
+          "DGUV Vorschrift 3",
+          "DIN EN 62353 (VDE 0751-1)",
+          "BetrSichV"
+        ]
+      },
+      "sources": [
+        {
+          "title": "EFM Medizingeräteprüfungen nach DIN VDE 0751",
+          "url": "https://www.efm-md.de/de/leistungen/medizingeraetepruefungen/index.html",
+          "note": "independent VDE 0751/EN 62353 testing of medical equipment"
+        },
+        {
+          "title": "DGUV V3 Prüfung Medizintechnik gemäß DIN EN 62353",
+          "url": "https://arbeitsschutz-arbeitssicherheit24.de/pruefbereiche-dguv-v3-pruefung/dguv-v3-pruefung-medizintechnik/",
+          "note": "mandatory testing at 6-24 month intervals by trained specialists"
+        }
+      ],
+      "confidence": 4,
+      "status": "grounded",
+      "child_ids": []
+    },
+    "medical-value-chain/medical-devices-equipment/medical-equipment-servicing-inspection-maintenance-medizintechnik-service/multivendor-independent-service-organisations-iso-as-a-business-model": {
+      "id": "medical-value-chain/medical-devices-equipment/medical-equipment-servicing-inspection-maintenance-medizintechnik-service/multivendor-independent-service-organisations-iso-as-a-business-model",
+      "name": "Multivendor Independent Service Organisations (ISO) as a business model",
+      "parent_id": "medical-value-chain/medical-devices-equipment/medical-equipment-servicing-inspection-maintenance-medizintechnik-service",
+      "level": 3,
+      "path": [
+        "Medical value chain",
+        "Medical Devices & Equipment",
+        "Medical Equipment Servicing, Inspection & Maintenance (Medizintechnik-Service)",
+        "Multivendor Independent Service Organisations (ISO) as a business model"
+      ],
+      "value_chain_stage": "services",
+      "description": "Cross-modality independent service organisations offering single-contract, brand-agnostic technical facility management (Gerätemanagement) of a hospital's or practice's entire mixed OEM fleet, positioned against captive OEM service.",
+      "scores": {
+        "recurring": 5,
+        "fragmentation": 4,
+        "compliance": 4
+      },
+      "rationale": {
+        "recurring": "Framework/managed-service Gerätemanagement contracts bundle STK, MTK and maintenance into multi-year recurring mandates",
+        "fragmentation": "Regional mid-caps plus a long tail (HWV-med, WiBU, Co-med) but consolidation is nascent, making it an attractive buy-and-build platform",
+        "compliance": "Contracts exist to discharge the operator's MPBetreibV/DGUV V3 duties, so spend is compliance-anchored"
+      },
+      "composite": 83.3,
+      "dach_signals": {
+        "est_players": "~200-500 multivendor service firms",
+        "revenue_band_eur": "EUR 1-15m typical",
+        "example_companies": [
+          "HWV-med",
+          "WiBU ServicePlus",
+          "Co-med",
+          "STRUCK Medizintechnik"
+        ],
+        "regulation": [
+          "MPBetreibV (§5 qualification of independent testers)",
+          "DGUV Vorschrift 3",
+          "DIN EN 62353"
+        ]
+      },
+      "sources": [
+        {
+          "title": "HWV-med Gerätemanagement (STK und MTK)",
+          "url": "https://www.hwv-med.de/geraetemanagement",
+          "note": "bundled independent device management for practices"
+        },
+        {
+          "title": "Co-med Prüfung medizinischer Geräte STK, MTK & DGUV V3",
+          "url": "https://www.co-med.de/pruefung-stk-mtk-dguv-vorschrift-3/",
+          "note": "multivendor bundling of STK/MTK/DGUV V3 as one service"
+        }
+      ],
+      "confidence": 3,
+      "status": "grounded",
+      "child_ids": []
+    },
+    "medical-value-chain/medical-devices-equipment/medical-equipment-servicing-inspection-maintenance-medizintechnik-service/statutory-safety-metrology-inspections-stk-mtk-per-mpbetreibv/sicherheitstechnische-kontrolle-stk-of-anlage-1-devices": {
+      "id": "medical-value-chain/medical-devices-equipment/medical-equipment-servicing-inspection-maintenance-medizintechnik-service/statutory-safety-metrology-inspections-stk-mtk-per-mpbetreibv/sicherheitstechnische-kontrolle-stk-of-anlage-1-devices",
+      "name": "Sicherheitstechnische Kontrolle (STK) of Anlage-1 devices",
+      "parent_id": "medical-value-chain/medical-devices-equipment/medical-equipment-servicing-inspection-maintenance-medizintechnik-service/statutory-safety-metrology-inspections-stk-mtk-per-mpbetreibv",
+      "level": 4,
+      "path": [
+        "Medical value chain",
+        "Medical Devices & Equipment",
+        "Medical Equipment Servicing, Inspection & Maintenance (Medizintechnik-Service)",
+        "Statutory safety & metrology inspections (STK/MTK per MPBetreibV)",
+        "Sicherheitstechnische Kontrolle (STK) of Anlage-1 devices"
+      ],
+      "value_chain_stage": "services",
+      "description": "Legally prescribed safety-technical control per §11 MPBetreibV of higher-risk medical devices (Anlage 1: e.g. defibrillators, ventilators, infusion pumps, HF-surgery) in DACH clinics, practices and care homes.",
+      "scores": {
+        "recurring": 5,
+        "fragmentation": 5,
+        "compliance": 5
+      },
+      "rationale": {
+        "recurring": "STK must be repeated at manufacturer-defined intervals (default 24 months), a statutory recurring obligation for every operator",
+        "fragmentation": "Hundreds of small owner-operated Medizintechnik firms (STRUCK, mt-medizintechnik, RAINER, ComService) with no dominant player",
+        "compliance": "§11 MPBetreibV makes STK mandatory for Anlage-1 devices; pure legal driver"
+      },
+      "composite": 100.0,
+      "dach_signals": {
+        "est_players": "several hundred to ~1,000+ firms",
+        "revenue_band_eur": "EUR 0.3-3m typical",
+        "example_companies": [
+          "STRUCK Medizintechnik GmbH",
+          "mt-medizintechnik",
+          "RAINER Medizintechnik",
+          "ComService GmbH"
+        ],
+        "regulation": [
+          "§11 MPBetreibV",
+          "Anlage 1 MPBetreibV",
+          "DIN EN 62353"
+        ]
+      },
+      "sources": [
+        {
+          "title": "STK-Prüfung von Medizinprodukten nach §11 MPBetreibV",
+          "url": "https://medizinio.de/blog/stk-pruefung-medizinprodukte-nach-11-mpbetreibv",
+          "note": "defines STK as legally prescribed test under §11 MPBetreibV"
+        },
+        {
+          "title": "STRUCK Medizintechnik STK und MTK Prüfungen",
+          "url": "https://www.struck-med.de/serviceleistungen/stk-und-mtk-pr%C3%BCfungen/",
+          "note": "example independent STK/MTK provider"
+        }
+      ],
+      "confidence": 4,
+      "status": "grounded",
+      "child_ids": []
+    },
+    "medical-value-chain/medical-devices-equipment/medical-equipment-servicing-inspection-maintenance-medizintechnik-service/statutory-safety-metrology-inspections-stk-mtk-per-mpbetreibv/messtechnische-kontrolle-mtk-of-anlage-2-measuring-devices": {
+      "id": "medical-value-chain/medical-devices-equipment/medical-equipment-servicing-inspection-maintenance-medizintechnik-service/statutory-safety-metrology-inspections-stk-mtk-per-mpbetreibv/messtechnische-kontrolle-mtk-of-anlage-2-measuring-devices",
+      "name": "Messtechnische Kontrolle (MTK) of Anlage-2 measuring devices",
+      "parent_id": "medical-value-chain/medical-devices-equipment/medical-equipment-servicing-inspection-maintenance-medizintechnik-service/statutory-safety-metrology-inspections-stk-mtk-per-mpbetreibv",
+      "level": 4,
+      "path": [
+        "Medical value chain",
+        "Medical Devices & Equipment",
+        "Medical Equipment Servicing, Inspection & Maintenance (Medizintechnik-Service)",
+        "Statutory safety & metrology inspections (STK/MTK per MPBetreibV)",
+        "Messtechnische Kontrolle (MTK) of Anlage-2 measuring devices"
+      ],
+      "value_chain_stage": "services",
+      "description": "Statutory metrological control per §14 MPBetreibV verifying measurement accuracy of Anlage-2 devices (non-invasive blood-pressure monitors, clinical thermometers, audiometers, tonometers) at 1-2 year intervals.",
+      "scores": {
+        "recurring": 5,
+        "fragmentation": 5,
+        "compliance": 5
+      },
+      "rationale": {
+        "recurring": "MTK re-test required every 2 years (BP monitors, e-thermometers) or 1 year (IR thermometers), a fixed statutory cycle",
+        "fragmentation": "Very long tail of small providers (Distler, bau-medizintechnik, KS) plus practice-service bundlers; commodity, unconsolidated",
+        "compliance": "§14 MPBetreibV Anlage 2 mandates MTK; measurement-accuracy law is the buying driver"
+      },
+      "composite": 100.0,
+      "dach_signals": {
+        "est_players": "several hundred firms",
+        "revenue_band_eur": "EUR 0.2-2m typical",
+        "example_companies": [
+          "Distler Medizintechnik",
+          "bau-medizintechnik",
+          "KS Medizintechnik"
+        ],
+        "regulation": [
+          "§14 MPBetreibV",
+          "Anlage 2 MPBetreibV",
+          "MessEG (metrology law context)"
+        ]
+      },
+      "sources": [
+        {
+          "title": "MTK Blutdruckmessgerät Fristen, Ablauf & Kosten (2025)",
+          "url": "https://www.distler.de/unternehmen/aktuelles/mtk-bei-blutdruckmessgeraeten-fristen-ablauf-and-kosten-2025",
+          "note": "2-year MTK interval for BP monitors, Anlage 2 scope"
+        },
+        {
+          "title": "Messtechnische Kontrollen (MTK) §14 MPBetreibV, Bezirksregierung Detmold",
+          "url": "https://www.bezreg-detmold.nrw.de/wir-ueber-uns/organisationsstruktur/abteilung-2/dezernat-24/arzneimittel-und-medizinprodukte-35",
+          "note": "authority reference confirming MTK legal basis"
+        }
+      ],
+      "confidence": 4,
+      "status": "grounded",
+      "child_ids": []
+    },
+    "medical-value-chain/medical-devices-equipment/medical-equipment-servicing-inspection-maintenance-medizintechnik-service/statutory-safety-metrology-inspections-stk-mtk-per-mpbetreibv/electrical-safety-inspection-under-dguv-vorschrift-3": {
+      "id": "medical-value-chain/medical-devices-equipment/medical-equipment-servicing-inspection-maintenance-medizintechnik-service/statutory-safety-metrology-inspections-stk-mtk-per-mpbetreibv/electrical-safety-inspection-under-dguv-vorschrift-3",
+      "name": "Electrical-safety inspection under DGUV Vorschrift 3",
+      "parent_id": "medical-value-chain/medical-devices-equipment/medical-equipment-servicing-inspection-maintenance-medizintechnik-service/statutory-safety-metrology-inspections-stk-mtk-per-mpbetreibv",
+      "level": 4,
+      "path": [
+        "Medical value chain",
+        "Medical Devices & Equipment",
+        "Medical Equipment Servicing, Inspection & Maintenance (Medizintechnik-Service)",
+        "Statutory safety & metrology inspections (STK/MTK per MPBetreibV)",
+        "Electrical-safety inspection under DGUV Vorschrift 3"
+      ],
+      "value_chain_stage": "services",
+      "description": "Recurring employer-mandated electrical-safety testing of medical and general electrical equipment per DGUV Vorschrift 3 (with DIN EN 62353 for medical devices) across healthcare operators as workplace-safety compliance.",
+      "scores": {
+        "recurring": 5,
+        "fragmentation": 5,
+        "compliance": 5
+      },
+      "rationale": {
+        "recurring": "Mandatory periodic re-testing (typically annual to biennial) driven by employer accident-prevention duty",
+        "fragmentation": "Overlaps the broad electrical-testing market: hundreds of small firms, often bundled with STK/MTK visits",
+        "compliance": "DGUV V3/BetrSichV impose the test as an employer legal duty, not discretionary"
+      },
+      "composite": 100.0,
+      "dach_signals": {
+        "est_players": "several hundred firms (shared with general E-check market)",
+        "revenue_band_eur": "EUR 0.3-3m typical",
+        "example_companies": [
+          "GHG Hamburg",
+          "ITB7",
+          "Prüfservice KFK"
+        ],
+        "regulation": [
+          "DGUV Vorschrift 3",
+          "DIN EN 62353",
+          "BetrSichV"
+        ]
+      },
+      "sources": [
+        {
+          "title": "Prüfung medizinischer Geräte nach DGUV Vorschrift 3, GHG Hamburg",
+          "url": "https://www.ghg-hamburg.de/E-Pruefungen/pruefung-medizinischer-geraete.htm",
+          "note": "DGUV V3 electrical-safety testing of medical devices"
+        },
+        {
+          "title": "Prüfungen Medizinprodukte nach DGUV V3, Prüfservice KFK",
+          "url": "https://www.pruefservice-kfk.de/dienstleistungen-pruefungen/elektropruefungen/pruefungen-medizinprodukte-nach-dguv-v3/",
+          "note": "example DGUV V3 electrical-testing provider"
+        }
+      ],
+      "confidence": 4,
+      "status": "grounded",
+      "child_ids": []
+    },
+    "medical-value-chain/medical-devices-equipment/medical-equipment-servicing-inspection-maintenance-medizintechnik-service/statutory-safety-metrology-inspections-stk-mtk-per-mpbetreibv/radiology-constancy-expert-testing-konstanz-sachverstandigenprufung": {
+      "id": "medical-value-chain/medical-devices-equipment/medical-equipment-servicing-inspection-maintenance-medizintechnik-service/statutory-safety-metrology-inspections-stk-mtk-per-mpbetreibv/radiology-constancy-expert-testing-konstanz-sachverstandigenprufung",
+      "name": "Radiology constancy & expert testing (Konstanz-/Sachverständigenprüfung)",
+      "parent_id": "medical-value-chain/medical-devices-equipment/medical-equipment-servicing-inspection-maintenance-medizintechnik-service/statutory-safety-metrology-inspections-stk-mtk-per-mpbetreibv",
+      "level": 4,
+      "path": [
+        "Medical value chain",
+        "Medical Devices & Equipment",
+        "Medical Equipment Servicing, Inspection & Maintenance (Medizintechnik-Service)",
+        "Statutory safety & metrology inspections (STK/MTK per MPBetreibV)",
+        "Radiology constancy & expert testing (Konstanz-/Sachverständigenprüfung)"
+      ],
+      "value_chain_stage": "services",
+      "description": "Statutory radiation-protection quality assurance of X-ray and imaging equipment: recurring constancy tests (Konstanzprüfung, DIN 6868) plus periodic expert inspections (Sachverständigenprüfung per §172 StrlSchG) required to operate ionising-radiation devices in DACH.",
+      "scores": {
+        "recurring": 5,
+        "fragmentation": 3,
+        "compliance": 5
+      },
+      "rationale": {
+        "recurring": "Constancy tests are recurring (often monthly to annual) and expert re-inspections run on multi-year cycles under StrlSchV",
+        "fragmentation": "Fewer players: large TÜV bodies plus a scattering of appointed independent Sachverständige (SV-Büros), a mid-cap-plus-long-tail mix",
+        "compliance": "§19 StrlSchG/§88 StrlSchV and Ärztliche-Stelle oversight make testing legally mandatory to keep devices in service"
+      },
+      "composite": 83.3,
+      "dach_signals": {
+        "est_players": "~50-150 (TÜV bodies + appointed SV-Büros)",
+        "revenue_band_eur": "EUR 0.5-10m (larger for TÜV arms)",
+        "example_companies": [
+          "TÜV Rheinland",
+          "TÜV SÜD",
+          "SV-Büro U. Timmer",
+          "Strahlenschutz Grimm"
+        ],
+        "regulation": [
+          "StrlSchG §172 (Sachverständige)",
+          "StrlSchV §88",
+          "DIN 6868 (Konstanzprüfung)",
+          "Ärztliche Stelle"
+        ]
+      },
+      "sources": [
+        {
+          "title": "Prüfung von Röntgentechnik, TÜV Rheinland",
+          "url": "https://www.tuv.com/germany/de/sachverst%C3%A4ndigenpr%C3%BCfung-von-r%C3%B6ntgentechnik.html",
+          "note": "expert (Sachverständigen) inspection of X-ray technology"
+        },
+        {
+          "title": "Bestimmung von Sachverständigen, Strahlenschutz Sachsen",
+          "url": "https://www.strahlenschutz.sachsen.de/bestimmung-von-sachverstandigen-26828.html",
+          "note": "§172 StrlSchG basis for appointing radiation experts"
+        },
+        {
+          "title": "Röntgengeräte nach Strahlenschutzgesetz, TÜV SÜD",
+          "url": "https://www.tuvsud.com/de-de/branchen/gesundheit-und-medizintechnik/roentgengeraete-nach-strlschg",
+          "note": "StrlSchG-driven X-ray testing obligations"
+        }
+      ],
+      "confidence": 4,
+      "status": "grounded",
+      "child_ids": []
+    },
+    "medical-value-chain/medical-devices-equipment/medical-equipment-servicing-inspection-maintenance-medizintechnik-service/calibration-metrology-of-medical-equipment-dakks-iso-17025/dakks-accredited-medical-measuring-device-calibration-labs": {
+      "id": "medical-value-chain/medical-devices-equipment/medical-equipment-servicing-inspection-maintenance-medizintechnik-service/calibration-metrology-of-medical-equipment-dakks-iso-17025/dakks-accredited-medical-measuring-device-calibration-labs",
+      "name": "DAkkS-accredited medical measuring-device calibration labs",
+      "parent_id": "medical-value-chain/medical-devices-equipment/medical-equipment-servicing-inspection-maintenance-medizintechnik-service/calibration-metrology-of-medical-equipment-dakks-iso-17025",
+      "level": 4,
+      "path": [
+        "Medical value chain",
+        "Medical Devices & Equipment",
+        "Medical Equipment Servicing, Inspection & Maintenance (Medizintechnik-Service)",
+        "Calibration & metrology of medical equipment (DAkkS/ISO 17025)",
+        "DAkkS-accredited medical measuring-device calibration labs"
+      ],
+      "value_chain_stage": "services",
+      "description": "ISO/IEC 17025 DAkkS-accredited laboratories issuing traceable calibration certificates for medical and laboratory measuring instruments (electrical, pressure, force, mass) used across DACH hospitals, labs and MedTech manufacturers.",
+      "scores": {
+        "recurring": 5,
+        "fragmentation": 3,
+        "compliance": 5
+      },
+      "rationale": {
+        "recurring": "Instruments require periodic recalibration to stay within validity, producing dependable recurring lab throughput",
+        "fragmentation": "Regional accredited labs plus captive OEM labs (burster, KESS); DAkkS accreditation barrier limits the long tail to a mid-market",
+        "compliance": "Regulatory acceptance requires ISO 17025 DAkkS accreditation; audits/QM systems make calibration mandatory spend"
+      },
+      "composite": 83.3,
+      "dach_signals": {
+        "est_players": "~300-500 DAkkS calibration labs (all fields; subset medical)",
+        "revenue_band_eur": "EUR 0.5-10m typical",
+        "example_companies": [
+          "burster präzisionsmesstechnik",
+          "KESS (KKS)",
+          "Ellab"
+        ],
+        "regulation": [
+          "DIN EN ISO/IEC 17025",
+          "DAkkS accreditation",
+          "EA-4/02 (measurement uncertainty)",
+          "ISO 13485 QM traceability"
+        ]
+      },
+      "sources": [
+        {
+          "title": "burster nach ISO 17025 akkreditiertes Kalibrierlabor (DAkkS)",
+          "url": "https://www.burster.com/service-calibration/calibration",
+          "note": "DAkkS ISO 17025 accredited calibration lab"
+        },
+        {
+          "title": "DAkkS Prüf- und Kalibrierlabore DIN EN ISO/IEC 17025",
+          "url": "https://www.dakks.de/de/pruef-und-kalibrierlabore-din-en-iso-iec-17025.html",
+          "note": "official DAkkS registry/basis for accredited calibration labs"
+        }
+      ],
+      "confidence": 3,
+      "status": "grounded",
+      "child_ids": []
+    },
+    "medical-value-chain/medical-devices-equipment/medical-equipment-servicing-inspection-maintenance-medizintechnik-service/calibration-metrology-of-medical-equipment-dakks-iso-17025/in-vitro-pipette-calibration-services": {
+      "id": "medical-value-chain/medical-devices-equipment/medical-equipment-servicing-inspection-maintenance-medizintechnik-service/calibration-metrology-of-medical-equipment-dakks-iso-17025/in-vitro-pipette-calibration-services",
+      "name": "In-vitro / pipette calibration services",
+      "parent_id": "medical-value-chain/medical-devices-equipment/medical-equipment-servicing-inspection-maintenance-medizintechnik-service/calibration-metrology-of-medical-equipment-dakks-iso-17025",
+      "level": 4,
+      "path": [
+        "Medical value chain",
+        "Medical Devices & Equipment",
+        "Medical Equipment Servicing, Inspection & Maintenance (Medizintechnik-Service)",
+        "Calibration & metrology of medical equipment (DAkkS/ISO 17025)",
+        "In-vitro / pipette calibration services"
+      ],
+      "value_chain_stage": "services",
+      "description": "Accredited calibration and requalification of liquid-handling instruments (single/multichannel pipettes, dispensers) per DIN EN ISO 8655 and ISO 17025 for DACH clinical, IVD and pharma laboratories.",
+      "scores": {
+        "recurring": 5,
+        "fragmentation": 4,
+        "compliance": 5
+      },
+      "rationale": {
+        "recurring": "Pipettes need frequent recalibration (often 3-12 monthly) under lab QM, generating high-frequency recurring service",
+        "fragmentation": "Many specialist and mobile pipette-service providers (MTS Calibrations) alongside manufacturer labs; niche and dispersed",
+        "compliance": "ISO 8655/ISO 17025 and lab accreditation (GLP/IVDR QC) make traceable pipette calibration compulsory"
+      },
+      "composite": 91.7,
+      "dach_signals": {
+        "est_players": "~50-150 specialist/mobile providers",
+        "revenue_band_eur": "EUR 0.3-5m typical",
+        "example_companies": [
+          "MTS Calibrations",
+          "Ellab"
+        ],
+        "regulation": [
+          "DIN EN ISO 8655",
+          "DIN EN ISO/IEC 17025",
+          "GLP",
+          "IVDR (lab QC)"
+        ]
+      },
+      "sources": [
+        {
+          "title": "MTS Akkreditierte Pipettenkalibrierung ISO 17025",
+          "url": "https://mtscalibrations.com/en/pipette-service-calibration-2/calibration-with-an-accredited-calibration-certificate-according-to-din-en-iso-iec-17025/",
+          "note": "accredited ISO 17025 pipette calibration service"
+        },
+        {
+          "title": "Normen und Regularien Pipettenkalibrierung",
+          "url": "https://www.pipettenkalibrierung.de/normen-und-regularien/",
+          "note": "norms/regulations governing pipette calibration"
+        }
+      ],
+      "confidence": 3,
+      "status": "grounded",
+      "child_ids": []
+    },
+    "medical-value-chain/medical-devices-equipment/medical-equipment-servicing-inspection-maintenance-medizintechnik-service/calibration-metrology-of-medical-equipment-dakks-iso-17025/temperature-cold-chain-qualification-mapping-gxp": {
+      "id": "medical-value-chain/medical-devices-equipment/medical-equipment-servicing-inspection-maintenance-medizintechnik-service/calibration-metrology-of-medical-equipment-dakks-iso-17025/temperature-cold-chain-qualification-mapping-gxp",
+      "name": "Temperature & cold-chain qualification / mapping (GxP)",
+      "parent_id": "medical-value-chain/medical-devices-equipment/medical-equipment-servicing-inspection-maintenance-medizintechnik-service/calibration-metrology-of-medical-equipment-dakks-iso-17025",
+      "level": 4,
+      "path": [
+        "Medical value chain",
+        "Medical Devices & Equipment",
+        "Medical Equipment Servicing, Inspection & Maintenance (Medizintechnik-Service)",
+        "Calibration & metrology of medical equipment (DAkkS/ISO 17025)",
+        "Temperature & cold-chain qualification / mapping (GxP)"
+      ],
+      "value_chain_stage": "services",
+      "description": "Temperature-mapping studies, thermometer/sensor calibration and IQ/OQ/PQ qualification of refrigerators, freezers, cold rooms and transport for GxP/GDP cold-chain compliance in DACH pharmacies, clinics, blood banks and pharma.",
+      "scores": {
+        "recurring": 4,
+        "fragmentation": 3,
+        "compliance": 5
+      },
+      "rationale": {
+        "recurring": "Requalification and sensor recalibration recur on periodic cycles (and after changes), plus attached monitoring/service contracts",
+        "fragmentation": "Equipment-plus-service vendors (ELPRO, Vaisala, Rotronic, Ellab) plus independents; specialised, moderately concentrated",
+        "compliance": "GxP/GDP (EU-GMP Annex, WHO) require qualified, mapped and calibrated cold-chain, making spend mandatory"
+      },
+      "composite": 75.0,
+      "dach_signals": {
+        "est_players": "~30-100 qualification/mapping service firms",
+        "revenue_band_eur": "EUR 0.5-8m typical",
+        "example_companies": [
+          "ELPRO",
+          "Vaisala",
+          "Rotronic",
+          "Ellab"
+        ],
+        "regulation": [
+          "EU-GMP / GDP (2013/C 343/01)",
+          "GAMP 5",
+          "DIN EN ISO/IEC 17025 (sensor calibration)",
+          "WHO cold-chain guidance"
+        ]
+      },
+      "sources": [
+        {
+          "title": "ELPRO GxP Qualifizierung & Temperatur-Mapping",
+          "url": "https://www.elpro.com/en/temperature-monitoring/qualification-mapping",
+          "note": "modular GxP qualification/temperature-mapping services"
+        },
+        {
+          "title": "Vaisala GxP-Temperaturmapping: Akzeptanzkriterien und Berichte",
+          "url": "https://www.vaisala.com/de/blog/2023-09/gxp-temperaturmapping-akzeptanzkriterien-und-berichte",
+          "note": "GxP temperature-mapping acceptance criteria and reporting"
+        }
+      ],
+      "confidence": 3,
+      "status": "grounded",
+      "child_ids": []
+    },
+    "medical-value-chain/distribution-medical-retail/medical-supply-stores-homecare-sanitatshauser-hilfsmittel/ambulatory-homecare-provisioning-wound-stoma-incontinence-enteral-respiratory/chronic-wound-care-re-supply-moderne-wundversorgung": {
+      "id": "medical-value-chain/distribution-medical-retail/medical-supply-stores-homecare-sanitatshauser-hilfsmittel/ambulatory-homecare-provisioning-wound-stoma-incontinence-enteral-respiratory/chronic-wound-care-re-supply-moderne-wundversorgung",
+      "name": "Chronic Wound Care Re-Supply (moderne Wundversorgung)",
+      "parent_id": "medical-value-chain/distribution-medical-retail/medical-supply-stores-homecare-sanitatshauser-hilfsmittel/ambulatory-homecare-provisioning-wound-stoma-incontinence-enteral-respiratory",
+      "level": 4,
+      "path": [
+        "Medical value chain",
+        "Distribution & Medical Retail",
+        "Medical Supply Stores & Homecare (Sanitatshauser / Hilfsmittel)",
+        "Ambulatory Homecare Provisioning (wound / stoma / incontinence / enteral / respiratory)",
+        "Chronic Wound Care Re-Supply (moderne Wundversorgung)"
+      ],
+      "value_chain_stage": "distribution",
+      "description": "Monthly re-supply of modern moist wound dressings, compression and negative-pressure consumables to chronic/decubitus/diabetic-foot patients at home and in care facilities, with nurse-led case management and Rezept-Recycling.",
+      "scores": {
+        "recurring": 5,
+        "fragmentation": 3,
+        "compliance": 5
+      },
+      "rationale": {
+        "recurring": "~2m wound patients in DE need continuous dressing changes billed as monthly consumable prescriptions, not one-off.",
+        "fragmentation": "Consolidated national platforms (GHD, Publicare, Coloplast) plus long tail of regional wundmanager-Sanitatshauser.",
+        "compliance": "Requires SGB V Prequalifizierung and Hilfsmittelverzeichnis listing plus MDR-classified dressings and wound-management nurse qualification."
+      },
+      "composite": 83.3,
+      "dach_signals": {
+        "est_players": "~210 dedicated homecare firms feeding a market of ~5,400 Sanitatshauser",
+        "revenue_band_eur": "EUR 2-50m (regional), EUR 100m+ national platforms",
+        "example_companies": [
+          "GHD GesundheitsGmbH Deutschland",
+          "Publicare GmbH",
+          "Coloplast Homecare"
+        ],
+        "regulation": [
+          "SGB V 126/127 Prequalifizierung",
+          "GKV-Hilfsmittelverzeichnis PG 31 Schienen/Verbandmittel",
+          "MDR (EU) 2017/745"
+        ]
+      },
+      "sources": [
+        {
+          "title": "Homecare Unternehmen in Deutschland",
+          "url": "https://www.pflegemarkt.com/fachartikel/homecare-unternehmen-in-deutschland/",
+          "note": "210 homecare firms; ~2m wound patients; wound care and nutrition cited as largest segments"
+        },
+        {
+          "title": "GKV-Spitzenverband Eignungskriterien Prequalifizierung",
+          "url": "https://www.gkv-spitzenverband.de/krankenversicherung/hilfsmittel/praequalifizierung/eignungskriterien/eignungskriterien.jsp",
+          "note": "126 Abs.1 S.3 SGB V criteria catalogue governing homecare supply areas"
+        }
+      ],
+      "confidence": 4,
+      "status": "grounded",
+      "child_ids": []
+    },
+    "medical-value-chain/distribution-medical-retail/medical-supply-stores-homecare-sanitatshauser-hilfsmittel/ambulatory-homecare-provisioning-wound-stoma-incontinence-enteral-respiratory/stoma-care-re-supply-stomaversorgung": {
+      "id": "medical-value-chain/distribution-medical-retail/medical-supply-stores-homecare-sanitatshauser-hilfsmittel/ambulatory-homecare-provisioning-wound-stoma-incontinence-enteral-respiratory/stoma-care-re-supply-stomaversorgung",
+      "name": "Stoma Care Re-Supply (Stomaversorgung)",
+      "parent_id": "medical-value-chain/distribution-medical-retail/medical-supply-stores-homecare-sanitatshauser-hilfsmittel/ambulatory-homecare-provisioning-wound-stoma-incontinence-enteral-respiratory",
+      "level": 4,
+      "path": [
+        "Medical value chain",
+        "Distribution & Medical Retail",
+        "Medical Supply Stores & Homecare (Sanitatshauser / Hilfsmittel)",
+        "Ambulatory Homecare Provisioning (wound / stoma / incontinence / enteral / respiratory)",
+        "Stoma Care Re-Supply (Stomaversorgung)"
+      ],
+      "value_chain_stage": "distribution",
+      "description": "Recurring provisioning of ostomy base plates, pouches, skin protection and accessories to colostomy/ileostomy/urostomy carriers, with lifelong monthly re-order cycles and specialist stoma-nurse counselling.",
+      "scores": {
+        "recurring": 5,
+        "fragmentation": 2,
+        "compliance": 5
+      },
+      "rationale": {
+        "recurring": "Stoma is typically permanent, generating fixed monthly consumable prescriptions for life.",
+        "fragmentation": "Dominated by manufacturer-linked homecare arms (Coloplast, Publicare) and large groups; fewer independent players than wound care.",
+        "compliance": "Prequalifizierung supply area plus Hilfsmittelverzeichnis PG 29 listing and stoma-therapist qualification mandatory."
+      },
+      "composite": 75.0,
+      "dach_signals": {
+        "est_players": "tens of specialised stoma-homecare providers within the ~210 homecare universe",
+        "revenue_band_eur": "EUR 5-80m for specialised players",
+        "example_companies": [
+          "Coloplast Homecare",
+          "Publicare GmbH",
+          "GHD GesundheitsGmbH Deutschland"
+        ],
+        "regulation": [
+          "SGB V 126/127 Prequalifizierung",
+          "GKV-Hilfsmittelverzeichnis PG 29 Stomaartikel",
+          "MDR (EU) 2017/745"
+        ]
+      },
+      "sources": [
+        {
+          "title": "Stomaversorgung & Kontinenzversorgung Coloplast Homecare",
+          "url": "https://www.coloplast-homecare.de/",
+          "note": "Manufacturer-linked national stoma/continence homecare provider"
+        },
+        {
+          "title": "Publicare GmbH Homecare",
+          "url": "https://www.publicare-gmbh.de/",
+          "note": "Specialised stoma/continence/wound homecare provider example"
+        }
+      ],
+      "confidence": 4,
+      "status": "grounded",
+      "child_ids": []
+    },
+    "medical-value-chain/distribution-medical-retail/medical-supply-stores-homecare-sanitatshauser-hilfsmittel/ambulatory-homecare-provisioning-wound-stoma-incontinence-enteral-respiratory/continence-incontinence-re-supply-aufsaugend-ableitend": {
+      "id": "medical-value-chain/distribution-medical-retail/medical-supply-stores-homecare-sanitatshauser-hilfsmittel/ambulatory-homecare-provisioning-wound-stoma-incontinence-enteral-respiratory/continence-incontinence-re-supply-aufsaugend-ableitend",
+      "name": "Continence / Incontinence Re-Supply (aufsaugend & ableitend)",
+      "parent_id": "medical-value-chain/distribution-medical-retail/medical-supply-stores-homecare-sanitatshauser-hilfsmittel/ambulatory-homecare-provisioning-wound-stoma-incontinence-enteral-respiratory",
+      "level": 4,
+      "path": [
+        "Medical value chain",
+        "Distribution & Medical Retail",
+        "Medical Supply Stores & Homecare (Sanitatshauser / Hilfsmittel)",
+        "Ambulatory Homecare Provisioning (wound / stoma / incontinence / enteral / respiratory)",
+        "Continence / Incontinence Re-Supply (aufsaugend & ableitend)"
+      ],
+      "value_chain_stage": "distribution",
+      "description": "Monthly flat-rate (Monatspauschale) delivery of absorbent pads/pants and drainage catheters/urine bags under PG 15, a high-volume low-margin recurring category serving care homes and home patients.",
+      "scores": {
+        "recurring": 5,
+        "fragmentation": 4,
+        "compliance": 5
+      },
+      "rationale": {
+        "recurring": "Since 2015 GKV pays a fixed monthly Pauschale per patient regardless of consumption, i.e. contractual recurring revenue.",
+        "fragmentation": "Many regional Sanitatshauser and pharmacies plus national platforms compete on tender pauschalen; BVMed flags margin pressure.",
+        "compliance": "GKV sole payer for body-near absorbent/drainage aids on prescription; Prequalifizierung and PG 15 listing mandatory."
+      },
+      "composite": 91.7,
+      "dach_signals": {
+        "est_players": "hundreds of Sanitatshauser/pharmacies plus large homecare platforms",
+        "revenue_band_eur": "EUR 1-30m regional; monthly pauschalen often EUR 15-25/patient",
+        "example_companies": [
+          "Publicare GmbH",
+          "GHD GesundheitsGmbH Deutschland",
+          "Sanitatshaus-Verbunde members (rehaVital)"
+        ],
+        "regulation": [
+          "SGB V 126/127 Prequalifizierung",
+          "GKV-Hilfsmittelverzeichnis PG 15 Inkontinenzhilfen",
+          "Monatspauschale-Vertrage seit 2015"
+        ]
+      },
+      "sources": [
+        {
+          "title": "BVMed: Sinkende Verguetungspauschalen fuer Inkontinenzhilfen",
+          "url": "https://www.bvmed.de/themen/hilfsmittel/sinkende-verguetungspauschalen-fuer-inkontinenzhilfen-machen-eine-adaequate-ambulante-versorgung-inklusive-individueller-beratung-der-patienten-kaum-noch-moeglich",
+          "note": "Monthly Pauschale model and margin pressure in continence supply"
+        },
+        {
+          "title": "GKV-Hilfsmittelverzeichnis Produktgruppen-Info PG 15",
+          "url": "https://www.rehadat-gkv.de/info/index.html?pgnr=15&pginfo=true",
+          "note": "PG 15 Inkontinenzhilfen product group definition"
+        }
+      ],
+      "confidence": 4,
+      "status": "grounded",
+      "child_ids": []
+    },
+    "medical-value-chain/distribution-medical-retail/medical-supply-stores-homecare-sanitatshauser-hilfsmittel/ambulatory-homecare-provisioning-wound-stoma-incontinence-enteral-respiratory/enteral-parenteral-nutrition-homecare-ernaehrungstherapie": {
+      "id": "medical-value-chain/distribution-medical-retail/medical-supply-stores-homecare-sanitatshauser-hilfsmittel/ambulatory-homecare-provisioning-wound-stoma-incontinence-enteral-respiratory/enteral-parenteral-nutrition-homecare-ernaehrungstherapie",
+      "name": "Enteral & Parenteral Nutrition Homecare (Ernaehrungstherapie)",
+      "parent_id": "medical-value-chain/distribution-medical-retail/medical-supply-stores-homecare-sanitatshauser-hilfsmittel/ambulatory-homecare-provisioning-wound-stoma-incontinence-enteral-respiratory",
+      "level": 4,
+      "path": [
+        "Medical value chain",
+        "Distribution & Medical Retail",
+        "Medical Supply Stores & Homecare (Sanitatshauser / Hilfsmittel)",
+        "Ambulatory Homecare Provisioning (wound / stoma / incontinence / enteral / respiratory)",
+        "Enteral & Parenteral Nutrition Homecare (Ernaehrungstherapie)"
+      ],
+      "value_chain_stage": "services",
+      "description": "Home delivery and clinical management of tube feeds (enteral) and IV nutrition/pumps (parenteral) with nutrition pumps, giving-sets and dietitian/nurse support for oncology, neuro and short-bowel patients.",
+      "scores": {
+        "recurring": 5,
+        "fragmentation": 2,
+        "compliance": 5
+      },
+      "rationale": {
+        "recurring": "Nutrition therapy runs continuously over months/years with re-supplied feeds and pump consumables.",
+        "fragmentation": "Concentrated around manufacturer platforms (Fresenius Kabi, B. Braun) and large homecare groups; high clinical barrier.",
+        "compliance": "Enteral balanced diets fall under 31(5) SGB V referencing 126/127; parenteral involves apothekenpflicht and PG 03 application aids."
+      },
+      "composite": 75.0,
+      "dach_signals": {
+        "est_players": "handful of national providers plus regional Ernaehrungsteams",
+        "revenue_band_eur": "EUR 20-200m+ for national platforms",
+        "example_companies": [
+          "Fresenius Kabi Deutschland",
+          "GHD GesundheitsGmbH Deutschland",
+          "Provita-Gruppe"
+        ],
+        "regulation": [
+          "SGB V 31 Abs.5 (enterale Bilanzierte Diaeten)",
+          "SGB V 126/127 Prequalifizierung",
+          "GKV-Hilfsmittelverzeichnis PG 03 Applikationshilfen / Versorgungsbereich 03F"
+        ]
+      },
+      "sources": [
+        {
+          "title": "Provita-Gruppe Ernaehrungstherapie enteral & parenteral",
+          "url": "https://www.gruppe-provita.de/versorgungsbereiche/enterale-parenterale-ernaehrung/",
+          "note": "Homecare provider example for enteral/parenteral nutrition"
+        },
+        {
+          "title": "GKV-Spitzenverband Kriterienkatalog 126 SGB V",
+          "url": "https://www.gkv-spitzenverband.de/media/dokumente/krankenversicherung_1/hilfsmittel/praequalifizierung/eignungskriterien/ek_ab_01_januar_2022/HiMi_Kriterienkatalog_30.08.2021.pdf",
+          "note": "Supply area 03F for enteral drinking/tube nutrition and PG 03 application aids"
+        }
+      ],
+      "confidence": 4,
+      "status": "grounded",
+      "child_ids": []
+    },
+    "medical-value-chain/distribution-medical-retail/medical-supply-stores-homecare-sanitatshauser-hilfsmittel/ambulatory-homecare-provisioning-wound-stoma-incontinence-enteral-respiratory/respiratory-oxygen-home-ventilation-sauerstoff-beatmung": {
+      "id": "medical-value-chain/distribution-medical-retail/medical-supply-stores-homecare-sanitatshauser-hilfsmittel/ambulatory-homecare-provisioning-wound-stoma-incontinence-enteral-respiratory/respiratory-oxygen-home-ventilation-sauerstoff-beatmung",
+      "name": "Respiratory / Oxygen & Home Ventilation (Sauerstoff & Beatmung)",
+      "parent_id": "medical-value-chain/distribution-medical-retail/medical-supply-stores-homecare-sanitatshauser-hilfsmittel/ambulatory-homecare-provisioning-wound-stoma-incontinence-enteral-respiratory",
+      "level": 4,
+      "path": [
+        "Medical value chain",
+        "Distribution & Medical Retail",
+        "Medical Supply Stores & Homecare (Sanitatshauser / Hilfsmittel)",
+        "Ambulatory Homecare Provisioning (wound / stoma / incontinence / enteral / respiratory)",
+        "Respiratory / Oxygen & Home Ventilation (Sauerstoff & Beatmung)"
+      ],
+      "value_chain_stage": "services",
+      "description": "Long-term oxygen therapy (LTOT) devices/concentrators and invasive/non-invasive home ventilation, increasingly bundled with ausserklinische Intensivpflege 1:1 nursing under the IPReG regime.",
+      "scores": {
+        "recurring": 5,
+        "fragmentation": 3,
+        "compliance": 5
+      },
+      "rationale": {
+        "recurring": "Device rental plus consumables (masks, filters, O2) and continuous nursing generate durable monthly revenue.",
+        "fragmentation": "National ventilation groups (Linde/VitalAire, Linimed, Deutsche Fachpflege) plus regional providers coexist.",
+        "compliance": "Since 2021 GKV-IPReG carved ausserklinische Intensivpflege out of 37 SGB V with stricter quality/potential-analysis rules; heavy MDR device oversight."
+      },
+      "composite": 83.3,
+      "dach_signals": {
+        "est_players": "dozens of ventilation/intensive-care providers nationally",
+        "revenue_band_eur": "EUR 10-300m; ventilation nursing highly capital/labour intensive",
+        "example_companies": [
+          "Linimed Gruppe",
+          "Deutsche Fachpflege Gruppe",
+          "Heimbeatmungsservice Brambring Jaschke"
+        ],
+        "regulation": [
+          "GKV-IPReG (Intensivpflege- und Rehabilitationsstaerkungsgesetz, 2021)",
+          "SGB V 37c ausserklinische Intensivpflege",
+          "GKV-Hilfsmittelverzeichnis PG 14 Inhalations-/Atemtherapiegeraete"
+        ]
+      },
+      "sources": [
+        {
+          "title": "GKV-Spitzenverband Ausserklinische Intensivpflege",
+          "url": "https://www.gkv-spitzenverband.de/krankenversicherung/ambulante_leistungen/ausserklinische_intensivpflege/ausserklinische_intensivpflege.jsp",
+          "note": "IPReG carved AKI out of 37 SGB V into own statute in 2021"
+        },
+        {
+          "title": "Linimed Gruppe Ausserklinische Intensivpflege & Heimbeatmung",
+          "url": "https://www.linimed-gruppe.de/leistungen/ausserklinische-intensivpflege/",
+          "note": "National home ventilation / intensive-care provider example"
+        }
+      ],
+      "confidence": 4,
+      "status": "grounded",
+      "child_ids": []
+    },
+    "medical-value-chain/distribution-medical-retail/medical-supply-stores-homecare-sanitatshauser-hilfsmittel/ambulatory-homecare-provisioning-wound-stoma-incontinence-enteral-respiratory/tracheostomy-care-re-supply-tracheostomaversorgung": {
+      "id": "medical-value-chain/distribution-medical-retail/medical-supply-stores-homecare-sanitatshauser-hilfsmittel/ambulatory-homecare-provisioning-wound-stoma-incontinence-enteral-respiratory/tracheostomy-care-re-supply-tracheostomaversorgung",
+      "name": "Tracheostomy Care Re-Supply (Tracheostomaversorgung)",
+      "parent_id": "medical-value-chain/distribution-medical-retail/medical-supply-stores-homecare-sanitatshauser-hilfsmittel/ambulatory-homecare-provisioning-wound-stoma-incontinence-enteral-respiratory",
+      "level": 4,
+      "path": [
+        "Medical value chain",
+        "Distribution & Medical Retail",
+        "Medical Supply Stores & Homecare (Sanitatshauser / Hilfsmittel)",
+        "Ambulatory Homecare Provisioning (wound / stoma / incontinence / enteral / respiratory)",
+        "Tracheostomy Care Re-Supply (Tracheostomaversorgung)"
+      ],
+      "value_chain_stage": "distribution",
+      "description": "Recurring supply of tracheal cannulas, HME filters, suction catheters, speaking valves and stoma-collar consumables for tracheostomised and ventilated patients, tightly coupled to home-ventilation nursing.",
+      "scores": {
+        "recurring": 5,
+        "fragmentation": 2,
+        "compliance": 5
+      },
+      "rationale": {
+        "recurring": "Cannulas and suction/HME consumables are replaced on short fixed cycles for the duration of the tracheostomy.",
+        "fragmentation": "Niche served mainly by ventilation/intensive-care homecare groups; few independent specialists.",
+        "compliance": "Prequalifizierung plus specialist tracheostomy-nurse competence and MDR Class device handling required."
+      },
+      "composite": 75.0,
+      "dach_signals": {
+        "est_players": "small specialist set within ventilation homecare groups",
+        "revenue_band_eur": "EUR 5-50m as part of ventilation platforms",
+        "example_companies": [
+          "Linimed Gruppe",
+          "GIP Gesellschaft fuer medizinische Intensivpflege",
+          "Heimbeatmungsservice Brambring Jaschke"
+        ],
+        "regulation": [
+          "SGB V 126/127 Prequalifizierung",
+          "GKV-IPReG",
+          "GKV-Hilfsmittelverzeichnis PG 12 Kanuelen"
+        ]
+      },
+      "sources": [
+        {
+          "title": "GIP Intensivpflege Lexikon Heimbeatmung",
+          "url": "https://www.gip-intensivpflege.de/intensivpflege-lexikon/heimbeatmung/",
+          "note": "Tracheostomy care coupled with invasive home ventilation"
+        },
+        {
+          "title": "Linimed Ausserklinische Intensivpflege & Heimbeatmung",
+          "url": "https://www.linimed.de/leistungen/ausserklinische-intensivpflege/",
+          "note": "Tracheostoma care within ventilation nursing service line"
+        }
+      ],
+      "confidence": 3,
+      "status": "grounded",
+      "child_ids": []
+    },
+    "medical-value-chain/distribution-medical-retail/medical-supply-stores-homecare-sanitatshauser-hilfsmittel/ambulatory-homecare-provisioning-wound-stoma-incontinence-enteral-respiratory/diabetes-supply-re-supply-diabetesbedarf-cgm": {
+      "id": "medical-value-chain/distribution-medical-retail/medical-supply-stores-homecare-sanitatshauser-hilfsmittel/ambulatory-homecare-provisioning-wound-stoma-incontinence-enteral-respiratory/diabetes-supply-re-supply-diabetesbedarf-cgm",
+      "name": "Diabetes Supply Re-Supply (Diabetesbedarf / CGM)",
+      "parent_id": "medical-value-chain/distribution-medical-retail/medical-supply-stores-homecare-sanitatshauser-hilfsmittel/ambulatory-homecare-provisioning-wound-stoma-incontinence-enteral-respiratory",
+      "level": 4,
+      "path": [
+        "Medical value chain",
+        "Distribution & Medical Retail",
+        "Medical Supply Stores & Homecare (Sanitatshauser / Hilfsmittel)",
+        "Ambulatory Homecare Provisioning (wound / stoma / incontinence / enteral / respiratory)",
+        "Diabetes Supply Re-Supply (Diabetesbedarf / CGM)"
+      ],
+      "value_chain_stage": "distribution",
+      "description": "Ongoing provisioning of blood-glucose test strips, lancets, insulin pump sets and increasingly CGM/rtCGM sensors billed as recurring consumables, straddling Hilfsmittel and pharmacy channels.",
+      "scores": {
+        "recurring": 5,
+        "fragmentation": 4,
+        "compliance": 5
+      },
+      "rationale": {
+        "recurring": "Sensors, strips and pump sets are consumed continuously, generating monthly re-order flows for insulin-dependent patients.",
+        "fragmentation": "Split across mail-order diabetes suppliers, pharmacies and Sanitatshauser; no single consolidator dominates.",
+        "compliance": "CGM systems reimbursed as Hilfsmittel require Prequalifizierung and Hilfsmittelverzeichnis listing; MDR software/device rules apply."
+      },
+      "composite": 91.7,
+      "dach_signals": {
+        "est_players": "many diabetes mail-order specialists plus pharmacies/Sanitatshauser",
+        "revenue_band_eur": "EUR 1-40m specialists; CGM shifting spend upward",
+        "example_companies": [
+          "Diabetes-Versand / mediq Direkt Diabetes",
+          "GHD GesundheitsGmbH Deutschland",
+          "Bad Heilbrunner / regional Sanitatshauser"
+        ],
+        "regulation": [
+          "SGB V 126/127 Prequalifizierung",
+          "GKV-Hilfsmittelverzeichnis PG 21 Messgeraete Koerperzustaende",
+          "MDR (EU) 2017/745"
+        ]
+      },
+      "sources": [
+        {
+          "title": "Homecare Unternehmen in Deutschland",
+          "url": "https://www.pflegemarkt.com/fachartikel/homecare-unternehmen-in-deutschland/",
+          "note": "Homecare specialisation and consolidation across consumable supply segments"
+        },
+        {
+          "title": "GKV-Spitzenverband Eignungskriterien Prequalifizierung",
+          "url": "https://www.gkv-spitzenverband.de/krankenversicherung/hilfsmittel/praequalifizierung/eignungskriterien/eignungskriterien.jsp",
+          "note": "Prequalifizierung supply-area framework applying to diabetes Hilfsmittel"
+        }
+      ],
+      "confidence": 3,
+      "status": "grounded",
+      "child_ids": []
+    },
+    "medical-value-chain/distribution-medical-retail/medical-supply-stores-homecare-sanitatshauser-hilfsmittel/sanitatshaus-retail-custom-aids/compression-therapy-bandagen-kompressionsversorgung": {
+      "id": "medical-value-chain/distribution-medical-retail/medical-supply-stores-homecare-sanitatshauser-hilfsmittel/sanitatshaus-retail-custom-aids/compression-therapy-bandagen-kompressionsversorgung",
+      "name": "Compression Therapy & Bandagen (Kompressionsversorgung)",
+      "parent_id": "medical-value-chain/distribution-medical-retail/medical-supply-stores-homecare-sanitatshauser-hilfsmittel/sanitatshaus-retail-custom-aids",
+      "level": 4,
+      "path": [
+        "Medical value chain",
+        "Distribution & Medical Retail",
+        "Medical Supply Stores & Homecare (Sanitatshauser / Hilfsmittel)",
+        "Sanitatshaus Retail & Custom Aids",
+        "Compression Therapy & Bandagen (Kompressionsversorgung)"
+      ],
+      "value_chain_stage": "distribution",
+      "description": "Measured fitting and re-supply of medical compression stockings (flat/round-knit), lymphoedema bandaging and orthopaedic Bandagen, a repeat-prescription category with 6-monthly renewal cycles.",
+      "scores": {
+        "recurring": 4,
+        "fragmentation": 5,
+        "compliance": 5
+      },
+      "rationale": {
+        "recurring": "Compression garments wear out and are re-prescribed roughly twice yearly, creating repeat but re-won demand.",
+        "fragmentation": "Hundreds of owner-operated Sanitatshauser fit compression; classic long-tail craft.",
+        "compliance": "Custom flat-knit and Bandagen require Prequalifizierung, PG 17/23 listing and measurement competence; MDR class I/IIa."
+      },
+      "composite": 91.7,
+      "dach_signals": {
+        "est_players": "large share of ~5,400 Sanitatshauser offer compression",
+        "revenue_band_eur": "EUR 0.5-5m typical owner-operated",
+        "example_companies": [
+          "Bauerfeind (Hersteller + eigene Vertriebshaeuser)",
+          "medi GmbH partners",
+          "Ofa Bamberg partner-Sanitatshauser"
+        ],
+        "regulation": [
+          "SGB V 126/127 Prequalifizierung",
+          "GKV-Hilfsmittelverzeichnis PG 17 Kompressionstherapie / PG 23 Bandagen",
+          "MDR (EU) 2017/745"
+        ]
+      },
+      "sources": [
+        {
+          "title": "Sanitatshaus Verbundgruppen im Ueberblick (MTD)",
+          "url": "https://mtd.de/verbundgruppen-im-ueberblick/",
+          "note": "Fragmented Sanitatshaus landscape organised into buying cooperatives"
+        },
+        {
+          "title": "Ofa Bamberg Brustkrebs-/Kompressions-Kooperation",
+          "url": "https://www.ofa.de/de-de/brustkrebskooperation/",
+          "note": "Manufacturer-Sanitatshaus cooperation model for compression/lymph products"
+        }
+      ],
+      "confidence": 4,
+      "status": "grounded",
+      "child_ids": []
+    },
+    "medical-value-chain/distribution-medical-retail/medical-supply-stores-homecare-sanitatshauser-hilfsmittel/sanitatshaus-retail-custom-aids/rehatechnik-equipment-rental-rollstuehle-pflegebetten-wiedereinsatz": {
+      "id": "medical-value-chain/distribution-medical-retail/medical-supply-stores-homecare-sanitatshauser-hilfsmittel/sanitatshaus-retail-custom-aids/rehatechnik-equipment-rental-rollstuehle-pflegebetten-wiedereinsatz",
+      "name": "Rehatechnik Equipment & Rental (Rollstuehle, Pflegebetten, Wiedereinsatz)",
+      "parent_id": "medical-value-chain/distribution-medical-retail/medical-supply-stores-homecare-sanitatshauser-hilfsmittel/sanitatshaus-retail-custom-aids",
+      "level": 4,
+      "path": [
+        "Medical value chain",
+        "Distribution & Medical Retail",
+        "Medical Supply Stores & Homecare (Sanitatshauser / Hilfsmittel)",
+        "Sanitatshaus Retail & Custom Aids",
+        "Rehatechnik Equipment & Rental (Rollstuehle, Pflegebetten, Wiedereinsatz)"
+      ],
+      "value_chain_stage": "services",
+      "description": "Provision, fitting, servicing and above all rental (Miete) plus GKV-mandated re-issue (Wiedereinsatz) of wheelchairs, care beds, walkers and mobility scooters, driven by a Rehatechniker workforce.",
+      "scores": {
+        "recurring": 4,
+        "fragmentation": 5,
+        "compliance": 4
+      },
+      "rationale": {
+        "recurring": "Assistive devices are largely rented/re-issued from GKV stock with recurring maintenance and hygienic reconditioning fees.",
+        "fragmentation": "Nearly every Sanitatshaus runs a local Verleih; thousands of small depots, no dominant consolidator.",
+        "compliance": "Rental/Wiedereinsatz governed by GKV contracts, MPBetreibV upkeep duties and Prequalifizierung; regulated but partly commodity."
+      },
+      "composite": 83.3,
+      "dach_signals": {
+        "est_players": "most of ~5,400 Sanitatshauser plus dedicated Rehatechnik firms",
+        "revenue_band_eur": "EUR 0.5-10m; rental yields durable annuity",
+        "example_companies": [
+          "Sanitatshaus Hempel GesundheitsPartner",
+          "STOLLE Sanitatshaus",
+          "Reha-Technik Hamburg / Rehatechnik Arnold"
+        ],
+        "regulation": [
+          "SGB V 126/127 Prequalifizierung",
+          "MPBetreibV (Medizinprodukte-Betreiberverordnung) Wiedereinsatz-/Aufbereitungspflichten",
+          "GKV-Hilfsmittelverzeichnis PG 18/22/26 Mobilitaet/Pflegebetten"
+        ]
+      },
+      "sources": [
+        {
+          "title": "Hempel GesundheitsPartner Hilfsmittel mieten",
+          "url": "https://sanoa.net/sanitaetshaus-hempel-berlin/standort/hempel-berlin-wedding/service/hilfsmittel-mieten/",
+          "note": "Wheelchair/care-bed rental service at a local Sanitatshaus"
+        },
+        {
+          "title": "Rehatechnik Arnold Vermietung Chemnitz",
+          "url": "https://rehatechnik-arnold.de/vermietung/",
+          "note": "Regional Rehatechnik rental depot example"
+        }
+      ],
+      "confidence": 4,
+      "status": "grounded",
+      "child_ids": []
+    },
+    "medical-value-chain/distribution-medical-retail/medical-supply-stores-homecare-sanitatshauser-hilfsmittel/sanitatshaus-retail-custom-aids/breast-prosthetics-mastectomy-care-brustprothetik-brustversorgung": {
+      "id": "medical-value-chain/distribution-medical-retail/medical-supply-stores-homecare-sanitatshauser-hilfsmittel/sanitatshaus-retail-custom-aids/breast-prosthetics-mastectomy-care-brustprothetik-brustversorgung",
+      "name": "Breast Prosthetics & Mastectomy Care (Brustprothetik / Brustversorgung)",
+      "parent_id": "medical-value-chain/distribution-medical-retail/medical-supply-stores-homecare-sanitatshauser-hilfsmittel/sanitatshaus-retail-custom-aids",
+      "level": 4,
+      "path": [
+        "Medical value chain",
+        "Distribution & Medical Retail",
+        "Medical Supply Stores & Homecare (Sanitatshauser / Hilfsmittel)",
+        "Sanitatshaus Retail & Custom Aids",
+        "Breast Prosthetics & Mastectomy Care (Brustprothetik / Brustversorgung)"
+      ],
+      "value_chain_stage": "distribution",
+      "description": "Post-mastectomy/BET fitting of silicone breast forms, special bras and lymph-compression garments, a counselling-intensive niche with periodic prosthesis and bra renewal on prescription.",
+      "scores": {
+        "recurring": 3,
+        "fragmentation": 4,
+        "compliance": 5
+      },
+      "rationale": {
+        "recurring": "Silicone prostheses are renewed roughly every 2 years and special bras several times yearly on prescription.",
+        "fragmentation": "Offered by many Sanitatshauser via dedicated Brustversorgungs-Zentren; regional long tail with manufacturer support.",
+        "compliance": "Requires Prequalifizierung, PG 24 Brustexoprothesen listing and certified female fitters; strongly GKV-funded."
+      },
+      "composite": 75.0,
+      "dach_signals": {
+        "est_players": "many Sanitatshauser with dedicated breast-care centres",
+        "revenue_band_eur": "EUR 0.3-5m as a specialised service line",
+        "example_companies": [
+          "Amoena (Hersteller + Fachhandelsnetz)",
+          "Sanitatshaus Kattler (Versorgungszentrum)",
+          "Samberger GmbH"
+        ],
+        "regulation": [
+          "SGB V 126/127 Prequalifizierung",
+          "GKV-Hilfsmittelverzeichnis PG 24 Brustexoprothesen",
+          "MDR (EU) 2017/745"
+        ]
+      },
+      "sources": [
+        {
+          "title": "Amoena Deutschland Brustprothesen",
+          "url": "https://www.amoena.com/de/brustprothesen/",
+          "note": "Silicone breast prosthesis fitting via Sanitatshaus channel"
+        },
+        {
+          "title": "Sanitatshaus Kattler Versorgungszentrum nach Brustkrebs",
+          "url": "https://kattler.de/leistungen/versorgungszentrum-nach-brustkrebserkrankung/",
+          "note": "Dedicated Sanitatshaus mastectomy-care centre example"
+        }
+      ],
+      "confidence": 4,
+      "status": "grounded",
+      "child_ids": []
+    },
+    "medical-value-chain/distribution-medical-retail/medical-supply-stores-homecare-sanitatshauser-hilfsmittel/sanitatshaus-retail-custom-aids/custom-seating-children-s-aids-reha-kinderversorgung-sitzschalen": {
+      "id": "medical-value-chain/distribution-medical-retail/medical-supply-stores-homecare-sanitatshauser-hilfsmittel/sanitatshaus-retail-custom-aids/custom-seating-children-s-aids-reha-kinderversorgung-sitzschalen",
+      "name": "Custom Seating & Children's Aids (Reha-Kinderversorgung / Sitzschalen)",
+      "parent_id": "medical-value-chain/distribution-medical-retail/medical-supply-stores-homecare-sanitatshauser-hilfsmittel/sanitatshaus-retail-custom-aids",
+      "level": 4,
+      "path": [
+        "Medical value chain",
+        "Distribution & Medical Retail",
+        "Medical Supply Stores & Homecare (Sanitatshauser / Hilfsmittel)",
+        "Sanitatshaus Retail & Custom Aids",
+        "Custom Seating & Children's Aids (Reha-Kinderversorgung / Sitzschalen)"
+      ],
+      "value_chain_stage": "distribution",
+      "description": "Individually moulded seating shells, adaptive buggies, standers and paediatric mobility aids for disabled children and neuro patients, a bespoke, low-volume high-complexity Rehatechnik niche.",
+      "scores": {
+        "recurring": 3,
+        "fragmentation": 5,
+        "compliance": 5
+      },
+      "rationale": {
+        "recurring": "Growing children need repeat re-fitting/replacement of seating and aids every 1-2 years.",
+        "fragmentation": "Specialised paediatric Rehatechnik dispersed across small workshops; highly custom, no consolidator.",
+        "compliance": "Custom aids are Sonderanfertigungen under MDR with Prequalifizierung and individual GKV cost approval per case."
+      },
+      "composite": 83.3,
+      "dach_signals": {
+        "est_players": "niche subset of Rehatechnik-capable Sanitatshauser",
+        "revenue_band_eur": "EUR 0.3-4m specialised workshops",
+        "example_companies": [
+          "Kueffner Reha",
+          "Sanitatshaus Klindwort",
+          "regional Rehatechnik/Kinderreha workshops"
+        ],
+        "regulation": [
+          "SGB V 126/127 Prequalifizierung",
+          "MDR Sonderanfertigung (Art. 52 Abs. 8 / Anhang XIII)",
+          "GKV-Hilfsmittelverzeichnis PG 18/26 Sitzsysteme/Reha-Kinderwagen"
+        ]
+      },
+      "sources": [
+        {
+          "title": "Kueffner Reha Reha-Hilfsmittel & Vermietung",
+          "url": "https://kueffner-reha.de/reha-hilfsmittel/vermietung/",
+          "note": "Rehatechnik/custom aids provider example"
+        },
+        {
+          "title": "Klindwort Sanitatshaus Hilfsmittel mieten/versorgen",
+          "url": "https://klindwort-sanitaetshaus-orthopaedie.sanoa.net/standort/klindwort-sanitaetshaus-bad-schwartau/service/hilfsmittel-mieten/",
+          "note": "Combined Sanitatshaus/Orthopadie custom-aids and rental provider"
+        }
+      ],
+      "confidence": 3,
+      "status": "grounded",
+      "child_ids": []
+    },
+    "medical-value-chain/distribution-medical-retail/medical-supply-stores-homecare-sanitatshauser-hilfsmittel/sanitatshaus-retail-custom-aids/medical-footwear-inserts-insoles-einlagen-schuhzurichtung": {
+      "id": "medical-value-chain/distribution-medical-retail/medical-supply-stores-homecare-sanitatshauser-hilfsmittel/sanitatshaus-retail-custom-aids/medical-footwear-inserts-insoles-einlagen-schuhzurichtung",
+      "name": "Medical Footwear Inserts & Insoles (Einlagen / Schuhzurichtung)",
+      "parent_id": "medical-value-chain/distribution-medical-retail/medical-supply-stores-homecare-sanitatshauser-hilfsmittel/sanitatshaus-retail-custom-aids",
+      "level": 4,
+      "path": [
+        "Medical value chain",
+        "Distribution & Medical Retail",
+        "Medical Supply Stores & Homecare (Sanitatshauser / Hilfsmittel)",
+        "Sanitatshaus Retail & Custom Aids",
+        "Medical Footwear Inserts & Insoles (Einlagen / Schuhzurichtung)"
+      ],
+      "value_chain_stage": "distribution",
+      "description": "Made-to-measure orthopaedic insoles, shoe adaptations (Schuhzurichtung) and diabetic-foot footbeds produced on foot-pressure scans, sitting at the Sanitatshaus/Orthopadieschuhtechnik interface.",
+      "scores": {
+        "recurring": 4,
+        "fragmentation": 5,
+        "compliance": 4
+      },
+      "rationale": {
+        "recurring": "Insoles wear out and are re-prescribed annually, giving steady repeat demand.",
+        "fragmentation": "~2,300-2,500 orthopaedic shoemaker craft firms plus insole-making Sanitatshauser; deeply fragmented handwork.",
+        "compliance": "Custom insoles are MDR Sonderanfertigungen requiring Prequalifizierung and Meister-craft qualification; regulated but partly self-pay."
+      },
+      "composite": 83.3,
+      "dach_signals": {
+        "est_players": "~2,300-2,529 Orthopadieschuhtechnik firms, ~15,000 employees",
+        "revenue_band_eur": "EUR 0.3-3m typical craft firm",
+        "example_companies": [
+          "Pohlig GmbH",
+          "Sanitatshaus Seeger",
+          "regional Orthopadieschuhmacher-Meisterbetriebe"
+        ],
+        "regulation": [
+          "SGB V 126/127 Prequalifizierung",
+          "MDR Sonderanfertigung",
+          "Handwerksordnung / ZVOS craft standards"
+        ]
+      },
+      "sources": [
+        {
+          "title": "Orthopadieschuhtechnik Maszschuhe / Einlagen (care-center)",
+          "url": "https://www.care-center.de/orthopaedieschuhtechnik",
+          "note": "Custom insoles, Schuhzurichtung and foot-pressure measurement services"
+        },
+        {
+          "title": "ZVOS / Orthopadie-Schuhmacher Betriebszahlen (OSTechnik)",
+          "url": "https://ostechnik.de/orthopaedie-schuhmacher-handarbeit-und-hightech-am-fuss/",
+          "note": "~2,300-2,529 orthopaedic shoemaker firms, ~15,000 employees"
+        }
+      ],
+      "confidence": 4,
+      "status": "grounded",
+      "child_ids": []
+    },
+    "medical-value-chain/distribution-medical-retail/orthopaedic-technology-shoe-making-orthopadietechnik-schuhtechnik/orthopaedic-technology-prostheses-orthoses/lower-limb-prosthetics-beinprothetik": {
+      "id": "medical-value-chain/distribution-medical-retail/orthopaedic-technology-shoe-making-orthopadietechnik-schuhtechnik/orthopaedic-technology-prostheses-orthoses/lower-limb-prosthetics-beinprothetik",
+      "name": "Lower-Limb Prosthetics (Beinprothetik)",
+      "parent_id": "medical-value-chain/distribution-medical-retail/orthopaedic-technology-shoe-making-orthopadietechnik-schuhtechnik/orthopaedic-technology-prostheses-orthoses",
+      "level": 4,
+      "path": [
+        "Medical value chain",
+        "Distribution & Medical Retail",
+        "Orthopaedic Technology & Shoe-Making (Orthopadietechnik / -schuhtechnik)",
+        "Orthopaedic Technology (Prostheses & Orthoses)",
+        "Lower-Limb Prosthetics (Beinprothetik)"
+      ],
+      "value_chain_stage": "distribution",
+      "description": "Custom fabrication and lifelong servicing of trans-tibial/trans-femoral leg prostheses including microprocessor knees, dominated by Meister-run OT workshops within the BIV-OT craft.",
+      "scores": {
+        "recurring": 4,
+        "fragmentation": 5,
+        "compliance": 5
+      },
+      "rationale": {
+        "recurring": "Sockets are refit and liners/components replaced over the amputee's life, generating recurring service revenue.",
+        "fragmentation": "Part of ~4,500 BIV-OT member OT workshops; many owner-operated Meisterbetriebe, no consolidator.",
+        "compliance": "Custom prostheses are MDR Sonderanfertigungen needing Prequalifizierung, Hilfsmittelverzeichnis listing and OT-Meister qualification."
+      },
+      "composite": 91.7,
+      "dach_signals": {
+        "est_players": "large share of ~4,500 BIV-OT OT workshops (~48,000 employees)",
+        "revenue_band_eur": "EUR 1-10m typical OT workshop",
+        "example_companies": [
+          "Pohlig GmbH",
+          "ORD Orthopadietechnik",
+          "Sanitatshaus Muench & Hahn"
+        ],
+        "regulation": [
+          "SGB V 126/127 Prequalifizierung",
+          "MDR Sonderanfertigung",
+          "GKV-Hilfsmittelverzeichnis PG 24 Prothesen; Handwerksordnung OT-Meister"
+        ]
+      },
+      "sources": [
+        {
+          "title": "BIV-OT Bundesinnungsverband",
+          "url": "https://biv-ot.org/",
+          "note": ">4,500 OT/Sanitatshaus workshops, >48,000 employees, ~30m supplies/year"
+        },
+        {
+          "title": "ORD Orthopadietechnik Prothesen",
+          "url": "https://www.ord.de/leistungen/orthopaedietechnik/prothesen-fuer-obere-extremitaeten",
+          "note": "OT workshop offering limb prosthetics"
+        }
+      ],
+      "confidence": 4,
+      "status": "grounded",
+      "child_ids": []
+    },
+    "medical-value-chain/distribution-medical-retail/orthopaedic-technology-shoe-making-orthopadietechnik-schuhtechnik/orthopaedic-technology-prostheses-orthoses/upper-limb-prosthetics-armprothetik": {
+      "id": "medical-value-chain/distribution-medical-retail/orthopaedic-technology-shoe-making-orthopadietechnik-schuhtechnik/orthopaedic-technology-prostheses-orthoses/upper-limb-prosthetics-armprothetik",
+      "name": "Upper-Limb Prosthetics (Armprothetik)",
+      "parent_id": "medical-value-chain/distribution-medical-retail/orthopaedic-technology-shoe-making-orthopadietechnik-schuhtechnik/orthopaedic-technology-prostheses-orthoses",
+      "level": 4,
+      "path": [
+        "Medical value chain",
+        "Distribution & Medical Retail",
+        "Orthopaedic Technology & Shoe-Making (Orthopadietechnik / -schuhtechnik)",
+        "Orthopaedic Technology (Prostheses & Orthoses)",
+        "Upper-Limb Prosthetics (Armprothetik)"
+      ],
+      "value_chain_stage": "distribution",
+      "description": "Lower-volume fabrication of hand/arm prostheses ranging from passive cosmetic to body-powered, requiring specialised OT competence and close manufacturer collaboration.",
+      "scores": {
+        "recurring": 3,
+        "fragmentation": 5,
+        "compliance": 5
+      },
+      "rationale": {
+        "recurring": "Fewer amputations than lower limb but sockets/components still need periodic refit and replacement.",
+        "fragmentation": "Only a subset of OT workshops handle arm prosthetics; specialised long tail.",
+        "compliance": "MDR Sonderanfertigung plus Prequalifizierung and specialist Arm-OT expertise; GKV-funded per case."
+      },
+      "composite": 83.3,
+      "dach_signals": {
+        "est_players": "specialist subset of BIV-OT workshops",
+        "revenue_band_eur": "EUR 1-8m for specialised players",
+        "example_companies": [
+          "Prothesen & Orthesen Werkstatt (Orthowerkstatt)",
+          "Lentes Prothesenwerkstatt",
+          "ORD Orthopadietechnik"
+        ],
+        "regulation": [
+          "SGB V 126/127 Prequalifizierung",
+          "MDR Sonderanfertigung",
+          "GKV-Hilfsmittelverzeichnis PG 24 Prothesen obere Extremitaet"
+        ]
+      },
+      "sources": [
+        {
+          "title": "Orthowerkstatt Armprothesen",
+          "url": "https://www.orthowerkstatt.de/armprothesen",
+          "note": "Specialised upper-limb prosthetics workshop example"
+        },
+        {
+          "title": "ORD Prothesen fuer obere Extremitaeten",
+          "url": "https://www.ord.de/leistungen/orthopaedietechnik/prothesen-fuer-obere-extremitaeten",
+          "note": "Upper-limb prosthetics as OT service line"
+        }
+      ],
+      "confidence": 3,
+      "status": "grounded",
+      "child_ids": []
+    },
+    "medical-value-chain/distribution-medical-retail/orthopaedic-technology-shoe-making-orthopadietechnik-schuhtechnik/orthopaedic-technology-prostheses-orthoses/orthotics-bracing-orthetik-orthesen": {
+      "id": "medical-value-chain/distribution-medical-retail/orthopaedic-technology-shoe-making-orthopadietechnik-schuhtechnik/orthopaedic-technology-prostheses-orthoses/orthotics-bracing-orthetik-orthesen",
+      "name": "Orthotics & Bracing (Orthetik / Orthesen)",
+      "parent_id": "medical-value-chain/distribution-medical-retail/orthopaedic-technology-shoe-making-orthopadietechnik-schuhtechnik/orthopaedic-technology-prostheses-orthoses",
+      "level": 4,
+      "path": [
+        "Medical value chain",
+        "Distribution & Medical Retail",
+        "Orthopaedic Technology & Shoe-Making (Orthopadietechnik / -schuhtechnik)",
+        "Orthopaedic Technology (Prostheses & Orthoses)",
+        "Orthotics & Bracing (Orthetik / Orthesen)"
+      ],
+      "value_chain_stage": "distribution",
+      "description": "Custom and modular orthoses/braces for spine, limbs and joints (incl. stroke/neuro AFOs), the highest-volume OT category with strong repeat and prescription-driven demand.",
+      "scores": {
+        "recurring": 4,
+        "fragmentation": 5,
+        "compliance": 5
+      },
+      "rationale": {
+        "recurring": "Orthoses are re-prescribed as conditions progress and devices wear, and paediatric cases refit as children grow.",
+        "fragmentation": "Broadly offered across the ~4,500 BIV-OT workshops; classic fragmented craft.",
+        "compliance": "Custom orthoses are MDR Sonderanfertigungen with Prequalifizierung and Hilfsmittelverzeichnis listing mandatory."
+      },
+      "composite": 91.7,
+      "dach_signals": {
+        "est_players": "most of ~4,500 BIV-OT workshops",
+        "revenue_band_eur": "EUR 1-10m typical OT workshop",
+        "example_companies": [
+          "Pohlig GmbH",
+          "Kajamed (Orthopadietechniker)",
+          "Bauerfeind (Serienorthesen-Hersteller)"
+        ],
+        "regulation": [
+          "SGB V 126/127 Prequalifizierung",
+          "MDR Sonderanfertigung / Serienprodukte",
+          "GKV-Hilfsmittelverzeichnis PG 23 Orthesen/Schienen"
+        ]
+      },
+      "sources": [
+        {
+          "title": "BIV-OT Bundesinnungsverband",
+          "url": "https://biv-ot.org/",
+          "note": "OT craft covering orthoses/braces across >4,500 workshops"
+        },
+        {
+          "title": "Kajamed Kinderorthopadie Skoliose-Korsett",
+          "url": "https://kajamed.de/leistungen/kinderorthopaedie/skoliose-korsett/",
+          "note": "Custom bracing / orthotics workshop example"
+        }
+      ],
+      "confidence": 4,
+      "status": "grounded",
+      "child_ids": []
+    },
+    "medical-value-chain/distribution-medical-retail/orthopaedic-technology-shoe-making-orthopadietechnik-schuhtechnik/orthopaedic-technology-prostheses-orthoses/cranial-remoulding-paediatric-ot-kopforthesen-kinderorthopadie": {
+      "id": "medical-value-chain/distribution-medical-retail/orthopaedic-technology-shoe-making-orthopadietechnik-schuhtechnik/orthopaedic-technology-prostheses-orthoses/cranial-remoulding-paediatric-ot-kopforthesen-kinderorthopadie",
+      "name": "Cranial Remoulding & Paediatric OT (Kopforthesen / Kinderorthopadie)",
+      "parent_id": "medical-value-chain/distribution-medical-retail/orthopaedic-technology-shoe-making-orthopadietechnik-schuhtechnik/orthopaedic-technology-prostheses-orthoses",
+      "level": 4,
+      "path": [
+        "Medical value chain",
+        "Distribution & Medical Retail",
+        "Orthopaedic Technology & Shoe-Making (Orthopadietechnik / -schuhtechnik)",
+        "Orthopaedic Technology (Prostheses & Orthoses)",
+        "Cranial Remoulding & Paediatric OT (Kopforthesen / Kinderorthopadie)"
+      ],
+      "value_chain_stage": "distribution",
+      "description": "3D-scanned dynamic cranial orthoses (Helmtherapie) for infant plagiocephaly plus scoliosis bracing and growth-driven paediatric orthotics, a specialised sub-niche with concentrated device makers.",
+      "scores": {
+        "recurring": 3,
+        "fragmentation": 3,
+        "compliance": 4
+      },
+      "rationale": {
+        "recurring": "Helmet therapy is a time-limited episode, but paediatric orthotics recur as children grow and need re-fitting.",
+        "fragmentation": "Cranial remoulding concentrated around a few device makers (Cranioform) fitting via partner OT workshops.",
+        "compliance": "Custom cranial/scoliosis orthoses are MDR Sonderanfertigungen; GKV coverage varies and is partly self-pay, softening the mandate."
+      },
+      "composite": 58.3,
+      "dach_signals": {
+        "est_players": "few cranial specialists plus a network of paediatric-OT workshops",
+        "revenue_band_eur": "EUR 0.5-8m; Kopforthese EUR ~1,500-2,500/case",
+        "example_companies": [
+          "Cranioform AG",
+          "Kajamed",
+          "Sanitatshaus Seeger / OT Harlaching"
+        ],
+        "regulation": [
+          "MDR Sonderanfertigung",
+          "SGB V 126/127 Prequalifizierung",
+          "GKV-Einzelfallentscheidung Kopforthese; DGSPJ-Stellungnahme Helmtherapie"
+        ]
+      },
+      "sources": [
+        {
+          "title": "Cranioform Helmtherapie Behandlung",
+          "url": "https://www.cranioform.de/helmtherapie/behandlung.html",
+          "note": "Leading cranial-remoulding orthosis provider, 3D-scan workflow"
+        },
+        {
+          "title": "Seeger Helmtherapie: Kopforthesen bei Kopfverformung",
+          "url": "https://www.seeger-gesundheit.de/ratgeber/helmtherapie-kopforthesen-bei-kopfverformung",
+          "note": "OT fitting of cranial orthoses and variable GKV coverage"
+        }
+      ],
+      "confidence": 3,
+      "status": "grounded",
+      "child_ids": []
+    },
+    "medical-value-chain/distribution-medical-retail/orthopaedic-technology-shoe-making-orthopadietechnik-schuhtechnik/orthopaedic-technology-prostheses-orthoses/myoelectric-high-tech-prosthetics-bionik-myoelektrik": {
+      "id": "medical-value-chain/distribution-medical-retail/orthopaedic-technology-shoe-making-orthopadietechnik-schuhtechnik/orthopaedic-technology-prostheses-orthoses/myoelectric-high-tech-prosthetics-bionik-myoelektrik",
+      "name": "Myoelectric / High-Tech Prosthetics (Bionik / Myoelektrik)",
+      "parent_id": "medical-value-chain/distribution-medical-retail/orthopaedic-technology-shoe-making-orthopadietechnik-schuhtechnik/orthopaedic-technology-prostheses-orthoses",
+      "level": 4,
+      "path": [
+        "Medical value chain",
+        "Distribution & Medical Retail",
+        "Orthopaedic Technology & Shoe-Making (Orthopadietechnik / -schuhtechnik)",
+        "Orthopaedic Technology (Prostheses & Orthoses)",
+        "Myoelectric / High-Tech Prosthetics (Bionik / Myoelektrik)"
+      ],
+      "value_chain_stage": "distribution",
+      "description": "Fitting and lifelong programming/service of myoelectric hands, microprocessor knees and pattern-recognition (KI) prostheses using premium components, the highest-value, most concentrated OT sub-niche.",
+      "scores": {
+        "recurring": 4,
+        "fragmentation": 3,
+        "compliance": 5
+      },
+      "rationale": {
+        "recurring": "High-value devices need recurring calibration, battery/component service and periodic renewal contracts.",
+        "fragmentation": "Only certified OT centres are trained on OEM systems (Ottobock, Ossur), narrowing the field vs standard OT.",
+        "compliance": "MDR Class devices plus expensive per-case GKV cost approval (EUR 10-40k+) make funding a hard buying driver."
+      },
+      "composite": 75.0,
+      "dach_signals": {
+        "est_players": "limited set of certified high-tech OT centres",
+        "revenue_band_eur": "EUR 2-20m; devices EUR 10-40k+ each",
+        "example_companies": [
+          "Ottobock Care / Fachzentren",
+          "Pohlig GmbH",
+          "Sanitatshaus Muench & Hahn (Ottobock-Partner)"
+        ],
+        "regulation": [
+          "MDR (EU) 2017/745 (active medical devices)",
+          "SGB V 126/127 Prequalifizierung",
+          "GKV-Einzelfallgenehmigung Hochpreis-Hilfsmittel"
+        ]
+      },
+      "sources": [
+        {
+          "title": "Myo Plus Steuerkonzept myoelektrische Armprothesen (360-ot)",
+          "url": "https://360-ot.de/myo-plus-innovatives-steuerkonzept-fuer-transradiale-myoelektrische-armprothesen/",
+          "note": "Pattern-recognition myoelectric control technology from Ottobock"
+        },
+        {
+          "title": "Sanitatshaus Muench & Hahn Ottobock",
+          "url": "https://muench-hahn.de/ottobock/",
+          "note": "Certified OT centre fitting Ottobock high-tech prosthetics"
+        }
+      ],
+      "confidence": 3,
+      "status": "grounded",
+      "child_ids": []
+    },
+    "medical-value-chain/care-delivery-providers/outpatient-mobile-nursing-services-ambulante-pflegedienste/sgb-xi-basic-care-grundpflege-pflegesachleistung": {
+      "id": "medical-value-chain/care-delivery-providers/outpatient-mobile-nursing-services-ambulante-pflegedienste/sgb-xi-basic-care-grundpflege-pflegesachleistung",
+      "name": "SGB XI Basic Care (Grundpflege / Pflegesachleistung)",
+      "parent_id": "medical-value-chain/care-delivery-providers/outpatient-mobile-nursing-services-ambulante-pflegedienste",
+      "level": 3,
+      "path": [
+        "Medical value chain",
+        "Care Delivery & Providers",
+        "Outpatient / Mobile Nursing Services (Ambulante Pflegedienste)",
+        "SGB XI Basic Care (Grundpflege / Pflegesachleistung)"
+      ],
+      "value_chain_stage": "provider",
+      "description": "Everyday personal-care mobile nursing (washing, mobility, feeding) billed as statutory long-term-care Sachleistung under SGB XI; the volume backbone of ~15,400 German ambulant Pflegedienste, of which 96% deliver both SGB XI and SGB V.",
+      "scores": {
+        "recurring": 5,
+        "fragmentation": 5,
+        "compliance": 4
+      },
+      "rationale": {
+        "recurring": "Statutory Pflegegrad entitlement funds daily/weekly recurring visits for years per client (Pflegesachleistung).",
+        "fragmentation": "~15,400 ambulant services, overwhelmingly owner-operated SMEs with no dominant consolidator.",
+        "compliance": "MD/Pflege-TÜV quality audits and Rahmenverträge mandatory but tariffs, not compliance, drive purchasing."
+      },
+      "composite": 91.7,
+      "dach_signals": {
+        "est_players": "~15,400 ambulant services (DE, Dec 2024)",
+        "revenue_band_eur": "EUR 0.5-5m typical per firm",
+        "example_companies": [
+          "advita Pflegedienst",
+          "Caritas Sozialstationen",
+          "Diakoniestationen"
+        ],
+        "regulation": [
+          "SGB XI §36 Pflegesachleistung",
+          "SGB XI §113 MD-Qualitätsprüfung (Pflege-TÜV)",
+          "Landesrahmenverträge §75 SGB XI"
+        ]
+      },
+      "sources": [
+        {
+          "title": "Ambulante Pflegedienste - Stiftung ZQP",
+          "url": "https://www.zqp.de/schwerpunkt/ambulante-pflege/",
+          "note": "15,500 services / 446,400 staff Dec 2024; 96% deliver SGB XI+V"
+        },
+        {
+          "title": "KBV - Ambulante Pflegedienste",
+          "url": "https://www.kbv.de/infothek/zahlen-und-fakten/gesundheitsdaten/ambulante-pflegedienste",
+          "note": "official ambulant-service counts and structure"
+        }
+      ],
+      "confidence": 4,
+      "status": "grounded",
+      "child_ids": []
+    },
+    "medical-value-chain/care-delivery-providers/outpatient-mobile-nursing-services-ambulante-pflegedienste/sgb-v-medical-home-care-behandlungspflege-hausliche-krankenpflege": {
+      "id": "medical-value-chain/care-delivery-providers/outpatient-mobile-nursing-services-ambulante-pflegedienste/sgb-v-medical-home-care-behandlungspflege-hausliche-krankenpflege",
+      "name": "SGB V Medical Home Care (Behandlungspflege / häusliche Krankenpflege)",
+      "parent_id": "medical-value-chain/care-delivery-providers/outpatient-mobile-nursing-services-ambulante-pflegedienste",
+      "level": 3,
+      "path": [
+        "Medical value chain",
+        "Care Delivery & Providers",
+        "Outpatient / Mobile Nursing Services (Ambulante Pflegedienste)",
+        "SGB V Medical Home Care (Behandlungspflege / häusliche Krankenpflege)"
+      ],
+      "value_chain_stage": "provider",
+      "description": "Physician-prescribed medical acts at home (wound care, injections, medication management, compression) billed to statutory health insurance under SGB V §37; higher-margin, nurse-qualified line offered by nearly all Pflegedienste alongside SGB XI care.",
+      "scores": {
+        "recurring": 5,
+        "fragmentation": 5,
+        "compliance": 5
+      },
+      "rationale": {
+        "recurring": "Repeat Verordnungen (e.g. daily insulin, chronic wounds) generate multi-month statutory-funded contracts re-issued by GPs.",
+        "fragmentation": "Delivered by the same ~15,000 fragmented SMEs; specialist wound/stoma niches even more scattered.",
+        "compliance": "Every act requires a physician Verordnung plus SGB V §132a Kassenzulassung and MD audit — regulation gates market entry."
+      },
+      "composite": 100.0,
+      "dach_signals": {
+        "est_players": ">14,000 services (96% of ambulant firms also bill SGB V)",
+        "revenue_band_eur": "EUR 0.5-5m typical; wound-specialist units higher margin",
+        "example_companies": [
+          "advita Pflegedienst",
+          "Johanniter Pflegedienste",
+          "Bonitas"
+        ],
+        "regulation": [
+          "SGB V §37 häusliche Krankenpflege",
+          "SGB V §132a Versorgungsverträge",
+          "HKP-Richtlinie G-BA"
+        ]
+      },
+      "sources": [
+        {
+          "title": "Ambulante Pflegedienste - Stiftung ZQP",
+          "url": "https://www.zqp.de/schwerpunkt/ambulante-pflege/",
+          "note": "96% of services deliver both SGB XI and SGB V"
+        },
+        {
+          "title": "Pflegestatistik 2023 - Wawrik Pflege Consulting",
+          "url": "https://wawrik-pflege-consulting.de/ambulante-pflegedienste-in-deutschland-zahlen-und-entwicklungen-2023/",
+          "note": "2023 counts of ambulant services"
+        }
+      ],
+      "confidence": 4,
+      "status": "grounded",
+      "child_ids": []
+    },
+    "medical-value-chain/care-delivery-providers/outpatient-mobile-nursing-services-ambulante-pflegedienste/specialised-palliative-home-care-sapv": {
+      "id": "medical-value-chain/care-delivery-providers/outpatient-mobile-nursing-services-ambulante-pflegedienste/specialised-palliative-home-care-sapv",
+      "name": "Specialised Palliative Home Care (SAPV)",
+      "parent_id": "medical-value-chain/care-delivery-providers/outpatient-mobile-nursing-services-ambulante-pflegedienste",
+      "level": 3,
+      "path": [
+        "Medical value chain",
+        "Care Delivery & Providers",
+        "Outpatient / Mobile Nursing Services (Ambulante Pflegedienste)",
+        "Specialised Palliative Home Care (SAPV)"
+      ],
+      "value_chain_stage": "provider",
+      "description": "Multi-professional (physician + nurse) 24/7 specialised outpatient palliative teams for end-of-life patients under SGB V §37b/§132d; delivered by ~403 SAPV teams (36 paediatric) on regional GKV framework contracts.",
+      "scores": {
+        "recurring": 4,
+        "fragmentation": 4,
+        "compliance": 5
+      },
+      "rationale": {
+        "recurring": "Episodic but statutory-funded per-case Betreuung with continuous team on-call revenue; short patient tenure limits it to 4.",
+        "fragmentation": "~403 regional teams, many hospice-/charity-linked, no national consolidator — mid-cap + long tail.",
+        "compliance": "Access gated by §37b prescription, §132d Rahmenvertrag and qualified-team requirements — pure statutory market."
+      },
+      "composite": 83.3,
+      "dach_signals": {
+        "est_players": "~403 SAPV teams (DE 2024), 36 paediatric",
+        "revenue_band_eur": "EUR 1-8m per team region",
+        "example_companies": [
+          "Home Care Berlin",
+          "Palliativteam SAPV regional networks",
+          "Johanniter SAPV"
+        ],
+        "regulation": [
+          "SGB V §37b SAPV-Anspruch",
+          "SGB V §132d Rahmenvertrag",
+          "G-BA SAPV-Richtlinie"
+        ]
+      },
+      "sources": [
+        {
+          "title": "Spezialisierte ambulante Palliativversorgung (SAPV) - GKV-Spitzenverband",
+          "url": "https://www.gkv-spitzenverband.de/krankenversicherung/hospiz_und_palliativversorgung/sapv_start/spez_amb_palliativ/sapv.jsp",
+          "note": "§37b/§132d legal basis and team structure"
+        },
+        {
+          "title": "SAPV - DGPalliativmedizin",
+          "url": "https://www.dgpalliativmedizin.de/allgemein/sapv",
+          "note": "~403 teams incl. 36 paediatric (KBV 2024)"
+        }
+      ],
+      "confidence": 4,
+      "status": "grounded",
+      "child_ids": []
+    },
+    "medical-value-chain/care-delivery-providers/outpatient-mobile-nursing-services-ambulante-pflegedienste/day-care-tagespflege-teilstationar": {
+      "id": "medical-value-chain/care-delivery-providers/outpatient-mobile-nursing-services-ambulante-pflegedienste/day-care-tagespflege-teilstationar",
+      "name": "Day Care (Tagespflege / teilstationär)",
+      "parent_id": "medical-value-chain/care-delivery-providers/outpatient-mobile-nursing-services-ambulante-pflegedienste",
+      "level": 3,
+      "path": [
+        "Medical value chain",
+        "Care Delivery & Providers",
+        "Outpatient / Mobile Nursing Services (Ambulante Pflegedienste)",
+        "Day Care (Tagespflege / teilstationär)"
+      ],
+      "value_chain_stage": "provider",
+      "description": "Semi-residential day facilities (transport, care, activation) bridging home and inpatient care under SGB XI §41; ~96,000 places nationally and one of the fastest-growing (+16% p.a.) real-estate-plus-care asset classes.",
+      "scores": {
+        "recurring": 5,
+        "fragmentation": 5,
+        "compliance": 4
+      },
+      "rationale": {
+        "recurring": "Pflegegrad 2-5 clients attend fixed weekly days for years, funded as separate SGB XI §41 budget.",
+        "fragmentation": "Highly local, capacity split across thousands of small operators; capacity growing double-digit with no consolidator.",
+        "compliance": "Requires §72 Versorgungsvertrag and MD audit; regulated but funding/real-estate drive economics."
+      },
+      "composite": 91.7,
+      "dach_signals": {
+        "est_players": "~96,200 Tagespflege places (DE Dec 2021, +16% p.a.)",
+        "revenue_band_eur": "EUR 0.3-2m per site",
+        "example_companies": [
+          "advita Tagespflege",
+          "Kursana",
+          "regional Tagespflege operators"
+        ],
+        "regulation": [
+          "SGB XI §41 Tages-/Nachtpflege",
+          "SGB XI §72 Versorgungsvertrag",
+          "Länder-Heimrecht/Bauvorgaben"
+        ]
+      },
+      "sources": [
+        {
+          "title": "§ 41 SGB XI Tagespflege und Nachtpflege - gesetze-im-internet",
+          "url": "https://www.gesetze-im-internet.de/sgb_11/__41.html",
+          "note": "legal basis for teilstationäre Tagespflege"
+        },
+        {
+          "title": "Pflegestatistik 2021 - SozialGestaltung",
+          "url": "https://sozialgestaltung.de/pflegestatistik-2021/",
+          "note": "~96,200 Tagespflege places, +16% growth"
+        }
+      ],
+      "confidence": 4,
+      "status": "grounded",
+      "child_ids": []
+    },
+    "medical-value-chain/care-delivery-providers/outpatient-mobile-nursing-services-ambulante-pflegedienste/dementia-everyday-support-services-betreuungsdienste-45a": {
+      "id": "medical-value-chain/care-delivery-providers/outpatient-mobile-nursing-services-ambulante-pflegedienste/dementia-everyday-support-services-betreuungsdienste-45a",
+      "name": "Dementia & Everyday-Support Services (Betreuungsdienste / §45a)",
+      "parent_id": "medical-value-chain/care-delivery-providers/outpatient-mobile-nursing-services-ambulante-pflegedienste",
+      "level": 3,
+      "path": [
+        "Medical value chain",
+        "Care Delivery & Providers",
+        "Outpatient / Mobile Nursing Services (Ambulante Pflegedienste)",
+        "Dementia & Everyday-Support Services (Betreuungsdienste / §45a)"
+      ],
+      "value_chain_stage": "provider",
+      "description": "State-recognised everyday-support and dementia companionship (group/1:1 supervision, activation) funded via the SGB XI §45b Entlastungsbetrag (EUR 131/month) plus Verhinderungspflege budgets; asset-light, staffed largely by trained non-nurse Betreuungskräfte.",
+      "scores": {
+        "recurring": 4,
+        "fragmentation": 5,
+        "compliance": 4
+      },
+      "rationale": {
+        "recurring": "Monthly Entlastungsbetrag entitlement (every Pflegegrad 1-5) funds recurring weekly visits, but low per-client ceiling caps intensity.",
+        "fragmentation": "Thousands of hyper-local Länder-recognised providers; lowest entry barrier of any line, no consolidator.",
+        "compliance": "Access requires Land-level §45a recognition and quality standards, but modest clinical regulation."
+      },
+      "composite": 83.3,
+      "dach_signals": {
+        "est_players": "Several thousand §45a-recognised providers (Länder-registered)",
+        "revenue_band_eur": "EUR 0.1-1.5m typical",
+        "example_companies": [
+          "Home Instead",
+          "Jedermann-Gruppe",
+          "Alltagsengel/regional Betreuungsdienste"
+        ],
+        "regulation": [
+          "SGB XI §45a Angebote zur Unterstützung im Alltag",
+          "SGB XI §45b Entlastungsbetrag (EUR 131/mo)",
+          "Länder-Anerkennungsverordnungen"
+        ]
+      },
+      "sources": [
+        {
+          "title": "§ 45a SGB XI - sozialgesetzbuch-sgb.de",
+          "url": "https://www.sozialgesetzbuch-sgb.de/sgbxi/45a.html",
+          "note": "Land-recognised everyday-support offers definition"
+        },
+        {
+          "title": "Weitere Leistungen und Angebote zur Unterstützung im Alltag - BMG",
+          "url": "https://www.bundesgesundheitsministerium.de/pflege-zu-hause/weitere-leistungen-und-angebote-zur-unterstuetzung-im-alltag",
+          "note": "§45b EUR 131 Entlastungsbetrag, group/individual dementia care"
+        }
+      ],
+      "confidence": 3,
+      "status": "grounded",
+      "child_ids": []
+    },
+    "medical-value-chain/care-delivery-providers/outpatient-mobile-nursing-services-ambulante-pflegedienste/respite-substitute-care-verhinderungspflege-household-support": {
+      "id": "medical-value-chain/care-delivery-providers/outpatient-mobile-nursing-services-ambulante-pflegedienste/respite-substitute-care-verhinderungspflege-household-support",
+      "name": "Respite / Substitute Care (Verhinderungspflege & household support)",
+      "parent_id": "medical-value-chain/care-delivery-providers/outpatient-mobile-nursing-services-ambulante-pflegedienste",
+      "level": 3,
+      "path": [
+        "Medical value chain",
+        "Care Delivery & Providers",
+        "Outpatient / Mobile Nursing Services (Ambulante Pflegedienste)",
+        "Respite / Substitute Care (Verhinderungspflege & household support)"
+      ],
+      "value_chain_stage": "provider",
+      "description": "Substitute care covering family caregivers' absence plus domestic help (housekeeping, shopping) funded under SGB XI §39 Verhinderungspflege and combinable with the §45b Entlastungsbetrag; a flexible-hours, low-clinical add-on line often bundled by Betreuungs- and 24h-care agencies.",
+      "scores": {
+        "recurring": 3,
+        "fragmentation": 5,
+        "compliance": 3
+      },
+      "rationale": {
+        "recurring": "Capped annual §39 budget draws episodic bookings rather than continuous contracts, so re-won each period.",
+        "fragmentation": "Provided by a vast long tail of small agencies and even self-employed carers; extremely fragmented.",
+        "compliance": "Light regulation vs medical lines; eligibility rules matter but clinical/certification burden is low."
+      },
+      "composite": 66.7,
+      "dach_signals": {
+        "est_players": "Thousands of small agencies + self-employed carers",
+        "revenue_band_eur": "EUR 0.1-1m typical",
+        "example_companies": [
+          "Home Instead",
+          "Promedica24 (24h care)",
+          "regional Betreuungs-/Haushaltsdienste"
+        ],
+        "regulation": [
+          "SGB XI §39 Verhinderungspflege",
+          "SGB XI §45b Entlastungsbetrag combination",
+          "Land Alltagsunterstützungs-VO"
+        ]
+      },
+      "sources": [
+        {
+          "title": "§ 45b SGB XI Entlastungsbetrag - sozialgesetzbuch-sgb.de",
+          "url": "https://www.sozialgesetzbuch-sgb.de/sgbxi/45b.html",
+          "note": "Verhinderungspflege §39 funds combinable with Entlastungsbetrag"
+        },
+        {
+          "title": "Angebote zur Unterstützung im Alltag - pflege.de",
+          "url": "https://www.pflege.de/pflegekasse-pflegefinanzierung/pflegeleistungen/zusaetzliche-betreuungsleistungen-entlastungsleistungen-entlastungsbetrag/alltagsunterstuetzung/",
+          "note": "household/substitute-care funding structure"
+        }
+      ],
+      "confidence": 3,
+      "status": "grounded",
+      "child_ids": []
+    },
+    "medical-value-chain/care-delivery-providers/outpatient-mobile-nursing-services-ambulante-pflegedienste/outpatient-intensive-care-ausserklinische-intensivpflege/ventilation-shared-living-groups-beatmungs-wg-wohngemeinschaften": {
+      "id": "medical-value-chain/care-delivery-providers/outpatient-mobile-nursing-services-ambulante-pflegedienste/outpatient-intensive-care-ausserklinische-intensivpflege/ventilation-shared-living-groups-beatmungs-wg-wohngemeinschaften",
+      "name": "Ventilation Shared-Living Groups (Beatmungs-WG / Wohngemeinschaften)",
+      "parent_id": "medical-value-chain/care-delivery-providers/outpatient-mobile-nursing-services-ambulante-pflegedienste/outpatient-intensive-care-ausserklinische-intensivpflege",
+      "level": 4,
+      "path": [
+        "Medical value chain",
+        "Care Delivery & Providers",
+        "Outpatient / Mobile Nursing Services (Ambulante Pflegedienste)",
+        "Outpatient Intensive Care (Ausserklinische Intensivpflege)",
+        "Ventilation Shared-Living Groups (Beatmungs-WG / Wohngemeinschaften)"
+      ],
+      "value_chain_stage": "provider",
+      "description": "Shared flats housing 6-12 ventilated/tracheostomised residents with 24/7 nursing, billed to statutory health insurance under SGB V §37c (post-IPReG); the highest-density outpatient intensive model and prime PE buy-and-build platform (~EUR 20-25k patient/month).",
+      "scores": {
+        "recurring": 5,
+        "fragmentation": 4,
+        "compliance": 5
+      },
+      "rationale": {
+        "recurring": "Continuous 24/7 statutory-funded ventilation care yields ~EUR 20-25k/patient/month recurring for years.",
+        "fragmentation": "Regionally scattered WGs but partly consolidated by PE platforms (Deutsche Fachpflege, GIP, opseo) — 4 not 5.",
+        "compliance": "IPReG §37c, mandatory 6-monthly Potenzialerhebung and AKI-Richtlinie quality/staffing rules make this the most compliance-gated line."
+      },
+      "composite": 91.7,
+      "dach_signals": {
+        "est_players": "Hundreds of WGs; consolidating around a few PE platforms",
+        "revenue_band_eur": "EUR 20-25k per patient/month (EUR 15-35k range)",
+        "example_companies": [
+          "Deutsche Fachpflege",
+          "GIP Intensivpflege",
+          "opseo",
+          "Humanus Intensivpflege"
+        ],
+        "regulation": [
+          "SGB V §37c außerklinische Intensivpflege (IPReG)",
+          "AKI-Richtlinie G-BA",
+          "6-monatige Potenzialerhebung",
+          "MD-Qualitätsprüfung"
+        ]
+      },
+      "sources": [
+        {
+          "title": "Außerklinische Intensivpflege - GKV-Spitzenverband",
+          "url": "https://www.gkv-spitzenverband.de/krankenversicherung/ambulante_leistungen/ausserklinische_intensivpflege/ausserklinische_intensivpflege.jsp",
+          "note": "IPReG carved AKI out of §37 into §37c; WG framework"
+        },
+        {
+          "title": "Was kostet das? - leben-mit-intensivpflege.de",
+          "url": "https://leben-mit-intensivpflege.de/ausserklinische-intensivpflege/die-kosten-der-ausserklinischen-intensivpflege.html",
+          "note": "WG cost ~EUR 20-35k/month, 6-12 residents"
+        }
+      ],
+      "confidence": 4,
+      "status": "grounded",
+      "child_ids": []
+    },
+    "medical-value-chain/care-delivery-providers/outpatient-mobile-nursing-services-ambulante-pflegedienste/outpatient-intensive-care-ausserklinische-intensivpflege/1-1-individual-home-ventilation-einzelversorgung": {
+      "id": "medical-value-chain/care-delivery-providers/outpatient-mobile-nursing-services-ambulante-pflegedienste/outpatient-intensive-care-ausserklinische-intensivpflege/1-1-individual-home-ventilation-einzelversorgung",
+      "name": "1:1 Individual Home Ventilation (Einzelversorgung)",
+      "parent_id": "medical-value-chain/care-delivery-providers/outpatient-mobile-nursing-services-ambulante-pflegedienste/outpatient-intensive-care-ausserklinische-intensivpflege",
+      "level": 4,
+      "path": [
+        "Medical value chain",
+        "Care Delivery & Providers",
+        "Outpatient / Mobile Nursing Services (Ambulante Pflegedienste)",
+        "Outpatient Intensive Care (Ausserklinische Intensivpflege)",
+        "1:1 Individual Home Ventilation (Einzelversorgung)"
+      ],
+      "value_chain_stage": "provider",
+      "description": "Round-the-clock one-nurse-per-patient ventilation care in the patient's own home under SGB V §37c; the most staff-intensive and highest per-case revenue model (up to ~EUR 25-30k+/month) but most exposed to IPReG's tightened economic-viability and Potenzialerhebung scrutiny.",
+      "scores": {
+        "recurring": 5,
+        "fragmentation": 5,
+        "compliance": 5
+      },
+      "rationale": {
+        "recurring": "24/7 individual staffing generates the largest recurring statutory revenue per patient of any line, sustained multi-year.",
+        "fragmentation": "Highly fragmented long tail of local intensive-care Pflegedienste plus PE platforms; nurse-supply-constrained.",
+        "compliance": "IPReG explicitly aimed to reduce 1:1 home ventilation via mandatory weaning-potential checks — regulation is the demand driver/threat."
+      },
+      "composite": 100.0,
+      "dach_signals": {
+        "est_players": "Hundreds of intensive Pflegedienste offering Einzelversorgung",
+        "revenue_band_eur": "EUR 20-30k+ per patient/month",
+        "example_companies": [
+          "GIP Intensivpflege",
+          "Deutsche Fachpflege",
+          "Bonitas Intensivpflege",
+          "Linimed"
+        ],
+        "regulation": [
+          "SGB V §37c IPReG",
+          "AKI-Richtlinie & Potenzialerhebung (6-monatlich)",
+          "§132l Rahmenverträge",
+          "MD-Qualitätsprüfung"
+        ]
+      },
+      "sources": [
+        {
+          "title": "IPReG und die Auswirkungen auf die außerklinische Intensivpflege - medkitdoc",
+          "url": "https://medkitdoc.de/ipreg-in-der-ausserklinischen-intensivpflege/",
+          "note": "IPReG intent to curb 1:1 home ventilation; §37c"
+        },
+        {
+          "title": "Intensivpflege - Kosten & Anspruch - sanubi.de",
+          "url": "https://sanubi.de/haeusliche-pflege/pflegeleistungen/intensivpflege/",
+          "note": "per-patient monthly cost bands for home ventilation"
+        }
+      ],
+      "confidence": 4,
+      "status": "grounded",
+      "child_ids": []
+    },
+    "medical-value-chain/care-delivery-providers/outpatient-mobile-nursing-services-ambulante-pflegedienste/outpatient-intensive-care-ausserklinische-intensivpflege/paediatric-intensive-home-care-kinderintensivpflege": {
+      "id": "medical-value-chain/care-delivery-providers/outpatient-mobile-nursing-services-ambulante-pflegedienste/outpatient-intensive-care-ausserklinische-intensivpflege/paediatric-intensive-home-care-kinderintensivpflege",
+      "name": "Paediatric Intensive Home Care (Kinderintensivpflege)",
+      "parent_id": "medical-value-chain/care-delivery-providers/outpatient-mobile-nursing-services-ambulante-pflegedienste/outpatient-intensive-care-ausserklinische-intensivpflege",
+      "level": 4,
+      "path": [
+        "Medical value chain",
+        "Care Delivery & Providers",
+        "Outpatient / Mobile Nursing Services (Ambulante Pflegedienste)",
+        "Outpatient Intensive Care (Ausserklinische Intensivpflege)",
+        "Paediatric Intensive Home Care (Kinderintensivpflege)"
+      ],
+      "value_chain_stage": "provider",
+      "description": "Highly specialised 24/7 ventilation/intensive care for ventilated and technology-dependent children (0-18) at home, kindergarten or school under SGB V §37c; scarce paediatric-qualified nursing makes it the most defensible, premium-tariff AKI sub-niche and an active PE consolidation target (opseo, GIP, Deutsche Fachpflege).",
+      "scores": {
+        "recurring": 5,
+        "fragmentation": 4,
+        "compliance": 5
+      },
+      "rationale": {
+        "recurring": "Children often need ventilation care for many years — the longest and most stable recurring statutory revenue tenure.",
+        "fragmentation": "Regional specialists but visibly consolidating around opseo/GIP/DF — mid-cap platforms plus long tail (4).",
+        "compliance": "§37c plus paediatric qualification, AKI-Richtlinie and MD scrutiny; scarce skilled staff is the binding constraint."
+      },
+      "composite": 91.7,
+      "dach_signals": {
+        "est_players": "Dozens of specialised providers; consolidating platforms",
+        "revenue_band_eur": "EUR 20-30k+ per child/month",
+        "example_companies": [
+          "opseo",
+          "GIP Kinderintensivpflege",
+          "Deutsche Fachpflege (332 children)",
+          "Kinderversorgungsnetz Berlin"
+        ],
+        "regulation": [
+          "SGB V §37c außerklinische Intensivpflege",
+          "AKI-Richtlinie G-BA",
+          "Kinderkrankenpflege-Qualifikation",
+          "MD-Qualitätsprüfung"
+        ]
+      },
+      "sources": [
+        {
+          "title": "Ambulante Kinderintensivpflege - GIP",
+          "url": "https://www.gip-intensivpflege.de/kinderintensivpflege/",
+          "note": "paediatric home ventilation model & scale (~1,500 staff group)"
+        },
+        {
+          "title": "Intensiv- und Beatmungspflege - DEUTSCHEFACHPFLEGE",
+          "url": "https://deutschefachpflege.de/intensiv-und-beatmungspflege/",
+          "note": "332 severely ill children cared for nationwide"
+        }
+      ],
+      "confidence": 4,
+      "status": "grounded",
+      "child_ids": []
+    },
+    "medical-value-chain/care-delivery-providers/outpatient-mobile-nursing-services-ambulante-pflegedienste/outpatient-intensive-care-ausserklinische-intensivpflege/ventilator-weaning-beatmungsentwohnung-weaning": {
+      "id": "medical-value-chain/care-delivery-providers/outpatient-mobile-nursing-services-ambulante-pflegedienste/outpatient-intensive-care-ausserklinische-intensivpflege/ventilator-weaning-beatmungsentwohnung-weaning",
+      "name": "Ventilator Weaning (Beatmungsentwöhnung / Weaning)",
+      "parent_id": "medical-value-chain/care-delivery-providers/outpatient-mobile-nursing-services-ambulante-pflegedienste/outpatient-intensive-care-ausserklinische-intensivpflege",
+      "level": 4,
+      "path": [
+        "Medical value chain",
+        "Care Delivery & Providers",
+        "Outpatient / Mobile Nursing Services (Ambulante Pflegedienste)",
+        "Outpatient Intensive Care (Ausserklinische Intensivpflege)",
+        "Ventilator Weaning (Beatmungsentwöhnung / Weaning)"
+      ],
+      "value_chain_stage": "provider",
+      "description": "Structured weaning-from-ventilation and decannulation programmes, straddling specialised clinic Weaningzentren and the mandatory IPReG Potenzialerhebung that every AKI patient must pass every 6 months; a compliance-created diagnostic/therapeutic niche performed by KV-approved qualified physicians.",
+      "scores": {
+        "recurring": 3,
+        "fragmentation": 3,
+        "compliance": 5
+      },
+      "rationale": {
+        "recurring": "Time-limited weaning episodes plus recurring semi-annual Potenzialerhebung assessments — repeat but goal is to end the care.",
+        "fragmentation": "Concentrated in specialised Weaningzentren and a limited pool of KV-approved assessors — regional mid-caps, not hundreds.",
+        "compliance": "Entirely law-created: IPReG mandates 6-monthly Potenzialerhebung by §5-AKI-RL-qualified, KV-approved physicians to keep AKI billable."
+      },
+      "composite": 66.7,
+      "dach_signals": {
+        "est_players": "Limited specialised Weaningzentren + KV-approved assessing physicians",
+        "revenue_band_eur": "Assessment/programme fees; clinic-linked, niche",
+        "example_companies": [
+          "SLK Weaningzentrum Klinik Löwenstein",
+          "hospital respiratory-medicine Weaningzentren",
+          "qualified AKI-assessment practices"
+        ],
+        "regulation": [
+          "IPReG Potenzialerhebung (6-monatlich)",
+          "AKI-Richtlinie §5 (Arztqualifikation)",
+          "KV-Genehmigungspflicht",
+          "SGB V §37c"
+        ]
+      },
+      "sources": [
+        {
+          "title": "Weaningzentrum Klinik Löwenstein / Potenzialerhebung - SLK-Kliniken",
+          "url": "https://www.slk-kliniken.de/kliniken-zentren-institute/kliniken-fachabteilungen/weaningzentrum-/-zentrum-zur-beatmungsentwoehnung-kloe/potentialerhebung-ausserklinische-intensivpflege",
+          "note": "weaning centre + Potenzialerhebung linkage"
+        },
+        {
+          "title": "Potenzialerhebung für außerklinische Intensivpflege ab Juli neu geregelt - KBV",
+          "url": "https://www.kbv.de/praxis/tools-und-services/praxisnachrichten/2025/06-19/potenzialerhebung-fuer-ausserklinische-intensivpflege-ab-juli-neu-geregelt",
+          "note": "6-monthly assessment, §5 AKI-RL qualified & KV-approved physicians"
+        }
+      ],
+      "confidence": 3,
       "status": "grounded",
       "child_ids": []
     }
