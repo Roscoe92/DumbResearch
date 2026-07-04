@@ -52,7 +52,8 @@
         "food-agriculture-services-value-chain/food-processing-equipment-service-hygiene",
         "food-agriculture-services-value-chain/agri-inputs-distribution-advisory-land-management",
         "food-agriculture-services-value-chain/pest-control-food-industry-hygiene",
-        "food-agriculture-services-value-chain/food-safety-testing-laboratories"
+        "food-agriculture-services-value-chain/food-safety-testing-laboratories",
+        "food-agriculture-services-value-chain/animal-by-product-disposal-rendering-tierkoerperbeseitigung-kat-1-3"
       ]
     },
     "food-agriculture-services-value-chain/food-certification-auditing": {
@@ -112,7 +113,7 @@
         "GFSI Food-Safety Scheme Certification (IFS Food, BRCGS, FSSC 22000)"
       ],
       "value_chain_stage": "services",
-      "description": "Accredited certification bodies auditing food manufacturers and packers against GFSI-benchmarked standards (IFS Food, BRCGS, FSSC 22000/ISO 22000) that German and EU retailers effectively require of their suppliers. Germany is the third-largest IFS market globally with ~2,400 IFS Food-certified sites.",
+      "description": "Accredited certification bodies auditing food manufacturers and packers against GFSI-benchmarked standards (IFS Food, BRCGS, FSSC 22000/ISO 22000) that German and EU retailers effectively require of their suppliers. IFS Food is a German-origin standard (created in 2002 by HDE retailers) and Germany is the largest food-certification market in Europe by revenue and IFS Food's core home market.",
       "scores": {
         "recurring": 5,
         "fragmentation": 3,
@@ -130,7 +131,7 @@
       },
       "composite": 75.0,
       "dach_signals": {
-        "est_players": "~20-40 accredited certification bodies active in DACH; ~2,400 IFS Food sites in DE",
+        "est_players": "~20-40 accredited certification bodies active in DACH; Germany is IFS Food's largest single (home) market (exact certified-site count not publicly verified)",
         "revenue_band_eur": "Audit fees EUR 3-15k per site/year; bodies EUR 5m-500m+ (TIC groups)",
         "example_companies": [
           "TÜV SÜD",
@@ -162,6 +163,11 @@
           "title": "IFS Food – Zertifizierung, TÜV Rheinland",
           "url": "https://certification.tuv.com/de/de/audits-zertifizierungen/zertifzierungen-lebensmittelsicherheit/ifs-food-zertifizierung/",
           "note": "Major TIC group offering IFS Food certification"
+        },
+        {
+          "title": "Data Bridge / Cognitive Market Research - Food & IFS Food certification market",
+          "url": "https://www.databridgemarketresearch.com/reports/global-food-certification-market",
+          "note": "Germany held the largest European revenue share in 2024; corrects unverifiable 'third-largest globally / ~2,400 sites' claim, which is dropped rather than replaced with an invented count"
         }
       ],
       "confidence": 4,
@@ -1557,7 +1563,7 @@
       "composite": 36.7,
       "dach_signals": {
         "est_players": "~5-10 players of scale (DE)",
-        "revenue_band_eur": "EUR 100m-500m (e.g. Flaschenpost ~EUR 468m est.)",
+        "revenue_band_eur": "EUR 100m-500m+; Flaschenpost >EUR 500m (2023/24 est., Oetker-owned)",
         "example_companies": [
           "Flaschenpost (Oetker)",
           "Knuspr (Rohlik)",
@@ -1591,6 +1597,11 @@
           "title": "Lieferdienste: Kampf um Marktanteile – getraenke-news",
           "url": "https://getraenke-news.de/lieferdienste-kampf-um-marktanteile/",
           "note": "Knuspr (Rohlik) absorbed Bringmeister; consolidation already advanced, online grocery only ~2.8% share."
+        },
+        {
+          "title": "Exciting Commerce - Flaschenpost duerfte die 500 Mio. Euro geknackt haben",
+          "url": "https://excitingcommerce.de/2024/06/19/flaschenpost-duerfte-die-500-mio-euro-geknackt-haben/",
+          "note": "Flaschenpost revenue >EUR 500m (2023/24 est.); replaces ~EUR 468m"
         }
       ],
       "confidence": 4,
@@ -2509,7 +2520,8 @@
       "child_ids": [
         "food-agriculture-services-value-chain/agricultural-contracting-farm-services/livestock-services-klauenpflege-besamung-stallhygiene/hoof-care-klauenpflege",
         "food-agriculture-services-value-chain/agricultural-contracting-farm-services/livestock-services-klauenpflege-besamung-stallhygiene/ai-breeding-services-besamung-tierzucht",
-        "food-agriculture-services-value-chain/agricultural-contracting-farm-services/livestock-services-klauenpflege-besamung-stallhygiene/barn-hygiene-cleaning-disinfection"
+        "food-agriculture-services-value-chain/agricultural-contracting-farm-services/livestock-services-klauenpflege-besamung-stallhygiene/barn-hygiene-cleaning-disinfection",
+        "food-agriculture-services-value-chain/agricultural-contracting-farm-services/livestock-services-klauenpflege-besamung-stallhygiene/herd-health-large-animal-veterinary-services-bestandsbetreuung"
       ]
     },
     "food-agriculture-services-value-chain/agricultural-contracting-farm-services/livestock-services-klauenpflege-besamung-stallhygiene/hoof-care-klauenpflege": {
@@ -2568,14 +2580,19 @@
           "title": "Verzeichnis Klauenpfleger - DLG",
           "url": "https://www.dlg.org/en/agriculture/animal-farming/directory-of-hoof-trimmers",
           "note": "Directory confirms hundreds of dispersed owner-operated trimmers; no consolidator."
+        },
+        {
+          "title": "BRS/Rind-Schwein - Klauenpflege",
+          "url": "https://www.rind-schwein.de/brs-news/klauenpflege.html",
+          "note": "Klauenpfleger qualification is a training standard, not a statutory licensing monopoly"
         }
       ],
       "confidence": 3,
       "status": "verified",
       "why_now": "",
       "pe_activity": [],
-      "investability": "restricted",
-      "investability_note": "Person-bound 'Geprüfter Klauenpfleger' Sachkunde qualification and owner-operator labour make roll-up frictional; individually tiny (EUR 0.05-0.5m).",
+      "investability": "open",
+      "investability_note": "Fragmented, owner-operated mobile SMEs, succession-driven and roll-up-friendly. 'Gepruefte/r Klauenpfleger/in' is a voluntary standardised qualification, not a licensing monopoly - so no professional-reservation barrier to outside ownership (unlike the sibling AI/Breeding node, which stays blocked).",
       "child_ids": []
     },
     "food-agriculture-services-value-chain/agricultural-contracting-farm-services/livestock-services-klauenpflege-besamung-stallhygiene/ai-breeding-services-besamung-tierzucht": {
@@ -2754,7 +2771,7 @@
       "composite": 47.5,
       "dach_signals": {
         "est_players": "hundreds of small/emerging providers",
-        "revenue_band_eur": "EUR 0.05-1m early-stage; commercial drone market to >EUR 1.6bn by 2030",
+        "revenue_band_eur": "EUR 0.05-1m per provider (early-stage); no reliable DACH agricultural-drone-services market size published (prior global all-industry '>EUR 1.6bn by 2030' figure removed as out-of-scope)",
         "example_companies": [
           "Feldflieger GmbH",
           "Drohnenservice Süddeutschland",
@@ -2781,6 +2798,11 @@
           "title": "Precision Farming-Markt (Mordor Intelligence)",
           "url": "https://www.mordorintelligence.com/de/industry-reports/global-precision-farming-market-industry",
           "note": "~12.6% CAGR structural growth; services segment early-stage."
+        },
+        {
+          "title": "BMEL - Drohnen / Rehkitzrettung",
+          "url": "https://www.bmel.de/DE/themen/landwirtschaft/digitalisierung/drohnen-rehkitzrettung.html",
+          "note": "DACH ag-drone-services context; unsupported global market headline removed"
         }
       ],
       "confidence": 3,
@@ -3092,7 +3114,7 @@
           "First-in-Service (FIS) GmbH"
         ],
         "regulation": [
-          "EU Machinery Directive 2006/42/EC / MRL",
+          "EU Machinery Directive 2006/42/EC / MRL (superseded by Machinery Regulation (EU) 2023/1230 from 20 Jan 2027)",
           "EHEDG hygienic design",
           "Reg. (EC) 852/2004 / HACCP maintenance",
           "IFS Food / BRCGS"
@@ -3113,6 +3135,11 @@
           "title": "ahk Service & Solutions – Wartung & Reparatur Bäckereitechnik",
           "url": "https://ahk-service.de/services/wartung-reparatur/",
           "note": "Independent maintenance/repair of all common bakery machines"
+        },
+        {
+          "title": "EUR-Lex - Regulation (EU) 2023/1230 on machinery",
+          "url": "https://eur-lex.europa.eu/eli/reg/2023/1230/oj",
+          "note": "Machinery Regulation supersedes Directive 2006/42/EC from 20 Jan 2027"
         }
       ],
       "confidence": 4,
@@ -3167,7 +3194,7 @@
         "regulation": [
           "HACCP / Reg. (EC) 852/2004",
           "EHEDG",
-          "Machinery Directive"
+          "Machinery Directive 2006/42/EC (superseded by Machinery Regulation (EU) 2023/1230 from 20 Jan 2027)"
         ]
       },
       "sources": [
@@ -3190,6 +3217,11 @@
           "title": "ahk Service & Solutions - Wartung/Reparatur Bäckereitechnik",
           "url": "https://ahk-service.de/services/wartung-reparatur/",
           "note": "Example of herstellerunabhängig recurring service model."
+        },
+        {
+          "title": "EUR-Lex - Regulation (EU) 2023/1230 on machinery",
+          "url": "https://eur-lex.europa.eu/eli/reg/2023/1230/oj",
+          "note": "Machinery Regulation supersedes Directive 2006/42/EC from 20 Jan 2027"
         }
       ],
       "confidence": 3,
@@ -3279,7 +3311,7 @@
         "Industrial CIP (clean-in-place) systems & hygienic-cleaning service"
       ],
       "value_chain_stage": "services",
-      "description": "Design, installation, validation and ongoing service of automatic clean-in-place plant plus mobile/contract hygienic cleaning of tanks, pipework and process lines in food, beverage and pharma production.",
+      "description": "Design, installation, validation and ongoing service of automatic clean-in-place (CIP) plant and hygienic process equipment in food, beverage and pharma production. Scope confined here to CIP hardware/systems and their validation; outsourced contract deep-cleaning labour sits in the sibling node 'Pest Control & Food-Industry Hygiene > Food-Plant Deep Cleaning & CIP Hygiene Services' - cross-referenced to avoid double-counting.",
       "scores": {
         "recurring": 5,
         "fragmentation": 4,
@@ -3342,6 +3374,11 @@
           "title": "Ecolab Food & Beverage Processing",
           "url": "https://www.ecolab.com/about/industries-we-serve/food-and-beverage-processing/food-processing",
           "note": "Ecolab leading service+chemistry position in food hygiene"
+        },
+        {
+          "title": "EHEDG - European Hygienic Engineering & Design Group",
+          "url": "https://www.ehedg.org/",
+          "note": "Hygienic-design reference; used to delineate CIP-hardware vs cleaning-labour scope"
         }
       ],
       "confidence": 3,
@@ -3475,7 +3512,7 @@
           "Procme"
         ],
         "regulation": [
-          "Machinery Directive 2006/42/EC",
+          "Machinery Directive 2006/42/EC (superseded by Machinery Regulation (EU) 2023/1230 from 20 Jan 2027)",
           "EHEDG (open-product areas)",
           "IFS Food packaging hygiene"
         ]
@@ -3500,6 +3537,11 @@
           "title": "OPTIMA - Verpackungsmaschinen und Abfüllanlagen",
           "url": "https://www.optima-packaging.com/en",
           "note": "Illustrates OEM service-arm competition in the segment."
+        },
+        {
+          "title": "EUR-Lex - Regulation (EU) 2023/1230 on machinery",
+          "url": "https://eur-lex.europa.eu/eli/reg/2023/1230/oj",
+          "note": "Machinery Regulation supersedes Directive 2006/42/EC from 20 Jan 2027"
         }
       ],
       "confidence": 3,
@@ -3521,7 +3563,7 @@
         "Industrial refrigeration service for food plants (NH3/CO2)"
       ],
       "value_chain_stage": "services",
-      "description": "Maintenance, statutory inspection and repair of ammonia (R717) and CO2 industrial refrigeration used in slaughterhouses, dairies, breweries and cold stores — overlaps building/HVAC but is process-critical and safety-regulated.",
+      "description": "Maintenance, statutory inspection and repair of ammonia (R717) and CO2 industrial refrigeration used in slaughterhouses, dairies, breweries and cold stores - overlaps building/HVAC but is process-critical and safety-regulated. NH3/CO2 plants are largely F-gas-free, so BetrSichV/TRBS pressure-equipment inspection (not the F-Gas Regulation) is the core recurring compliance driver.",
       "scores": {
         "recurring": 5,
         "fragmentation": 4,
@@ -3548,10 +3590,11 @@
           "ENGIE Refrigeration"
         ],
         "regulation": [
-          "BetrSichV / überwachungsbedürftige Anlagen",
-          "F-Gas Reg. (EU) 517/2014",
-          "TRAS / Druckgeräte",
-          "TRBS (Ammoniak-Sicherheit)"
+          "BetrSichV / ueberwachungsbeduerftige Anlagen (pressure-equipment inspection - core driver)",
+          "TRBS (Ammoniak-Sicherheit)",
+          "TRAS / Druckgeraete",
+          "F-Gas Reg. (EU) 2024/573 (repealed 517/2014, eff. 11 Mar 2024; minimal relevance for F-gas-free NH3/CO2)",
+          "EN 378 refrigeration safety"
         ]
       },
       "sources": [
@@ -3574,6 +3617,11 @@
           "title": "Ammoniak-Kälteanlagen: NH3 Kältemaschine für die Industrie - Deutsche Thermo",
           "url": "https://www.deutsche-thermo.de/wiki/ammoniak-kaelteanlagen-fuer-die-industrie/",
           "note": "Illustrates fragmented ~300-600 firm servicer landscape; recurring maintenance-heavy."
+        },
+        {
+          "title": "EUR-Lex - Regulation (EU) 2024/573 on fluorinated greenhouse gases",
+          "url": "https://eur-lex.europa.eu/eli/reg/2024/573/oj",
+          "note": "(EU) 2024/573 repealed (EU) 517/2014 effective 11 Mar 2024; fixes internal inconsistency with cold-chain nodes"
         }
       ],
       "confidence": 3,
@@ -3804,7 +3852,7 @@
         "Agri-Input Distribution (Landhandel: seed / fertiliser / crop-protection)"
       ],
       "value_chain_stage": "distribution",
-      "description": "Regional trading of agricultural inputs (Saatgut, Düngemittel, Pflanzenschutz) plus grain intake, split between private Landwarenhändler and co-operative Warengenossenschaften. German fertiliser turnover alone was ~EUR 3.3bn (2015) and the sector remains regionally fragmented despite BayWa/Agravis dominance.",
+      "description": "Regional trading of agricultural inputs (Saatgut, Duengemittel, Pflanzenschutz) plus grain intake, split between private Landwarenhaendler and co-operative Warengenossenschaften. German fertiliser turnover was ~EUR 3.3bn as of 2015 (historic figure, explicitly flagged as dated and not refreshed) and the firm counts below date from the 2010 census; the sector remains regionally fragmented despite BayWa/Agravis dominance.",
       "scores": {
         "recurring": 4,
         "fragmentation": 4,
@@ -3822,7 +3870,7 @@
       },
       "composite": 75.0,
       "dach_signals": {
-        "est_players": "~1,100-1,200 Landhandel firms (DE, 2010: 675 private + 504 co-op)",
+        "est_players": "~1,100-1,200 Landhandel firms (DE, 2010 census: 675 private + 504 co-op - historic)",
         "revenue_band_eur": "EUR 2-50m regional traders; BayWa/Agravis multi-EUR-billion",
         "example_companies": [
           "BayWa AG",
@@ -3846,6 +3894,11 @@
           "title": "Agravis mit gutem Wirtschaftsjahr 2025 – top agrar",
           "url": "https://www.topagrar.com/betriebsleitung/news/agravis-drangt-in-den-suden-baywa-krise-offnet-dem-wettbewerber-turen-20024091.html",
           "note": "Agravis EUR 8.4bn revenue; expansion into BayWa's south during BayWa crisis"
+        },
+        {
+          "title": "Destatis - Landwirtschaft, Forstwirtschaft, Fischerei",
+          "url": "https://www.destatis.de/DE/Themen/Branchen-Unternehmen/Landwirtschaft-Forstwirtschaft-Fischerei/_inhalt.html",
+          "note": "Fertiliser (2015) and firm-count (2010) figures flagged as historic; no verified post-2020 replacement found"
         }
       ],
       "confidence": 4,
@@ -4007,7 +4060,7 @@
         "Animal-feed (Mischfutter) distribution & advisory"
       ],
       "value_chain_stage": "distribution",
-      "description": "Compound-feed manufacture, distribution and feeding advisory to livestock farms. German livestock keepers spent ~EUR 8.3bn on compound feed (2024); ~264 mills (2023/24) with top-10 at only ~60% share — relatively unconcentrated for the value chain.",
+      "description": "Compound-feed manufacture, distribution and feeding advisory to livestock farms. German compound-feed producers turned over ~EUR 9.4bn in 2023 (DVT, down from ~EUR 10.5bn in 2022) on ~21.7 Mt of output from ~276 mills - relatively unconcentrated for the value chain.",
       "scores": {
         "recurring": 5,
         "fragmentation": 3,
@@ -4025,8 +4078,8 @@
       },
       "composite": 75.0,
       "dach_signals": {
-        "est_players": "~264 compound-feed mills >500t/yr (DE, 2023/24)",
-        "revenue_band_eur": "sector ~EUR 8.3bn (2024); mills EUR 5-200m",
+        "est_players": "~276 compound-feed mills (DE, 2023, DVT)",
+        "revenue_band_eur": "sector ~EUR 9.4bn (2023, DVT; down from ~EUR 10.5bn 2022); mills EUR 5-200m",
         "example_companies": [
           "Deutsche Tiernahrung Cremer",
           "AGRAVIS Raiffeisen",
@@ -4049,6 +4102,11 @@
           "title": "Mischfutterproduktion 2023 – DVT",
           "url": "https://www.dvtiernahrung.de/pressemitteilung-detail/mischfutterproduktion-2023-starker-abwaertstrend-der-vorjahre-vorerst-abgefangen",
           "note": "264 mills; 12 fewer YoY; top-10 ~60% share; low concentration"
+        },
+        {
+          "title": "DVT - Mischfutterproduktion 2023",
+          "url": "https://www.dvtiernahrung.de/aktuelles-detail/mischfutterproduktion-2023-starker-abwaertstrend-der-vorjahre-vorerst-abgefangen",
+          "note": "2023: EUR 9.4bn turnover, 21.7 Mt output, 276 mills; replaces EUR 8.3bn/264 mills. 'Top-10 ~60% share' claim removed as unverified"
         }
       ],
       "confidence": 4,
@@ -4070,25 +4128,25 @@
         "Agricultural Advisory & Farm Bookkeeping/Tax (landwirtschaftliche Buchstelle)"
       ],
       "value_chain_stage": "services",
-      "description": "Recurring, statutorily-protected tax, accounting and business advisory for farm and forestry operations. The 'Landwirtschaftliche Buchstelle' title is protected under §44 Steuerberatungsgesetz and requires a special chamber examination — a compliance moat over a stable ~370,000-farm client base.",
+      "description": "Recurring, statutorily-protected tax, accounting and business advisory for farm and forestry operations. The 'Landwirtschaftliche Buchstelle' title is protected under §44 Steuerberatungsgesetz and requires a special chamber examination - a compliance moat over a shrinking but stable client base of ~255,000 German farms (2023 Agrarstrukturerhebung; ~262,800 at the 2020 census, ~7,800 fewer since 2020).",
       "scores": {
         "recurring": 5,
         "fragmentation": 4,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 3,
+        "margin": 4,
+        "growth": 2,
+        "headroom": 3,
+        "reimbursement_risk": 1
       },
       "rationale": {
         "recurring": "Annual bookkeeping, VAT, tax returns and payroll are mandatory, contracted, year-after-year work.",
         "fragmentation": "Split across many local Steuerberater practices, Buchstellen of farmer associations (Landvolk/Bauernverband) and co-ops.",
         "compliance": "Title protected by §44 StBerG; only qualified Steuerberater/lawyers passing the special exam may use it — high entry barrier."
       },
-      "composite": 91.7,
+      "composite": 70.8,
       "dach_signals": {
-        "est_players": "hundreds of Buchstellen (association + private) serving ~370,000 farms",
+        "est_players": "hundreds of Buchstellen (association + private) serving ~255,000 farms (2023)",
         "revenue_band_eur": "EUR 0.5-5m typical practice",
         "example_companies": [
           "Landvolk-Buchstelle Stade",
@@ -4116,6 +4174,11 @@
           "title": "Landwirtschaftliche Buchstelle – Kreisbauernverband Stade",
           "url": "https://landvolk-buchstelle.de/",
           "note": "Example association-run Buchstelle serving local farms"
+        },
+        {
+          "title": "Destatis PD24/021: rund 7.800 landwirtschaftliche Betriebe weniger seit 2020",
+          "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2024/01/PD24_021_41.html",
+          "note": "~255,000 farms in 2023 vs ~262,800 in 2020; replaces prior ~370,000 figure"
         }
       ],
       "confidence": 4,
@@ -4266,18 +4329,18 @@
         "recurring": 2,
         "fragmentation": 5,
         "compliance": 4,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 2,
+        "margin": 3,
+        "growth": 4,
+        "headroom": 4,
+        "reimbursement_risk": 1
       },
       "rationale": {
         "recurring": "Succession is largely one-off per family, but land management/leasing administration recurs annually.",
         "fragmentation": "Delivered by dispersed specialist lawyers, tax advisors, chambers and estate managers — no consolidator.",
         "compliance": "Governed by Höfeordnung/Grundstückverkehrsgesetz, inheritance and gift tax, and Pachtrecht."
       },
-      "composite": 66.7,
+      "composite": 58.3,
       "dach_signals": {
         "est_players": "dispersed specialist advisors; ~110,000 succession-relevant farms",
         "revenue_band_eur": "EUR 0.2-3m per advisory/estate firm",
@@ -4302,6 +4365,11 @@
           "title": "Hofübergabe & Hofübergabevertrag – rosepartner",
           "url": "https://www.rosepartner.de/rechtsberatung/erbrecht-nachfolge/hofuebergabe-und-hofuebergabevertrag.html",
           "note": "Legal/tax structuring of farm transfers"
+        },
+        {
+          "title": "Destatis PD24/021 - farm structure / succession context",
+          "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2024/01/PD24_021_41.html",
+          "note": "Score-fill for previously-unscored level-2 leaf; growth driven by the structural succession wave"
         }
       ],
       "confidence": 3,
@@ -4388,18 +4456,18 @@
         "recurring": 5,
         "fragmentation": 4,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 2,
+        "margin": 3,
+        "growth": 3,
+        "headroom": 3,
+        "reimbursement_risk": 5
       },
       "rationale": {
         "recurring": "Every farm re-files the Agrarantrag annually to secure GAP payments — statutory recurring demand.",
         "fragmentation": "Split among chambers, Bauernverband/Landvolk offices, private advisors and surveyors.",
         "compliance": "Payments are conditional on Konditionalität (11 GAB + 9 GLÖZ standards); errors trigger cuts/sanctions."
       },
-      "composite": 91.7,
+      "composite": 46.7,
       "dach_signals": {
         "est_players": "chambers + associations + private advisors serving ~250k+ subsidy applicants",
         "revenue_band_eur": "EUR 0.1-2m per service firm; per-application fees",
@@ -4429,6 +4497,11 @@
           "title": "FAQ zum Agrarantrag 2026 – top agrar",
           "url": "https://www.topagrar.com/betriebsleitung/news/das-mussen-landwirte-2026-zum-gap-antrag-wissen-b-20024473.html",
           "note": "15 May deadline; annual recurring filing; premium levels"
+        },
+        {
+          "title": "BMEL - GAP-Direktzahlungen",
+          "url": "https://www.bmel.de/DE/themen/landwirtschaft/eu-agrarpolitik-und-foerderung/gap/gap-direktzahlungen.html",
+          "note": "Direct GAP direct-payment/eco-scheme dependency drives reimbursement_risk = 5"
         }
       ],
       "confidence": 4,
@@ -4436,7 +4509,7 @@
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Demand is entirely tied to GAP direct-payment/eco-scheme filing - highest possible reimbursement/policy dependency (score 5): any reform of GAP direct payments directly reshapes the workload.",
       "child_ids": []
     },
     "food-agriculture-services-value-chain/agri-inputs-distribution-advisory-land-management/viticulture-horticulture-services": {
@@ -4455,18 +4528,18 @@
         "recurring": 3,
         "fragmentation": 5,
         "compliance": 3,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 2,
+        "margin": 3,
+        "growth": 3,
+        "headroom": 4,
+        "reimbursement_risk": 2
       },
       "rationale": {
         "recurring": "Seasonal contract work (pruning, spraying, harvest support) recurs each year but is re-tendered.",
         "fragmentation": "Numerous small regional Lohnunternehmen and Winzergenossenschaften; no dominant player.",
         "compliance": "Pflanzenschutz-Sachkunde applies to spraying services; wine law and organic certification add duties."
       },
-      "composite": 66.7,
+      "composite": 49.2,
       "dach_signals": {
         "est_players": "many hundreds of viticulture/horticulture Lohnunternehmen; ~27,200 horticulture holdings (DE)",
         "revenue_band_eur": "EUR 0.3-5m typical contractor",
@@ -4491,6 +4564,11 @@
           "title": "Allgemeines zum Gartenbau – BMEL-Statistik",
           "url": "https://www.bmel-statistik.de/landwirtschaft/gartenbau/allgemeines-zum-gartenbau",
           "note": "~27,200 horticulture holdings; sector scope"
+        },
+        {
+          "title": "BMEL - GAP-Direktzahlungen (input for score-fill)",
+          "url": "https://www.bmel.de/DE/themen/landwirtschaft/eu-agrarpolitik-und-foerderung/gap/gap-direktzahlungen.html",
+          "note": "Score-fill for previously-unscored level-2 leaf"
         }
       ],
       "confidence": 3,
@@ -4517,18 +4595,18 @@
         "recurring": 4,
         "fragmentation": 2,
         "compliance": 4,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 3,
+        "margin": 5,
+        "growth": 4,
+        "headroom": 3,
+        "reimbursement_risk": 2
       },
       "rationale": {
         "recurring": "SaaS module subscriptions renew; documentation obligations create sticky annual use.",
         "fragmentation": "Concentrated around 365FarmNet (CLAAS), machinery-OEM tools and a few specialists.",
         "compliance": "Nutrient-balance (Düngeverordnung), Pflanzenschutz and GAP records increasingly demand digital documentation."
       },
-      "composite": 58.3,
+      "composite": 61.7,
       "dach_signals": {
         "est_players": "a handful of major FMIS vendors + niche apps",
         "revenue_band_eur": "SaaS modules; vendor revenue EUR low-single to tens of millions",
@@ -4553,6 +4631,11 @@
           "title": "Ackerschlagkartei 365FarmNet – top agrar",
           "url": "https://www.topagrar.com/technik/news/ackerschlagkartei-365farmnet-die-vernetzte-12506347.html",
           "note": "Field-record documentation platform positioning"
+        },
+        {
+          "title": "BMEL - GAP-Direktzahlungen / documentation duties (input for score-fill)",
+          "url": "https://www.bmel.de/DE/themen/landwirtschaft/eu-agrarpolitik-und-foerderung/gap/gap-direktzahlungen.html",
+          "note": "Score-fill for previously-unscored level-2 leaf; SaaS margins high but concentrated vendor landscape"
         }
       ],
       "confidence": 3,
@@ -4573,7 +4656,7 @@
         "Pest Control & Food-Industry Hygiene"
       ],
       "value_chain_stage": "services",
-      "description": "DACH-wide field of recurring, compliance-driven pest control and food-facility hygiene services delivered under standing monitoring/service contracts to food manufacturers, retailers, gastronomy, logistics and property owners. Highly fragmented (~1,000+ registered Schädlingsbekämpfung firms in Germany generating ~EUR 400m and a long tail of owner-operated Kammerjäger, plus cleaning/disinfection SMEs), with demand mandated by HACCP/IFS certification, EU 852/2004 food hygiene, IfSG, TRGS 512 and DIN norms — already an active PE/strategic roll-up target for Rentokil Initial and Anticimex.",
+      "description": "DACH-wide field of recurring, compliance-driven pest control and food-facility hygiene services delivered under standing monitoring/service contracts to food manufacturers, retailers, gastronomy, logistics and property owners. Highly fragmented (~1,000+ registered Schädlingsbekämpfung firms in Germany generating an estimated ~EUR 600-650m per year and a long tail of owner-operated Kammerjäger, plus cleaning/disinfection SMEs), with demand mandated by HACCP/IFS certification, EU 852/2004 food hygiene, IfSG, TRGS 512 and DIN norms - already an active PE/strategic roll-up target for Rentokil Initial and Anticimex.",
       "scores": {
         "recurring": 0,
         "fragmentation": 0,
@@ -4592,7 +4675,13 @@
         "example_companies": [],
         "regulation": []
       },
-      "sources": [],
+      "sources": [
+        {
+          "title": "Deutsche Wirtschafts Nachrichten - Das millionenschwere Geschaeft mit der Rattenplage-Vorsorge",
+          "url": "https://deutsche-wirtschafts-nachrichten.de/501652/das-millionenschwere-geschaeft-mit-der-rattenplage-vorsorge",
+          "note": "German pest-control sector turnover ~EUR 600-650m/year; replaces prior ~EUR 400m"
+        }
+      ],
       "confidence": 0,
       "status": "stub",
       "why_now": "",
@@ -5141,7 +5230,7 @@
         "Food-Plant Deep Cleaning & CIP Hygiene Services"
       ],
       "value_chain_stage": "services",
-      "description": "Outsourced production-line and plant hygiene: shift/end-of-production deep cleaning, open-plant foam cleaning and CIP (cleaning-in-place) operation for dairies, breweries, meat and bakery plants. Kept here as the recurring hygiene-service angle (overlaps the equipment branch on the CIP-hardware side).",
+      "description": "Outsourced production-line and plant hygiene labour: shift/end-of-production deep cleaning and open-plant foam cleaning for dairies, breweries, meat and bakery plants, sold as contract cleaning services. Scope confined here to outsourced cleaning labour; CIP (clean-in-place) hardware design, build and validation sits in the sibling node 'Food-Processing Equipment Service & Hygiene > Industrial CIP (clean-in-place) systems & hygienic-cleaning service' - cross-referenced to avoid double-counting.",
       "scores": {
         "recurring": 5,
         "fragmentation": 3,
@@ -5189,6 +5278,11 @@
           "title": "Industrie- und Anlagenreinigung food – CleanFix Service",
           "url": "https://www.cleanfix-service.de/industrie-und-anlagenreinigung-food-3/",
           "note": "Food-sector industrial/plant cleaning provider"
+        },
+        {
+          "title": "EHEDG - European Hygienic Engineering & Design Group",
+          "url": "https://www.ehedg.org/",
+          "note": "Hygienic-design reference; used to delineate cleaning-labour vs CIP-hardware scope"
         }
       ],
       "confidence": 3,
@@ -6212,6 +6306,126 @@
         }
       ],
       "confidence": 3,
+      "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
+      "investability": "open",
+      "investability_note": "",
+      "child_ids": []
+    },
+    "food-agriculture-services-value-chain/animal-by-product-disposal-rendering-tierkoerperbeseitigung-kat-1-3": {
+      "id": "food-agriculture-services-value-chain/animal-by-product-disposal-rendering-tierkoerperbeseitigung-kat-1-3",
+      "name": "Animal By-Product Disposal & Rendering (Tierkoerperbeseitigung / Kat. 1-3)",
+      "parent_id": "food-agriculture-services-value-chain",
+      "level": 1,
+      "path": [
+        "Food & Agriculture Services value chain",
+        "Animal By-Product Disposal & Rendering (Tierkoerperbeseitigung / Kat. 1-3)"
+      ],
+      "value_chain_stage": "services",
+      "description": "Collection, transport, processing and disposal of animal by-products under Reg. (EC) 1069/2009, (EU) 142/2011, TierNebG and TierNebV. Category 1/2 carcass disposal is a public-law duty (Beseitigungspflicht) that Laender/Kreise assign to designated operators - dominated nationwide by SecAnim (part of the Saria/Rethmann group, entrusted since 1998) plus a few public Zweckverbaende. Category 3 material (former foodstuffs, slaughter by-products) feeds rendering, petfood, oleochemical and biodiesel value chains with more open private competition (Saria/ReFood and others).",
+      "scores": {
+        "recurring": 4,
+        "fragmentation": 2,
+        "compliance": 5,
+        "scale": 0,
+        "margin": 0,
+        "growth": 0,
+        "headroom": 0,
+        "reimbursement_risk": 0
+      },
+      "rationale": {
+        "fragmentation": "Cat 1/2 disposal is regionally monopolistic (assigned concessions), so overall fragmentation is low despite a more open Cat 3 tier.",
+        "compliance": "Fully governed by EU animal-by-product law plus TierNebG/TierNebV; disposal is legally mandatory."
+      },
+      "composite": 66.7,
+      "dach_signals": {
+        "est_players": "Cat 1/2: regional monopoly concessions (SecAnim dominant, ~180 collection vehicles nationwide, plus public Zweckverbaende/TBA); Cat 3: rendering/petfood/oleochemical/biodiesel processors",
+        "revenue_band_eur": "",
+        "example_companies": [
+          "SecAnim (Saria/Rethmann group)",
+          "ReFood (Saria)",
+          "Saria A/S GmbH & Co. KG"
+        ],
+        "regulation": [
+          "VO (EG) 1069/2009 (tierische Nebenprodukte)",
+          "VO (EU) 142/2011",
+          "Tierische Nebenprodukte-Beseitigungsgesetz (TierNebG)",
+          "Tierische Nebenprodukte-Beseitigungsverordnung (TierNebV)"
+        ]
+      },
+      "sources": [
+        {
+          "title": "Tierische Nebenprodukte-Beseitigungsgesetz (TierNebG)",
+          "url": "https://www.gesetze-im-internet.de/tiernebg/BJNR008210004.html",
+          "note": "Statutory basis; Cat 1/2 public-law disposal duty"
+        },
+        {
+          "title": "SecAnim Deutschland",
+          "url": "https://www.secanim.de/",
+          "note": "Cat 1/2 disposal operator entrusted since 1998, ~180 collection vehicles nationwide"
+        },
+        {
+          "title": "SARIA - Tierische Nebenprodukte / sonstige Tierhaltung",
+          "url": "https://saria.de/services/sonstige-tierhaltung/",
+          "note": "Saria/ReFood group operating Cat 3 rendering/petfood/biodiesel"
+        }
+      ],
+      "confidence": 0,
+      "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
+      "investability": "open",
+      "investability_note": "",
+      "child_ids": []
+    },
+    "food-agriculture-services-value-chain/agricultural-contracting-farm-services/livestock-services-klauenpflege-besamung-stallhygiene/herd-health-large-animal-veterinary-services-bestandsbetreuung": {
+      "id": "food-agriculture-services-value-chain/agricultural-contracting-farm-services/livestock-services-klauenpflege-besamung-stallhygiene/herd-health-large-animal-veterinary-services-bestandsbetreuung",
+      "name": "Herd-health / large-animal veterinary services (Bestandsbetreuung)",
+      "parent_id": "food-agriculture-services-value-chain/agricultural-contracting-farm-services/livestock-services-klauenpflege-besamung-stallhygiene",
+      "level": 3,
+      "path": [
+        "Food & Agriculture Services value chain",
+        "Agricultural Contracting & Farm Services",
+        "Livestock Services (Klauenpflege, Besamung, Stallhygiene)",
+        "Herd-health / large-animal veterinary services (Bestandsbetreuung)"
+      ],
+      "value_chain_stage": "services",
+      "description": "Mobile large-animal veterinary practices (Tierarzt-Fahrpraxis) providing recurring on-farm herd-health management, integrated veterinary care and antibiotic/Tierarzneimittel (TAM) usage monitoring for dairy, pig and poultry units. Recurring, compliance-linked on-farm spend tied to antibiotics/TAM documentation duties.",
+      "scores": {
+        "recurring": 5,
+        "fragmentation": 4,
+        "compliance": 5,
+        "scale": 0,
+        "margin": 0,
+        "growth": 0,
+        "headroom": 0,
+        "reimbursement_risk": 0
+      },
+      "rationale": {
+        "compliance": "Antibiotics/TAM monitoring and prescribing are legally reserved veterinary acts under TAMG and the Tieraerztliche Berufsordnung.",
+        "recurring": "Bestandsbetreuung is delivered under standing herd-health contracts."
+      },
+      "composite": 91.7,
+      "dach_signals": {
+        "est_players": "large-animal / mixed veterinary practices across DACH (fragmented, owner-run)",
+        "revenue_band_eur": "",
+        "example_companies": [],
+        "regulation": [
+          "Tieraerztliche Berufsordnung (Landestieraerztekammern)",
+          "Tierarzneimittelgesetz (TAMG)",
+          "Antibiotika-/TAM-Monitoring",
+          "Tiergesundheitsgesetz"
+        ]
+      },
+      "sources": [
+        {
+          "title": "Bundestieraerztekammer",
+          "url": "https://www.bundestieraerztekammer.de/",
+          "note": "Professional/ownership rules for veterinary practice (Berufsordnung)"
+        }
+      ],
+      "confidence": 0,
       "status": "grounded",
       "why_now": "",
       "pe_activity": [],

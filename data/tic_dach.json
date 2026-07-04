@@ -52,7 +52,9 @@
         "testing-inspection-certification-value-chain/periodic-technical-safety-inspection",
         "testing-inspection-certification-value-chain/product-testing-certification",
         "testing-inspection-certification-value-chain/fire-occupational-safety-inspection-advisory",
-        "testing-inspection-certification-value-chain/management-system-process-certification"
+        "testing-inspection-certification-value-chain/management-system-process-certification",
+        "testing-inspection-certification-value-chain/environmental-water-emissions-testing",
+        "testing-inspection-certification-value-chain/food-feed-agricultural-testing"
       ]
     },
     "testing-inspection-certification-value-chain/calibration-metrology": {
@@ -483,6 +485,11 @@
           "title": "Element Metech KDK - Mechanik",
           "url": "https://kdkgmbh.de/kompetenzen/mechanik/",
           "note": "Global TIC platform already holds DAkkS torque/force scope."
+        },
+        {
+          "title": "QC note - ATESTEO scope",
+          "url": "https://www.atesteo.com/",
+          "note": "ATESTEO removed: it is a driveline/powertrain testing house, not a DAkkS ISO 17025 torque/force calibration lab; retained GTM, HBK (HBM) and Lorenz Messtechnik are established DKD/DAkkS force & torque calibration providers"
         }
       ],
       "confidence": 4,
@@ -1835,8 +1842,8 @@
       "status": "verified",
       "why_now": "",
       "pe_activity": [],
-      "investability": "blocked",
-      "investability_note": "The statutory core (Kehrbezirk / bevollmächtigter Bezirksschornsteinfeger) is awarded by public tender for a 7-year personal term, non-transferable and non-sellable; only the free-market sweeping/service book is acquirable.",
+      "investability": "restricted",
+      "investability_note": "Downgraded from blocked to restricted: only the sovereign function - the hoheitliche Feuerstaettenschau and the bevollmaechtigter-Bezirksschornsteinfeger appointment (7-year terms, awarded by the Land) - is genuinely gated. The free-market sweeping/measurement work and GEG-linked energy advisory are contestable and open to partial roll-up of Schornsteinfeger businesses.",
       "child_ids": []
     },
     "testing-inspection-certification-value-chain/construction-structural-real-estate-inspection/geotechnical-building-material-site-testing-baugrund-baustoffprufung": {
@@ -2981,7 +2988,8 @@
         "testing-inspection-certification-value-chain/periodic-technical-safety-inspection/elevator-escalator-inspection-betrsichv-zus",
         "testing-inspection-certification-value-chain/periodic-technical-safety-inspection/playground-amusement-ride-inspection-din-en-1176-fliegende-bauten",
         "testing-inspection-certification-value-chain/periodic-technical-safety-inspection/work-equipment-ppe-inspection-ladders-racking-psa-against-falls",
-        "testing-inspection-certification-value-chain/periodic-technical-safety-inspection/explosion-protection-inspection-atex-trbs-1201"
+        "testing-inspection-certification-value-chain/periodic-technical-safety-inspection/explosion-protection-inspection-atex-trbs-1201",
+        "testing-inspection-certification-value-chain/periodic-technical-safety-inspection/vehicle-type-approval-homologation-typgenehmigung-21-stvzo-einzelabnahme"
       ]
     },
     "testing-inspection-certification-value-chain/periodic-technical-safety-inspection/statutory-vehicle-inspection-hu-au-29-stvzo": {
@@ -2995,7 +3003,7 @@
         "Statutory Vehicle Inspection (HU/AU §29 StVZO)"
       ],
       "value_chain_stage": "services",
-      "description": "Mandatory periodic roadworthiness (HU) and emissions (AU) inspection of ~63m German vehicles on fixed 24-month cycles under §29 StVZO; performed by the four Prüforganisationen plus their franchised engineers at dealer/workshop test stations.",
+      "description": "Mandatory periodic roadworthiness (HU) and emissions (AU) inspection of the German vehicle fleet (~49m passenger cars; ~61m motor vehicles in total at 1 Jan 2025) on fixed 24-month cycles under §29 StVZO; performed by a small number of nationally relevant Ueberwachungsorganisationen (TUV entities, DEKRA, GTU, KUS, FSP, GTS, etc.) plus regional Technische Pruefstellen, together with their franchised self-employed aaSoP engineers at dealer/workshop test stations.",
       "scores": {
         "recurring": 5,
         "fragmentation": 3,
@@ -3039,14 +3047,29 @@
           "title": "HU und AU: Alles Wissenswerte zum TÜV (ADAC)",
           "url": "https://www.adac.de/rund-ums-fahrzeug/reparatur-pflege-wartung/hu-und-au/hu-und-au/",
           "note": "Confirms §29 StVZO basis, 24-month interval and ~31.1m inspections / provider market shares"
+        },
+        {
+          "title": "KBA - Der Fahrzeugbestand am 1. Januar 2025",
+          "url": "https://www.kba.de/DE/Presse/Pressemitteilungen/Fahrzeugbestand/2025/pm10_fz_bestand_pm_komplett.html",
+          "note": "49,339,166 Pkw and 61,097,943 total Kfz registered at 1 Jan 2025 (corrects the prior ~63m fleet figure)"
+        },
+        {
+          "title": "KBA Glossar - Ueberwachungsorganisationen",
+          "url": "https://www.kba.de/SharedDocs/Glossareintraege/DE/U/Ueberwachungsorganisationen.html",
+          "note": "Defines the recognised UO (TUV, DEKRA, GTU, KUS, FSP, GTS) rather than 'four Prueforganisationen'"
+        },
+        {
+          "title": "Hauptuntersuchung - Wikipedia",
+          "url": "https://de.wikipedia.org/wiki/Hauptuntersuchung",
+          "note": "HU/AU cycle and organisation structure (UO + Technische Pruefstellen)"
         }
       ],
       "confidence": 4,
       "status": "grounded",
       "why_now": "",
       "pe_activity": [],
-      "investability": "open",
-      "investability_note": "",
+      "investability": "restricted",
+      "investability_note": "Set to restricted to match the gated children: rolling up franchised test points, aaSoP engineers and partner workshops is possible, but the core Prueforganisation / Ueberwachungsorganisation licence (and the aaSoP appointment) is regulator-gated and cannot simply be acquired.",
       "child_ids": [
         "testing-inspection-certification-value-chain/periodic-technical-safety-inspection/statutory-vehicle-inspection-hu-au-29-stvzo/passenger-car-motorcycle-hu-au",
         "testing-inspection-certification-value-chain/periodic-technical-safety-inspection/statutory-vehicle-inspection-hu-au-29-stvzo/commercial-vehicle-safety-inspection-sp-29-stvzo"
@@ -3064,7 +3087,7 @@
         "Passenger car & motorcycle HU/AU"
       ],
       "value_chain_stage": "services",
-      "description": "Highest-volume segment; ~24m cars plus motorcycles inspected every 24 months (36 months for new cars).",
+      "description": "Highest-volume segment; of the ~49m registered passenger cars in Germany, roughly half (~24m) fall due each year on the 24-month cycle (36 months for new cars), plus motorcycles - so annual throughput (~24m events) should not be conflated with the total car stock (~49m).",
       "scores": {
         "recurring": 5,
         "fragmentation": 3,
@@ -3115,6 +3138,11 @@
           "title": "GTÜ als amtlich anerkannte Überwachungsorganisation - GTÜ News",
           "url": "https://www.gtue.news/unternehmen/seit-30-jahren-eine-erfolgsgeschichte-gtue-als-amtlich-anerkannte-ueberwachungsorganisation/",
           "note": "Confirms 4-org oligopoly => already consolidated; fees regulated (political/reimbursement exposure)."
+        },
+        {
+          "title": "KBA - Der Fahrzeugbestand am 1. Januar 2025",
+          "url": "https://www.kba.de/DE/Presse/Pressemitteilungen/Fahrzeugbestand/2025/pm10_fz_bestand_pm_komplett.html",
+          "note": "49,339,166 registered passenger cars (Pkw) at 1 Jan 2025"
         }
       ],
       "confidence": 4,
@@ -4017,18 +4045,18 @@
         "recurring": 3,
         "fragmentation": 4,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 3,
+        "margin": 4,
+        "growth": 4,
+        "headroom": 4,
+        "reimbursement_risk": 1
       },
       "rationale": {
         "recurring": "EU type-examination certificates are typically valid ~5 years and must be re-won, plus continuous new-product pipelines drive repeat engagements.",
         "fragmentation": "A handful of large notified bodies plus a broad long tail of small CE-coordination and technical-documentation firms (e.g. Knorre, WEKA-based advisors).",
         "compliance": "CE marking is legally mandatory to place most regulated products on the EU/EEA market; buying is driven purely by ProdSG and the underlying directives."
       },
-      "composite": 75.0,
+      "composite": 70.8,
       "dach_signals": {
         "est_players": "few large NBs + 'hundreds' of CE-consultancies/labs",
         "revenue_band_eur": "EUR 0.3-5m typical for consultancies; NBs part of >EUR 1bn groups",
@@ -4092,18 +4120,18 @@
         "recurring": 3,
         "fragmentation": 2,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 4,
+        "margin": 4,
+        "growth": 3,
+        "headroom": 1,
+        "reimbursement_risk": 1
       },
       "rationale": {
         "recurring": "Certificates ~5-year validity re-issued; surveillance where required creates repeat revenue.",
         "fragmentation": "Concentrated - relatively few notified bodies per directive, dominated by TÜV/DEKRA/VDE.",
         "compliance": "Third-party assessment is legally required for the product categories concerned; not discretionary."
       },
-      "composite": 58.3,
+      "composite": 62.5,
       "dach_signals": {
         "est_players": "~10-30 notified bodies per directive",
         "revenue_band_eur": "embedded in >EUR 500m TIC groups",
@@ -4150,18 +4178,18 @@
         "recurring": 3,
         "fragmentation": 5,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 3,
+        "margin": 3,
+        "growth": 4,
+        "headroom": 5,
+        "reimbursement_risk": 1
       },
       "rationale": {
         "recurring": "Re-engaged per product variant and per directive update (e.g. new Machinery Regulation transition).",
         "fragmentation": "Highly fragmented long tail of small owner-operated CE consultancies across DACH.",
         "compliance": "Documentation is a legal precondition for CE marking under ProdSG and each directive."
       },
-      "composite": 83.3,
+      "composite": 70.8,
       "dach_signals": {
         "est_players": "hundreds of small firms",
         "revenue_band_eur": "EUR 0.2-3m typical",
@@ -4207,18 +4235,18 @@
         "recurring": 3,
         "fragmentation": 5,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 3,
+        "margin": 4,
+        "growth": 3,
+        "headroom": 4,
+        "reimbursement_risk": 1
       },
       "rationale": {
         "recurring": "Testing repeats with every new product/variant and design change; continuous electronics pipelines create de-facto recurring demand.",
         "fragmentation": "Long tail of DAkkS-accredited EMC labs (s-team, AKUVIB, ib-lenhardt, IntertekKaufbeuren, SGS Puchheim) beyond the majors.",
         "compliance": "LVD and EMV Directive compliance is mandatory for CE marking of electrical products."
       },
-      "composite": 83.3,
+      "composite": 70.8,
       "dach_signals": {
         "est_players": "dozens-to-hundreds of accredited EMC/electrical labs",
         "revenue_band_eur": "EUR 0.5-10m typical for independent labs",
@@ -4288,18 +4316,18 @@
         "recurring": 3,
         "fragmentation": 5,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 3,
+        "margin": 4,
+        "growth": 3,
+        "headroom": 4,
+        "reimbursement_risk": 2
       },
       "rationale": {
         "recurring": "Per-product testing repeats with design revisions and new models.",
         "fragmentation": "Many independent regional EMC labs plus in-house/pre-compliance labs.",
         "compliance": "EMV conformity legally required for CE marking of electronics."
       },
-      "composite": 83.3,
+      "composite": 65.8,
       "dach_signals": {
         "est_players": "many dozens of accredited EMC labs",
         "revenue_band_eur": "EUR 0.5-8m typical",
@@ -4347,18 +4375,18 @@
         "recurring": 3,
         "fragmentation": 4,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 3,
+        "margin": 4,
+        "growth": 3,
+        "headroom": 3,
+        "reimbursement_risk": 1
       },
       "rationale": {
         "recurring": "Repeated per model and standard update.",
         "fragmentation": "Regional labs plus majors; somewhat less fragmented than EMC.",
         "compliance": "LVD conformity mandatory for CE marking of 50-1000V AC equipment."
       },
-      "composite": 75.0,
+      "composite": 66.7,
       "dach_signals": {
         "est_players": "dozens of labs",
         "revenue_band_eur": "EUR 0.5-10m",
@@ -4403,18 +4431,18 @@
         "recurring": 4,
         "fragmentation": 4,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 3,
+        "margin": 4,
+        "growth": 4,
+        "headroom": 3,
+        "reimbursement_risk": 1
       },
       "rationale": {
         "recurring": "Continuous IoT/connected-product launches plus expanding RED cyber requirements drive repeat/renewed testing.",
         "fragmentation": "Overlaps EMC lab base; several specialised radio labs (ib-lenhardt, trade-e-bility) beyond majors.",
         "compliance": "RED conformity (safety, EMC, spectrum, cyber) is mandatory for CE marking of any radio-emitting device."
       },
-      "composite": 83.3,
+      "composite": 75.0,
       "dach_signals": {
         "est_players": "dozens of radio/EMC labs",
         "revenue_band_eur": "EUR 0.5-8m typical",
@@ -4472,18 +4500,18 @@
         "recurring": 3,
         "fragmentation": 4,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 3,
+        "margin": 4,
+        "growth": 4,
+        "headroom": 4,
+        "reimbursement_risk": 1
       },
       "rationale": {
         "recurring": "Type-exam certificates ~5-year validity; the 2023/1230 Machinery Regulation transition re-opens assessments across the installed manufacturer base.",
         "fragmentation": "Multiple notified/DGUV-Test bodies plus large machinery-CE consultancy tail; regionally spread.",
         "compliance": "Third-party involvement is mandatory for Annex-IV machines lacking full harmonised-standard coverage."
       },
-      "composite": 75.0,
+      "composite": 70.8,
       "dach_signals": {
         "est_players": "several NBs (incl. IFA 0121) + hundreds of consultancies",
         "revenue_band_eur": "EUR 0.3-5m consultancies; NBs within large groups",
@@ -4548,18 +4576,18 @@
         "recurring": 3,
         "fragmentation": 3,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 3,
+        "margin": 4,
+        "growth": 3,
+        "headroom": 2,
+        "reimbursement_risk": 1
       },
       "rationale": {
         "recurring": "5-year certificate cycle plus new-model assessments.",
         "fragmentation": "Limited set of notified/DGUV bodies; regional mid-caps.",
         "compliance": "Mandatory third-party route for Annex IV without full standard coverage."
       },
-      "composite": 66.7,
+      "composite": 62.5,
       "dach_signals": {
         "est_players": "~10-20 relevant NBs",
         "revenue_band_eur": "within large TIC groups",
@@ -4605,18 +4633,18 @@
         "recurring": 3,
         "fragmentation": 3,
         "compliance": 4,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 3,
+        "margin": 4,
+        "growth": 4,
+        "headroom": 3,
+        "reimbursement_risk": 1
       },
       "rationale": {
         "recurring": "Re-assessment on product change plus ongoing safety-lifecycle work; training/FSCP recurs.",
         "fragmentation": "Niche - a modest number of specialised assessors/consultancies plus majors.",
         "compliance": "Norm-driven (IEC 61508 family); often required by customers/sector rules rather than a single blanket law."
       },
-      "composite": 58.3,
+      "composite": 62.5,
       "dach_signals": {
         "est_players": "tens of specialist firms",
         "revenue_band_eur": "EUR 0.5-5m typical",
@@ -4670,18 +4698,18 @@
         "recurring": 4,
         "fragmentation": 4,
         "compliance": 4,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 3,
+        "margin": 3,
+        "growth": 3,
+        "headroom": 4,
+        "reimbursement_risk": 2
       },
       "rationale": {
         "recurring": "GS certificates are limited to max 5 years and require ongoing production surveillance; retest per new product/season.",
         "fragmentation": "Majors plus specialised consumer-goods/toy labs (CTL Bielefeld, OMPG, SGS Institut Fresenius).",
         "compliance": "Toy Directive/EN 71 mandatory for CE; GS is voluntary but a strong retail/market driver regulated under ProdSG §21."
       },
-      "composite": 75.0,
+      "composite": 57.5,
       "dach_signals": {
         "est_players": "dozens of consumer/toy labs; ZLS-recognised GS bodies",
         "revenue_band_eur": "EUR 0.5-15m",
@@ -4751,18 +4779,18 @@
         "recurring": 4,
         "fragmentation": 4,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 3,
+        "margin": 3,
+        "growth": 3,
+        "headroom": 4,
+        "reimbursement_risk": 2
       },
       "rationale": {
         "recurring": "Retest per SKU/season across fast product cycles.",
         "fragmentation": "Specialised toy labs plus majors.",
         "compliance": "Toy Directive/EN 71 conformity mandatory for CE marking."
       },
-      "composite": 83.3,
+      "composite": 61.7,
       "dach_signals": {
         "est_players": "dozens of accredited labs",
         "revenue_band_eur": "EUR 0.5-10m",
@@ -4809,18 +4837,18 @@
         "recurring": 4,
         "fragmentation": 3,
         "compliance": 4,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 3,
+        "margin": 4,
+        "growth": 3,
+        "headroom": 2,
+        "reimbursement_risk": 2
       },
       "rationale": {
         "recurring": "GS certificates capped at 5 years with ongoing serial-production control.",
         "fragmentation": "Concentrated among ZLS-recognised bodies (TÜV, DEKRA, SGS, Intertek).",
         "compliance": "Voluntary but state-regulated under ProdSG and strongly demanded by German retail."
       },
-      "composite": 66.7,
+      "composite": 57.5,
       "dach_signals": {
         "est_players": "limited set of recognised GS-Stellen",
         "revenue_band_eur": "within large TIC groups",
@@ -4867,18 +4895,18 @@
         "recurring": 4,
         "fragmentation": 4,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 3,
+        "margin": 3,
+        "growth": 3,
+        "headroom": 4,
+        "reimbursement_risk": 2
       },
       "rationale": {
         "recurring": "Factory-production-control requires periodic ongoing surveillance/re-inspection, not one-off certification.",
         "fragmentation": "Many DIBt-recognised MPAs and Prüf-/Überwachungs-/Zertifizierungsstellen across the Länder (university MPAs, eco-INSTITUT, TÜV Rheinland).",
         "compliance": "CPR CE-marking and German building-law (abZ/Ü-Zeichen) are legally required to place/use products in construction."
       },
-      "composite": 83.3,
+      "composite": 61.7,
       "dach_signals": {
         "est_players": "many MPAs/PÜZ-Stellen + DIBt-recognised bodies",
         "revenue_band_eur": "EUR 1-20m (MPAs) to small labs EUR 0.5-3m",
@@ -4937,18 +4965,18 @@
         "recurring": 3,
         "fragmentation": 3,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 3,
+        "margin": 4,
+        "growth": 3,
+        "headroom": 2,
+        "reimbursement_risk": 1
       },
       "rationale": {
         "recurring": "Module-based assessment with QA-system surveillance and recurring production inspection for higher categories.",
         "fragmentation": "Moderate - several notified bodies (TÜV entities, DNV, Kiwa, BSI, LRQA) plus specialists.",
         "compliance": "Third-party conformity assessment mandatory above pressure/category thresholds under PED."
       },
-      "composite": 66.7,
+      "composite": 62.5,
       "dach_signals": {
         "est_players": "~10-25 notified bodies active in DACH",
         "revenue_band_eur": "within large TIC/industrial-service groups",
@@ -5002,18 +5030,18 @@
         "recurring": 4,
         "fragmentation": 2,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 4,
+        "margin": 4,
+        "growth": 4,
+        "headroom": 1,
+        "reimbursement_risk": 2
       },
       "rationale": {
         "recurring": "MDR certificates require annual surveillance audits and 5-year recertification - strongly recurring.",
         "fragmentation": "Concentrated - only ~52 MDR-designated notified bodies EU-wide, few in Germany (TÜV SÜD, DEKRA, MEDCERT).",
         "compliance": "MDR/IVDR third-party certification legally mandatory for market access of most classes."
       },
-      "composite": 66.7,
+      "composite": 65.8,
       "dach_signals": {
         "est_players": "handful of German MDR notified bodies (of ~52 EU-wide)",
         "revenue_band_eur": "within large TIC groups",
@@ -5112,18 +5140,18 @@
         "recurring": 4,
         "fragmentation": 5,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 3,
+        "margin": 4,
+        "growth": 4,
+        "headroom": 5,
+        "reimbursement_risk": 1
       },
       "rationale": {
         "recurring": "External Brandschutzbeauftragter is an ongoing appointed role billed as annual retainer/day-rate; concepts are more project-based.",
         "fragmentation": "~4,500 Brandschutzunternehmen plus many one-person engineering offices; no dominant consolidator in advisory.",
         "compliance": "Building codes (LBO/Sonderbauverordnungen), Industriebaurichtlinie and ASR A2.2 make appointments and concepts mandatory for many buildings."
       },
-      "composite": 91.7,
+      "composite": 79.2,
       "dach_signals": {
         "est_players": "~4,500 Brandschutz firms (subset advisory); hundreds of independent Brandschutzbeauftragte/-ingenieure",
         "revenue_band_eur": "EUR 0.2-3m typical office; external Brandschutzbeauftragter ~70-150 EUR/h",
@@ -5180,18 +5208,18 @@
         "recurring": 4,
         "fragmentation": 5,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 3,
+        "margin": 4,
+        "growth": 4,
+        "headroom": 5,
+        "reimbursement_risk": 1
       },
       "rationale": {
         "recurring": "Standing appointment billed as recurring retainer/day-rate with periodic on-site inspections.",
         "fragmentation": "Dominated by owner-operated offices and freelancers; national brands (DEKRA Akademie training) do not consolidate delivery.",
         "compliance": "Required where building/insurer/authority mandates a Brandschutzbeauftragter (Sonderbauten, industry)."
       },
-      "composite": 91.7,
+      "composite": 79.2,
       "dach_signals": {
         "est_players": "hundreds to low thousands of providers/freelancers",
         "revenue_band_eur": "70-150 EUR/h; small-firm revenue EUR 0.1-1m",
@@ -5243,18 +5271,18 @@
         "recurring": 2,
         "fragmentation": 4,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 2,
+        "margin": 4,
+        "growth": 3,
+        "headroom": 3,
+        "reimbursement_risk": 2
       },
       "rationale": {
         "recurring": "Largely project-based (per building permit / Sonderbau); recurring only via repeat client pipelines and re-inspection intervals.",
         "fragmentation": "State-recognised experts are numerous but a licensed cohort; regional Ingenieurbüros dominate.",
         "compliance": "For Sonderbauten the concept and independent Prüfsachverständigen check are legally required instead of the building authority review."
       },
-      "composite": 66.7,
+      "composite": 53.3,
       "dach_signals": {
         "est_players": "several hundred state-recognised Prüfsachverständige/-ingenieure Brandschutz",
         "revenue_band_eur": "EUR 0.3-5m per Ingenieurbüro; concepts EUR 5k-50k+ per project",
@@ -5305,18 +5333,18 @@
         "recurring": 5,
         "fragmentation": 4,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 4,
+        "margin": 4,
+        "growth": 4,
+        "headroom": 4,
+        "reimbursement_risk": 1
       },
       "rationale": {
         "recurring": "DGUV V2 basic + operational support is a continuous statutory retainer with fixed annual hour quotas.",
         "fragmentation": "Large multi-service groups (TÜV, DEKRA, ias, B·A·D) plus a very long tail of regional SiFa offices and freelancers.",
         "compliance": "ASiG §5-6 and DGUV V2 require safety-technical support from the first employee; enforced by Berufsgenossenschaften."
       },
-      "composite": 91.7,
+      "composite": 83.3,
       "dach_signals": {
         "est_players": "thousands of SiFa providers/freelancers plus a handful of national groups",
         "revenue_band_eur": "EUR 90-160 EUR/h; SME retainers EUR 1-10k/yr; group revenues EUR 100m+",
@@ -5371,18 +5399,18 @@
         "recurring": 5,
         "fragmentation": 5,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 3,
+        "margin": 4,
+        "growth": 3,
+        "headroom": 5,
+        "reimbursement_risk": 1
       },
       "rationale": {
         "recurring": "Multi-year contracts with statutory annual hour allocations renewed continuously.",
         "fragmentation": "Overwhelmingly owner-operated SiFa offices at EUR 0.1-2m revenue with no consolidator.",
         "compliance": "§19 ASiG explicitly allows discharge of duty via a contracted überbetrieblicher Dienst."
       },
-      "composite": 100.0,
+      "composite": 79.2,
       "dach_signals": {
         "est_players": "very large long tail of regional/solo SiFa providers",
         "revenue_band_eur": "EUR 0.1-2m per office",
@@ -5433,18 +5461,18 @@
         "recurring": 3,
         "fragmentation": 5,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 3,
+        "margin": 4,
+        "growth": 4,
+        "headroom": 5,
+        "reimbursement_risk": 1
       },
       "rationale": {
         "recurring": "Must be reviewed/updated on any material change and periodically; repeat mandates rather than fixed subscription.",
         "fragmentation": "Hundreds of small Arbeitsschutz consultancies and freelancers; extremely fragmented.",
         "compliance": "ArbSchG §5-6 makes the Gefährdungsbeurteilung the core mandatory duty; enforcement rising (5% annual inspection from 2026)."
       },
-      "composite": 83.3,
+      "composite": 75.0,
       "dach_signals": {
         "est_players": "hundreds of Arbeitsschutz/HSE consultancies",
         "revenue_band_eur": "EUR 0.1-3m; per assessment EUR 1k-15k",
@@ -5499,18 +5527,18 @@
         "recurring": 3,
         "fragmentation": 5,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 3,
+        "margin": 4,
+        "growth": 4,
+        "headroom": 5,
+        "reimbursement_risk": 1
       },
       "rationale": {
         "recurring": "Re-run on organisational change and on recurring review cycles; growing repeat demand.",
         "fragmentation": "Many boutique arbeitspsychologie/HR consultancies and SaaS-enabled providers.",
         "compliance": "Explicitly required by §5 Abs.3 ArbSchG; specifically targeted by authorities from 2026."
       },
-      "composite": 83.3,
+      "composite": 75.0,
       "dach_signals": {
         "est_players": "many boutique providers + software-enabled entrants",
         "revenue_band_eur": "EUR 0.1-2m; projects EUR 3k-30k",
@@ -5556,18 +5584,18 @@
         "recurring": 3,
         "fragmentation": 5,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 2,
+        "margin": 4,
+        "growth": 3,
+        "headroom": 5,
+        "reimbursement_risk": 1
       },
       "rationale": {
         "recurring": "Must be kept current with plant/process changes; periodic updates re-won.",
         "fragmentation": "Many specialised Ex-Schutz engineering boutiques nationwide.",
         "compliance": "§6 GefStoffV and BetrSichV require the document for all explosion-hazard areas."
       },
-      "composite": 83.3,
+      "composite": 66.7,
       "dach_signals": {
         "est_players": "dozens+ of specialised Ex-Schutz consultancies plus TÜV/DEKRA units",
         "revenue_band_eur": "documents from ~975-990 EUR; office revenue EUR 0.2-3m",
@@ -5620,18 +5648,18 @@
         "recurring": 3,
         "fragmentation": 5,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 3,
+        "margin": 3,
+        "growth": 3,
+        "headroom": 5,
+        "reimbursement_risk": 2
       },
       "rationale": {
         "recurring": "Project-based but developers/GCs generate steady repeat pipelines; framework agreements common.",
         "fragmentation": "Highly fragmented mix of freelancers, engineering offices and TÜV/DEKRA; a placement platform claims market-leadership, signalling no consolidation.",
         "compliance": "§3 Baustellenverordnung requires a SiGeKo when workers of several employers are present or advance notice is needed."
       },
-      "composite": 83.3,
+      "composite": 61.7,
       "dach_signals": {
         "est_players": "many hundreds of certified SiGeKo (freelancers + offices)",
         "revenue_band_eur": "EUR 0.1-3m per office; day-rates / project fees",
@@ -5683,18 +5711,18 @@
         "recurring": 5,
         "fragmentation": 3,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 4,
+        "margin": 3,
+        "growth": 4,
+        "headroom": 3,
+        "reimbursement_risk": 2
       },
       "rationale": {
         "recurring": "Statutory continuous care with fixed annual physician hours (20% minimum share rule from 2026).",
         "fragmentation": "More concentrated than SiFa: dominated by large groups (ias, B·A·D, TÜV) alongside regional practices, given physician scarcity.",
         "compliance": "ASiG and DGUV V2 mandate betriebsärztliche Betreuung; ArbMedVV governs occupational medical examinations."
       },
-      "composite": 83.3,
+      "composite": 70.0,
       "dach_signals": {
         "est_players": "several large groups + regional occupational-medicine practices",
         "revenue_band_eur": "EUR 100-200+/h physician time; group revenues EUR 100m+",
@@ -5746,18 +5774,18 @@
         "recurring": 3,
         "fragmentation": 4,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 3,
+        "margin": 4,
+        "growth": 3,
+        "headroom": 4,
+        "reimbursement_risk": 1
       },
       "rationale": {
         "recurring": "Periodic re-measurement per TRGS 402 intervals and on process change; repeat but not subscription.",
         "fragmentation": "National TIC labs (DEKRA, TÜV, ias) plus many regional DAkkS-accredited Messstellen; long tail exists.",
         "compliance": "§7 GefStoffV and TRGS 402/900 require measurement by accredited Messstellen (DIN EN ISO/IEC 17025)."
       },
-      "composite": 75.0,
+      "composite": 66.7,
       "dach_signals": {
         "est_players": "dozens of DAkkS-accredited Messstellen (BUA directory)",
         "revenue_band_eur": "EUR 0.5-10m; per measurement campaign EUR 2k-20k",
@@ -5811,18 +5839,18 @@
         "recurring": 4,
         "fragmentation": 5,
         "compliance": 4,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 3,
+        "margin": 3,
+        "growth": 3,
+        "headroom": 5,
+        "reimbursement_risk": 1
       },
       "rationale": {
         "recurring": "Statutory refresh cycles (Ersthelfer every ~2 years, Brandschutzhelfer ~3-5 years) drive repeat bookings.",
         "fragmentation": "Very large field of local training providers, Hilfsorganisationen and freelancers; no dominant private consolidator.",
         "compliance": "§10 ArbSchG, ASR A2.2 and DGUV Vorschrift 1 require sufficient trained fire-safety helpers and first-aiders."
       },
-      "composite": 83.3,
+      "composite": 66.7,
       "dach_signals": {
         "est_players": "many hundreds of training providers nationwide",
         "revenue_band_eur": "EUR 0.1-3m; courses ~EUR 30-100 per participant / per-day rates",
@@ -5921,18 +5949,18 @@
         "recurring": 5,
         "fragmentation": 3,
         "compliance": 4,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 4,
+        "margin": 4,
+        "growth": 3,
+        "headroom": 3,
+        "reimbursement_risk": 1
       },
       "rationale": {
         "recurring": "ISO/IEC 17021 certificates run a fixed 3-year cycle with mandatory annual surveillance audits and re-certification, i.e. contractual recurring revenue per client.",
         "fragmentation": "DAkkS lists dozens of accredited ISO 17021 bodies but the top TÜV entities, DQS and DEKRA dominate volume, leaving a regional/consultancy long tail.",
         "compliance": "Rarely statutory but a de-facto entry ticket for OEM supply chains and public tenders, so effectively non-discretionary for suppliers."
       },
-      "composite": 75.0,
+      "composite": 70.8,
       "dach_signals": {
         "est_players": "~40-60 DAkkS-accredited ISO 17021 bodies + long tail of prep consultants",
         "revenue_band_eur": "Bodies EUR 5-500m; audit engagement EUR 3-30k/site/year",
@@ -5996,18 +6024,18 @@
         "recurring": 5,
         "fragmentation": 3,
         "compliance": 4,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 4,
+        "margin": 4,
+        "growth": 2,
+        "headroom": 3,
+        "reimbursement_risk": 1
       },
       "rationale": {
         "recurring": "3-year cycle + annual surveillance audits create predictable repeat revenue.",
         "fragmentation": "Many accredited bodies compete on price, but volume concentrates in TÜV/DQS/DEKRA.",
         "compliance": "De-facto mandatory for B2B supply and public procurement, not a statutory duty."
       },
-      "composite": 75.0,
+      "composite": 66.7,
       "dach_signals": {
         "est_players": "All ~40-60 ISO 17021 bodies offer it",
         "revenue_band_eur": "EUR 3-15k per site/year",
@@ -6053,11 +6081,11 @@
         "recurring": 5,
         "fragmentation": 3,
         "compliance": 4,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 4,
+        "margin": 4,
+        "growth": 4,
+        "headroom": 3,
+        "reimbursement_risk": 1
       },
       "rationale": {
         "recurring": "Same 3-year audit cadence, usually co-scheduled with the QMS audit.",
@@ -6110,18 +6138,18 @@
         "recurring": 5,
         "fragmentation": 3,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 3,
+        "margin": 4,
+        "growth": 5,
+        "headroom": 4,
+        "reimbursement_risk": 1
       },
       "rationale": {
         "recurring": "ISO 27001 runs a 3-year cycle; TISAX labels expire after 3 years and must be re-assessed, forcing repeat spend.",
         "fragmentation": "~30-50 accredited ISO 27001 bodies, but TISAX audit-provider status is gated by ENX, concentrating the automotive niche.",
         "compliance": "OEM/Tier-1 contracts require valid TISAX labels; NIS2 and customer mandates make it non-discretionary."
       },
-      "composite": 83.3,
+      "composite": 79.2,
       "dach_signals": {
         "est_players": "~30-50 accredited ISO 27001 bodies; a curated ENX list of TISAX audit providers",
         "revenue_band_eur": "ISO 27001 EUR 8-40k; TISAX assessment EUR 10-50k per label cycle",
@@ -6183,18 +6211,18 @@
         "recurring": 5,
         "fragmentation": 3,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 3,
+        "margin": 4,
+        "growth": 5,
+        "headroom": 4,
+        "reimbursement_risk": 1
       },
       "rationale": {
         "recurring": "3-year cert cycle plus annual surveillance audits.",
         "fragmentation": "Dozens of accredited bodies plus non-accredited certifiers competing on price.",
         "compliance": "Increasingly demanded by customers, insurers and NIS2 scope."
       },
-      "composite": 83.3,
+      "composite": 79.2,
       "dach_signals": {
         "est_players": "~30-50 accredited bodies",
         "revenue_band_eur": "EUR 8-40k per cycle",
@@ -6241,11 +6269,11 @@
         "recurring": 4,
         "fragmentation": 2,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 3,
+        "margin": 4,
+        "growth": 4,
+        "headroom": 2,
+        "reimbursement_risk": 1
       },
       "rationale": {
         "recurring": "TISAX labels expire after 3 years, requiring re-assessment.",
@@ -6303,18 +6331,18 @@
         "recurring": 5,
         "fragmentation": 2,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 3,
+        "margin": 4,
+        "growth": 3,
+        "headroom": 2,
+        "reimbursement_risk": 2
       },
       "rationale": {
         "recurring": "3-year certification cycles with mandatory annual surveillance and OASIS/IATF database registration.",
         "fragmentation": "Scheme oversight (IATF, IAQG) admits only a limited set of licensed certification bodies, so concentrated.",
         "compliance": "IATF 16949 is a non-negotiable prerequisite for automotive OEM supply; EN 9100 for aerospace primes."
       },
-      "composite": 75.0,
+      "composite": 61.7,
       "dach_signals": {
         "est_players": "Handful of IATF/IAQG-licensed bodies in DACH",
         "revenue_band_eur": "EUR 10-60k per certification cycle",
@@ -6373,18 +6401,18 @@
         "recurring": 5,
         "fragmentation": 3,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 3,
+        "margin": 4,
+        "growth": 4,
+        "headroom": 3,
+        "reimbursement_risk": 2
       },
       "rationale": {
         "recurring": "ISO 50001 3-year cycle with annual surveillance; EMAS requires periodic re-validation.",
         "fragmentation": "Broad pool of accredited bodies plus EMAS environmental verifiers, with a consultancy long tail.",
         "compliance": "EnEfG legally requires ISO 50001/EMAS for companies above 7.5 GWh/year; energy-tax relief also tied to it."
       },
-      "composite": 83.3,
+      "composite": 70.0,
       "dach_signals": {
         "est_players": "Dozens of accredited bodies + registered EMAS verifiers",
         "revenue_band_eur": "EUR 5-30k per certification cycle",
@@ -6432,23 +6460,23 @@
         "Sustainability / ESG & CSRD Assurance"
       ],
       "value_chain_stage": "services",
-      "description": "Independent assurance of sustainability reports under the EU CSRD/ESRS regime; in DACH currently reserved largely for registered Wirtschaftsprüfer (statutory auditors) but a large, newly-mandated recurring market with limited-then-reasonable assurance scaling up.",
+      "description": "Independent assurance of sustainability reports under the EU CSRD/ESRS regime. Following the Omnibus I package (political deal 2025, detailed omnibus adopted end-2025), scope is narrowed to companies with >1,000 employees (and >EUR 450m turnover); wave-2/3 first reports were postponed by two years (former wave-2 preparers now first report on FY2027 data, published 2028) and listed SMEs (former wave 3) are dropped from scope. The planned move from limited to reasonable assurance was deleted - limited assurance remains the only requirement and no EU sustainability-assurance standard exists as of 2026. In DACH the mandate is currently reserved largely for registered Wirtschaftsprufer, but that WP-only restriction remains contested and German national transposition is not yet finalised - so the earlier 'limited-then-reasonable assurance scaling up' growth thesis no longer holds and the near-term addressable market is materially smaller and delayed.",
       "scores": {
         "recurring": 5,
         "fragmentation": 2,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 3,
+        "margin": 4,
+        "growth": 3,
+        "headroom": 1,
+        "reimbursement_risk": 2
       },
       "rationale": {
         "recurring": "Annual statutory assurance of the sustainability report, mirroring the financial-audit cadence.",
         "fragmentation": "Concentrated in Big Four + larger WP firms because sustainability-auditor registration and ISAE 3000 competence gate entry.",
         "compliance": "CSRD legally mandates external assurance of ESRS reporting, initially limited assurance, potentially reasonable from 2028."
       },
-      "composite": 75.0,
+      "composite": 61.7,
       "dach_signals": {
         "est_players": "Big Four + a handful of mid-tier WP firms (registered sustainability auditors)",
         "revenue_band_eur": "EUR 50k-1m+ per engagement depending on group size",
@@ -6481,6 +6509,21 @@
           "title": "Studie: Praxis der Nachhaltigkeitsberichterstattung nach CSRD/ESRS - Deloitte",
           "url": "https://www.deloitte.com/de/de/services/audit-assurance/research/studie-praxis-der-nachhaltigkeitsberichterstattung-nach-csrd-esrs.html",
           "note": "Market study: ~3/4 of reports assured with limited assurance, all by WPs"
+        },
+        {
+          "title": "CSRD under Omnibus: updated scope, timelines (2026) - Coolset",
+          "url": "https://www.coolset.com/academy/csrd-under-omnibus-updated-scope-timelines-and-what-companies-should-do-in-2026",
+          "note": ">1,000-employee / EUR 450m threshold; wave-2 first reports FY2027 (publish 2028); wave-3 SMEs out of scope"
+        },
+        {
+          "title": "European Sustainability Reporting - Omnibus & ESRS Updates (Jan 2026) - Deloitte",
+          "url": "https://dart.deloitte.com/USDART/home/publications/deloitte/heads-up/2026/eu-sustainability-reporting-omnibus-esrs-updates",
+          "note": "Move to reasonable assurance deleted; limited assurance remains; no EU assurance standard mandated"
+        },
+        {
+          "title": "EU Omnibus Package: CSRD - ICAEW",
+          "url": "https://www.icaew.com/groups-and-networks/local-groups-and-societies/europe/european-sustainability-reporting-and-assurance/eu-omnibus-package-csrd",
+          "note": "Wave 2 postponed two years to 2028 (2027 data); reasonable-assurance escalation removed"
         }
       ],
       "confidence": 4,
@@ -6507,18 +6550,18 @@
         "recurring": 4,
         "fragmentation": 4,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 3,
+        "margin": 3,
+        "growth": 3,
+        "headroom": 4,
+        "reimbursement_risk": 2
       },
       "rationale": {
         "recurring": "Suppliers are re-audited on rolling 1-3 year cycles as buyers refresh due-diligence evidence.",
         "fragmentation": "Large TÜVs coexist with many smaller APSCA-registered audit firms and freelance social auditors across sourcing regions.",
         "compliance": "LkSG legally obliges in-scope firms to run risk analysis and supplier checks; CSDDD extends this EU-wide."
       },
-      "composite": 83.3,
+      "composite": 61.7,
       "dach_signals": {
         "est_players": "Several majors + long tail of specialist/APSCA-registered auditors",
         "revenue_band_eur": "EUR 1-5k per supplier audit; programme mandates EUR 0.5-5m",
@@ -6577,18 +6620,18 @@
         "recurring": 5,
         "fragmentation": 3,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 2,
+        "margin": 3,
+        "growth": 3,
+        "headroom": 3,
+        "reimbursement_risk": 2
       },
       "rationale": {
         "recurring": "Organic operators face at least annual mandatory inspection to retain certification.",
         "fragmentation": "Only ~19 BLE-authorised organic control bodies in Germany plus a few GxP-adjacent specialists - a small licensed pool.",
         "compliance": "Organic control is legally mandated by EU 2018/848 and the Öko-Landbaugesetz; GxP/GDP by pharma quality regulation."
       },
-      "composite": 83.3,
+      "composite": 57.5,
       "dach_signals": {
         "est_players": "~19 authorised organic control bodies in DE; niche GxP process auditors",
         "revenue_band_eur": "EUR 0.5-5k per inspection; bodies EUR 1-20m revenue",
@@ -6623,6 +6666,578 @@
         }
       ],
       "confidence": 4,
+      "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
+      "investability": "open",
+      "investability_note": "",
+      "child_ids": []
+    },
+    "testing-inspection-certification-value-chain/environmental-water-emissions-testing": {
+      "id": "testing-inspection-certification-value-chain/environmental-water-emissions-testing",
+      "name": "Environmental, Water & Emissions Testing",
+      "parent_id": "testing-inspection-certification-value-chain",
+      "level": 1,
+      "path": [
+        "Testing, Inspection & Certification value chain",
+        "Environmental, Water & Emissions Testing"
+      ],
+      "value_chain_stage": "services",
+      "description": "DACH testing/monitoring services around environmental media - air emissions/immissions, soil, water and waste - underpinned by statutory, largely recurring measurement duties (BImSchG, BBodSchV/AwSV/KrWG, TrinkwV) and DAkkS/ISO 17025 accreditation. Highly fragmented across notified/announced measurement bodies and accredited analytical labs, with active consolidation - prime regulated buy-and-build territory.",
+      "scores": {
+        "recurring": 0,
+        "fragmentation": 0,
+        "compliance": 0,
+        "scale": 0,
+        "margin": 0,
+        "growth": 0,
+        "headroom": 0,
+        "reimbursement_risk": 0
+      },
+      "rationale": {
+        "note": "Level-1 branch header; scores carried on the sub-nodes per tree convention."
+      },
+      "composite": 0.0,
+      "dach_signals": {
+        "est_players": "Numerous announced/accredited measurement bodies and environmental labs across DACH; consolidating (e.g. AGROLAB, Eurofins networks)",
+        "revenue_band_eur": "",
+        "example_companies": [
+          "Mueller-BBM Industry Solutions",
+          "TUV SUD",
+          "AGROLAB",
+          "Eurofins Umwelt"
+        ],
+        "regulation": [
+          "BImSchG (esp. §29b Messstellen)",
+          "41. BImSchV",
+          "TA Luft",
+          "BBodSchV",
+          "AwSV",
+          "KrWG",
+          "TrinkwV",
+          "DIN EN ISO/IEC 17025"
+        ]
+      },
+      "sources": [
+        {
+          "title": "LfU Bayern - Bekanntgabe von §29b-Messstellen nach BImSchG",
+          "url": "https://www.lfu.bayern.de/luft/p26_messstellen/index.htm",
+          "note": "State register of announced §29b emission-measurement bodies"
+        },
+        {
+          "title": "TUV SUD - Emissionsmessung nach §29b BImSchG",
+          "url": "https://www.tuvsud.com/de-de/branchen/produzierende-industrie/anlagenbau-betrieb/umwelt-klimaschutz/emissionsmessung-29b-bimschg",
+          "note": "TUV SUD as an announced §29b measurement provider"
+        }
+      ],
+      "confidence": 3,
+      "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
+      "investability": "open",
+      "investability_note": "",
+      "child_ids": [
+        "testing-inspection-certification-value-chain/environmental-water-emissions-testing/emission-immission-measurement-29b-bimschg-messstellen",
+        "testing-inspection-certification-value-chain/environmental-water-emissions-testing/environmental-analytics-soil-water-waste-bbodschv-awsv-krwg",
+        "testing-inspection-certification-value-chain/environmental-water-emissions-testing/drinking-water-legionella-testing-trinkwv"
+      ]
+    },
+    "testing-inspection-certification-value-chain/environmental-water-emissions-testing/emission-immission-measurement-29b-bimschg-messstellen": {
+      "id": "testing-inspection-certification-value-chain/environmental-water-emissions-testing/emission-immission-measurement-29b-bimschg-messstellen",
+      "name": "Emission/immission measurement (§29b BImSchG Messstellen)",
+      "parent_id": "testing-inspection-certification-value-chain/environmental-water-emissions-testing",
+      "level": 2,
+      "path": [
+        "Testing, Inspection & Certification value chain",
+        "Environmental, Water & Emissions Testing",
+        "Emission/immission measurement (§29b BImSchG Messstellen)"
+      ],
+      "value_chain_stage": "services",
+      "description": "Periodic and continuous measurement of air pollutant emissions and ambient immissions at permitted industrial installations by bodies formally announced (bekanntgegeben) under §29b BImSchG, to demonstrate compliance with limit values set in BImSchG permits and the 41. BImSchV / TA Luft.",
+      "scores": {
+        "recurring": 4,
+        "fragmentation": 4,
+        "compliance": 5,
+        "scale": 0,
+        "margin": 0,
+        "growth": 0,
+        "headroom": 0,
+        "reimbursement_risk": 0
+      },
+      "rationale": {
+        "recurring": "Recurring statutory measurement intervals on permitted plants",
+        "compliance": "§29b bekanntgabe + ISO 17025 required to operate",
+        "growth": "Tightening TA Luft / emission limits and new pollutants expand scope"
+      },
+      "composite": 83.3,
+      "dach_signals": {
+        "est_players": "Numerous bekanntgegebene §29b-BImSchG Messstellen across the Laender plus large TIC bodies",
+        "revenue_band_eur": "",
+        "example_companies": [
+          "Mueller-BBM Industry Solutions",
+          "TUV SUD"
+        ],
+        "regulation": [
+          "§29b BImSchG",
+          "41. BImSchV",
+          "TA Luft",
+          "DIN EN ISO/IEC 17025"
+        ]
+      },
+      "sources": [
+        {
+          "title": "Mueller-BBM Industry Solutions - Messstelle nach §29b BImSchG",
+          "url": "https://www.muellerbbm.de/umwelt/emissionen-immissionen/messstelle-nach-29b-bimschg/",
+          "note": "ISO 17025-accredited, announced §29b emission-measurement body"
+        },
+        {
+          "title": "LfU Bayern - §29b-Messstellen",
+          "url": "https://www.lfu.bayern.de/luft/p26_messstellen/index.htm",
+          "note": "Register confirming multiple announced measurement bodies"
+        }
+      ],
+      "confidence": 3,
+      "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
+      "investability": "open",
+      "investability_note": "",
+      "child_ids": []
+    },
+    "testing-inspection-certification-value-chain/environmental-water-emissions-testing/environmental-analytics-soil-water-waste-bbodschv-awsv-krwg": {
+      "id": "testing-inspection-certification-value-chain/environmental-water-emissions-testing/environmental-analytics-soil-water-waste-bbodschv-awsv-krwg",
+      "name": "Environmental analytics - soil/water/waste (BBodSchV/AwSV/KrWG)",
+      "parent_id": "testing-inspection-certification-value-chain/environmental-water-emissions-testing",
+      "level": 2,
+      "path": [
+        "Testing, Inspection & Certification value chain",
+        "Environmental, Water & Emissions Testing",
+        "Environmental analytics - soil/water/waste (BBodSchV/AwSV/KrWG)"
+      ],
+      "value_chain_stage": "services",
+      "description": "Accredited laboratory analysis of soil, groundwater, surface water and waste for contaminated-land assessment, disposal classification and monitoring under BBodSchV, AwSV and KrWG - a fragmented long tail of DAkkS-accredited environmental labs consolidating under a few group networks.",
+      "scores": {
+        "recurring": 3,
+        "fragmentation": 5,
+        "compliance": 5,
+        "scale": 0,
+        "margin": 0,
+        "growth": 0,
+        "headroom": 0,
+        "reimbursement_risk": 0
+      },
+      "rationale": {
+        "fragmentation": "Hundreds of regional accredited labs",
+        "headroom": "Active buy-and-build (AGROLAB, Eurofins networks)",
+        "compliance": "Notified/accredited status and legal disposal duties drive demand"
+      },
+      "composite": 83.3,
+      "dach_signals": {
+        "est_players": "Highly fragmented long tail of DAkkS-accredited environmental labs (DE/AT/CH)",
+        "revenue_band_eur": "",
+        "example_companies": [
+          "AGROLAB",
+          "Eurofins Umwelt"
+        ],
+        "regulation": [
+          "BBodSchV",
+          "AwSV",
+          "KrWG",
+          "DIN EN ISO/IEC 17025",
+          "DAkkS accreditation"
+        ]
+      },
+      "sources": [
+        {
+          "title": "AGROLAB Group - Umweltanalytik",
+          "url": "https://agrolab.com/de/produkte-leistungen/umweltanalytik.html",
+          "note": "DAkkS-accredited soil/water/waste/air environmental analytics, 30+ sites, ~2,500 staff"
+        },
+        {
+          "title": "AGROLAB Group - Wasseranalytik",
+          "url": "https://agrolab.com/de/produkte-leistungen/wasseranalytik.html",
+          "note": "Accredited water analytics confirming scope"
+        }
+      ],
+      "confidence": 3,
+      "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
+      "investability": "open",
+      "investability_note": "",
+      "child_ids": []
+    },
+    "testing-inspection-certification-value-chain/environmental-water-emissions-testing/drinking-water-legionella-testing-trinkwv": {
+      "id": "testing-inspection-certification-value-chain/environmental-water-emissions-testing/drinking-water-legionella-testing-trinkwv",
+      "name": "Drinking-water & Legionella testing (TrinkwV)",
+      "parent_id": "testing-inspection-certification-value-chain/environmental-water-emissions-testing",
+      "level": 2,
+      "path": [
+        "Testing, Inspection & Certification value chain",
+        "Environmental, Water & Emissions Testing",
+        "Drinking-water & Legionella testing (TrinkwV)"
+      ],
+      "value_chain_stage": "services",
+      "description": "Statutorily recurring sampling and accredited analysis of drinking water and hot-water systems (microbiology incl. Legionella, chemistry) for building operators, utilities and landlords, performed by accredited and officially listed examination bodies under the Trinkwasserverordnung.",
+      "scores": {
+        "recurring": 5,
+        "fragmentation": 4,
+        "compliance": 5,
+        "scale": 0,
+        "margin": 0,
+        "growth": 0,
+        "headroom": 0,
+        "reimbursement_risk": 0
+      },
+      "rationale": {
+        "recurring": "Mandatory periodic Legionella/drinking-water testing intervals",
+        "compliance": "TrinkwV listing + ISO 17025 accreditation required"
+      },
+      "composite": 91.7,
+      "dach_signals": {
+        "est_players": "Fragmented base of accredited & TrinkwV-listed examination bodies (DE)",
+        "revenue_band_eur": "",
+        "example_companies": [
+          "AGROLAB",
+          "Eurofins"
+        ],
+        "regulation": [
+          "Trinkwasserverordnung (TrinkwV)",
+          "listing of examination bodies (§ TrinkwV)",
+          "DIN EN ISO/IEC 17025",
+          "DVGW / UBA-empfohlene Verfahren"
+        ]
+      },
+      "sources": [
+        {
+          "title": "AGROLAB Group - Wasseranalytik",
+          "url": "https://agrolab.com/de/produkte-leistungen/wasseranalytik.html",
+          "note": "Accredited drinking-water and Legionella analytics"
+        },
+        {
+          "title": "Eurofins Deutschland - Lebensmittel/Wasser Analytik",
+          "url": "https://www.eurofins.de/lebensmittel/",
+          "note": "Eurofins network operates accredited water/food labs in DE"
+        }
+      ],
+      "confidence": 2,
+      "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
+      "investability": "open",
+      "investability_note": "",
+      "child_ids": []
+    },
+    "testing-inspection-certification-value-chain/food-feed-agricultural-testing": {
+      "id": "testing-inspection-certification-value-chain/food-feed-agricultural-testing",
+      "name": "Food, Feed & Agricultural Testing",
+      "parent_id": "testing-inspection-certification-value-chain",
+      "level": 1,
+      "path": [
+        "Testing, Inspection & Certification value chain",
+        "Food, Feed & Agricultural Testing"
+      ],
+      "value_chain_stage": "services",
+      "description": "DACH analytical testing of food, feed and agricultural inputs for safety, contaminants, microbiology, authenticity and shelf life, driven by EU food law (178/2002), LFGB/LMHV and retailer/QMS requirements. A fragmented long tail of accredited labs consolidating rapidly under Eurofins and Tentamus alongside SGS Institut Fresenius and AGROLAB - recurring, compliance-hard buy-and-build.",
+      "scores": {
+        "recurring": 0,
+        "fragmentation": 0,
+        "compliance": 0,
+        "scale": 0,
+        "margin": 0,
+        "growth": 0,
+        "headroom": 0,
+        "reimbursement_risk": 0
+      },
+      "rationale": {
+        "note": "Level-1 branch header; scores carried on the sub-nodes per tree convention."
+      },
+      "composite": 0.0,
+      "dach_signals": {
+        "est_players": "Fragmented base of accredited food/feed labs consolidating under Eurofins/Tentamus + SGS Institut Fresenius, AGROLAB",
+        "revenue_band_eur": "",
+        "example_companies": [
+          "Eurofins",
+          "Tentamus",
+          "SGS Institut Fresenius",
+          "AGROLAB"
+        ],
+        "regulation": [
+          "EU 178/2002 (General Food Law)",
+          "LFGB",
+          "LMHV",
+          "EU 2018/848 (organic)",
+          "DIN EN ISO/IEC 17025"
+        ]
+      },
+      "sources": [
+        {
+          "title": "Eurofins Deutschland - Lebensmittelanalytik",
+          "url": "https://www.eurofins.de/lebensmittel/",
+          "note": "World-leading food/feed testing network; ISO 17025-accredited German labs"
+        },
+        {
+          "title": "Tentamus - Food Testing",
+          "url": "https://www.tentamus.com/lab-analyses/food-testing/",
+          "note": "International food-testing lab group active in DACH"
+        }
+      ],
+      "confidence": 3,
+      "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
+      "investability": "open",
+      "investability_note": "",
+      "child_ids": [
+        "testing-inspection-certification-value-chain/food-feed-agricultural-testing/food-safety-contaminant-analytics-iso-17025",
+        "testing-inspection-certification-value-chain/food-feed-agricultural-testing/microbiological-shelf-life-testing",
+        "testing-inspection-certification-value-chain/food-feed-agricultural-testing/feed-agricultural-input-testing"
+      ]
+    },
+    "testing-inspection-certification-value-chain/food-feed-agricultural-testing/food-safety-contaminant-analytics-iso-17025": {
+      "id": "testing-inspection-certification-value-chain/food-feed-agricultural-testing/food-safety-contaminant-analytics-iso-17025",
+      "name": "Food safety & contaminant analytics (ISO 17025)",
+      "parent_id": "testing-inspection-certification-value-chain/food-feed-agricultural-testing",
+      "level": 2,
+      "path": [
+        "Testing, Inspection & Certification value chain",
+        "Food, Feed & Agricultural Testing",
+        "Food safety & contaminant analytics (ISO 17025)"
+      ],
+      "value_chain_stage": "services",
+      "description": "Accredited chemical and residue/contaminant analysis of food (pesticides, mycotoxins, heavy metals, allergens, authenticity) for producers, retailers and authorities under EU food law and retailer QMS schemes.",
+      "scores": {
+        "recurring": 4,
+        "fragmentation": 4,
+        "compliance": 5,
+        "scale": 0,
+        "margin": 0,
+        "growth": 0,
+        "headroom": 0,
+        "reimbursement_risk": 0
+      },
+      "rationale": {
+        "recurring": "Continuous retailer/QMS monitoring programmes",
+        "compliance": "ISO 17025 + official-lab designations",
+        "scale": "Large centralised high-throughput labs"
+      },
+      "composite": 83.3,
+      "dach_signals": {
+        "est_players": "Accredited food-chemistry labs consolidating under Eurofins/Tentamus + SGS Institut Fresenius",
+        "revenue_band_eur": "",
+        "example_companies": [
+          "Eurofins",
+          "SGS Institut Fresenius",
+          "Tentamus"
+        ],
+        "regulation": [
+          "EU 178/2002",
+          "LFGB",
+          "EU 2017/625 (official controls)",
+          "DIN EN ISO/IEC 17025"
+        ]
+      },
+      "sources": [
+        {
+          "title": "Eurofins Deutschland - Lebensmittelanalytik",
+          "url": "https://www.eurofins.de/lebensmittel/",
+          "note": "ISO 17025 food safety/contaminant analytics in DE"
+        },
+        {
+          "title": "SGS Institut Fresenius - Laboruntersuchungen fuer die Lebensmittelbranche",
+          "url": "https://sgs-institut-fresenius.de/en/health-nutrition/food-industry",
+          "note": "Leading DACH food analytics provider"
+        }
+      ],
+      "confidence": 3,
+      "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
+      "investability": "open",
+      "investability_note": "",
+      "child_ids": []
+    },
+    "testing-inspection-certification-value-chain/food-feed-agricultural-testing/microbiological-shelf-life-testing": {
+      "id": "testing-inspection-certification-value-chain/food-feed-agricultural-testing/microbiological-shelf-life-testing",
+      "name": "Microbiological & shelf-life testing",
+      "parent_id": "testing-inspection-certification-value-chain/food-feed-agricultural-testing",
+      "level": 2,
+      "path": [
+        "Testing, Inspection & Certification value chain",
+        "Food, Feed & Agricultural Testing",
+        "Microbiological & shelf-life testing"
+      ],
+      "value_chain_stage": "services",
+      "description": "Accredited microbiological testing (pathogens, hygiene indicators, spoilage) and shelf-life/challenge studies for food and beverage producers under EU 2073/2005 and QMS requirements; high-volume, routine and recurring.",
+      "scores": {
+        "recurring": 5,
+        "fragmentation": 4,
+        "compliance": 5,
+        "scale": 0,
+        "margin": 0,
+        "growth": 0,
+        "headroom": 0,
+        "reimbursement_risk": 0
+      },
+      "rationale": {
+        "recurring": "Routine batch/hygiene monitoring",
+        "scale": "High-throughput micro labs"
+      },
+      "composite": 91.7,
+      "dach_signals": {
+        "est_players": "Accredited food-micro labs (Eurofins/Tentamus networks + regional labs)",
+        "revenue_band_eur": "",
+        "example_companies": [
+          "Eurofins",
+          "Tentamus"
+        ],
+        "regulation": [
+          "EU 2073/2005 (microbiological criteria)",
+          "EU 178/2002",
+          "DIN EN ISO/IEC 17025",
+          "ISO 4833 / ISO 6579 methods"
+        ]
+      },
+      "sources": [
+        {
+          "title": "Eurofins Deutschland - Lebensmittelanalytik",
+          "url": "https://www.eurofins.de/lebensmittel/",
+          "note": "Accredited microbiological food testing"
+        },
+        {
+          "title": "Tentamus - Food Testing",
+          "url": "https://www.tentamus.com/lab-analyses/food-testing/",
+          "note": "Food microbiology and shelf-life services"
+        }
+      ],
+      "confidence": 2,
+      "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
+      "investability": "open",
+      "investability_note": "",
+      "child_ids": []
+    },
+    "testing-inspection-certification-value-chain/food-feed-agricultural-testing/feed-agricultural-input-testing": {
+      "id": "testing-inspection-certification-value-chain/food-feed-agricultural-testing/feed-agricultural-input-testing",
+      "name": "Feed & agricultural input testing",
+      "parent_id": "testing-inspection-certification-value-chain/food-feed-agricultural-testing",
+      "level": 2,
+      "path": [
+        "Testing, Inspection & Certification value chain",
+        "Food, Feed & Agricultural Testing",
+        "Feed & agricultural input testing"
+      ],
+      "value_chain_stage": "services",
+      "description": "Accredited testing of animal feed, fertilisers, soil-improvers and crop inputs (nutrients, contaminants, GMO, residues) for producers and monitoring schemes under feed law and organic regulation; overlaps agricultural analytics.",
+      "scores": {
+        "recurring": 4,
+        "fragmentation": 5,
+        "compliance": 5,
+        "scale": 0,
+        "margin": 0,
+        "growth": 0,
+        "headroom": 0,
+        "reimbursement_risk": 0
+      },
+      "rationale": {
+        "fragmentation": "Many regional agricultural/feed labs",
+        "headroom": "AGROLAB/Eurofins consolidation runway"
+      },
+      "composite": 91.7,
+      "dach_signals": {
+        "est_players": "Fragmented agricultural/feed labs consolidating under AGROLAB/Eurofins",
+        "revenue_band_eur": "",
+        "example_companies": [
+          "AGROLAB",
+          "Eurofins"
+        ],
+        "regulation": [
+          "EU 767/2009 (feed marketing)",
+          "EU 178/2002",
+          "EU 2018/848 (organic)",
+          "DIN EN ISO/IEC 17025"
+        ]
+      },
+      "sources": [
+        {
+          "title": "AGROLAB Group - Home (agrar/umwelt/wasser/lebensmittel)",
+          "url": "https://agrolab.com/de/",
+          "note": "Price-leader in agricultural, environmental, water and food analytics; DAkkS-accredited"
+        },
+        {
+          "title": "Eurofins Deutschland - Lebensmittel/Futtermittel Analytik",
+          "url": "https://www.eurofins.de/lebensmittel/",
+          "note": "Feed and agricultural input testing in the Eurofins network"
+        }
+      ],
+      "confidence": 3,
+      "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
+      "investability": "open",
+      "investability_note": "",
+      "child_ids": []
+    },
+    "testing-inspection-certification-value-chain/periodic-technical-safety-inspection/vehicle-type-approval-homologation-typgenehmigung-21-stvzo-einzelabnahme": {
+      "id": "testing-inspection-certification-value-chain/periodic-technical-safety-inspection/vehicle-type-approval-homologation-typgenehmigung-21-stvzo-einzelabnahme",
+      "name": "Vehicle Type-Approval & Homologation (Typgenehmigung / §21 StVZO Einzelabnahme)",
+      "parent_id": "testing-inspection-certification-value-chain/periodic-technical-safety-inspection",
+      "level": 2,
+      "path": [
+        "Testing, Inspection & Certification value chain",
+        "Periodic Technical & Safety Inspection",
+        "Vehicle Type-Approval & Homologation (Typgenehmigung / §21 StVZO Einzelabnahme)"
+      ],
+      "value_chain_stage": "services",
+      "description": "Distinct from periodic HU/AU: (EU/UN-ECE) type approval and homologation via KBA-named technical services, single-vehicle acceptance under §21 StVZO (Vollgutachten / Einzelbetriebserlaubnis, e.g. imports and one-offs), change acceptance under §19 StVZO, and conversion/retrofit and e-mobility certification. Since 2019 KBA-designated technical services may issue §21 reports, and from June 2025 a national parts type-approval (Teiletypgenehmigung) replaces the former Teilegutachten.",
+      "scores": {
+        "recurring": 3,
+        "fragmentation": 3,
+        "compliance": 5,
+        "scale": 0,
+        "margin": 0,
+        "growth": 0,
+        "headroom": 0,
+        "reimbursement_risk": 0
+      },
+      "rationale": {
+        "recurring": "Repeat via new models, imports, tuning/retrofit and e-mobility conversions",
+        "compliance": "KBA designation as technical service / UO required",
+        "growth": "e-mobility retrofits and new type-approval regime"
+      },
+      "composite": 66.7,
+      "dach_signals": {
+        "est_players": "KBA-named technical services within the big TIC/UO groups plus specialist Gutachter",
+        "revenue_band_eur": "",
+        "example_companies": [
+          "TUV SUD",
+          "TUV NORD",
+          "DEKRA",
+          "GTU",
+          "KUS"
+        ],
+        "regulation": [
+          "EU 2018/858 (type-approval framework)",
+          "UN/ECE regulations",
+          "§21 StVZO (Einzelabnahme/Vollgutachten)",
+          "§19 StVZO (Aenderungsabnahme)",
+          "Teiletypgenehmigung (KBA, ab 20.06.2025)"
+        ]
+      },
+      "sources": [
+        {
+          "title": "KBA - Teiletypgenehmigung loest Teilegutachten ab (ab 20.06.2025)",
+          "url": "https://www.kba.de/DE/Presse/Pressemitteilungen/Allgemein/2025/pm18_2025_teiletypgenehmigung_TTG.html",
+          "note": "KBA-named technical services issue §21 reports since 2019; new national parts type-approval from June 2025"
+        },
+        {
+          "title": "DEKRA - Einzelbetriebserlaubnis fuer Privatkunden",
+          "url": "https://www.dekra.de/de/einzelbetriebserlaubnis/",
+          "note": "DEKRA (and TUV, GTU, KUS) perform §21 StVZO single-vehicle acceptance"
+        }
+      ],
+      "confidence": 3,
       "status": "grounded",
       "why_now": "",
       "pe_activity": [],

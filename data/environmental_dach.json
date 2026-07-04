@@ -330,7 +330,7 @@
         "Statutory Separator Emptying & Service (Fett-/Oel-/Leichtfluessigkeitsabscheider)"
       ],
       "value_chain_stage": "services",
-      "description": "Scheduled emptying, cleaning, refilling and general inspection of grease separators (gastronomy/food) and oil/light-liquid separators (workshops, fuel stations, industry) under mandatory intervals. The most contractually recurring niche in the branch.",
+      "description": "[Cross-reference: this duplicates Water & Wastewater Services > 'Separator (Abscheider) Emptying & Service' (same DIN 4040-100 / DIN EN 858 grease & light-liquid separator emptying, same operators). Retained only as a pointer to that canonical scored node to avoid double-counting players/revenue.] Scheduled emptying, cleaning, refilling and general inspection of grease separators and oil/light-liquid separators under mandatory intervals.",
       "scores": {
         "recurring": 5,
         "fragmentation": 5,
@@ -393,6 +393,11 @@
           "title": "Abscheiderentsorgung - Hersteller/Lieferanten (IndustryStock)",
           "url": "https://www.industrystock.de/de/unternehmen/Umwelttechnik/Entsorgung/Abfallbeseitigung/Abscheiderentsorgung",
           "note": "Highly fragmented landscape of regional providers confirming several-hundred-operator pool."
+        },
+        {
+          "title": "DWA - Deutsche Vereinigung fuer Wasserwirtschaft, Abwasser und Abfall",
+          "url": "https://www.dwa.de/",
+          "note": "Shared standard base with the canonical node."
         }
       ],
       "confidence": 4,
@@ -400,7 +405,7 @@
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "Emptying/cleaning is a competitive private commercial service (customers pay); freely acquirable. Downstream Sonderabfall disposal can face Andienungspflicht but that hits the waste stream, not the service co.",
+      "investability_note": "Cross-reference pointer only; scoring lives on the canonical Water & Wastewater 'Separator (Abscheider) Emptying & Service' node.",
       "child_ids": []
     },
     "environmental-services-value-chain/industrial-sewer-cleaning-services/industrial-high-pressure-vacuum-cleaning-hoechstdruck-saugtechnik": {
@@ -414,7 +419,7 @@
         "Industrial High-Pressure & Vacuum Cleaning (Hoechstdruck / Saugtechnik)"
       ],
       "value_chain_stage": "services",
-      "description": "Mobile ultra-high-pressure water jetting (up to ~3,000 bar) and vacuum/suction removal of deposits, coatings and residues on tanks, heat exchangers, columns, reactors and pipelines at refineries, chemical, food and power plants - typically during turnarounds/Stillstaende.",
+      "description": "Mobile ultra-high-pressure water jetting (up to ~3,000 bar) and vacuum/suction removal of deposits, coatings and residues on tanks, heat exchangers, columns, reactors and pipelines at refineries, chemical, food and power plants - typically during turnarounds/Stillstaende. (Note: WOMA and Kaercher are UHP-equipment manufacturers, not cleaning-service contractors, so they are excluded from the service-provider examples.)",
       "scores": {
         "recurring": 3,
         "fragmentation": 4,
@@ -426,9 +431,9 @@
         "reimbursement_risk": 0
       },
       "rationale": {
-        "recurring": "Repeat plant turnaround/shutdown cycles and framework contracts, though partly project-driven rather than fully contractual.",
-        "fragmentation": "Mix of regional mid-caps and consolidating groups (INDUTEC/IWAGO); more capex-intensive than sewer work, so somewhat less atomised.",
-        "compliance": "Cleaning required for plant safety, hygiene (food) and pre-maintenance access; DGUV confined-space rules govern execution."
+        "recurring": "Turnaround/Stillstand-driven work is repeat but campaign-based rather than continuous.",
+        "fragmentation": "~200-500 industrial-cleaning firms across DACH, with several large groups.",
+        "compliance": "Governed by DGUV Regel 113-004/100-500, BetrSichV and Gefahrstoffverordnung."
       },
       "composite": 66.7,
       "dach_signals": {
@@ -464,6 +469,11 @@
           "title": "Wimmer Innovativ Hoechstdruck (AT)",
           "url": "https://www.wimmer-innovativ.at/home/reinigungs-aufrautechnik/hoch-und-hoechstdruck-wasserstrahltechnik/",
           "note": "Up to 3,000 bar Austrian provider"
+        },
+        {
+          "title": "Industrieanzeiger - Kaercher erwirbt Mehrheit von WOMA",
+          "url": "https://industrieanzeiger.industrie.de/news/kaercher-erwirbt-mehrheit-von-woma/",
+          "note": "Confirms WOMA/Kaercher are equipment manufacturers, not service contractors."
         }
       ],
       "confidence": 4,
@@ -1742,23 +1752,25 @@
         "ESG / CSRD Reporting & Carbon Accounting Advisory"
       ],
       "value_chain_stage": "services",
-      "description": "Advisory and assurance-oriented services helping companies build CSRD/ESRS sustainability reports, corporate/product carbon footprints (CCF/PCF) and EMAS environmental-management systems, a fast-growing regulation-driven niche.",
+      "description": "Advisory and assurance-oriented services helping companies build CSRD/ESRS sustainability reports, corporate/product carbon footprints (CCF/PCF) and EMAS environmental-management systems. The 2025 EU Omnibus I package sharply narrowed the addressable base: CSRD now applies only to companies with >1,000 employees AND >EUR 450m turnover (both criteria cumulative, ~80% fewer in-scope companies), and the 'stop-the-clock' deferral pushes wave-2/3 reporting to FY2027/2028 - shifting this from an uncapped growth niche to a smaller, deferred one.",
       "scores": {
         "recurring": 4,
         "fragmentation": 5,
         "compliance": 5,
         "scale": 0,
         "margin": 0,
-        "growth": 0,
+        "growth": 2,
         "headroom": 0,
-        "reimbursement_risk": 0
+        "reimbursement_risk": 5
       },
       "rationale": {
-        "recurring": "CSRD reporting and carbon inventories are annual, recurring exercises once a company is in scope.",
-        "fragmentation": "Very crowded field of boutiques (Plan A, ClimatePartner, myclimate, KlimAktiv, DO Climate) plus Big-4 and TIC.",
-        "compliance": "CSRD makes reporting mandatory for ~15,000 companies (pre-Omnibus scope); EMAS/carbon claims are regulation- and market-driven."
+        "recurring": "Annual reporting/assurance cycles once a client is in scope, but the client base itself has shrunk.",
+        "fragmentation": "Hundreds of boutique advisors plus several software vendors, no dominant consolidator below the TIC majors.",
+        "compliance": "Entirely regulation-driven (CSRD/ESRS/EU Taxonomy), now under a narrower mandate.",
+        "growth": "Omnibus I cut in-scope companies ~80% and deferred waves 2/3 to FY2027/2028, compressing near-term demand (mirrors the child CSRD node).",
+        "reimbursement_risk": "Discretionary advisory spend that falls away as scope narrows and deadlines slip."
       },
-      "composite": 91.7,
+      "composite": 55.0,
       "dach_signals": {
         "est_players": "~hundreds of advisors + several software vendors",
         "revenue_band_eur": "EUR 15-150k per CSRD engagement; firms EUR 1-30m",
@@ -1791,6 +1803,16 @@
           "title": "ClimatePartner – Beste Carbon Accounting Software",
           "url": "https://www.climatepartner.com/de/wissen/blog/beste-carbon-accounting-software-2026",
           "note": "Overview of DACH carbon accounting market/players"
+        },
+        {
+          "title": "Noerr - Vereinfachung der CSRD (Omnibus I)",
+          "url": "https://www.noerr.com/de/insights/vereinfachung-der-csrd-omnibus-i",
+          "note": ">1,000 employees AND >EUR 450m turnover thresholds; ~80% fewer in-scope companies."
+        },
+        {
+          "title": "Council of the EU - deal to simplify sustainability reporting (Omnibus I, Dec 2025)",
+          "url": "https://www.consilium.europa.eu/en/press/press-releases/2025/12/09/council-and-parliament-strike-a-deal-to-simplify-sustainability-reporting-and-due-diligence-requirements-and-boost-eu-competitiveness/",
+          "note": "Final scope narrowing and stop-the-clock deferral."
         }
       ],
       "confidence": 3,
@@ -2770,7 +2792,7 @@
         "Mould remediation (Schimmelsanierung)"
       ],
       "value_chain_stage": "services",
-      "description": "Assessment and removal of mould in residential/commercial buildings, typically triggered by water damage, thermal bridges and insurance claims; a fast-growing, highly fragmented niche.",
+      "description": "Assessment and removal of mould in residential/commercial buildings, typically triggered by water damage, thermal bridges and insurance claims; a fragmented niche with a large tail of general trades and only a limited pool of specifically certified specialists.",
       "scores": {
         "recurring": 4,
         "fragmentation": 5,
@@ -3291,7 +3313,8 @@
         "environmental-services-value-chain/recycling-materials-recovery/construction-demolition-material-recycling-bauschutt",
         "environmental-services-value-chain/recycling-materials-recovery/battery-li-ion-recycling-battg-eu-batterieverordnung",
         "environmental-services-value-chain/recycling-materials-recovery/end-of-life-vehicle-recycling-altfahrzeug-elv",
-        "environmental-services-value-chain/recycling-materials-recovery/epr-compliance-take-back-schemes-duales-system-lucid-grs"
+        "environmental-services-value-chain/recycling-materials-recovery/epr-compliance-take-back-schemes-duales-system-lucid-grs",
+        "environmental-services-value-chain/recycling-materials-recovery/used-cooking-oil-grease-recycling-altspeisefett-uco-to-biodiesel"
       ]
     },
     "environmental-services-value-chain/recycling-materials-recovery/metal-scrap-recycling-schrott-ne-metalle": {
@@ -3317,9 +3340,9 @@
         "reimbursement_risk": 0
       },
       "rationale": {
-        "recurring": "Continuous industrial/post-consumer feedstock (~30 Mt/yr) with repeat supplier relationships, but volumes and margins re-won each cycle and directly geared to scrap/steel prices.",
-        "fragmentation": "~3,500-4,000 scrap firms and ~65,000 jobs in Germany with a long owner-operated tail beneath a handful of consolidators (TSR, Scholz).",
-        "compliance": "Waste-law/Entsorgungsfachbetrieb certification and KrWG apply, but the buying driver is commodity value, not a legal mandate."
+        "recurring": "Continuous scrap intake feeding EAF steelworks, though volumes track industrial cycles.",
+        "fragmentation": "~3,500-4,000 firms (BDSV represents ~600) - Germany's most fragmented recycling pool.",
+        "compliance": "KrWG, Entsorgungsfachbetriebeverordnung, EU Waste Shipment Regulation and GewAbfV."
       },
       "composite": 75.0,
       "dach_signals": {
@@ -3351,6 +3374,11 @@
           "title": "Schrott – Wikipedia",
           "url": "https://de.wikipedia.org/wiki/Schrott",
           "note": "~30 Mt total scrap arising; Scholz/TSR/Interseroh revenue figures"
+        },
+        {
+          "title": "BDSV - Bundesvereinigung Deutscher Stahlrecycling- und Entsorgungsunternehmen",
+          "url": "https://www.bdsv.org/",
+          "note": "Firm counts and structure of the ferrous scrap trade."
         }
       ],
       "confidence": 4,
@@ -3358,7 +3386,7 @@
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Aurubis (NE-smelter) moved out of this fragmented collection/shredding/trading node; it belongs only under the NE/precious-metal and PCB-recovery children.",
       "child_ids": [
         "environmental-services-value-chain/recycling-materials-recovery/metal-scrap-recycling-schrott-ne-metalle/ferrous-scrap-stahl-eisenschrott",
         "environmental-services-value-chain/recycling-materials-recovery/metal-scrap-recycling-schrott-ne-metalle/non-ferrous-precious-metals-ne-metalle"
@@ -3758,6 +3786,11 @@
           "title": "SAIM – EU-Verpackungsverordnung (PPWR)",
           "url": "https://saim.de/glossar/eu-verpackungsverordnung-ppwr-was-unternehmen-jetzt-wissen-sollten/",
           "note": "PPWR minimum recycled-content requirements driving recyclate demand"
+        },
+        {
+          "title": "EUWID - Lyondell Basell schliesst Uebernahme von APK ab",
+          "url": "https://www.euwid-recycling.de/news/wirtschaft/lyondell-basell-schliesst-uebernahme-von-apk-ab/",
+          "note": "Replaces the now-defunct standalone 'APK AG' example."
         }
       ],
       "confidence": 3,
@@ -3905,6 +3938,11 @@
           "title": "Chemisches Recycling: Deutschland verschlaeft Potenzial - Solarify",
           "url": "https://www.solarify.eu/2025/12/21/chemisches-recycling-deutschland-verschlaeft-potenzial/",
           "note": "Economics hinge on regulatory recognition (Verpackungsgesetz 5% quota from 2028) and virgin-plastic/oil-price competition - high mandate + commodity exposure."
+        },
+        {
+          "title": "EUWID - Lyondell Basell schliesst Uebernahme von APK ab",
+          "url": "https://www.euwid-recycling.de/news/wirtschaft/lyondell-basell-schliesst-uebernahme-von-apk-ab/",
+          "note": "APK AG entered insolvency in 2024 and was acquired by LyondellBasell (Newcycling solvent-based technology, Merseburg)."
         }
       ],
       "confidence": 4,
@@ -3995,7 +4033,7 @@
         "Paper & cardboard (Altpapier)"
       ],
       "value_chain_stage": "services",
-      "description": "Collection and grading of ~12 Mt/yr recovered paper feeding an 83% recycled-fibre input rate in German paper mills; classic commodity-price (EUWID index) exposure.",
+      "description": "Collection and grading of ~15.5 Mt/yr recovered paper (2023) feeding an ~83% Altpapiereinsatzquote (rising to ~84% in 2024, an international top value) in German paper mills; classic commodity-price (EUWID index) exposure.",
       "scores": {
         "recurring": 4,
         "fragmentation": 4,
@@ -4041,6 +4079,11 @@
           "title": "euroconsil – Entsorgungsbetrieb verkaufen (M&A context)",
           "url": "https://www.euroconsil.de/entsorgungsbetrieb-verkaufen",
           "note": "Top-5 consolidators dominate top of market (double-digit-billion revenues); active Veolia/ALBA acquisitions leave little independent headroom."
+        },
+        {
+          "title": "bvse - Altpapiereinsatz der deutschen Papierindustrie erreicht neuen Hoechststand",
+          "url": "https://www.bvse.de/altpapier/nachrichten-papier-recycling/11278-altpapiereinsatz-der-deutschen-papierindustrie-erreicht-neuen-hoechststand.html",
+          "note": "2023: 15.5 Mt recovered paper input, ~83% quota; 84% in 2024."
         }
       ],
       "confidence": 3,
@@ -4075,9 +4118,9 @@
         "reimbursement_risk": 0
       },
       "rationale": {
-        "recurring": "Mature ~85% recycling rate with stable furnace offtake.",
-        "fragmentation": "~250,000 containers but few cullet processors; more concentrated than paper.",
-        "compliance": "VerpackG/dual-system funded separate collection is mandatory."
+        "recurring": "Continuous bring-bank (Iglu) collection of ~2.6 Mt/yr feeds furnaces steadily.",
+        "fragmentation": "Only a few dozen cullet processors - more concentrated than paper/textiles.",
+        "compliance": "Volume secured by VerpackG and KrWG separate-collection duties."
       },
       "composite": 66.7,
       "dach_signals": {
@@ -4099,6 +4142,11 @@
           "title": "Umweltbundesamt – Glas und Altglas",
           "url": "https://www.umweltbundesamt.de/daten/ressourcen-abfall/verwertung-entsorgung-ausgewaehlter-abfallarten/glas-altglas",
           "note": "~2.6 Mt collected, 85% recycling rate, container network"
+        },
+        {
+          "title": "bvse - Glasrecycling / Behaelterglas",
+          "url": "https://www.bvse.de/",
+          "note": "Cullet collection volumes and processor concentration."
         }
       ],
       "confidence": 4,
@@ -4133,9 +4181,9 @@
         "reimbursement_risk": 0
       },
       "rationale": {
-        "recurring": "Continuous arisings but collapsing reuse-export economics threaten operator viability pre-EPR.",
-        "fragmentation": "Many charitable/commercial collectors and sorters across DACH.",
-        "compliance": "EU separate-collection duty since Jan 2025; textile EPR (WFD 2025) to make producer funding mandatory."
+        "recurring": "Collection is continuous but revenue is under acute pressure as reuse markets weaken.",
+        "fragmentation": "Hundreds of collectors/sorters transitioning from donation-funded models.",
+        "compliance": "Mandatory separate collection since 2025 (KrWG) and forthcoming EU textile EPR (2025/1892)."
       },
       "composite": 66.7,
       "dach_signals": {
@@ -4161,6 +4209,11 @@
           "title": "bvse – Textilrecycling",
           "url": "https://www.bvse.de/fachverband-textilrecyling.html",
           "note": "EPR transition and sector distress"
+        },
+        {
+          "title": "bvse - Alttextilien / Getrenntsammlung 2025",
+          "url": "https://www.bvse.de/",
+          "note": "Separate-collection duty and EU textile EPR context."
         }
       ],
       "confidence": 4,
@@ -4194,9 +4247,9 @@
         "reimbursement_risk": 0
       },
       "rationale": {
-        "recurring": "Continuous C&D arisings and civil-engineering offtake; volume tied to construction cycle.",
-        "fragmentation": "Highly regional, many quarry/demolition/recycling operators with no national consolidator.",
-        "compliance": "EBV mandates quality classes (RC-1/2/3), three-stage monitoring, notification >250 m³ and delivery slips."
+        "recurring": "Steady inbound C&D mineral waste (largest waste stream by mass) feeds continuous RC-Baustoff production.",
+        "fragmentation": "Hundreds of regional recyclers - highly fragmented.",
+        "compliance": "Nationwide Ersatzbaustoffverordnung (EBV, since Aug 2023), Mantelverordnung, KrWG and GewAbfV."
       },
       "composite": 83.3,
       "dach_signals": {
@@ -4225,6 +4278,11 @@
           "title": "erdbaron – Was bedeutet RC-1 (EBV)",
           "url": "https://support.erdbaron.com/portal/de/kb/articles/was-bedeutet-recycling-baustoff-klasse-rc1-ebv-ersatzbaustoffverordnung",
           "note": "EBV material classes and monitoring duties"
+        },
+        {
+          "title": "Umweltbundesamt - Bauabfaelle / Ersatzbaustoffverordnung",
+          "url": "https://www.umweltbundesamt.de/themen/abfall-ressourcen/abfallwirtschaft/verwertung-von-abfaellen/bauabfaelle",
+          "note": "EBV regime and C&D recycling volumes."
         }
       ],
       "confidence": 4,
@@ -4249,20 +4307,21 @@
       "description": "Collection and recovery of portable and traction batteries, with a fast-growing lithium-ion segment driven by e-mobility; Germany is Europe's leading Li-ion recycling hub with new black-mass and hydrometallurgical capacity.",
       "scores": {
         "recurring": 4,
-        "fragmentation": 3,
+        "fragmentation": 2,
         "compliance": 5,
         "scale": 0,
         "margin": 0,
         "growth": 0,
         "headroom": 0,
-        "reimbursement_risk": 0
+        "reimbursement_risk": 4
       },
       "rationale": {
-        "recurring": "Statutory take-back (GRS-type systems) plus rising EV battery arisings create durable, growing volume.",
-        "fragmentation": "Capital-intensive plants; a moderate set of specialists consolidating rather than a large SME tail.",
-        "compliance": "BattG + EU Battery Regulation (2023, quotas from 2025/2031 for Li/Co/Ni) make recycling and recycled-content legally mandatory."
+        "recurring": "Statutory take-back volumes recur under BattG and the EU Battery Regulation.",
+        "fragmentation": "Recyclers are few (~10-20 plant-scale specialists) despite >6,500 registered producers via GRS - concentrated at plant scale.",
+        "compliance": "BattG2 and EU Battery Regulation 2023/1542 mandate rising recovery/recycled-content targets.",
+        "reimbursement_risk": "Output value tied to volatile black-mass and battery-metal prices (Li/Ni/Co)."
       },
-      "composite": 75.0,
+      "composite": 51.7,
       "dach_signals": {
         "est_players": "GRS clears >6,500 registered producers; ~10-20 specialist recyclers (DACH)",
         "revenue_band_eur": "EUR 10-500m (plant-scale)",
@@ -4290,14 +4349,24 @@
           "title": "BASF – Batterierecycling-Anlage Schwarzheide",
           "url": "https://www.basf.com/global/de/media/news-releases/2025/06/p-25-112",
           "note": "15,000 t/yr black-mass capacity, DE Li-ion capacity build-out"
+        },
+        {
+          "title": "EU Battery Regulation (EU) 2023/1542",
+          "url": "https://eur-lex.europa.eu/eli/reg/2023/1542/oj",
+          "note": "Recovery targets and recycled-content mandates."
+        },
+        {
+          "title": "GRS Batterien - Stiftung Gemeinsames Ruecknahmesystem",
+          "url": "https://www.grs-batterien.de/",
+          "note": "Producer register vs the small number of actual recyclers."
         }
       ],
       "confidence": 4,
       "status": "grounded",
       "why_now": "",
       "pe_activity": [],
-      "investability": "open",
-      "investability_note": "",
+      "investability": "restricted",
+      "investability_note": "Only ~10-20 plant-scale specialists (Accurec, Redux, Duesenfeld, BASF Schwarzheide, Primobius); capital-heavy and exposed to volatile black-mass / Li-Ni-Co metal prices - concentrated, not a fragmented buy-and-build target, so 'restricted' rather than the default 'open'.",
       "child_ids": []
     },
     "environmental-services-value-chain/recycling-materials-recovery/end-of-life-vehicle-recycling-altfahrzeug-elv": {
@@ -4311,7 +4380,7 @@
         "End-of-Life Vehicle Recycling (Altfahrzeug / ELV)"
       ],
       "value_chain_stage": "services",
-      "description": "Certified de-pollution, dismantling (Demontagebetriebe) and shredding of end-of-life vehicles under the AltfahrzeugV, meeting statutory 95% recovery / 85% recycling quotas; refrigerants and hazardous fluids require certified handling.",
+      "description": "Certified de-pollution, dismantling (Demontagebetriebe) and shredding of end-of-life vehicles under the AltfahrzeugV, required to meet the statutory 95% recovery / 85% recycling quotas (the recycling quota was missed again in 2023 per UBA); refrigerants and hazardous fluids require certified handling.",
       "scores": {
         "recurring": 3,
         "fragmentation": 5,
@@ -4323,9 +4392,9 @@
         "reimbursement_risk": 0
       },
       "rationale": {
-        "recurring": "Continuous ELV inflow but each vehicle is a discrete transaction with value tied to parts/metal prices.",
-        "fragmentation": "~944-1,100 certified dismantlers plus many collection points; a classic owner-operated long tail.",
-        "compliance": "AltfahrzeugV mandates certified (zertifizierter Demontagebetrieb) treatment, refrigerant recovery and 95%/85% quotas; EU ELV Regulation tightening."
+        "recurring": "Steady flow of ELVs, but individual dismantling jobs are transactional.",
+        "fragmentation": "~944-1,100 certified dismantlers plus regional Autoverwerter - highly fragmented.",
+        "compliance": "AltfahrzeugV, EU ELV Directive/draft Regulation, F-Gas handling and KrWG."
       },
       "composite": 83.3,
       "dach_signals": {
@@ -4354,6 +4423,11 @@
           "title": "Altfahrzeug-Verordnung – Wikipedia",
           "url": "https://de.wikipedia.org/wiki/Altfahrzeug-Verordnung",
           "note": "Certification and quota obligations"
+        },
+        {
+          "title": "Umweltbundesamt - Altfahrzeugverwertung / Fahrzeugverbleib",
+          "url": "https://www.umweltbundesamt.de/daten/umweltzustand-trends/ressourcen-abfall/verwertung-entsorgung-ausgewaehlter-abfallarten/altfahrzeugverwertung-fahrzeugverbleib",
+          "note": "Recycling quota missed again in 2023; player counts."
         }
       ],
       "confidence": 4,
@@ -4503,9 +4577,9 @@
         "reimbursement_risk": 0
       },
       "rationale": {
-        "recurring": "Annual statutory licensing and data-reporting create subscription-like, legally-mandated recurring revenue.",
-        "fragmentation": "Dual-system operation is an oligopoly (~9-10 systems); EPR advisory/licensing is more fragmented.",
-        "compliance": "Registration/licensing is legally mandatory (VerpackG/LUCID, ElektroG/ear, BattG) with sales bans and fines for non-compliance."
+        "recurring": "Annual producer licensing/reporting fees = strongly recurring.",
+        "fragmentation": "~9-10 packaging dual systems plus many EPR advisers - moderately concentrated at system level.",
+        "compliance": "Entirely statutory: VerpackG/LUCID (ZSVR), ElektroG (stiftung ear), BattG and EU PPWR."
       },
       "composite": 83.3,
       "dach_signals": {
@@ -4539,6 +4613,11 @@
           "title": "Statista – Marktanteile duale Systeme 2023",
           "url": "https://de.statista.com/statistik/daten/studie/858384/umfrage/marktanteile-der-betreiber-von-dualen-systemen-in-deutschland/",
           "note": "Dual-system operator market shares (oligopoly)"
+        },
+        {
+          "title": "ZSVR / Verpackungsregister LUCID",
+          "url": "https://www.verpackungsregister.org/",
+          "note": "Statutory register and dual-system oversight."
         }
       ],
       "confidence": 4,
@@ -4800,9 +4879,9 @@
         "reimbursement_risk": 0
       },
       "rationale": {
-        "recurring": "Individual gutachten are project-bound, but a standing stock of ~300,000 altlastenverdächtige Flächen plus every land transaction/building permit and multi-year monitoring create a continuously re-won pipeline.",
-        "fragmentation": "Hundreds of owner-operated Ingenieurbüros für Geotechnik/Umwelt across DACH (WLW/Geonet directories list large regional long tails); no dominant national consolidator.",
-        "compliance": "Investigation and Gefährdungsabschätzung are legally prescribed by BBodSchG/BBodSchV and enforced via state Altlastenkataster - the buying trigger is statutory."
+        "recurring": "Transaction- and permit-triggered assessments recur with development activity but are project-based.",
+        "fragmentation": "Many hundreds of environmental/geotechnical Ingenieurbueros with long regional tails.",
+        "compliance": "Mandatory front-end gate under BBodSchG/BBodSchV and state Altlastenkataster."
       },
       "composite": 83.3,
       "dach_signals": {
@@ -4836,6 +4915,11 @@
           "title": "Baugrunduntersuchung-Geotechnik B2B Firmen (WLW)",
           "url": "https://www.wlw.de/de/suche/baugrunduntersuchung-geotechnik/berlin",
           "note": "Long tail of geotechnical/soil-investigation Ingenieurbüros"
+        },
+        {
+          "title": "Umweltbundesamt - Altlasten / Bodenschutz",
+          "url": "https://www.umweltbundesamt.de/themen/boden-flaeche/altlasten",
+          "note": "Statutory site-investigation regime and ~300,000 suspected sites."
         }
       ],
       "confidence": 4,
@@ -4934,9 +5018,9 @@
         "reimbursement_risk": 0
       },
       "rationale": {
-        "recurring": "Groundwater pump-and-treat and bioremediation run for years with continuous O&M, but the remediation mandate itself is per-site rather than subscription.",
-        "fragmentation": "Regional mid-caps plus a few larger players (Bauer, Ecosoil, Arcadis) over a long tail of specialist contractors; no monopoly.",
-        "compliance": "Remediation is ordered by authorities under BBodSchG; soil re-use/disposal is now strictly governed by the Mantel-/Ersatzbaustoffverordnung (in force since 1 Aug 2023)."
+        "recurring": "Multi-year clean-ups have long operational tails (pump-and-treat, monitoring) but are ultimately project-based.",
+        "fragmentation": "~130+ remediation providers plus a regional long tail - fragmented but with capital-heavy larger players.",
+        "compliance": "Executed under BBodSchG/BBodSchV, Mantel-/Ersatzbaustoffverordnung, WHG and KrWG."
       },
       "composite": 75.0,
       "dach_signals": {
@@ -4970,6 +5054,11 @@
           "title": "Flaechensanierung und Altlasten | Ecosoil",
           "url": "https://www.ecosoil-umwelt.de/leistungen/erdbau-und-sanierung/flaechensanierung-und-altlasten",
           "note": "Example soil remediation / earthworks contractor"
+        },
+        {
+          "title": "Umweltbundesamt - Altlastensanierung",
+          "url": "https://www.umweltbundesamt.de/themen/boden-flaeche/altlasten",
+          "note": "Remediation regime and market context."
         }
       ],
       "confidence": 4,
@@ -5144,9 +5233,9 @@
         "reimbursement_risk": 0
       },
       "rationale": {
-        "recurring": "Clearance is project-triggered but structurally continuous - every new build/infrastructure dig in suspected areas re-generates demand, and capacity shortages persist.",
-        "fragmentation": "GKD has ~70 members incl. ~33 RAL-GZ-901 clearance firms plus a wider tail of engineering/survey firms; regional and specialised, not consolidated.",
-        "compliance": "Each Bundesland's Kampfmittelverordnung and Baufachliche Richtlinien (BFR KMR) make clearance and RAL-901 quality assurance effectively mandatory before construction."
+        "recurring": "Triggered by every excavation/construction start over large contaminated areas - steady but project-based.",
+        "fragmentation": "~33 seal-holding firms plus a tail of survey/engineering offices - moderately fragmented.",
+        "compliance": "Mandatory under state Kampfmittelverordnungen, BFR KMR and RAL-GZ 901."
       },
       "composite": 75.0,
       "dach_signals": {
@@ -5424,7 +5513,8 @@
         "environmental-services-value-chain/waste-collection-disposal/construction-demolition-waste-skip-container-services-containerdienst",
         "environmental-services-value-chain/waste-collection-disposal/bulky-electronic-waste-take-back-weee-sperrmuell",
         "environmental-services-value-chain/waste-collection-disposal/waste-brokerage-trading-entsorgungsfachbetrieb-services",
-        "environmental-services-value-chain/waste-collection-disposal/disposal-compliance-documentation-eanv-nachweisverfahren"
+        "environmental-services-value-chain/waste-collection-disposal/disposal-compliance-documentation-eanv-nachweisverfahren",
+        "environmental-services-value-chain/waste-collection-disposal/thermal-waste-treatment-waste-to-energy-mva-ebs-kraftwerke"
       ]
     },
     "environmental-services-value-chain/waste-collection-disposal/commercial-industrial-c-i-waste-collection": {
@@ -5450,9 +5540,9 @@
         "reimbursement_risk": 0
       },
       "rationale": {
-        "recurring": "Sold as multi-year framework contracts with weekly/biweekly emptying cycles and rental of bins/presses, i.e. statutory-adjacent subscription revenue.",
-        "fragmentation": "Top concentrated (Remondis, PreZero, Veolia, ALBA) but a long tail of regional Entsorger; sector-wide top-4 concentration <12% per COVENDIT M&A report.",
-        "compliance": "GewAbfV 2017 mandates source separation into paper/glass/plastics/metal/wood/bio fractions and electronic documentation of decisions, driving service demand."
+        "recurring": "Contracted regular collection routes = highly recurring revenue.",
+        "fragmentation": "~600-680 collection firms, but top players (Remondis/PreZero/Veolia) hold meaningful share, so mid-range.",
+        "compliance": "Governed by KrWG and the Gewerbeabfallverordnung (separation duties)."
       },
       "composite": 75.0,
       "dach_signals": {
@@ -5487,6 +5577,11 @@
           "title": "M&A-Branchenreport Entsorgungswirtschaft - COVENDIT",
           "url": "https://covendit.de/m-a-wissen/ma-branchenreport-der-markt-fuer-entsorgungswirtschaft/",
           "note": ">1,730 firms, top-4 concentration <12%"
+        },
+        {
+          "title": "BDE - Bundesverband der Deutschen Entsorgungs-, Wasser- und Kreislaufwirtschaft",
+          "url": "https://www.bde.de/",
+          "note": "Sector structure and player counts for commercial waste collection."
         }
       ],
       "confidence": 4,
@@ -5641,9 +5736,9 @@
         "reimbursement_risk": 0
       },
       "rationale": {
-        "recurring": "Recurring industrial hazardous streams under framework contracts, though volumes vary with production cycles.",
-        "fragmentation": "Specialised, capital-intensive; fewer players and some regional near-monopolies via Andienungs-/Ueberlassungspflicht per Land.",
-        "compliance": "Mandatory eANV with qualified electronic signature, EfbV certification, AVV hazardous classification (~half of 842 codes) and ADR transport rules."
+        "recurring": "Ongoing industrial hazardous-waste streams under standing disposal contracts.",
+        "fragmentation": "Several hundred licensed collectors/transporters but only a handful of treatment operators - moderate.",
+        "compliance": "Highest-barrier niche: KrWG, AVV, eANV/NachwV, EfbV, ADR and Land-level Andienungspflicht."
       },
       "composite": 75.0,
       "dach_signals": {
@@ -5681,6 +5776,11 @@
           "title": "Entsorgungsfachbetrieb - Sonderabfallwissen",
           "url": "https://www.sonderabfall-wissen.de/glossar/entsorgungsfachbetrieb/",
           "note": "EfbV certification requirement for hazardous handlers"
+        },
+        {
+          "title": "BDE - hazardous waste (Sonderabfall) sector",
+          "url": "https://www.bde.de/",
+          "note": "Structure of hazardous-waste collection/treatment market."
         }
       ],
       "confidence": 4,
@@ -5900,9 +6000,9 @@
         "reimbursement_risk": 0
       },
       "rationale": {
-        "recurring": "Project-driven skip rentals, but tradesmen and developers re-order repeatedly, giving recurring-adjacent flow.",
-        "fragmentation": ">2,100 Containerdienst firms in Germany, mostly owner-operated EUR 1-5m regionals with no dominant consolidator.",
-        "compliance": "GewAbfV C&D separation, and the Mantelverordnung/Ersatzbaustoffverordnung (in force Aug 2023) governing recycled aggregates and soil."
+        "recurring": "Project-driven skip hire is episodic rather than contract-recurring.",
+        "fragmentation": "~2,100 Containerdienste plus thousands of C&D recyclers - the most owner-operated niche in the branch.",
+        "compliance": "Driven by GewAbfV, Ersatzbaustoffverordnung/Mantelverordnung and DepV."
       },
       "composite": 75.0,
       "dach_signals": {
@@ -5931,6 +6031,11 @@
           "title": "M&A-Branchenreport Entsorgungswirtschaft - COVENDIT",
           "url": "https://covendit.de/m-a-wissen/ma-branchenreport-der-markt-fuer-entsorgungswirtschaft/",
           "note": "Buy-and-build platforms consolidating C&D/Bauschutt and Containerdienst"
+        },
+        {
+          "title": "BDE - construction & demolition waste / container services",
+          "url": "https://www.bde.de/",
+          "note": "Sector fragmentation and regulation."
         }
       ],
       "confidence": 4,
@@ -6083,9 +6188,9 @@
         "reimbursement_risk": 0
       },
       "rationale": {
-        "recurring": "Statutory take-back obligations create continuous mandated return flows and recurring PRO/scheme contracts.",
-        "fragmentation": "Mix of PROs, retailer-take-back specialists and regional recyclers; no single dominant collector.",
-        "compliance": "ElektroG/ElektroG4 (2026) with Stiftung EAR registration, retailer take-back thresholds and WEEE Directive 2012/19/EU."
+        "recurring": "Statutory take-back and pre-treatment volumes recur under ElektroG collection duties.",
+        "fragmentation": "Dozens of take-back specialists, PROs and treatment plants across a mixed municipal/producer system.",
+        "compliance": "Volume and obligations set by ElektroG/ElektroG4 and stiftung ear registration."
       },
       "composite": 83.3,
       "dach_signals": {
@@ -6114,6 +6219,16 @@
           "title": "Das neue Elektrogesetz (ElektroG, WEEE) 2026",
           "url": "https://www.elektrogesetz.de/",
           "note": "ElektroG4 rules, retailer take-back thresholds, EAR role"
+        },
+        {
+          "title": "Umweltbundesamt - Elektro- und Elektronikaltgeraete (collection rate vs 65% target)",
+          "url": "https://www.umweltbundesamt.de/daten/umweltzustand-trends/ressourcen-abfall/verwertung-entsorgung-ausgewaehlter-abfallarten/elektro-elektronikaltgeraete",
+          "note": "Official collection-rate data vs the 65% EU target."
+        },
+        {
+          "title": "elektrogesetz.de - Deutschlands Altgeraete-Sammelquote liegt bei 38,6 Prozent",
+          "url": "https://www.elektrogesetz.de/deutschlands-altgeraete-sammelquote-liegt-bei-386-prozent/",
+          "note": "38.6% figure relates to 2021; subsequent reporting shows a decline, so the to-do's 'rising to 38.6% (2023)' was reversed to reflect the actual downward trend."
         }
       ],
       "confidence": 4,
@@ -6302,7 +6417,8 @@
         "environmental-services-value-chain/water-wastewater-services/drinking-water-legionella-testing",
         "environmental-services-value-chain/water-wastewater-services/water-network-leak-detection-loss-management",
         "environmental-services-value-chain/water-wastewater-services/sludge-klarschlamm-treatment-phosphorus-recovery",
-        "environmental-services-value-chain/water-wastewater-services/mobile-emergency-water-treatment-rental"
+        "environmental-services-value-chain/water-wastewater-services/mobile-emergency-water-treatment-rental",
+        "environmental-services-value-chain/water-wastewater-services/mobile-sanitation-portable-toilet-service-mobile-sanitaerloesungen-toi-toi-dixi"
       ]
     },
     "environmental-services-value-chain/water-wastewater-services/industrial-wastewater-treatment-plant-operation": {
@@ -6504,7 +6620,7 @@
         "Decentralized Sewage Plants (Kleinklaeranlagen) Service & Emptying"
       ],
       "value_chain_stage": "services",
-      "description": "Statutory annual maintenance (Wartung) and periodic faecal-sludge emptying of the ~1.2 million small/decentralized sewage treatment plants in Germany, which by law must be serviced under a maintenance contract with a certified specialist, not the owner. A classic fragmented, mandated, recurring niche.",
+      "description": "Statutory annual maintenance (Wartung) and periodic faecal-sludge emptying of Germany's ~2.25 million decentralized small sewage systems (Kleinklaeranlagen plus ~397,000 abflusslose Gruben, serving ~3% of the population), which by law must be serviced under a maintenance contract with a certified specialist, not the owner. A classic fragmented, mandated, recurring niche.",
       "scores": {
         "recurring": 5,
         "fragmentation": 5,
@@ -6516,9 +6632,9 @@
         "reimbursement_risk": 0
       },
       "rationale": {
-        "recurring": "Wartung is legally required at least once a year (biological plants often 2-3x) plus sludge emptying every 1-2 years - fully recurring.",
-        "fragmentation": "Served by thousands of local Wartungsfirmen and Abwasserzweckverbaende; no dominant consolidator across ~1.2m plants.",
-        "compliance": "DIN 4261-4 / DIN EN 12566 plus water-law approvals make maintenance and emptying mandatory and owner-self-service prohibited."
+        "recurring": "Legally mandated annual Wartung plus periodic emptying under a standing maintenance contract = contractually recurring revenue.",
+        "fragmentation": "Thousands of small certified regional Wartungs-/Entsorgungsfirmen with no national consolidator.",
+        "compliance": "Service is compulsory under DIN 4261-4 / DIN EN 12566 and Landeswassergesetze; owners must contract a certified specialist."
       },
       "composite": 100.0,
       "dach_signals": {
@@ -6552,6 +6668,16 @@
           "title": "Fachkunde fuer die Wartung von Kleinklaeranlagen (BEW)",
           "url": "https://www.bew.de/veranstaltung/abwasser/kleinklaeranlagen/fachkunde-fuer-die-wartung-von-kleinklaeranlagen.html",
           "note": "Certified specialist requirement for maintenance"
+        },
+        {
+          "title": "BDEW Abwasserdaten Deutschland - Strukturdaten der Abwasserentsorgung 2023",
+          "url": "https://www.bdew.de/media/documents/WEB_bdew_broschuere_abwasserdaten_2023_28032024_o6Phz29.pdf",
+          "note": "Installed base of decentralized systems / share of population served."
+        },
+        {
+          "title": "IWU e.V. - Dezentrale Abwasserentsorgung: Kleinklaeranlagen und abflusslose Gruben",
+          "url": "https://iwu-ev.de/dezentrale-abwasserentsorgung-kleinklaeranlagen-und-abflusslose-gruben/",
+          "note": "~2.25 million systems incl. ~397,000 cesspits, ~3% of population."
         }
       ],
       "confidence": 4,
@@ -6646,9 +6772,9 @@
         "reimbursement_risk": 0
       },
       "rationale": {
-        "recurring": "Statutory emptying every 1-2 years (often demand-based) creates repeat tanker revenue.",
-        "fragmentation": "Local Entsorger and Zweckverbaende; regional monopolistic pockets plus private long tail.",
-        "compliance": "Municipal Abwassersatzung and AbfKlaerV make emptying and licensed disposal mandatory."
+        "recurring": "Periodic mandatory emptying on a fixed cycle = recurring, but volume is municipally allocated.",
+        "fragmentation": "Saugwagen fleets are regional and numerous, but tenders are municipal.",
+        "compliance": "Driven by kommunale Abwassersatzung, AbfKlaerV and KrWG Nachweisrecht."
       },
       "composite": 91.7,
       "dach_signals": {
@@ -6670,14 +6796,19 @@
           "title": "ZWAV: Kleinklaeranlagen",
           "url": "https://www.zwav.de/abwasser/kleinklaeranlagen",
           "note": "Zweckverband-organised emptying/disposal of decentralized plants"
+        },
+        {
+          "title": "IWU e.V. - Dezentrale Abwasserentsorgung (municipal responsibility for emptying)",
+          "url": "https://iwu-ev.de/dezentrale-abwasserentsorgung-kleinklaeranlagen-und-abflusslose-gruben/",
+          "note": "Emptying/disposal organised by municipality/Zweckverband."
         }
       ],
       "confidence": 3,
       "status": "grounded",
       "why_now": "",
       "pe_activity": [],
-      "investability": "open",
-      "investability_note": "",
+      "investability": "restricted",
+      "investability_note": "The node itself states emptying is organised by the municipality/Zweckverband under the Ueberlassungspflicht, i.e. municipally controlled - not a freely contestable private market, unlike the sibling owner-contracted Wartung.",
       "child_ids": []
     },
     "environmental-services-value-chain/water-wastewater-services/sewer-inspection-rehabilitation-kanalsanierung": {
@@ -6703,9 +6834,9 @@
         "reimbursement_risk": 0
       },
       "rationale": {
-        "recurring": "Periodic re-inspection cycles and condition-triggered rehab generate repeat but project-based revenue, not contractual subscriptions.",
-        "fragmentation": "Hundreds of Rohr-/Kanalsanierung firms and RSV members; consolidation only just beginning via holdings.",
-        "compliance": "WHG tightness duties, DIN 1986-30 and municipal Satzungen mandate inspection and rehabilitation of leaking sewers."
+        "recurring": "Condition-assessment cycles recur, but relining is project-based/episodic.",
+        "fragmentation": "Hundreds of Kanalsanierung/Rohrreinigung firms; early roll-up only (KSG/Kanalservice Holding).",
+        "compliance": "Driven by WHG tightness duties, DIN 1986-30 and kommunale Entwaesserungssatzungen."
       },
       "composite": 66.7,
       "dach_signals": {
@@ -6738,6 +6869,11 @@
           "title": "RSV Unternehmenssuche nach Standort",
           "url": "https://rsv-ev.de/unternehmenssuche-nach-standort-uebersichtskarte",
           "note": "Trade association member firm directory (fragmentation)"
+        },
+        {
+          "title": "RSV - Rohrleitungssanierungsverband e.V.",
+          "url": "https://www.rsv-ev.de/",
+          "note": "Member base and quality standards for sewer rehabilitation."
         }
       ],
       "confidence": 3,
@@ -6763,7 +6899,7 @@
         "CCTV Inspection & Condition Assessment (Zustandserfassung)"
       ],
       "value_chain_stage": "services",
-      "description": "Camera inspection and DIN EN 13508 condition coding of sewers to schedule rehabilitation and document tightness for owners/municipalities.",
+      "description": "[Cross-reference: overlaps Industrial & Sewer Cleaning Services > 'Sewer & Drain Cleaning + CCTV Inspection' > 'CCTV Inspection & Leak Testing', which is the canonical fully-scored copy. Kept here as a pointer to avoid double-counting.] Camera inspection and DIN EN 13508 condition coding of sewers to schedule rehabilitation and document tightness for owners/municipalities.",
       "scores": {
         "recurring": 4,
         "fragmentation": 4,
@@ -6798,6 +6934,11 @@
           "title": "Kanalsanierung aktuell (bau.bi)",
           "url": "https://bau.bi/umweltbau/kanalsanierung",
           "note": "Inspection and rehabilitation procedure overview"
+        },
+        {
+          "title": "DWA - technical rules for sewer condition assessment (DIN EN 13508)",
+          "url": "https://www.dwa.de/",
+          "note": "Shared standard; deduplicated against the Industrial branch."
         }
       ],
       "confidence": 3,
@@ -6805,7 +6946,7 @@
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Cross-reference pointer; canonical scored CCTV node sits under Industrial & Sewer Cleaning Services.",
       "child_ids": []
     },
     "environmental-services-value-chain/water-wastewater-services/sewer-inspection-rehabilitation-kanalsanierung/trenchless-relining-repair-grabenlose-sanierung": {
@@ -6820,7 +6961,7 @@
         "Trenchless Relining & Repair (grabenlose Sanierung)"
       ],
       "value_chain_stage": "services",
-      "description": "No-dig rehabilitation via cured-in-place liners, robotic repair and short-liners to restore tightness/structural integrity without excavation.",
+      "description": "[Cross-reference: overlaps Industrial & Sewer Cleaning Services > 'Trenchless Sewer & Pipe Rehabilitation (Kanalsanierung / Schlauchlining)', the canonical fully-scored copy. Kept here as a pointer to avoid double-counting.] No-dig rehabilitation via cured-in-place liners, robotic repair and short-liners to restore tightness/structural integrity without excavation.",
       "scores": {
         "recurring": 2,
         "fragmentation": 4,
@@ -6855,6 +6996,11 @@
           "title": "Grabenlose Kanalsanierung Firmen (europages)",
           "url": "https://www.europages.de/unternehmen/deutschland/kanalsanierung-%20grabenlose.html",
           "note": "Directory of trenchless rehabilitation firms/suppliers"
+        },
+        {
+          "title": "RSV - Rohrleitungssanierungsverband e.V. (trenchless rehab quality)",
+          "url": "https://www.rsv-ev.de/",
+          "note": "Governing quality-assurance body; deduplicated against the Industrial branch."
         }
       ],
       "confidence": 3,
@@ -6862,7 +7008,7 @@
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Cross-reference pointer; canonical scored trenchless-relining node sits under Industrial & Sewer Cleaning Services.",
       "child_ids": []
     },
     "environmental-services-value-chain/water-wastewater-services/separator-abscheider-emptying-service": {
@@ -6888,9 +7034,9 @@
         "reimbursement_risk": 0
       },
       "rationale": {
-        "recurring": "Grease separators emptied ~monthly and maintained yearly; oil separators serviced ~6-monthly; 5-year general inspection - all mandated repeat work.",
-        "fragmentation": "Hundreds of regional Saugwagen/Staedtereinigung and Abscheiderservice firms; no consolidator.",
-        "compliance": "DIN 1986-100, DIN 4040-100 (grease) and DIN EN 858 / DIN 1999-100 (light-liquid) plus municipal Entwaesserungssatzungen mandate emptying, service and inspection."
+        "recurring": "High-frequency statutory emptying/cleaning plus 5-yearly general inspection = strongly recurring.",
+        "fragmentation": "Hundreds of dispersed Abscheiderservice/Saugwagen firms.",
+        "compliance": "Purely compliance-driven under DIN 1986-100, DIN 4040-100, DIN EN 858/1999-100 and kommunale Entwaesserungssatzung."
       },
       "composite": 100.0,
       "dach_signals": {
@@ -6924,6 +7070,11 @@
           "title": "Normen & Richtlinien fuer Fettabscheider (pe-fettabscheider.de)",
           "url": "https://www.pe-fettabscheider.de/normen-a-richtlinien",
           "note": "DIN 1986-100 / DIN 4040-100 / EN 858 norm framework"
+        },
+        {
+          "title": "DWA - Deutsche Vereinigung fuer Wasserwirtschaft, Abwasser und Abfall (Abscheider standards)",
+          "url": "https://www.dwa.de/",
+          "note": "Governing technical rules for separator service intervals and inspection."
         }
       ],
       "confidence": 4,
@@ -6931,7 +7082,7 @@
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Canonical scored entry for statutory separator emptying/service; the Industrial & Sewer Cleaning Services > 'Statutory Separator Emptying & Service' node is a cross-reference to this one - do not double-count players/revenue.",
       "child_ids": [
         "environmental-services-value-chain/water-wastewater-services/separator-abscheider-emptying-service/grease-separator-service-fettabscheider-din-4040-100",
         "environmental-services-value-chain/water-wastewater-services/separator-abscheider-emptying-service/light-liquid-oil-separator-service-din-en-858-din-1999-100"
@@ -7076,9 +7227,9 @@
         "reimbursement_risk": 0
       },
       "rationale": {
-        "recurring": "Systemic Legionella testing is required at intervals from 1 up to 3 years (public supply), plus routine chemical/microbiological sampling.",
-        "fragmentation": "Many local accredited samplers feed a consolidating set of large labs (Eurofins, SGS, Agrolab); mixed structure.",
-        "compliance": "TrinkwV mandates testing only by listed/approved bodies; sampling cannot be separated from analysis - hard mandate."
+        "recurring": "Systemic Legionella testing runs on a statutory cycle for operators of central hot-water systems.",
+        "fragmentation": "Hundreds of accredited Untersuchungsstellen plus thousands of samplers.",
+        "compliance": "Mandated by TrinkwV; sampling and analysis must be commissioned together from an approved body."
       },
       "composite": 91.7,
       "dach_signals": {
@@ -7112,6 +7263,11 @@
           "title": "Liste der Untersuchungsstellen nach TrinkwV (BW MLR)",
           "url": "https://mlr.baden-wuerttemberg.de/fileadmin/redaktion/m-mlr/intern/dateien/PDFs/Verbraucherschutz/Liste_der_Untersuchungsstellen_fuer_Trinkwasser_02.pdf",
           "note": "Official list of approved testing bodies (fragmentation evidence)"
+        },
+        {
+          "title": "Umweltbundesamt - Legionellen im Trinkwasser (TrinkwV Probenahme)",
+          "url": "https://www.umweltbundesamt.de/themen/wasser/trinkwasser",
+          "note": "Statutory Legionella sampling/analysis regime."
         }
       ],
       "confidence": 4,
@@ -7195,7 +7351,7 @@
         "Backflow / RPZ & Systemtrenner Testing"
       ],
       "value_chain_stage": "services",
-      "description": "Annual mandatory functional testing of backflow preventers and BA-type system separators (RPZ) protecting drinking water - a small compliance-pure adjacency overlapping SHK.",
+      "description": "Annual mandatory functional testing of backflow preventers and BA-type system separators (RPZ) protecting drinking water - a small compliance-pure adjacency overlapping SHK. (Note: SYR and Resideo/Honeywell are backflow-preventer manufacturers, not testing firms; the recurring test is performed by certified DVGW W 540 Pruefer.)",
       "scores": {
         "recurring": 5,
         "fragmentation": 5,
@@ -7207,9 +7363,9 @@
         "reimbursement_risk": 0
       },
       "rationale": {
-        "recurring": "Annual functional test contracted between operator and certified installer.",
-        "fragmentation": "Performed by the broad SHK/Pruefbetrieb long tail; low-ticket dispersed work.",
-        "compliance": "DIN EN 1717 / DIN EN 806-5 and TrinkwV make backflow protection and annual testing mandatory."
+        "recurring": "Legally mandated annual test on each backflow preventer/system separator.",
+        "fragmentation": "Performed by a subset of ~48k SHK firms with certified Pruefer - highly dispersed.",
+        "compliance": "Required under DIN EN 1717, DIN EN 806-5, TrinkwV and DVGW W 540."
       },
       "composite": 100.0,
       "dach_signals": {
@@ -7232,6 +7388,11 @@
           "title": "Trinkwasseruntersuchung nach VDI 6023 (atw-ivensys)",
           "url": "https://www.atw-ivensys.de/trinkwasseruntersuchung",
           "note": "Drinking-water hygiene testing/operator duties context"
+        },
+        {
+          "title": "DVGW - Arbeitsblatt W 540 (Pruefung von Trinkwasser-Installationen)",
+          "url": "https://www.dvgw.de/",
+          "note": "Certification basis for firms that actually perform the RPZ/backflow test."
         }
       ],
       "confidence": 3,
@@ -7253,7 +7414,7 @@
         "Water-Network Leak Detection & Loss Management"
       ],
       "value_chain_stage": "services",
-      "description": "Acoustic/correlation leak detection, network monitoring and water-balance/ILI benchmarking for public water suppliers to locate and reduce real water losses under DVGW W 392. Recurring operational service to ~thousands of Wasserversorger, mostly outsourced to specialists.",
+      "description": "Acoustic/correlation leak detection, network monitoring and water-balance/ILI benchmarking for public water suppliers to locate and reduce real water losses under DVGW W 392. Recurring operational service to ~thousands of Wasserversorger, mostly outsourced to dedicated Leckortungs-/Rohrnetz-Servicebetriebe (Sewerin/vonRoll hydro are primarily equipment makers with a service arm, not pure-play service providers).",
       "scores": {
         "recurring": 4,
         "fragmentation": 3,
@@ -7265,9 +7426,9 @@
         "reimbursement_risk": 0
       },
       "rationale": {
-        "recurring": "Ongoing leak surveys and monitoring are a continuous operational task for suppliers, often on annual service contracts.",
-        "fragmentation": "Specialist Leckortung firms plus supplier in-house teams and equipment OEMs; moderately fragmented.",
-        "compliance": "DVGW W 392 is anerkannte Regel der Technik driving water-balance/ILI reporting, but loss reduction is best-practice not hard-mandated."
+        "recurring": "Ongoing network surveys and monitoring contracts for utilities.",
+        "fragmentation": "Dozens-to-hundreds of specialist service firms, plus utility in-house teams.",
+        "compliance": "Driven by DVGW W 392 water-loss benchmarking and Landeswassergesetze supply duties."
       },
       "composite": 58.3,
       "dach_signals": {
@@ -7299,6 +7460,11 @@
           "title": "Betrieb von Rohrnetzen (DVGW)",
           "url": "https://www.dvgw.de/themen/wasser/netze-und-speicherung/betrieb-von-rohrnetzen",
           "note": "Network operation and loss-monitoring context"
+        },
+        {
+          "title": "DVGW - Arbeitsblatt W 392 (Wasserverluste/ILI)",
+          "url": "https://www.dvgw.de/",
+          "note": "Regulatory basis for water-loss/leak-detection service."
         }
       ],
       "confidence": 3,
@@ -7557,6 +7723,158 @@
         }
       ],
       "confidence": 3,
+      "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
+      "investability": "open",
+      "investability_note": "",
+      "child_ids": []
+    },
+    "environmental-services-value-chain/water-wastewater-services/mobile-sanitation-portable-toilet-service-mobile-sanitaerloesungen-toi-toi-dixi": {
+      "id": "environmental-services-value-chain/water-wastewater-services/mobile-sanitation-portable-toilet-service-mobile-sanitaerloesungen-toi-toi-dixi",
+      "name": "Mobile Sanitation & Portable Toilet Service (mobile Sanitaerloesungen / Toi Toi & Dixi)",
+      "parent_id": "environmental-services-value-chain/water-wastewater-services",
+      "level": 2,
+      "path": [
+        "Environmental Services value chain",
+        "Water & Wastewater Services",
+        "Mobile Sanitation & Portable Toilet Service (mobile Sanitaerloesungen / Toi Toi & Dixi)"
+      ],
+      "value_chain_stage": "services",
+      "description": "Rental of portable toilets and sanitary cabins for construction sites, events and industry with recurring cleaning, emptying and wastewater disposal. Fragmented DACH market led by ADCO (Toi Toi & Dixi) alongside Ecotoi and many regional operators; recurring per-unit rental-plus-service economics make it an active roll-up niche.",
+      "scores": {
+        "recurring": 4,
+        "fragmentation": 4,
+        "compliance": 2,
+        "scale": 0,
+        "margin": 0,
+        "growth": 0,
+        "headroom": 0,
+        "reimbursement_risk": 0
+      },
+      "rationale": {
+        "recurring": "Rental contracts bundle scheduled cleaning/emptying = recurring service revenue.",
+        "fragmentation": "One dominant leader (ADCO/Toi Toi & Dixi) over a long tail of regional operators.",
+        "compliance": "Some hygiene and wastewater-handling rules, but no hard statutory mandate driving demand (hence lower than the branch)."
+      },
+      "composite": 58.3,
+      "dach_signals": {
+        "est_players": "",
+        "revenue_band_eur": "",
+        "example_companies": [],
+        "regulation": []
+      },
+      "sources": [
+        {
+          "title": "Toi Toi & Dixi (ADCO) - mobile Sanitaerloesungen",
+          "url": "https://www.toitoidixi.de/",
+          "note": "Market-leading operator confirming the rental+service model and DACH footprint."
+        }
+      ],
+      "confidence": 0,
+      "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
+      "investability": "open",
+      "investability_note": "",
+      "child_ids": []
+    },
+    "environmental-services-value-chain/recycling-materials-recovery/used-cooking-oil-grease-recycling-altspeisefett-uco-to-biodiesel": {
+      "id": "environmental-services-value-chain/recycling-materials-recovery/used-cooking-oil-grease-recycling-altspeisefett-uco-to-biodiesel",
+      "name": "Used Cooking Oil & Grease Recycling (Altspeisefett / UCO-to-Biodiesel)",
+      "parent_id": "environmental-services-value-chain/recycling-materials-recovery",
+      "level": 2,
+      "path": [
+        "Environmental Services value chain",
+        "Recycling & Materials Recovery",
+        "Used Cooking Oil & Grease Recycling (Altspeisefett / UCO-to-Biodiesel)"
+      ],
+      "value_chain_stage": "services",
+      "description": "Route-based collection from gastronomy/food service and recovery of used cooking oil and grease (Altspeisefett), fed largely into UCO-biodiesel; handled as Category 3 animal by-product under Regulation (EC) 1069/2009 and certified for biofuel use under RED II. Fragmented collectors alongside larger renderers/biodiesel feedstock traders - a compliance-driven, recurring stream not otherwise covered under Recycling or Waste.",
+      "scores": {
+        "recurring": 5,
+        "fragmentation": 4,
+        "compliance": 4,
+        "scale": 0,
+        "margin": 0,
+        "growth": 0,
+        "headroom": 0,
+        "reimbursement_risk": 0
+      },
+      "rationale": {
+        "recurring": "Contractual gastronomy-route collection on fixed cycles = strongly recurring.",
+        "fragmentation": "Many regional collectors feeding a smaller set of renderers/traders.",
+        "compliance": "Handling mandated by VO (EG) 1069/2009 (animal by-products) plus RED II sustainability certification for biodiesel feedstock."
+      },
+      "composite": 83.3,
+      "dach_signals": {
+        "est_players": "",
+        "revenue_band_eur": "",
+        "example_companies": [],
+        "regulation": []
+      },
+      "sources": [
+        {
+          "title": "bvse - Bundesverband Sekundaerrohstoffe und Entsorgung",
+          "url": "https://www.bvse.de/",
+          "note": "Trade body covering used-cooking-oil/grease collectors."
+        },
+        {
+          "title": "Regulation (EC) No 1069/2009 (Animal by-products)",
+          "url": "https://eur-lex.europa.eu/eli/reg/2009/1069/oj",
+          "note": "Regulatory classification of used cooking oil/grease as Category 3 ABP."
+        }
+      ],
+      "confidence": 0,
+      "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
+      "investability": "open",
+      "investability_note": "",
+      "child_ids": []
+    },
+    "environmental-services-value-chain/waste-collection-disposal/thermal-waste-treatment-waste-to-energy-mva-ebs-kraftwerke": {
+      "id": "environmental-services-value-chain/waste-collection-disposal/thermal-waste-treatment-waste-to-energy-mva-ebs-kraftwerke",
+      "name": "Thermal Waste Treatment / Waste-to-Energy (MVA / EBS-Kraftwerke)",
+      "parent_id": "environmental-services-value-chain/waste-collection-disposal",
+      "level": 2,
+      "path": [
+        "Environmental Services value chain",
+        "Waste Collection & Disposal",
+        "Thermal Waste Treatment / Waste-to-Energy (MVA / EBS-Kraftwerke)"
+      ],
+      "value_chain_stage": "services",
+      "description": "Terminal sink for residual municipal and commercial waste: mass-burn municipal waste incineration (MVA) and refuse-derived-fuel (EBS) power plants recovering energy under the 17. BImSchV. Capital-heavy and concentrated among a few large operators - completes the chain but is not a fragmented roll-up target.",
+      "scores": {
+        "recurring": 4,
+        "fragmentation": 2,
+        "compliance": 5,
+        "scale": 0,
+        "margin": 0,
+        "growth": 0,
+        "headroom": 0,
+        "reimbursement_risk": 0
+      },
+      "rationale": {
+        "recurring": "Long-term tonnage/delivery contracts and gate fees = recurring.",
+        "fragmentation": "Concentrated among a few large operators (EEW, Remondis, MVV, Veolia); capex-heavy plants.",
+        "compliance": "Emissions and operation tightly governed by the 17. BImSchV and KrWG."
+      },
+      "composite": 66.7,
+      "dach_signals": {
+        "est_players": "",
+        "revenue_band_eur": "",
+        "example_companies": [],
+        "regulation": []
+      },
+      "sources": [
+        {
+          "title": "ITAD - Interessengemeinschaft der Thermischen Abfallbehandlungsanlagen in Deutschland",
+          "url": "https://www.itad.de/",
+          "note": "German WtE operators' association; plant counts and operator concentration."
+        }
+      ],
+      "confidence": 0,
       "status": "grounded",
       "why_now": "",
       "pe_activity": [],
