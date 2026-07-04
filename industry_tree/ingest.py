@@ -194,6 +194,99 @@ def apply_enrich_files(tree: Tree, paths: list[str | Path]) -> int:
     return n
 
 
+def remove_node(tree: Tree, node_id: str) -> int:
+    """Delete a node and its whole subtree; detach from parent. Returns count removed."""
+    node = tree.nodes.get(node_id)
+    if not node:
+        return 0
+    removed = 0
+    for c in list(node.child_ids):
+        removed += remove_node(tree, c)
+    if node.parent_id and node.parent_id in tree.nodes:
+        p = tree.nodes[node.parent_id]
+        if node_id in p.child_ids:
+            p.child_ids.remove(node_id)
+    del tree.nodes[node_id]
+    return removed + 1
+
+
+def _edit_node(node, fields: dict) -> None:
+    if fields.get("name"):
+        node.name = str(fields["name"])
+    if fields.get("description"):
+        node.description = str(fields["description"])
+    if isinstance(fields.get("rationale"), dict):
+        node.rationale.update({k: str(v) for k, v in fields["rationale"].items()})
+    if isinstance(fields.get("scores"), dict):
+        for k, v in fields["scores"].items():
+            if hasattr(node.scores, k):
+                setattr(node.scores, k, _i(v))
+        node.scores.clamp()
+    if isinstance(fields.get("dach_signals"), dict):
+        sig = fields["dach_signals"]
+        if sig.get("est_players"):
+            node.dach_signals.est_players = str(sig["est_players"])
+        if sig.get("revenue_band_eur"):
+            node.dach_signals.revenue_band_eur = str(sig["revenue_band_eur"])
+        if isinstance(sig.get("example_companies"), list):
+            node.dach_signals.example_companies = sig["example_companies"]
+        if isinstance(sig.get("regulation"), list):
+            node.dach_signals.regulation = sig["regulation"]
+    for f in ("investability", "investability_note", "why_now"):
+        if fields.get(f):
+            setattr(node, f, fields[f])
+    if isinstance(fields.get("pe_activity"), list):
+        node.pe_activity = fields["pe_activity"]
+    if fields.get("confidence"):
+        node.confidence = _i(fields["confidence"])
+    have = {s.url for s in node.sources}
+    for s in (fields.get("sources") or []):
+        if s.get("url") and s["url"] not in have:
+            node.sources.append(Source(title=str(s.get("title") or ""), url=str(s["url"]), note=str(s.get("note") or "")))
+            have.add(s["url"])
+
+
+def apply_patch_files(tree: Tree, paths: list[str | Path]) -> dict:
+    """Apply QC patch ops. Each file is a JSON list of ops:
+      {"op":"edit","target_path":[...],"fields":{...}}
+      {"op":"remove","target_path":[...]}
+      {"op":"add","parent_path":[...],"child":{...node blob...}}
+    Returns a counts dict. Ops that don't resolve are skipped (counted in 'skipped').
+    """
+    counts = {"edit": 0, "remove": 0, "add": 0, "skipped": 0}
+    for p in paths:
+        p = Path(p)
+        if not p.exists():
+            continue
+        for op in json.loads(p.read_text()):
+            kind = op.get("op")
+            if kind == "edit":
+                tid = find_by_path(tree, op.get("target_path") or [])
+                if tid:
+                    _edit_node(tree.nodes[tid], op.get("fields") or {})
+                    counts["edit"] += 1
+                else:
+                    counts["skipped"] += 1
+            elif kind == "remove":
+                tid = find_by_path(tree, op.get("target_path") or [])
+                if tid and tid != tree.root_id:
+                    counts["remove"] += remove_node(tree, tid)
+                else:
+                    counts["skipped"] += 1
+            elif kind == "add":
+                pid = find_by_path(tree, op.get("parent_path") or [])
+                if pid and op.get("child"):
+                    before = len(tree.nodes)
+                    _add_children(tree, pid, [op["child"]])
+                    counts["add"] += len(tree.nodes) - before
+                else:
+                    counts["skipped"] += 1
+            else:
+                counts["skipped"] += 1
+    apply_scores(tree)
+    return counts
+
+
 def load_branch_files(paths: list[str | Path]) -> list[dict]:
     out = []
     for p in paths:
