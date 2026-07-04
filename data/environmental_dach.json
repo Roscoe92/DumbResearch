@@ -335,18 +335,18 @@
         "recurring": 5,
         "fragmentation": 5,
         "compliance": 5,
-        "scale": 4,
-        "margin": 2,
-        "growth": 3,
-        "headroom": 3,
-        "reimbursement_risk": 2
+        "scale": 0,
+        "margin": 0,
+        "growth": 0,
+        "headroom": 0,
+        "reimbursement_risk": 0
       },
       "rationale": {
         "recurring": "DIN 4040/EN 1825 prescribe emptying at least every 4 weeks for grease separators plus annual maintenance and 5-yearly general leak inspection - genuine statutory subscription revenue.",
         "fragmentation": "Served by hundreds of regional Saugwagen/Abscheiderservice operators; overlaps waste-disposal SMEs.",
         "compliance": "Mandatory for any business processing fats; operating log (Betriebstagebuch) legally required, only specialist firms may empty."
       },
-      "composite": 70.0,
+      "composite": 100.0,
       "dach_signals": {
         "est_players": "several hundred separator-service operators (DE)",
         "revenue_band_eur": "EUR 0.5-10m; embedded in waste-disposal groups",
@@ -440,7 +440,6 @@
         "est_players": "~200-500 industrial-cleaning firms (DACH)",
         "revenue_band_eur": "EUR 2-50m; groups >EUR 100m",
         "example_companies": [
-          "WOMA / Kaercher",
           "INDUTEC/IWAGO Gruppe",
           "Buchen (REMONDIS)",
           "Vebego Industriereinigung",
@@ -2810,8 +2809,8 @@
       },
       "composite": 70.0,
       "dach_signals": {
-        "est_players": "~28,000 listed firms; ~287 TÜV-certified (DE)",
-        "revenue_band_eur": "EUR 0.1-2m typical; sector ~EUR 1.28bn (2023, DE)",
+        "est_players": "thousands of firms (large tail of general trades); only a few hundred TÜV/BSS-certified specialists (DE)",
+        "revenue_band_eur": "EUR 0.1-2m typical firm",
         "example_companies": [
           "Heinrich Schmid",
           "Deutsche Schadenshilfe",
@@ -3353,7 +3352,6 @@
           "Scholz Recycling",
           "Cronimet",
           "Riedel Recycling",
-          "Aurubis (NE-Smelter, DE)",
           "Montanwerke Brixlegg (AT)",
           "Müller-Guttenbrunn (AT)"
         ],
@@ -3770,7 +3768,7 @@
           "Systalen / Der Grüne Punkt",
           "mtm plastics (Borealis)",
           "Veolia PET (Rostock)",
-          "APK AG",
+          "LYB Solvent Recycling (ex-APK, Merseburg)",
           "Carboliq",
           "Walter Kunststoffe"
         ],
@@ -3791,6 +3789,16 @@
           "title": "EUWID - Lyondell Basell schliesst Uebernahme von APK ab",
           "url": "https://www.euwid-recycling.de/news/wirtschaft/lyondell-basell-schliesst-uebernahme-von-apk-ab/",
           "note": "Replaces the now-defunct standalone 'APK AG' example."
+        },
+        {
+          "title": "",
+          "url": "https://www.lyondellbasell.com/en/news-events/corporate--financial-news/lyb-to-acquire-apk-ag-recycling-technology/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.euwid-recycling.com/news/business/lyondell-basell-completes-acquisition-of-apk-221024/",
+          "note": ""
         }
       ],
       "confidence": 3,
@@ -3909,7 +3917,7 @@
         "est_players": "<20 technology players (DACH)",
         "revenue_band_eur": "pre-revenue to EUR 50m",
         "example_companies": [
-          "APK AG",
+          "LYB Solvent Recycling (ex-APK, Merseburg)",
           "Carboliq",
           "BASF ChemCycling"
         ],
@@ -3943,6 +3951,16 @@
           "title": "EUWID - Lyondell Basell schliesst Uebernahme von APK ab",
           "url": "https://www.euwid-recycling.de/news/wirtschaft/lyondell-basell-schliesst-uebernahme-von-apk-ab/",
           "note": "APK AG entered insolvency in 2024 and was acquired by LyondellBasell (Newcycling solvent-based technology, Merseburg)."
+        },
+        {
+          "title": "",
+          "url": "https://www.lyondellbasell.com/en/news-events/corporate--financial-news/lyb-to-acquire-apk-ag-recycling-technology/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.euwid-recycling.com/news/business/lyondell-basell-completes-acquisition-of-apk-221024/",
+          "note": ""
         }
       ],
       "confidence": 4,
@@ -6195,7 +6213,7 @@
       "composite": 83.3,
       "dach_signals": {
         "est_players": "Dozens of take-back specialists, PROs and treatment plants",
-        "revenue_band_eur": "EUR 2-100m; Germany only ~29.5% WEEE collection rate vs 65% EU target",
+        "revenue_band_eur": "EUR 2-100m; Germany's WEEE collection rate has fallen to ~32% (2022), down from ~38.6% (2021) and ~44% (2020), far below the 65% EU target",
         "example_companies": [
           "Lightcycle",
           "take-e-way",
@@ -6229,6 +6247,16 @@
           "title": "elektrogesetz.de - Deutschlands Altgeraete-Sammelquote liegt bei 38,6 Prozent",
           "url": "https://www.elektrogesetz.de/deutschlands-altgeraete-sammelquote-liegt-bei-386-prozent/",
           "note": "38.6% figure relates to 2021; subsequent reporting shows a decline, so the to-do's 'rising to 38.6% (2023)' was reversed to reflect the actual downward trend."
+        },
+        {
+          "title": "",
+          "url": "https://www.umweltbundesamt.de/presse/pressemitteilungen/elektroaltgeraete-das-sammelziel-von-65-prozent-ist",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.bvse.de/schrott-elektronikgeraete-recycling/nachrichten-schrott-eschrott-kfz/9998-die-menge-gesammelter-elektro-altgeraete-ist-2022-erstmals-zurueckgegangen.html",
+          "note": ""
         }
       ],
       "confidence": 4,
@@ -7022,23 +7050,23 @@
         "Separator (Abscheider) Emptying & Service"
       ],
       "value_chain_stage": "services",
-      "description": "Statutory emptying, cleaning, maintenance and 5-yearly general inspection with tightness test of grease separators (Fettabscheider) and light-liquid/oil separators (Leichtfluessigkeits-/Oelabscheider) at gastronomy, food and vehicle/industrial sites. A dispersed, high-frequency, purely compliance-driven niche.",
+      "description": "Statutory emptying, cleaning, maintenance and 5-yearly general inspection with tightness test of grease separators (Fettabscheider) and light-liquid/oil separators (Leichtfluessigkeits-/Oelabscheider) at gastronomy, food and vehicle/industrial sites. A dispersed, high-frequency, purely compliance-driven niche. [Canonical scored copy: the Industrial & Sewer Cleaning > 'Statutory Separator Emptying & Service' node is a pointer to this node - only this copy carries full scores, to avoid double-counting players/revenue.]",
       "scores": {
         "recurring": 5,
         "fragmentation": 5,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 4,
+        "margin": 2,
+        "growth": 3,
+        "headroom": 3,
+        "reimbursement_risk": 2
       },
       "rationale": {
         "recurring": "High-frequency statutory emptying/cleaning plus 5-yearly general inspection = strongly recurring.",
         "fragmentation": "Hundreds of dispersed Abscheiderservice/Saugwagen firms.",
         "compliance": "Purely compliance-driven under DIN 1986-100, DIN 4040-100, DIN EN 858/1999-100 and kommunale Entwaesserungssatzung."
       },
-      "composite": 100.0,
+      "composite": 70.0,
       "dach_signals": {
         "est_players": "~hundreds of Abscheiderservice/Saugwagen firms (DE)",
         "revenue_band_eur": "EUR 150-600 per emptying; EUR 300-1,000 5-yr inspection; firms EUR 0.5-10m",
@@ -7372,9 +7400,7 @@
         "est_players": "subset of ~48k SHK firms with certified Pruefer",
         "revenue_band_eur": "EUR 50-100 per BA separator test/year",
         "example_companies": [
-          "SYR",
-          "Resideo/Honeywell installers",
-          "regional SHK Pruefbetriebe"
+          "regional SHK Pruefbetriebe (DVGW W 540)"
         ],
         "regulation": [
           "DIN EN 1717",
@@ -7759,16 +7785,39 @@
       },
       "composite": 58.3,
       "dach_signals": {
-        "est_players": "",
-        "revenue_band_eur": "",
-        "example_companies": [],
-        "regulation": []
+        "est_players": "market led by ADCO (Toi Toi & Dixi: ~165,000 cabins + ~17,100 sanitary/space containers, ~105 DE service depots, 2023) plus many regional operators; 200,000+ cabins in DE",
+        "revenue_band_eur": "ADCO group turnover >EUR 300m (first exceeded in 2016, DE-based); regional operators EUR 0.5-20m",
+        "example_companies": [
+          "ADCO (Toi Toi & Dixi)",
+          "Ecotoi",
+          "regional operators"
+        ],
+        "regulation": [
+          "DIN EN 16194 (mobile anschlussfreie Toilettenkabinen)",
+          "AwSV / kommunale Abwassersatzung (Faekalienentsorgung)",
+          "KrWG"
+        ]
       },
       "sources": [
         {
           "title": "Toi Toi & Dixi (ADCO) - mobile Sanitaerloesungen",
           "url": "https://www.toitoidixi.de/",
           "note": "Market-leading operator confirming the rental+service model and DACH footprint."
+        },
+        {
+          "title": "",
+          "url": "https://de.wikipedia.org/wiki/TOI_TOI_%26_DIXI_Sanit%C3%A4rsysteme",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.handelsblatt.com/unternehmen/handel-konsumgueter/dixiklos-in-der-freiluftsaison-boomt-das-geschaeft-mit-dem-geschaeft/22628892.html",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.dinmedia.de/en/standard/din-en-16194/368527843",
+          "note": ""
         }
       ],
       "confidence": 0,
@@ -7808,10 +7857,20 @@
       },
       "composite": 83.3,
       "dach_signals": {
-        "est_players": "",
-        "revenue_band_eur": "",
-        "example_companies": [],
-        "regulation": []
+        "est_players": "fragmented: many regional collectors plus larger renderer / biodiesel-feedstock groups (e.g. SARIA/ReFood, Muenzer, Berndt, Lesch)",
+        "revenue_band_eur": "regional collectors EUR 1-30m (e.g. Berndt GmbH ~EUR 30m balance-sheet total, 2023, ~400 staff); national renderer/biodiesel-feedstock groups larger",
+        "example_companies": [
+          "ReFood (SARIA)",
+          "Muenzer Deutschland",
+          "Berndt GmbH",
+          "Altfett Lesch"
+        ],
+        "regulation": [
+          "VO (EG) 1069/2009 (tierische Nebenprodukte, Kategorie 3)",
+          "RED II (EU 2018/2001)",
+          "38. BImSchV / Biokraft-NachV (THG-Quote, Biokraftstoff-Nachhaltigkeit)",
+          "KrWG"
+        ]
       },
       "sources": [
         {
@@ -7823,6 +7882,26 @@
           "title": "Regulation (EC) No 1069/2009 (Animal by-products)",
           "url": "https://eur-lex.europa.eu/eli/reg/2009/1069/oj",
           "note": "Regulatory classification of used cooking oil/grease as Category 3 ABP."
+        },
+        {
+          "title": "",
+          "url": "https://www.refood.de/leistungen/frittierfettentsorgung/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.altfett-lesch.de/en/collection-of-used-cooking-oil-from-the-gastronomy/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.euwid-recycling.de/news/wirtschaft/muenzer-bietet-sammelsystem-fuer-altspeisefett-nun-auch-in-deutschland-an-081024/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.northdata.com/Berndt%20GmbH,%20Oberding/Amtsgericht%20M%C3%BCnchen%20HRB%2045190",
+          "note": ""
         }
       ],
       "confidence": 0,
@@ -7862,23 +7941,44 @@
       },
       "composite": 66.7,
       "dach_signals": {
-        "est_players": "",
-        "revenue_band_eur": "",
-        "example_companies": [],
-        "regulation": []
+        "est_players": "~66 municipal waste-incineration plants (MVA) plus a tail of EBS/RDF power plants (DE); concentrated among a handful of operator groups",
+        "revenue_band_eur": "~20.6 Mt/yr MVA capacity (~26.5 Mt incl. EBS plants); largest single plant ~780,000 t/yr (Cologne); plant-level capex EUR 100m-500m+, operator groups EUR 100m-1bn+",
+        "example_companies": [
+          "EEW Energy from Waste",
+          "MVV Umwelt",
+          "Remondis (Rethmann)",
+          "Veolia",
+          "AVG Koeln (largest MVA)"
+        ],
+        "regulation": [
+          "17. BImSchV (Verbrennung/Mitverbrennung von Abfaellen)",
+          "TA Luft",
+          "KrWG",
+          "Deponieverordnung / EU Landfill Directive (Deponieverbot)"
+        ]
       },
       "sources": [
         {
           "title": "ITAD - Interessengemeinschaft der Thermischen Abfallbehandlungsanlagen in Deutschland",
           "url": "https://www.itad.de/",
           "note": "German WtE operators' association; plant counts and operator concentration."
+        },
+        {
+          "title": "",
+          "url": "https://eu-recycling.com/Archive/25542",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://de.wikipedia.org/wiki/Liste_von_M%C3%BCllverbrennungsanlagen_in_Deutschland",
+          "note": ""
         }
       ],
       "confidence": 0,
       "status": "grounded",
       "why_now": "",
       "pe_activity": [],
-      "investability": "open",
+      "investability": "blocked",
       "investability_note": "",
       "child_ids": []
     }

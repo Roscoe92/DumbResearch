@@ -6323,7 +6323,7 @@
         "Animal By-Product Disposal & Rendering (Tierkoerperbeseitigung / Kat. 1-3)"
       ],
       "value_chain_stage": "services",
-      "description": "Collection, transport, processing and disposal of animal by-products under Reg. (EC) 1069/2009, (EU) 142/2011, TierNebG and TierNebV. Category 1/2 carcass disposal is a public-law duty (Beseitigungspflicht) that Laender/Kreise assign to designated operators - dominated nationwide by SecAnim (part of the Saria/Rethmann group, entrusted since 1998) plus a few public Zweckverbaende. Category 3 material (former foodstuffs, slaughter by-products) feeds rendering, petfood, oleochemical and biodiesel value chains with more open private competition (Saria/ReFood and others).",
+      "description": "Collection, transport, processing and disposal of animal by-products under Reg. (EC) 1069/2009, (EU) 142/2011, TierNebG and TierNebV. Category 1/2 carcass disposal is a public-law duty (Beseitigungspflicht) that Laender/Kreise assign - typically via concession/Beleihung to a designated operator - creating a regional statutory monopoly with no free market-price formation (BVerwG 3 B 61.09); nationwide it is dominated by SecAnim (Saria/Rethmann group). Category 3 material (former foodstuffs, slaughter by-products) feeds rendering, petfood, oleochemical and biodiesel value chains with more open private competition (Saria/ReFood and others). Investability is therefore restricted overall: the Cat 1/2 tendered public-law monopoly is effectively closed to financial investors, while Cat 3 processing is open.",
       "scores": {
         "recurring": 4,
         "fragmentation": 2,
@@ -6369,14 +6369,19 @@
           "title": "SARIA - Tierische Nebenprodukte / sonstige Tierhaltung",
           "url": "https://saria.de/services/sonstige-tierhaltung/",
           "note": "Saria/ReFood group operating Cat 3 rendering/petfood/biodiesel"
+        },
+        {
+          "title": "BVerwG, Beschluss 3 B 61.09 vom 17.05.2010",
+          "url": "https://www.bverwg.de/170510B3B61.09.0",
+          "note": "Assignment of the disposal duty grants a monopoly position in the territory that does not permit market-price formation - basis for 'restricted' vs prior 'open'"
         }
       ],
       "confidence": 0,
       "status": "grounded",
       "why_now": "",
       "pe_activity": [],
-      "investability": "open",
-      "investability_note": "",
+      "investability": "restricted",
+      "investability_note": "Split verdict. Cat 1/2 (Tierkoerperbeseitigung) is a public-law Beseitigungspflicht assigned by the Laender/Kreise as a tendered regional monopoly (concession/Beleihung under sec. 3 TierNebG; BVerwG confirms a monopoly position with no market-price formation), SecAnim/Saria-dominated - blocked to financial investors. Cat 3 rendering/petfood/oleochemicals/biodiesel is open to private competition. Node downgraded from 'open' to 'restricted' to reflect the monopoly-controlled Cat 1/2 leg.",
       "child_ids": []
     },
     "food-agriculture-services-value-chain/agricultural-contracting-farm-services/livestock-services-klauenpflege-besamung-stallhygiene/herd-health-large-animal-veterinary-services-bestandsbetreuung": {
@@ -6391,25 +6396,31 @@
         "Herd-health / large-animal veterinary services (Bestandsbetreuung)"
       ],
       "value_chain_stage": "services",
-      "description": "Mobile large-animal veterinary practices (Tierarzt-Fahrpraxis) providing recurring on-farm herd-health management, integrated veterinary care and antibiotic/Tierarzneimittel (TAM) usage monitoring for dairy, pig and poultry units. Recurring, compliance-linked on-farm spend tied to antibiotics/TAM documentation duties.",
+      "description": "Mobile large-animal veterinary practices (Tierarzt-Fahrpraxis) providing recurring on-farm herd-health management (Bestandsbetreuung), integrated veterinary care and antibiotic/Tierarzneimittel (TAM) usage monitoring for dairy, pig and poultry units. Recurring, compliance-linked on-farm spend tied to antibiotics/TAM documentation duties. Practice ownership is professionally reserved: under the tieraerztliche Berufsordnung the majority of shares and voting rights must be held by, and the practice managed by, licensed veterinarians - so outside/financial ownership is barred, making the segment investability-blocked despite attractive recurring economics.",
       "scores": {
         "recurring": 5,
         "fragmentation": 4,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 2,
+        "margin": 3,
+        "growth": 2,
+        "headroom": 2,
+        "reimbursement_risk": 2
       },
       "rationale": {
-        "compliance": "Antibiotics/TAM monitoring and prescribing are legally reserved veterinary acts under TAMG and the Tieraerztliche Berufsordnung.",
-        "recurring": "Bestandsbetreuung is delivered under standing herd-health contracts."
+        "compliance": "Prescribing and TAM/antibiotics monitoring are legally reserved veterinary acts under TAMG plus the Berufsordnung.",
+        "recurring": "Bestandsbetreuung is delivered under standing herd-health/integrated-care contracts with regular on-farm visits.",
+        "fragmentation": "Owner-run large-animal/mixed practices spread across rural DACH; no national consolidator.",
+        "scale": "Individual Fahrpraxen are small (single-digit-vet), limiting standalone scale.",
+        "margin": "Solid owner economics but labour-bound (vet time), capping margin.",
+        "growth": "Structurally flat-to-declining livestock numbers temper volume growth.",
+        "headroom": "Professional-ownership reservation blocks buy-and-build, so investor headroom is low.",
+        "reimbursement_risk": "Fees are paid by farmers (no state reimbursement), but antibiotic-reduction policy can compress TAM-linked volume - low-moderate."
       },
-      "composite": 91.7,
+      "composite": 57.5,
       "dach_signals": {
         "est_players": "large-animal / mixed veterinary practices across DACH (fragmented, owner-run)",
-        "revenue_band_eur": "",
+        "revenue_band_eur": "typical DE vet practice ~EUR 0.33-0.58m total revenue/yr (rebmann-research state averages: livestock-heavy Niedersachsen highest at ~EUR 580k, Bremen ~EUR 326k / Brandenburg ~EUR 331k lowest); large-animal Fahrpraxen at the upper end",
         "example_companies": [],
         "regulation": [
           "Tieraerztliche Berufsordnung (Landestieraerztekammern)",
@@ -6423,14 +6434,29 @@
           "title": "Bundestieraerztekammer",
           "url": "https://www.bundestieraerztekammer.de/",
           "note": "Professional/ownership rules for veterinary practice (Berufsordnung)"
+        },
+        {
+          "title": "Bundestieraerztekammer - Musterberufsordnung (MBO), Version 4/2024",
+          "url": "https://bundestieraerztekammer.de/btk/musterordnungen/downloads/MBO_Version_4_2024.pdf?m=1716453566",
+          "note": "Practice-ownership reservation: majority of shares/voting rights and responsible management must be held by veterinarians - basis for 'blocked'"
+        },
+        {
+          "title": "Tierarzneimittelgesetz (TAMG)",
+          "url": "https://www.gesetze-im-internet.de/tamg/",
+          "note": "Prescribing/dispensing and antibiotics/TAM monitoring are reserved veterinary acts - compliance=5"
+        },
+        {
+          "title": "rebmann-research - Tiermedizin in Deutschland: durchschnittlicher Umsatz je Bundesland",
+          "url": "https://www.rebmann-research.de/tiermedizin-in-deutschland-wo-liegen-die-hoechsten-honorarpotenziale",
+          "note": "Average practice revenue by state: Niedersachsen ~EUR 580k (top), Bremen ~EUR 326k / Brandenburg ~EUR 331k (bottom) - basis for revenue band"
         }
       ],
       "confidence": 0,
       "status": "grounded",
       "why_now": "",
       "pe_activity": [],
-      "investability": "open",
-      "investability_note": "",
+      "investability": "blocked",
+      "investability_note": "Blocked for financial investors: veterinary practice ownership and drug dispensing are professionally reserved to licensed Tieraerzte under the tieraerztliche Berufsordnung (majority of shares/voting rights and responsible management must rest with veterinarians). Node changed from 'open' to 'blocked'.",
       "child_ids": []
     }
   }

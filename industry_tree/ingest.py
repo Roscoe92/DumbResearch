@@ -20,6 +20,17 @@ from .schema import Tree, Scores, DachSignals, Source
 from .scoring import apply_scores
 
 
+def _coerce_sources(raw) -> list[Source]:
+    """Accept sources as dicts or bare url strings; drop entries without a url."""
+    out = []
+    for s in (raw or []):
+        if isinstance(s, str):
+            s = {"url": s}
+        if isinstance(s, dict) and s.get("url"):
+            out.append(Source(title=str(s.get("title") or ""), url=str(s["url"]), note=str(s.get("note") or "")))
+    return out
+
+
 def _add_children(tree: Tree, parent_id: str, children: list[dict]) -> None:
     for ch in children or []:
         name = (ch.get("name") or "").strip()
@@ -45,11 +56,7 @@ def _add_children(tree: Tree, parent_id: str, children: list[dict]) -> None:
                 regulation=list(sig.get("regulation") or []),
             ),
             confidence=_i(ch.get("confidence")),
-            sources=[
-                Source(title=str(s.get("title") or ""), url=str(s.get("url") or ""), note=str(s.get("note") or ""))
-                for s in (ch.get("sources") or [])
-                if s.get("url")
-            ],
+            sources=_coerce_sources(ch.get("sources")),
             status="grounded" if (ch.get("sources") or sc) else "stub",
         )
         _add_children(tree, node.id, ch.get("children") or [])
@@ -241,9 +248,14 @@ def _edit_node(node, fields: dict) -> None:
         node.confidence = _i(fields["confidence"])
     have = {s.url for s in node.sources}
     for s in (fields.get("sources") or []):
-        if s.get("url") and s["url"] not in have:
-            node.sources.append(Source(title=str(s.get("title") or ""), url=str(s["url"]), note=str(s.get("note") or "")))
-            have.add(s["url"])
+        if isinstance(s, str):
+            s = {"url": s}
+        if not isinstance(s, dict):
+            continue
+        url = s.get("url")
+        if url and url not in have:
+            node.sources.append(Source(title=str(s.get("title") or ""), url=str(url), note=str(s.get("note") or "")))
+            have.add(url)
 
 
 def apply_patch_files(tree: Tree, paths: list[str | Path]) -> dict:

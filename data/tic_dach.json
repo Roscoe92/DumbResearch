@@ -3062,6 +3062,11 @@
           "title": "Hauptuntersuchung - Wikipedia",
           "url": "https://de.wikipedia.org/wiki/Hauptuntersuchung",
           "note": "HU/AU cycle and organisation structure (UO + Technische Pruefstellen)"
+        },
+        {
+          "title": "",
+          "url": "https://de.wikipedia.org/wiki/Technische_Pr%C3%BCforganisation",
+          "note": ""
         }
       ],
       "confidence": 4,
@@ -6758,18 +6763,18 @@
         "recurring": 4,
         "fragmentation": 4,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 3,
+        "margin": 4,
+        "growth": 4,
+        "headroom": 4,
+        "reimbursement_risk": 1
       },
       "rationale": {
         "recurring": "Recurring statutory measurement intervals on permitted plants",
         "compliance": "§29b bekanntgabe + ISO 17025 required to operate",
         "growth": "Tightening TA Luft / emission limits and new pollutants expand scope"
       },
-      "composite": 83.3,
+      "composite": 75.0,
       "dach_signals": {
         "est_players": "Numerous bekanntgegebene §29b-BImSchG Messstellen across the Laender plus large TIC bodies",
         "revenue_band_eur": "",
@@ -6820,18 +6825,18 @@
         "recurring": 3,
         "fragmentation": 5,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 4,
+        "margin": 3,
+        "growth": 3,
+        "headroom": 5,
+        "reimbursement_risk": 1
       },
       "rationale": {
         "fragmentation": "Hundreds of regional accredited labs",
         "headroom": "Active buy-and-build (AGROLAB, Eurofins networks)",
         "compliance": "Notified/accredited status and legal disposal duties drive demand"
       },
-      "composite": 83.3,
+      "composite": 70.8,
       "dach_signals": {
         "est_players": "Highly fragmented long tail of DAkkS-accredited environmental labs (DE/AT/CH)",
         "revenue_band_eur": "",
@@ -6883,17 +6888,17 @@
         "recurring": 5,
         "fragmentation": 4,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 4,
+        "margin": 3,
+        "growth": 4,
+        "headroom": 4,
+        "reimbursement_risk": 1
       },
       "rationale": {
         "recurring": "Mandatory periodic Legionella/drinking-water testing intervals",
         "compliance": "TrinkwV listing + ISO 17025 accreditation required"
       },
-      "composite": 91.7,
+      "composite": 79.2,
       "dach_signals": {
         "est_players": "Fragmented base of accredited & TrinkwV-listed examination bodies (DE)",
         "revenue_band_eur": "",
@@ -7010,18 +7015,18 @@
         "recurring": 4,
         "fragmentation": 4,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 4,
+        "margin": 3,
+        "growth": 4,
+        "headroom": 4,
+        "reimbursement_risk": 1
       },
       "rationale": {
         "recurring": "Continuous retailer/QMS monitoring programmes",
         "compliance": "ISO 17025 + official-lab designations",
         "scale": "Large centralised high-throughput labs"
       },
-      "composite": 83.3,
+      "composite": 75.0,
       "dach_signals": {
         "est_players": "Accredited food-chemistry labs consolidating under Eurofins/Tentamus + SGS Institut Fresenius",
         "revenue_band_eur": "",
@@ -7073,17 +7078,17 @@
         "recurring": 5,
         "fragmentation": 4,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 4,
+        "margin": 3,
+        "growth": 3,
+        "headroom": 4,
+        "reimbursement_risk": 1
       },
       "rationale": {
         "recurring": "Routine batch/hygiene monitoring",
         "scale": "High-throughput micro labs"
       },
-      "composite": 91.7,
+      "composite": 75.0,
       "dach_signals": {
         "est_players": "Accredited food-micro labs (Eurofins/Tentamus networks + regional labs)",
         "revenue_band_eur": "",
@@ -7134,17 +7139,17 @@
         "recurring": 4,
         "fragmentation": 5,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 3,
+        "margin": 3,
+        "growth": 3,
+        "headroom": 5,
+        "reimbursement_risk": 1
       },
       "rationale": {
         "fragmentation": "Many regional agricultural/feed labs",
         "headroom": "AGROLAB/Eurofins consolidation runway"
       },
-      "composite": 91.7,
+      "composite": 70.8,
       "dach_signals": {
         "est_players": "Fragmented agricultural/feed labs consolidating under AGROLAB/Eurofins",
         "revenue_band_eur": "",
@@ -7195,11 +7200,11 @@
         "recurring": 3,
         "fragmentation": 3,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 3,
+        "margin": 4,
+        "growth": 4,
+        "headroom": 3,
+        "reimbursement_risk": 1
       },
       "rationale": {
         "recurring": "Repeat via new models, imports, tuning/retrofit and e-mobility conversions",

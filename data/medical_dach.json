@@ -1485,7 +1485,7 @@
         "Dental laboratories (Zahntechnik / Dentallabore)"
       ],
       "value_chain_stage": "manufacturing",
-      "description": "Owner-operated labs making crowns, bridges, dentures and CAD/CAM prosthetics per prescription; declining count consolidating amid digitalization = classic buy-and-build.",
+      "description": "Owner-operated labs making crowns, bridges, dentures and CAD/CAM prosthetics per prescription; the commercial (VAT-liable) base fell ~32% from ~8,692 (2018) to ~5,879 (2023), so the shrinking, ageing-owner count consolidating amid digitalization = classic buy-and-build. Practice labs (Praxislabore) sit on top of the commercial count.",
       "scores": {
         "recurring": 4,
         "fragmentation": 5,
@@ -1503,8 +1503,8 @@
       },
       "composite": 83.3,
       "dach_signals": {
-        "est_players": "~6,900-7,000 commercial + many practice labs",
-        "revenue_band_eur": "EUR 0.3-3m typical",
+        "est_players": "~5,879 commercial (VAT-liable, >EUR 22k turnover) Dentallabore in 2023, down from ~8,692 in 2018; plus many in-practice Praxislabore",
+        "revenue_band_eur": "EUR 0.3-3m typical per lab",
         "example_companies": [
           "flossbach/regional Labore",
           "Permadental",
@@ -1521,6 +1521,11 @@
           "title": "Ruecklaeufige Betriebszahlen Zahntechnik | Rebmann Research",
           "url": "https://www.rebmann-research.de/zahntechnik-betriebszahlen-ruecklaeufig",
           "note": "Declining number of dental-lab businesses, consolidation trend"
+        },
+        {
+          "title": "Gesundheitsmarkt.de - Anzahl und Statistik der Dentallabore in Deutschland",
+          "url": "https://www.gesundheitsmarkt.de/anzahl-und-statistik-dentallabore-in-deutschland/",
+          "note": "Corroborates 5,879 gewerbliche Dentallabore 2023 (VAT-liable)"
         }
       ],
       "confidence": 4,
@@ -2230,7 +2235,7 @@
         "Sanitaetshaus / Hilfsmittel provision & servicing"
       ],
       "value_chain_stage": "distribution",
-      "description": "Local retail/rental of aids (mobility, wound, stoma, incontinence) with fitting and after-sales service; extremely fragmented owner-operated base.",
+      "description": "Scope reduced to homecare DEVICE rental and servicing only (e.g. respiratory/ventilation equipment provision & maintenance, hospital-bed and mobility-aid rental fleets). All retail Sanitaetshaus/Hilfsmittel PROVISION is consolidated into the single Distribution & Medical Retail > Medical Supply Stores & Homecare branch to stop double-counting the same operator base.",
       "scores": {
         "recurring": 4,
         "fragmentation": 5,
@@ -2248,7 +2253,7 @@
       },
       "composite": 83.3,
       "dach_signals": {
-        "est_players": "~1,400 operators",
+        "est_players": "Rental/servicing subset only - not a separate operator count; the ~1,400-2,500 Sanitaetshaus operators are counted once under Distribution & Medical Retail. Cross-reference that branch.",
         "revenue_band_eur": "EUR 0.5-20m",
         "example_companies": [
           "Sanitaetshaus Aktuell members",
@@ -2256,8 +2261,9 @@
           "GHD"
         ],
         "regulation": [
-          "SGB V Hilfsmittelverzeichnis",
-          "MDR"
+          "SGB V Hilfsmittelverzeichnis (GKV-Spitzenverband)",
+          "MDR (EU) 2017/745",
+          "MPBetreibV (device operation/servicing)"
         ]
       },
       "sources": [
@@ -2265,6 +2271,11 @@
           "title": "Liste der groessten Sanitaetshaeuser | pflegemarkt.com",
           "url": "https://www.pflegemarkt.com/fachartikel/liste-der-groessten-sanitaetshaueser-2023-in-deutschland/",
           "note": "Ranking evidencing fragmented Sanitaetshaus landscape"
+        },
+        {
+          "title": "GKV-Spitzenverband - Hilfsmittelverzeichnis",
+          "url": "https://hilfsmittel.gkv-spitzenverband.de/",
+          "note": "Defines the Hilfsmittel provision universe now consolidated under Distribution & Medical Retail"
         }
       ],
       "confidence": 3,
@@ -2272,7 +2283,7 @@
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Device rental/servicing (esp. respiratory) is a recurring, MPBetreibV-driven niche; avoid double-counting Sanitaetshaus provision which now lives in Distribution & Medical Retail.",
       "child_ids": []
     },
     "medical-value-chain/medical-devices-equipment/refurbishment-trade-of-used-medical-equipment-gebrauchtgeraetehandel": {
@@ -2475,18 +2486,19 @@
         "recurring": 5,
         "fragmentation": 4,
         "compliance": 5,
-        "scale": 3,
-        "margin": 2,
-        "growth": 2,
+        "scale": 0,
+        "margin": 0,
+        "growth": 0,
         "headroom": 2,
         "reimbursement_risk": 5
       },
       "rationale": {
         "recurring": "Daily routine base-lab work for member practices - continuous statutory-funded throughput.",
         "fragmentation": "Many physician-owned local cooperatives with no single consolidator; often the entry hook for lab chains.",
-        "compliance": "RiliBAeK QC applies to every measurement performed in the cooperative."
+        "compliance": "RiliBAeK QC applies to every measurement performed in the cooperative.",
+        "scores_zeroed": "scale 3 / margin 2 / growth 2 were inconsistent for a non-investable, cost-covering physician cooperative; zeroed and value re-attributed to the linked commercial lab."
       },
-      "composite": 42.5,
+      "composite": 71.7,
       "dach_signals": {
         "est_players": "Confirmed: hundreds of local physician cost-cooperatives nationwide; viable from ~7 physicians upward; big chains service many of them.",
         "revenue_band_eur": "Confirmed order of magnitude: EUR 0.5-10m per cooperative (pass-through cost vehicle; true value in the linked lab).",
@@ -2531,6 +2543,11 @@
           "title": "KVSH Laborreform Dez24",
           "url": "https://www.kvsh.de/praxis/praxisfuehrung/newsletter/laborreform-dez24",
           "note": "Details reduced minimum quota and reimbursement pressure hitting the ambulatory lab layer."
+        },
+        {
+          "title": "KBV - Laborgemeinschaften",
+          "url": "https://www.kbv.de/html/laborgemeinschaften.php",
+          "note": "Confirms Laborgemeinschaften are physician-owned cost cooperatives (not investor-ownable) -> investability blocked"
         }
       ],
       "confidence": 4,
@@ -2542,7 +2559,7 @@
         "Market described as still 'quite fragmented' with further consolidation potential"
       ],
       "investability": "blocked",
-      "investability_note": "Legal shell is a member-owned physician cost-cooperative (Kostengemeinschaft); not directly acquirable, value only via supplying the lab.",
+      "investability_note": "Physician-owned Kostengemeinschaft (Arzt-Kostengemeinschaft) cannot be investor-owned; scale/margin/growth zeroed out because they are not investability-relevant here (pass-through cost vehicle). The real, capturable value sits in the linked Grosslabor/Facharztlabor node.",
       "child_ids": []
     },
     "medical-value-chain/diagnostics-laboratory/fachaerztliche-labormedizin-laborgemeinschaften/fachaerztliche-grosslabore-laborketten": {
@@ -2731,9 +2748,7 @@
       "child_ids": [
         "medical-value-chain/diagnostics-laboratory/pathologie-histologie/ambulante-histo-zytopathologie-mvz-facharztpraxen",
         "medical-value-chain/diagnostics-laboratory/pathologie-histologie/molekularpathologie-companion-diagnostics",
-        "medical-value-chain/diagnostics-laboratory/pathologie-histologie/ambulant-pathology-mvz-roll-ups",
         "medical-value-chain/diagnostics-laboratory/pathologie-histologie/dermatopathology-labs",
-        "medical-value-chain/diagnostics-laboratory/pathologie-histologie/molecular-companion-diagnostics-labs",
         "medical-value-chain/diagnostics-laboratory/pathologie-histologie/digital-pathology-scanning-services"
       ]
     },
@@ -2920,10 +2935,7 @@
         "medical-value-chain/diagnostics-laboratory/radiologie-bildgebung-imaging-centres/ambulante-radiologie-mvz-praxen",
         "medical-value-chain/diagnostics-laboratory/radiologie-bildgebung-imaging-centres/teleradiologie",
         "medical-value-chain/diagnostics-laboratory/radiologie-bildgebung-imaging-centres/nuklearmedizin-radiopharmazie-nahe-diagnostik",
-        "medical-value-chain/diagnostics-laboratory/radiologie-bildgebung-imaging-centres/ambulant-radiology-mvz-platforms",
-        "medical-value-chain/diagnostics-laboratory/radiologie-bildgebung-imaging-centres/teleradiology-night-overflow-reading",
         "medical-value-chain/diagnostics-laboratory/radiologie-bildgebung-imaging-centres/mammography-screening-units",
-        "medical-value-chain/diagnostics-laboratory/radiologie-bildgebung-imaging-centres/nuclear-medicine-pet-ct",
         "medical-value-chain/diagnostics-laboratory/radiologie-bildgebung-imaging-centres/cardiac-imaging-kardio-ct-cmr"
       ]
     },
@@ -3693,6 +3705,11 @@
           "title": "Betriebsärztemangel | praktischArzt",
           "url": "https://www.praktischarzt.de/magazin/betriebsaerztemangel-arbeitsmedizin/",
           "note": "~3,000 physicians short vs. ~12,000; >60% of qualified doctors are 60+ — supply-constrained mandatory service (strong growth tailwind)."
+        },
+        {
+          "title": "B.A.D GmbH (BG prevent) - corporate occupational-health provider",
+          "url": "https://www.bad-gmbh.de/",
+          "note": "Evidence that leading occupational-health providers are corporately owned, i.e. no ownership restriction -> investability open"
         }
       ],
       "confidence": 4,
@@ -3703,8 +3720,8 @@
         "SME/regional occupational-medicine roll-up is nascent; PE interest emerging at the edges (e.g. Ireland's Centric Health lists occupational medical services as a segment)",
         "Largely VIRGIN for a dedicated pure-play PE consolidator - the scale incumbents are structurally not-for-sale"
       ],
-      "investability": "restricted",
-      "investability_note": "Long-tail AMDs are acquirable but each needs an appointed qualified Betriebsarzt (person-bound); scale anchors B.A.D/BG prevent & IAS are BG-owned non-profits, not for sale.",
+      "investability": "open",
+      "investability_note": "No Fremdbesitzverbot/Kassensitz restriction applies to occupational health (ASiG/ArbMedVV services, not SGB V Kassenzulassung). Providers are already PE-/corporately owned (B.A.D, IAS, TUEV). The Betriebsaerztemangel is an operational staffing constraint, not an ownership bar. Consider relocating this leaf out of POCT into a services/care branch.",
       "child_ids": []
     },
     "medical-value-chain/diagnostics-laboratory/laborlogistik-probenkurier-ivd-verbrauchsvertrieb": {
@@ -4025,7 +4042,8 @@
         "medical-value-chain/care-delivery-providers/rehabilitation-clinics-reha-kliniken-stationaer-ambulant",
         "medical-value-chain/care-delivery-providers/non-physician-outpatient-therapy-heilmittelerbringer-physio-ergo-logo",
         "medical-value-chain/care-delivery-providers/psychotherapy-mental-health-practices",
-        "medical-value-chain/care-delivery-providers/veterinary-clinics-tierarztketten-healthcare-adjacent"
+        "medical-value-chain/care-delivery-providers/veterinary-clinics-tierarztketten-healthcare-adjacent",
+        "medical-value-chain/care-delivery-providers/aesthetic-self-pay-medicine-clinics-asthetische-medizin"
       ]
     },
     "medical-value-chain/care-delivery-providers/outpatient-physician-roll-ups-via-mvz": {
@@ -4098,7 +4116,9 @@
         "medical-value-chain/care-delivery-providers/outpatient-physician-roll-ups-via-mvz/dialysis-nephrology-centres",
         "medical-value-chain/care-delivery-providers/outpatient-physician-roll-ups-via-mvz/dermatology-hautarzt-mvz",
         "medical-value-chain/care-delivery-providers/outpatient-physician-roll-ups-via-mvz/orthopaedics-mvz",
-        "medical-value-chain/care-delivery-providers/outpatient-physician-roll-ups-via-mvz/fertility-clinics-kinderwunschzentren-ivf"
+        "medical-value-chain/care-delivery-providers/outpatient-physician-roll-ups-via-mvz/fertility-clinics-kinderwunschzentren-ivf",
+        "medical-value-chain/care-delivery-providers/outpatient-physician-roll-ups-via-mvz/gastroenterology-endoscopy-mvz-gastroenterologie-endoskopie",
+        "medical-value-chain/care-delivery-providers/outpatient-physician-roll-ups-via-mvz/urology-cardiology-mvz-urologie-kardiologie"
       ]
     },
     "medical-value-chain/care-delivery-providers/outpatient-physician-roll-ups-via-mvz/dental-chains-z-mvz-dso-zahnarztketten": {
@@ -4127,7 +4147,8 @@
       "rationale": {
         "recurring": "Mix of statutory GKV plus high-margin recurring private-pay (recall/prophylaxis, implants, ortho); patients return in cycles.",
         "fragmentation": "~700 Z-MVZ of which ~468/nearly one-third investor-held, but against tens of thousands of solo/small dental practices - long tail intact.",
-        "compliance": "MVZ Zulassung and Fremdbesitz rules apply, but dental faces less bedarfsplanung friction than physician fields."
+        "compliance": "MVZ Zulassung and Fremdbesitz rules apply, but dental faces less bedarfsplanung friction than physician fields.",
+        "regulatory_risk": "Legislative review of Fremdinvestoren/MVZ ownership (2024-2026) could restrict future PE control and resale of Z-MVZ platforms."
       },
       "composite": 91.7,
       "dach_signals": {
@@ -4157,6 +4178,16 @@
           "title": "Fremdinvestoren in der vertragszahnaerztlichen Versorgung - KZBV 2024",
           "url": "https://www.kzbv.de/wp-content/uploads/KZBV2024-04_iMVZ_Fremdinvestoren_vertragszahnaerztliche_Versorgung.pdf",
           "note": "468 iMVZ, 6,070 dentists in dental MVZ, avg 3.91 per MVZ"
+        },
+        {
+          "title": "Bundesgesundheitsministerium - Gesetze und Verordnungen",
+          "url": "https://www.bundesgesundheitsministerium.de/service/gesetze-und-verordnungen.html",
+          "note": "Supports the 2024-2026 MVZ/Fremdinvestoren regulatory review"
+        },
+        {
+          "title": "aerztestellen.aerzteblatt.de - Investoren im MVZ: Das Problem mit den Private-Equity-Firmen",
+          "url": "https://aerztestellen.aerzteblatt.de/de/redaktion/investoren-im-mvz-das-problem-mit-den-private-equity-firmen",
+          "note": "Documents PE penetration of MVZ and the policy debate driving the ownership review"
         }
       ],
       "confidence": 5,
@@ -4164,7 +4195,7 @@
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "WHY-NOW / REGULATORY RISK: the MVZ investor-ownership (Fremdinvestoren) regime is under active legislative review 2024-2026 (BMG MVZ-Regulierung), aimed at curbing PE ownership of Z-MVZ and other MVZ; materially affects future exitability of dental and ophthalmology roll-ups. Current investability='open' may tighten to 'restricted'.",
       "child_ids": [
         "medical-value-chain/care-delivery-providers/outpatient-physician-roll-ups-via-mvz/dental-chains-z-mvz-dso-zahnarztketten/dental-platform-dso-roll-ups-z-mvz-ketten",
         "medical-value-chain/care-delivery-providers/outpatient-physician-roll-ups-via-mvz/dental-chains-z-mvz-dso-zahnarztketten/orthodontics-chains-kfo-kieferorthopaedie",
@@ -4769,7 +4800,6 @@
         "medical-value-chain/care-delivery-providers/outpatient-mobile-nursing-services-ambulante-pflegedienste/sgb-xi-basic-care-grundpflege-pflegesachleistung",
         "medical-value-chain/care-delivery-providers/outpatient-mobile-nursing-services-ambulante-pflegedienste/sgb-v-medical-home-care-behandlungspflege-hausliche-krankenpflege",
         "medical-value-chain/care-delivery-providers/outpatient-mobile-nursing-services-ambulante-pflegedienste/specialised-palliative-home-care-sapv",
-        "medical-value-chain/care-delivery-providers/outpatient-mobile-nursing-services-ambulante-pflegedienste/day-care-tagespflege-teilstationar",
         "medical-value-chain/care-delivery-providers/outpatient-mobile-nursing-services-ambulante-pflegedienste/dementia-everyday-support-services-betreuungsdienste-45a",
         "medical-value-chain/care-delivery-providers/outpatient-mobile-nursing-services-ambulante-pflegedienste/respite-substitute-care-verhinderungspflege-household-support"
       ]
@@ -6169,7 +6199,6 @@
       "child_ids": [
         "medical-value-chain/healthcare-services-outsourcing/sterile-reprocessing-aemp-zsva-outsourcing/hospital-central-aemp-outsourcing-off-site-plants",
         "medical-value-chain/healthcare-services-outsourcing/sterile-reprocessing-aemp-zsva-outsourcing/ambulatory-practice-instrument-reprocessing",
-        "medical-value-chain/healthcare-services-outsourcing/sterile-reprocessing-aemp-zsva-outsourcing/outsourced-hospital-cssd-aemp-operation",
         "medical-value-chain/healthcare-services-outsourcing/sterile-reprocessing-aemp-zsva-outsourcing/dental-practice-instrument-reprocessing",
         "medical-value-chain/healthcare-services-outsourcing/sterile-reprocessing-aemp-zsva-outsourcing/flexible-endoscope-reprocessing",
         "medical-value-chain/healthcare-services-outsourcing/sterile-reprocessing-aemp-zsva-outsourcing/loan-set-consignment-instrument-reprocessing-leihsiebe"
@@ -6936,127 +6965,8 @@
       "investability": "open",
       "investability_note": "",
       "child_ids": [
-        "medical-value-chain/healthcare-services-outsourcing/medical-billing-rcm-coding/physician-private-fee-billing-factoring-pvs",
-        "medical-value-chain/healthcare-services-outsourcing/medical-billing-rcm-coding/dental-private-fee-billing-factoring-zahnaerzte",
         "medical-value-chain/healthcare-services-outsourcing/medical-billing-rcm-coding/medical-coding-medizincontrolling-drg-pepp"
       ]
-    },
-    "medical-value-chain/healthcare-services-outsourcing/medical-billing-rcm-coding/physician-private-fee-billing-factoring-pvs": {
-      "id": "medical-value-chain/healthcare-services-outsourcing/medical-billing-rcm-coding/physician-private-fee-billing-factoring-pvs",
-      "name": "Physician private-fee billing & factoring (PVS)",
-      "parent_id": "medical-value-chain/healthcare-services-outsourcing/medical-billing-rcm-coding",
-      "level": 3,
-      "path": [
-        "Medical value chain",
-        "Healthcare Services & Outsourcing",
-        "Medical Billing, RCM & Coding",
-        "Physician private-fee billing & factoring (PVS)"
-      ],
-      "value_chain_stage": "services",
-      "description": "Liquidation of GOAe private-medical fees, dunning, patient service and optional factoring (default-risk transfer) for office-based and chief physicians.",
-      "scores": {
-        "recurring": 4,
-        "fragmentation": 4,
-        "compliance": 4,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
-      },
-      "rationale": {
-        "recurring": "Percentage-of-turnover fees on continuous private billings.",
-        "fragmentation": "13 regional verband-PVS plus many independents - consolidation ongoing but incomplete.",
-        "compliance": "GOAe schedule, BaFin factoring authorisation and health-data protection define the service."
-      },
-      "composite": 75.0,
-      "dach_signals": {
-        "est_players": "13 verband-PVS + hundreds of independents",
-        "revenue_band_eur": "1-3% of billings; represents >50,000 physicians",
-        "example_companies": [
-          "PVS Holding",
-          "Dr. Gueldener Gruppe",
-          "PVS Reiss",
-          "PAS Dr. Hammerl"
-        ],
-        "regulation": [
-          "GOAe",
-          "BaFin (Factoring)",
-          "DSGVO"
-        ]
-      },
-      "sources": [
-        {
-          "title": "Uebersicht der privataerztlichen Abrechnungsstellen",
-          "url": "https://abrechnungsstelle.com/anbieter/",
-          "note": "13 verband-PVS, >50,000 doctors, fee bands 1-3%"
-        }
-      ],
-      "confidence": 4,
-      "status": "grounded",
-      "why_now": "",
-      "pe_activity": [],
-      "investability": "open",
-      "investability_note": "",
-      "child_ids": []
-    },
-    "medical-value-chain/healthcare-services-outsourcing/medical-billing-rcm-coding/dental-private-fee-billing-factoring-zahnaerzte": {
-      "id": "medical-value-chain/healthcare-services-outsourcing/medical-billing-rcm-coding/dental-private-fee-billing-factoring-zahnaerzte",
-      "name": "Dental private-fee billing & factoring (Zahnaerzte)",
-      "parent_id": "medical-value-chain/healthcare-services-outsourcing/medical-billing-rcm-coding",
-      "level": 3,
-      "path": [
-        "Medical value chain",
-        "Healthcare Services & Outsourcing",
-        "Medical Billing, RCM & Coding",
-        "Dental private-fee billing & factoring (Zahnaerzte)"
-      ],
-      "value_chain_stage": "services",
-      "description": "Equivalent GOZ private-fee billing, factoring and patient financing for dental practices and labs.",
-      "scores": {
-        "recurring": 4,
-        "fragmentation": 4,
-        "compliance": 4,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
-      },
-      "rationale": {
-        "recurring": "Ongoing per-invoice fees and factoring on dental private billings.",
-        "fragmentation": "Multiple dental-specialist factors plus general PVS dental arms.",
-        "compliance": "GOZ fee schedule, BaFin factoring and data protection apply."
-      },
-      "composite": 75.0,
-      "dach_signals": {
-        "est_players": "~10-30 dental-focused providers",
-        "revenue_band_eur": "1-3% of billings",
-        "example_companies": [
-          "PVS dental",
-          "DZR (Deutsches Zahnaerztliches Rechenzentrum)",
-          "BFS health finance"
-        ],
-        "regulation": [
-          "GOZ",
-          "BaFin (Factoring)",
-          "DSGVO"
-        ]
-      },
-      "sources": [
-        {
-          "title": "Factoring & Abrechnung fuer Zahnmediziner - PVS dental",
-          "url": "https://www.pvs-dental.de/",
-          "note": "Dental GOZ billing and factoring specialist"
-        }
-      ],
-      "confidence": 3,
-      "status": "grounded",
-      "why_now": "",
-      "pe_activity": [],
-      "investability": "open",
-      "investability_note": "",
-      "child_ids": []
     },
     "medical-value-chain/healthcare-services-outsourcing/medical-billing-rcm-coding/medical-coding-medizincontrolling-drg-pepp": {
       "id": "medical-value-chain/healthcare-services-outsourcing/medical-billing-rcm-coding/medical-coding-medizincontrolling-drg-pepp",
@@ -7179,130 +7089,11 @@
       "investability": "open",
       "investability_note": "",
       "child_ids": [
-        "medical-value-chain/healthcare-services-outsourcing/healthcare-staffing-zeitarbeit-pflege-aerzte/nursing-temporary-staffing-pflege",
-        "medical-value-chain/healthcare-services-outsourcing/healthcare-staffing-zeitarbeit-pflege-aerzte/physician-locum-honorararzt-placement",
         "medical-value-chain/healthcare-services-outsourcing/healthcare-staffing-zeitarbeit-pflege-aerzte/nursing-temp-staffing-pflege-zeitarbeit",
         "medical-value-chain/healthcare-services-outsourcing/healthcare-staffing-zeitarbeit-pflege-aerzte/physician-locum-honorararzt-vermittlung",
         "medical-value-chain/healthcare-services-outsourcing/healthcare-staffing-zeitarbeit-pflege-aerzte/international-nurse-recruitment-relocation",
         "medical-value-chain/healthcare-services-outsourcing/healthcare-staffing-zeitarbeit-pflege-aerzte/allied-health-therapist-staffing-mta-ota-therapie"
       ]
-    },
-    "medical-value-chain/healthcare-services-outsourcing/healthcare-staffing-zeitarbeit-pflege-aerzte/nursing-temporary-staffing-pflege": {
-      "id": "medical-value-chain/healthcare-services-outsourcing/healthcare-staffing-zeitarbeit-pflege-aerzte/nursing-temporary-staffing-pflege",
-      "name": "Nursing temporary staffing (Pflege)",
-      "parent_id": "medical-value-chain/healthcare-services-outsourcing/healthcare-staffing-zeitarbeit-pflege-aerzte",
-      "level": 3,
-      "path": [
-        "Medical value chain",
-        "Healthcare Services & Outsourcing",
-        "Healthcare Staffing / Zeitarbeit (Pflege & Aerzte)",
-        "Nursing temporary staffing (Pflege)"
-      ],
-      "value_chain_stage": "services",
-      "description": "Deployment of nursing staff to hospitals and care homes to cover shortages and peaks.",
-      "scores": {
-        "recurring": 3,
-        "fragmentation": 5,
-        "compliance": 4,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
-      },
-      "rationale": {
-        "recurring": "Persistent demand from chronic nurse shortage, but placements are transactional and re-won.",
-        "fragmentation": "Hundreds of agencies; leaders hold small share - ~23,000 temp health workers total.",
-        "compliance": "AUeG licence required; recent regulation tightens conditions."
-      },
-      "composite": 75.0,
-      "dach_signals": {
-        "est_players": "Several hundred agencies",
-        "revenue_band_eur": "EUR 1-50m",
-        "example_companies": [
-          "Pacura med",
-          "von Caprivi",
-          "Lumis",
-          "Personal-Helden"
-        ],
-        "regulation": [
-          "AUeG-Erlaubnis",
-          "Pflegeberufegesetz",
-          "equal pay"
-        ]
-      },
-      "sources": [
-        {
-          "title": "Zeitarbeit in der Pflege - doctari",
-          "url": "https://www.doctari.de/magazin/karriere-pflegekraft/tipps/zeitarbeit-in-der-pflege/",
-          "note": "~23,000 temp health workers, ~2% share, agency model"
-        }
-      ],
-      "confidence": 4,
-      "status": "grounded",
-      "why_now": "",
-      "pe_activity": [],
-      "investability": "open",
-      "investability_note": "",
-      "child_ids": []
-    },
-    "medical-value-chain/healthcare-services-outsourcing/healthcare-staffing-zeitarbeit-pflege-aerzte/physician-locum-honorararzt-placement": {
-      "id": "medical-value-chain/healthcare-services-outsourcing/healthcare-staffing-zeitarbeit-pflege-aerzte/physician-locum-honorararzt-placement",
-      "name": "Physician locum / Honorararzt placement",
-      "parent_id": "medical-value-chain/healthcare-services-outsourcing/healthcare-staffing-zeitarbeit-pflege-aerzte",
-      "level": 3,
-      "path": [
-        "Medical value chain",
-        "Healthcare Services & Outsourcing",
-        "Healthcare Staffing / Zeitarbeit (Pflege & Aerzte)",
-        "Physician locum / Honorararzt placement"
-      ],
-      "value_chain_stage": "services",
-      "description": "Placement of locum and freelance physicians into hospital shifts and gaps.",
-      "scores": {
-        "recurring": 3,
-        "fragmentation": 4,
-        "compliance": 3,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
-      },
-      "rationale": {
-        "recurring": "Repeat shift coverage but assignment-based.",
-        "fragmentation": "Several specialised platforms/agencies (doctari, Hire a Doctor) plus generalists.",
-        "compliance": "Status-Feststellung (Scheinselbststaendigkeit) and AUeG issues raise regulatory sensitivity."
-      },
-      "composite": 58.3,
-      "dach_signals": {
-        "est_players": "Dozens of physician-focused agencies/platforms",
-        "revenue_band_eur": "EUR 1-50m",
-        "example_companies": [
-          "doctari",
-          "Hire a Doctor Group",
-          "PWWL"
-        ],
-        "regulation": [
-          "AUeG",
-          "SGB IV Statusfeststellung",
-          "Approbationsordnung"
-        ]
-      },
-      "sources": [
-        {
-          "title": "doctari - Personaldienstleister Gesundheitswesen",
-          "url": "https://www.doctari.de/magazin/karriere-pflegekraft/tipps/zeitarbeit-in-der-pflege/",
-          "note": "Physician/nurse placement platform in DACH health staffing"
-        }
-      ],
-      "confidence": 3,
-      "status": "grounded",
-      "why_now": "",
-      "pe_activity": [],
-      "investability": "open",
-      "investability_note": "",
-      "child_ids": []
     },
     "medical-value-chain/healthcare-services-outsourcing/non-emergency-patient-transport-krankenfahrten-krankentransport": {
       "id": "medical-value-chain/healthcare-services-outsourcing/non-emergency-patient-transport-krankenfahrten-krankentransport",
@@ -7479,7 +7270,6 @@
         "medical-value-chain/distribution-medical-retail/hearing-aid-acoustics-horakustik",
         "medical-value-chain/distribution-medical-retail/optics-optometry-augenoptik",
         "medical-value-chain/distribution-medical-retail/orthopaedic-technology-shoe-making-orthopadietechnik-schuhtechnik",
-        "medical-value-chain/distribution-medical-retail/dental-laboratories-zahntechnik-dentallabore",
         "medical-value-chain/distribution-medical-retail/dental-veterinary-supply-distribution-dentaldepot-veterinargrosshandel"
       ]
     },
@@ -8269,69 +8059,6 @@
       "investability_note": "Zulassungspflichtiges Handwerk (Meisterpflicht) plus Hilfsmittel-Prequalifizierung needed; acquirable via share deal with employed Meister but licence friction.",
       "child_ids": []
     },
-    "medical-value-chain/distribution-medical-retail/dental-laboratories-zahntechnik-dentallabore": {
-      "id": "medical-value-chain/distribution-medical-retail/dental-laboratories-zahntechnik-dentallabore",
-      "name": "Dental Laboratories (Zahntechnik / Dentallabore)",
-      "parent_id": "medical-value-chain/distribution-medical-retail",
-      "level": 2,
-      "path": [
-        "Medical value chain",
-        "Distribution & Medical Retail",
-        "Dental Laboratories (Zahntechnik / Dentallabore)"
-      ],
-      "value_chain_stage": "distribution",
-      "description": "Meister-regulated commercial dental labs fabricating crowns, dentures, aligners and implant work for dentists; a large fragmented craft base declining in count and facing succession gaps - classic roll-up territory.",
-      "scores": {
-        "recurring": 4,
-        "fragmentation": 5,
-        "compliance": 4,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
-      },
-      "rationale": {
-        "recurring": "Steady B2B order flow from dentist practices with statutory dental-prosthetics (Zahnersatz) fixed-subsidy demand; repeat but re-won per case.",
-        "fragmentation": "~6,994 commercial labs (2024), declining ~3.4%/yr, overwhelmingly small Meisterbetriebe with only ~197 new masters/yr.",
-        "compliance": "Meisterpflicht (HwO Anlage A) and MDR device rules; regulated craft but demand not purely statute-mandated."
-      },
-      "composite": 83.3,
-      "dach_signals": {
-        "est_players": "~6,994 commercial dental labs (2024)",
-        "revenue_band_eur": "market ~EUR 4.8bn (2023); EUR 0.5-5m typical per lab",
-        "example_companies": [
-          "flexident/regional groups",
-          "Permadental",
-          "imex",
-          "independent Meisterlabore"
-        ],
-        "regulation": [
-          "Handwerksordnung Meisterpflicht (Anlage A)",
-          "MDR",
-          "SGB V Zahnersatz-Festzuschuss (Sec.55/56)"
-        ]
-      },
-      "sources": [
-        {
-          "title": "Ruecklaeufige Entwicklung der Betriebszahlen in der Zahntechnik - Rebmann Research",
-          "url": "https://www.rebmann-research.de/zahntechnik-betriebszahlen-ruecklaeufig",
-          "note": "~6,994 labs (2024), -3.4% decline, ~197 new masters/yr"
-        },
-        {
-          "title": "Umsatz der Dentallabor-Branche steigt auf 4,8 Mrd. Euro - Rebmann Research",
-          "url": "https://www.rebmann-research.de/branchenumsatz-der-dentallabore-stieg-im-jahr-2023-auf-rund-48-mrd-euro",
-          "note": "Commercial dental lab market ~EUR 4.8bn (2023)"
-        }
-      ],
-      "confidence": 4,
-      "status": "grounded",
-      "why_now": "",
-      "pe_activity": [],
-      "investability": "open",
-      "investability_note": "",
-      "child_ids": []
-    },
     "medical-value-chain/distribution-medical-retail/dental-veterinary-supply-distribution-dentaldepot-veterinargrosshandel": {
       "id": "medical-value-chain/distribution-medical-retail/dental-veterinary-supply-distribution-dentaldepot-veterinargrosshandel",
       "name": "Dental & Veterinary Supply Distribution (Dentaldepot / Veterinargrosshandel)",
@@ -9059,13 +8786,17 @@
       },
       "composite": 58.3,
       "dach_signals": {
-        "est_players": "~5-6 German MDR notified bodies",
+        "est_players": "~8 German MDR-designated notified bodies (ZLG): TUEV SUED (0123), TUEV Rheinland LGA (0197), DEKRA (0124), TUEV NORD CERT (0044), DQS Medizinprodukte (0297), mdc (0483), VDE, Berlin Cert",
         "revenue_band_eur": "Multi-EUR 100m certification divisions",
         "example_companies": [
-          "TÜV SÜD Product Service",
-          "TÜV Rheinland",
-          "DEKRA",
-          "mdc"
+          "TUEV SUED Product Service",
+          "TUEV Rheinland LGA Products",
+          "DEKRA Certification",
+          "TUEV NORD CERT",
+          "DQS Medizinprodukte",
+          "mdc medical device certification",
+          "VDE",
+          "Berlin Cert"
         ],
         "regulation": [
           "MDR (EU) 2017/745",
@@ -9077,14 +8808,19 @@
           "title": "ZLG Notified Bodies",
           "url": "https://www.zlg.de/en/medical-devices/documents/bodies/notified-bodies-90385ewg",
           "note": "German notified-body register"
+        },
+        {
+          "title": "Climedo - Complete List of MDR-certified Notified Bodies",
+          "url": "https://climedo.de/en/blog/list-of-mdr-certified-notified-bodies/",
+          "note": "Corroborates the named German MDR notified bodies and their Kennummern"
         }
       ],
       "confidence": 4,
       "status": "grounded",
       "why_now": "",
       "pe_activity": [],
-      "investability": "open",
-      "investability_note": "",
+      "investability": "restricted",
+      "investability_note": "Designation-gated, near-closed oligopoly of ~8 German MDR-designated notified bodies (ZLG-designated); effectively not a roll-up/buy-and-build field - designations are body-specific and non-transferable.",
       "child_ids": []
     },
     "medical-value-chain/payers-regulatory-ecosystem/medical-device-certification-auditing-bodies-benannte-stellen-notified-bodies/iso-13485-qms-certification-auditing": {
@@ -11377,13 +11113,14 @@
         "scale": 4,
         "margin": 5,
         "growth": 4,
-        "headroom": 3,
+        "headroom": 2,
         "reimbursement_risk": 1
       },
       "rationale": {
         "recurring": "Mandatory periodic electrical-safety re-tests (6-24 month intervals) produce statutory recurring revenue",
         "fragmentation": "Hundreds of small e-check/Elektrotechnik firms (EFM, KS, ITB7, GHG, bau-medizintechnik) offer this bundled with STK; no consolidator",
-        "compliance": "DGUV V3 (BetrSichV/employer duty) plus DIN EN 62353 make testing legally required for operators"
+        "compliance": "DGUV V3 (BetrSichV/employer duty) plus DIN EN 62353 make testing legally required for operators",
+        "headroom": "Lowered from 3 to 2: a commoditised, standardised (DGUV V3 / DIN EN 62353) recurring test that is already consolidating; aligned with its own level-4 child 'Electrical-safety inspection under DGUV Vorschrift 3' scored headroom=2."
       },
       "composite": 91.7,
       "dach_signals": {
@@ -11431,6 +11168,11 @@
           "title": "VDE-Prüfung medizinischer Geräte (DIN EN 62353) | KS Medizintechnik",
           "url": "https://www.ksmedizintechnik.de/info-service/technischer-kundendienst/vde-pruefung-medizinischer-geraete-din-en-62353/",
           "note": "Recurring statutory MPBetreibV-driven safety testing billed to device operators, not statutory tariff."
+        },
+        {
+          "title": "DGUV - Vorschriften und Regeln (DGUV Vorschrift 3)",
+          "url": "https://www.dguv.de/de/praevention/vorschriften-regeln/index.jsp",
+          "note": "Confirms standardised, prescribed recurring electrical-safety testing regime -> commoditised, limited headroom"
         }
       ],
       "confidence": 4,
@@ -13253,7 +12995,7 @@
         "SGB V Medical Home Care (Behandlungspflege / häusliche Krankenpflege)"
       ],
       "value_chain_stage": "provider",
-      "description": "Physician-prescribed medical acts at home (wound care, injections, medication management, compression) billed to statutory health insurance under SGB V §37; higher-margin, nurse-qualified line offered by nearly all Pflegedienste alongside SGB XI care.",
+      "description": "Physician-prescribed medical acts at home (wound care, injections, medication management, compression) billed to statutory health insurance under SGB V §37; higher-margin, nurse-qualified line offered by nearly all Pflegedienste alongside SGB XI care. NOTE: this is the SAME provider universe as the SGB XI Basic Care leaf (~96% of ambulante Pflegedienste bill both SGB V and SGB XI); it is a billing-line split, not a distinct population - do not double-count.",
       "scores": {
         "recurring": 5,
         "fragmentation": 5,
@@ -13267,11 +13009,12 @@
       "rationale": {
         "recurring": "Repeat Verordnungen (e.g. daily insulin, chronic wounds) generate multi-month statutory-funded contracts re-issued by GPs.",
         "fragmentation": "Delivered by the same ~15,000 fragmented SMEs; specialist wound/stoma niches even more scattered.",
-        "compliance": "Every act requires a physician Verordnung plus SGB V §132a Kassenzulassung and MD audit — regulation gates market entry."
+        "compliance": "Every act requires a physician Verordnung plus SGB V §132a Kassenzulassung and MD audit — regulation gates market entry.",
+        "population_overlap": "Same provider base as the SGB XI Basic Care leaf; ~96% of services deliver both lines. Treat SGB V and SGB XI as billing segments of one universe when sizing the market."
       },
       "composite": 72.5,
       "dach_signals": {
-        "est_players": "~17,938 ambulante Pflegedienste in Germany (2025, pflegemarkt.com); the large majority also bill SGB V häusliche Krankenpflege",
+        "est_players": "~15,400 ambulante Pflegedienste in Germany (Destatis Pflegestatistik 2023); the large majority also bill SGB V haeusliche Krankenpflege",
         "revenue_band_eur": "EUR 0.5-5m typical per service; specialised wound-management units carry higher margins",
         "example_companies": [
           "advita Pflegedienst",
@@ -13319,6 +13062,11 @@
           "title": "Ambulante Wundversorgung (Medical Wundmanagement)",
           "url": "https://medical-wundmanagement.de/ambulante-wundversorgung/",
           "note": "IK-Partners-backed wound pure-play; long tail of ~18k Pflegedienste still fragmented"
+        },
+        {
+          "title": "Destatis - Pflegeeinrichtungen in Deutschland (Pflegestatistik 2023)",
+          "url": "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Gesundheit/Pflege/Tabellen/pflegeeinrichtungen-deutschland.html",
+          "note": "Supports ~15,400 ambulante Pflegedienste (2023) - corrects the ~17,938 (2025) figure"
         }
       ],
       "confidence": 4,
@@ -13394,79 +13142,6 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
-      "child_ids": []
-    },
-    "medical-value-chain/care-delivery-providers/outpatient-mobile-nursing-services-ambulante-pflegedienste/day-care-tagespflege-teilstationar": {
-      "id": "medical-value-chain/care-delivery-providers/outpatient-mobile-nursing-services-ambulante-pflegedienste/day-care-tagespflege-teilstationar",
-      "name": "Day Care (Tagespflege / teilstationär)",
-      "parent_id": "medical-value-chain/care-delivery-providers/outpatient-mobile-nursing-services-ambulante-pflegedienste",
-      "level": 3,
-      "path": [
-        "Medical value chain",
-        "Care Delivery & Providers",
-        "Outpatient / Mobile Nursing Services (Ambulante Pflegedienste)",
-        "Day Care (Tagespflege / teilstationär)"
-      ],
-      "value_chain_stage": "provider",
-      "description": "Semi-residential day facilities (transport, care, activation) bridging home and inpatient care under SGB XI §41; ~96,000 places nationally and one of the fastest-growing (+16% p.a.) real-estate-plus-care asset classes.",
-      "scores": {
-        "recurring": 5,
-        "fragmentation": 5,
-        "compliance": 4,
-        "scale": 5,
-        "margin": 2,
-        "growth": 5,
-        "headroom": 3,
-        "reimbursement_risk": 3
-      },
-      "rationale": {
-        "recurring": "Pflegegrad 2-5 clients attend fixed weekly days for years, funded as separate SGB XI §41 budget.",
-        "fragmentation": "Highly local, capacity split across thousands of small operators; capacity growing double-digit with no consolidator.",
-        "compliance": "Requires §72 Versorgungsvertrag and MD audit; regulated but funding/real-estate drive economics."
-      },
-      "composite": 73.3,
-      "dach_signals": {
-        "est_players": "~96,200 Tagespflege places (DE Dec 2021, +16% p.a.)",
-        "revenue_band_eur": "EUR 0.3-2m per site",
-        "example_companies": [
-          "advita Tagespflege",
-          "Kursana",
-          "regional Tagespflege operators"
-        ],
-        "regulation": [
-          "SGB XI §41 Tages-/Nachtpflege",
-          "SGB XI §72 Versorgungsvertrag",
-          "Länder-Heimrecht/Bauvorgaben"
-        ]
-      },
-      "sources": [
-        {
-          "title": "§ 41 SGB XI Tagespflege und Nachtpflege - gesetze-im-internet",
-          "url": "https://www.gesetze-im-internet.de/sgb_11/__41.html",
-          "note": "legal basis for teilstationäre Tagespflege"
-        },
-        {
-          "title": "Pflegestatistik 2021 - SozialGestaltung",
-          "url": "https://sozialgestaltung.de/pflegestatistik-2021/",
-          "note": "~96,200 Tagespflege places, +16% growth"
-        },
-        {
-          "title": "Konsolidierung im deutschen Pflegemarkt 2026 (MSI Partners)",
-          "url": "https://msi-partners.de/konsolidierung-pflegemarkt",
-          "note": "Buy-and-build PE explicitly targeting Tagespflege into regional platforms; ambulant top-10 only ~12% share."
-        },
-        {
-          "title": "Insolvenzen und Private Equity praegten 2025 den M&A-Markt (PwC)",
-          "url": "https://www.pwc.de/de/pressemitteilungen/2026/insolvenzen-und-private-equity-praegten-2025-den-m-and-a-markt-im-gesundheitswesen.html",
-          "note": "Record 79 care-sector transactions in 2025; ongoing consolidation confirms both tailwind and partial headroom use."
-        }
-      ],
-      "confidence": 4,
-      "status": "verified",
-      "why_now": "",
-      "pe_activity": [],
-      "investability": "open",
-      "investability_note": "Tagespflege operators freely acquirable via Versorgungsvertrag; capital-heavy (real estate) and PE buy-and-build already running.",
       "child_ids": []
     },
     "medical-value-chain/care-delivery-providers/outpatient-mobile-nursing-services-ambulante-pflegedienste/dementia-everyday-support-services-betreuungsdienste-45a": {
@@ -14158,11 +13833,12 @@
       "rationale": {
         "recurring": "DFS patients require regular (often 4-6 weekly) statutory-funded treatment cycles, making it the most recurring Heilmittel segment.",
         "fragmentation": "Thousands of small owner-run Podologie practices plus a huge adjacent non-medical Fusspflege long tail, no consolidator.",
-        "compliance": "Podologengesetz (PodG) protected title plus §124 SGB V Zulassung mandatory to bill GKV for DFS."
+        "compliance": "Podologengesetz (PodG) protected title plus §124 SGB V Zulassung mandatory to bill GKV for DFS.",
+        "sourcing": "Dropped the future-dated (June 2026), low-authority listflix.de citation; re-anchored the magnitude to the Statista/Bundesagentur fuer Arbeit employed-Podologen series and BV-Podologie sector reporting."
       },
       "composite": 69.2,
       "dach_signals": {
-        "est_players": "~3,504 podology practices in Germany (June 2026, listflix.de / Statista beschaeftigte Podologen); large non-medical Fusspflege long tail on top",
+        "est_players": "~3,500 podology practices (firm-directory estimate); order of magnitude corroborated by ~thousands of employed Podologen tracked by the Bundesagentur fuer Arbeit / Statista series; large non-medical Fusspflege long tail on top",
         "revenue_band_eur": "EUR 0.1-0.5m typical per practice",
         "example_companies": [
           "single-site Podologie/Fusspflege praxis operators"
@@ -14209,6 +13885,11 @@
           "title": "Podologische Therapie beim Diabetischen Fußsyndrom – DDG",
           "url": "https://www.ddg.info/politik/stellungnahmen/podologische-therapie-beim-diabetischen-fusssyndrom",
           "note": "Structural demand tailwind from rising diabetes / diabetic-foot syndrome."
+        },
+        {
+          "title": "Der Fuss - Ein rares Gut: der Podologe",
+          "url": "https://der-fuss.de/ein-rares-gut-der-podologe/",
+          "note": "BV-Podologie/sector reporting on podologist scarcity and practice base"
         }
       ],
       "confidence": 3,
@@ -15915,75 +15596,6 @@
       "investability_note": "",
       "child_ids": []
     },
-    "medical-value-chain/healthcare-services-outsourcing/sterile-reprocessing-aemp-zsva-outsourcing/outsourced-hospital-cssd-aemp-operation": {
-      "id": "medical-value-chain/healthcare-services-outsourcing/sterile-reprocessing-aemp-zsva-outsourcing/outsourced-hospital-cssd-aemp-operation",
-      "name": "Outsourced hospital CSSD / AEMP operation",
-      "parent_id": "medical-value-chain/healthcare-services-outsourcing/sterile-reprocessing-aemp-zsva-outsourcing",
-      "level": 3,
-      "path": [
-        "Medical value chain",
-        "Healthcare Services & Outsourcing",
-        "Sterile Reprocessing & AEMP/ZSVA Outsourcing",
-        "Outsourced hospital CSSD / AEMP operation"
-      ],
-      "value_chain_stage": "services",
-      "description": "Full outsourcing or managed operation of a hospital's central sterile supply department (AEMP/ZSVA), processing surgical instrument sets at scale under long-term contracts.",
-      "scores": {
-        "recurring": 5,
-        "fragmentation": 3,
-        "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
-      },
-      "rationale": {
-        "recurring": "Multi-year outsourcing/operating contracts; every surgery generates reprocessing volume = mandatory, continuous throughput.",
-        "fragmentation": "Capital- and validation-intensive; a handful of specialist operators (cleanpart healthcare, Getinge/Belimed-linked, hospital JV GmbHs) rather than a long tail.",
-        "compliance": "MPBetreibV plus KRINKO/BfArM reprocessing recommendation and DIN EN ISO 13485 QMS make certified process validation legally mandatory."
-      },
-      "composite": 83.3,
-      "dach_signals": {
-        "est_players": "~10-20 specialist operators + hospital-owned AEMP GmbHs",
-        "revenue_band_eur": "EUR 3-50m per large facility",
-        "example_companies": [
-          "cleanpart healthcare",
-          "SterilGut GmbH (Uniklinik Köln)",
-          "KWE Service"
-        ],
-        "regulation": [
-          "MPBetreibV",
-          "KRINKO/BfArM-Empfehlung (Aufbereitung von Medizinprodukten)",
-          "DIN EN ISO 13485",
-          "MDR"
-        ]
-      },
-      "sources": [
-        {
-          "title": "SterilGut GmbH - Uniklinik Köln",
-          "url": "https://www.uk-koeln.de/uniklinik-koeln/sterilgut-gmbh/",
-          "note": ">150,000 sterilisation units/year, one of Germany's largest AEMP operations; MPBetreibV/KRINKO/BfArM compliance"
-        },
-        {
-          "title": "Vanguard verkauft Geschäftsbereich Sterilgutversorgung - kma",
-          "url": "https://www.kma-online.de/aktuelles/wirtschaft/detail/vanguard-verkauft-geschaeftsbereich-sterilgutversorgung-a-32219",
-          "note": "Vanguard's DACH CSSD outsourcing business (IVS GmbH) sold to cleanpart healthcare"
-        },
-        {
-          "title": "Sterilgutaufbereitung - KWE Service",
-          "url": "https://www.kwe-service.de/de/sterilgutaufbereitung",
-          "note": "Outsourced instrument reprocessing service provider"
-        }
-      ],
-      "confidence": 4,
-      "status": "grounded",
-      "why_now": "",
-      "pe_activity": [],
-      "investability": "open",
-      "investability_note": "",
-      "child_ids": []
-    },
     "medical-value-chain/healthcare-services-outsourcing/sterile-reprocessing-aemp-zsva-outsourcing/dental-practice-instrument-reprocessing": {
       "id": "medical-value-chain/healthcare-services-outsourcing/sterile-reprocessing-aemp-zsva-outsourcing/dental-practice-instrument-reprocessing",
       "name": "Dental / practice instrument reprocessing",
@@ -16195,70 +15807,6 @@
       "investability_note": "",
       "child_ids": []
     },
-    "medical-value-chain/diagnostics-laboratory/pathologie-histologie/ambulant-pathology-mvz-roll-ups": {
-      "id": "medical-value-chain/diagnostics-laboratory/pathologie-histologie/ambulant-pathology-mvz-roll-ups",
-      "name": "Ambulant Pathology MVZ Roll-ups",
-      "parent_id": "medical-value-chain/diagnostics-laboratory/pathologie-histologie",
-      "level": 3,
-      "path": [
-        "Medical value chain",
-        "Diagnostics & Laboratory",
-        "Pathologie & Histologie",
-        "Ambulant Pathology MVZ Roll-ups"
-      ],
-      "value_chain_stage": "diagnostics",
-      "description": "Owner-operated pathology institutes and MVZ providing histology/immunohistochemistry to hospitals and office-based physicians on referral, a prime PE buy-and-build target in DACH given statutory (GKV/EBM) reimbursement.",
-      "scores": {
-        "recurring": 4,
-        "fragmentation": 5,
-        "compliance": 4,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
-      },
-      "rationale": {
-        "recurring": "Referral-driven, statutory-funded case flow with high repeat volumes tied to oncology/screening pathways, though contracts are re-won per referrer.",
-        "fragmentation": "Hundreds of independent pathology institutes/MVZ; PE ownership of ambulatory practices grew from ~425 (2018) to ~750 (2020) locations, leaving a long fragmented tail.",
-        "compliance": "MVZ formation, KV-Zulassung, RiliBAEK lab quality and IHC accreditation are mandatory operating gates but not the demand driver."
-      },
-      "composite": 83.3,
-      "dach_signals": {
-        "est_players": "~200-300 pathology institutes/MVZ in DE",
-        "revenue_band_eur": "EUR 2-15m typical per institute",
-        "example_companies": [
-          "MVZ Institut fuer Pathologie",
-          "Sonic Healthcare Germany",
-          "Charite Vivantes pathology MVZ networks"
-        ],
-        "regulation": [
-          "SGB V MVZ regime",
-          "KV-Zulassung",
-          "RiliBAEK",
-          "EBM/GOA reimbursement"
-        ]
-      },
-      "sources": [
-        {
-          "title": "Private Finanzinvestoren breiten sich in der ambulanten Medizin aus - Deutsches Aerzteblatt",
-          "url": "https://www.aerzteblatt.de/news/private-finanzinvestoren-breiten-sich-in-der-ambulanten-medizin-aus-2cabed55-c9c8-4fe4-9ef0-674ecdbe5e88",
-          "note": "PE ownership of ambulatory MVZ locations grew 425 (2018) to 750 (2020)"
-        },
-        {
-          "title": "Ambulante Versorgung: Private-Equity-Gesellschaften rasant auf dem Vormarsch - BLAEK",
-          "url": "https://www.blaek.de/meta/presse/presseinformationen/presseinformationen-2025/ambulante-versorgung-unter-druck-private-equity-gesellschaften-rasant-auf-dem-vormarsch",
-          "note": "PE targets specialties with high equipment/technical intensity"
-        }
-      ],
-      "confidence": 3,
-      "status": "grounded",
-      "why_now": "",
-      "pe_activity": [],
-      "investability": "open",
-      "investability_note": "",
-      "child_ids": []
-    },
     "medical-value-chain/diagnostics-laboratory/pathologie-histologie/dermatopathology-labs": {
       "id": "medical-value-chain/diagnostics-laboratory/pathologie-histologie/dermatopathology-labs",
       "name": "Dermatopathology Labs",
@@ -16312,70 +15860,6 @@
           "title": "Dermatopathologisches und Pathologisches Einsendelabor Hamburg",
           "url": "https://www.dermatopathologie-hamburg.de/",
           "note": "25+ year specialist mail-in dermatopathology lab"
-        }
-      ],
-      "confidence": 4,
-      "status": "grounded",
-      "why_now": "",
-      "pe_activity": [],
-      "investability": "open",
-      "investability_note": "",
-      "child_ids": []
-    },
-    "medical-value-chain/diagnostics-laboratory/pathologie-histologie/molecular-companion-diagnostics-labs": {
-      "id": "medical-value-chain/diagnostics-laboratory/pathologie-histologie/molecular-companion-diagnostics-labs",
-      "name": "Molecular / Companion-Diagnostics Labs",
-      "parent_id": "medical-value-chain/diagnostics-laboratory/pathologie-histologie",
-      "level": 3,
-      "path": [
-        "Medical value chain",
-        "Diagnostics & Laboratory",
-        "Pathologie & Histologie",
-        "Molecular / Companion-Diagnostics Labs"
-      ],
-      "value_chain_stage": "diagnostics",
-      "description": "NGS/PCR molecular pathology providing predictive/companion biomarker testing (EGFR, HRD, TMB, TSO500) that gates targeted oncology therapy, a fast-growing high-value segment.",
-      "scores": {
-        "recurring": 4,
-        "fragmentation": 4,
-        "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
-      },
-      "rationale": {
-        "recurring": "Every new tumour case requires molecular workup; recurring statutory/NUB reimbursed testing tied to therapy decisions.",
-        "fragmentation": "Concentrating around molecular-pathology consortia (e.g. GENOPATH: 34 pathologists across 11 sites) but still many university and private labs; mid-fragmented.",
-        "compliance": "IVDR, companion-diagnostics CE-marking linkage, accreditation and drug-label-bound testing make compliance the core buying driver."
-      },
-      "composite": 83.3,
-      "dach_signals": {
-        "est_players": "~40-60 molecular pathology labs in DE",
-        "revenue_band_eur": "EUR 3-25m typical",
-        "example_companies": [
-          "GENOPATH GbR",
-          "Patho Augusta",
-          "Institut fuer Pathologie Regensburg"
-        ],
-        "regulation": [
-          "EU IVDR 2017/746",
-          "companion-diagnostics CE labelling",
-          "RiliBAEK",
-          "NUB/EBM molecular positions"
-        ]
-      },
-      "sources": [
-        {
-          "title": "Molekularpathologie - Genopath GbR",
-          "url": "https://www.genopath.de/",
-          "note": "34 pathologists, 11 sites, TSO500 500+ gene NGS panels, HRD/TMB"
-        },
-        {
-          "title": "Molekulare Diagnostik - Patho Augusta",
-          "url": "https://www.patho-augusta.de/molekulare-diagnostik/",
-          "note": "NGS companion diagnostics provider"
         }
       ],
       "confidence": 4,
@@ -16449,133 +15933,6 @@
       "investability_note": "",
       "child_ids": []
     },
-    "medical-value-chain/diagnostics-laboratory/radiologie-bildgebung-imaging-centres/ambulant-radiology-mvz-platforms": {
-      "id": "medical-value-chain/diagnostics-laboratory/radiologie-bildgebung-imaging-centres/ambulant-radiology-mvz-platforms",
-      "name": "Ambulant Radiology MVZ Platforms",
-      "parent_id": "medical-value-chain/diagnostics-laboratory/radiologie-bildgebung-imaging-centres",
-      "level": 3,
-      "path": [
-        "Medical value chain",
-        "Diagnostics & Laboratory",
-        "Radiologie & Bildgebung (Imaging Centres)",
-        "Ambulant Radiology MVZ Platforms"
-      ],
-      "value_chain_stage": "diagnostics",
-      "description": "Capital-intensive office-based radiology chains (MRI/CT/X-ray) formed by rolling up practices under national holdings, the most PE-consolidated ambulatory segment in Germany.",
-      "scores": {
-        "recurring": 4,
-        "fragmentation": 4,
-        "compliance": 4,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
-      },
-      "rationale": {
-        "recurring": "Statutory-funded high-throughput imaging with steady referral flow; ~1,927 radiologists across 413 radiology MVZ (2022).",
-        "fragmentation": "Consolidating fast: ~90% of practice acquisitions since 2021 by investors, Evidia (~82 sites) leading, but a long independent tail remains.",
-        "compliance": "Strahlenschutzgesetz/StrlSchV, KV-Zulassung and device QA mandatory; heavy but not the demand driver."
-      },
-      "composite": 75.0,
-      "dach_signals": {
-        "est_players": "~413 radiology MVZ / consolidating platforms",
-        "revenue_band_eur": "EUR 5-50m per platform site cluster",
-        "example_companies": [
-          "Evidia GmbH",
-          "radprax (Quartz Healthcare)",
-          "Blikk / Meine Radiologie (EQT)"
-        ],
-        "regulation": [
-          "StrlSchG / StrlSchV",
-          "SGB V MVZ regime",
-          "KV-Zulassung",
-          "Grossgeraeteplanung"
-        ]
-      },
-      "sources": [
-        {
-          "title": "Deutsche Radiologie in Zahlen - Radiologie.de",
-          "url": "https://www.radiologie.de/deutsche-radiologie-zahlen/",
-          "note": "413 radiology MVZ, 1,927 radiologists (2022)"
-        },
-        {
-          "title": "Evolution oder Revolution - Siemens Healthineers",
-          "url": "https://www.siemens-healthineers.com/de/news/radiologie-evolution-oder-revolution",
-          "note": "~90% of practice acquisitions since 2021 by investors; Evidia ~82 sites"
-        }
-      ],
-      "confidence": 4,
-      "status": "grounded",
-      "why_now": "",
-      "pe_activity": [],
-      "investability": "open",
-      "investability_note": "",
-      "child_ids": []
-    },
-    "medical-value-chain/diagnostics-laboratory/radiologie-bildgebung-imaging-centres/teleradiology-night-overflow-reading": {
-      "id": "medical-value-chain/diagnostics-laboratory/radiologie-bildgebung-imaging-centres/teleradiology-night-overflow-reading",
-      "name": "Teleradiology Night / Overflow Reading",
-      "parent_id": "medical-value-chain/diagnostics-laboratory/radiologie-bildgebung-imaging-centres",
-      "level": 3,
-      "path": [
-        "Medical value chain",
-        "Diagnostics & Laboratory",
-        "Radiologie & Bildgebung (Imaging Centres)",
-        "Teleradiology Night / Overflow Reading"
-      ],
-      "value_chain_stage": "services",
-      "description": "24/7 remote CT/MRI/X-ray reading for hospitals lacking on-site radiologists at night/weekends, a regulated telemedicine service filling rural and shift gaps.",
-      "scores": {
-        "recurring": 4,
-        "fragmentation": 3,
-        "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
-      },
-      "rationale": {
-        "recurring": "Contractual per-clinic service agreements with predictable overnight volumes; market leader reif & moeller reads 218,000 studies/yr for 140+ clinics.",
-        "fragmentation": "A handful of scaled networks plus many small teleradiology providers; consolidating around quality leaders.",
-        "compliance": "StrlSchG makes teleradiology permission-gated (night/weekend/rural), 5-year approvals and strict process integration - compliance is the operating core."
-      },
-      "composite": 75.0,
-      "dach_signals": {
-        "est_players": "~20-40 teleradiology providers in DE",
-        "revenue_band_eur": "EUR 1-20m typical",
-        "example_companies": [
-          "reif & moeller Netzwerk",
-          "Reling / die-teleradiologie.net",
-          "Radiology Advanced"
-        ],
-        "regulation": [
-          "StrlSchG (Teleradiologie-Genehmigung)",
-          "StrlSchV",
-          "landesbehoerdliche Genehmigung max 5 Jahre"
-        ]
-      },
-      "sources": [
-        {
-          "title": "Teleradiologie fuer Kliniken - reif & moeller",
-          "url": "https://reif-moeller.de/teleradiologie",
-          "note": "140+ clinics, 218,000 reads/year, 70+ radiologists"
-        },
-        {
-          "title": "Das Strahlenschutzgesetz in der Teleradiologie - Radiology Advanced",
-          "url": "https://www.radiology-advanced.com/news/newsdetails/strahlenschutzgesetz-in-der-teleradiologie.html",
-          "note": "permission-gated night/weekend/rural regime, 5-year approvals"
-        }
-      ],
-      "confidence": 4,
-      "status": "grounded",
-      "why_now": "",
-      "pe_activity": [],
-      "investability": "open",
-      "investability_note": "",
-      "child_ids": []
-    },
     "medical-value-chain/diagnostics-laboratory/radiologie-bildgebung-imaging-centres/mammography-screening-units": {
       "id": "medical-value-chain/diagnostics-laboratory/radiologie-bildgebung-imaging-centres/mammography-screening-units",
       "name": "Mammography-Screening Units",
@@ -16633,70 +15990,6 @@
         }
       ],
       "confidence": 5,
-      "status": "grounded",
-      "why_now": "",
-      "pe_activity": [],
-      "investability": "open",
-      "investability_note": "",
-      "child_ids": []
-    },
-    "medical-value-chain/diagnostics-laboratory/radiologie-bildgebung-imaging-centres/nuclear-medicine-pet-ct": {
-      "id": "medical-value-chain/diagnostics-laboratory/radiologie-bildgebung-imaging-centres/nuclear-medicine-pet-ct",
-      "name": "Nuclear Medicine / PET-CT",
-      "parent_id": "medical-value-chain/diagnostics-laboratory/radiologie-bildgebung-imaging-centres",
-      "level": 3,
-      "path": [
-        "Medical value chain",
-        "Diagnostics & Laboratory",
-        "Radiologie & Bildgebung (Imaging Centres)",
-        "Nuclear Medicine / PET-CT"
-      ],
-      "value_chain_stage": "diagnostics",
-      "description": "Ambulant nuclear-medicine and PET-CT centres (oncology, PSMA, cardiac) requiring radiopharmacy supply, licensing and high-value scanners, a capex-heavy specialist niche.",
-      "scores": {
-        "recurring": 4,
-        "fragmentation": 4,
-        "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
-      },
-      "rationale": {
-        "recurring": "Oncology restaging and theranostics drive repeat scan volumes; statutory plus growing PSMA/theranostic reimbursement.",
-        "fragmentation": "Many owner-operated Nuklearmedizin practices (Curanosticum, radiomed, med360grad) alongside university clinics; no dominant consolidator.",
-        "compliance": "StrlSchG radiopharmaceutical handling licences, AMG isotope supply and device QA make compliance a hard operating gate."
-      },
-      "composite": 83.3,
-      "dach_signals": {
-        "est_players": "~200+ nuclear-medicine practices, ~150 PET-CT sites in DE",
-        "revenue_band_eur": "EUR 2-15m typical",
-        "example_companies": [
-          "Curanosticum Wiesbaden",
-          "radiomed",
-          "med360grad"
-        ],
-        "regulation": [
-          "StrlSchG / StrlSchV",
-          "AMG (Radiopharmaka)",
-          "KV-Zulassung",
-          "EBM/GOA PET positions"
-        ]
-      },
-      "sources": [
-        {
-          "title": "PET/CT-Standorte - Deutsche Gesellschaft fuer Nuklearmedizin",
-          "url": "https://www.nuklearmedizin.de/patienten/standorte/standort_search.php",
-          "note": "national PET-CT site directory"
-        },
-        {
-          "title": "Curanosticum Nuklearmedizin & PET-CT Wiesbaden",
-          "url": "https://www.curanosticum.de/",
-          "note": "high-volume ambulant PET-CT tumour/inflammation imaging"
-        }
-      ],
-      "confidence": 3,
       "status": "grounded",
       "why_now": "",
       "pe_activity": [],
@@ -17607,6 +16900,169 @@
         }
       ],
       "confidence": 3,
+      "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
+      "investability": "open",
+      "investability_note": "",
+      "child_ids": []
+    },
+    "medical-value-chain/care-delivery-providers/outpatient-physician-roll-ups-via-mvz/gastroenterology-endoscopy-mvz-gastroenterologie-endoskopie": {
+      "id": "medical-value-chain/care-delivery-providers/outpatient-physician-roll-ups-via-mvz/gastroenterology-endoscopy-mvz-gastroenterologie-endoskopie",
+      "name": "Gastroenterology / Endoscopy MVZ (Gastroenterologie / Endoskopie)",
+      "parent_id": "medical-value-chain/care-delivery-providers/outpatient-physician-roll-ups-via-mvz",
+      "level": 3,
+      "path": [
+        "Medical value chain",
+        "Care Delivery & Providers",
+        "Outpatient Physician Roll-ups via MVZ",
+        "Gastroenterology / Endoscopy MVZ (Gastroenterologie / Endoskopie)"
+      ],
+      "value_chain_stage": "provider",
+      "description": "Ambulant gastroenterology/endoscopy practices and MVZ delivering recurring screening colonoscopy under the G-BA organised colorectal-cancer screening programme (oKFE-RL) plus diagnostic/therapeutic endoscopy. Fragmented specialist base actively being consolidated into MVZ roll-ups; previously absent from the MVZ children.",
+      "scores": {
+        "recurring": 4,
+        "fragmentation": 5,
+        "compliance": 4,
+        "scale": 0,
+        "margin": 0,
+        "growth": 0,
+        "headroom": 0,
+        "reimbursement_risk": 0
+      },
+      "rationale": {
+        "thesis": "Recurring, guideline-scheduled screening demand (oKFE-RL) with an ageing population, a fragmented Facharzt base, and demonstrated PE appetite for procedure-heavy ambulant specialties."
+      },
+      "composite": 83.3,
+      "dach_signals": {
+        "est_players": "Fragmented base of ambulant Gastroenterologie practices/MVZ (several hundred+ ambulant endoscopy sites); exact count not independently verified here",
+        "revenue_band_eur": "EUR 1-3m typical per practice; platform roll-ups larger",
+        "example_companies": [],
+        "regulation": [
+          "oKFE-RL / KFE-RL (G-BA organised cancer screening)",
+          "SGB V",
+          "MVZ Zulassung",
+          "EBM/GOAe"
+        ]
+      },
+      "sources": [
+        {
+          "title": "G-BA - Richtlinien (oKFE-RL organised cancer screening)",
+          "url": "https://www.g-ba.de/richtlinien/17/",
+          "note": "Supports the reimbursed, recurring screening-colonoscopy demand basis"
+        },
+        {
+          "title": "Deloitte - The Future of Private-Equity-led Medical Care Centers",
+          "url": "https://www.deloitte.com/de/de/services/consulting-financial/analysis/future-of-private-equity-led-medical-care-centers.html",
+          "note": "Supports active PE consolidation of ambulant specialty MVZ in Germany"
+        }
+      ],
+      "confidence": 0,
+      "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
+      "investability": "open",
+      "investability_note": "",
+      "child_ids": []
+    },
+    "medical-value-chain/care-delivery-providers/aesthetic-self-pay-medicine-clinics-asthetische-medizin": {
+      "id": "medical-value-chain/care-delivery-providers/aesthetic-self-pay-medicine-clinics-asthetische-medizin",
+      "name": "Aesthetic / Self-Pay Medicine Clinics (Ästhetische Medizin)",
+      "parent_id": "medical-value-chain/care-delivery-providers",
+      "level": 2,
+      "path": [
+        "Medical value chain",
+        "Care Delivery & Providers",
+        "Aesthetic / Self-Pay Medicine Clinics (Ästhetische Medizin)"
+      ],
+      "value_chain_stage": "provider",
+      "description": "Cash-pay aesthetic/cosmetic medicine - injectables (botulinum toxin, fillers), laser/IPL, body- and skin-treatment clinics - delivered outside statutory reimbursement. Fragmented owner-operated and small-chain base consolidating; previously only touched inside dermatology MVZ.",
+      "scores": {
+        "recurring": 3,
+        "fragmentation": 5,
+        "compliance": 3,
+        "scale": 0,
+        "margin": 0,
+        "growth": 0,
+        "headroom": 0,
+        "reimbursement_risk": 0
+      },
+      "rationale": {
+        "thesis": "Self-pay revenue removes GKV reimbursement risk; strong secular growth and a highly fragmented clinic base make it an attractive buy-and-build, with regulatory tailwind from NiSV device-operator rules professionalising the field."
+      },
+      "composite": 66.7,
+      "dach_signals": {
+        "est_players": "Highly fragmented base of aesthetic-medicine practices/clinics plus a non-medical Kosmetik long tail; no reliable single count verified here",
+        "revenue_band_eur": "EUR 0.2-5m per clinic; multi-site chains larger",
+        "example_companies": [],
+        "regulation": [
+          "Heilpraktikergesetz / aerztliche Behandlung",
+          "MDR (EU) 2017/745 (fillers, lasers as devices)",
+          "NiSV (Nichtionisierende-Strahlung-Schutzverordnung) for laser/IPL",
+          "HWG (Heilmittelwerbegesetz)"
+        ]
+      },
+      "sources": [
+        {
+          "title": "DGPRAeC - Deutsche Gesellschaft der Plastischen, Rekonstruktiven und Aesthetischen Chirurgen",
+          "url": "https://www.dgpraec.de/",
+          "note": "Professional-society reference for the aesthetic-medicine field and its growth"
+        }
+      ],
+      "confidence": 0,
+      "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
+      "investability": "open",
+      "investability_note": "",
+      "child_ids": []
+    },
+    "medical-value-chain/care-delivery-providers/outpatient-physician-roll-ups-via-mvz/urology-cardiology-mvz-urologie-kardiologie": {
+      "id": "medical-value-chain/care-delivery-providers/outpatient-physician-roll-ups-via-mvz/urology-cardiology-mvz-urologie-kardiologie",
+      "name": "Urology / Cardiology MVZ (Urologie / Kardiologie)",
+      "parent_id": "medical-value-chain/care-delivery-providers/outpatient-physician-roll-ups-via-mvz",
+      "level": 3,
+      "path": [
+        "Medical value chain",
+        "Care Delivery & Providers",
+        "Outpatient Physician Roll-ups via MVZ",
+        "Urology / Cardiology MVZ (Urologie / Kardiologie)"
+      ],
+      "value_chain_stage": "provider",
+      "description": "Ambulant urology and cardiology practices/MVZ - both procedure- and follow-up-heavy, ageing-demand specialties (uro-oncology surveillance, catheterisation/imaging in cardiology) that are fragmented and being actively consolidated into MVZ roll-ups; previously absent from the MVZ children.",
+      "scores": {
+        "recurring": 4,
+        "fragmentation": 5,
+        "compliance": 4,
+        "scale": 0,
+        "margin": 0,
+        "growth": 0,
+        "headroom": 0,
+        "reimbursement_risk": 0
+      },
+      "rationale": {
+        "thesis": "Chronic, ageing-driven caseloads with recurring follow-up, a fragmented Facharzt base, and PE consolidation already visible across ambulant specialty MVZ."
+      },
+      "composite": 83.3,
+      "dach_signals": {
+        "est_players": "Fragmented ambulant Urologie and Kardiologie Facharzt/MVZ base; exact count not independently verified here",
+        "revenue_band_eur": "EUR 1-3m typical per practice; platform roll-ups larger",
+        "example_companies": [],
+        "regulation": [
+          "SGB V",
+          "MVZ Zulassung",
+          "EBM/GOAe",
+          "Bedarfsplanung (Zulassungsbeschraenkung)"
+        ]
+      },
+      "sources": [
+        {
+          "title": "KBV - Medizinische Versorgungszentren (MVZ)",
+          "url": "https://www.kbv.de/html/mvz.php",
+          "note": "Reference for MVZ structure/consolidation across outpatient specialties incl. urology and cardiology"
+        }
+      ],
+      "confidence": 0,
       "status": "grounded",
       "why_now": "",
       "pe_activity": [],

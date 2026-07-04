@@ -3848,7 +3848,7 @@
         "Lift & Escalator Service"
       ],
       "value_chain_stage": "services",
-      "description": "Installation, maintenance, modernisation, statutory inspection and emergency monitoring of lifts, escalators/moving walks and accessibility lifts across DACH. Germany has ~750,000 lift units (VDMA; ~640,000 for passenger transport) with a legally mandated maintenance and biennial ZÜS inspection regime, splitting between an OEM oligopoly (Big Four ~60% of service) and a long tail of ~800 independent mid-sized firms (~40% of service).",
+      "description": "Installation, maintenance, modernisation, statutory inspection and emergency monitoring of lifts, escalators/moving walks and accessibility lifts across DACH. Germany has ~750,000 lift units (VDMA; ~640,000 for passenger transport) with a legally mandated maintenance and biennial ZÜS inspection regime, splitting between an OEM oligopoly (Big Four ~60% of service) and a long tail of ~800 small and mid-sized lift firms in DE (predominantly manufacturer-independent) that together hold ~40% of service.",
       "scores": {
         "recurring": 0,
         "fragmentation": 0,
@@ -3872,6 +3872,11 @@
           "title": "VDMA / Aufzüge und Fahrtreppen (Statista Themenseite)",
           "url": "https://de.statista.com/themen/5951/aufzuege-und-fahrtreppen/",
           "note": "German installed base ~750,000 lifts (VDMA), of which ~640,000 passenger lifts; used to reconcile figures across the branch."
+        },
+        {
+          "title": "Aufzughersteller gesucht? (Lift-Journal)",
+          "url": "https://www.lift-journal.de/aktuell/aufzughersteller-gesucht",
+          "note": "~800 kleine und mittelstaendische Aufzugsfirmen in Deutschland; the independents (via VmA/VFA-Interlift) hold roughly 40% of service against the Big-Four ~60%."
         }
       ],
       "confidence": 0,
@@ -3879,7 +3884,7 @@
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Harmonised the '~800' figure to a single meaning: ~800 refers to the total small-and-mid-sized lift-firm population in DE (predominantly independents), consistent with the est_players of the 'Independent (non-OEM) lift maintenance & service' node - not '~800 independents' as a separate count.",
       "child_ids": [
         "building-facility-technical-services-value-chain/lift-escalator-service/independent-non-oem-lift-maintenance-service",
         "building-facility-technical-services-value-chain/lift-escalator-service/oem-lift-service-big-four-captive-base",
@@ -3924,7 +3929,7 @@
         "example_companies": [
           "Schmitt + Sohn Aufzüge (Nürnberg)",
           "OSMA Aufzüge (Osnabrück)",
-          "Aufzugswerke Schmitt",
+          "LUTZ Aufzüge (Reinbek)",
           "Tepper Aufzüge"
         ],
         "regulation": [
@@ -3954,6 +3959,16 @@
           "title": "Aufzugsfirmen Deutschland (Listflix)",
           "url": "https://listflix.de/bauunternehmen/aufzugsfirmen/",
           "note": "Schmitt+Sohn, OSMA and Tepper are genuine manufacturer-independent firms; Haushahn belongs to Schindler."
+        },
+        {
+          "title": "LUTZ Aufzüge - Service & Reparatur (herstellerunabhängig)",
+          "url": "https://lutz-aufzuege.de/service/",
+          "note": "LUTZ Aufzüge (Reinbek) maintains lifts of any manufacturer (herstellerunabhaengig); distinct family firm, not affiliated with Schmitt + Sohn."
+        },
+        {
+          "title": "Aufzughersteller gesucht? (Lift-Journal)",
+          "url": "https://www.lift-journal.de/aktuell/aufzughersteller-gesucht",
+          "note": "~800 kleine und mittelstaendische Aufzugsfirmen in Deutschland (total small/mid-sized firm population, predominantly independents) - clarifies the '~800' meaning."
         }
       ],
       "confidence": 4,
@@ -3961,7 +3976,7 @@
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "'Haushahn' removed from the independents list - it is Schindler-owned (OEM), self-contradicting the manufacturer-independent scope.",
+      "investability_note": "Duplicate removed: 'Aufzugswerke Schmitt' is the same firm as 'Schmitt + Sohn Aufzüge' (formal name Aufzugswerke Schmitt + Sohn, Nürnberg); replaced with LUTZ Aufzüge, a genuinely distinct family-owned, manufacturer-independent lift-service firm (Reinbek near Hamburg, branches across northern Germany).",
       "child_ids": [
         "building-facility-technical-services-value-chain/lift-escalator-service/independent-non-oem-lift-maintenance-service/full-service-independent-maintenance-contracts",
         "building-facility-technical-services-value-chain/lift-escalator-service/independent-non-oem-lift-maintenance-service/multi-brand-manufacturer-independent-takeover-of-oem-installed-base"
