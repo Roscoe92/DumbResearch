@@ -78,6 +78,49 @@ def build_tree(root_industry: str, branches: list[dict], region: str = "DACH") -
     return tree
 
 
+def find_by_path(tree: Tree, names: list[str]) -> str | None:
+    """Return the node id whose path (ancestor names incl. self) equals `names`."""
+    for nid, node in tree.nodes.items():
+        if node.path == names:
+            return nid
+    # fall back: match on the last name if unique
+    matches = [nid for nid, n in tree.nodes.items() if n.name == names[-1]]
+    return matches[0] if len(matches) == 1 else None
+
+
+def graft(tree: Tree, target_names: list[str], children: list[dict]) -> int:
+    """Attach `children` under the node identified by `target_names` (its path).
+
+    De-duplicates against existing children (casefold name match). Returns the
+    number of nodes added. Raises if the target is not found.
+    """
+    tid = find_by_path(tree, target_names)
+    if not tid:
+        raise ValueError(f"graft target not found: {' > '.join(target_names)}")
+    existing = {c.name.casefold() for c in tree.children(tid)}
+    fresh = [c for c in (children or []) if (c.get("name") or "").strip().casefold() not in existing]
+    before = len(tree.nodes)
+    _add_children(tree, tid, fresh)
+    return len(tree.nodes) - before
+
+
+def apply_deepen_files(tree: Tree, paths: list[str | Path]) -> int:
+    """Apply deepen blobs {"target_path":[...], "children":[...]} to a tree."""
+    total = 0
+    for p in paths:
+        p = Path(p)
+        if not p.exists():
+            continue
+        blob = json.loads(p.read_text())
+        blobs = blob if isinstance(blob, list) else [blob]
+        for b in blobs:
+            tp = b.get("target_path") or []
+            if tp:
+                total += graft(tree, tp, b.get("children") or [])
+    apply_scores(tree)
+    return total
+
+
 def load_branch_files(paths: list[str | Path]) -> list[dict]:
     out = []
     for p in paths:
