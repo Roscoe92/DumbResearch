@@ -196,18 +196,18 @@
         "recurring": 4,
         "fragmentation": 5,
         "compliance": 4,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 5,
+        "margin": 2,
+        "growth": 3,
+        "headroom": 3,
+        "reimbursement_risk": 2
       },
       "rationale": {
         "recurring": "Preventive periodic flushing contracts plus reactive callouts.",
         "fragmentation": "Core of the ~2,000-firm long tail; low entry barrier beyond truck capex.",
         "compliance": "Driven by operator duty to maintain sewer function; often tendered by municipalities."
       },
-      "composite": 83.3,
+      "composite": 65.8,
       "dach_signals": {
         "est_players": "~1,500+ firms (DE)",
         "revenue_band_eur": "EUR 0.3-3m typical",
@@ -227,14 +227,24 @@
           "title": "Sodi Kanalreinigung & Kanal-TV",
           "url": "https://www.sodi-industrie-service.de/leistungen/industriereinigung/kanalreinigung-und-kanal-tv-untersuchung",
           "note": "Combined flushing + CCTV service scope"
+        },
+        {
+          "title": "Kanalservice Gruppe / Kanalservice Holding AG",
+          "url": "https://www.kanalservicegruppe.com/unternehmensgruppe-kanalservice-holding-ag/",
+          "note": "Ufenau-backed KSG platform, 18+ add-ons since 2017 - active consolidator racing, compresses headroom."
+        },
+        {
+          "title": "CVC Credit leads refinancing/merger of Kanalservice Gruppe and Grupo Sasti",
+          "url": "https://www.cvc.com/media/news/2026/cvc-credit-leads-the-refinancing-and-merger-of-kanalservice-gruppe-and-group-sasti/",
+          "note": "Confirms committed follow-on capital for systematic buy-and-build - platform already scaling."
         }
       ],
-      "confidence": 3,
-      "status": "grounded",
+      "confidence": 4,
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Freely acquirable service firms; municipal sewer maintenance is competitively tendered to private contractors, not a KrWG household-waste monopoly.",
       "child_ids": []
     },
     "environmental-services-value-chain/industrial-sewer-cleaning-services/sewer-drain-cleaning-cctv-inspection-kanalreinigung-tv-inspektion/cctv-inspection-leak-testing-tv-inspektion-dichtheitspruefung": {
@@ -254,18 +264,18 @@
         "recurring": 4,
         "fragmentation": 4,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 4,
+        "margin": 4,
+        "growth": 4,
+        "headroom": 4,
+        "reimbursement_risk": 2
       },
       "rationale": {
         "recurring": "Mandated re-inspection cycles (10-20yr, shorter in water-protection areas) generate recurring statutory demand.",
         "fragmentation": "Specialist camera operators overlap with cleaning firms; certified sub-segment somewhat narrower.",
         "compliance": "Legal obligation under DIN 1986-30 and state Eigenkontroll/SuewVO ordinances; results legally documented."
       },
-      "composite": 83.3,
+      "composite": 74.2,
       "dach_signals": {
         "est_players": "~800-1,200 certified operators (DE)",
         "revenue_band_eur": "EUR 0.3-4m typical",
@@ -289,14 +299,24 @@
           "title": "Uebersicht Dichtheitspruefung Bundeslaender",
           "url": "http://www.hausanschluss-dichtheitspruefung.de/gesetzliche-regelungen/ubersicht-bundeslander/",
           "note": "State-level statutory basis for inspection"
+        },
+        {
+          "title": "Kanalsanierung: Infravadis setzt auf Buy & Build (Interview)",
+          "url": "https://bau.bi/umweltbau/kanalsanierung/infravadis-im-interview-neue-wege-gegen-den-sanierungsstau-u21810",
+          "note": "PE-backed buy&build platform active in adjacent Kanalsanierung; sewer-rehab Sanierungsstau is the demand tailwind."
+        },
+        {
+          "title": "kanalprofi GmbH - Kanalinspektion, Dichtheit, Reinigung",
+          "url": "https://www.kanalprofi.de/",
+          "note": "Typical owner-operated regional specialist illustrating fragmentation."
         }
       ],
       "confidence": 4,
-      "status": "grounded",
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Hundreds of privately-held owner-operated certified operators; freely acquirable (private property-side work is no municipal monopoly), though municipal sewer contracts run via public tender.",
       "child_ids": []
     },
     "environmental-services-value-chain/industrial-sewer-cleaning-services/statutory-separator-emptying-service-fett-oel-leichtfluessigkeitsabscheider": {
@@ -315,18 +335,18 @@
         "recurring": 5,
         "fragmentation": 5,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 4,
+        "margin": 2,
+        "growth": 3,
+        "headroom": 3,
+        "reimbursement_risk": 2
       },
       "rationale": {
         "recurring": "DIN 4040/EN 1825 prescribe emptying at least every 4 weeks for grease separators plus annual maintenance and 5-yearly general leak inspection - genuine statutory subscription revenue.",
         "fragmentation": "Served by hundreds of regional Saugwagen/Abscheiderservice operators; overlaps waste-disposal SMEs.",
         "compliance": "Mandatory for any business processing fats; operating log (Betriebstagebuch) legally required, only specialist firms may empty."
       },
-      "composite": 100.0,
+      "composite": 70.0,
       "dach_signals": {
         "est_players": "several hundred separator-service operators (DE)",
         "revenue_band_eur": "EUR 0.5-10m; embedded in waste-disposal groups",
@@ -358,14 +378,29 @@
           "title": "Fettabscheider Reinigung Pflicht/Intervalle (atrohr)",
           "url": "https://www.atrohr.de/2026/06/09/fettabscheider-reinigung-pflicht-intervalle-kosten/",
           "note": "Statutory intervals and cost drivers"
+        },
+        {
+          "title": "Abscheider: Wartung, Generalinspektion, Sanierung - Nehlsen",
+          "url": "https://www.nehlsen.com/en/services/separator",
+          "note": "Confirms separator emptying/inspection embedded in large waste-disposal groups (consolidator already active)."
+        },
+        {
+          "title": "Abscheidertechnik - Unternehmensgruppe Wittmann",
+          "url": "https://www.wittmann.de/dienstleistungen/abscheidertechnik-fettabscheider-leichtfluessigkeitsabscheider",
+          "note": "Regional mid-market operator; statutory recurring emptying/maintenance under DIN 1986-100."
+        },
+        {
+          "title": "Abscheiderentsorgung - Hersteller/Lieferanten (IndustryStock)",
+          "url": "https://www.industrystock.de/de/unternehmen/Umwelttechnik/Entsorgung/Abfallbeseitigung/Abscheiderentsorgung",
+          "note": "Highly fragmented landscape of regional providers confirming several-hundred-operator pool."
         }
       ],
       "confidence": 4,
-      "status": "grounded",
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Emptying/cleaning is a competitive private commercial service (customers pay); freely acquirable. Downstream Sonderabfall disposal can face Andienungspflicht but that hits the waste stream, not the service co.",
       "child_ids": []
     },
     "environmental-services-value-chain/industrial-sewer-cleaning-services/industrial-high-pressure-vacuum-cleaning-hoechstdruck-saugtechnik": {
@@ -459,18 +494,18 @@
         "recurring": 3,
         "fragmentation": 4,
         "compliance": 4,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 4,
+        "margin": 2,
+        "growth": 3,
+        "headroom": 4,
+        "reimbursement_risk": 2
       },
       "rationale": {
         "recurring": "Turnaround-linked repeat demand.",
         "fragmentation": "Regional specialists plus equipment-linked service arms.",
         "compliance": "Wasserstrahlen governed by DGUV safety rules; operator qualification required."
       },
-      "composite": 66.7,
+      "composite": 53.3,
       "dach_signals": {
         "est_players": "~150-300 firms (DACH)",
         "revenue_band_eur": "EUR 1-30m",
@@ -487,14 +522,19 @@
           "title": "Sodi Wasserhoechstdrucktechnik",
           "url": "https://www.sodi-industrie-service.de/leistungen/industriereinigung/wasserhoechstdrucktechnik",
           "note": "UHP jetting on tanks, columns, exchangers, pipelines"
+        },
+        {
+          "title": "Beyond Capital Partners – DACH industrial/facility-service buy-and-build",
+          "url": "https://beyondcapital-partners.com/en/press-releasesbeyond-capital-partners-beteiligung-dr-hoffmann-gebaeudedienste-gmbh-expandiert-durch-uebernahme-der-gebaeudereinigung-daniel-baumann-gmbh/",
+          "note": "Evidence of PE roll-up appetite in DACH industrial/facility cleaning, but no dominant UHP consolidator yet."
         }
       ],
       "confidence": 3,
-      "status": "grounded",
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Private B2B industrial-maintenance service, freely acquirable; TRGS/DGUV qualifications are firm-level not person-bound.",
       "child_ids": []
     },
     "environmental-services-value-chain/industrial-sewer-cleaning-services/industrial-high-pressure-vacuum-cleaning-hoechstdruck-saugtechnik/industrial-vacuum-suction-disposal-saug-und-entsorgungstechnik": {
@@ -514,18 +554,18 @@
         "recurring": 3,
         "fragmentation": 4,
         "compliance": 4,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 4,
+        "margin": 3,
+        "growth": 3,
+        "headroom": 2,
+        "reimbursement_risk": 3
       },
       "rationale": {
         "recurring": "Recurring plant cleaning and integrated waste-disposal contracts.",
         "fragmentation": "Fragmented but capex creates some scale advantage.",
         "compliance": "Hazardous-material handling governed by AwSV/Gefahrstoffrecht and disposal licensing."
       },
-      "composite": 66.7,
+      "composite": 52.5,
       "dach_signals": {
         "est_players": "~150-300 firms (DACH)",
         "revenue_band_eur": "EUR 2-50m",
@@ -549,14 +589,24 @@
           "title": "ako Saugtechnik Supersauger",
           "url": "https://ako-gmbh.com/web/saugtechnik-2889.html",
           "note": "Industrial suction equipment/service"
+        },
+        {
+          "title": "BUCHEN Umweltservice (REMONDIS)",
+          "url": "https://www.remondis-industrie-service.de/kooperationen/buchen/",
+          "note": "Buchen/Remondis >3,800 staff - large incumbent consolidator in industrial service & disposal."
+        },
+        {
+          "title": "Bilfinger Region DACH Industrieservice",
+          "url": "https://www.bilfinger.com/en/",
+          "note": "Market leader >7,000 staff / 60+ sites - heavily consolidated, low whitespace."
         }
       ],
       "confidence": 3,
-      "status": "grounded",
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
-      "investability": "open",
-      "investability_note": "",
+      "investability": "restricted",
+      "investability_note": "Cleaning legs acquirable, but attached hazardous-waste disposal touches Land-level Andienungspflicht (gsb/SAM/SBB) and gate-fee exposure; segment already dominated by Remondis/Buchen, Bilfinger, Veolia.",
       "child_ids": []
     },
     "environmental-services-value-chain/industrial-sewer-cleaning-services/tank-silo-vessel-cleaning-tank-silo-behaelterreinigung": {
@@ -575,18 +625,18 @@
         "recurring": 3,
         "fragmentation": 4,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 3,
+        "margin": 2,
+        "growth": 3,
+        "headroom": 2,
+        "reimbursement_risk": 2
       },
       "rationale": {
         "recurring": "Food/logistics tankers cleaned frequently between loads (recurring), but storage-tank cleaning is more event-driven (product change, decommissioning, inspection).",
         "fragmentation": "Regional firms plus logistics-integrated cleaning stations; certification narrows the qualified pool.",
         "compliance": "AwSV Sec.62 requires specialist firms; DVTI/SQAS/EFTCO certification and DGUV 113-004 confined-space rules are mandatory."
       },
-      "composite": 75.0,
+      "composite": 53.3,
       "dach_signals": {
         "est_players": "~150-400 firms/stations (DACH)",
         "revenue_band_eur": "EUR 1-30m",
@@ -620,14 +670,29 @@
           "title": "Seifert Silo- und Tankinnenreinigung",
           "url": "https://www.seifert-logistics.com/de/leistungen/silo-und-tankinnenreinigung.php",
           "note": "Logistics-integrated tank/silo cleaning"
+        },
+        {
+          "title": "Tank-, Silo- und Kesselreinigung // REMONDIS",
+          "url": "https://www.remondis.de/leistungen/services-fuer-industrie-und-gewerbe/tank-silo-und-kesselreinigung/",
+          "note": "Remondis (via Buchen/Xervon) is a top-3 industrial-service consolidator in this niche."
+        },
+        {
+          "title": "Buchen-Gruppe - Wikipedia",
+          "url": "https://de.wikipedia.org/wiki/Buchen-Gruppe",
+          "note": "Buchen part of Remondis since 2005, 60+ locations; capital-heavy suction-vehicle/plant model."
+        },
+        {
+          "title": "Industrieservice - Veolia Deutschland",
+          "url": "https://www.veolia.de/industrieservice-umweltgerechte-reinigungs-und-transportmethoden",
+          "note": "Veolia a second large strategic consolidator in tank/container cleaning."
         }
       ],
-      "confidence": 4,
-      "status": "grounded",
+      "confidence": 3,
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
-      "investability": "open",
-      "investability_note": "",
+      "investability": "restricted",
+      "investability_note": "Segment is strategic-dominated (Remondis/Buchen, Veolia); assets often embedded in integrated industrial-service groups, limiting clean carve-outs.",
       "child_ids": []
     },
     "environmental-services-value-chain/industrial-sewer-cleaning-services/trenchless-sewer-pipe-rehabilitation-kanalsanierung-schlauchlining": {
@@ -646,18 +711,18 @@
         "recurring": 2,
         "fragmentation": 4,
         "compliance": 4,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 5,
+        "margin": 2,
+        "growth": 4,
+        "headroom": 2,
+        "reimbursement_risk": 3
       },
       "rationale": {
         "recurring": "Project/capex-driven with 50-year liner design life; demand is a durable rehabilitation backlog rather than a maintenance subscription.",
         "fragmentation": "Many regional installers (RSV association) alongside larger specialists (Aarsleff) and material makers (IMPREG).",
         "compliance": "Rehabilitation is legally mandated once inspection reveals defects under DIN 1986-30 / state ordinances; execution follows DWA-A 143 / DIN EN ISO 11296."
       },
-      "composite": 58.3,
+      "composite": 52.5,
       "dach_signals": {
         "est_players": "~300-600 installers (DE)",
         "revenue_band_eur": "EUR 1-50m; large multi-site players higher",
@@ -684,14 +749,24 @@
           "title": "RSV Unternehmenssuche (Rohrleitungssanierungsverband)",
           "url": "https://rsv-ev.de/unternehmenssuche-nach-standort-uebersichtskarte?memberlist_search=Pr%C3%BCflabor",
           "note": "Association member network confirming fragmentation"
+        },
+        {
+          "title": "Hannover Finanz uebernimmt Rohrsanierung Jensen (grabenlose Kanalsanierung)",
+          "url": "https://hf-equity.de/blog/news/hannover-finanz-uebernimmt-spezialisten-fuer-grabenlose-kanalsanierung-rohrsanierung-jensen/",
+          "note": "PE entry; sees structural consolidation potential (buy-and-build) in fragmented market."
+        },
+        {
+          "title": "Kanalsanierung: Infravadis setzt auf Buy & Build",
+          "url": "https://bau.bi/umweltbau/kanalsanierung/infravadis-im-interview-neue-wege-gegen-den-sanierungsstau-u21810",
+          "note": "~EUR 1.3bn market, ~5.6% growth, 86% public, ~600,000 km network with 1/3 renovation backlog; active roll-up = low headroom."
         }
       ],
       "confidence": 4,
-      "status": "grounded",
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Private contracting firms are freely acquirable; multiple PE platforms already buying (Hannover Finanz, Infravadis).",
       "child_ids": []
     },
     "environmental-services-value-chain/industrial-sewer-cleaning-services/road-surface-drainage-cleaning-strassenablauf-gully-sinkkastenreinigung": {
@@ -710,18 +785,18 @@
         "recurring": 5,
         "fragmentation": 4,
         "compliance": 4,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 4,
+        "margin": 2,
+        "growth": 3,
+        "headroom": 3,
+        "reimbursement_risk": 4
       },
       "rationale": {
         "recurring": "Municipalities empty gullies on fixed annual/biannual cycles under multi-year framework contracts - highly repeatable, publicly funded.",
         "fragmentation": "Numerous regional Saugwagen operators bid on municipal lots; overlaps sewer-cleaning firms.",
         "compliance": "Mandated by municipal drainage duty and road-operator obligations; tendered under VOB/public procurement."
       },
-      "composite": 83.3,
+      "composite": 51.7,
       "dach_signals": {
         "est_players": "~500-1,000 firms bidding (DE)",
         "revenue_band_eur": "EUR 0.3-10m; contract-scale dependent",
@@ -746,14 +821,24 @@
           "title": "Strassenbauportal Ausschreibungen Entwaesserungseinrichtungen",
           "url": "https://www.strassenbauportal.de/ausschreibungen_fuer_Reinigung_der_Entwaesserungseinrichtungen_gid_6000434_seite_1.html",
           "note": "Public tenders for drainage cleaning"
+        },
+        {
+          "title": "REMONDIS – Rohr- und Kanalreinigung",
+          "url": "https://www.remondis.de/leistungen/wassermanagment/rohr-und-kanalreinigung/",
+          "note": "Consolidator (REMONDIS via AS-CONTROL/AQUA-TOOL) already active in sewer/drain cleaning."
+        },
+        {
+          "title": "service.bund.de – municipal Kanalreinigung tender (Brueggen 2025-2027)",
+          "url": "https://www.service.bund.de/IMPORTE/Ausschreibungen/ai-dabl/2025/07/54321-Tender-1979bb95e8b-15844e4ab65de994.html",
+          "note": "Shows revenue is won via recurring municipal public procurement (tariff/budget exposure)."
         }
       ],
       "confidence": 3,
-      "status": "grounded",
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
-      "investability": "open",
-      "investability_note": "",
+      "investability": "restricted",
+      "investability_note": "Revenue depends on municipal public tenders and partly in-house Bauhof/Eigenbetrieb work; acquirable but contract-book at mercy of Vergabe and public budgets.",
       "child_ids": []
     },
     "environmental-services-value-chain/industrial-sewer-cleaning-services/hydro-excavation-suction-excavation-saugbaggern": {
@@ -772,18 +857,18 @@
         "recurring": 3,
         "fragmentation": 5,
         "compliance": 4,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 4,
+        "margin": 2,
+        "growth": 4,
+        "headroom": 5,
+        "reimbursement_risk": 2
       },
       "rationale": {
         "recurring": "Repeat sub-contract demand from utilities, telecom and civils, but per-project rather than contractual maintenance.",
         "fragmentation": "Fast-growing pool of small regional Saugbagger operators, largely owner-operated with 1-3 trucks.",
         "compliance": "DGUV Information 203-017 recommends suction excavation near buried services, and utility approach rules effectively require damage-free methods."
       },
-      "composite": 75.0,
+      "composite": 61.7,
       "dach_signals": {
         "est_players": "~200-400 operators (DE), growing",
         "revenue_band_eur": "EUR 0.3-5m typical (per-truck economics)",
@@ -808,14 +893,24 @@
           "title": "Saugbagger Nord Leitungsfreilegung",
           "url": "https://saugbaggernord.de/",
           "note": "Regional owner-operated suction-excavation provider"
+        },
+        {
+          "title": "Der Saugbagger macht Markt - baunetzwerk.biz",
+          "url": "https://www.baunetzwerk.biz/der-saugbagger-macht-markt",
+          "note": "~400-machine DE fleet, growing; 70% of new units bought by service providers - structural shift toward suction excavation, no PE roll-up cited."
+        },
+        {
+          "title": "MTS Mobile Tiefbau Saugsysteme",
+          "url": "http://www.saugbagger.com/en",
+          "note": "Fragmented operator base, per-truck economics, capital-heavy fleets (low margin/asset-lightness)."
         }
       ],
-      "confidence": 3,
-      "status": "grounded",
+      "confidence": 4,
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Owner-operated per-truck operators, freely acquirable; no financial consolidator present, only a new VDBUM interest group.",
       "child_ids": []
     },
     "environmental-services-value-chain/industrial-sewer-cleaning-services/hazardous-confined-space-industrial-cleaning-gefahrstoff-behaelterbefahrung": {
@@ -834,18 +929,18 @@
         "recurring": 3,
         "fragmentation": 3,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 3,
+        "margin": 3,
+        "growth": 3,
+        "headroom": 3,
+        "reimbursement_risk": 2
       },
       "rationale": {
         "recurring": "Recurring at plant turnarounds and mandated vessel inspections, but event-driven timing.",
         "fragmentation": "Regional mid-caps + long tail, but strict qualification/certification thins the field versus generic cleaning.",
         "compliance": "DGUV Regel 113-004 mandates emptying/cleaning, gas-freeing, atmosphere monitoring and rescue provisions before entry - non-negotiable statutory spend."
       },
-      "composite": 66.7,
+      "composite": 53.3,
       "dach_signals": {
         "est_players": "~100-250 qualified firms (DACH)",
         "revenue_band_eur": "EUR 2-50m; often within industrial-service groups",
@@ -871,14 +966,24 @@
           "title": "DGUV 113-004 Schutzmassnahmen (BG BAU)",
           "url": "https://www.bgbau-medien.de/handlungshilfen_gb/daten/dguv/113_004/4.htm",
           "note": "Entry/cleaning prerequisites and safety measures"
+        },
+        {
+          "title": "Industriereinigung // BUCHEN UmweltService",
+          "url": "https://www.buchen.net/en/services/industrial-cleaning/",
+          "note": "Confined-space/hazardous cleaning largely provided by integrated groups."
+        },
+        {
+          "title": "Tankreinigung - REMONDIS Industrie Service",
+          "url": "https://www.remondis-industrie-service.de/en/services/tank-cleaning/",
+          "note": "Strategic consolidator present in hazardous industrial-cleaning scope."
         }
       ],
-      "confidence": 4,
-      "status": "grounded",
+      "confidence": 3,
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
-      "investability": "open",
-      "investability_note": "",
+      "investability": "restricted",
+      "investability_note": "Qualification-gated (Behaelterbefahrung/Gefahrstoff), and many capable firms already sit inside Remondis/Buchen/Bilfinger industrial-service groups.",
       "child_ids": []
     },
     "environmental-services-value-chain/environmental-consulting-monitoring-compliance": {
@@ -1017,18 +1122,18 @@
         "recurring": 5,
         "fragmentation": 4,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 3,
+        "margin": 3,
+        "growth": 3,
+        "headroom": 3,
+        "reimbursement_risk": 2
       },
       "rationale": {
         "recurring": "Fixed statutory intervals plus mandatory QAL2 recalibration of CEMS create predictable repeat cycles.",
         "fragmentation": "Dozens of §29b bodies compete regionally alongside TIC majors.",
         "compliance": "Only §29b-notified bodies may perform the measurements demanded by the permit."
       },
-      "composite": 91.7,
+      "composite": 65.8,
       "dach_signals": {
         "est_players": "~150 bodies (subset of §29b)",
         "revenue_band_eur": "EUR 5-50k per campaign",
@@ -1053,14 +1158,29 @@
           "title": "öko-control – Messstelle nach §29b BImSchG",
           "url": "https://www.oeko-control.com/leistungen/emissionen/messstelle-nach-29b-bundes-immissionsschutzgesetz/",
           "note": "Regional accredited emissions body example"
+        },
+        {
+          "title": "DEKRA: Ausbau der Umweltdienstleistungen (Uebernahme BUB, Jan 2025)",
+          "url": "https://www.dekra.de/de/ausbau-umweltdienstleistungen-in-deutschland/",
+          "note": "TIC major DEKRA acquiring accredited air-measurement Messstelle - consolidation underway by strategics."
+        },
+        {
+          "title": "Emissionsmessungen - Messstelle nach Sec. 29b BImSchG (Mueller-BBM)",
+          "url": "https://www.muellerbbm.de/umwelt/emissionen-immissionen/messstelle-nach-29b-bimschg/",
+          "note": "Leading independent Messstelle; recurring statutory periodic measurements drive demand."
+        },
+        {
+          "title": "Bekanntgabe von Sec. 29b Messstellen - LfU Bayern",
+          "url": "https://www.lfu.bayern.de/laerm/bekanntgabe_29bms_bimschg/index.htm",
+          "note": "Confirms authority-notified accreditation regime creating ownership/licence friction (restricted)."
         }
       ],
       "confidence": 4,
-      "status": "grounded",
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
-      "investability": "open",
-      "investability_note": "",
+      "investability": "restricted",
+      "investability_note": "Acquirable but entity-bound friction: requires DAkkS accreditation (ISO 17025 + Fachmodul) and authority Bekanntgabe per Sec. 29b BImSchG that does not transfer freely.",
       "child_ids": []
     },
     "environmental-services-value-chain/environmental-consulting-monitoring-compliance/emissions-immissions-measurement-accredited-messstellen/noise-vibration-measurement-acoustic-reporting": {
@@ -1080,18 +1200,18 @@
         "recurring": 3,
         "fragmentation": 5,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 4,
+        "margin": 4,
+        "growth": 4,
+        "headroom": 5,
+        "reimbursement_risk": 1
       },
       "rationale": {
         "recurring": "Often project- and permit-triggered rather than fixed-interval, though acceptance/control measurements recur per plant change.",
         "fragmentation": "Hundreds of small acoustics engineering offices (Ingenieurbüros) nationwide, mostly owner-operated.",
         "compliance": "A schalltechnisches Gutachten is a mandatory component of BImSchG/building permits."
       },
-      "composite": 83.3,
+      "composite": 79.2,
       "dach_signals": {
         "est_players": "~500+ acoustics/Ingenieurbüros (DE)",
         "revenue_band_eur": "EUR 0.3-3m typical firm",
@@ -1117,14 +1237,19 @@
           "title": "IFB Eigenschenk – Lärmgutachten & Schallmessung",
           "url": "https://www.eigenschenk.de/leistungen/bauueberwachung/schallmessung",
           "note": "17025-accredited noise emission/immission measurement"
+        },
+        {
+          "title": "wlw – Ingenieurbueros fuer Schallschutz (Germany)",
+          "url": "https://www.wlw.de/de/suche/ingenieurbueros-fuer-schallschutz/country/germany",
+          "note": "Large, highly fragmented pool of independent acoustics/noise engineering firms; no financial consolidator visible."
         }
       ],
       "confidence": 3,
-      "status": "grounded",
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Owner-operated acoustics Ingenieurbueros, asset-light, no Fremdbesitzverbot; firm-level accreditation transfers on acquisition.",
       "child_ids": []
     },
     "environmental-services-value-chain/environmental-consulting-monitoring-compliance/emissions-immissions-measurement-accredited-messstellen/workplace-hazardous-substance-exposure-measurement-trgs-402": {
@@ -1144,18 +1269,18 @@
         "recurring": 4,
         "fragmentation": 4,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 3,
+        "margin": 4,
+        "growth": 4,
+        "headroom": 3,
+        "reimbursement_risk": 2
       },
       "rationale": {
         "recurring": "Repeat control measurements and workplace analyses tied to ongoing GefStoffV duties and process changes.",
         "fragmentation": "TIC majors plus a long tail of accredited institutes (SPHÄRA, Institut BEB, WESSLING, CURRENTA).",
         "compliance": "Only §7(10) GefStoffV-accredited bodies may certify compliance with AGW under TRGS 402."
       },
-      "composite": 83.3,
+      "composite": 70.0,
       "dach_signals": {
         "est_players": "~50-100 accredited bodies (IFA/BUA listed)",
         "revenue_band_eur": "EUR 0.5-5m typical body",
@@ -1184,12 +1309,12 @@
           "note": "§7(10) GefStoffV-accredited body, 17025"
         }
       ],
-      "confidence": 4,
-      "status": "grounded",
+      "confidence": 3,
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "DAkkS/§7 GefStoffV accreditation is entity-level and transfers via share deal; acquirable, though small pool of accredited bodies limits scale.",
       "child_ids": []
     },
     "environmental-services-value-chain/environmental-consulting-monitoring-compliance/environmental-permitting-genehmigungsplanung-bimschg": {
@@ -1282,18 +1407,18 @@
         "recurring": 2,
         "fragmentation": 5,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 3,
+        "margin": 4,
+        "growth": 4,
+        "headroom": 4,
+        "reimbursement_risk": 2
       },
       "rationale": {
         "recurring": "Tied to discrete capex projects rather than recurring statutory intervals.",
         "fragmentation": "Long tail of owner-operated Umweltberatungen and Ingenieurbüros.",
         "compliance": "Application is a mandatory legal gate to operate a listed plant."
       },
-      "composite": 75.0,
+      "composite": 65.8,
       "dach_signals": {
         "est_players": "~hundreds of firms",
         "revenue_band_eur": "EUR 20-250k per project",
@@ -1313,14 +1438,24 @@
           "title": "Umweltberatung Nückel – Genehmigungsverfahren",
           "url": "https://www.nueckel.de/genehmigungsverfahren/genehmigungsverfahren/",
           "note": "Specialist BImSchG permitting consultancy"
+        },
+        {
+          "title": "Fachplanung & BImSchG Genehmigung - HPC AG",
+          "url": "https://hpc.ag/en/services/environment-and-safety/permitting-management-and-environmental-planning/permit-applications-and-technical-planning/",
+          "note": "Larger strategic; most of market is small independent Ingenieurbueros."
+        },
+        {
+          "title": "Genehmigungsplanung von BImSchG bis WHG - Ramm Umwelt",
+          "url": "https://www.ramm-umwelt.de/leistungen/genehmigungsplanung/",
+          "note": "Typical fragmented independent planner; industrial/energy-transition permitting tailwind."
         }
       ],
       "confidence": 3,
-      "status": "grounded",
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Hundreds of owner-operated Ingenieurbueros, no financial consolidator visible; acquirable but key-person/expertise dependent.",
       "child_ids": []
     },
     "environmental-services-value-chain/environmental-consulting-monitoring-compliance/environmental-permitting-genehmigungsplanung-bimschg/environmental-impact-assessment-uvp-dispersion-immission-modelling": {
@@ -1340,18 +1475,18 @@
         "recurring": 2,
         "fragmentation": 4,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 3,
+        "margin": 4,
+        "growth": 4,
+        "headroom": 4,
+        "reimbursement_risk": 2
       },
       "rationale": {
         "recurring": "Project-triggered, following the underlying permitting cycle.",
         "fragmentation": "Specialist niche within the broader permitting firm population.",
         "compliance": "UVP is mandatory for plants above screening thresholds under UVPG."
       },
-      "composite": 66.7,
+      "composite": 61.7,
       "dach_signals": {
         "est_players": "~subset of permitting firms",
         "revenue_band_eur": "EUR 15-150k per study",
@@ -1370,14 +1505,24 @@
           "title": "IZU Bayern – Genehmigungsverfahren nach BImSchG",
           "url": "https://www.umweltpakt.bayern.de/luft/fachwissen/373/genehmigungsverfahren-nach-bimschg",
           "note": "Overview of UVP requirement within BImSchG procedure"
+        },
+        {
+          "title": "Kanalsanierung/permitting engineering context - Sweco/Infravadis buildout demand",
+          "url": "https://www.sweco-gmbh.de/unsere-leistungen/stadt-und-umweltplanung/landschaft-und-oekologie/umweltbaubegleitung/",
+          "note": "Large engineering consultancies aggregate environmental planning; UVP/dispersion modelling a fragmented niche, project-based (EUR 15-150k)."
+        },
+        {
+          "title": "Infravadis interview - Genehmigungsstau / permitting backlog tailwind",
+          "url": "https://bau.bi/umweltbau/kanalsanierung/infravadis-im-interview-neue-wege-gegen-den-sanierungsstau-u21810",
+          "note": "Energy-transition/infrastructure buildout drives permitting & immission-modelling demand (growth tailwind)."
         }
       ],
-      "confidence": 2,
-      "status": "grounded",
+      "confidence": 3,
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Consulting/engineering firms freely acquirable; niche specialism within permitting Ingenieurbueros, largely owner-operated with little financial-sponsor consolidation.",
       "child_ids": []
     },
     "environmental-services-value-chain/environmental-consulting-monitoring-compliance/outsourced-statutory-environmental-officers-betriebsbeauftragte": {
@@ -1469,18 +1614,18 @@
         "recurring": 5,
         "fragmentation": 5,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 3,
+        "margin": 5,
+        "growth": 4,
+        "headroom": 5,
+        "reimbursement_risk": 1
       },
       "rationale": {
         "recurring": "Standing retainer with annual reporting duties.",
         "fragmentation": "Highly dispersed among regional experts.",
         "compliance": "Compulsory above threshold; the officer must hold certified Fachkunde."
       },
-      "composite": 100.0,
+      "composite": 87.5,
       "dach_signals": {
         "est_players": "~hundreds",
         "revenue_band_eur": "EUR 3-20k per mandate/year",
@@ -1499,14 +1644,24 @@
           "title": "Sicherheitsingenieur.NRW – externer Immissionsschutzbeauftragter",
           "url": "https://sicherheitsingenieur.nrw/leistungen/umweltschutz/immissions/",
           "note": "External immission-control officer offering"
+        },
+        {
+          "title": "CIVAC – Umweltbeauftragter Pflicht (external appointment)",
+          "url": "https://civac.de/news/umweltbeauftragter-pflicht",
+          "note": "Confirms external/outsourced Betriebsbeauftragte model is legal and standard for SMEs."
+        },
+        {
+          "title": "proenvi – Immissionsschutz- & Stoerfallbeauftragter (BImSchG)",
+          "url": "https://www.proenvi.de/infos/Infos_Immissionsschutzbeauftragter_Stoerfallbeauftragter_auf_Grundlage_BImschG.php",
+          "note": "Mandate-driven recurring advisory (~EUR 5-15k/yr); fragmented provider base."
         }
       ],
-      "confidence": 4,
-      "status": "grounded",
+      "confidence": 3,
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "External appointment expressly permitted; officer is a named qualified employee but the consulting firm is freely ownable (no Fremdbesitzverbot). Small ticket size caps TAM.",
       "child_ids": []
     },
     "environmental-services-value-chain/environmental-consulting-monitoring-compliance/outsourced-statutory-environmental-officers-betriebsbeauftragte/abfall-gewasserschutzbeauftragter-59-krwg-64-whg": {
@@ -1526,18 +1681,18 @@
         "recurring": 5,
         "fragmentation": 5,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 3,
+        "margin": 5,
+        "growth": 4,
+        "headroom": 5,
+        "reimbursement_risk": 1
       },
       "rationale": {
         "recurring": "Retainer-based with recurring statutory reports.",
         "fragmentation": "Freelancers and small consultancies dominate.",
         "compliance": "Appointment mandatory once waste/water thresholds are met."
       },
-      "composite": 100.0,
+      "composite": 87.5,
       "dach_signals": {
         "est_players": "~hundreds",
         "revenue_band_eur": "EUR 3-20k per mandate/year",
@@ -1556,14 +1711,24 @@
           "title": "isuplan – Umweltschutz / Beauftragte",
           "url": "https://www.isuplan.de/dienstleistungen/umweltschutz",
           "note": "External waste/water officer services"
+        },
+        {
+          "title": "Externe Betriebsbeauftragte - Infraserv",
+          "url": "https://www.infraserv.com/de/leistungen/umweltschutz/betriebsbeauftragte/auf-nummer-sicher-gehen/",
+          "note": "Confirms external outsourcing model, recurring statutory mandates, private-pay compliance revenue."
+        },
+        {
+          "title": "Abfallbeauftragter - Wikipedia (§§59-60 KrWG, AbfBeauftrV)",
+          "url": "https://de.wikipedia.org/wiki/Abfallbeauftragter",
+          "note": "Person-bound qualification requirement; highly fragmented (hundreds of small advisers), no financial consolidator."
         }
       ],
       "confidence": 3,
-      "status": "grounded",
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
-      "investability": "open",
-      "investability_note": "",
+      "investability": "restricted",
+      "investability_note": "Firms acquirable but mandates are bound to a named, Sachkunde-qualified individual (key-person risk on novation); low ticket (EUR 3-20k/mandate) caps roll-up economics.",
       "child_ids": []
     },
     "environmental-services-value-chain/environmental-consulting-monitoring-compliance/esg-csrd-reporting-carbon-accounting-advisory": {
@@ -1657,18 +1822,18 @@
         "recurring": 4,
         "fragmentation": 5,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 4,
+        "margin": 4,
+        "growth": 2,
+        "headroom": 3,
+        "reimbursement_risk": 5
       },
       "rationale": {
         "recurring": "Annual reporting cycle drives repeat engagements.",
         "fragmentation": "Boutiques, Big-4, TIC and freelancers all compete.",
         "compliance": "Legally mandated disclosure for large/listed companies under CSRD."
       },
-      "composite": 91.7,
+      "composite": 55.0,
       "dach_signals": {
         "est_players": "~hundreds of advisors",
         "revenue_band_eur": "EUR 15-150k per engagement",
@@ -1688,14 +1853,29 @@
           "title": "NAVIT – CSRD: CO2-Berichtspflicht ab 2024",
           "url": "https://www.navit.com/ressourcen/co2-berichtspflicht-fuer-unternehmen-ab-2023-deutschland",
           "note": "Scope of CSRD (~15,000 companies)"
+        },
+        {
+          "title": "Aenderungen an der CSRD durch das Omnibus-Paket - Haufe",
+          "url": "https://www.haufe.de/finance/jahresabschluss-bilanzierung/omnibus-paket-nachhaltigkeit/aenderungen-an-der-csrd-durch-das-omnibus-paket_188_671364.html",
+          "note": "Omnibus reduces reporting population and postpones obligations - direct mandate risk to advisory demand."
+        },
+        {
+          "title": "CSRD & CSDDD: Omnibus-Einigungen im EU-Amtsblatt - Ebner Stolz",
+          "url": "https://www.ebnerstolz.de/de/unser-angebot/leistungen/wirtschaftspruefung/nachhaltigkeitsberichterstattung/csrd-csddd-einigungen-omnibus-final-veroeffentlicht-102048.html",
+          "note": "Confirms scope thresholds (>1,000 employees, >EUR 450m turnover) shrinking regulated universe."
+        },
+        {
+          "title": "Praxis der Nachhaltigkeitsberichterstattung nach CSRD/ESRS - DRSC/Deloitte",
+          "url": "https://www.drsc.de/app/uploads/2025/11/Die-Praxis-der-Nachhaltigkeitsberichterstattung-nach-CSRD-ESRS_DRSC-und-Deloitte.pdf",
+          "note": "Big-Four/large firms dominate top end; long tail of fragmented advisors."
         }
       ],
-      "confidence": 3,
-      "status": "grounded",
+      "confidence": 4,
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Advisory firms freely acquirable, but revenue is mandate-driven and the EU Omnibus package has sharply cut CSRD scope (only >1,000 employees & >EUR 450m turnover) and delayed timelines - regulatory-rollback risk.",
       "child_ids": []
     },
     "environmental-services-value-chain/environmental-consulting-monitoring-compliance/esg-csrd-reporting-carbon-accounting-advisory/carbon-footprint-ccf-pcf-climate-strategy-consulting": {
@@ -1715,18 +1895,18 @@
         "recurring": 4,
         "fragmentation": 5,
         "compliance": 4,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 3,
+        "margin": 4,
+        "growth": 3,
+        "headroom": 3,
+        "reimbursement_risk": 5
       },
       "rationale": {
         "recurring": "Annual re-baselining of footprints and ongoing target tracking.",
         "fragmentation": "Dense field of climate boutiques and software-plus-service vendors.",
         "compliance": "Feeds mandatory CSRD/Scope disclosures though partly voluntary/market-driven."
       },
-      "composite": 83.3,
+      "composite": 50.8,
       "dach_signals": {
         "est_players": "~many boutiques + software vendors",
         "revenue_band_eur": "EUR 10-100k per project",
@@ -1746,14 +1926,29 @@
           "title": "DO Climate – Experten CO2-Bilanz & Klimastrategie",
           "url": "https://www.do-climate.de/partner.html",
           "note": "Carbon footprint / climate strategy advisor"
+        },
+        {
+          "title": "Council/Parliament deal to simplify sustainability reporting (Omnibus, Dec 2025)",
+          "url": "https://www.consilium.europa.eu/en/press/press-releases/2025/12/09/council-and-parliament-strike-a-deal-to-simplify-sustainability-reporting-and-due-diligence-requirements-and-boost-eu-competitiveness/",
+          "note": "Omnibus raises CSRD threshold to >1,000 employees + >EUR 450m turnover, cuts data points, delays waves - major mandate-scope rollback = high reimbursement/regulatory risk."
+        },
+        {
+          "title": "EU Omnibus-Verordnung: Aenderungen fuer CSRD und CSDDD (Saim)",
+          "url": "https://saim.de/content-hub/blog/eu-omnibus-verordnung-aenderungen-fuer-csrd-csddd/",
+          "note": "Details ~80% scope reduction / deferred obligations shrinking the mandated advisory TAM."
+        },
+        {
+          "title": "Carbon accounting software & ESG reporting market (Plan A academy)",
+          "url": "https://plana.earth/academy/carbon-accounting-software-esg-reporting",
+          "note": "VC-backed platform confirms fragmented boutique + software market and existing sponsor interest."
         }
       ],
-      "confidence": 3,
-      "status": "grounded",
+      "confidence": 4,
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Boutiques and SaaS vendors freely acquirable; highly fragmented with VC/PE already entering (e.g. Plan A).",
       "child_ids": []
     },
     "environmental-services-value-chain/environmental-consulting-monitoring-compliance/esg-csrd-reporting-carbon-accounting-advisory/emas-environmental-management-umweltgutachter-verification": {
@@ -1773,18 +1968,18 @@
         "recurring": 5,
         "fragmentation": 4,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 2,
+        "margin": 4,
+        "growth": 3,
+        "headroom": 4,
+        "reimbursement_risk": 1
       },
       "rationale": {
         "recurring": "EMAS validation and surveillance audits recur on fixed cycles.",
         "fragmentation": "~260 approved Umweltgutachter/organisations in DE, dispersed by sector.",
         "compliance": "EMAS verification legally reserved to DAU-approved auditors."
       },
-      "composite": 91.7,
+      "composite": 70.8,
       "dach_signals": {
         "est_players": "~260 approved Umweltgutachter/orgs (DE)",
         "revenue_band_eur": "EUR 5-50k per validation cycle",
@@ -1804,14 +1999,19 @@
           "title": "EMAS.de – Umweltgutachter*in",
           "url": "https://www.emas.de/umweltgutachter-in",
           "note": "~260 approved environmental auditors; DAU licensing"
+        },
+        {
+          "title": "EMAS-Register – EMAS-Umweltgutachter",
+          "url": "https://www.emas-register.de/emas-umweltgutachter",
+          "note": "Registry of approved auditors; validates small, regulated pool."
         }
       ],
-      "confidence": 4,
-      "status": "grounded",
+      "confidence": 3,
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
-      "investability": "open",
-      "investability_note": "",
+      "investability": "restricted",
+      "investability_note": "Umweltgutachter is a person-bound state licence (Zulassung under UAG, DAU-accredited) with independence rules; only ~260 approved nationwide, limiting the acquirable pool and constraining ownership structures.",
       "child_ids": []
     },
     "environmental-services-value-chain/environmental-consulting-monitoring-compliance/ehs-environmental-management-software-saas": {
@@ -1830,18 +2030,18 @@
         "recurring": 5,
         "fragmentation": 3,
         "compliance": 4,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 4,
+        "margin": 5,
+        "growth": 5,
+        "headroom": 2,
+        "reimbursement_risk": 1
       },
       "rationale": {
         "recurring": "Sold as multi-year SaaS subscriptions with high retention.",
         "fragmentation": "Consolidating around a leader (Quentic/Wolters Kluwer) plus SAP EHS, Sphera and many KMU niche vendors — mid-cap structure, less fragmented than the service niches.",
         "compliance": "Adoption driven by GefStoffV/ArbSchG/ISO documentation duties, though platform choice is discretionary."
       },
-      "composite": 75.0,
+      "composite": 83.3,
       "dach_signals": {
         "est_players": "~20-40 relevant vendors (DACH)",
         "revenue_band_eur": "EUR 5-100m vendors; subscriptions EUR 5-100k/yr",
@@ -1873,14 +2073,24 @@
           "title": "GIT-Sicherheit – Quentic führend in HSE-Software-Studie",
           "url": "https://git-sicherheit.de/de/news/quentic-fuehrender-anbieter-in-hse-software-studie",
           "note": "Confirms market leadership (Verdantix Leader)"
+        },
+        {
+          "title": "About Quentic - leading EHS/ESG SaaS",
+          "url": "https://www.quentic.com/company/",
+          "note": "Berlin leader, >1,000 customers - large asset-light recurring model."
+        },
+        {
+          "title": "Quentic now part of AMCS",
+          "url": "https://www.quentic.com/software/technology/saas/",
+          "note": "AMCS acquired Quentic (2022) and Quentic itself bought NordSafety - consolidation already underway, compressing headroom."
         }
       ],
       "confidence": 4,
-      "status": "grounded",
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Freely acquirable SaaS vendors; asset-light, private subscription revenue with no statutory tariff exposure.",
       "child_ids": []
     },
     "environmental-services-value-chain/environmental-consulting-monitoring-compliance/ecological-surveying-environmental-construction-supervision-umweltbaubegleitung": {
@@ -1966,18 +2176,18 @@
         "recurring": 3,
         "fragmentation": 5,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 3,
+        "margin": 3,
+        "growth": 3,
+        "headroom": 5,
+        "reimbursement_risk": 3
       },
       "rationale": {
         "recurring": "Surveys span seasons; repeat work tracks project pipeline.",
         "fragmentation": "Many sole-practitioner biologists and small offices.",
         "compliance": "saP mandatory under BNatSchG §44 for regulated projects."
       },
-      "composite": 83.3,
+      "composite": 56.7,
       "dach_signals": {
         "est_players": "~hundreds of firms/freelancers",
         "revenue_band_eur": "EUR 10-150k per project",
@@ -1997,14 +2207,24 @@
           "title": "Fauna Plus – Leistungen",
           "url": "https://fauna-plus.de/leistungen/",
           "note": "Faunistic mapping / species-protection services"
+        },
+        {
+          "title": "Spezielle artenschutzrechtliche Pruefung (saP) - LfU Bayern",
+          "url": "https://www.lfu.bayern.de/natur/sap/index.htm",
+          "note": "saP mandated under BNatSchG sec.44 for intervention projects; regulatory demand driver."
+        },
+        {
+          "title": "Artenschutzfachbeitrag - GFN Umweltplanung",
+          "url": "https://www.gfn-umwelt.de/leistungsspektrum/artenschutzfachbeitrag",
+          "note": "Illustrates fragmented specialist offices; 6-18 month survey cycles, labour/expertise intensive."
         }
       ],
       "confidence": 3,
-      "status": "grounded",
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
-      "investability": "open",
-      "investability_note": "",
+      "investability": "restricted",
+      "investability_note": "Virgin, freelancer/small-office market with no financial consolidator, but strongly person/expertise-bound (seasonal field mapping) making institutionalisation and retention hard.",
       "child_ids": []
     },
     "environmental-services-value-chain/environmental-consulting-monitoring-compliance/ecological-surveying-environmental-construction-supervision-umweltbaubegleitung/ecological-construction-supervision-ubb-obb": {
@@ -2024,18 +2244,18 @@
         "recurring": 4,
         "fragmentation": 5,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 4,
+        "margin": 4,
+        "growth": 4,
+        "headroom": 4,
+        "reimbursement_risk": 2
       },
       "rationale": {
         "recurring": "Mandates run for the full construction period (often multi-year).",
         "fragmentation": "Same dispersed pool of ecology offices.",
         "compliance": "UBB is an enforceable permit condition for many infrastructure projects."
       },
-      "composite": 91.7,
+      "composite": 78.3,
       "dach_signals": {
         "est_players": "~hundreds of firms",
         "revenue_band_eur": "EUR 20-200k per project",
@@ -2054,14 +2274,24 @@
           "title": "UIO – Umweltbaubegleitung / Artenschutz in Fachplanungen",
           "url": "https://www.umweltinstitut.de/Liste/120/Umweltbaubegleitung/9/Artenschutz_in_Fachplanungen.html",
           "note": "Role/importance of ecological construction supervision"
+        },
+        {
+          "title": "Umweltbaubegleitung - Sweco GmbH",
+          "url": "https://www.sweco-gmbh.de/unsere-leistungen/stadt-und-umweltplanung/landschaft-und-oekologie/umweltbaubegleitung/",
+          "note": "Confirms UBB as mandated independent advisory service tied to infrastructure buildout; large consultancies present but market fragmented across hundreds of firms."
+        },
+        {
+          "title": "Oekologische Baubegleitung - enviro-plan",
+          "url": "https://www.enviro-plan.de/ressorts-leistungen/umweltbaubegleitung/%C3%B6kologische-baubegleitung.html",
+          "note": "Typical owner-operated specialist; nature-conservation mandate + rail/grid/wind buildout drives structural growth."
         }
       ],
       "confidence": 3,
-      "status": "grounded",
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Owner-operated Ingenieurbueros/Umweltplanungsbueros freely acquirable; only large engineering consultancies (Sweco etc.) aggregate the niche - little dedicated PE roll-up yet.",
       "child_ids": []
     },
     "environmental-services-value-chain/hazardous-materials-pollutant-removal": {
@@ -2199,18 +2429,18 @@
         "recurring": 4,
         "fragmentation": 5,
         "compliance": 4,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 5,
+        "margin": 3,
+        "growth": 4,
+        "headroom": 4,
+        "reimbursement_risk": 2
       },
       "rationale": {
         "recurring": "Vast Eternit/Asbestzement stock still on roofs & façades drives steady replacement volumes.",
         "fragmentation": "Overlaps with thousands of roofing/façade SMEs holding reduced-scope Sachkunde.",
         "compliance": "TRGS 519 applies but reduced qualification (Anlage 4) permits broader trade participation."
       },
-      "composite": 83.3,
+      "composite": 74.2,
       "dach_signals": {
         "est_players": "Hundreds-to-thousands incl. qualified roofing/façade trades",
         "revenue_band_eur": "EUR 0.2-2m typical",
@@ -2228,14 +2458,24 @@
           "title": "Asbestabbau nach TRGS-519 | Speedy's Fassadenreinigung",
           "url": "https://www.speedys-fassadenreinigung.de/asbest/asbestabbau-nach-trgs-519/",
           "note": "Façade/roof asbestos-cement removal by trade firm"
+        },
+        {
+          "title": "energie-experten.org – Asbestsanierung Massnahmen & Kosten",
+          "url": "https://www.energie-experten.org/bauen-und-sanieren/altbausanierung/asbestsanierung",
+          "note": "TRGS 519 specialist-firm requirement; ~10-15% of homes still asbestos-affected = large renovation-driven TAM."
+        },
+        {
+          "title": "dach.de – Kosten Asbestdachsanierung",
+          "url": "https://www.dach.de/post/was-kostet-eine-asbestsanierung-des-daches",
+          "note": "Confirms bound-asbestos roof/facade (Eternit 1950-1993) large installed base driving secular demand."
         }
       ],
       "confidence": 3,
-      "status": "grounded",
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Private building-owner pay; TRGS 519 is a firm-level qualification, targets freely acquirable across roofing/facade/abatement trades.",
       "child_ids": []
     },
     "environmental-services-value-chain/hazardous-materials-pollutant-removal/asbestos-removal-abatement-asbestsanierung-trgs-519/weakly-bound-asbestos-asi-works-spritzasbest-trgs-519-full-sachkunde": {
@@ -2255,18 +2495,18 @@
         "recurring": 4,
         "fragmentation": 4,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 4,
+        "margin": 3,
+        "growth": 4,
+        "headroom": 4,
+        "reimbursement_risk": 2
       },
       "rationale": {
         "recurring": "Continuous pipeline in public buildings, hospitals, schools built 1960s-80s.",
         "fragmentation": "Narrower specialist pool than Asbestzement but still regional mid-caps + long tail.",
         "compliance": "Full TRGS 519 Sachkunde, authority notification, containment and clearance measurement mandatory."
       },
-      "composite": 83.3,
+      "composite": 70.0,
       "dach_signals": {
         "est_players": "Several hundred fully-licensed firms (DE)",
         "revenue_band_eur": "EUR 1-10m typical",
@@ -2285,14 +2525,24 @@
           "title": "BAuA - TRGS 519 PDF (Fassung 28.2.2025)",
           "url": "https://www.baua.de/DE/Angebote/Regelwerk/TRGS/pdf/TRGS-519.pdf?__blob=publicationFile",
           "note": "Containment/negative-pressure and full-Sachkunde requirements"
+        },
+        {
+          "title": "BAuA - TRGS 519 Asbest",
+          "url": "https://www.baua.de/DE/Angebote/Regelwerk/TRGS/TRGS-519",
+          "note": "Statutory Sachkunde/notification regime for weakly-bound asbestos work - restricts who may operate."
+        },
+        {
+          "title": "TRGS 519 Sec.14 - weakly-bound asbestos special rules",
+          "url": "https://www.bgbau-medien.de/handlungshilfen_gb/daten/tr/trgs519/14.htm",
+          "note": "Confirms elevated licensing for Spritzasbest; large pre-1993 building stock drives renovation-wave demand."
         }
       ],
       "confidence": 3,
-      "status": "grounded",
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
-      "investability": "open",
-      "investability_note": "",
+      "investability": "restricted",
+      "investability_note": "Requires firm-level behoerdliche Zulassung and person-bound TRGS 519 full-Sachkunde for weakly-bound asbestos - licence/qualification friction on acquisition and integration.",
       "child_ids": []
     },
     "environmental-services-value-chain/hazardous-materials-pollutant-removal/other-building-pollutant-remediation-kmf-pcb-pak-lead-heavy-metals": {
@@ -2380,18 +2630,18 @@
         "recurring": 4,
         "fragmentation": 5,
         "compliance": 4,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 4,
+        "margin": 3,
+        "growth": 4,
+        "headroom": 4,
+        "reimbursement_risk": 2
       },
       "rationale": {
         "recurring": "Large pre-2000 mineral-wool stock in roofs/walls/HVAC removed on every renovation touching it.",
         "fragmentation": "Broad SME participation; often bundled with asbestos/insulation trades.",
         "compliance": "TRGS 521 Fachkunde, black/white zones; disposed as hazardous waste key 170603* on approved landfill (no statutory removal mandate, so scored 4)."
       },
-      "composite": 83.3,
+      "composite": 70.0,
       "dach_signals": {
         "est_players": "Hundreds (overlapping Schadstoffsanierung/insulation firms)",
         "revenue_band_eur": "EUR 0.2-3m typical",
@@ -2415,14 +2665,24 @@
           "title": "Bayerisches LfU/StMUV - Sichere Entsorgung Künstlicher Mineralfasern (KMF)",
           "url": "https://www.abfallratgeber.bayern.de/haushalte/abfallentsorgung/kuenstliche_mineralfasern/index.htm",
           "note": "Hazardous-waste classification & disposal rules"
+        },
+        {
+          "title": "KMF Sanierung & Mineralwolle entsorgen | TRGS 521 - bauschadstoff.de",
+          "url": "https://www.bauschadstoff.de/schadstoffsanierung/kmf-mineralwolle",
+          "note": "Regulatory (TRGS 521) driver; pre-2000 mineral wool in aging building stock drives renovation demand."
+        },
+        {
+          "title": "Schadstoffsanierung - Meyer Technik Unternehmensgruppe",
+          "url": "https://www.meyergruppe.de/schadstoffsanierung",
+          "note": "Regional multi-service remediation firm; fragmentation overlapping asbestos/insulation trades."
         }
       ],
       "confidence": 3,
-      "status": "grounded",
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Hundreds of small Sachkunde-qualified (TRGS 521) remediation firms, no dominant PE platform; freely acquirable, construction/renovation-funded.",
       "child_ids": []
     },
     "environmental-services-value-chain/hazardous-materials-pollutant-removal/other-building-pollutant-remediation-kmf-pcb-pak-lead-heavy-metals/pcb-pak-pcp-heavy-metal-decontamination-trgs-524": {
@@ -2442,18 +2702,18 @@
         "recurring": 3,
         "fragmentation": 4,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 4,
+        "margin": 2,
+        "growth": 4,
+        "headroom": 4,
+        "reimbursement_risk": 2
       },
       "rationale": {
         "recurring": "Project-driven; recurs across the 1960s-80s concrete/prefab stock but less ubiquitous than asbestos.",
         "fragmentation": "Specialist subset of Schadstoffsanierung firms; regional players + long tail.",
         "compliance": "TRGS 524 / DGUV 101-004 Sachkunde and PCB-Richtlinie compliance mandatory in contaminated areas."
       },
-      "composite": 75.0,
+      "composite": 61.7,
       "dach_signals": {
         "est_players": "Several hundred contaminated-area specialists",
         "revenue_band_eur": "EUR 0.5-5m typical",
@@ -2479,14 +2739,24 @@
           "title": "Fiedler Schadstoffsanierung - PCB-Sanierung gemäß TRGS 524 und DGUV 101-004",
           "url": "https://www.fiedler-schadstoffsanierung.de/schadstoffsanierung/pcb-sanierung/",
           "note": "PCB remediation contractor operating under TRGS 524"
+        },
+        {
+          "title": "Schadstoffsanierung Asbest KMF PCB-PAK - Hanse Umwelt GmbH",
+          "url": "https://www.hanse-umwelt.de/schadstoffsanierung-asbest-kmf-pcb-pak/",
+          "note": "Representative owner-operated remediation contractor in fragmented pool (labour/plant-heavy = lower margin)."
+        },
+        {
+          "title": "Gebaeudeschadstoffe beim Bauen im Bestand - BG BAU Bauportal",
+          "url": "https://bauportal.bgbau.de/bauportal-42023/thema/sanierung-und-bauwerksunterhalt/gebaeudeschadstoffe-beim-bauen-im-bestand",
+          "note": ">50% of residential investment now goes to renovation/modernisation of existing stock - structural demand tailwind for pollutant remediation."
         }
       ],
       "confidence": 3,
-      "status": "grounded",
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Fachbetriebe (TRGS 519/524 qualification) are freely acquirable; several hundred owner-operated firms with little visible financial-sponsor consolidation.",
       "child_ids": []
     },
     "environmental-services-value-chain/hazardous-materials-pollutant-removal/mould-remediation-schimmelsanierung": {
@@ -2505,18 +2775,18 @@
         "recurring": 4,
         "fragmentation": 5,
         "compliance": 3,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 5,
+        "margin": 3,
+        "growth": 4,
+        "headroom": 5,
+        "reimbursement_risk": 2
       },
       "rationale": {
         "recurring": "Recurring insurance- and moisture-driven claims; market reported growing ~8.7%/yr.",
         "fragmentation": "Tens of thousands of listed firms; only a few hundred certified (e.g. ~287 TÜV-certified) — classic long tail.",
         "compliance": "No hard statutory licence; guided by UBA-Schimmelleitfaden and voluntary Sachkunde/TÜV certification (buying driver is health/insurance, not law)."
       },
-      "composite": 75.0,
+      "composite": 70.0,
       "dach_signals": {
         "est_players": "~28,000 listed firms; ~287 TÜV-certified (DE)",
         "revenue_band_eur": "EUR 0.1-2m typical; sector ~EUR 1.28bn (2023, DE)",
@@ -2542,14 +2812,24 @@
           "title": "Bundesverband Schimmelpilzsanierung e.V. (BSS)",
           "url": "https://bss-schimmelpilz.de/",
           "note": "Trade association and voluntary certification/Sachkunde regime"
+        },
+        {
+          "title": "Deutsche Schadenshilfe – Schimmelsanierung",
+          "url": "https://deutsche-schadenshilfe.de/wasserschaden/schimmel/schimmelsanierung/",
+          "note": "Water-damage/insurance-linked remediation; certified firms scarce = quality-driven consolidation whitespace."
+        },
+        {
+          "title": "Heinrich Schmid – Schimmelsanierung",
+          "url": "https://www.heinrich-schmid.com/leistungen/schimmelsanierung/",
+          "note": "Representative fragmented craft-firm provider base."
         }
       ],
       "confidence": 3,
-      "status": "grounded",
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Highly fragmented (~28,000 firms, only ~287 TUV-certified), owner-operated, no financial consolidator; freely acquirable. Insurance/private-pay revenue.",
       "child_ids": []
     },
     "environmental-services-value-chain/hazardous-materials-pollutant-removal/fire-water-damage-restoration-brand-wasserschadensanierung": {
@@ -2635,18 +2915,18 @@
         "recurring": 5,
         "fragmentation": 4,
         "compliance": 2,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 5,
+        "margin": 3,
+        "growth": 4,
+        "headroom": 3,
+        "reimbursement_risk": 2
       },
       "rationale": {
         "recurring": "Highest-frequency insurance claim type in German property insurance.",
         "fragmentation": "~1,200-1,600 firms across drying/water-damage; franchise & network consolidation present.",
         "compliance": "Light regulatory burden; VdS/WTA guidance rather than statutory licence."
       },
-      "composite": 66.7,
+      "composite": 65.8,
       "dach_signals": {
         "est_players": "~1,253 water-damage + ~1,191 drying firms (DE)",
         "revenue_band_eur": "EUR 0.3-5m typical",
@@ -2664,14 +2944,24 @@
           "title": "Listflix - Liste mit 1.600 Wasserschadensanierern + Branchenübersicht",
           "url": "https://listflix.de/bauunternehmen/bausanierung/wasserschadensanierung/",
           "note": "~1,600 water-damage firms; fragmentation"
+        },
+        {
+          "title": "ARTUS Bautrocknungs- und Sanierungsgruppe",
+          "url": "https://www.artus-bsg.de/",
+          "note": "85-site consolidating group; alongside BELFOR/POLYGON shows consolidation started but base still ~2,400 firms."
+        },
+        {
+          "title": "POLYGON Group - Brand-/Wasserschaden",
+          "url": "https://www.polygongroup.com/de-DE/",
+          "note": "Insurance-driven restoration platform - climate/flooding tailwind, robust reimbursement."
         }
       ],
       "confidence": 4,
-      "status": "grounded",
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Freely acquirable service firms; insurance-funded demand, no licence monopoly.",
       "child_ids": []
     },
     "environmental-services-value-chain/hazardous-materials-pollutant-removal/fire-water-damage-restoration-brand-wasserschadensanierung/fire-soot-damage-restoration-brandschaden": {
@@ -2691,18 +2981,18 @@
         "recurring": 4,
         "fragmentation": 3,
         "compliance": 4,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 3,
+        "margin": 3,
+        "growth": 3,
+        "headroom": 3,
+        "reimbursement_risk": 3
       },
       "rationale": {
         "recurring": "Steady insurer-funded loss pipeline, lower frequency than water damage.",
         "fragmentation": "Smaller specialist pool (~120 dedicated firms) plus generalists.",
         "compliance": "Fire-residue decontamination falls under TRGS 524/DGUV 101-004 when contaminant thresholds apply."
       },
-      "composite": 66.7,
+      "composite": 48.3,
       "dach_signals": {
         "est_players": "~122 dedicated fire-damage firms (DE)",
         "revenue_band_eur": "EUR 0.5-10m typical",
@@ -2720,14 +3010,24 @@
           "title": "Listflix - Liste mit 100 Brandschadensanierung-Firmen in Deutschland",
           "url": "https://listflix.de/bauunternehmen/bausanierung/brandschadensanierung/",
           "note": "Dedicated fire-damage firm count"
+        },
+        {
+          "title": "Schadensanierung (Brand/Wasser) - BELFOR Deutschland",
+          "url": "https://www.belfor.com/de/de/unsere-leistungen/schadensanierung/",
+          "note": "Belfor ~1,300 staff, nationwide - dominant strategic already consolidating the niche."
+        },
+        {
+          "title": "Versicherungen - BELFOR Deutschland",
+          "url": "https://www.belfor.com/de/de/unsere-kunden/versicherungen/",
+          "note": "Insurance-funded model with SLAs; demand robust but tied to insurer relationships."
         }
       ],
       "confidence": 3,
-      "status": "grounded",
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Privately-held dedicated firms are acquirable, but Belfor is an entrenched nationwide strategic consolidator; revenue is insurer-funded (SLA/pricing exposure).",
       "child_ids": []
     },
     "environmental-services-value-chain/hazardous-materials-pollutant-removal/pollutant-surveying-building-hazmat-registers-schadstoffkataster-erkundung": {
@@ -2746,18 +3046,18 @@
         "recurring": 4,
         "fragmentation": 4,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 4,
+        "margin": 4,
+        "growth": 4,
+        "headroom": 4,
+        "reimbursement_risk": 2
       },
       "rationale": {
         "recurring": "Mandatory per project; effectively required before any Bestand demolition/renovation, re-won each job.",
         "fragmentation": "Engineering offices, Sachverständige and environmental institutes; regional + long tail.",
         "compliance": "Driven by GefStoffV/TRGS 519 client duties and VDI 6202; DIN SPEC 91484 now standardises the pre-demolition survey."
       },
-      "composite": 83.3,
+      "composite": 74.2,
       "dach_signals": {
         "est_players": "Several hundred Gutachter/Ingenieurbüros & environmental institutes",
         "revenue_band_eur": "EUR 0.2-3m typical (fee-based)",
@@ -2787,14 +3087,24 @@
           "title": "Bremer Umweltinstitut - Schadstoffkataster & Gefahrstoffkataster",
           "url": "https://www.bremer-umweltinstitut.de/gebaeudeuntersuchungen/schadstoffkataster-gefahrstoffkataster.html",
           "note": "Independent survey/lab institute example"
+        },
+        {
+          "title": "Schadstoffe im Baubestand erkennen - schadstoff-kompass.de",
+          "url": "https://www.schadstoff-kompass.de/sanierung/schadstoffe-bei-der-sanierung-erkennen/",
+          "note": "Pre-demolition/pre-renovation surveying (Erkundung) mandated before remediation; asset-light fee-based advisory work."
+        },
+        {
+          "title": "Gebaeudeschadstoffe beim Bauen im Bestand - BG BAU Bauportal",
+          "url": "https://bauportal.bgbau.de/bauportal-42023/thema/sanierung-und-bauwerksunterhalt/gebaeudeschadstoffe-beim-bauen-im-bestand",
+          "note": "Renovation-in-existing-stock wave plus tightened Gefahrstoffverordnung/asbestos survey duties drive surveying demand."
         }
       ],
       "confidence": 3,
-      "status": "grounded",
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Fee-based Gutachter/Ingenieurbueros freely acquirable (some person-bound Sachverstaendigen recognition, but firms transfer); fragmented, largely owner-operated, minimal PE consolidation.",
       "child_ids": []
     },
     "environmental-services-value-chain/hazardous-materials-pollutant-removal/industrial-decontamination-plant-dismantling-industrieruckbau-dekontamination": {
@@ -2813,18 +3123,18 @@
         "recurring": 3,
         "fragmentation": 3,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 4,
+        "margin": 2,
+        "growth": 4,
+        "headroom": 3,
+        "reimbursement_risk": 2
       },
       "rationale": {
         "recurring": "Project-based decommissioning; re-won per site but a multi-decade deindustrialisation/energy-transition pipeline.",
         "fragmentation": "Mid-cap specialists + long tail of demolition firms; more concentrated at the large/nuclear end.",
         "compliance": "EfbV-certified waste handling, GefStoffV/TRGS and (for nuclear) Strahlenschutz licensing make compliance the core barrier."
       },
-      "composite": 66.7,
+      "composite": 57.5,
       "dach_signals": {
         "est_players": "Hundreds of Industrierückbau/demontage firms (DE)",
         "revenue_band_eur": "EUR 1-50m+ project-based",
@@ -2850,14 +3160,24 @@
           "title": "industrie-demontage.de - Professionelle industrielle Demontage und Stilllegung",
           "url": "https://industrie-demontage.de/",
           "note": "Industrial dismantling/decommissioning specialist"
+        },
+        {
+          "title": "SPIE Industry Service – Verlagerung und Rueckbau",
+          "url": "https://www.spie-industry-service.com/leistungen/verlagerung-rueckbau/",
+          "note": "Strategic/service-group presence signals partial consolidation of plant dismantling/decontamination."
+        },
+        {
+          "title": "industrierueckbau24.de – Industrierueckbau vom Fachbetrieb",
+          "url": "https://www.industrierueckbau24.de/",
+          "note": "Confirms fragmented mid-market of specialist Industrierueckbau/decontamination firms; deindustrialisation tailwind."
         }
       ],
       "confidence": 3,
-      "status": "grounded",
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Private industrial-client project work, freely acquirable; capital/labour-heavy and lumpy project revenue. Strategics (SPIE, thyssenkrupp) already present but mid-market fragmented.",
       "child_ids": []
     },
     "environmental-services-value-chain/hazardous-materials-pollutant-removal/radon-mitigation-radonsanierung": {
@@ -2876,18 +3196,18 @@
         "recurring": 3,
         "fragmentation": 5,
         "compliance": 4,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 2,
+        "margin": 2,
+        "growth": 4,
+        "headroom": 5,
+        "reimbursement_risk": 2
       },
       "rationale": {
         "recurring": "Largely one-off per building today, but workplace measurement duties in radon-priority areas create a repeat measurement/mitigation pipeline.",
         "fragmentation": "Very immature/thin market — handled by scattered Kellersanierung/Abdichtung specialists and WTA networks, no consolidator.",
         "compliance": "Strahlenschutzgesetz sets a 300 Bq/m3 reference value and mandatory workplace measurement in Radonvorsorgegebieten; residential mitigation still largely voluntary."
       },
-      "composite": 75.0,
+      "composite": 53.3,
       "dach_signals": {
         "est_players": "Small/emerging — tens of specialised firms via WTA/mitigation networks",
         "revenue_band_eur": "EUR 0.1-1m typical",
@@ -2912,14 +3232,19 @@
           "title": "BfS - Gesetzliche Regelungen zum Schutz vor Radon",
           "url": "https://www.bfs.de/DE/themen/ion/umwelt/radon/regelungen/gesetz.html",
           "note": "StrlSchG duties for buildings/workplaces & priority areas"
+        },
+        {
+          "title": "RadonTec - Radonschutz und Radonsanierung",
+          "url": "https://radontec.de/",
+          "note": "One of few specialised providers - virgin, owner-operated, no financial consolidator."
         }
       ],
       "confidence": 3,
-      "status": "grounded",
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Freely acquirable but tiny emerging pool (tens of firms, <EUR 1m) limits platform scale; no consolidator present.",
       "child_ids": []
     },
     "environmental-services-value-chain/recycling-materials-recovery": {
@@ -3056,18 +3381,18 @@
         "recurring": 4,
         "fragmentation": 5,
         "compliance": 3,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 4,
+        "margin": 1,
+        "growth": 3,
+        "headroom": 3,
+        "reimbursement_risk": 5
       },
       "rationale": {
         "recurring": "Steady steelworks demand but pricing follows global steel/scrap index cycles.",
         "fragmentation": "Dense regional yard network with a few national shredder operators.",
         "compliance": "Standard waste-facility permitting; not the demand driver."
       },
-      "composite": 75.0,
+      "composite": 38.3,
       "dach_signals": {
         "est_players": "hundreds of regional yards",
         "revenue_band_eur": "EUR 1-10m typical",
@@ -3086,14 +3411,24 @@
           "title": "BDSV – Stahlrecyclingwirtschaft",
           "url": "https://www.bdsv.org/die-branche/stahlrecyclingwirtschaft/",
           "note": "Structure and scale of the ferrous scrap sector"
+        },
+        {
+          "title": "Remondis-Tochter TSR uebernimmt Speicherei Stuttgart - EUWID",
+          "url": "https://www.euwid-recycling.de/news/wirtschaft/remondis-tochter-tsr-uebernimmt-speicherei-stuttgart-200125/",
+          "note": "Ongoing strategic consolidation by TSR/Remondis (2025)."
+        },
+        {
+          "title": "Konsortium uebernimmt die TSR-Gruppe / REMONDIS - Presseportal",
+          "url": "https://www.presseportal.ch/de/pm/100010685/100513762",
+          "note": "TSR one of Europe's largest ferrous/NE recyclers (140 sites, 7.8m t/yr) - commodity-price-exposed leader."
         }
       ],
       "confidence": 4,
-      "status": "grounded",
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Hundreds of regional yards remain acquirable, but capital-heavy, thin trading margins and TSR/Remondis and Scholz are aggressive strategic consolidators; earnings swing with scrap-price commodity cycles.",
       "child_ids": []
     },
     "environmental-services-value-chain/recycling-materials-recovery/metal-scrap-recycling-schrott-ne-metalle/non-ferrous-precious-metals-ne-metalle": {
@@ -3113,18 +3448,18 @@
         "recurring": 4,
         "fragmentation": 3,
         "compliance": 3,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 4,
+        "margin": 2,
+        "growth": 3,
+        "headroom": 2,
+        "reimbursement_risk": 4
       },
       "rationale": {
         "recurring": "Refiner offtake relationships are sticky but priced on LME/precious-metal markets.",
         "fragmentation": "Fewer, larger smelters/refiners (Aurubis, Cronimet) plus specialist SMEs.",
         "compliance": "Emissions/waste permitting relevant; value driven by metal content."
       },
-      "composite": 58.3,
+      "composite": 39.2,
       "dach_signals": {
         "est_players": "dozens of specialist processors + few smelters",
         "revenue_band_eur": "EUR 5m-1bn+",
@@ -3144,14 +3479,29 @@
           "title": "bvse – Schrott, E-Schrott und Kfz-Recycling",
           "url": "https://www.bvse.de/211",
           "note": "Sector segmentation incl. non-ferrous metal recycling"
+        },
+        {
+          "title": "NE-Metalle mit Konsolidierung nach Anstieg - RECYCLING magazin",
+          "url": "https://www.recyclingmagazin.de/2024/07/04/ne-metalle-mit-konsolidierung-nach-anstieg/",
+          "note": "Confirms commodity-price-driven revenue swings (high reimbursement/price risk) and ongoing consolidation."
+        },
+        {
+          "title": "Edelmetallrecycling - REMONDIS",
+          "url": "https://www.remondis.de/leistungen/recycling-und-verwertung/edelmetallrecycling/",
+          "note": "Major consolidator (Remondis/TSR) already dominant in NE/precious-metal recovery = low headroom."
+        },
+        {
+          "title": "E-Schrott und komplexe Rohstoffe - Aurubis",
+          "url": "https://www.aurubis.com/en/produkte/recycling/e-Schrott-und-komplexe-rohstoffe",
+          "note": "Capital-heavy smelter-based value chain with few large players controlling downstream."
         }
       ],
-      "confidence": 3,
-      "status": "grounded",
+      "confidence": 4,
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Private processors are structurally acquirable, but the segment is heavily consolidated by strategics (Remondis/TSR, Aurubis, Scholz, ALBA) crowding financial sponsors.",
       "child_ids": []
     },
     "environmental-services-value-chain/recycling-materials-recovery/weee-electronic-waste-recycling-elektroschrott-elektrog": {
@@ -3240,18 +3590,18 @@
         "recurring": 4,
         "fragmentation": 4,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 4,
+        "margin": 2,
+        "growth": 4,
+        "headroom": 2,
+        "reimbursement_risk": 4
       },
       "rationale": {
         "recurring": "Municipal/retailer collection obligations feed a steady certified-treatment pipeline.",
         "fragmentation": "Regional certified operators dominate with local franchises.",
         "compliance": "Erstbehandlungszertifizierung is legally mandatory to handle WEEE."
       },
-      "composite": 83.3,
+      "composite": 55.8,
       "dach_signals": {
         "est_players": "hundreds of certified plants (DE)",
         "revenue_band_eur": "EUR 2-30m",
@@ -3270,14 +3620,24 @@
           "title": "Deutsche Recycling – WEEE/ElektroGesetz",
           "url": "https://deutsche-recycling.de/weee-full-service/weee-elektrogesetz-de-de/",
           "note": "Treatment obligations and certified-facility requirement"
+        },
+        {
+          "title": "Umweltbundesamt – Electrical and electronic waste",
+          "url": "https://www.umweltbundesamt.de/en/topics/waste-resources/product-stewardship-waste-management/electrical-electronic-waste",
+          "note": "ElektroG mandate framework; only certified facilities may do first-treatment (~340 plants)."
+        },
+        {
+          "title": "REMONDIS Electrorecycling – WEEE recycling",
+          "url": "https://www.remondis-electrorecycling.de/en/",
+          "note": "Confirms major consolidators (REMONDIS 30+ yrs, PreZero.weeeturn) already own scaled first-treatment capacity."
         }
       ],
       "confidence": 3,
-      "status": "grounded",
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
-      "investability": "open",
-      "investability_note": "",
+      "investability": "restricted",
+      "investability_note": "Certified Erstbehandlung (~340 plants) with annual certification barrier; large consolidators (REMONDIS, PreZero, TSR/ALBA) already dominant and revenue tied to EPR take-back systems and recovered-material commodity prices.",
       "child_ids": []
     },
     "environmental-services-value-chain/recycling-materials-recovery/weee-electronic-waste-recycling-elektroschrott-elektrog/precious-critical-metal-recovery-from-pcbs": {
@@ -3297,18 +3657,18 @@
         "recurring": 3,
         "fragmentation": 2,
         "compliance": 4,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 2,
+        "margin": 2,
+        "growth": 4,
+        "headroom": 1,
+        "reimbursement_risk": 5
       },
       "rationale": {
         "recurring": "Feedstock recurring but revenue geared to precious-metal prices.",
         "fragmentation": "Few large smelters (Aurubis, Umicore) capture the value pool.",
         "compliance": "Emissions/waste permits stringent; CRM policy tailwinds."
       },
-      "composite": 50.0,
+      "composite": 25.8,
       "dach_signals": {
         "est_players": "handful of integrated smelters",
         "revenue_band_eur": "EUR 50m-1bn+",
@@ -3327,14 +3687,24 @@
           "title": "HLNUG – Elektroaltgeräte (EAG) / Metallrückgewinnung",
           "url": "https://www.hlnug.de/themen/ressourcenschutz-und-kreislaufwirtschaft-abfall/ressourcenschutz-und-kreislaufwirtschaft/metallrueckgewinnung/elektroaltgeraete",
           "note": "Metal recovery from WEEE fractions"
+        },
+        {
+          "title": "Aurubis - E-scrap and complex raw materials recycling",
+          "url": "https://www.aurubis.com/en/produkte/recycling/e-Schrott-und-komplexe-rohstoffe",
+          "note": "Integrated copper/precious-metal smelter - concentrated oligopoly, no consolidation whitespace."
+        },
+        {
+          "title": "Elektroschrott Preis 2025 / Schrottpreisentwicklung",
+          "url": "https://schrott-handler.de/elektroschrott-preis/",
+          "note": "Output revenue = recovered gold/copper/palladium at volatile commodity prices (EUR 0.54-9.18/kg) - high output-price/reimbursement risk."
         }
       ],
-      "confidence": 3,
-      "status": "grounded",
+      "confidence": 4,
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
-      "investability": "open",
-      "investability_note": "",
+      "investability": "blocked",
+      "investability_note": "Blocked as a roll-up: capital-intensive integrated-smelter oligopoly (Aurubis, Umicore, Boliden) - handful of targets, not acquirable at PE-platform scale.",
       "child_ids": []
     },
     "environmental-services-value-chain/recycling-materials-recovery/plastics-recycling-recyclate-kunststoffrecycling-rezyklat": {
@@ -3418,18 +3788,18 @@
         "recurring": 3,
         "fragmentation": 4,
         "compliance": 4,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 4,
+        "margin": 1,
+        "growth": 2,
+        "headroom": 3,
+        "reimbursement_risk": 5
       },
       "rationale": {
         "recurring": "Steady LVP/DSD input but recyclate price undercut by cheap virgin resin in weak markets.",
         "fragmentation": "Dense mid-cap landscape across DACH.",
         "compliance": "Recyclate quotas and eco-modulated dual-system fees pull demand."
       },
-      "composite": 66.7,
+      "composite": 30.0,
       "dach_signals": {
         "est_players": "hundreds",
         "revenue_band_eur": "EUR 3-100m",
@@ -3448,14 +3818,29 @@
           "title": "Grüner Punkt – Verpackungsgesetz",
           "url": "https://www.gruener-punkt.de/en/packaging-licensing/packaging-act",
           "note": "Recyclate/dual-system recycling context"
+        },
+        {
+          "title": "Deutsches Kunststoffrecycling steht vor dem Kollaps - chemie.de",
+          "url": "https://www.chemie.de/news/1188678/deutsches-kunststoffrecycling-steht-vor-dem-kollaps.html",
+          "note": "~1m t capacity lost, doubling/tripling of closures 2024-2025; virgin-price undercutting."
+        },
+        {
+          "title": "Der Rezyklatmarkt ist eine Katastrophe - kunststoffe.de",
+          "url": "https://www.kunststoffe.de/a/news/der-rezyklatmarkt-ist-eine-katastrophe-7921410",
+          "note": "Recyclate price collapse vs virgin resin - core commodity/mandate risk."
+        },
+        {
+          "title": "Markt- und Preisdruck: Recyclingbranche in der Krise - FachPack",
+          "url": "https://www.fachpack.de/de-de/fachpack-360/2024-1/article/markt-und-preisdruck-recyclingbranche-in-der-krise",
+          "note": "Confirms structural price/demand pressure and paradox vs 2026 EU quotas."
         }
       ],
-      "confidence": 3,
-      "status": "grounded",
+      "confidence": 4,
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Assets acquirable (many distressed), but the segment is in acute crisis - ~1m t capacity lost to closures/insolvencies by end-2025 as cheap virgin plastic undercuts recyclate; long-term EU minimum-recyclate quotas are the only offsetting driver.",
       "child_ids": []
     },
     "environmental-services-value-chain/recycling-materials-recovery/plastics-recycling-recyclate-kunststoffrecycling-rezyklat/chemical-recycling-emerging": {
@@ -3475,18 +3860,18 @@
         "recurring": 2,
         "fragmentation": 2,
         "compliance": 4,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 2,
+        "margin": 1,
+        "growth": 4,
+        "headroom": 4,
+        "reimbursement_risk": 5
       },
       "rationale": {
         "recurring": "Pre-commercial offtake; not yet contractual recurring at scale.",
         "fragmentation": "Few technology-led entrants, not owner-operated long tail.",
         "compliance": "Positioned to help meet statutory recyclate targets; mass-balance rules pending."
       },
-      "composite": 41.7,
+      "composite": 17.5,
       "dach_signals": {
         "est_players": "<20 technology players (DACH)",
         "revenue_band_eur": "pre-revenue to EUR 50m",
@@ -3505,14 +3890,29 @@
           "title": "SAIM – EU-Verpackungsverordnung (PPWR)",
           "url": "https://saim.de/glossar/eu-verpackungsverordnung-ppwr-was-unternehmen-jetzt-wissen-sollten/",
           "note": "Regulatory pull for advanced recycling"
+        },
+        {
+          "title": "Chemisches Recycling: Wo steht Deutschland aktuell? - K-Zeitung",
+          "url": "https://www.k-zeitung.de/marktstudie-chemisches-recycling-kapazitaeten-prognose",
+          "note": "Only ~30 kt/a input capacity (2024), mostly pilots - tiny current pool, <20 DACH tech players, pre/low revenue."
+        },
+        {
+          "title": "Markt fuer chemisches Recycling bleibt dynamisch - EU-Recycling",
+          "url": "https://eu-recycling.com/Archive/40330",
+          "note": "Radical Dot raised EUR 2.7m (Mar 2025); Pyrum, Carboliq, Arcus - VC/strategic-funded early-stage, not PE roll-up targets."
+        },
+        {
+          "title": "Chemisches Recycling: Deutschland verschlaeft Potenzial - Solarify",
+          "url": "https://www.solarify.eu/2025/12/21/chemisches-recycling-deutschland-verschlaeft-potenzial/",
+          "note": "Economics hinge on regulatory recognition (Verpackungsgesetz 5% quota from 2028) and virgin-plastic/oil-price competition - high mandate + commodity exposure."
         }
       ],
-      "confidence": 2,
-      "status": "grounded",
+      "confidence": 4,
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
-      "investability": "open",
-      "investability_note": "",
+      "investability": "restricted",
+      "investability_note": "Pre-revenue, capital-intensive technology developers mostly held by VC/chemical strategics; tech and execution risk make it un-suited to a services buy-and-build (not freely roll-up-able as a platform).",
       "child_ids": []
     },
     "environmental-services-value-chain/recycling-materials-recovery/paper-glass-textile-recycling-commodity-streams": {
@@ -3600,18 +4000,18 @@
         "recurring": 4,
         "fragmentation": 4,
         "compliance": 3,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 4,
+        "margin": 2,
+        "growth": 3,
+        "headroom": 2,
+        "reimbursement_risk": 5
       },
       "rationale": {
         "recurring": "~78% return rate and steady mill demand, but grade prices swing (EUR 40-130/t).",
         "fragmentation": "bvse is Europe's largest paper-recycling association of mostly Mittelstand firms.",
         "compliance": "Separate collection mandated but value is commodity-driven."
       },
-      "composite": 66.7,
+      "composite": 38.3,
       "dach_signals": {
         "est_players": "several hundred (DE, mostly SME)",
         "revenue_band_eur": "EUR 1-50m",
@@ -3631,14 +4031,24 @@
           "title": "wir-lieben-recycling – Altpapier in Zahlen",
           "url": "https://wir-lieben-recycling.de/recycling-in-zahlen/altpapier/",
           "note": "~12 Mt collected, return quota, EUWID pricing"
+        },
+        {
+          "title": "EUWID – Altpapier Deutschland Marktpreise",
+          "url": "https://www.euwid-recycling.de/maerkte/altpapier-deutschland/",
+          "note": "Monthly EUWID-indexed price swings confirm high commodity-price exposure of the revenue."
+        },
+        {
+          "title": "euroconsil – Entsorgungsbetrieb verkaufen (M&A context)",
+          "url": "https://www.euroconsil.de/entsorgungsbetrieb-verkaufen",
+          "note": "Top-5 consolidators dominate top of market (double-digit-billion revenues); active Veolia/ALBA acquisitions leave little independent headroom."
         }
       ],
-      "confidence": 4,
-      "status": "grounded",
+      "confidence": 3,
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
-      "investability": "open",
-      "investability_note": "",
+      "investability": "blocked",
+      "investability_note": "Household PPK collection largely locked into municipal/Duales-System structures and the top-5 consolidator oligopoly (REMONDIS, PreZero, Veolia, ALBA actively acquiring); merchant Altpapier revenue is highly exposed to EUWID commodity-price volatility.",
       "child_ids": []
     },
     "environmental-services-value-chain/recycling-materials-recovery/paper-glass-textile-recycling-commodity-streams/glass-altglas": {

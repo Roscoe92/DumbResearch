@@ -76,6 +76,18 @@ def cmd_shortlist(args) -> int:
     return 0
 
 
+def cmd_portfolio(args) -> int:
+    from .portfolio import render_portfolio, write_master_csv
+    trees = [Tree.load(p) for p in args.trees]
+    for t in trees:
+        apply_scores(t)
+    render_portfolio(trees, args.out, title=args.title, standalone=not args.fragment)
+    write_master_csv(trees, args.csv)
+    n = sum(1 for t in trees for leaf in t.leaves() if leaf.scores.headroom > 0)
+    print(f"portfolio: {len(trees)} industries, {n} scored niches -> {args.out} + {args.csv}")
+    return 0
+
+
 def cmd_generate(args) -> int:
     from .generate import generate_tree
     out = Path(args.out) if args.out else Path(f"data/{args.root.lower().replace(' ', '_')}_{args.region.lower()}.json")
@@ -113,6 +125,14 @@ def main(argv=None) -> int:
     s.add_argument("--top", type=int, default=20)
     s.add_argument("--min-level", type=int, default=2)
     s.set_defaults(func=cmd_shortlist)
+
+    pf = sub.add_parser("portfolio", help="combine several trees into a cross-industry 2x2 map")
+    pf.add_argument("trees", nargs="+", help="tree.json paths (one per industry)")
+    pf.add_argument("--out", default="data/dach_portfolio.html")
+    pf.add_argument("--csv", default="data/dach_master_shortlist.csv")
+    pf.add_argument("--title", default="DACH cross-industry portfolio")
+    pf.add_argument("--fragment", action="store_true", help="emit body fragment only (for hosted embeds)")
+    pf.set_defaults(func=cmd_portfolio)
 
     g = sub.add_parser("generate", help="auto-generate a tree via an LLM backend (needs API key)")
     g.add_argument("--root", required=True)
