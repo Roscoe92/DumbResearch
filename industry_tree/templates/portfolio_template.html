@@ -1,0 +1,143 @@
+<div id="pf-root">
+<style>
+  :root{ --bg:#f6f7f9; --panel:#fff; --ink:#1a1d21; --muted:#697586; --line:#d7dce3;
+    --link:#2563eb; --chip:#eef1f5; --shadow:0 1px 3px rgba(0,0,0,.08); }
+  @media (prefers-color-scheme: dark){ :root{ --bg:#0f1216; --panel:#171b21; --ink:#e6e9ee;
+    --muted:#9aa5b1; --line:#2a3038; --link:#6ea8fe; --chip:#222833; --shadow:0 1px 3px rgba(0,0,0,.4); } }
+  :root[data-theme="light"]{ --bg:#f6f7f9; --panel:#fff; --ink:#1a1d21; --muted:#697586; --line:#d7dce3; --link:#2563eb; --chip:#eef1f5; }
+  :root[data-theme="dark"]{ --bg:#0f1216; --panel:#171b21; --ink:#e6e9ee; --muted:#9aa5b1; --line:#2a3038; --link:#6ea8fe; --chip:#222833; }
+  #pf-root{ font:14px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    color:var(--ink); background:var(--bg); position:fixed; inset:0; display:flex; flex-direction:column; }
+  #pf-top{ display:flex; align-items:center; gap:14px; padding:10px 16px; border-bottom:1px solid var(--line);
+    background:var(--panel); box-shadow:var(--shadow); flex-wrap:wrap; z-index:5; }
+  #pf-top h1{ font-size:15px; margin:0; font-weight:650; }
+  #pf-top .sub{ color:var(--muted); font-size:12px; }
+  #pf-top .spacer{ flex:1; }
+  .btn{ padding:6px 10px; border:1px solid var(--line); border-radius:8px; background:var(--bg); color:var(--ink); cursor:pointer; font-size:12px; }
+  .btn:hover{ border-color:var(--link); color:var(--link); }
+  #pf-legend{ display:flex; gap:10px; flex-wrap:wrap; }
+  #pf-legend .li{ display:flex; align-items:center; gap:5px; font-size:12px; cursor:pointer; user-select:none; }
+  #pf-legend .li.off{ opacity:.35; }
+  #pf-legend .sw{ width:11px; height:11px; border-radius:3px; }
+  #pf-body{ flex:1; display:flex; min-height:0; }
+  #pf-canvas{ flex:1; overflow:auto; }
+  svg{ display:block; }
+  .mx-grid{ stroke:var(--line); stroke-width:1px; } .mx-div{ stroke:var(--muted); stroke-width:1px; stroke-dasharray:4 4; opacity:.6; }
+  .mx-qlab{ fill:var(--muted); font-size:11px; text-transform:uppercase; letter-spacing:.05em; }
+  .mx-axis{ fill:var(--muted); font-size:11px; }
+  .mx-pt{ cursor:pointer; stroke:var(--panel); stroke-width:1px; } .mx-pt.sel{ stroke:var(--ink); stroke-width:2px; } .mx-pt.block{ opacity:.45; }
+  #pf-side{ width:380px; border-left:1px solid var(--line); background:var(--panel); overflow:auto; padding:16px; }
+  #pf-side h2{ font-size:15px; margin:0 0 2px; padding-right:52px; }
+  .path{ color:var(--muted); font-size:11px; margin-bottom:10px; word-break:break-word; }
+  .chips{ display:flex; gap:6px; flex-wrap:wrap; margin-bottom:12px; }
+  .chip{ font-size:11px; padding:2px 9px; border-radius:10px; background:var(--chip); color:var(--ink); }
+  .chip.ind{ color:#fff; font-weight:600; }
+  .chip.inv-restricted{ background:rgba(224,168,62,.18); color:#a9781f; } .chip.inv-blocked{ background:rgba(161,91,91,.18); color:#a15b5b; }
+  .grp{ font-size:10px; text-transform:uppercase; letter-spacing:.05em; color:var(--muted); margin:14px 0 6px; }
+  .crit{ margin-bottom:9px; } .crit .row{ display:flex; align-items:center; gap:8px; }
+  .crit .name{ width:120px; font-size:12px; } .crit .track{ flex:1; height:7px; border-radius:4px; background:var(--chip); overflow:hidden; }
+  .crit .fill{ height:100%; } .crit .val{ width:26px; text-align:right; font-variant-numeric:tabular-nums; font-size:12px; }
+  .crit .why{ color:var(--muted); font-size:11px; margin:2px 0 0; }
+  .sig{ margin:12px 0; } .sig .k{ color:var(--muted); font-size:11px; text-transform:uppercase; letter-spacing:.04em; } .sig .v{ font-size:13px; margin:1px 0 8px; }
+  .tag{ display:inline-block; background:var(--chip); border-radius:6px; padding:2px 7px; margin:2px 4px 2px 0; font-size:11.5px; }
+  .src a{ color:var(--link); text-decoration:none; font-size:12px; } .src .note{ color:var(--muted); font-size:11px; }
+  .scorepill{ float:right; text-align:center; } .scorepill .big{ font-size:20px; font-weight:800; line-height:1; } .scorepill .lbl{ font-size:9px; text-transform:uppercase; color:var(--muted); }
+  .whynow .v{ background:var(--chip); border-left:3px solid var(--link); padding:8px 10px; border-radius:0 6px 6px 0; }
+  .invnote{ color:var(--muted); font-size:11.5px; margin-top:4px; }
+  #pf-list h3{ font-size:12px; text-transform:uppercase; letter-spacing:.04em; color:var(--muted); margin:0 0 8px; }
+  #pf-list table{ width:100%; border-collapse:collapse; font-size:12px; }
+  #pf-list td{ padding:5px 4px; border-bottom:1px solid var(--line); cursor:pointer; vertical-align:top; }
+  #pf-list tr:hover td{ color:var(--link); }
+  #pf-list .bl{ font-weight:700; font-variant-numeric:tabular-nums; text-align:right; width:34px; }
+  #pf-list .dot{ display:inline-block; width:9px; height:9px; border-radius:50%; margin-right:6px; }
+  #pf-list .q{ color:var(--muted); font-size:10.5px; }
+</style>
+
+<div id="pf-top">
+  <h1 id="pf-title"></h1><span class="sub" id="pf-meta"></span>
+  <div class="spacer"></div>
+  <div id="pf-legend"></div>
+  <button class="btn" id="pf-listbtn">☰ Shortlist</button>
+</div>
+<div id="pf-body">
+  <div id="pf-canvas"><svg id="pf-svg"></svg></div>
+  <div id="pf-side"></div>
+</div>
+
+<script id="pf-points" type="application/json">__POINTS_JSON__</script>
+<script id="pf-metadata" type="application/json">__META_JSON__</script>
+<script>
+(function(){
+  var PTS=JSON.parse(document.getElementById('pf-points').textContent);
+  var META=JSON.parse(document.getElementById('pf-metadata').textContent);
+  var IND={}; META.industries.forEach(function(x){ IND[x.name]=x.color; });
+  var off={}, selIdx=null, QATTR=55, QACT=50;
+  var ATTR=[["recurring","Recurring"],["fragmentation","Fragmentation"],["compliance","Regulatory demand"],["scale","Scale potential"],["margin","Margin quality"],["growth","Growth tailwind"]];
+  PTS.forEach(function(p,i){ p._i=i; });
+
+  document.getElementById('pf-title').textContent=META.title;
+  document.getElementById('pf-meta').textContent=META.region+" · "+META.industries.length+" sectors · "+META.n_points+" scored niches";
+  var svg=document.getElementById('pf-svg'), side=document.getElementById('pf-side');
+  function cvar(n){ return getComputedStyle(document.documentElement).getPropertyValue(n)||'#888'; }
+  function esc(s){ return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
+  function fit(pct){ var t=Math.max(0,Math.min(1,pct/100)),a=[214,69,69],b=[224,168,62],g=[63,157,88],r,gg,bb,u;
+    if(t<0.5){u=t/.5;r=a[0]+(b[0]-a[0])*u;gg=a[1]+(b[1]-a[1])*u;bb=a[2]+(b[2]-a[2])*u;}else{u=(t-.5)/.5;r=b[0]+(g[0]-b[0])*u;gg=b[1]+(g[1]-b[1])*u;bb=b[2]+(g[2]-b[2])*u;}
+    return 'rgb('+Math.round(r)+','+Math.round(gg)+','+Math.round(bb)+')'; }
+
+  function legend(){ var el=document.getElementById('pf-legend'); el.innerHTML=META.industries.map(function(x){
+    return '<span class="li'+(off[x.name]?' off':'')+'" data-n="'+esc(x.name)+'"><span class="sw" style="background:'+x.color+'"></span>'+esc(x.name)+'</span>'; }).join('');
+    Array.prototype.forEach.call(el.querySelectorAll('.li'),function(li){ li.addEventListener('click',function(){ var n=li.getAttribute('data-n'); off[n]=!off[n]; legend(); draw(); }); }); }
+
+  function draw(){ var W=Math.max(760,(svg.parentNode.clientWidth||900)-40), H=Math.max(540,(svg.parentNode.clientHeight||600)-24);
+    var m={l:60,r:24,t:24,b:46}, iw=W-m.l-m.r, ih=H-m.t-m.b;
+    function X(v){return m.l+v/100*iw;} function Y(v){return m.t+(100-v)/100*ih;}
+    var p=['<rect x="'+m.l+'" y="'+m.t+'" width="'+iw+'" height="'+ih+'" fill="none" class="mx-grid"/>'];
+    p.push('<line class="mx-div" x1="'+X(QACT)+'" y1="'+m.t+'" x2="'+X(QACT)+'" y2="'+(m.t+ih)+'"/>');
+    p.push('<line class="mx-div" x1="'+m.l+'" y1="'+Y(QATTR)+'" x2="'+(m.l+iw)+'" y2="'+Y(QATTR)+'"/>');
+    p.push('<text class="mx-qlab" x="'+(m.l+iw-8)+'" y="'+(m.t+14)+'" text-anchor="end">Act now</text>');
+    p.push('<text class="mx-qlab" x="'+(m.l+8)+'" y="'+(m.t+14)+'">Too late</text>');
+    p.push('<text class="mx-qlab" x="'+(m.l+iw-8)+'" y="'+(m.t+ih-8)+'" text-anchor="end">Watchlist</text>');
+    p.push('<text class="mx-qlab" x="'+(m.l+8)+'" y="'+(m.t+ih-8)+'">Pass</text>');
+    p.push('<text class="mx-axis" x="'+(m.l+iw/2)+'" y="'+(H-12)+'" text-anchor="middle">Actionability  (can we win / own it)  →</text>');
+    p.push('<text class="mx-axis" transform="translate(16,'+(m.t+ih/2)+') rotate(-90)" text-anchor="middle">Attractiveness  →</text>');
+    PTS.forEach(function(pt){ if(off[pt.industry]) return; var jx=((pt._i*37)%7-3)*1.0, jy=((pt._i*53)%7-3)*1.0;
+      var blk=pt.investability==='blocked';
+      p.push('<circle class="mx-pt'+(blk?' block':'')+(pt._i===selIdx?' sel':'')+'" data-i="'+pt._i+'" cx="'+(X(pt.act)+jx)+'" cy="'+(Y(pt.attr)+jy)+'" r="'+(pt._i===selIdx?7:5)+'" fill="'+(IND[pt.industry]||'#888')+'"><title>'+esc(pt.industry)+' · '+esc(pt.name)+' — '+pt.quad+' (A '+Math.round(pt.attr)+'/X '+Math.round(pt.act)+')</title></circle>'); });
+    svg.setAttribute('width',W); svg.setAttribute('height',H); svg.innerHTML=p.join('');
+    Array.prototype.forEach.call(svg.querySelectorAll('.mx-pt'),function(c){ c.addEventListener('click',function(){ selIdx=+c.getAttribute('data-i'); draw(); detail(PTS[selIdx]); }); }); }
+
+  function bar(label,val,why,invert){ var pct=(val>0)?((val-1)/4*100):0; var col=invert?fit(100-pct):fit(pct);
+    return '<div class="crit"><div class="row"><span class="name">'+label+'</span><span class="track"><span class="fill" style="width:'+pct+'%;background:'+col+'"></span></span><span class="val">'+(val>0?val:'–')+'</span></div>'+(why?'<div class="why">'+esc(why)+'</div>':'')+'</div>'; }
+  function detail(pt){ var s=pt.scores,r=pt.rationale||{},d=pt.dach||{},html='';
+    html+='<div class="scorepill"><div class="big" style="color:'+fit(pt.attr)+'">'+Math.round(pt.attr)+'</div><div class="lbl">attract</div></div>';
+    html+='<h2>'+esc(pt.name)+'</h2><div class="path">'+esc(pt.path.join('  ›  '))+'</div>';
+    html+='<div class="chips"><span class="chip ind" style="background:'+(IND[pt.industry]||'#888')+'">'+esc(pt.industry)+'</span>';
+    html+='<span class="chip">'+esc(pt.quad)+'</span><span class="chip">Actionability '+Math.round(pt.act)+'</span>';
+    html+='<span class="chip inv-'+pt.investability+'">'+pt.investability+'</span></div>';
+    if(pt.description) html+='<p style="margin:0 0 12px">'+esc(pt.description)+'</p>';
+    if(pt.investability!=='open'&&pt.investability_note) html+='<div class="invnote">⚠ '+esc(pt.investability_note)+'</div>';
+    html+='<div class="grp">Attractiveness</div>'; ATTR.forEach(function(c){ html+=bar(c[1],s[c[0]]||0,r[c[0]]||''); });
+    if(s.reimbursement_risk>0) html+=bar('Reimbursement risk',s.reimbursement_risk,'higher = more exposed to tariff cuts',true);
+    html+='<div class="grp">Actionability</div>'+bar('Consolidation headroom',s.headroom||0,'5 = virgin, no PE consolidator yet');
+    html+='<div class="sig">';
+    if(d.est_players) html+='<div class="k">Players (DACH)</div><div class="v">'+esc(d.est_players)+'</div>';
+    if(d.revenue_band_eur) html+='<div class="k">Typical revenue</div><div class="v">'+esc(d.revenue_band_eur)+'</div>';
+    if(d.regulation&&d.regulation.length) html+='<div class="k">Regulation</div><div class="v">'+d.regulation.map(function(x){return '<span class="tag">'+esc(x)+'</span>';}).join('')+'</div>';
+    if(d.example_companies&&d.example_companies.length) html+='<div class="k">Example companies</div><div class="v">'+d.example_companies.map(function(x){return '<span class="tag">'+esc(x)+'</span>';}).join('')+'</div>';
+    html+='</div>';
+    if(pt.why_now) html+='<div class="sig whynow"><div class="k">Why now</div><div class="v">'+esc(pt.why_now)+'</div></div>';
+    if(pt.pe_activity&&pt.pe_activity.length) html+='<div class="sig"><div class="k">Consolidation / PE activity</div><div class="v">'+pt.pe_activity.map(function(x){return '<span class="tag">'+esc(x)+'</span>';}).join('')+'</div></div>';
+    if(pt.sources&&pt.sources.length){ html+='<div class="sig"><div class="k">Sources</div>'; pt.sources.forEach(function(x){ html+='<div class="src" style="margin:5px 0"><a href="'+esc(x.url)+'" target="_blank" rel="noopener">'+esc(x.title||x.url)+'</a>'+(x.note?'<div class="note">'+esc(x.note)+'</div>':'')+'</div>'; }); html+='</div>'; }
+    side.innerHTML=html; }
+
+  function shortlist(){ var rows=PTS.filter(function(p){return !off[p.industry];}).slice(0,40);
+    side.innerHTML='<div id="pf-list"><h3>Master shortlist — top by blended</h3><table><tbody>'+rows.map(function(p){
+      return '<tr data-i="'+p._i+'"><td class="bl" style="color:'+fit(p.blended)+'">'+Math.round(p.blended)+'</td><td><span class="dot" style="background:'+(IND[p.industry]||'#888')+'"></span>'+esc(p.name)+'<div class="q">'+esc(p.industry)+' · '+p.quad+(p.investability!=='open'?' · '+p.investability:'')+'</div></td></tr>';
+    }).join('')+'</tbody></table></div>';
+    Array.prototype.forEach.call(side.querySelectorAll('tr'),function(tr){ tr.addEventListener('click',function(){ selIdx=+tr.getAttribute('data-i'); draw(); detail(PTS[selIdx]); }); }); }
+
+  document.getElementById('pf-listbtn').addEventListener('click',shortlist);
+  legend(); draw(); shortlist();
+})();
+</script>
+</div>
