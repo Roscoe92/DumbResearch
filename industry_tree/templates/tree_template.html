@@ -1,0 +1,256 @@
+<div id="it-root">
+<style>
+  :root{
+    --bg:#f7f8fa; --panel:#ffffff; --ink:#1a1d21; --muted:#697586;
+    --line:#d7dce3; --link:#2563eb; --chip:#eef1f5; --shadow:0 1px 3px rgba(0,0,0,.08);
+  }
+  @media (prefers-color-scheme: dark){
+    :root{ --bg:#0f1216; --panel:#171b21; --ink:#e6e9ee; --muted:#9aa5b1;
+      --line:#2a3038; --link:#6ea8fe; --chip:#222833; --shadow:0 1px 3px rgba(0,0,0,.4); }
+  }
+  :root[data-theme="light"]{ --bg:#f7f8fa; --panel:#fff; --ink:#1a1d21; --muted:#697586;
+    --line:#d7dce3; --link:#2563eb; --chip:#eef1f5; --shadow:0 1px 3px rgba(0,0,0,.08); }
+  :root[data-theme="dark"]{ --bg:#0f1216; --panel:#171b21; --ink:#e6e9ee; --muted:#9aa5b1;
+    --line:#2a3038; --link:#6ea8fe; --chip:#222833; --shadow:0 1px 3px rgba(0,0,0,.4); }
+
+  #it-root{ font:14px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    color:var(--ink); background:var(--bg); position:fixed; inset:0; display:flex; flex-direction:column; }
+  #it-top{ display:flex; align-items:center; gap:14px; padding:10px 16px; border-bottom:1px solid var(--line);
+    background:var(--panel); box-shadow:var(--shadow); flex-wrap:wrap; z-index:5; }
+  #it-top h1{ font-size:15px; margin:0; font-weight:650; }
+  #it-top .sub{ color:var(--muted); font-size:12px; }
+  #it-top .spacer{ flex:1; }
+  #it-top input[type=search]{ padding:6px 10px; border:1px solid var(--line); border-radius:8px;
+    background:var(--bg); color:var(--ink); width:220px; }
+  #it-top button{ padding:6px 10px; border:1px solid var(--line); border-radius:8px; background:var(--bg);
+    color:var(--ink); cursor:pointer; font-size:12px; }
+  #it-top button:hover{ border-color:var(--link); color:var(--link); }
+  #it-legend{ display:flex; align-items:center; gap:6px; font-size:11px; color:var(--muted); }
+  #it-legend .bar{ width:120px; height:10px; border-radius:5px;
+    background:linear-gradient(90deg,#d64545,#e0a83e,#3f9d58); }
+
+  #it-body{ flex:1; display:flex; min-height:0; }
+  #it-canvas{ flex:1; overflow:auto; position:relative; }
+  svg{ display:block; }
+  .link{ fill:none; stroke:var(--line); stroke-width:1.4px; }
+  .node{ cursor:pointer; }
+  .node rect{ rx:6; ry:6; stroke:var(--line); stroke-width:1px; }
+  .node text{ fill:var(--ink); dominant-baseline:middle; }
+  .node .comp{ font-size:10px; fill:var(--muted); }
+  .node.collapsed rect{ stroke-dasharray:3 2; stroke-width:1.6px; }
+  .node.sel rect{ stroke:var(--link); stroke-width:2.4px; }
+  .node.dim{ opacity:.28; }
+  .node.match rect{ stroke:var(--link); stroke-width:2px; }
+  .badge{ font-size:9px; fill:var(--muted); }
+
+  #it-side{ width:360px; border-left:1px solid var(--line); background:var(--panel);
+    overflow:auto; padding:16px; }
+  #it-side h2{ font-size:15px; margin:0 0 2px; }
+  #it-side .path{ color:var(--muted); font-size:11px; margin-bottom:10px; word-break:break-word; }
+  #it-side .stage{ display:inline-block; font-size:10px; color:var(--muted); background:var(--chip);
+    padding:2px 8px; border-radius:10px; margin-bottom:10px; }
+  #it-side p.desc{ margin:0 0 14px; }
+  .crit{ margin-bottom:12px; }
+  .crit .row{ display:flex; align-items:center; gap:8px; }
+  .crit .name{ width:96px; font-size:12px; font-weight:600; }
+  .crit .track{ flex:1; height:8px; border-radius:4px; background:var(--chip); overflow:hidden; }
+  .crit .fill{ height:100%; }
+  .crit .val{ width:28px; text-align:right; font-variant-numeric:tabular-nums; font-size:12px; }
+  .crit .why{ color:var(--muted); font-size:11.5px; margin:3px 0 0 0; }
+  .sig{ margin:14px 0; }
+  .sig .k{ color:var(--muted); font-size:11px; text-transform:uppercase; letter-spacing:.04em; }
+  .sig .v{ font-size:13px; margin:1px 0 8px; }
+  .tag{ display:inline-block; background:var(--chip); border-radius:6px; padding:2px 7px;
+    margin:2px 4px 2px 0; font-size:11.5px; }
+  .src a{ color:var(--link); text-decoration:none; font-size:12px; }
+  .src a:hover{ text-decoration:underline; }
+  .src .note{ color:var(--muted); font-size:11px; }
+  .comp-pill{ float:right; font-size:12px; font-weight:700; padding:2px 9px; border-radius:10px; color:#fff; }
+  .empty{ color:var(--muted); padding:40px 8px; text-align:center; }
+  #it-shortlist{ margin-top:18px; border-top:1px solid var(--line); padding-top:12px; }
+  #it-shortlist h3{ font-size:12px; text-transform:uppercase; letter-spacing:.04em; color:var(--muted); margin:0 0 8px; }
+  #it-shortlist ol{ margin:0; padding-left:18px; }
+  #it-shortlist li{ margin-bottom:6px; cursor:pointer; }
+  #it-shortlist li:hover{ color:var(--link); }
+  #it-shortlist .lc{ font-weight:700; }
+</style>
+
+<div id="it-top">
+  <h1 id="it-title"></h1>
+  <span class="sub" id="it-meta"></span>
+  <div class="spacer"></div>
+  <div id="it-legend"><span>fit</span><span class="bar"></span><span>low → high</span></div>
+  <input type="search" id="it-search" placeholder="search sub-sectors…" />
+  <button id="it-expand">Expand all</button>
+  <button id="it-collapse">Collapse</button>
+  <button id="it-top-toggle">★ Top leaves</button>
+</div>
+
+<div id="it-body">
+  <div id="it-canvas"><svg id="it-svg"></svg></div>
+  <div id="it-side"><div class="empty">Click a node to see its screening detail.</div></div>
+</div>
+
+<script id="it-data-tree" type="application/json">__TREE_JSON__</script>
+<script id="it-data-meta" type="application/json">__META_JSON__</script>
+<script>
+(function(){
+  var DATA = JSON.parse(document.getElementById('it-data-tree').textContent);
+  var META = JSON.parse(document.getElementById('it-data-meta').textContent);
+  var CRIT = [["recurring","Recurring"],["fragmentation","Fragmentation"],["compliance","Compliance"]];
+
+  document.getElementById('it-title').textContent = META.root_industry + " value chain";
+  document.getElementById('it-meta').textContent =
+    META.region + " · " + (META.n_nodes||0) + " nodes · generated " + (META.generated_at||"").slice(0,10);
+
+  var ROW=26, COL=250, PADX=28, PADY=24, RW=190, RH=20;
+  var svg=document.getElementById('it-svg');
+  var side=document.getElementById('it-side');
+  var selId=null, topOnly=false, query="";
+
+  // stable ids + parent links; default collapse below level 1
+  (function init(n,d,par){ n._d=d; n._par=par; n._col=(d>=2)&&(n.children&&n.children.length>0);
+    (n.children||[]).forEach(function(c){init(c,d+1,n);}); })(DATA,0,null);
+
+  function color(c){
+    if(!c||c<=0) return getComputedStyle(document.documentElement).getPropertyValue('--chip')||'#ccc';
+    var t=Math.max(0,Math.min(1,c/100));
+    // red -> amber -> green
+    var a=[214,69,69], b=[224,168,62], g=[63,157,88], r,gg,bb;
+    if(t<0.5){ var u=t/0.5; r=a[0]+(b[0]-a[0])*u; gg=a[1]+(b[1]-a[1])*u; bb=a[2]+(b[2]-a[2])*u; }
+    else{ var u2=(t-0.5)/0.5; r=b[0]+(g[0]-b[0])*u2; gg=b[1]+(g[1]-b[1])*u2; bb=b[2]+(g[2]-b[2])*u2; }
+    return 'rgb('+Math.round(r)+','+Math.round(gg)+','+Math.round(bb)+')';
+  }
+
+  function layout(){
+    var idx=0, maxd=0;
+    (function walk(n){
+      var kids = n._col ? [] : (n.children||[]);
+      n._x = PADX + n._d*COL; maxd=Math.max(maxd,n._d);
+      if(kids.length===0){ n._y = PADY + idx*ROW; idx++; }
+      else { kids.forEach(walk); n._y=(kids[0]._y+kids[kids.length-1]._y)/2; }
+    })(DATA);
+    svg.setAttribute('width', PADX*2 + maxd*COL + RW + 40);
+    svg.setAttribute('height', PADY*2 + idx*ROW);
+  }
+
+  function visibleMatch(n){
+    if(!query) return true;
+    return n.name.toLowerCase().indexOf(query)>=0;
+  }
+  function anyDescMatch(n){
+    if(visibleMatch(n)) return true;
+    return (n.children||[]).some(anyDescMatch);
+  }
+
+  function render(){
+    layout();
+    var parts=[];
+    // links
+    (function walk(n){
+      if(n._col) return;
+      (n.children||[]).forEach(function(c){
+        var x1=n._x+RW, y1=n._y, x2=c._x, y2=c._y, mx=(x1+x2)/2;
+        parts.push('<path class="link" d="M'+x1+','+y1+' C'+mx+','+y1+' '+mx+','+y2+' '+x2+','+y2+'"/>');
+        walk(c);
+      });
+    })(DATA);
+    // nodes
+    (function walk(n){
+      var has=(n.children&&n.children.length>0);
+      var cls='node'+(n._col?' collapsed':'')+(n.id===selId?' sel':'');
+      if(query){ cls += anyDescMatch(n)? (visibleMatch(n)?' match':'') : ' dim'; }
+      var fill=color(n.composite);
+      var label=n.name.length>26? n.name.slice(0,25)+'…' : n.name;
+      var comp=(n.composite>0)? String(Math.round(n.composite)) : '';
+      parts.push('<g class="'+cls+'" data-id="'+n.id+'" transform="translate('+n._x+','+(n._y-RH/2)+')">'
+        +'<rect width="'+RW+'" height="'+RH+'" fill="'+fill+'" fill-opacity="0.9"/>'
+        +'<text x="8" y="'+(RH/2)+'" font-size="11.5" style="fill:#10151b">'+esc(label)+'</text>'
+        +(comp?'<text x="'+(RW-6)+'" y="'+(RH/2)+'" text-anchor="end" class="comp" style="fill:#10151b">'+comp+'</text>':'')
+        +(has?'<text x="'+(RW+8)+'" y="'+(RH/2)+'" class="badge">'+(n._col?('+'+countKids(n)):'–')+'</text>':'')
+        +'</g>');
+      if(!n._col)(n.children||[]).forEach(walk);
+    })(DATA);
+    svg.innerHTML=parts.join('');
+    Array.prototype.forEach.call(svg.querySelectorAll('.node'),function(g){
+      g.addEventListener('click',function(e){
+        var id=g.getAttribute('data-id'); var n=find(DATA,id);
+        if(e.shiftKey && n.children && n.children.length){ n._col=!n._col; selId=id; render(); showSide(n); }
+        else { selId=id; if(n.children&&n.children.length&&n._col){ n._col=false; } render(); showSide(n); }
+      });
+    });
+  }
+  function countKids(n){ var c=0; (function w(x){ (x.children||[]).forEach(function(k){c++;w(k);}); })(n); return c; }
+  function find(n,id){ if(n.id===id)return n; var r=null; (n.children||[]).some(function(c){ r=find(c,id); return !!r; }); return r; }
+  function esc(s){ return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
+
+  function bar(label,val,why){
+    var pct=(val>0)?((val-1)/4*100):0;
+    return '<div class="crit"><div class="row"><span class="name">'+label+'</span>'
+      +'<span class="track"><span class="fill" style="width:'+pct+'%;background:'+color(pct)+'"></span></span>'
+      +'<span class="val">'+(val>0?val:'–')+'/5</span></div>'
+      +(why?'<div class="why">'+esc(why)+'</div>':'')+'</div>';
+  }
+  function showSide(n){
+    var s=n.scores||{}, r=n.rationale||{}, sig=n.dach_signals||{};
+    var html='';
+    if(n.composite>0) html+='<span class="comp-pill" style="background:'+color(n.composite)+'">'+Math.round(n.composite)+'</span>';
+    html+='<h2>'+esc(n.name)+'</h2>';
+    html+='<div class="path">'+esc((n.path||[]).join('  ›  '))+'</div>';
+    if(n.value_chain_stage) html+='<span class="stage">'+esc(n.value_chain_stage)+'</span>';
+    if(n.description) html+='<p class="desc">'+esc(n.description)+'</p>';
+    CRIT.forEach(function(c){ html+=bar(c[1], s[c[0]]||0, r[c[0]]||''); });
+    html+='<div class="sig">';
+    if(sig.est_players){ html+='<div class="k">Players (DACH)</div><div class="v">'+esc(sig.est_players)+'</div>'; }
+    if(sig.revenue_band_eur){ html+='<div class="k">Typical revenue</div><div class="v">'+esc(sig.revenue_band_eur)+'</div>'; }
+    if(sig.regulation&&sig.regulation.length){ html+='<div class="k">Regulation / drivers</div><div class="v">'+sig.regulation.map(function(x){return '<span class="tag">'+esc(x)+'</span>';}).join('')+'</div>'; }
+    if(sig.example_companies&&sig.example_companies.length){ html+='<div class="k">Example companies</div><div class="v">'+sig.example_companies.map(function(x){return '<span class="tag">'+esc(x)+'</span>';}).join('')+'</div>'; }
+    html+='</div>';
+    if(n.confidence) html+='<div class="sig"><span class="k">Evidence confidence</span> <span class="v">'+n.confidence+'/5</span></div>';
+    if(n.sources&&n.sources.length){
+      html+='<div class="sig"><div class="k">Sources</div>';
+      n.sources.forEach(function(x){ html+='<div class="src" style="margin:5px 0"><a href="'+esc(x.url)+'" target="_blank" rel="noopener">'+esc(x.title||x.url)+'</a>'+(x.note?'<div class="note">'+esc(x.note)+'</div>':'')+'</div>'; });
+      html+='</div>';
+    }
+    side.innerHTML=html;
+  }
+
+  function allLeaves(){ var out=[]; (function w(n){ if(!(n.children&&n.children.length)) out.push(n); else n.children.forEach(w); })(DATA); return out; }
+  function shortlist(){
+    var ls=allLeaves().filter(function(n){return n._d>=2 && n.composite>0;});
+    ls.sort(function(a,b){return b.composite-a.composite;});
+    return ls.slice(0,12);
+  }
+  function renderShortlist(){
+    var box=document.getElementById('it-shortlist'); if(box) box.remove();
+    var ls=shortlist(); if(!ls.length) return;
+    var div=document.createElement('div'); div.id='it-shortlist';
+    div.innerHTML='<h3>Top roll-up candidates</h3><ol>'+ls.map(function(n){
+      return '<li data-id="'+n.id+'"><span class="lc" style="color:'+color(n.composite)+'">'+Math.round(n.composite)+'</span> '+esc(n.name)+'</li>';
+    }).join('')+'</ol>';
+    side.appendChild(div);
+    Array.prototype.forEach.call(div.querySelectorAll('li'),function(li){
+      li.addEventListener('click',function(){ var n=find(DATA,li.getAttribute('data-id'));
+        // open ancestors
+        var p=n._par; while(p){ p._col=false; p=p._par; } selId=n.id; render(); showSide(n);
+        var g=svg.querySelector('.node[data-id="'+cssq(n.id)+'"]'); if(g&&g.scrollIntoView) g.scrollIntoView({block:'center',inline:'center'});
+      });
+    });
+  }
+  function cssq(s){ return s.replace(/"/g,'\\"'); }
+
+  document.getElementById('it-search').addEventListener('input',function(e){
+    query=e.target.value.trim().toLowerCase();
+    if(query){ (function w(n){ if(anyDescMatch(n)) n._col=false; (n.children||[]).forEach(w); })(DATA); }
+    render();
+  });
+  document.getElementById('it-expand').addEventListener('click',function(){ (function w(n){ n._col=false; (n.children||[]).forEach(w); })(DATA); render(); });
+  document.getElementById('it-collapse').addEventListener('click',function(){ (function w(n){ n._col=(n._d>=1&&n.children&&n.children.length>0); (n.children||[]).forEach(w); })(DATA); render(); });
+  document.getElementById('it-top-toggle').addEventListener('click',function(){ if(side.querySelector('#it-shortlist')){ side.querySelector('#it-shortlist').remove(); } else { renderShortlist(); } });
+
+  render();
+  // default: show root detail + shortlist
+  selId=DATA.id; showSide(DATA); renderShortlist();
+})();
+</script>
+</div>
