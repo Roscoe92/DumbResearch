@@ -76,6 +76,30 @@ def cmd_shortlist(args) -> int:
     return 0
 
 
+def cmd_coverage(args) -> int:
+    from .qc import source_coverage
+    tree = Tree.load(args.tree)
+    rep = source_coverage(tree, scored_only=not args.all)
+    print(f"source coverage ({rep['scope']}): {rep['with_sources']}/{rep['total']} = {rep['coverage_pct']}%")
+    for m in rep["missing"][:40]:
+        print(f"  missing sources: {m}")
+    if len(rep["missing"]) > 40:
+        print(f"  … and {len(rep['missing']) - 40} more")
+    return 0
+
+
+def cmd_linkcheck(args) -> int:
+    from .qc import check_links
+    tree = Tree.load(args.tree)
+    rep = check_links(tree)
+    print(f"links: {rep['ok']}/{rep['total_urls']} OK · {len(rep['dead'])} dead · {len(rep['blocked'])} unreachable")
+    for u in rep["dead"]:
+        print(f"  DEAD {rep['results'][u]}  {u}")
+    if rep["blocked"]:
+        print(f"  ({len(rep['blocked'])} URLs unreachable from here — likely a sandboxed egress proxy; re-run outside it)")
+    return 0
+
+
 def cmd_portfolio(args) -> int:
     from .portfolio import render_portfolio, write_master_csv
     trees = [Tree.load(p) for p in args.trees]
@@ -125,6 +149,15 @@ def main(argv=None) -> int:
     s.add_argument("--top", type=int, default=20)
     s.add_argument("--min-level", type=int, default=2)
     s.set_defaults(func=cmd_shortlist)
+
+    cov = sub.add_parser("coverage", help="report source coverage of a tree (offline)")
+    cov.add_argument("tree")
+    cov.add_argument("--all", action="store_true", help="all nodes, not just scored leaves")
+    cov.set_defaults(func=cmd_coverage)
+
+    lc = sub.add_parser("linkcheck", help="HTTP-validate every source URL in a tree")
+    lc.add_argument("tree")
+    lc.set_defaults(func=cmd_linkcheck)
 
     pf = sub.add_parser("portfolio", help="combine several trees into a cross-industry 2x2 map")
     pf.add_argument("trees", nargs="+", help="tree.json paths (one per industry)")
