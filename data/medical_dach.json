@@ -36,6 +36,8 @@
       "sources": [],
       "confidence": 0,
       "status": "stub",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": [
         "medical-value-chain/pharmaceuticals-biotech",
         "medical-value-chain/medical-devices-equipment",
@@ -74,6 +76,8 @@
       "sources": [],
       "confidence": 0,
       "status": "stub",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": [
         "medical-value-chain/pharmaceuticals-biotech/contract-research-cro-clinical-trial-support",
         "medical-value-chain/pharmaceuticals-biotech/contract-development-manufacturing-cdmo-cmo",
@@ -141,6 +145,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": [
         "medical-value-chain/pharmaceuticals-biotech/contract-research-cro-clinical-trial-support/full-service-therapeutic-niche-clinical-cro",
         "medical-value-chain/pharmaceuticals-biotech/contract-research-cro-clinical-trial-support/site-management-organisations-smo-trial-site-networks",
@@ -199,6 +205,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/pharmaceuticals-biotech/contract-research-cro-clinical-trial-support/site-management-organisations-smo-trial-site-networks": {
@@ -258,6 +266,8 @@
       ],
       "confidence": 3,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/pharmaceuticals-biotech/contract-research-cro-clinical-trial-support/pharmacovigilance-drug-safety-services-qppv-psur-signal-mgmt": {
@@ -317,6 +327,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/pharmaceuticals-biotech/contract-development-manufacturing-cdmo-cmo": {
@@ -376,6 +388,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": [
         "medical-value-chain/pharmaceuticals-biotech/contract-development-manufacturing-cdmo-cmo/sterile-injectables-fill-finish-cdmo",
         "medical-value-chain/pharmaceuticals-biotech/contract-development-manufacturing-cdmo-cmo/small-molecule-api-solid-dose-cmo",
@@ -429,6 +443,8 @@
       ],
       "confidence": 3,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/pharmaceuticals-biotech/contract-development-manufacturing-cdmo-cmo/small-molecule-api-solid-dose-cmo": {
@@ -483,6 +499,8 @@
       ],
       "confidence": 3,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/pharmaceuticals-biotech/contract-development-manufacturing-cdmo-cmo/biologics-cell-gene-therapy-atmp-cdmo": {
@@ -532,6 +550,8 @@
       ],
       "confidence": 3,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/pharmaceuticals-biotech/sterile-compounding-pharmacies-zytostatika-parenterals": {
@@ -591,6 +611,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/pharmaceuticals-biotech/gxp-gmp-compliance-services": {
@@ -651,6 +673,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": [
         "medical-value-chain/pharmaceuticals-biotech/gxp-gmp-compliance-services/gmp-gxp-consulting-auditing",
         "medical-value-chain/pharmaceuticals-biotech/gxp-gmp-compliance-services/cleanroom-qualification-validation-dq-iq-oq-pq",
@@ -710,6 +734,8 @@
       ],
       "confidence": 3,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": [
         "medical-value-chain/pharmaceuticals-biotech/gxp-gmp-compliance-services/gmp-gxp-consulting-auditing/computerised-system-validation-csv-csa",
         "medical-value-chain/pharmaceuticals-biotech/gxp-gmp-compliance-services/gmp-gxp-consulting-auditing/qp-on-demand-qp-as-a-service-sachkundige-person-14-amg",
@@ -775,6 +801,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/pharmaceuticals-biotech/gxp-gmp-compliance-services/qualified-person-qp-on-demand-batch-release": {
@@ -834,6 +862,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/pharmaceuticals-biotech/contract-qc-stability-testing-labs": {
@@ -893,6 +923,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/pharmaceuticals-biotech/pharma-cold-chain-logistics-gdp-distribution": {
@@ -951,6 +983,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/pharmaceuticals-biotech/serialisation-track-trace-anti-counterfeiting-compliance": {
@@ -1009,6 +1043,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/medical-devices-equipment": {
@@ -1038,6 +1074,8 @@
       "sources": [],
       "confidence": 0,
       "status": "stub",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": [
         "medical-value-chain/medical-devices-equipment/oem-contract-manufacturing-components-lohnfertigung-zulieferer",
         "medical-value-chain/medical-devices-equipment/implants-dental-prosthetics-manufacturing",
@@ -1106,6 +1144,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": [
         "medical-value-chain/medical-devices-equipment/oem-contract-manufacturing-components-lohnfertigung-zulieferer/precision-metal-cnc-implant-grade-machining",
         "medical-value-chain/medical-devices-equipment/oem-contract-manufacturing-components-lohnfertigung-zulieferer/cleanroom-plastics-single-use-disposables"
@@ -1156,6 +1196,8 @@
       ],
       "confidence": 3,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/medical-devices-equipment/oem-contract-manufacturing-components-lohnfertigung-zulieferer/cleanroom-plastics-single-use-disposables": {
@@ -1206,6 +1248,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/medical-devices-equipment/implants-dental-prosthetics-manufacturing": {
@@ -1261,6 +1305,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": [
         "medical-value-chain/medical-devices-equipment/implants-dental-prosthetics-manufacturing/dental-laboratories-zahntechnik-dentallabore",
         "medical-value-chain/medical-devices-equipment/implants-dental-prosthetics-manufacturing/dental-orthopedic-implant-makers-mittelstand"
@@ -1313,6 +1359,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/medical-devices-equipment/implants-dental-prosthetics-manufacturing/dental-orthopedic-implant-makers-mittelstand": {
@@ -1363,6 +1411,8 @@
       ],
       "confidence": 3,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/medical-devices-equipment/sterile-barrier-packaging-contract-sterilization": {
@@ -1419,6 +1469,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/medical-devices-equipment/medical-equipment-servicing-inspection-maintenance-medizintechnik-service": {
@@ -1474,6 +1526,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": [
         "medical-value-chain/medical-devices-equipment/medical-equipment-servicing-inspection-maintenance-medizintechnik-service/statutory-safety-metrology-inspections-stk-mtk-per-mpbetreibv",
         "medical-value-chain/medical-devices-equipment/medical-equipment-servicing-inspection-maintenance-medizintechnik-service/independent-multivendor-maintenance-repair-hospital-biomed",
@@ -1533,6 +1587,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": [
         "medical-value-chain/medical-devices-equipment/medical-equipment-servicing-inspection-maintenance-medizintechnik-service/statutory-safety-metrology-inspections-stk-mtk-per-mpbetreibv/sicherheitstechnische-kontrolle-stk-of-anlage-1-devices",
         "medical-value-chain/medical-devices-equipment/medical-equipment-servicing-inspection-maintenance-medizintechnik-service/statutory-safety-metrology-inspections-stk-mtk-per-mpbetreibv/messtechnische-kontrolle-mtk-of-anlage-2-measuring-devices",
@@ -1588,6 +1644,8 @@
       ],
       "confidence": 3,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/medical-devices-equipment/medical-equipment-servicing-inspection-maintenance-medizintechnik-service/calibration-metrology-of-medical-equipment-dakks-iso-17025": {
@@ -1638,6 +1696,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": [
         "medical-value-chain/medical-devices-equipment/medical-equipment-servicing-inspection-maintenance-medizintechnik-service/calibration-metrology-of-medical-equipment-dakks-iso-17025/dakks-accredited-medical-measuring-device-calibration-labs",
         "medical-value-chain/medical-devices-equipment/medical-equipment-servicing-inspection-maintenance-medizintechnik-service/calibration-metrology-of-medical-equipment-dakks-iso-17025/in-vitro-pipette-calibration-services",
@@ -1696,6 +1756,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": [
         "medical-value-chain/medical-devices-equipment/reprocessing-reconditioning-of-medical-devices-aufbereitung/outsourced-reusable-instrument-reprocessing-aemp-zsva-services",
         "medical-value-chain/medical-devices-equipment/reprocessing-reconditioning-of-medical-devices-aufbereitung/single-use-device-reprocessing-ce-remanufacturing"
@@ -1747,6 +1809,8 @@
       ],
       "confidence": 3,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/medical-devices-equipment/reprocessing-reconditioning-of-medical-devices-aufbereitung/single-use-device-reprocessing-ce-remanufacturing": {
@@ -1793,6 +1857,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/medical-devices-equipment/homecare-device-provision-rental-servicing": {
@@ -1848,6 +1914,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": [
         "medical-value-chain/medical-devices-equipment/homecare-device-provision-rental-servicing/respiratory-homecare-oxygen-therapy-home-ventilation",
         "medical-value-chain/medical-devices-equipment/homecare-device-provision-rental-servicing/sanitaetshaus-hilfsmittel-provision-servicing"
@@ -1901,6 +1969,8 @@
       ],
       "confidence": 3,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/medical-devices-equipment/homecare-device-provision-rental-servicing/sanitaetshaus-hilfsmittel-provision-servicing": {
@@ -1949,6 +2019,8 @@
       ],
       "confidence": 3,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/medical-devices-equipment/refurbishment-trade-of-used-medical-equipment-gebrauchtgeraetehandel": {
@@ -2002,6 +2074,8 @@
       ],
       "confidence": 3,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/diagnostics-laboratory": {
@@ -2031,6 +2105,8 @@
       "sources": [],
       "confidence": 0,
       "status": "stub",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": [
         "medical-value-chain/diagnostics-laboratory/fachaerztliche-labormedizin-laborgemeinschaften",
         "medical-value-chain/diagnostics-laboratory/pathologie-histologie",
@@ -2101,6 +2177,8 @@
       ],
       "confidence": 5,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": [
         "medical-value-chain/diagnostics-laboratory/fachaerztliche-labormedizin-laborgemeinschaften/laborgemeinschaften-arzt-kostengemeinschaften",
         "medical-value-chain/diagnostics-laboratory/fachaerztliche-labormedizin-laborgemeinschaften/fachaerztliche-grosslabore-laborketten",
@@ -2132,8 +2210,8 @@
       },
       "composite": 91.7,
       "dach_signals": {
-        "est_players": "Hundreds of local physician cooperatives nationwide",
-        "revenue_band_eur": "EUR 0.5-10m typical per cooperative",
+        "est_players": "Confirmed: hundreds of local physician cost-cooperatives nationwide; viable from ~7 physicians upward; big chains service many of them.",
+        "revenue_band_eur": "Confirmed order of magnitude: EUR 0.5-10m per cooperative (pass-through cost vehicle; true value in the linked lab).",
         "example_companies": [
           "Laborgemeinschaften attached to LADR",
           "Limbach Laborgemeinschaften",
@@ -2150,10 +2228,31 @@
           "title": "Branchenanalyse Laboranalytik - Hans-Boeckler-Stiftung Study 342",
           "url": "https://www.boeckler.de/pdf/p_study_hbs_342.pdf",
           "note": "Explains Laborgemeinschaft ownership by resident physicians and integration into specialist labs"
+        },
+        {
+          "title": "Labormarkt - Quo vadis? (aktiva Gesundheitswesen)",
+          "url": "https://www.aktiva-gesundheitswesen.de/fileadmin/user_upload/publikationen/aktiva_GmbH_Labormarkt_quo_vadis_Oktober_2020.pdf",
+          "note": "~30% chain share, ongoing consolidation, fragmentation"
+        },
+        {
+          "title": "Aerztliche Kooperationsformen (Boeck-Law)",
+          "url": "https://www.boeck-law.de/arztliche-kooperationsformen-nach-geltendem-recht-5/",
+          "note": "Legal nature of Laborgemeinschaft as cost-cooperative"
+        },
+        {
+          "title": "HBS Working Paper 350/2024 - lab/healthcare investors",
+          "url": "https://www.boeckler.de/fpdf/HBS-008950/p_fofoe_WP_350_2024.pdf",
+          "note": "PE ownership of lab groups (Synlab, Amedes etc.)"
         }
       ],
       "confidence": 4,
-      "status": "grounded",
+      "status": "verified",
+      "why_now": "Ambulatory lab economics are under EBM/Laborreform reimbursement pressure and scale synergies, driving continued consolidation of the analytical layer that services physician cost-cooperatives; the cooperatives themselves are a channel into fee-per-analysis volume.",
+      "pe_activity": [
+        "The underlying ambulatory lab layer is heavily PE-consolidated: SYNLAB (Cinven-backed take-private), Amedes (Antin/OMERS), Limbach Gruppe, Sonic Healthcare/Bioscientia - top ~7 chains hold ~30% share",
+        "BUT the Laborgemeinschaft legal shell itself is a member-owned physician cost-cooperative (Kostengemeinschaft), not directly acquirable - value is captured by supplying/operating the analytics, not buying the coop",
+        "Market described as still 'quite fragmented' with further consolidation potential"
+      ],
       "child_ids": []
     },
     "medical-value-chain/diagnostics-laboratory/fachaerztliche-labormedizin-laborgemeinschaften/fachaerztliche-grosslabore-laborketten": {
@@ -2209,6 +2308,8 @@
       ],
       "confidence": 5,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/diagnostics-laboratory/fachaerztliche-labormedizin-laborgemeinschaften/speziallabor-esoterik-diagnostik-endokrinologie-allergologie-autoimmun": {
@@ -2258,6 +2359,8 @@
       ],
       "confidence": 3,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/diagnostics-laboratory/pathologie-histologie": {
@@ -2312,6 +2415,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": [
         "medical-value-chain/diagnostics-laboratory/pathologie-histologie/ambulante-histo-zytopathologie-mvz-facharztpraxen",
         "medical-value-chain/diagnostics-laboratory/pathologie-histologie/molekularpathologie-companion-diagnostics",
@@ -2367,6 +2472,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/diagnostics-laboratory/pathologie-histologie/molekularpathologie-companion-diagnostics": {
@@ -2415,6 +2522,8 @@
       ],
       "confidence": 3,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/diagnostics-laboratory/radiologie-bildgebung-imaging-centres": {
@@ -2473,6 +2582,8 @@
       ],
       "confidence": 5,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": [
         "medical-value-chain/diagnostics-laboratory/radiologie-bildgebung-imaging-centres/ambulante-radiologie-mvz-praxen",
         "medical-value-chain/diagnostics-laboratory/radiologie-bildgebung-imaging-centres/teleradiologie",
@@ -2531,6 +2642,8 @@
       ],
       "confidence": 5,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/diagnostics-laboratory/radiologie-bildgebung-imaging-centres/teleradiologie": {
@@ -2578,6 +2691,8 @@
       ],
       "confidence": 3,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/diagnostics-laboratory/radiologie-bildgebung-imaging-centres/nuklearmedizin-radiopharmazie-nahe-diagnostik": {
@@ -2626,6 +2741,8 @@
       ],
       "confidence": 3,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/diagnostics-laboratory/molekulare-genetische-diagnostik": {
@@ -2681,6 +2798,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": [
         "medical-value-chain/diagnostics-laboratory/molekulare-genetische-diagnostik/humangenetik-erbkrankheiten-pharmakogenetik",
         "medical-value-chain/diagnostics-laboratory/molekulare-genetische-diagnostik/molekulare-infektionsdiagnostik-pcr-ngs"
@@ -2733,6 +2852,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/diagnostics-laboratory/molekulare-genetische-diagnostik/molekulare-infektionsdiagnostik-pcr-ngs": {
@@ -2782,6 +2903,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/diagnostics-laboratory/mikrobiologie-hygiene-wasser-umweltanalytik": {
@@ -2837,6 +2960,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": [
         "medical-value-chain/diagnostics-laboratory/mikrobiologie-hygiene-wasser-umweltanalytik/krankenhaushygiene-trinkwasser-legionellen",
         "medical-value-chain/diagnostics-laboratory/mikrobiologie-hygiene-wasser-umweltanalytik/lebensmittel-umweltanalytik"
@@ -2867,8 +2992,8 @@
       },
       "composite": 91.7,
       "dach_signals": {
-        "est_players": "Hundreds of state-listed drinking-water testing bodies",
-        "revenue_band_eur": "EUR 0.5-15m",
+        "est_players": "Confirmed: hundreds of state-listed/DAkkS-accredited drinking-water testing bodies plus many sampling specialists.",
+        "revenue_band_eur": "Confirmed: EUR 0.5-15m; recurring, interval-driven volumes.",
         "example_companies": [
           "Aqua Control",
           "regional Trinkwasseruntersuchungsstellen",
@@ -2886,10 +3011,31 @@
           "title": "Bayerische Landesliste zugelassener Trinkwasseruntersuchungsstellen",
           "url": "https://www.kreis-freising.de/fileadmin/user_upload/Aemter/Gesundheitsamt/Trinkwasser/untersuchungsstellen_trinkwv.pdf",
           "note": "Official state list evidences many accredited regional water labs"
+        },
+        {
+          "title": "AGROLAB Group - Trinkwasser",
+          "url": "https://agrolab.com/de/produkte-leistungen/wasseranalytik/trinkwasser.html",
+          "note": "Multi-lab group / active environmental consolidator"
+        },
+        {
+          "title": "Ueber Triwala",
+          "url": "https://triwala.de/ueber-uns/ueber-triwala/",
+          "note": "Independent Legionella specialist (~40 staff, founded 2011)"
+        },
+        {
+          "title": "Eurofins Umwelt - Trinkwasser/Legionellen",
+          "url": "https://www.eurofins.de/umwelt/analysen/wasseranalysen/trinkwasser/",
+          "note": "Listed acquisitive strategic in the space"
         }
       ],
       "confidence": 4,
-      "status": "grounded",
+      "status": "verified",
+      "why_now": "The 2023 TrinkwV novelle plus mandatory recurring Legionella testing intervals and KRINKO hospital-hygiene requirements create legally forced, high-frequency recurring revenue; a classic compliance-annuity roll-up backdrop.",
+      "pe_activity": [
+        "Environmental testing (TIC) is actively consolidated by strategics: AGROLAB Group (buy-and-build of regional water/environmental labs), Eurofins (listed, highly acquisitive), SGS Institut Fresenius, SYNLAB Umweltinstitut",
+        "Specialist Legionella/housing-water pure-plays remain independent and sub-scale (e.g. Triwala, ~40 staff, DAkkS-accredited, founder-led; ICP Analytik; ELAB)",
+        "Partly consolidated at the big-lab level but the mid-market Legionella/Krankenhaushygiene specialists are still a fragmented roll-up field"
+      ],
       "child_ids": []
     },
     "medical-value-chain/diagnostics-laboratory/mikrobiologie-hygiene-wasser-umweltanalytik/lebensmittel-umweltanalytik": {
@@ -2939,6 +3085,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/diagnostics-laboratory/point-of-care-dezentrale-betriebliche-diagnostik": {
@@ -2995,6 +3143,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": [
         "medical-value-chain/diagnostics-laboratory/point-of-care-dezentrale-betriebliche-diagnostik/poct-patientennahe-sofortdiagnostik",
         "medical-value-chain/diagnostics-laboratory/point-of-care-dezentrale-betriebliche-diagnostik/arbeitsmedizinische-diagnostik-betriebsmedizin"
@@ -3046,6 +3196,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/diagnostics-laboratory/point-of-care-dezentrale-betriebliche-diagnostik/arbeitsmedizinische-diagnostik-betriebsmedizin": {
@@ -3073,8 +3225,8 @@
       },
       "composite": 91.7,
       "dach_signals": {
-        "est_players": "Hundreds of occupational-medicine providers; e.g. BG prevent 140 sites",
-        "revenue_band_eur": "EUR 0.5-30m per provider",
+        "est_players": "Confirmed: hundreds of occupational-medicine providers; B.A.D/BG prevent and IAS the national anchors, long tail of local Betriebsaerzte/AMDs.",
+        "revenue_band_eur": "Confirmed: EUR 0.5-30m per provider; heavy variance between solo Betriebsarzt and multi-site AMD.",
         "example_companies": [
           "BG prevent",
           "TUEV SUED arbeitsmedizinischer Dienst",
@@ -3097,10 +3249,31 @@
           "title": "Shortage of company doctors - Arbeitgeber",
           "url": "https://arbeitgeber.de/en/themen/sozialpolitik-und-soziale-sicherung/betriebsaerztemangel/",
           "note": "Betriebsaerztemangel underscores fragmented under-supplied provider base"
+        },
+        {
+          "title": "B.A.D / BG prevent - Umsatzzahlen (PM)",
+          "url": "https://www.bad-gmbh.de/fileadmin/bad-gmbh.de/documents/Presse/Berichte/PM_Umsatzzahlen_B_A_D.pdf",
+          "note": "Scale of largest provider; BG-owned structure"
+        },
+        {
+          "title": "BG prevent GmbH - Aktionsbuendnis Arbeitsmedizin",
+          "url": "https://www.aktionsbuendnis-arbeitsmedizin.de/bg-prevent-gmbh/",
+          "note": "Confirms 07/2025 rebrand, staff/physician counts"
+        },
+        {
+          "title": "Betriebsarzt Facharztrichtung - praktischArzt",
+          "url": "https://www.praktischarzt.de/arzt/facharztrichtungen/betriebsarzt/",
+          "note": "Betriebsaerztemangel / demand backdrop"
         }
       ],
-      "confidence": 4,
-      "status": "grounded",
+      "confidence": 3,
+      "status": "verified",
+      "why_now": "Acute and worsening Betriebsaerztemangel (aging occupational-physician cohort) against mandatory ASiG/DGUV Vorschrift 2 coverage for essentially every employer, plus rising corporate-health (BGM) demand - a supply-constrained, legally required service ripe for scaling.",
+      "pe_activity": [
+        "Anchored by mutual/BG-owned non-profits, NOT PE: B.A.D (rebranded BG prevent 07/2025, owned by the Berufsgenossenschaften; ~3,500 staff incl. 800+ occupational physicians, 210k+ client organisations) and IAS Gruppe; plus TUV/DEKRA in-house units",
+        "SME/regional occupational-medicine roll-up is nascent; PE interest emerging at the edges (e.g. Ireland's Centric Health lists occupational medical services as a segment)",
+        "Largely VIRGIN for a dedicated pure-play PE consolidator - the scale incumbents are structurally not-for-sale"
+      ],
       "child_ids": []
     },
     "medical-value-chain/diagnostics-laboratory/laborlogistik-probenkurier-ivd-verbrauchsvertrieb": {
@@ -3156,6 +3329,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": [
         "medical-value-chain/diagnostics-laboratory/laborlogistik-probenkurier-ivd-verbrauchsvertrieb/probentransport-kuriernetze",
         "medical-value-chain/diagnostics-laboratory/laborlogistik-probenkurier-ivd-verbrauchsvertrieb/ivd-reagenzien-verbrauchsmaterial-distribution"
@@ -3186,8 +3361,8 @@
       },
       "composite": 91.7,
       "dach_signals": {
-        "est_players": "Hundreds of regional medical couriers + captive lab fleets",
-        "revenue_band_eur": "EUR 0.5-20m typical",
+        "est_players": "Confirmed: hundreds of regional medical couriers plus captive lab fleets; Intermed the largest network (LADR-owned).",
+        "revenue_band_eur": "Confirmed: EUR 0.5-20m typical per independent operator.",
         "example_companies": [
           "Intermed Logistik",
           "die-kuriere-berlin",
@@ -3209,10 +3384,31 @@
           "title": "Medikamenten- und Probenlieferung fuer Aerzte und Labore - Die Kuriere Berlin",
           "url": "https://www.die-kuriere-berlin.de/aerzte-und-laborlogistik/",
           "note": "Regional owner-operated medical-courier example"
+        },
+        {
+          "title": "LADR - Laborprobentransport (Intermed)",
+          "url": "https://www.ladr.de/fuer-aerztinnen/leistungen/laborprobentransport",
+          "note": "Captive lab-owned courier network scale"
+        },
+        {
+          "title": "TEP Logistik - medizinischer Kurierdienst",
+          "url": "https://www.tep-logistik.de/",
+          "note": "Family-owned regional independent (>35 yrs)"
+        },
+        {
+          "title": "GO! Labor-Service (General Overnight)",
+          "url": "https://www.general-overnight.com/deu_de/produkte/go-solutions/branchenloesungen/go-healthcare/go-labor-service.html",
+          "note": "Express-network model for lab logistics"
         }
       ],
-      "confidence": 4,
-      "status": "grounded",
+      "confidence": 3,
+      "status": "verified",
+      "why_now": "Ongoing lab consolidation is outsourcing and standardising pre-analytics logistics (P650 packaging, DIN ISO 15189/IVDR cold-chain), while driver shortages and rising route density reward scale - conditions for aggregating regional independents around the captive networks.",
+      "pe_activity": [
+        "Largely captive today: LADR runs its own Intermed network (~25,000 stop-points DE/NL/CH/AT, ~800 daily tours), SYNLAB, Sonic/Bioscientia and Eurofins GeLaMed operate in-house fleets",
+        "Independent medical-courier roll-up minimal - franchise/express networks (GO! Express, TEP Logistik, Blechkurier, KEC Cargo) remain family-owned and regional",
+        "VIRGIN for a dedicated PE-backed medical-courier platform; main structural risk is captive insourcing by the labs"
+      ],
       "child_ids": []
     },
     "medical-value-chain/diagnostics-laboratory/laborlogistik-probenkurier-ivd-verbrauchsvertrieb/ivd-reagenzien-verbrauchsmaterial-distribution": {
@@ -3261,6 +3457,8 @@
       ],
       "confidence": 3,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/diagnostics-laboratory/veterinaerdiagnostik": {
@@ -3314,6 +3512,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/care-delivery-providers": {
@@ -3343,6 +3543,8 @@
       "sources": [],
       "confidence": 0,
       "status": "stub",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": [
         "medical-value-chain/care-delivery-providers/outpatient-physician-roll-ups-via-mvz",
         "medical-value-chain/care-delivery-providers/ambulatory-surgery-centres-ambulantes-operieren-praxiskliniken",
@@ -3409,6 +3611,8 @@
       ],
       "confidence": 5,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": [
         "medical-value-chain/care-delivery-providers/outpatient-physician-roll-ups-via-mvz/dental-chains-z-mvz-dso-zahnarztketten",
         "medical-value-chain/care-delivery-providers/outpatient-physician-roll-ups-via-mvz/ophthalmology-augenheilkunde-mvz",
@@ -3474,6 +3678,8 @@
       ],
       "confidence": 5,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": [
         "medical-value-chain/care-delivery-providers/outpatient-physician-roll-ups-via-mvz/dental-chains-z-mvz-dso-zahnarztketten/dental-platform-dso-roll-ups-z-mvz-ketten",
         "medical-value-chain/care-delivery-providers/outpatient-physician-roll-ups-via-mvz/dental-chains-z-mvz-dso-zahnarztketten/orthodontics-chains-kfo-kieferorthopaedie",
@@ -3529,6 +3735,8 @@
       ],
       "confidence": 5,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": [
         "medical-value-chain/care-delivery-providers/outpatient-physician-roll-ups-via-mvz/ophthalmology-augenheilkunde-mvz/cataract-refractive-surgery-groups-katarakt-refraktive-chirurgie",
         "medical-value-chain/care-delivery-providers/outpatient-physician-roll-ups-via-mvz/ophthalmology-augenheilkunde-mvz/ivom-injection-clinics-intravitreale-operative-medikamenteneingabe",
@@ -3560,8 +3768,8 @@
       },
       "composite": 91.7,
       "dach_signals": {
-        "est_players": ">2,200 radiology practices; 413+ radiology MVZ (2022)",
-        "revenue_band_eur": "EUR 2-15m per site; leading groups EUR 100m+",
+        "est_players": ">2,200 radiology practices; 413+ radiology MVZ (2022); leading groups run 60+ sites",
+        "revenue_band_eur": "EUR 2-15m per site; leading platforms EUR 100m+ in aggregate",
         "example_companies": [
           "blikk (EQT)",
           "Meine Radiologie Holding (EQT)",
@@ -3585,10 +3793,26 @@
           "title": "Deutsche Radiologie in Zahlen - Radiologie.de / gesundheitsmarkt.de",
           "url": "https://www.gesundheitsmarkt.de/anzahl-und-statistik-der-radiologischen-praxen-in-deutschland/",
           "note": ">2,200 practices, 35% MVZ, 413 radiology MVZ, ~90% of acquisitions to investors since 2021"
+        },
+        {
+          "title": "EQT Infrastructure acquires Meine Radiologie and Blikk (Evidia)",
+          "url": "https://www.evidiagroup.com/news/latest-news/eqt-infrastructure-acquires-meine-radiologie-and-blikk-to-form-a-leading-radiology-and-radiotherapy-provider-in-germany/",
+          "note": "Formation of largest German radiology platform"
+        },
+        {
+          "title": "DBAG verkauft Radiologiegruppe blikk",
+          "url": "https://www.unternehmeredition.de/dabg-verkauft-radiologiegruppe-blikk/",
+          "note": "DBAG exit / minority retention"
         }
       ],
       "confidence": 5,
-      "status": "grounded",
+      "status": "verified",
+      "why_now": "High capex intensity (MRI/CT/PET), teleradiology and AI-enabled reporting economics, and a physician-succession wave make radiology the flagship MVZ roll-up; the MVZ vehicle lets financial sponsors aggregate Kassensitze at scale. Among the most PE-penetrated physician niches in DACH.",
+      "pe_activity": [
+        "Evidia (backed by EQT Infrastructure) - formed 2021 by merging Meine Radiologie (from Triton) and Blikk (from DBAG, which retained a minority); the largest German radiology/radiotherapy platform",
+        "Radiologicum / Radiologie-focused MVZ groups and conRadis / Radiologie Deutschland-type consolidators also active",
+        "DBAG (minority in Evidia) and prior sponsors Triton and Deutsche Beteiligungs AG established the platforms"
+      ],
       "child_ids": []
     },
     "medical-value-chain/care-delivery-providers/outpatient-physician-roll-ups-via-mvz/dialysis-nephrology-centres": {
@@ -3644,6 +3868,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/care-delivery-providers/outpatient-physician-roll-ups-via-mvz/dermatology-hautarzt-mvz": {
@@ -3695,6 +3921,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/care-delivery-providers/outpatient-physician-roll-ups-via-mvz/orthopaedics-mvz": {
@@ -3744,6 +3972,8 @@
       ],
       "confidence": 3,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/care-delivery-providers/outpatient-physician-roll-ups-via-mvz/fertility-clinics-kinderwunschzentren-ivf": {
@@ -3794,6 +4024,8 @@
       ],
       "confidence": 3,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/care-delivery-providers/ambulatory-surgery-centres-ambulantes-operieren-praxiskliniken": {
@@ -3844,6 +4076,8 @@
       ],
       "confidence": 3,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/care-delivery-providers/inpatient-long-term-elderly-care-stationaere-pflege-pflegeheime": {
@@ -3901,6 +4135,8 @@
       ],
       "confidence": 5,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": [
         "medical-value-chain/care-delivery-providers/inpatient-long-term-elderly-care-stationaere-pflege-pflegeheime/full-inpatient-nursing-homes-vollstationaere-dauerpflege",
         "medical-value-chain/care-delivery-providers/inpatient-long-term-elderly-care-stationaere-pflege-pflegeheime/short-term-care-kurzzeitpflege",
@@ -3963,6 +4199,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": [
         "medical-value-chain/care-delivery-providers/outpatient-mobile-nursing-services-ambulante-pflegedienste/outpatient-intensive-care-ausserklinische-intensivpflege",
         "medical-value-chain/care-delivery-providers/outpatient-mobile-nursing-services-ambulante-pflegedienste/sgb-xi-basic-care-grundpflege-pflegesachleistung",
@@ -4021,6 +4259,8 @@
       ],
       "confidence": 3,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": [
         "medical-value-chain/care-delivery-providers/outpatient-mobile-nursing-services-ambulante-pflegedienste/outpatient-intensive-care-ausserklinische-intensivpflege/ventilation-shared-living-groups-beatmungs-wg-wohngemeinschaften",
         "medical-value-chain/care-delivery-providers/outpatient-mobile-nursing-services-ambulante-pflegedienste/outpatient-intensive-care-ausserklinische-intensivpflege/1-1-individual-home-ventilation-einzelversorgung",
@@ -4076,6 +4316,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/care-delivery-providers/rehabilitation-clinics-reha-kliniken-stationaer-ambulant": {
@@ -4132,6 +4374,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/care-delivery-providers/non-physician-outpatient-therapy-heilmittelerbringer-physio-ergo-logo": {
@@ -4182,6 +4426,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": [
         "medical-value-chain/care-delivery-providers/non-physician-outpatient-therapy-heilmittelerbringer-physio-ergo-logo/physiotherapy-practices-physiotherapie-krankengymnastik",
         "medical-value-chain/care-delivery-providers/non-physician-outpatient-therapy-heilmittelerbringer-physio-ergo-logo/occupational-therapy-practices-ergotherapie",
@@ -4214,8 +4460,8 @@
       },
       "composite": 91.7,
       "dach_signals": {
-        "est_players": "Tens of thousands of psychotherapist practices; mostly single-owner",
-        "revenue_band_eur": "EUR 0.2-1m typical; Kassensitz is the scarce asset",
+        "est_players": "Tens of thousands of psychotherapist practices, overwhelmingly single-owner; the Kassensitz (GKV licence) is the scarce, person-bound asset",
+        "revenue_band_eur": "EUR 0.2-1m typical per practice",
         "example_companies": [
           "mostly independents",
           "emerging psych-MVZ / group practices",
@@ -4234,10 +4480,31 @@
           "title": "Kassenzugelassene Praxen - DPtV",
           "url": "https://www.dptv.de/psychotherapie/praktische-infos-materialien/freiberuflich-taetige-psychotherapeutinnen/kassenzugelassene-praxen/",
           "note": "Kassensitz requires Zulassungsausschuss approval; treatment of GKV patients billed via KV; nationwide Bedarfsplanung cap"
+        },
+        {
+          "title": "Trilantic Europe invests in the Oberberg Group",
+          "url": "https://www.trilanticeurope.com/news/trilantic-europe-invests-in-the-oberberg-group.html",
+          "note": "PE-backed mental-health clinic platform"
+        },
+        {
+          "title": "Ambulante Versorgung: Investoren auf Einkaufstour (Aerzteblatt)",
+          "url": "https://www.aerzteblatt.de/archiv/201014/Ambulante-Versorgung-Investoren-auf-Einkaufstour",
+          "note": "Investor MVZ buying activity context"
+        },
+        {
+          "title": "Kassensitz Psychotherapie: Zulassung & Uebernahme",
+          "url": "https://lucoyo.de/2025/03/der-weg-zur-eigenen-praxis-fuer-psychotherapie-teil-3-3-praxis-mit-kassensitz/",
+          "note": "Person-bound Kassensitz mechanics limiting roll-up"
         }
       ],
       "confidence": 3,
-      "status": "grounded",
+      "status": "verified",
+      "why_now": "Surging mental-health demand and long waiting lists make the segment attractive, but the outpatient Kassensitz is person-bound and only transferable via Nachbesetzung/MVZ workarounds, so pure psychotherapy roll-up is structurally constrained; PE capital has instead flowed into inpatient/acute psychiatry platforms.",
+      "pe_activity": [
+        "Oberberg Gruppe (acute psychiatry/psychotherapy/psychosomatic clinics, backed by Trilantic Europe; previously Odewald & Compagnie) - buy-and-build in inpatient mental health",
+        "MEDIAN (rehab incl. psychosomatic; Waterland-backed) adjacent",
+        "Outpatient psychotherapy Kassensitze themselves are largely virgin for financial sponsors - person-bound licence blocks clean roll-up; consolidation only indirectly via MVZ vehicles"
+      ],
       "child_ids": []
     },
     "medical-value-chain/care-delivery-providers/veterinary-clinics-tierarztketten-healthcare-adjacent": {
@@ -4287,6 +4554,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/digital-health-health-it": {
@@ -4316,6 +4585,8 @@
       "sources": [],
       "confidence": 0,
       "status": "stub",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": [
         "medical-value-chain/digital-health-health-it/ambulatory-practice-management-systems-pvs-ais",
         "medical-value-chain/digital-health-health-it/hospital-information-systems-kis-his",
@@ -4382,6 +4653,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": [
         "medical-value-chain/digital-health-health-it/ambulatory-practice-management-systems-pvs-ais/specialty-specific-ais-dental-psychotherapy-ophthalmology",
         "medical-value-chain/digital-health-health-it/ambulatory-practice-management-systems-pvs-ais/gp-general-pvs-primaersysteme",
@@ -4415,8 +4688,8 @@
       },
       "composite": 91.7,
       "dach_signals": {
-        "est_players": "50+ specialist vendors",
-        "revenue_band_eur": "EUR 1-15m typical",
+        "est_players": "Confirmed 50+ specialist vendors; CGM ~20%+ across brands; long tail of specialty niche players (tomedo, Vistec, principa, samedi).",
+        "revenue_band_eur": "Confirmed: EUR 1-15m typical per specialist vendor; recurring license/SaaS + TI connector revenue.",
         "example_companies": [
           "DAMPSOFT (dental)",
           "CGM Z1 (dental)",
@@ -4434,10 +4707,31 @@
           "title": "Top 10 Praxissoftware Vergleich 2026",
           "url": "https://medizinio.de/software/praxis",
           "note": "Lists specialty-specific practice software niches"
+        },
+        {
+          "title": "CVC will bei CompuGroup einsteigen - Handelsblatt",
+          "url": "https://www.handelsblatt.com/technik/it-internet/compugroup-aktie-cvc-will-bei-deutschem-medizinsoftware-anbieter-einsteigen/100093575.html",
+          "note": "PE take-private of market leader (2025)"
+        },
+        {
+          "title": "Zahnarzt-Software Vergleich - Medizinio",
+          "url": "https://medizinio.de/software/praxis/zahnarzt",
+          "note": "Dental vendor shares (Dampsoft/Z1/charly)"
+        },
+        {
+          "title": "Praxissoftware Psychotherapie Vergleich",
+          "url": "https://praxissoftware-psychotherapie.com/",
+          "note": "Psychotherapy vendor landscape (Elefant, Epikur, CGM)"
         }
       ],
-      "confidence": 3,
-      "status": "grounded",
+      "confidence": 4,
+      "status": "verified",
+      "why_now": "Continuous KBV/TI mandates (ePA, eRezept, KIM, TI 2.0/TI-Messenger) force costly certified development that sub-scale specialist vendors struggle to fund, accelerating consolidation into platforms with recurring SaaS - the strongest PE-active cluster of the eight.",
+      "pe_activity": [
+        "Actively consolidating: CVC Capital acquired/took private market leader CompuGroup Medical (2025), which spans specialty brands (Z1 dental, XDENT, CGM MEDISTAR, Turbomed, Albis, Augenarzt modules)",
+        "Dental led by Dampsoft (DS-WIN ~35%), CGM Z1 (~24%) and solutio charly (~10%); psychotherapy by Elefant (~11k installs) and Epikur - all takeover/roll-up candidates, several founder-owned",
+        "Vertical health-software buy-and-build (incl. Nordic/NL strategics and PE such as Main Capital's DACH health-IT thesis) is the live consolidation dynamic - this niche is NOT virgin"
+      ],
       "child_ids": []
     },
     "medical-value-chain/digital-health-health-it/hospital-information-systems-kis-his": {
@@ -4499,6 +4793,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/digital-health-health-it/telematikinfrastruktur-ti-gematik-ecosystem": {
@@ -4560,6 +4856,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": [
         "medical-value-chain/digital-health-health-it/telematikinfrastruktur-ti-gematik-ecosystem/erezept-epa-infrastructure-ti-value-added-services",
         "medical-value-chain/digital-health-health-it/telematikinfrastruktur-ti-gematik-ecosystem/ti-connectors-ti-as-a-service-ti-gateway-rise",
@@ -4622,6 +4920,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/digital-health-health-it/diagnostic-imaging-laboratory-it-pacs-ris-lis": {
@@ -4679,6 +4979,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": [
         "medical-value-chain/digital-health-health-it/diagnostic-imaging-laboratory-it-pacs-ris-lis/laboratory-information-systems-lis-lims"
       ]
@@ -4732,6 +5034,8 @@
       ],
       "confidence": 3,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/digital-health-health-it/telemedicine-patient-engagement-platforms": {
@@ -4790,6 +5094,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/digital-health-health-it/diga-digital-therapeutics-reimbursed-apps": {
@@ -4846,6 +5152,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/digital-health-health-it/care-home-nursing-documentation-software-pflegesoftware": {
@@ -4902,6 +5210,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": [
         "medical-value-chain/digital-health-health-it/care-home-nursing-documentation-software-pflegesoftware/stationary-nursing-home-erp-documentation",
         "medical-value-chain/digital-health-health-it/care-home-nursing-documentation-software-pflegesoftware/ambulant-care-software-tour-planning",
@@ -4963,6 +5273,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/digital-health-health-it/medical-billing-coding-software-services": {
@@ -5019,6 +5331,8 @@
       ],
       "confidence": 3,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/healthcare-services-outsourcing": {
@@ -5048,6 +5362,8 @@
       "sources": [],
       "confidence": 0,
       "status": "stub",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": [
         "medical-value-chain/healthcare-services-outsourcing/sterile-reprocessing-aemp-zsva-outsourcing",
         "medical-value-chain/healthcare-services-outsourcing/medical-hazardous-waste-disposal-entsorgung",
@@ -5118,6 +5434,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": [
         "medical-value-chain/healthcare-services-outsourcing/sterile-reprocessing-aemp-zsva-outsourcing/hospital-central-aemp-outsourcing-off-site-plants",
         "medical-value-chain/healthcare-services-outsourcing/sterile-reprocessing-aemp-zsva-outsourcing/ambulatory-practice-instrument-reprocessing",
@@ -5173,6 +5491,8 @@
       ],
       "confidence": 3,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/healthcare-services-outsourcing/sterile-reprocessing-aemp-zsva-outsourcing/ambulatory-practice-instrument-reprocessing": {
@@ -5222,6 +5542,8 @@
       ],
       "confidence": 3,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/healthcare-services-outsourcing/medical-hazardous-waste-disposal-entsorgung": {
@@ -5282,6 +5604,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": [
         "medical-value-chain/healthcare-services-outsourcing/medical-hazardous-waste-disposal-entsorgung/infectious-hazardous-clinical-waste-avv-18-01-03-06-08",
         "medical-value-chain/healthcare-services-outsourcing/medical-hazardous-waste-disposal-entsorgung/sharps-cytotoxic-small-quantity-practice-waste"
@@ -5335,6 +5659,8 @@
       ],
       "confidence": 3,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/healthcare-services-outsourcing/medical-hazardous-waste-disposal-entsorgung/sharps-cytotoxic-small-quantity-practice-waste": {
@@ -5384,6 +5710,8 @@
       ],
       "confidence": 3,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/healthcare-services-outsourcing/hospital-facility-hygiene-technical-services": {
@@ -5439,6 +5767,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": [
         "medical-value-chain/healthcare-services-outsourcing/hospital-facility-hygiene-technical-services/clinical-cleaning-surface-disinfection",
         "medical-value-chain/healthcare-services-outsourcing/hospital-facility-hygiene-technical-services/infection-control-hygiene-consulting-hygienebeauftragte",
@@ -5493,6 +5823,8 @@
       ],
       "confidence": 3,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/healthcare-services-outsourcing/hospital-facility-hygiene-technical-services/infection-control-hygiene-consulting-hygienebeauftragte": {
@@ -5542,6 +5874,8 @@
       ],
       "confidence": 3,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/healthcare-services-outsourcing/hospital-facility-hygiene-technical-services/clinical-engineering-medtech-maintenance-stk-mtk": {
@@ -5569,8 +5903,8 @@
       },
       "composite": 91.7,
       "dach_signals": {
-        "est_players": "~200-400 MedTech service firms",
-        "revenue_band_eur": "EUR 0.5-10m",
+        "est_players": "~200-400 MedTech service firms (confirmed order-of-magnitude)",
+        "revenue_band_eur": "EUR 0.5-10m (confirmed; larger than pure STK/MTK boutiques due to full-service hospital contracts)",
         "example_companies": [
           "TUEV SUED",
           "KS Medizintechnik",
@@ -5588,10 +5922,26 @@
           "title": "MTK/STK & Wartung von Medizinprodukten - Butz Medizintechnik",
           "url": "https://butz-medizintechnik.de/MTK-STK-Wartung-und-Pruefung-von-Medizinprodukten",
           "note": "Independent STK/MTK inspection and maintenance provider"
+        },
+        {
+          "title": "Management-Krankenhaus: Ein Konzept setzt sich durch",
+          "url": "https://www.management-krankenhaus.de/topstories/medizintechnik/ein-konzept-setzt-sich-durch",
+          "note": "External clinical-engineering model, ~80% in-house baseline, fixed-cost outsourcing driver"
+        },
+        {
+          "title": "SHS Capital acquires majority in Medizintechnik Rostock (MTR)",
+          "url": "https://www.shs-capital.eu/healthcare-specialist-shs-capital-acquires-majority-stake-in-medizintechnik-rostock-gmbh-mtr-a-leading-home-care-provider-of-medical-devices-in-germany/",
+          "note": "Healthcare PE specialist active in adjacent medtech services"
         }
       ],
-      "confidence": 3,
-      "status": "grounded",
+      "confidence": 4,
+      "status": "verified",
+      "why_now": "Krankenhausreform capex/cost pressure is pushing hospitals to outsource clinical engineering to vendor-neutral third parties at fixed, plannable cost; ~80% still run in-house, so the externalisation runway is large and the independent-service market is fragmented and owner-operated.",
+      "pe_activity": [
+        "No dominant pure-play financial consolidator for hospital clinical engineering yet - market split between OEM service arms and fragmented independent/regional service organisations",
+        "Adjacent PE in hospital facility/technical services and homecare medtech (e.g. SHS Capital in Medizintechnik Rostock/home care) circling the space",
+        "Largely virgin for a vendor-neutral clinical-engineering platform"
+      ],
       "child_ids": []
     },
     "medical-value-chain/healthcare-services-outsourcing/hospital-medical-textile-laundry-services-textilservice": {
@@ -5647,6 +5997,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": [
         "medical-value-chain/healthcare-services-outsourcing/hospital-medical-textile-laundry-services-textilservice/healthcare-flat-linen-rental-textile-service-mietwasche",
         "medical-value-chain/healthcare-services-outsourcing/hospital-medical-textile-laundry-services-textilservice/surgical-or-textile-sterile-drape-rental",
@@ -5706,6 +6058,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/healthcare-services-outsourcing/medical-billing-rcm-coding": {
@@ -5760,6 +6114,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": [
         "medical-value-chain/healthcare-services-outsourcing/medical-billing-rcm-coding/physician-private-fee-billing-factoring-pvs",
         "medical-value-chain/healthcare-services-outsourcing/medical-billing-rcm-coding/dental-private-fee-billing-factoring-zahnaerzte",
@@ -5814,6 +6170,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/healthcare-services-outsourcing/medical-billing-rcm-coding/dental-private-fee-billing-factoring-zahnaerzte": {
@@ -5863,6 +6221,8 @@
       ],
       "confidence": 3,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/healthcare-services-outsourcing/medical-billing-rcm-coding/medical-coding-medizincontrolling-drg-pepp": {
@@ -5913,6 +6273,8 @@
       ],
       "confidence": 3,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/healthcare-services-outsourcing/healthcare-staffing-zeitarbeit-pflege-aerzte": {
@@ -5967,6 +6329,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": [
         "medical-value-chain/healthcare-services-outsourcing/healthcare-staffing-zeitarbeit-pflege-aerzte/nursing-temporary-staffing-pflege",
         "medical-value-chain/healthcare-services-outsourcing/healthcare-staffing-zeitarbeit-pflege-aerzte/physician-locum-honorararzt-placement",
@@ -6024,6 +6388,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/healthcare-services-outsourcing/healthcare-staffing-zeitarbeit-pflege-aerzte/physician-locum-honorararzt-placement": {
@@ -6073,6 +6439,8 @@
       ],
       "confidence": 3,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/healthcare-services-outsourcing/non-emergency-patient-transport-krankenfahrten-krankentransport": {
@@ -6127,6 +6495,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": [
         "medical-value-chain/healthcare-services-outsourcing/non-emergency-patient-transport-krankenfahrten-krankentransport/seated-medical-taxi-krankenfahrten-60-sgb-v",
         "medical-value-chain/healthcare-services-outsourcing/non-emergency-patient-transport-krankenfahrten-krankentransport/qualified-patient-transport-ktw-krankentransport",
@@ -6187,6 +6557,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/distribution-medical-retail": {
@@ -6216,6 +6588,8 @@
       "sources": [],
       "confidence": 0,
       "status": "stub",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": [
         "medical-value-chain/distribution-medical-retail/pharmaceutical-wholesale-pharmagrosshandel",
         "medical-value-chain/distribution-medical-retail/community-pharmacies-apotheken",
@@ -6280,6 +6654,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/distribution-medical-retail/community-pharmacies-apotheken": {
@@ -6306,8 +6682,8 @@
       },
       "composite": 91.7,
       "dach_signals": {
-        "est_players": "~17,571 public pharmacies (Germany, 2023)",
-        "revenue_band_eur": "EUR 2-4m typical per pharmacy; Rx-dominant",
+        "est_players": "17,041 public pharmacies at end-2024 (down from 17,571 in 2023; lowest since 1978) - ABDA",
+        "revenue_band_eur": "EUR 2-4m typical per pharmacy; Rx-dominant (below ~EUR 2m viability thins out)",
         "example_companies": [
           "independent Apotheken (owner-operated)",
           "cooperative brands e.g. easyApotheke, gesund leben"
@@ -6329,10 +6705,21 @@
           "title": "Ohne Fremdbesitzverbot keine Unabhaengigkeit - ABDA",
           "url": "https://www.abda.de/aktuelles-und-presse/newsroom/detail/ohne-fremdbesitzverbot-keine-unabhaengigkeit/",
           "note": "Fremdbesitzverbot pharmacist-ownership principle blocking corporate ownership"
+        },
+        {
+          "title": "Nur noch 17.041 - immer mehr Apotheken schliessen (ABDA)",
+          "url": "https://www.abda.de/aktuelles-und-presse/pressemitteilungen/detail/nur-noch-17041-immer-mehr-apotheken-schliessen-immer-weniger-werden-neu-eroeffnet/",
+          "note": "17,041 pharmacies end-2024; declining count"
         }
       ],
-      "confidence": 4,
-      "status": "grounded",
+      "confidence": 5,
+      "status": "verified",
+      "why_now": "STRUCTURALLY PE-BLOCKED: the Fremd- und Mehrbesitzverbot (ApoG, since 1960) restricts pharmacy ownership to licensed pharmacists (max 4 branches), so no financial-sponsor roll-up is legally possible; consolidation runs only via cooperatives/marketing groups, and the pharmacy count is shrinking (record low) amid an unresolved Apothekenreform debate.",
+      "pe_activity": [
+        "No PE platform possible in bricks-and-mortar pharmacies due to Fremdbesitzverbot - flag as structurally blocked",
+        "Consolidation proxies are voluntary chains/cooperatives and franchise brands (e.g. easyApotheke, gesund leben) and buying groups - not equity roll-ups",
+        "Only the adjacent mail-order channel (DocMorris/Zur Rose, Redcare/Shop Apotheke), domiciled abroad, is investor-owned and not bound by the same rule"
+      ],
       "child_ids": []
     },
     "medical-value-chain/distribution-medical-retail/medical-supply-stores-homecare-sanitatshauser-hilfsmittel": {
@@ -6389,6 +6776,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": [
         "medical-value-chain/distribution-medical-retail/medical-supply-stores-homecare-sanitatshauser-hilfsmittel/sanitatshaus-retail-custom-aids",
         "medical-value-chain/distribution-medical-retail/medical-supply-stores-homecare-sanitatshauser-hilfsmittel/ambulatory-homecare-provisioning-wound-stoma-incontinence-enteral-respiratory",
@@ -6442,6 +6831,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": [
         "medical-value-chain/distribution-medical-retail/medical-supply-stores-homecare-sanitatshauser-hilfsmittel/sanitatshaus-retail-custom-aids/compression-therapy-bandagen-kompressionsversorgung",
         "medical-value-chain/distribution-medical-retail/medical-supply-stores-homecare-sanitatshauser-hilfsmittel/sanitatshaus-retail-custom-aids/rehatechnik-equipment-rental-rollstuehle-pflegebetten-wiedereinsatz",
@@ -6504,6 +6895,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": [
         "medical-value-chain/distribution-medical-retail/medical-supply-stores-homecare-sanitatshauser-hilfsmittel/ambulatory-homecare-provisioning-wound-stoma-incontinence-enteral-respiratory/chronic-wound-care-re-supply-moderne-wundversorgung",
         "medical-value-chain/distribution-medical-retail/medical-supply-stores-homecare-sanitatshauser-hilfsmittel/ambulatory-homecare-provisioning-wound-stoma-incontinence-enteral-respiratory/stoma-care-re-supply-stomaversorgung",
@@ -6539,7 +6932,7 @@
       },
       "composite": 91.7,
       "dach_signals": {
-        "est_players": "hundreds of Reha-Technik operators (subset of Sanitatshauser)",
+        "est_players": "~1,400 Reha-Technik / Sanitaetshaus operators, of which ~785 are single-location sole proprietorships (>half); hundreds active in Reha-Technik/Wiedereinsatz",
         "revenue_band_eur": "EUR 0.5-10m typical",
         "example_companies": [
           "Sanitatshaus Aktuell members (700 sites)",
@@ -6557,10 +6950,31 @@
           "title": "Sanitatshaus Aktuell / Reha-Hilfsmittel Wiedereinsatz market",
           "url": "https://www.rehabundberlin.de/mietservice",
           "note": "Rental and Wiedereinsatz-from-insurer-stock model, 700-site cooperative reach"
+        },
+        {
+          "title": "Ank-Kaiser (Beyond Capital Partners) acquires Mayer & Rexing",
+          "url": "https://beyondcapital-partners.com/en/presse-releaseank-kaiser-sanitaetshaus-an-investment-of-beyond-capital-partners-expands-further-with-the-acquisition-of-sanitaetshaus-mayer-rexing/",
+          "note": "PE buy-and-build; Top-10 group"
+        },
+        {
+          "title": "Finanzinvestoren entdecken Hilfsmittel (ostechnik.de)",
+          "url": "https://ostechnik.de/hilfsmittel-interessant-fuer-finanzinvestoren/",
+          "note": "~1,400 operators, 785 single-site; investor interest"
+        },
+        {
+          "title": "Liste der groessten Sanitaetshaeuser 2023",
+          "url": "https://www.pflegemarkt.com/fachartikel/liste-der-groessten-sanitaetshaueser-2023-in-deutschland/",
+          "note": "Largest operators ranking"
         }
       ],
-      "confidence": 3,
-      "status": "grounded",
+      "confidence": 4,
+      "status": "verified",
+      "why_now": "Ageing population and a highly fragmented, succession-heavy operator base combine with attractive recurring rental/Wiedereinsatz (pool-managed reissue) revenue under Hilfsmittel contracts; financial investors are now running active buy-and-build in Sanitaetshaeuser.",
+      "pe_activity": [
+        "Ank-Kaiser Sanitaetshaus (backed by Beyond Capital Partners Fund II) - nationwide buy-and-build; acquired Sanitaetshaus Mayer & Rexing (2024), now a Top-10 group",
+        "reha gmbh and cooperative platforms (Sanitaetshaus Aktuell / Reha-Team, Rehavital) drive purchasing/consolidation",
+        "Broader signal: finance investors have discovered the Hilfsmittel/Reha-Technik segment (ostechnik.de) despite it remaining dominated by single-site owners"
+      ],
       "child_ids": []
     },
     "medical-value-chain/distribution-medical-retail/hearing-aid-acoustics-horakustik": {
@@ -6616,6 +7030,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/distribution-medical-retail/optics-optometry-augenoptik": {
@@ -6671,6 +7087,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/distribution-medical-retail/orthopaedic-technology-shoe-making-orthopadietechnik-schuhtechnik": {
@@ -6726,6 +7144,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": [
         "medical-value-chain/distribution-medical-retail/orthopaedic-technology-shoe-making-orthopadietechnik-schuhtechnik/orthopaedic-technology-prostheses-orthoses",
         "medical-value-chain/distribution-medical-retail/orthopaedic-technology-shoe-making-orthopadietechnik-schuhtechnik/orthopaedic-shoe-technology-orthopadieschuhtechnik"
@@ -6779,6 +7199,8 @@
       ],
       "confidence": 3,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": [
         "medical-value-chain/distribution-medical-retail/orthopaedic-technology-shoe-making-orthopadietechnik-schuhtechnik/orthopaedic-technology-prostheses-orthoses/lower-limb-prosthetics-beinprothetik",
         "medical-value-chain/distribution-medical-retail/orthopaedic-technology-shoe-making-orthopadietechnik-schuhtechnik/orthopaedic-technology-prostheses-orthoses/upper-limb-prosthetics-armprothetik",
@@ -6812,8 +7234,8 @@
       },
       "composite": 100.0,
       "dach_signals": {
-        "est_players": "~2,529 orthopaedic shoemaker businesses",
-        "revenue_band_eur": "EUR 0.3-3m typical",
+        "est_players": "~2,300 orthopaedic-shoemaker businesses (declining from ~2,500+; ~15,000 employees, ~EUR 1bn total sector revenue) - correct downward from 2,529",
+        "revenue_band_eur": "EUR 0.3-3m typical; largest cohort (~900 firms) sits EUR 0.5-5m per MTD/handwerk data",
         "example_companies": [
           "regional OST Meisterbetriebe",
           "combined OT/OST houses"
@@ -6829,10 +7251,33 @@
           "title": "Wie ueberlebt die Orthopaedieschuhtechnik - OSTechnik",
           "url": "https://ostechnik.de/mein-betrieb-meine-zukunft-wie-ueberlebt-die-orthopaedieschuhtechnik/",
           "note": "Small ageing owner-run craft base, succession pressure, ~2,500 businesses"
+        },
+        {
+          "title": "MTD-Verlag: Grosse Betriebe werden mehr und groesser",
+          "url": "https://mtd.de/grosse-betriebe-werden-mehr-und-groesser/",
+          "note": "Betriebszahlen (~2,300), ~EUR 1bn revenue, concentration/branch growth trend"
+        },
+        {
+          "title": "OSTechnik: Finanzinvestoren entdecken Hilfsmittel",
+          "url": "https://ostechnik.de/hilfsmittel-interessant-fuer-finanzinvestoren/",
+          "note": "PE/strategics targeting orthopaedic-technology, homecare & Sanitatshaus; names Ortheum(DPE), Ortivity(Apheon), Meliva"
+        },
+        {
+          "title": "DPE / Ortivity investment page",
+          "url": "https://www.dpe.de/en/investments/ortheum/",
+          "note": "Confirms DPE sponsorship in orthopaedic-technology consolidation"
         }
       ],
-      "confidence": 3,
-      "status": "grounded",
+      "confidence": 4,
+      "status": "verified",
+      "why_now": "Classic Handwerk succession (Nachfolge) wave: main-business count is steadily declining (~2,300 vs ~2,529 earlier) while surviving firms and branch networks grow, and hilfsmittel/orthopaedic-technology financial investors are already circling adjacent Sanitatshaus assets, leaving the craft-heavy shoe-tech niche ripe for a first-mover roll-up on scale, purchasing and digitisation economics.",
+      "pe_activity": [
+        "Ortivity (backed by Apheon Capital) - fast-growing outpatient/operative orthopaedics group incl. Sanitatshauser/medical-supply stores",
+        "Ortheum (backed by Deutsche Private Equity / DPE) - orthopaedic-technology platform",
+        "Meliva - orthopaedics/medical-supply consolidator",
+        "Reha-Aktiv and bandage/homecare platforms rolling up owner-operated Sanitatshauser",
+        "BUT the Orthopadieschuhtechnik craft sub-niche itself is still overwhelmingly owner-operated (Meister-run); no dominant financial consolidator is pure-play in orthopaedic SHOE technology yet"
+      ],
       "child_ids": []
     },
     "medical-value-chain/distribution-medical-retail/dental-laboratories-zahntechnik-dentallabore": {
@@ -6887,6 +7332,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/distribution-medical-retail/dental-veterinary-supply-distribution-dentaldepot-veterinargrosshandel": {
@@ -6943,6 +7390,8 @@
       ],
       "confidence": 3,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/payers-regulatory-ecosystem": {
@@ -6972,6 +7421,8 @@
       "sources": [],
       "confidence": 0,
       "status": "stub",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": [
         "medical-value-chain/payers-regulatory-ecosystem/private-medical-dental-billing-factoring-intermediaries-verrechnungsstellen",
         "medical-value-chain/payers-regulatory-ecosystem/payer-insurer-bpo-claims-processing-services",
@@ -7040,6 +7491,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": [
         "medical-value-chain/payers-regulatory-ecosystem/private-medical-dental-billing-factoring-intermediaries-verrechnungsstellen/privatarztliche-verrechnungsstellen-pvs",
         "medical-value-chain/payers-regulatory-ecosystem/private-medical-dental-billing-factoring-intermediaries-verrechnungsstellen/zahnarztliche-abrechnung-factoring",
@@ -7098,6 +7551,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/payers-regulatory-ecosystem/private-medical-dental-billing-factoring-intermediaries-verrechnungsstellen/zahnarztliche-abrechnung-factoring": {
@@ -7154,6 +7609,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/payers-regulatory-ecosystem/private-medical-dental-billing-factoring-intermediaries-verrechnungsstellen/sonstige-heilberufe-abrechnung-pflege-physio-heilmittel-sanitatshauser": {
@@ -7204,6 +7661,8 @@
       ],
       "confidence": 3,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/payers-regulatory-ecosystem/payer-insurer-bpo-claims-processing-services": {
@@ -7262,6 +7721,8 @@
       ],
       "confidence": 3,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": [
         "medical-value-chain/payers-regulatory-ecosystem/payer-insurer-bpo-claims-processing-services/claims-auditing-rechnungspruefung-prufdienstleister"
       ]
@@ -7313,6 +7774,8 @@
       ],
       "confidence": 3,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/payers-regulatory-ecosystem/independent-medical-review-assessment-services-gutachter": {
@@ -7371,6 +7834,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": [
         "medical-value-chain/payers-regulatory-ecosystem/independent-medical-review-assessment-services-gutachter/private-pflege-sozialmedizinische-begutachtung"
       ]
@@ -7419,6 +7884,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/payers-regulatory-ecosystem/medical-device-certification-auditing-bodies-benannte-stellen-notified-bodies": {
@@ -7482,6 +7949,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": [
         "medical-value-chain/payers-regulatory-ecosystem/medical-device-certification-auditing-bodies-benannte-stellen-notified-bodies/mdr-ivdr-notified-bodies",
         "medical-value-chain/payers-regulatory-ecosystem/medical-device-certification-auditing-bodies-benannte-stellen-notified-bodies/iso-13485-qms-certification-auditing"
@@ -7534,6 +8003,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/payers-regulatory-ecosystem/medical-device-certification-auditing-bodies-benannte-stellen-notified-bodies/iso-13485-qms-certification-auditing": {
@@ -7589,6 +8060,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/payers-regulatory-ecosystem/regulatory-affairs-market-access-hta-pharmacovigilance-services": {
@@ -7650,6 +8123,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": [
         "medical-value-chain/payers-regulatory-ecosystem/regulatory-affairs-market-access-hta-pharmacovigilance-services/regulatory-affairs-mdr-consulting-medtech",
         "medical-value-chain/payers-regulatory-ecosystem/regulatory-affairs-market-access-hta-pharmacovigilance-services/hta-market-access-consulting-pharma-amnog-eu-hta",
@@ -7710,6 +8185,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": [
         "medical-value-chain/payers-regulatory-ecosystem/regulatory-affairs-market-access-hta-pharmacovigilance-services/regulatory-affairs-mdr-consulting-medtech/mdr-technical-documentation-annex-ii-iii-authoring-remediation",
         "medical-value-chain/payers-regulatory-ecosystem/regulatory-affairs-market-access-hta-pharmacovigilance-services/regulatory-affairs-mdr-consulting-medtech/clinical-evaluation-reports-cer-pmcf",
@@ -7770,6 +8247,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/payers-regulatory-ecosystem/regulatory-affairs-market-access-hta-pharmacovigilance-services/pharmacovigilance-outsourcing-qppv-stufenplanbeauftragter": {
@@ -7825,6 +8304,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": [
         "medical-value-chain/payers-regulatory-ecosystem/regulatory-affairs-market-access-hta-pharmacovigilance-services/pharmacovigilance-outsourcing-qppv-stufenplanbeauftragter/eu-qppv-as-a-service",
         "medical-value-chain/payers-regulatory-ecosystem/regulatory-affairs-market-access-hta-pharmacovigilance-services/pharmacovigilance-outsourcing-qppv-stufenplanbeauftragter/literature-monitoring-signal-management",
@@ -7885,6 +8366,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": [
         "medical-value-chain/payers-regulatory-ecosystem/healthcare-data-protection-labelling-compliance-services/external-data-protection-officer-dsb-for-healthcare",
         "medical-value-chain/payers-regulatory-ecosystem/healthcare-data-protection-labelling-compliance-services/medical-translation-labelling-compliance-iso-17100-mdr"
@@ -7944,6 +8427,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": [
         "medical-value-chain/payers-regulatory-ecosystem/healthcare-data-protection-labelling-compliance-services/external-data-protection-officer-dsb-for-healthcare/hospital-external-dsb-75c-b3s-it-security-officer-isb-krankenhaus-isms",
         "medical-value-chain/payers-regulatory-ecosystem/healthcare-data-protection-labelling-compliance-services/external-data-protection-officer-dsb-for-healthcare/mvz-practice-group-external-dsb-ambulatory",
@@ -8005,6 +8490,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/payers-regulatory-ecosystem/clinical-trial-insurance-risk-services-probandenversicherung": {
@@ -8063,6 +8550,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/payers-regulatory-ecosystem/healthcare-data-protection-labelling-compliance-services/external-data-protection-officer-dsb-for-healthcare/hospital-external-dsb-75c-b3s-it-security-officer-isb-krankenhaus-isms": {
@@ -8091,8 +8580,8 @@
       },
       "composite": 91.7,
       "dach_signals": {
-        "est_players": "~100-200 specialised DSB/ISB providers serving hospitals",
-        "revenue_band_eur": "EUR 1.5-8k/month per hospital retainer; ISMS build-outs EUR 50-200k",
+        "est_players": "Confirmed ~100-200 specialised DSB/ISB/B3S providers serving hospitals; heavy overlap with cybersecurity consultancies.",
+        "revenue_band_eur": "Confirmed: EUR 1.5-8k/month per-hospital retainer; one-off ISMS/B3S build-outs EUR 50-200k. High recurring, mandate-driven.",
         "example_companies": [
           "activeMind AG",
           "DSN GROUP",
@@ -8123,10 +8612,31 @@
           "title": "Informationssicherheit im Gesundheitswesen – DSN GROUP",
           "url": "https://www.dsn-group.de/informationssicherheit/informationssicherheit-im-gesundheitswesen",
           "note": "Hospital IT-security/ISMS consultancy"
+        },
+        {
+          "title": "Informationssicherheit im Krankenhaus - Deutsche Krankenhausgesellschaft",
+          "url": "https://www.dkgev.de/themen/digitalisierung-daten/informationssicherheit-und-technischer-datenschutz/informationssicherheit-im-krankenhaus/",
+          "note": "DKG on B3S (168 measures) and ISMS/ISO 27001 basis"
+        },
+        {
+          "title": "Aenderung des SGB V - IT-Sicherheit in Krankenhaeusern",
+          "url": "https://www.althammer-kill.de/aenderung-des-sgb-v-it-sicherheit-in-krankenhaeusern",
+          "note": "Confirms mandatory nature since 01.01.2022"
+        },
+        {
+          "title": "IT-Sicherheit nach §75c SGB V - TUV SUD",
+          "url": "https://www.tuvsud.com/de-de/dienstleistungen/auditierung-und-zertifizierung/gesundheitswesen/it-sicherheitssystem",
+          "note": "Certifier/service provider in the niche"
         }
       ],
       "confidence": 4,
-      "status": "grounded",
+      "status": "verified",
+      "why_now": "§75c SGB V (recodified as §391 SGB V) has made state-of-the-art IT-security mandatory for every hospital since 01.01.2022, KHZG requires >=15% of digitisation funding to go into information security, and NIS2 plus frequent ransomware attacks on Kliniken force ISMS/B3S build-outs - a durable regulated demand for external ISB retainers.",
+      "pe_activity": [
+        "Consolidation is happening through broader cyber/ISMS advisory rather than a hospital-DSB pure-play: DATATREE AG (b3s.tech), DSN Group, mITSM, secida, plus certifiers TUV SUD",
+        "General IT-security/MSSP roll-ups (e.g. Indevis, r-tec, Infodas) touch the space but hospital-ISB niche itself is still fragmented among ~100-200 specialists",
+        "No identified PE platform dedicated to hospital DSB/ISB - white space"
+      ],
       "child_ids": []
     },
     "medical-value-chain/payers-regulatory-ecosystem/healthcare-data-protection-labelling-compliance-services/external-data-protection-officer-dsb-for-healthcare/mvz-practice-group-external-dsb-ambulatory": {
@@ -8155,8 +8665,8 @@
       },
       "composite": 100.0,
       "dach_signals": {
-        "est_players": "Several hundred providers (legal-tech + boutiques)",
-        "revenue_band_eur": "EUR 79-500/month per practice; portfolios of hundreds of clients",
+        "est_players": "Confirmed fragmented: several hundred providers (medical-law boutiques + legal-tech). No dominant player; TUV/certifiers also compete.",
+        "revenue_band_eur": "Confirmed: ~EUR 79-500/month per practice retainer; scale comes from portfolios of hundreds/thousands of practice clients.",
         "example_companies": [
           "datenschutzundgesundheit.de",
           "fraghugo",
@@ -8185,10 +8695,26 @@
           "title": "Externer Datenschutzbeauftragter – Kosten für Arztpraxis & Apotheke",
           "url": "https://www.datenschutzundgesundheit.de/kosten-externer-datenschutzbeauftragter/",
           "note": "20-person threshold and monthly cost bands"
+        },
+        {
+          "title": "Datenschutzbeauftragte in Arztpraxen - Deutsches Aerzteblatt",
+          "url": "https://www.aerzteblatt.de/archiv/datenschutzbeauftragte-in-arztpraxen-zusaetzlicher-sachverstand-e93615eb-b03f-4bdc-8b5a-fb70d68b39fc",
+          "note": "Confirms DSB obligation and role for practices/MVZ"
+        },
+        {
+          "title": "KBV - Datenschutz in der Praxis",
+          "url": "https://www.kbv.de/praxis/praxisfuehrung/datenschutz",
+          "note": "Regulatory backdrop from KBV"
         }
       ],
-      "confidence": 4,
-      "status": "grounded",
+      "confidence": 3,
+      "status": "verified",
+      "why_now": "A practice/MVZ must appoint a DSB once >=20 people regularly process patient data automatically, and rising DSGVO enforcement plus rapid MVZ/chain formation is professionalising a task previously done ad hoc. Founder-boutique Nachfolge and cross-selling into TI/IT-security make bolt-ons cheap.",
+      "pe_activity": [
+        "No healthcare-only DSB roll-up yet identified - niche remains fragmented across legal-tech and boutiques (321legal, TYR, QMedicus, NordPrax, Spirit Legal)",
+        "Broad (non-vertical) DSGVO-as-a-service platforms are the nearest consolidators: DataGuard (VC/One Peak-backed), heyData, ProLiance/2B Advice - none healthcare-dedicated",
+        "Opportunity: a healthcare-specialist buy-and-build does not appear to exist"
+      ],
       "child_ids": []
     },
     "medical-value-chain/payers-regulatory-ecosystem/healthcare-data-protection-labelling-compliance-services/external-data-protection-officer-dsb-for-healthcare/pharma-medtech-external-dsb-life-sciences-specialist": {
@@ -8217,8 +8743,8 @@
       },
       "composite": 91.7,
       "dach_signals": {
-        "est_players": "~50-150 life-sciences-focused privacy providers",
-        "revenue_band_eur": "EUR 2-15k/month retainer per company",
+        "est_players": "Confirmed ~50-150 life-sciences-focused privacy providers; mostly law-firm-adjacent boutiques.",
+        "revenue_band_eur": "Confirmed: EUR 2-15k/month retainer per company; higher for global pharma / multi-entity groups.",
         "example_companies": [
           "dataandlaw",
           "Proliance GmbH",
@@ -8247,10 +8773,31 @@
           "title": "Datenschutz im Gesundheitswesen | intersoft consulting",
           "url": "https://www.intersoft-consulting.de/datenschutzberatung/gesundheitswesen/",
           "note": "Health-data (incl. pharma) privacy consulting"
+        },
+        {
+          "title": "KINAST Rechtsanwaelte - Pharmaindustrie",
+          "url": "https://www.kinast.eu/pharmaindustrie/",
+          "note": "Specialist pharma privacy boutique"
+        },
+        {
+          "title": "Cortina Consult - Datenschutz Pharmaindustrie",
+          "url": "https://cortina-consult.com/branchen/pharmaindustrie/",
+          "note": "External DSB from lab to production"
+        },
+        {
+          "title": "Columbus Consulting - Pharma & Biotech",
+          "url": "https://www.columbus-consulting.eu/branchenloesungen/pharma-biotech",
+          "note": "Long-standing pharma/biotech external DSB"
         }
       ],
       "confidence": 3,
-      "status": "grounded",
+      "status": "verified",
+      "why_now": "GDPR plus sector-specific data flows (clinical trials, pharmacovigilance, MDR/IVDR technical documentation) and the incoming European Health Data Space (EHDS) raise the bar on specialist privacy counsel; complexity favours a few life-sciences-fluent specialists over generalists.",
+      "pe_activity": [
+        "Fragmented specialist boutiques, no life-sciences-dedicated consolidator: KINAST, 2B Advice, Cortina Consult, Columbus Consulting, THALES, MKM, CAS Datenschutz",
+        "Broad privacy platforms (DataGuard, 2B Advice) again the closest thing to scale players",
+        "Genuinely virgin for a pharma/medtech-specialist buy-and-build"
+      ],
       "child_ids": []
     },
     "medical-value-chain/payers-regulatory-ecosystem/healthcare-data-protection-labelling-compliance-services/external-data-protection-officer-dsb-for-healthcare/dsgvo-audit-isms-as-a-service-iso-27001-nis2-dora": {
@@ -8308,6 +8855,8 @@
       ],
       "confidence": 3,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/pharmaceuticals-biotech/gxp-gmp-compliance-services/gmp-gxp-consulting-auditing/computerised-system-validation-csv-csa": {
@@ -8371,6 +8920,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/pharmaceuticals-biotech/gxp-gmp-compliance-services/gmp-gxp-consulting-auditing/qp-on-demand-qp-as-a-service-sachkundige-person-14-amg": {
@@ -8426,6 +8977,8 @@
       ],
       "confidence": 3,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/pharmaceuticals-biotech/gxp-gmp-compliance-services/gmp-gxp-consulting-auditing/cleanroom-gmp-qualification-validation-dq-iq-oq-pq": {
@@ -8454,8 +9007,8 @@
       },
       "composite": 100.0,
       "dach_signals": {
-        "est_players": "~100+ cleanroom qualification/metrology firms in DACH",
-        "revenue_band_eur": "EUR 1-5m typical; day rates EUR 900-1,300",
+        "est_players": "~100+ cleanroom qualification/metrology firms in DACH (confirmed order-of-magnitude; highly fragmented, no central register)",
+        "revenue_band_eur": "EUR 1-5m typical; day rates ~EUR 900-1,300 (plausible/unchanged)",
         "example_companies": [
           "Testo Industrial Services",
           "GMP Reinraum Service",
@@ -8485,10 +9038,21 @@
           "title": "Reinraum qualifizieren nach GMP-Standards – QP-Engineering",
           "url": "https://qp-eng.de/reinraum-qualifizieren/",
           "note": "Full DQ/IQ/OQ/PQ validation to Annex 1"
+        },
+        {
+          "title": "BC Partners portfolio: Tentamus",
+          "url": "https://www.bcpartners.com/portfolio/tentamus/",
+          "note": "PE-backed TIC/lab buy-and-build in pharma testing (adjacent consolidation template)"
         }
       ],
-      "confidence": 4,
-      "status": "grounded",
+      "confidence": 3,
+      "status": "verified",
+      "why_now": "The 2023 EU GMP Annex 1 revision tightened contamination-control and (re)qualification obligations for sterile/aseptic cleanrooms, and DACH pharma/ATMP capacity build-out is expanding installed cleanroom base - both driving mandatory, recurring DQ/IQ/OQ/PQ requalification revenue that suits a buy-and-build.",
+      "pe_activity": [
+        "No dominant financial consolidator pure-play in cleanroom/GMP qualification yet - mostly owner-operated engineering/metrology boutiques (e.g. GMP-Reinraumservice, DERU, QP-Engineering, HG Messtechnik)",
+        "Adjacent TIC roll-up: Tentamus Group (backed by BC Partners + Auctus Capital) consolidating pharma testing/lab services, a template that could extend into qualification",
+        "Chemgineering (GxP engineering/consulting) operates at scale but is not a PE roll-up platform"
+      ],
       "child_ids": []
     },
     "medical-value-chain/pharmaceuticals-biotech/gxp-gmp-compliance-services/gmp-gxp-consulting-auditing/gdp-cold-chain-audits-good-distribution-practice": {
@@ -8544,6 +9108,8 @@
       ],
       "confidence": 3,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/pharmaceuticals-biotech/gxp-gmp-compliance-services/gmp-gxp-consulting-auditing/supplier-lohnhersteller-contract-manufacturer-auditing": {
@@ -8572,8 +9138,8 @@
       },
       "composite": 91.7,
       "dach_signals": {
-        "est_players": "~100+ GMP audit boutiques/independent auditors",
-        "revenue_band_eur": "EUR 1,200-2,500/audit-day incl. travel",
+        "est_players": "~100+ GMP audit boutiques/independent auditors in DACH (confirmed; fragmented)",
+        "revenue_band_eur": "typically billed at ~EUR 1,200-2,500 per audit-day incl. travel (confirmed); firm revenues small/personal",
         "example_companies": [
           "zicura",
           "blue inspection body",
@@ -8602,10 +9168,26 @@
           "title": "Pflicht zu API-Audits – Lösungen für die Praxis (pharma-food)",
           "url": "https://www.pharma-food.de/ausruestung/feststofftechnik/pflicht-zu-api-audits-loesungen-fuer-die-praxis.html",
           "note": "Mandatory API audits; accredited third-party providers (Hälsa Pharma)"
+        },
+        {
+          "title": "Diapharm: GMP Consulting & Audits",
+          "url": "https://www.diapharm.com/en/product-areas/medicinal-products/quality-management-gxp/gmp-consulting-audits",
+          "note": "Representative larger GMP audit/consulting provider"
+        },
+        {
+          "title": "BC Partners portfolio: Tentamus",
+          "url": "https://www.bcpartners.com/portfolio/tentamus/",
+          "note": "PE-backed pharma compliance/testing roll-up (adjacent appetite)"
         }
       ],
       "confidence": 3,
-      "status": "grounded",
+      "status": "verified",
+      "why_now": "Post-COVID supply-chain scrutiny, drug-shortage-driven supplier qualification, GDP/serialisation and stricter EU GMP inspection expectations are inflating demand for outsourced supplier/CMO audits, while the independent-auditor base is ageing and boutique - a fragmented, expertise-scarce niche ready to institutionalise.",
+      "pe_activity": [
+        "No dominant financial consolidator - highly boutique/individual-auditor market (Diapharm, Experts Institut, The Entourage, Valicare operate at scale but are not PE roll-up platforms)",
+        "Adjacent TIC/lab consolidation: Tentamus (BC Partners + Auctus) shows PE appetite for pharma compliance services",
+        "Signal: mostly owner-operated / boutique - virgin for a QP/audit-network roll-up"
+      ],
       "child_ids": []
     },
     "medical-value-chain/payers-regulatory-ecosystem/regulatory-affairs-market-access-hta-pharmacovigilance-services/regulatory-affairs-mdr-consulting-medtech/mdr-technical-documentation-annex-ii-iii-authoring-remediation": {
@@ -8669,6 +9251,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/payers-regulatory-ecosystem/regulatory-affairs-market-access-hta-pharmacovigilance-services/regulatory-affairs-mdr-consulting-medtech/clinical-evaluation-reports-cer-pmcf": {
@@ -8731,6 +9315,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/payers-regulatory-ecosystem/regulatory-affairs-market-access-hta-pharmacovigilance-services/regulatory-affairs-mdr-consulting-medtech/udi-eudamed-registration-data-management": {
@@ -8793,6 +9379,8 @@
       ],
       "confidence": 3,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/payers-regulatory-ecosystem/regulatory-affairs-market-access-hta-pharmacovigilance-services/regulatory-affairs-mdr-consulting-medtech/notified-body-liaison-conformity-assessment-support": {
@@ -8848,6 +9436,8 @@
       ],
       "confidence": 3,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/payers-regulatory-ecosystem/regulatory-affairs-market-access-hta-pharmacovigilance-services/regulatory-affairs-mdr-consulting-medtech/ivdr-consulting-in-vitro-diagnostics": {
@@ -8910,6 +9500,8 @@
       ],
       "confidence": 3,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/payers-regulatory-ecosystem/regulatory-affairs-market-access-hta-pharmacovigilance-services/pharmacovigilance-outsourcing-qppv-stufenplanbeauftragter/eu-qppv-as-a-service": {
@@ -8972,6 +9564,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/payers-regulatory-ecosystem/regulatory-affairs-market-access-hta-pharmacovigilance-services/pharmacovigilance-outsourcing-qppv-stufenplanbeauftragter/literature-monitoring-signal-management": {
@@ -9034,6 +9628,8 @@
       ],
       "confidence": 3,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/payers-regulatory-ecosystem/regulatory-affairs-market-access-hta-pharmacovigilance-services/pharmacovigilance-outsourcing-qppv-stufenplanbeauftragter/psur-pbrer-and-dsur-authoring": {
@@ -9091,6 +9687,8 @@
       ],
       "confidence": 3,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/payers-regulatory-ecosystem/regulatory-affairs-market-access-hta-pharmacovigilance-services/pharmacovigilance-outsourcing-qppv-stufenplanbeauftragter/local-safety-officer-stufenplanbeauftragter-63a-amg": {
@@ -9152,6 +9750,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/medical-devices-equipment/medical-equipment-servicing-inspection-maintenance-medizintechnik-service/multivendor-imaging-radiology-equipment-service-mrt-ct-rontgen": {
@@ -9212,6 +9812,8 @@
       ],
       "confidence": 3,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/medical-devices-equipment/medical-equipment-servicing-inspection-maintenance-medizintechnik-service/anaesthesia-ventilator-service-narkose-beatmungsgerate": {
@@ -9266,6 +9868,8 @@
       ],
       "confidence": 3,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/medical-devices-equipment/medical-equipment-servicing-inspection-maintenance-medizintechnik-service/dialysis-machine-service-dialysegerate": {
@@ -9314,6 +9918,8 @@
       ],
       "confidence": 2,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/medical-devices-equipment/medical-equipment-servicing-inspection-maintenance-medizintechnik-service/flexible-endoscope-repair-reprocessing-service": {
@@ -9375,6 +9981,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/medical-devices-equipment/medical-equipment-servicing-inspection-maintenance-medizintechnik-service/electro-medical-safety-testing-dguv-v3-din-en-62353-vde-0751": {
@@ -9402,8 +10010,8 @@
       },
       "composite": 100.0,
       "dach_signals": {
-        "est_players": "several hundred firms (overlaps electrical-testing sector)",
-        "revenue_band_eur": "EUR 0.3-3m typical",
+        "est_players": "several hundred firms (overlaps general electrical-testing market; confirmed)",
+        "revenue_band_eur": "EUR 0.3-3m typical (confirmed)",
         "example_companies": [
           "EFM Medizingeräteprüfung",
           "KS Medizintechnik",
@@ -9426,10 +10034,26 @@
           "title": "DGUV V3 Prüfung Medizintechnik gemäß DIN EN 62353",
           "url": "https://arbeitsschutz-arbeitssicherheit24.de/pruefbereiche-dguv-v3-pruefung/dguv-v3-pruefung-medizintechnik/",
           "note": "mandatory testing at 6-24 month intervals by trained specialists"
+        },
+        {
+          "title": "3i Group: invests in OMS Pruefservice",
+          "url": "https://www.3i.com/media/news/2025/3i-invests-in-oms-pruefservice-a-tech-enabled-service-provider-for-testing-electrical-systems-and-equipment/",
+          "note": "PE majority investment; DACH market leader, 43 sites, 900+ staff, 30% CAGR since 2019"
+        },
+        {
+          "title": "M&A News: 3i acquires majority in OMS Pruefservice",
+          "url": "https://www.mainsights.io/ma-news/british-investor-3i-group-acquires-majority-stake-in-german-firm-oms-prufservice",
+          "note": "Confirms deal & scale"
         }
       ],
-      "confidence": 4,
-      "status": "grounded",
+      "confidence": 5,
+      "status": "verified",
+      "why_now": "Statutory, recurring electrical-safety testing generates highly plannable subscription-like revenue on a hugely fragmented craft base; 3i's 2025 majority buy of OMS proves a tech-enabled roll-up thesis works, and adjacencies (EV charging, PV, medical DIN EN 62353) extend the runway.",
+      "pe_activity": [
+        "OMS Pruefservice (backed by 3i Group, majority stake 2025) - DACH MARKET LEADER, 43 locations, 900+ staff, proprietary INSPEKTRA software; actively consolidating electrical-safety testing (DGUV V3)",
+        "ESG Gesellschaft, Piepenbrock Prueftechnik, E+Service+Check - larger independents/multi-site players",
+        "NOTE: OMS et al. focus on general DGUV V3 electrical testing; the medical-device-specific DIN EN 62353/VDE 0751 sub-segment is less consolidated and still craft-heavy"
+      ],
       "child_ids": []
     },
     "medical-value-chain/medical-devices-equipment/medical-equipment-servicing-inspection-maintenance-medizintechnik-service/multivendor-independent-service-organisations-iso-as-a-business-model": {
@@ -9485,6 +10109,8 @@
       ],
       "confidence": 3,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/medical-devices-equipment/medical-equipment-servicing-inspection-maintenance-medizintechnik-service/statutory-safety-metrology-inspections-stk-mtk-per-mpbetreibv/sicherheitstechnische-kontrolle-stk-of-anlage-1-devices": {
@@ -9513,8 +10139,8 @@
       },
       "composite": 100.0,
       "dach_signals": {
-        "est_players": "several hundred to ~1,000+ firms",
-        "revenue_band_eur": "EUR 0.3-3m typical",
+        "est_players": "several hundred to ~1,000+ firms (confirmed; fragmented)",
+        "revenue_band_eur": "EUR 0.3-3m typical (confirmed)",
         "example_companies": [
           "STRUCK Medizintechnik GmbH",
           "mt-medizintechnik",
@@ -9537,10 +10163,26 @@
           "title": "STRUCK Medizintechnik STK und MTK Prüfungen",
           "url": "https://www.struck-med.de/serviceleistungen/stk-und-mtk-pr%C3%BCfungen/",
           "note": "example independent STK/MTK provider"
+        },
+        {
+          "title": "EBA AG: Medizintechnik Management (STK & MTK)",
+          "url": "https://www.eba-ag.de/medizintechnik/management/",
+          "note": "Representative owner-operated STK/MTK service provider"
+        },
+        {
+          "title": "Management-Krankenhaus: MedTech-Service Konzept",
+          "url": "https://www.management-krankenhaus.de/topstories/medizintechnik/ein-konzept-setzt-sich-durch",
+          "note": "~80% hospitals rely on in-house technicians but cannot avoid external service - outsourcing runway"
         }
       ],
       "confidence": 4,
-      "status": "grounded",
+      "status": "verified",
+      "why_now": "MPBetreibV mandates recurring STK on Anlage-1 devices (sticky, non-discretionary demand), the Krankenhausreform cost squeeze is pushing clinics to externalise technical service, and the owner-operated Medizintechnik-service base faces its own Nachfolge wave - a still-virgin, recurring-revenue roll-up.",
+      "pe_activity": [
+        "No dominant financial consolidator yet in medtech-specific STK - mostly owner-operated regional Medizintechnik-service firms (e.g. EBA AG, ComService, Struck Medizintechnik, KS Medizintechnik)",
+        "Adjacent pressure: OMS Pruefservice (3i) in electrical testing and hilfsmittel/homecare investors could extend into medtech STK",
+        "Signal: fragmented, owner-operated - positive greenfield roll-up opportunity"
+      ],
       "child_ids": []
     },
     "medical-value-chain/medical-devices-equipment/medical-equipment-servicing-inspection-maintenance-medizintechnik-service/statutory-safety-metrology-inspections-stk-mtk-per-mpbetreibv/messtechnische-kontrolle-mtk-of-anlage-2-measuring-devices": {
@@ -9569,8 +10211,8 @@
       },
       "composite": 100.0,
       "dach_signals": {
-        "est_players": "several hundred firms",
-        "revenue_band_eur": "EUR 0.2-2m typical",
+        "est_players": "several hundred firms (confirmed; overlaps STK providers)",
+        "revenue_band_eur": "EUR 0.2-2m typical (confirmed)",
         "example_companies": [
           "Distler Medizintechnik",
           "bau-medizintechnik",
@@ -9592,10 +10234,26 @@
           "title": "Messtechnische Kontrollen (MTK) §14 MPBetreibV, Bezirksregierung Detmold",
           "url": "https://www.bezreg-detmold.nrw.de/wir-ueber-uns/organisationsstruktur/abteilung-2/dezernat-24/arzneimittel-und-medizinprodukte-35",
           "note": "authority reference confirming MTK legal basis"
+        },
+        {
+          "title": "KS Medizintechnik: MTK-Pruefung (Section 15 MPBetreibV)",
+          "url": "https://www.ksmedizintechnik.de/info-service/technischer-kundendienst/mtk-pruefung-medizinischer-geraete-mpbetreibv/",
+          "note": "MTK scope & recurring statutory basis; representative provider"
+        },
+        {
+          "title": "ComService: MTK+STK jetzt auch bei ComService",
+          "url": "https://comservice-ffo.de/mtk-stk-messtechnische-und-sicherheitstechnische-kontrolle-bei-comservice/",
+          "note": "Owner-operated regional STK/MTK provider (fragmentation evidence)"
         }
       ],
       "confidence": 4,
-      "status": "grounded",
+      "status": "verified",
+      "why_now": "MTK per MPBetreibV/MessEG imposes mandatory recurring metrological control on Anlage-2 measuring devices, giving predictable calibration-cycle revenue on a fragmented technician base ripe for consolidation as clinics/practices outsource compliance.",
+      "pe_activity": [
+        "No dominant financial consolidator yet - MTK is delivered by the same owner-operated Medizintechnik-service and calibration firms as STK (EBA AG, ComService, KS Medizintechnik, Struck)",
+        "Adjacent: metrology/calibration and electrical-testing consolidators (OMS/3i model) not yet extended into medical MTK",
+        "Signal: owner-operated, virgin niche"
+      ],
       "child_ids": []
     },
     "medical-value-chain/medical-devices-equipment/medical-equipment-servicing-inspection-maintenance-medizintechnik-service/statutory-safety-metrology-inspections-stk-mtk-per-mpbetreibv/electrical-safety-inspection-under-dguv-vorschrift-3": {
@@ -9624,8 +10282,8 @@
       },
       "composite": 100.0,
       "dach_signals": {
-        "est_players": "several hundred firms (shared with general E-check market)",
-        "revenue_band_eur": "EUR 0.3-3m typical",
+        "est_players": "several hundred firms (shared with general E-check market; confirmed)",
+        "revenue_band_eur": "EUR 0.3-3m typical (confirmed)",
         "example_companies": [
           "GHG Hamburg",
           "ITB7",
@@ -9647,10 +10305,26 @@
           "title": "Prüfungen Medizinprodukte nach DGUV V3, Prüfservice KFK",
           "url": "https://www.pruefservice-kfk.de/dienstleistungen-pruefungen/elektropruefungen/pruefungen-medizinprodukte-nach-dguv-v3/",
           "note": "example DGUV V3 electrical-testing provider"
+        },
+        {
+          "title": "3i Group portfolio: OMS Pruefservice",
+          "url": "https://www.3i.com/private-equity/our-portfolio/oms-pruefservice/",
+          "note": "PE ownership + DACH leadership in DGUV V3 electrical testing"
+        },
+        {
+          "title": "PE Hub: 3i invests in OMS Pruefservice",
+          "url": "https://www.pehub.com/3i-invests-in-oms-prufservice/",
+          "note": "Deal confirmation and buy-and-build rationale"
         }
       ],
-      "confidence": 4,
-      "status": "grounded",
+      "confidence": 5,
+      "status": "verified",
+      "why_now": "Identical thesis to the electro-medical safety niche: DGUV V3 is a mandatory, recurring statutory inspection producing plannable annuity revenue, and the 3i/OMS deal has already validated a tech-enabled DACH roll-up in exactly this market.",
+      "pe_activity": [
+        "OMS Pruefservice (backed by 3i Group, majority 2025) - clear DACH consolidator/market leader in DGUV V3 electrical testing (43 sites, 900+ staff)",
+        "ESG Gesellschaft, Piepenbrock Prueftechnik, E+Service+Check GmbH - multi-site independents / potential add-ons",
+        "This niche is ALREADY being actively rolled up (least virgin of the medtech-service set)"
+      ],
       "child_ids": []
     },
     "medical-value-chain/medical-devices-equipment/medical-equipment-servicing-inspection-maintenance-medizintechnik-service/statutory-safety-metrology-inspections-stk-mtk-per-mpbetreibv/radiology-constancy-expert-testing-konstanz-sachverstandigenprufung": {
@@ -9713,6 +10387,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/medical-devices-equipment/medical-equipment-servicing-inspection-maintenance-medizintechnik-service/calibration-metrology-of-medical-equipment-dakks-iso-17025/dakks-accredited-medical-measuring-device-calibration-labs": {
@@ -9769,6 +10445,8 @@
       ],
       "confidence": 3,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/medical-devices-equipment/medical-equipment-servicing-inspection-maintenance-medizintechnik-service/calibration-metrology-of-medical-equipment-dakks-iso-17025/in-vitro-pipette-calibration-services": {
@@ -9824,6 +10502,8 @@
       ],
       "confidence": 3,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/medical-devices-equipment/medical-equipment-servicing-inspection-maintenance-medizintechnik-service/calibration-metrology-of-medical-equipment-dakks-iso-17025/temperature-cold-chain-qualification-mapping-gxp": {
@@ -9881,6 +10561,8 @@
       ],
       "confidence": 3,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/distribution-medical-retail/medical-supply-stores-homecare-sanitatshauser-hilfsmittel/ambulatory-homecare-provisioning-wound-stoma-incontinence-enteral-respiratory/chronic-wound-care-re-supply-moderne-wundversorgung": {
@@ -9936,6 +10618,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/distribution-medical-retail/medical-supply-stores-homecare-sanitatshauser-hilfsmittel/ambulatory-homecare-provisioning-wound-stoma-incontinence-enteral-respiratory/stoma-care-re-supply-stomaversorgung": {
@@ -9991,6 +10675,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/distribution-medical-retail/medical-supply-stores-homecare-sanitatshauser-hilfsmittel/ambulatory-homecare-provisioning-wound-stoma-incontinence-enteral-respiratory/continence-incontinence-re-supply-aufsaugend-ableitend": {
@@ -10046,6 +10732,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/distribution-medical-retail/medical-supply-stores-homecare-sanitatshauser-hilfsmittel/ambulatory-homecare-provisioning-wound-stoma-incontinence-enteral-respiratory/enteral-parenteral-nutrition-homecare-ernaehrungstherapie": {
@@ -10101,6 +10789,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/distribution-medical-retail/medical-supply-stores-homecare-sanitatshauser-hilfsmittel/ambulatory-homecare-provisioning-wound-stoma-incontinence-enteral-respiratory/respiratory-oxygen-home-ventilation-sauerstoff-beatmung": {
@@ -10156,6 +10846,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/distribution-medical-retail/medical-supply-stores-homecare-sanitatshauser-hilfsmittel/ambulatory-homecare-provisioning-wound-stoma-incontinence-enteral-respiratory/tracheostomy-care-re-supply-tracheostomaversorgung": {
@@ -10211,6 +10903,8 @@
       ],
       "confidence": 3,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/distribution-medical-retail/medical-supply-stores-homecare-sanitatshauser-hilfsmittel/ambulatory-homecare-provisioning-wound-stoma-incontinence-enteral-respiratory/diabetes-supply-re-supply-diabetesbedarf-cgm": {
@@ -10266,6 +10960,8 @@
       ],
       "confidence": 3,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/distribution-medical-retail/medical-supply-stores-homecare-sanitatshauser-hilfsmittel/sanitatshaus-retail-custom-aids/compression-therapy-bandagen-kompressionsversorgung": {
@@ -10321,6 +11017,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/distribution-medical-retail/medical-supply-stores-homecare-sanitatshauser-hilfsmittel/sanitatshaus-retail-custom-aids/rehatechnik-equipment-rental-rollstuehle-pflegebetten-wiedereinsatz": {
@@ -10376,6 +11074,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/distribution-medical-retail/medical-supply-stores-homecare-sanitatshauser-hilfsmittel/sanitatshaus-retail-custom-aids/breast-prosthetics-mastectomy-care-brustprothetik-brustversorgung": {
@@ -10431,6 +11131,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/distribution-medical-retail/medical-supply-stores-homecare-sanitatshauser-hilfsmittel/sanitatshaus-retail-custom-aids/custom-seating-children-s-aids-reha-kinderversorgung-sitzschalen": {
@@ -10486,6 +11188,8 @@
       ],
       "confidence": 3,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/distribution-medical-retail/medical-supply-stores-homecare-sanitatshauser-hilfsmittel/sanitatshaus-retail-custom-aids/medical-footwear-inserts-insoles-einlagen-schuhzurichtung": {
@@ -10541,6 +11245,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/distribution-medical-retail/orthopaedic-technology-shoe-making-orthopadietechnik-schuhtechnik/orthopaedic-technology-prostheses-orthoses/lower-limb-prosthetics-beinprothetik": {
@@ -10596,6 +11302,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/distribution-medical-retail/orthopaedic-technology-shoe-making-orthopadietechnik-schuhtechnik/orthopaedic-technology-prostheses-orthoses/upper-limb-prosthetics-armprothetik": {
@@ -10651,6 +11359,8 @@
       ],
       "confidence": 3,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/distribution-medical-retail/orthopaedic-technology-shoe-making-orthopadietechnik-schuhtechnik/orthopaedic-technology-prostheses-orthoses/orthotics-bracing-orthetik-orthesen": {
@@ -10706,6 +11416,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/distribution-medical-retail/orthopaedic-technology-shoe-making-orthopadietechnik-schuhtechnik/orthopaedic-technology-prostheses-orthoses/cranial-remoulding-paediatric-ot-kopforthesen-kinderorthopadie": {
@@ -10761,6 +11473,8 @@
       ],
       "confidence": 3,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/distribution-medical-retail/orthopaedic-technology-shoe-making-orthopadietechnik-schuhtechnik/orthopaedic-technology-prostheses-orthoses/myoelectric-high-tech-prosthetics-bionik-myoelektrik": {
@@ -10816,6 +11530,8 @@
       ],
       "confidence": 3,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/care-delivery-providers/outpatient-mobile-nursing-services-ambulante-pflegedienste/sgb-xi-basic-care-grundpflege-pflegesachleistung": {
@@ -10870,6 +11586,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/care-delivery-providers/outpatient-mobile-nursing-services-ambulante-pflegedienste/sgb-v-medical-home-care-behandlungspflege-hausliche-krankenpflege": {
@@ -10897,8 +11615,8 @@
       },
       "composite": 100.0,
       "dach_signals": {
-        "est_players": ">14,000 services (96% of ambulant firms also bill SGB V)",
-        "revenue_band_eur": "EUR 0.5-5m typical; wound-specialist units higher margin",
+        "est_players": "~17,938 ambulante Pflegedienste in Germany (2025, pflegemarkt.com); the large majority also bill SGB V häusliche Krankenpflege",
+        "revenue_band_eur": "EUR 0.5-5m typical per service; specialised wound-management units carry higher margins",
         "example_companies": [
           "advita Pflegedienst",
           "Johanniter Pflegedienste",
@@ -10920,10 +11638,31 @@
           "title": "Pflegestatistik 2023 - Wawrik Pflege Consulting",
           "url": "https://wawrik-pflege-consulting.de/ambulante-pflegedienste-in-deutschland-zahlen-und-entwicklungen-2023/",
           "note": "2023 counts of ambulant services"
+        },
+        {
+          "title": "Anzahl und Statistik ambulante Pflegedienste 2025",
+          "url": "https://www.pflegemarkt.com/fachartikel/marktanalyse-zahlen-daten-fakten-analyse-ambulant-2019/",
+          "note": "17,938 outpatient services / 2.3m patients (2025)"
+        },
+        {
+          "title": "Medical Wundmanagement - IK Partners investment",
+          "url": "https://ikpartners.com/investments/medical-wundmanagement/",
+          "note": "PE-backed wound-care pure-play consolidator"
+        },
+        {
+          "title": "M&A-Transaktionen in der Pflege Q1 2022",
+          "url": "https://www.pflegemarkt.com/fachartikel/analyse-ma-q1-2022-pflege-deals/",
+          "note": "~68% of care M&A PE-driven"
         }
       ],
       "confidence": 4,
-      "status": "grounded",
+      "status": "verified",
+      "why_now": "Nachfolge/succession wave among owner-operated Pflegedienste plus acute staff shortage is pushing sellers to platforms; specialised chronic-wound care (Wundversorgung) is the high-margin, structured-reimbursement sub-segment where PE is now building dedicated pure-plays.",
+      "pe_activity": [
+        "Medical Wundmanagement GmbH (chronic wound-care pure-play, backed by IK Partners) - the clearest financial consolidator in the SGB V wound niche",
+        "Broad ambulant-care PE platforms also bill SGB V Behandlungspflege: Deutsche Fachpflege/Bonitas (Advent International), advita (DomusVi), Korian Deutschland",
+        "General note: ~68% of German care-sector M&A in Q1 2022 was PE-driven, but the plain Behandlungspflege long tail (17,938 services) is still highly fragmented"
+      ],
       "child_ids": []
     },
     "medical-value-chain/care-delivery-providers/outpatient-mobile-nursing-services-ambulante-pflegedienste/specialised-palliative-home-care-sapv": {
@@ -10978,6 +11717,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/care-delivery-providers/outpatient-mobile-nursing-services-ambulante-pflegedienste/day-care-tagespflege-teilstationar": {
@@ -11032,6 +11773,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/care-delivery-providers/outpatient-mobile-nursing-services-ambulante-pflegedienste/dementia-everyday-support-services-betreuungsdienste-45a": {
@@ -11086,6 +11829,8 @@
       ],
       "confidence": 3,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/care-delivery-providers/outpatient-mobile-nursing-services-ambulante-pflegedienste/respite-substitute-care-verhinderungspflege-household-support": {
@@ -11140,6 +11885,8 @@
       ],
       "confidence": 3,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/care-delivery-providers/outpatient-mobile-nursing-services-ambulante-pflegedienste/outpatient-intensive-care-ausserklinische-intensivpflege/ventilation-shared-living-groups-beatmungs-wg-wohngemeinschaften": {
@@ -11197,6 +11944,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/care-delivery-providers/outpatient-mobile-nursing-services-ambulante-pflegedienste/outpatient-intensive-care-ausserklinische-intensivpflege/1-1-individual-home-ventilation-einzelversorgung": {
@@ -11225,8 +11974,8 @@
       },
       "composite": 100.0,
       "dach_signals": {
-        "est_players": "Hundreds of intensive Pflegedienste offering Einzelversorgung",
-        "revenue_band_eur": "EUR 20-30k+ per patient/month",
+        "est_players": "Hundreds of intensive Pflegedienste offer 1:1 Einzelversorgung, but >50% of ventilated patients are served by the 15 largest providers (consolidation well advanced)",
+        "revenue_band_eur": "EUR 20-30k+ per ventilated patient per month",
         "example_companies": [
           "GIP Intensivpflege",
           "Deutsche Fachpflege",
@@ -11250,10 +11999,33 @@
           "title": "Intensivpflege - Kosten & Anspruch - sanubi.de",
           "url": "https://sanubi.de/haeusliche-pflege/pflegeleistungen/intensivpflege/",
           "note": "per-patient monthly cost bands for home ventilation"
+        },
+        {
+          "title": "Deutsche Fachpflege Gruppe und Bonitas bilden Verbund (Advent)",
+          "url": "https://www.pflegemarkt.com/2019/02/21/deutsche-fachpflege-gruppe-und-bonitas-holding-bilden-gemeinsamen-verbund/",
+          "note": "Advent-backed market leader"
+        },
+        {
+          "title": "Die 15 groessten Pflegedienste fuer ausserklinische Intensivpflege 2023",
+          "url": "https://www.pflegemarkt.com/fachartikel/liste-der-15-groessten-betreiber-ausserklinische-intensivpflege-2023/",
+          "note": "Top-15 concentration; provider rankings"
+        },
+        {
+          "title": "Ausserklinische Intensivpflege im Fokus der Investoren (CareInvest)",
+          "url": "https://www.careinvest-online.net/wp-content/uploads/sites/5/2023/01/CI_02_2019_pflegemarkt_investoren.pdf",
+          "note": "~EUR 800m transaction volume 2018; investor focus"
         }
       ],
-      "confidence": 4,
-      "status": "grounded",
+      "confidence": 5,
+      "status": "verified",
+      "why_now": "IPReG / GKV-IPReG (2020, phased into force from ~2023) tightened quality, MDK oversight and reimbursement rules for intensive home ventilation, raising compliance scale needs and accelerating consolidation; the top 15 providers already serve >50% of patients. One of the most PE-penetrated niches in German care.",
+      "pe_activity": [
+        "Deutsche Fachpflege Gruppe + Bonitas combined group (backed by Advent International) - market leader in ausserklinische Intensivpflege",
+        "Linimed Gruppe (originally acquired by GHO Capital 2018; grew via Alpha Care)",
+        "GIP - Gesellschaft fuer medizinische Intensivpflege (one of the highest-revenue intensive players)",
+        "Korian Deutschland (acquired Intensivpflegedienst Lebenswert)",
+        "advita (owned by DomusVi since 2021)"
+      ],
       "child_ids": []
     },
     "medical-value-chain/care-delivery-providers/outpatient-mobile-nursing-services-ambulante-pflegedienste/outpatient-intensive-care-ausserklinische-intensivpflege/paediatric-intensive-home-care-kinderintensivpflege": {
@@ -11311,6 +12083,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/care-delivery-providers/outpatient-mobile-nursing-services-ambulante-pflegedienste/outpatient-intensive-care-ausserklinische-intensivpflege/ventilator-weaning-beatmungsentwohnung-weaning": {
@@ -11367,6 +12141,8 @@
       ],
       "confidence": 3,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/care-delivery-providers/non-physician-outpatient-therapy-heilmittelerbringer-physio-ergo-logo/physiotherapy-practices-physiotherapie-krankengymnastik": {
@@ -11427,6 +12203,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/care-delivery-providers/non-physician-outpatient-therapy-heilmittelerbringer-physio-ergo-logo/occupational-therapy-practices-ergotherapie": {
@@ -11480,6 +12258,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/care-delivery-providers/non-physician-outpatient-therapy-heilmittelerbringer-physio-ergo-logo/speech-therapy-practices-logopaedie-sprachtherapie": {
@@ -11533,6 +12313,8 @@
       ],
       "confidence": 3,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/care-delivery-providers/non-physician-outpatient-therapy-heilmittelerbringer-physio-ergo-logo/podology-medical-foot-care-podologie": {
@@ -11560,7 +12342,7 @@
       },
       "composite": 100.0,
       "dach_signals": {
-        "est_players": "several thousand medical Podologie practices (large non-medical Fusspflege long tail)",
+        "est_players": "~3,504 podology practices in Germany (June 2026, listflix.de / Statista beschaeftigte Podologen); large non-medical Fusspflege long tail on top",
         "revenue_band_eur": "EUR 0.1-0.5m typical per practice",
         "example_companies": [
           "single-site Podologie/Fusspflege praxis operators"
@@ -11582,10 +12364,31 @@
           "title": "Podologie beim diabetischen Fusssyndrom - DAK",
           "url": "https://www.dak.de/dak/leistungen/heilmittel/podologie-beim-diabetischen-fusssyndrom_10736",
           "note": "GKV reimbursement of recurring DFS foot care"
+        },
+        {
+          "title": "Podologiepraxen in Deutschland - Statistik Juni 2026",
+          "url": "https://listflix.de/statistik/podologiepraxen/",
+          "note": "3,504 practices; 96.4% micro-businesses"
+        },
+        {
+          "title": "Anzahl der beschaeftigten Podologen in Deutschland bis 2024 (Statista)",
+          "url": "https://de.statista.com/statistik/daten/studie/520473/umfrage/anzahl-der-beschaeftigten-podologen-in-deutschland/",
+          "note": "Podologist headcount corroboration"
+        },
+        {
+          "title": "Wirtschaftlichkeitsanalyse ambulanter Therapiepraxen (BV Podologie)",
+          "url": "https://www.bv-fuer-podologie.de/presse.html?file=files/Podo/Service/Presse/200805+WAT+Bericht_Podologie.pdf",
+          "note": "Verband economics of podology practices"
         }
       ],
       "confidence": 3,
-      "status": "grounded",
+      "status": "verified",
+      "why_now": "Rising diabetes prevalence (diabetic-foot syndrome, DiFuss reimbursement) plus a heavily fragmented, ageing owner base creates a Nachfolge-driven roll-up thesis - but the niche is still essentially virgin, with no dedicated financial consolidator yet identified.",
+      "pe_activity": [
+        "No dedicated podology consolidator / PE-backed platform identified via search - the niche is structurally still virgin",
+        "~96% of podology practices are Kleinstunternehmen / freelancers; PE roll-up attention in adjacent Heilmittel has focused on physiotherapy and dental, not podology",
+        "Possible future entry via diabetic-foot-care angle, but nothing operating at scale today"
+      ],
       "child_ids": []
     },
     "medical-value-chain/care-delivery-providers/non-physician-outpatient-therapy-heilmittelerbringer-physio-ergo-logo/nutrition-therapy-ernaehrungstherapie": {
@@ -11633,6 +12436,8 @@
       ],
       "confidence": 3,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/care-delivery-providers/inpatient-long-term-elderly-care-stationaere-pflege-pflegeheime/full-inpatient-nursing-homes-vollstationaere-dauerpflege": {
@@ -11695,6 +12500,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/care-delivery-providers/inpatient-long-term-elderly-care-stationaere-pflege-pflegeheime/short-term-care-kurzzeitpflege": {
@@ -11748,6 +12555,8 @@
       ],
       "confidence": 3,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/care-delivery-providers/inpatient-long-term-elderly-care-stationaere-pflege-pflegeheime/day-care-tagespflege-teilstationaer": {
@@ -11802,6 +12611,8 @@
       ],
       "confidence": 3,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/care-delivery-providers/inpatient-long-term-elderly-care-stationaere-pflege-pflegeheime/dementia-specialised-homes-care-wgs-demenzpflege": {
@@ -11829,7 +12640,7 @@
       },
       "composite": 100.0,
       "dach_signals": {
-        "est_players": "~1,193 Demenz-WGs; ~4,781 Pflege-WGs (~47,771 places) plus specialised home units",
+        "est_players": "~4,781 Pflege-Wohngemeinschaften with ~47,771 places; ~33% of WG sites focus on dementia (~1,193 dedicated Demenz-WGs) plus specialised units inside homes; ~60% of dementia WGs run by private operators",
         "revenue_band_eur": "EUR 0.5-5m per unit/home",
         "example_companies": [
           "specialised units within Alloheim / Compassio",
@@ -11853,10 +12664,21 @@
           "title": "Anzahl und Statistik der Demenzpflege in Deutschland - pflegemarkt.com",
           "url": "https://www.pflegemarkt.com/fachartikel/anzahl-und-statistik-demenzpflege/",
           "note": "~1,193 Demenz-WGs and dementia care structure"
+        },
+        {
+          "title": "Ranking der Pflegeheimbetreiber: Konsolidierung setzt sich fort",
+          "url": "https://www.altenheim.net/ranking-der-pflegeheimbetreiber-konsolidierung-setzt-sich-fort/",
+          "note": "Top-15 platforms ~25% share; ongoing consolidation"
         }
       ],
-      "confidence": 3,
-      "status": "grounded",
+      "confidence": 4,
+      "status": "verified",
+      "why_now": "Demographic surge in dementia cases plus the shift toward small-scale ambulant-betreute Wohngemeinschaften (favoured by Landes-WTG regulation) drives demand; consolidation is real but runs mostly through the broader stationaere-Pflege roll-up rather than a dementia-specific platform.",
+      "pe_activity": [
+        "No pure dementia-only consolidator; dementia units are folded into general Pflegeheim/WG platforms",
+        "Broad stationary-care consolidators (e.g. Korian, Alloheim, Orpea/emeis, DomusVi, Cosiq/Convivo-type groups) run dementia-specialised units within larger portfolios",
+        "Top 15 stationary-care platforms hold ~25% market share; mid-market WG operators increasingly consolidated"
+      ],
       "child_ids": []
     },
     "medical-value-chain/care-delivery-providers/inpatient-long-term-elderly-care-stationaere-pflege-pflegeheime/assisted-living-operators-betreutes-wohnen-servicewohnen": {
@@ -11911,6 +12733,8 @@
       ],
       "confidence": 3,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/care-delivery-providers/outpatient-physician-roll-ups-via-mvz/dental-chains-z-mvz-dso-zahnarztketten/dental-platform-dso-roll-ups-z-mvz-ketten": {
@@ -11974,6 +12798,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/care-delivery-providers/outpatient-physician-roll-ups-via-mvz/dental-chains-z-mvz-dso-zahnarztketten/orthodontics-chains-kfo-kieferorthopaedie": {
@@ -12030,6 +12856,8 @@
       ],
       "confidence": 3,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/care-delivery-providers/outpatient-physician-roll-ups-via-mvz/dental-chains-z-mvz-dso-zahnarztketten/oral-surgery-implantology-groups-oralchirurgie-implantologie": {
@@ -12085,6 +12913,8 @@
       ],
       "confidence": 3,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/care-delivery-providers/outpatient-physician-roll-ups-via-mvz/dental-chains-z-mvz-dso-zahnarztketten/dental-lab-integrated-groups-dentallabor-integriert": {
@@ -12139,6 +12969,8 @@
       ],
       "confidence": 3,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/care-delivery-providers/outpatient-physician-roll-ups-via-mvz/ophthalmology-augenheilkunde-mvz/cataract-refractive-surgery-groups-katarakt-refraktive-chirurgie": {
@@ -12195,6 +13027,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/care-delivery-providers/outpatient-physician-roll-ups-via-mvz/ophthalmology-augenheilkunde-mvz/ivom-injection-clinics-intravitreale-operative-medikamenteneingabe": {
@@ -12252,6 +13086,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/care-delivery-providers/outpatient-physician-roll-ups-via-mvz/ophthalmology-augenheilkunde-mvz/general-ophthalmology-mvz-platforms-allgemeine-augen-mvz": {
@@ -12309,6 +13145,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/healthcare-services-outsourcing/hospital-medical-textile-laundry-services-textilservice/healthcare-flat-linen-rental-textile-service-mietwasche": {
@@ -12369,6 +13207,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/healthcare-services-outsourcing/hospital-medical-textile-laundry-services-textilservice/surgical-or-textile-sterile-drape-rental": {
@@ -12424,6 +13264,8 @@
       ],
       "confidence": 3,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/healthcare-services-outsourcing/hospital-medical-textile-laundry-services-textilservice/workwear-ppe-rental-decontamination-mietberufskleidung": {
@@ -12485,6 +13327,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/healthcare-services-outsourcing/hospital-medical-textile-laundry-services-textilservice/care-home-residential-laundry-resident-textile-service-bewohnerwasche": {
@@ -12546,6 +13390,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/healthcare-services-outsourcing/non-emergency-patient-transport-krankenfahrten-krankentransport/seated-medical-taxi-krankenfahrten-60-sgb-v": {
@@ -12605,6 +13451,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/healthcare-services-outsourcing/non-emergency-patient-transport-krankenfahrten-krankentransport/qualified-patient-transport-ktw-krankentransport": {
@@ -12667,6 +13515,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/healthcare-services-outsourcing/non-emergency-patient-transport-krankenfahrten-krankentransport/dialysis-oncology-recurring-transport": {
@@ -12721,6 +13571,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/healthcare-services-outsourcing/non-emergency-patient-transport-krankenfahrten-krankentransport/disabled-passenger-wheelchair-transport-behindertenfahrdienst": {
@@ -12776,6 +13628,8 @@
       ],
       "confidence": 3,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/healthcare-services-outsourcing/healthcare-staffing-zeitarbeit-pflege-aerzte/nursing-temp-staffing-pflege-zeitarbeit": {
@@ -12837,6 +13691,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/healthcare-services-outsourcing/healthcare-staffing-zeitarbeit-pflege-aerzte/physician-locum-honorararzt-vermittlung": {
@@ -12897,6 +13753,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/healthcare-services-outsourcing/healthcare-staffing-zeitarbeit-pflege-aerzte/international-nurse-recruitment-relocation": {
@@ -12951,6 +13809,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/healthcare-services-outsourcing/healthcare-staffing-zeitarbeit-pflege-aerzte/allied-health-therapist-staffing-mta-ota-therapie": {
@@ -13004,6 +13864,8 @@
       ],
       "confidence": 3,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/healthcare-services-outsourcing/sterile-reprocessing-aemp-zsva-outsourcing/outsourced-hospital-cssd-aemp-operation": {
@@ -13064,6 +13926,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/healthcare-services-outsourcing/sterile-reprocessing-aemp-zsva-outsourcing/dental-practice-instrument-reprocessing": {
@@ -13124,6 +13988,8 @@
       ],
       "confidence": 3,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/healthcare-services-outsourcing/sterile-reprocessing-aemp-zsva-outsourcing/flexible-endoscope-reprocessing": {
@@ -13179,6 +14045,8 @@
       ],
       "confidence": 3,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/healthcare-services-outsourcing/sterile-reprocessing-aemp-zsva-outsourcing/loan-set-consignment-instrument-reprocessing-leihsiebe": {
@@ -13233,6 +14101,8 @@
       ],
       "confidence": 3,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/diagnostics-laboratory/pathologie-histologie/ambulant-pathology-mvz-roll-ups": {
@@ -13288,6 +14158,8 @@
       ],
       "confidence": 3,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/diagnostics-laboratory/pathologie-histologie/dermatopathology-labs": {
@@ -13342,6 +14214,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/diagnostics-laboratory/pathologie-histologie/molecular-companion-diagnostics-labs": {
@@ -13397,6 +14271,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/diagnostics-laboratory/pathologie-histologie/digital-pathology-scanning-services": {
@@ -13451,6 +14327,8 @@
       ],
       "confidence": 3,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/diagnostics-laboratory/radiologie-bildgebung-imaging-centres/ambulant-radiology-mvz-platforms": {
@@ -13506,6 +14384,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/diagnostics-laboratory/radiologie-bildgebung-imaging-centres/teleradiology-night-overflow-reading": {
@@ -13560,6 +14440,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/diagnostics-laboratory/radiologie-bildgebung-imaging-centres/mammography-screening-units": {
@@ -13615,6 +14497,8 @@
       ],
       "confidence": 5,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/diagnostics-laboratory/radiologie-bildgebung-imaging-centres/nuclear-medicine-pet-ct": {
@@ -13670,6 +14554,8 @@
       ],
       "confidence": 3,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/diagnostics-laboratory/radiologie-bildgebung-imaging-centres/cardiac-imaging-kardio-ct-cmr": {
@@ -13725,6 +14611,8 @@
       ],
       "confidence": 3,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/digital-health-health-it/ambulatory-practice-management-systems-pvs-ais/gp-general-pvs-primaersysteme": {
@@ -13780,6 +14668,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/digital-health-health-it/ambulatory-practice-management-systems-pvs-ais/specialty-specific-ais": {
@@ -13834,6 +14724,8 @@
       ],
       "confidence": 3,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/digital-health-health-it/ambulatory-practice-management-systems-pvs-ais/dental-practice-software-pvs-zahnarzt": {
@@ -13889,6 +14781,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/digital-health-health-it/ambulatory-practice-management-systems-pvs-ais/cloud-browser-native-pvs-challengers": {
@@ -13945,6 +14839,8 @@
       ],
       "confidence": 3,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/digital-health-health-it/telematikinfrastruktur-ti-gematik-ecosystem/ti-connectors-ti-as-a-service-ti-gateway-rise": {
@@ -13999,6 +14895,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/digital-health-health-it/telematikinfrastruktur-ti-gematik-ecosystem/erezept-infrastructure": {
@@ -14054,6 +14952,8 @@
       ],
       "confidence": 3,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/digital-health-health-it/telematikinfrastruktur-ti-gematik-ecosystem/epa-electronic-patient-record-modules": {
@@ -14109,6 +15009,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/digital-health-health-it/telematikinfrastruktur-ti-gematik-ecosystem/kim-tim-secure-messaging": {
@@ -14164,6 +15066,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/digital-health-health-it/telematikinfrastruktur-ti-gematik-ecosystem/card-ehba-identity-services": {
@@ -14219,6 +15123,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/digital-health-health-it/care-home-nursing-documentation-software-pflegesoftware/stationary-nursing-home-erp-documentation": {
@@ -14274,6 +15180,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/digital-health-health-it/care-home-nursing-documentation-software-pflegesoftware/ambulant-care-software-tour-planning": {
@@ -14329,6 +15237,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/digital-health-health-it/care-home-nursing-documentation-software-pflegesoftware/intensive-care-documentation-pdms": {
@@ -14384,6 +15294,8 @@
       ],
       "confidence": 4,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     },
     "medical-value-chain/digital-health-health-it/care-home-nursing-documentation-software-pflegesoftware/md-quality-billing-modules": {
@@ -14439,6 +15351,8 @@
       ],
       "confidence": 3,
       "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
       "child_ids": []
     }
   }

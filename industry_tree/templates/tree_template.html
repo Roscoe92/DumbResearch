@@ -71,6 +71,8 @@
   .src a:hover{ text-decoration:underline; }
   .src .note{ color:var(--muted); font-size:11px; }
   .comp-pill{ float:right; font-size:12px; font-weight:700; padding:2px 9px; border-radius:10px; color:#fff; }
+  .whynow .v{ background:var(--chip); border-left:3px solid var(--link); padding:8px 10px; border-radius:0 6px 6px 0; }
+  .vbadge{ color:#3f9d58; font-weight:700; }
   .empty{ color:var(--muted); padding:40px 8px; text-align:center; }
   #it-shortlist{ margin-top:18px; border-top:1px solid var(--line); padding-top:12px; }
   #it-shortlist h3{ font-size:12px; text-transform:uppercase; letter-spacing:.04em; color:var(--muted); margin:0 0 8px; }
@@ -244,7 +246,9 @@
     if(sig.regulation&&sig.regulation.length){ html+='<div class="k">Regulation / drivers</div><div class="v">'+sig.regulation.map(function(x){return '<span class="tag">'+esc(x)+'</span>';}).join('')+'</div>'; }
     if(sig.example_companies&&sig.example_companies.length){ html+='<div class="k">Example companies</div><div class="v">'+sig.example_companies.map(function(x){return '<span class="tag">'+esc(x)+'</span>';}).join('')+'</div>'; }
     html+='</div>';
-    if(n.confidence) html+='<div class="sig"><span class="k">Evidence confidence</span> <span class="v">'+n.confidence+'/5</span></div>';
+    if(n.why_now){ html+='<div class="sig whynow"><div class="k">Why now</div><div class="v">'+esc(n.why_now)+'</div></div>'; }
+    if(n.pe_activity&&n.pe_activity.length){ html+='<div class="sig"><div class="k">Consolidation / PE activity</div><div class="v">'+n.pe_activity.map(function(x){return '<span class="tag">'+esc(x)+'</span>';}).join('')+'</div></div>'; }
+    if(n.confidence) html+='<div class="sig"><span class="k">Evidence confidence</span> <span class="v">'+n.confidence+'/5'+(n.status==='verified'?' · <span class="vbadge">✓ verified</span>':'')+'</span></div>';
     if(n.sources&&n.sources.length){
       html+='<div class="sig"><div class="k">Sources</div>';
       n.sources.forEach(function(x){ html+='<div class="src" style="margin:5px 0"><a href="'+esc(x.url)+'" target="_blank" rel="noopener">'+esc(x.title||x.url)+'</a>'+(x.note?'<div class="note">'+esc(x.note)+'</div>':'')+'</div>'; });

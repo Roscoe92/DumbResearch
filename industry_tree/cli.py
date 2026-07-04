@@ -31,10 +31,12 @@ def _default_html(json_path: Path) -> Path:
 
 
 def cmd_render(args) -> int:
+    from .render import render_fragment
     tree = Tree.load(args.tree)
     out = Path(args.out) if args.out else _default_html(Path(args.tree))
-    render_html(tree, out)
-    print(f"rendered {len(tree.nodes)} nodes -> {out}")
+    (render_fragment if args.fragment else render_html)(tree, out)
+    kind = "fragment" if args.fragment else "standalone HTML"
+    print(f"rendered {len(tree.nodes)} nodes ({kind}) -> {out}")
     return 0
 
 
@@ -91,6 +93,7 @@ def main(argv=None) -> int:
     r = sub.add_parser("render", help="tree.json -> interactive HTML")
     r.add_argument("tree")
     r.add_argument("--out")
+    r.add_argument("--fragment", action="store_true", help="emit body fragment only (for hosted embeds)")
     r.set_defaults(func=cmd_render)
 
     a = sub.add_parser("assemble", help="branch_*.json -> tree.json")

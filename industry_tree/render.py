@@ -18,7 +18,7 @@ from .scoring import apply_scores
 _TEMPLATE = Path(__file__).parent / "templates" / "tree_template.html"
 
 
-def render_html(tree: Tree, out_path: str | Path, *, rescore: bool = True) -> Path:
+def _build_body(tree: Tree, *, rescore: bool = True) -> str:
     if rescore:
         apply_scores(tree)
     nested = tree.to_nested()
@@ -33,7 +33,12 @@ def render_html(tree: Tree, out_path: str | Path, *, rescore: bool = True) -> Pa
     # json.dumps is safe inside a <script type="application/json"> block; guard </script>
     tree_json = json.dumps(nested, ensure_ascii=False).replace("</", "<\\/")
     meta_json = json.dumps(meta, ensure_ascii=False).replace("</", "<\\/")
-    body = template.replace("__TREE_JSON__", tree_json).replace("__META_JSON__", meta_json)
+    return template.replace("__TREE_JSON__", tree_json).replace("__META_JSON__", meta_json)
+
+
+def render_html(tree: Tree, out_path: str | Path, *, rescore: bool = True) -> Path:
+    """Write a complete standalone HTML document (opens directly in a browser)."""
+    body = _build_body(tree, rescore=rescore)
     title = f"{tree.root_industry} value chain — {tree.region}"
     html = (
         "<!doctype html>\n<html lang=\"en\">\n<head>\n"
@@ -46,4 +51,16 @@ def render_html(tree: Tree, out_path: str | Path, *, rescore: bool = True) -> Pa
     out_path = Path(out_path)
     out_path.parent.mkdir(parents=True, exist_ok=True)
     out_path.write_text(html)
+    return out_path
+
+
+def render_fragment(tree: Tree, out_path: str | Path, *, rescore: bool = True) -> Path:
+    """Write the body fragment only (no <!doctype>/<html>/<head>/<body>).
+
+    For hosts that supply their own page wrapper (e.g. the Artifact publisher).
+    """
+    body = _build_body(tree, rescore=rescore)
+    out_path = Path(out_path)
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+    out_path.write_text(body)
     return out_path

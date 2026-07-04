@@ -121,6 +121,47 @@ def apply_deepen_files(tree: Tree, paths: list[str | Path]) -> int:
     return total
 
 
+def apply_enrich_files(tree: Tree, paths: list[str | Path]) -> int:
+    """Merge verification/enrichment blobs into existing nodes (no new children).
+
+    Blob shape: {"target_path":[...], "why_now":str, "pe_activity":[str],
+                 "est_players":str?, "revenue_band_eur":str?, "confidence":int?,
+                 "sources":[{title,url,note}]?}
+    Updates in place, appends new sources (dedup by url), marks status="verified".
+    Returns the number of nodes enriched.
+    """
+    n = 0
+    for p in paths:
+        p = Path(p)
+        if not p.exists():
+            continue
+        blob = json.loads(p.read_text())
+        for b in (blob if isinstance(blob, list) else [blob]):
+            tid = find_by_path(tree, b.get("target_path") or [])
+            if not tid:
+                continue
+            node = tree.nodes[tid]
+            if b.get("why_now"):
+                node.why_now = str(b["why_now"])
+            if b.get("pe_activity"):
+                node.pe_activity = list(b["pe_activity"])
+            if b.get("est_players"):
+                node.dach_signals.est_players = str(b["est_players"])
+            if b.get("revenue_band_eur"):
+                node.dach_signals.revenue_band_eur = str(b["revenue_band_eur"])
+            if b.get("confidence"):
+                node.confidence = _i(b["confidence"])
+            have = {s.url for s in node.sources}
+            for s in (b.get("sources") or []):
+                if s.get("url") and s["url"] not in have:
+                    node.sources.append(Source(title=str(s.get("title") or ""),
+                                               url=str(s["url"]), note=str(s.get("note") or "")))
+                    have.add(s["url"])
+            node.status = "verified"
+            n += 1
+    return n
+
+
 def load_branch_files(paths: list[str | Path]) -> list[dict]:
     out = []
     for p in paths:

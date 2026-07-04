@@ -81,7 +81,9 @@ class Node:
     dach_signals: DachSignals = field(default_factory=DachSignals)
     sources: list[Source] = field(default_factory=list)
     confidence: int = 0                                 # 1-5 evidence confidence
-    status: str = "stub"                                # "stub" | "grounded"
+    status: str = "stub"                                # "stub" | "grounded" | "verified"
+    why_now: str = ""                                   # verification: catalyst / timing thesis
+    pe_activity: list[str] = field(default_factory=list) # verification: known consolidators / PE platforms
     child_ids: list[str] = field(default_factory=list)
 
     # ---- serialization ----------------------------------------------------
