@@ -127,18 +127,18 @@
         "recurring": 5,
         "fragmentation": 5,
         "compliance": 4,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 5,
+        "margin": 4,
+        "growth": 3,
+        "headroom": 2,
+        "reimbursement_risk": 2
       },
       "rationale": {
         "recurring": "Commission books renew annually as Bestandsprovision; SME accounts are sticky multi-line relationships rewon by inertia not tender.",
         "fragmentation": "46,885 §34d Abs.1 brokers in Germany (Oct 2025), mostly single-office owner firms with no dominant consolidator at the SME layer.",
         "compliance": "§34d GewO licence + IDD 15h/yr CPD are mandatory to operate but are broker-side obligations rather than the client's buying driver."
       },
-      "composite": 91.7,
+      "composite": 78.3,
       "dach_signals": {
         "est_players": "~46,900 §34d Abs.1 Versicherungsmakler in DE (Oct 2025); most serve SME/Gewerbe",
         "revenue_band_eur": "EUR 0.3-3m typical owner firm",
@@ -168,14 +168,24 @@
           "title": "IDD-Weiterbildungspflicht (Haufe Akademie)",
           "url": "https://www.haufe-akademie.de/digital-suite/blog/lms-idd-weiterbildungspflicht",
           "note": "Mandatory 15h/yr CPD under VersVermV, fines up to EUR 25,000"
+        },
+        {
+          "title": "Maklerkonsolidierung in Deutschland: Entwicklungen und Perspektiven",
+          "url": "https://www.versicherungsbote.de/id/4939604/Maklerkonsolidierung-in-Deutschland-Entwicklungen-und-Perspektiven/",
+          "note": "~46,000 brokers; experts expect only 5,000-10,000 firms in 5-10 yrs; PE-driven consolidation"
+        },
+        {
+          "title": "Grossinvestoren sponsern Aufkaeufer am deutschen Maklermarkt - DAS INVESTMENT",
+          "url": "https://www.dasinvestment.com/von-rauchhaupt-und-senftleben-ggw-group-mrh-trowe-summitas/",
+          "note": "GGW (HG Capital/Permira), MRH Trowe (AnaCap/TA), Summitas racing to consolidate SME/commercial brokers"
         }
       ],
-      "confidence": 4,
-      "status": "grounded",
+      "confidence": 5,
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Independent §34d Versicherungsmakler firms are freely acquirable; permission transfers with the entity, no Fremdbesitzverbot.",
       "actionable": {},
       "child_ids": []
     },
@@ -195,18 +205,18 @@
         "recurring": 5,
         "fragmentation": 3,
         "compliance": 4,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 4,
+        "margin": 4,
+        "growth": 3,
+        "headroom": 2,
+        "reimbursement_risk": 2
       },
       "rationale": {
         "recurring": "Corporate programme mandates renew annually on brokerage/fee; long-tenure relationships and fee-based advisory add stickiness.",
         "fragmentation": "Consolidating fast - ~85 industrial brokers projected to fall to ~25 within five years per MRH Trowe; still regional mid-caps plus a long tail.",
         "compliance": "§34d licence plus rising IDD/governance demands; regulation is table-stakes rather than the client's core buying driver."
       },
-      "composite": 75.0,
+      "composite": 65.8,
       "dach_signals": {
         "est_players": "~85 industrial brokers in DE, projected ~25 in 5 yrs (consolidation)",
         "revenue_band_eur": "EUR 5m to 300m+ (Ecclesia ~EUR 327m, Aon DE ~EUR 294m revenue)",
@@ -238,14 +248,19 @@
           "title": "Großinvestoren am Maklermarkt - GGW, MRH Trowe, Summitas (DAS INVESTMENT)",
           "url": "https://www.dasinvestment.com/von-rauchhaupt-und-senftleben-ggw-group-mrh-trowe-summitas/",
           "note": "PE-sponsored aggregators; four of top-10 industrial brokers are consolidators"
+        },
+        {
+          "title": "Uebernahmerallye bei Maklern: Wie geht es nach 2025 weiter? - AssCompact",
+          "url": "https://www.asscompact.de/nachrichten/uebernahmerallye-bei-maklern-wie-geht-es-nach-2025-weiter?page=komp",
+          "note": "~85 industrial brokers, expected ~25 in 5 yrs; >90 deals in 2025; heavily contested"
         }
       ],
-      "confidence": 4,
-      "status": "grounded",
+      "confidence": 5,
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Independent Industriemakler are freely acquirable (this is exactly what GGW/Ecclesia/MRH Trowe are buying), but few targets remain.",
       "actionable": {},
       "child_ids": []
     },
@@ -265,18 +280,18 @@
         "recurring": 5,
         "fragmentation": 4,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 4,
+        "margin": 4,
+        "growth": 4,
+        "headroom": 4,
+        "reimbursement_risk": 2
       },
       "rationale": {
         "recurring": "Practice and clinic liability books renew annually; physicians must hold mandatory professional liability, creating structurally recurring demand.",
         "fragmentation": "Dozens of owner-run specialist firms plus a broker network (Heilwesennetzwerk); no single dominant Heilwesen consolidator.",
         "compliance": "Berufshaftpflicht is effectively mandatory for physicians (Musterberufsordnung/state medical acts), making the placement a compliance-driven, recurring spend."
       },
-      "composite": 91.7,
+      "composite": 78.3,
       "dach_signals": {
         "est_players": "Dozens of specialist firms + Heilwesennetzwerk members",
         "revenue_band_eur": "EUR 1-10m typical specialist",
@@ -306,14 +321,24 @@
           "title": "LIGA-Löffler Versicherungsmakler - Heilwesen",
           "url": "https://www.loeffler-versmakler.com/heilwesen.html",
           "note": "Specialist for hospitals, rehab, physicians; 30+ yrs sector focus"
+        },
+        {
+          "title": "Heilwesennetzwerk erweitert Vorstand und Beirat - Versicherungsmagazin",
+          "url": "https://www.versicherungsmagazin.de/rubriken/personalien/heilwesennetzwerk-erweitert-vorstand-und-beirat-1888839.html",
+          "note": "Active specialist-broker community; commercial P&C/liability lines not GKV-exposed"
+        },
+        {
+          "title": "Heilberufe/Heilwesen - CMO Makler Karlsruhe",
+          "url": "https://www.cmo-makler.de/heilberufe-heilwesen/",
+          "note": "Example independent regional Heilwesen specialist broker"
         }
       ],
-      "confidence": 3,
-      "status": "grounded",
+      "confidence": 4,
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Independent §34d Makler-GmbHs, freely acquirable; Heilwesennetzwerk is a knowledge network not an owner; no consent friction beyond routine licence transfer.",
       "actionable": {},
       "child_ids": []
     },
@@ -333,18 +358,18 @@
         "recurring": 4,
         "fragmentation": 4,
         "compliance": 4,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 4,
+        "margin": 4,
+        "growth": 3,
+        "headroom": 3,
+        "reimbursement_risk": 2
       },
       "rationale": {
         "recurring": "Annual liability/property books recur, though single-project Bauleistung placements are more transactional, lowering recurrence slightly.",
         "fragmentation": "Many regional specialist firms (e.g. HVV Heitmann 40+ yrs); no dominant Bau consolidator.",
         "compliance": "Architect/engineer professional liability is required by chamber rules (Architektenkammer/HOAI context); construction contracts often mandate Bauleistung cover."
       },
-      "composite": 75.0,
+      "composite": 65.8,
       "dach_signals": {
         "est_players": "Numerous regional Bau specialists",
         "revenue_band_eur": "EUR 0.5-5m typical specialist",
@@ -369,14 +394,19 @@
           "title": "deas Deutsche Assekuranzmakler - Baugewerbe",
           "url": "https://www.deas.de/branchen/baugewerbe/",
           "note": "Construction-sector broking practice"
+        },
+        {
+          "title": "VOSDELLEN GmbH - Versicherungsmakler fuer Bauunternehmen",
+          "url": "https://vosdellen.de/",
+          "note": "Nationwide specialist exclusively for mid-size construction firms"
         }
       ],
-      "confidence": 3,
-      "status": "grounded",
+      "confidence": 4,
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Independent Bau-Fachmakler-GmbHs freely acquirable; standard §34d only - but mainstream commercial-broking consolidators (GGW, MRH Trowe, deas) already active here.",
       "actionable": {},
       "child_ids": []
     },
@@ -396,18 +426,18 @@
         "recurring": 5,
         "fragmentation": 4,
         "compliance": 4,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 4,
+        "margin": 4,
+        "growth": 3,
+        "headroom": 3,
+        "reimbursement_risk": 2
       },
       "rationale": {
         "recurring": "Carrier liability and cargo books renew annually; every Frachtführer/Spediteur needs continuous Verkehrshaftung cover.",
         "fragmentation": "Multiple independent specialists (Schirmer, FSA24, niche rail brokers) alongside large-broker practices (Funk, Ecclesia).",
         "compliance": "Statutory carrier liability under HGB/CMR and licensing (Güterkraftverkehr) drive near-mandatory, recurring insurance demand."
       },
-      "composite": 83.3,
+      "composite": 70.0,
       "dach_signals": {
         "est_players": "Several independent transport specialists + large-broker units",
         "revenue_band_eur": "EUR 0.5-5m typical independent specialist",
@@ -437,14 +467,29 @@
           "title": "Funk Gruppe - Logistics",
           "url": "https://www.funk-gruppe.de/en/industries/industry/logistics",
           "note": "Large-broker transport & logistics practice for comparison"
+        },
+        {
+          "title": "Verkehrshaftungsversicherung fuer Transportunternehmen - Allianz",
+          "url": "https://www.allianz.de/business/verkehrshaftungsversicherung/",
+          "note": "line economics / specialist demand"
+        },
+        {
+          "title": "Uebernahmerallye bei Maklern: Wie geht es nach 2025 weiter? - AssCompact",
+          "url": "https://www.asscompact.de/nachrichten/uebernahmerallye-bei-maklern-wie-geht-es-nach-2025-weiter",
+          "note": "broker M&A rally, consolidation whitespace tightening"
+        },
+        {
+          "title": "Grossinvestoren sponsern Aufkaeufer am deutschen Maklermarkt - DAS INVESTMENT",
+          "url": "https://www.dasinvestment.com/von-rauchhaupt-und-senftleben-ggw-group-mrh-trowe-summitas/",
+          "note": "PE consolidators (GGW, MRH Trowe, Summitas) active in commercial broking"
         }
       ],
       "confidence": 3,
-      "status": "grounded",
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Independent transport/logistics specialist brokers freely acquirable; recurring P&C commission robust, but same commercial-broking consolidation race applies.",
       "actionable": {},
       "child_ids": []
     },
@@ -464,18 +509,18 @@
         "recurring": 5,
         "fragmentation": 4,
         "compliance": 3,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 3,
+        "margin": 4,
+        "growth": 3,
+        "headroom": 4,
+        "reimbursement_risk": 2
       },
       "rationale": {
         "recurring": "Farm property/liability and crop programmes renew annually; farms are long-tenure relationship clients.",
         "fragmentation": "Many owner-run agri specialists (gvf, DAV, AgroSecur) plus a competence network (ALV); no dominant consolidator.",
         "compliance": "Farm liability is quasi-mandatory operationally but less statutorily forced than health/transport; subsidised crop schemes add a policy driver."
       },
-      "composite": 75.0,
+      "composite": 61.7,
       "dach_signals": {
         "est_players": "Dozens of agri specialists + ALV network + Maschinenring vehicle",
         "revenue_band_eur": "EUR 0.5-5m typical specialist",
@@ -506,14 +551,24 @@
           "title": "AGRAR Versicherungsmakler GmbH & Co. KG",
           "url": "https://www.agrarversicherungsmakler.de/",
           "note": "Dedicated agricultural insurance broker"
+        },
+        {
+          "title": "MRVV Deutschland - Spezialmakler fuer die Landwirtschaft",
+          "url": "https://www.mrvv.de/",
+          "note": "Maschinenring cooperative vehicle — member-owned, consent friction"
+        },
+        {
+          "title": "ALV Agrar",
+          "url": "https://alv-agrar.de/",
+          "note": "broker collective/network structure serving farmers"
         }
       ],
       "confidence": 3,
-      "status": "grounded",
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
-      "investability": "open",
-      "investability_note": "",
+      "investability": "restricted",
+      "investability_note": "Independent agri brokers (gvf, AGRAR Versicherungsmakler, AVV) freely acquirable, but a large part of the pool is cooperative/Verein-bound (Maschinenring/MRVV, ALV network) creating member-consent friction.",
       "actionable": {},
       "child_ids": []
     },
@@ -783,18 +838,18 @@
         "recurring": 5,
         "fragmentation": 3,
         "compliance": 4,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 5,
+        "margin": 4,
+        "growth": 4,
+        "headroom": 1,
+        "reimbursement_risk": 2
       },
       "rationale": {
         "recurring": "Aggregated auto-renewing personal-lines portfolios give predictable, poolable Bestandsprovision cash flows.",
         "fragmentation": "Emerging platforms (Ascendia, GGW, MRH Trowe, Summitas) still hold small share of the 46k+ broker long tail.",
         "compliance": "Regulatory professionalisation (§34d/IDD) is a key deal-flow driver as small owners cannot bear rising compliance cost."
       },
-      "composite": 75.0,
+      "composite": 74.2,
       "dach_signals": {
         "est_players": "Handful of PE-backed platforms (Ascendia, GGW Group, MRH Trowe, Summitas)",
         "revenue_band_eur": "Platform level EUR 50m-500m+; add-ons EUR 0.5-10m",
@@ -819,14 +874,19 @@
           "title": "Grossinvestoren sponsern Aufkaeufer am deutschen Maklermarkt (DAS INVESTMENT)",
           "url": "https://www.dasinvestment.com/von-rauchhaupt-und-senftleben-ggw-group-mrh-trowe-summitas/",
           "note": "PE sponsors behind GGW, MRH Trowe, Summitas consolidators"
+        },
+        {
+          "title": "Maklerkonsolidierung in Deutschland - Versicherungsbote",
+          "url": "https://www.versicherungsbote.de/id/4939604/Maklerkonsolidierung-in-Deutschland-Entwicklungen-und-Perspektiven/",
+          "note": "Confirms private-lines now a primary consolidation battleground"
         }
       ],
       "confidence": 4,
-      "status": "grounded",
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Structurally acquirable GmbH platforms, but these ARE the incumbent PE vehicles - entry only via pricey secondary/co-invest.",
       "actionable": {},
       "child_ids": []
     },
@@ -1039,18 +1099,18 @@
         "recurring": 5,
         "fragmentation": 3,
         "compliance": 4,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 3,
+        "margin": 4,
+        "growth": 4,
+        "headroom": 4,
+        "reimbursement_risk": 2
       },
       "rationale": {
         "recurring": "Group/framework contracts renew at association level with high member stickiness and multi-year scheme mandates.",
         "fragmentation": "Mix of large affinity units (Marsh Affinity) and many specialist Vereins-/Verbandsmakler; no single consolidator of scheme mandates.",
         "compliance": "§34d plus IDD group-distribution and information duties; scheme design must handle POG/product-oversight requirements."
       },
-      "composite": 75.0,
+      "composite": 65.8,
       "dach_signals": {
         "est_players": "Several dozen affinity/association specialists",
         "revenue_band_eur": "EUR 1-30m depending on scheme scale",
@@ -1079,14 +1139,24 @@
           "title": "Affinity Group (Gabler Versicherungslexikon / Versicherungsmagazin)",
           "url": "https://www.versicherungsmagazin.de/lexikon/affinity-group-1944441.html",
           "note": "Definition and mechanics of affinity/group distribution"
+        },
+        {
+          "title": "Funk Affinity - Loesungen fuer speziellen Versicherungsbedarf",
+          "url": "https://www.funk-gruppe.de/de/leistungen/special-services/funk-affinity-special-lines",
+          "note": "Affinity/special-lines and annex-cover schemes; embedded/group insurance segment"
+        },
+        {
+          "title": "Affinity | Howden Deutschland",
+          "url": "https://www.howdengroup.com/de-de/sector/affinity",
+          "note": "Target-group schemes from associations/organisations to companies; several dozen specialists"
         }
       ],
       "confidence": 3,
-      "status": "grounded",
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Independent affinity/association-scheme specialist brokers/MGAs are acquirable; big brokers (Funk, Marsh, Howden, WTW) run divisions but many niche specialists remain.",
       "actionable": {},
       "child_ids": []
     },
@@ -1236,18 +1306,18 @@
         "recurring": 4,
         "fragmentation": 4,
         "compliance": 4,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 3,
+        "margin": 4,
+        "growth": 4,
+        "headroom": 4,
+        "reimbursement_risk": 2
       },
       "rationale": {
         "recurring": "International health policies are long-duration and renew annually with recurring Bestandsprovision.",
         "fragmentation": "Many small independent expat-health brokers; even the largest hold only a few thousand customers.",
         "compliance": "Cross-border health advice invokes §34d/IDD plus PKV/GKV eligibility and residence rules."
       },
-      "composite": 75.0,
+      "composite": 65.8,
       "dach_signals": {
         "est_players": "Dozens of expat-health specialist brokers",
         "revenue_band_eur": "EUR 0.3-5m typical specialist broker",
@@ -1272,14 +1342,24 @@
           "title": "Care Concept - Expatriate Health Insurance",
           "url": "https://www.care-concept.de/expatriates_eng.php?navilang=eng",
           "note": "Specialist international/expat health cover provider and channel"
+        },
+        {
+          "title": "BDAE Expat Infinity - internationale Krankenversicherung",
+          "url": "https://www.bdae.com/en/health-insurance/expat-infinity",
+          "note": "Leading German expat-health specialist; global-mobility secular growth"
+        },
+        {
+          "title": "Expat-Krankenversicherung - Kundler",
+          "url": "https://kundler.com/privatversicherung/expat-krankenversicherung/",
+          "note": "Independent specialist broker distributing Allianz Care - dozens of niche players, no dedicated consolidator"
         }
       ],
       "confidence": 3,
-      "status": "grounded",
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Independent expat-health specialist brokers (BDAE, DR-WALTER, Kundler) freely acquirable; private international health = private-pay, no GKV commission risk.",
       "actionable": {},
       "child_ids": []
     },
@@ -1299,18 +1379,18 @@
         "recurring": 3,
         "fragmentation": 5,
         "compliance": 4,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 1,
+        "margin": 2,
+        "growth": 1,
+        "headroom": 2,
+        "reimbursement_risk": 3
       },
       "rationale": {
         "recurring": "Bestandsprovision exists but the portfolio and mandate belong to the insurer, not the agent - value does not transfer on sale.",
         "fragmentation": "Under 100,000 tied agents (99,797 mid-2025) but structurally NOT acquirable: person-bound, single-carrier, insurer-owned book.",
         "compliance": "§34d Abs.7 exemption registration under insurer responsibility; IDD conduct rules apply but liability sits with the carrier."
       },
-      "composite": 75.0,
+      "composite": 31.7,
       "dach_signals": {
         "est_players": "~99,797 gebundene Vertreter in Germany (mid-2025), long-term decline from ~182,000 (2011)",
         "revenue_band_eur": "Agency income EUR 0.05-0.5m; not a transferable enterprise",
@@ -1333,14 +1413,24 @@
           "title": "Gebundene Versicherungsvertreter / Ausschliesslichkeitsvertreter (IHK Koeln)",
           "url": "https://www.ihk.de/koeln/hauptnavigation/recht-steuern/gebundene-versvertreter-ausschliesslichkeitsverter-5234114",
           "note": "Legal status: person-bound, insurer-liable, exemption registration"
+        },
+        {
+          "title": "Vermittlersterben hat sich 2025 nochmal beschleunigt - DAS INVESTMENT",
+          "url": "https://www.dasinvestment.com/vermittler-versicherungsmakler-versicherungsvertreter-statistik-dihk/",
+          "note": "gebundene Vertreter -3.486 (-3,4%) in 2025, main driver of decline"
+        },
+        {
+          "title": "Zukunft der Ausschliesslichkeit - DAS INVESTMENT",
+          "url": "https://www.dasinvestment.com/zukunft-der-ausschliesslichkeit-ao-vertreter-vertrieb/",
+          "note": "tied-agent model structurally un-acquirable, insurer-bound"
         }
       ],
       "confidence": 4,
-      "status": "grounded",
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
-      "investability": "open",
-      "investability_note": "",
+      "investability": "blocked",
+      "investability_note": "Tied exclusive agents are person-bound to a single insurer via Vertretervertrag — not a transferable enterprise; register fell below 100,000 in 2025 (structural decline).",
       "actionable": {},
       "child_ids": []
     },
@@ -1407,18 +1497,18 @@
         "recurring": 5,
         "fragmentation": 4,
         "compliance": 4,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 4,
+        "margin": 4,
+        "growth": 4,
+        "headroom": 3,
+        "reimbursement_risk": 2
       },
       "rationale": {
         "recurring": "Annual auto-renewing Sach/Haftpflicht/Unfall policies produce a self-renewing commission book; Domcura administers ~EUR 350m recurring premium.",
         "fragmentation": "A handful of scale players (Domcura, K&M) sit above a long tail of regional Deckungskonzept-Assekuradeure and Maklerpool-tied agencies.",
         "compliance": "Binding authority requires § 32 VAG outsourcing governance from the carrier plus § 34d GewO licence and IDD conduct rules."
       },
-      "composite": 83.3,
+      "composite": 74.2,
       "dach_signals": {
         "est_players": "~30-60 scale/regional scheme MGAs within 184,233 registered § 34d intermediaries (Apr 2024)",
         "revenue_band_eur": "EUR 5-40m fee/commission revenue (Domcura ~EUR 350m premium book; K&M ~EUR 45m premium book)",
@@ -1455,14 +1545,29 @@
           "title": "Zahl der Versicherungsvermittler gestiegen – AssCompact",
           "url": "https://www.asscompact.de/nachrichten/zahl-der-versicherungsvermittler-gestiegen",
           "note": "184,233 registered § 34d intermediaries as of 1 Apr 2024"
+        },
+        {
+          "title": "Die naechste Konsolidierungswelle kommt im Assekuradeursmarkt - AssCompact",
+          "url": "https://www.asscompact.de/nachrichten/%E2%80%9Edie-naechste-konsolidierungswelle-kommt-im-assekuradeursmarkt%E2%80%9C",
+          "note": "K&M and Domcura taken over by investors/broker groups; scheme MGAs the next wave"
+        },
+        {
+          "title": "Konsolidierung mit Tempo: Assekuradeure ruecken in den Fokus der Kapitalgeber - Tagesbriefing",
+          "url": "https://www.tagesbriefing.de/2025/05/15/konsolidierung-mit-tempo-assekuradeure-ruecken-in-den-fokus-der-kapitalgeber/",
+          "note": "Confirms PE appetite for scale property/casualty scheme MGAs; consolidation started"
+        },
+        {
+          "title": "DOMCURA Deckungskonzept Rechtsschutz - lifePR",
+          "url": "https://www.lifepr.de/pressemitteilung/domcura-ag/Neues-DOMCURA-Premium-Deckungskonzept-zur-Rechtsschutzversicherung/boxid/750303",
+          "note": "Illustrates asset-light Deckungskonzept/MGA model and large premium books"
         }
       ],
-      "confidence": 4,
-      "status": "grounded",
+      "confidence": 3,
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Assekuradeur-GmbHs freely acquirable (Domcura, K&M already changed hands); mild carrier-capacity consent friction only.",
       "actionable": {},
       "child_ids": []
     },
@@ -1560,18 +1665,18 @@
         "recurring": 4,
         "fragmentation": 4,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 3,
+        "margin": 4,
+        "growth": 5,
+        "headroom": 4,
+        "reimbursement_risk": 2
       },
       "rationale": {
         "recurring": "Annual renewing cyber policies; Stoïk reached >EUR 5m premium and 1,000+ customers within its first German year.",
         "fragmentation": "Crowded with new entrants (Stoïk, Baobab, EyeSecurity, Coalition, Corvus) plus incumbents; >50 new risk carriers/MGAs entered recently.",
         "compliance": "Cyber MGAs sit at the intersection of § 32 VAG binding authority, IDD and DORA/NIS2-driven demand; Cogitanda insolvency (Nov 2024) shows governance risk."
       },
-      "composite": 83.3,
+      "composite": 74.2,
       "dach_signals": {
         "est_players": "~10-15 dedicated cyber MGAs/carriers active in DACH",
         "revenue_band_eur": "EUR 0.5-10m revenue (early-stage; Stoïk >EUR 5m premium end-2024)",
@@ -1603,14 +1708,24 @@
           "title": "Maklerverband geht Cyberversicherer Cogitanda hart an – Pfefferminzia",
           "url": "https://www.pfefferminzia.de/gewerbe/offener-brief-maklerverband-geht-cyberversicherer-cogitanda-hart-an/",
           "note": "Cogitanda cyber MGA governance/insolvency episode"
+        },
+        {
+          "title": "Cyber-Assekuradeur Stoik baut Experten-Team aus - procontra",
+          "url": "https://www.procontra-online.de/versicherer/artikel/100-mitarbeiter-cyber-assekuradeur-stoik-baut-experten-team-kraeftig-aus",
+          "note": "Stoik ~EUR 10m premium, 100 staff, loss ratio <20%; ~10-15 dedicated cyber MGAs in DACH"
+        },
+        {
+          "title": "Der deutsche Cybermarkt ist die am schnellsten wachsende Sparte - Cash.Online",
+          "url": "https://www.cash-online.de/a/der-deutsche-cybermarkt-ist-die-mit-abstand-am-schnellsten-wachsende-sparte-644233/",
+          "note": "German cyber premium ~EUR 500m, fastest-growing line, ~50% growth"
         }
       ],
-      "confidence": 4,
-      "status": "grounded",
+      "confidence": 3,
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Cyber MGAs / Assekuradeure are freely acquirable §34d-based entities; capacity agreements with carriers but no ownership block.",
       "actionable": {},
       "child_ids": []
     },
@@ -1630,18 +1745,18 @@
         "recurring": 4,
         "fragmentation": 4,
         "compliance": 4,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 3,
+        "margin": 4,
+        "growth": 3,
+        "headroom": 2,
+        "reimbursement_risk": 2
       },
       "rationale": {
         "recurring": "Cargo/hull programmes and open covers renew annually with corporate/broker clients.",
         "fragmentation": "Historically dozens of small Hanseatic agencies (Mund & Fester, NHA, HVA Homann, Wolfes & von Etzdorf, W. Droege) now being rolled up.",
         "compliance": "Marine wordings, sanctions/war-risk screening and § 32 VAG binding authority make governance material."
       },
-      "composite": 75.0,
+      "composite": 61.7,
       "dach_signals": {
         "est_players": "~20-40 transport/marine agencies (many now consolidated under WECOYA/GGW)",
         "revenue_band_eur": "EUR 1-25m revenue; WECOYA Marine is one of Europe's largest transport underwriters",
@@ -1673,14 +1788,24 @@
           "title": "ATNA – AT Norddeutsche Assekuradeur GmbH",
           "url": "https://www.at-na.eu/en/about-us",
           "note": "Independent northern-German transport/specialty Assekuradeur"
+        },
+        {
+          "title": "WECOYA MARINE - Ihr Transport-Assekuradeur",
+          "url": "https://www.wecoya-marine.com/en/",
+          "note": "GGW subsidiary bundling transport underwriting - dominant consolidator"
+        },
+        {
+          "title": "WECOYA strengthens presence in Austria via MGA assecco.com",
+          "url": "https://www.wecoya.com/en/news/news-detail-page_1600.html",
+          "note": "Cross-border marine MGA roll-up already extending to AT - crowded niche"
         }
       ],
       "confidence": 4,
-      "status": "grounded",
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Assekuradeur-GmbHs structurally acquirable, but WECOYA/GGW has already rolled up most sizeable transport agencies - thin remaining supply.",
       "actionable": {},
       "child_ids": []
     },
@@ -1767,18 +1892,18 @@
         "recurring": 5,
         "fragmentation": 4,
         "compliance": 3,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 3,
+        "margin": 4,
+        "growth": 5,
+        "headroom": 4,
+        "reimbursement_risk": 2
       },
       "rationale": {
         "recurring": "Pet health policies renew annually with high persistence; German pet-health premium ~EUR 700m in 2024, doubled since 2020.",
         "fragmentation": "Many new MGA/insurtech entrants (Cleo&You, PANDA, TIERdirekt/helden.de) plus incumbents – no dominant MGA consolidator.",
         "compliance": "Regulated health/animal line under § 34d and IDD, but growth and underwriting data, not compliance, drive the segment."
       },
-      "composite": 75.0,
+      "composite": 70.0,
       "dach_signals": {
         "est_players": "~10-15 pet-focused MGAs/brands in DACH",
         "revenue_band_eur": "EUR 0.5-10m revenue (segment premium ~EUR 700m 2024, ~12-15% CAGR to 2030)",
@@ -1810,14 +1935,24 @@
           "title": "Insurtech helden.de übernimmt Tierversicherer – Versicherungsprofi",
           "url": "https://versicherungsprofi.online/branche/unternehmen/insurtech-heldende-uebernimmt-tierversicherer_01894/",
           "note": "helden.de/Insurance Hero acquires TIERdirekt; MGA consolidation in pet niche"
+        },
+        {
+          "title": "Tierversicherung: Studie sieht viel Wachstumspotenzial - conplusinvest",
+          "url": "https://www.conplusinvest.de/tierversicherung-studie-sieht-viel-wachstumspotenzial/",
+          "note": "Only ~43% penetration; strong growth headroom; premium ~EUR 700m 2024"
+        },
+        {
+          "title": "Tierversicherungen: Markt waechst, Wettbewerb nimmt zu - Cash.Online",
+          "url": "https://www.cash-online.de/a/tierversicherungen-markt-waechst-wettbewerb-nimmt-zu-718067/",
+          "note": "Specialists Agila, PetProtect, Uelzener, Petolo lead; growing competition, ~12-15% CAGR"
         }
       ],
       "confidence": 3,
-      "status": "grounded",
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Independent pet MGAs/brands (Petolo, PetProtect, insurtechs) are acquirable; several are carrier-tied (Agila, PetProtect/DFV) which adds partial friction.",
       "actionable": {},
       "child_ids": []
     },
@@ -1898,18 +2033,18 @@
         "recurring": 4,
         "fragmentation": 4,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 2,
+        "margin": 4,
+        "growth": 4,
+        "headroom": 5,
+        "reimbursement_risk": 2
       },
       "rationale": {
         "recurring": "Drone liability is legally mandatory and renews annually, producing a compulsory recurring book.",
         "fragmentation": "Several MGA/insurtech brands (helden.de, Coverdrone) plus insurer schemes – fragmented micro-niche.",
         "compliance": "§ 43 LuftVG makes drone liability compulsory, and EU-U-Space/EASA rules drive demand – compliance is the buying driver."
       },
-      "composite": 83.3,
+      "composite": 65.8,
       "dach_signals": {
         "est_players": "A handful of drone/UAV MGA brands in DACH",
         "revenue_band_eur": "EUR 0.2-5m revenue (early-stage micro-niche)",
@@ -1940,14 +2075,24 @@
           "title": "Drohnenversicherung Pflicht – Allianz",
           "url": "https://www.allianz.de/recht-und-eigentum/privat-haftpflichtversicherung/drohnen-versichern/",
           "note": "§ 43 LuftVG makes drone third-party liability mandatory"
+        },
+        {
+          "title": "Drohnen Versicherung Privat & Gewerblich - DMO",
+          "url": "https://www.deutsche-modellsport-organisation.de/en/drone-insurances",
+          "note": "Mandatory UAV cover in Germany; specialist drone underwriting brand"
+        },
+        {
+          "title": "Assekuradeur oder Vollversicherer - InsurLab Germany",
+          "url": "https://insurlab-germany.com/en/assekuradeur-or-full-insurer-which-way-is-more-promising-for-insurtechs/",
+          "note": "MGA/Assekuradeur model relies on third-party carrier capacity/binding authority"
         }
       ],
       "confidence": 3,
-      "status": "grounded",
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
-      "investability": "open",
-      "investability_note": "",
+      "investability": "restricted",
+      "investability_note": "MGA/Assekuradeur acquirable but revenue depends on carrier binding authority requiring insurer consent on change of control; capacity-dependent, micro-scale.",
       "actionable": {},
       "child_ids": []
     },
@@ -2100,18 +2245,18 @@
         "recurring": 5,
         "fragmentation": 3,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 3,
+        "margin": 4,
+        "growth": 3,
+        "headroom": 3,
+        "reimbursement_risk": 3
       },
       "rationale": {
         "recurring": "Ongoing platform/liability fees plus share of managed AUM/commission for every tied agent under the umbrella.",
         "fragmentation": "A limited set of licensed umbrellas (Netfonds/NFS, JDC/FiNUM, BN & Partners) serve many independent 34f advisers.",
         "compliance": "The whole model exists to satisfy WpHG/WpIG and BaFin registration; mandatory regulatory sovereignty is the buying driver."
       },
-      "composite": 83.3,
+      "composite": 60.8,
       "dach_signals": {
         "est_players": "handful of BaFin-licensed Haftungsdaecher",
         "revenue_band_eur": "embedded in pool group revenue (Netfonds group EUR ~48m gross)",
@@ -2136,14 +2281,29 @@
           "title": "Netfonds Gruppe (Wikipedia)",
           "url": "https://de.wikipedia.org/wiki/Netfonds_Gruppe",
           "note": "Netfonds operates own BaFin-registered Haftungsdach via Netfonds Financial Service GmbH"
+        },
+        {
+          "title": "Haftungsdach WpIG fuer Fonds- & Anlagenvermittler - Netfonds",
+          "url": "https://www.netfonds.de/geschaeftsmodelle/haftungsdach",
+          "note": "Germany's largest Haftungsdach, >500 advisors, >EUR 10bn AuM"
+        },
+        {
+          "title": "Haftungsdach - Definition, Tied Agent, BaFin, Lizenz - NFS Netfonds",
+          "url": "https://www.nfs-netfonds.de/haftungsdach/",
+          "note": "KWG-licensed umbrella; tied-agent regulatory dependency"
+        },
+        {
+          "title": "EU-Kleinanleger: Trilog-Einigung fuer Vermittler - DAS INVESTMENT",
+          "url": "https://www.dasinvestment.com/eu-kleinanlegerstrategie-das-bringt-die-trilog-einigung-fuer-vermittler/",
+          "note": "RIS Dec 2025: full commission ban off table but member states may still restrict — revenue-durability risk on 34f commissions"
         }
       ],
-      "confidence": 4,
-      "status": "grounded",
+      "confidence": 3,
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
-      "investability": "open",
-      "investability_note": "",
+      "investability": "restricted",
+      "investability_note": "Only a handful of BaFin-licensed Haftungsdaecher (Netfonds/NFS, JDC/FiNet, BN&Partner); WpIG/KWG licence + BaFin owner-control approval create acquisition friction, and several already sit in listed pool groups.",
       "actionable": {},
       "child_ids": []
     },
@@ -2307,18 +2467,18 @@
         "recurring": 5,
         "fragmentation": 3,
         "compliance": 4,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 3,
+        "margin": 5,
+        "growth": 3,
+        "headroom": 2,
+        "reimbursement_risk": 1
       },
       "rationale": {
         "recurring": "SaaS/licence subscriptions per broker seat; mission-critical system of record with high switching costs.",
         "fragmentation": "Consolidating: Acturis (AMS + VIAS) claims >50% share, Hypoport (Smart InsurTech) and pool-owned systems (Ameise, keasy) hold most of the rest; small vendors declining.",
         "compliance": "MVPs must handle IDD advice documentation, GDPR client data and BiPRO regulatory data exchange, making them a compliance-anchored spend."
       },
-      "composite": 75.0,
+      "composite": 70.8,
       "dach_signals": {
         "est_players": "shrinking field; ~a dozen relevant vendors",
         "revenue_band_eur": "vendor revenue tens of EUR m; per-broker fees EUR ~50-300+/month",
@@ -2358,14 +2518,29 @@
           "title": "assfinet - Verwaltungs- und Vertriebsloesungen",
           "url": "https://www.assfinet.de/",
           "note": "Acturis-owned AMS MVP provider"
+        },
+        {
+          "title": "Maklerverwaltungsprogramme im Test - Versicherungsbote",
+          "url": "https://www.versicherungsbote.de/id/4938663/Maklerverwaltungsprogramme-im-Test-Die-Champions---und-die-Schlusslichter/",
+          "note": "~dozen SaaS vendors; shrinking, consolidating field"
+        },
+        {
+          "title": "Pools: Steigende Konzentration, zunehmender Investoreneinfluss - AssCompact",
+          "url": "https://www.asscompact.de/nachrichten/pools-steigende-konzentration-zunehmender-investoreneinfluss?page=komp",
+          "note": "PE (HG Capital, Warburg Pincus) driving pool/MVP consolidation - low whitespace"
+        },
+        {
+          "title": "Maklerkonsolidierung in Deutschland - Versicherungsbote",
+          "url": "https://www.versicherungsbote.de/id/4939604/Maklerkonsolidierung-in-Deutschland-Entwicklungen-und-Perspektiven/",
+          "note": "DEMV acquired MVP aB-agenta (2025) and SALIA (2023); pools integrating their own MVPs"
         }
       ],
       "confidence": 4,
-      "status": "grounded",
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Software vendors are freely acquirable, but the leading MVPs are already owned by pools/PE (DEMV bought aB-agenta & SALIA; HG Capital/Warburg Pincus fund pool consolidation) - little independent left.",
       "actionable": {},
       "child_ids": []
     },
@@ -2583,18 +2758,18 @@
         "recurring": 5,
         "fragmentation": 4,
         "compliance": 4,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 3,
+        "margin": 4,
+        "growth": 4,
+        "headroom": 4,
+        "reimbursement_risk": 2
       },
       "rationale": {
         "recurring": "SaaS transaction-service and best-courtage models generating recurring per-broker revenue.",
         "fragmentation": "Smaller, nationally fragmented AT/CH broker markets with a few tech-led aggregators and cross-border consolidation just starting.",
         "compliance": "Austrian GewO/WAG and Swiss VAG/FINMA insurance-intermediary rules plus GDPR drive regulated admin tooling."
       },
-      "composite": 83.3,
+      "composite": 70.0,
       "dach_signals": {
         "est_players": "handful of AT/CH platforms + German entrants",
         "revenue_band_eur": "EUR 1-20m typical",
@@ -2620,14 +2795,29 @@
           "title": "Netfonds Gruppe - Maklerpool",
           "url": "https://www.netfonds.de/geschaeftsmodelle/maklerpool",
           "note": "German B2B pool group positioning across DACH finance/insurance services"
+        },
+        {
+          "title": "Maklerpools - FONDS professionell",
+          "url": "https://www.fondsprofessionell.de/anbieter/maklerpools/",
+          "note": "Overview of pool landscape; asset-light platform-fee model"
+        },
+        {
+          "title": "g&o brokernet (AT)",
+          "url": "https://go-brokernet.at/",
+          "note": "Austrian broker pool - example of AT platform in scope"
+        },
+        {
+          "title": "FinanceFox staerkt Zusammenarbeit mit Brokern - startupticker",
+          "url": "https://www.startupticker.ch/en/news/february-2017/financefox-starkt-zusammenarbeit-mit-brokern",
+          "note": "CH-origin broker-tech expanding across CH/DE/AT - cross-border platform example"
         }
       ],
-      "confidence": 3,
-      "status": "grounded",
+      "confidence": 2,
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
-      "investability": "open",
-      "investability_note": "",
+      "investability": "restricted",
+      "investability_note": "Cross-border AT/CH regulatory friction (FMA/FINMA authorisations, Haftungsdach dependency) complicates a clean German-buyer roll-up.",
       "actionable": {},
       "child_ids": []
     },
@@ -2774,18 +2964,18 @@
         "recurring": 4,
         "fragmentation": 3,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 2,
+        "margin": 3,
+        "growth": 4,
+        "headroom": 3,
+        "reimbursement_risk": 3
       },
       "rationale": {
         "recurring": "Ongoing per-employee admin/advisory fees replace one-off commission.",
         "fragmentation": "Still few venture-backed players (DYNO, Penzilla) vs. long tail of classic brokers.",
         "compliance": "Same BRSG/§1a duties drive employer demand."
       },
-      "composite": 75.0,
+      "composite": 52.5,
       "dach_signals": {
         "est_players": "handful of funded startups",
         "revenue_band_eur": "EUR 1-10m (early-stage)",
@@ -2809,14 +2999,29 @@
           "title": "DYNO - bAV mit ETFs und ohne Provisionen",
           "url": "https://heydyno.de/en/bav-erklaert-ag/welche-durchf%C3%BChrungswege-der-betrieblichen-altersvorsorge-gibt-es",
           "note": "Fee-based / ETF bAV model for employers"
+        },
+        {
+          "title": "Xempus - Betriebliche Vorsorge. Vernetzt. Automatisiert.",
+          "url": "https://www.xempus.com/pub/",
+          "note": "leading digital bAV platform, VC-backed"
+        },
+        {
+          "title": "Betriebliche Altersvorsorge (bAV) - provisionsfrei",
+          "url": "https://vorsorgekampagne.de/betriebliche-altersvorsorge-bav/",
+          "note": "provisionsfrei/-arm model example — thinner revenue"
+        },
+        {
+          "title": "EU-Kleinanleger: Trilog-Einigung fuer Vermittler - DAS INVESTMENT",
+          "url": "https://www.dasinvestment.com/eu-kleinanlegerstrategie-das-bringt-die-trilog-einigung-fuer-vermittler/",
+          "note": "RIS transparency/commission-justification pressure on advisory revenue"
         }
       ],
       "confidence": 3,
-      "status": "grounded",
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
-      "investability": "open",
-      "investability_note": "",
+      "investability": "restricted",
+      "investability_note": "Only a handful of VC-backed startups (Xempus et al.); existing investor cap tables plus §34d/software licence create consent friction, and provisionsarme models thin the revenue base.",
       "actionable": {},
       "child_ids": []
     },
@@ -2836,11 +3041,11 @@
         "recurring": 5,
         "fragmentation": 3,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 3,
+        "margin": 5,
+        "growth": 5,
+        "headroom": 3,
+        "reimbursement_risk": 1
       },
       "rationale": {
         "recurring": "Per-employee/per-contract SaaS licence and administration fees are contractually recurring; xbAV/Xempus cites >40 insurers, >11,000 agents, >3,000 mid-sized firms.",
@@ -2887,14 +3092,24 @@
           "title": "bAV-Verwaltung IT und Outsourcing (pensions.industries)",
           "url": "https://pensions.industries/dienstleister/bav-verwaltung-und-outsourcing/",
           "note": "Directory of bAV admin/outsourcing service providers"
+        },
+        {
+          "title": "Xempus - Betriebliche Vorsorge. Vernetzt. Automatisiert.",
+          "url": "https://www.xempus.com/pub/",
+          "note": "Independent SaaS platform for bAV advice/conclusion/administration; market leader"
+        },
+        {
+          "title": "Umfirmierung: aus xbAV wird Xempus - DFPA",
+          "url": "https://www.dfpa.info/beratung-vertrieb-news/umfirmiert-aus-xbav-wird-xempus.html",
+          "note": "Market compact vs US, dominated by Xempus after eVorsorge acquisition"
         }
       ],
-      "confidence": 4,
-      "status": "grounded",
+      "confidence": 3,
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "SaaS-TPA GmbHs acquirable, but market already dominated/consolidated by Xempus (bought eVorsorge); VC-owned, high entry price.",
       "actionable": {},
       "child_ids": []
     },
@@ -2914,18 +3129,18 @@
         "recurring": 5,
         "fragmentation": 4,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 3,
+        "margin": 4,
+        "growth": 4,
+        "headroom": 4,
+        "reimbursement_risk": 2
       },
       "rationale": {
         "recurring": "Providers run permanent account administration, capital-investment coordination and payroll interfaces over the life of each account.",
         "fragmentation": "A cluster of independent specialists (DBZWK since 2004, Deutsche Zeitwert, Lurse) plus consultancy arms of WTW/Mercer — no dominant consolidator.",
         "compliance": "SGB IV §7d mandates insolvency protection and separate asset management; providers sell audit-proof, insolvenzgeschuetzte Verwaltung as core value."
       },
-      "composite": 91.7,
+      "composite": 74.2,
       "dach_signals": {
         "est_players": "~10-20 specialist administrators/trustees",
         "revenue_band_eur": "EUR 1-15m typical for specialists",
@@ -2962,14 +3177,19 @@
           "title": "Zeitwertkonten und Treuhandloesungen - Mercer",
           "url": "https://www.mercer.com/de-de/solutions/retirement/zeitwertkonten-und-treuhandloesungen/",
           "note": "Administration of complex ZWK and trustee coordination"
+        },
+        {
+          "title": "Zeitwertkonto Anbieter im Vergleich 2025 - PensExpert",
+          "url": "https://pensexpert.de/2025/07/07/zeitwertkonto-anbieter-im-vergleich/",
+          "note": "provider landscape / independent trustee solutions"
         }
       ],
-      "confidence": 4,
-      "status": "grounded",
+      "confidence": 3,
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Independent Verwaltungs-/Treuhand-GmbHs (Deutsche Zeitwert, DBZWK, PensExpert, audalis); admin-fee model, freely acquirable, no dedicated PE consolidator yet.",
       "actionable": {},
       "child_ids": []
     },
@@ -2989,18 +3209,18 @@
         "recurring": 5,
         "fragmentation": 4,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 3,
+        "margin": 4,
+        "growth": 4,
+        "headroom": 4,
+        "reimbursement_risk": 1
       },
       "rationale": {
         "recurring": "Direktzusagen require an annual actuarial valuation for each balance sheet — a mandatory recurring engagement per client.",
         "fragmentation": "Heubeck is the reference for mortality tables but the valuation market includes many independent actuaries (e.g. Kolckmann, Hannoversche Kassen) alongside WTW/Mercer.",
         "compliance": "§253 HGB / IAS 19 mandate actuarial measurement of pension liabilities; Heubeck-Richttafeln are the accepted biometric basis."
       },
-      "composite": 91.7,
+      "composite": 79.2,
       "dach_signals": {
         "est_players": "dozens of actuarial firms + Big-3 consultancies",
         "revenue_band_eur": "EUR 0.5-10m for independent actuarial practices",
@@ -3033,14 +3253,24 @@
           "title": "Versicherungsmathematische Gutachten - Hannoversche Kassen",
           "url": "https://www.hannoversche-kassen.de/betriebliche-altersversorgung/Versicherungsmathematische_Gutachten/",
           "note": "Actuarial gutachten and Rueckdeckung treatment as Planvermoegen"
+        },
+        {
+          "title": "Pensionsgutachten - GBG Consulting",
+          "url": "https://gbg-consulting.de/versicherungsmathematische-gutachten/pensionsgutachten/",
+          "note": "Independent actuarial practice offering §6a EStG / §253 HGB pension valuations"
+        },
+        {
+          "title": "Pensionsgutachten - Neuburger und Partner",
+          "url": "https://www.neuburger.com/kompetenzen/pensionsgutachten/",
+          "note": "60-year owner-operated actuarial firm - fragmented long tail below Big-3"
         }
       ],
-      "confidence": 4,
-      "status": "grounded",
+      "confidence": 3,
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Independent aktuarielle Sachverstaendigen-/Consulting-GmbHs freely acquirable; only friction is DAV-qualified key-person (Aktuar) retention, not a licence bar.",
       "actionable": {},
       "child_ids": []
     },
@@ -3130,18 +3360,18 @@
         "recurring": 5,
         "fragmentation": 3,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 4,
+        "margin": 4,
+        "growth": 4,
+        "headroom": 3,
+        "reimbursement_risk": 2
       },
       "rationale": {
         "recurring": "Kassen administer millions of long-duration Anwartschaften; 124 Pensionskassen alone held EUR 215.7bn balance-sheet assets in 2024 with 8.9m members.",
         "fragmentation": "Concentrated among established Kassen and their service providers, with a tail of group/company Unterstuetzungskassen; regional mid-caps present.",
         "compliance": "Pensionskassen/Pensionsfonds are BaFin-supervised (VAG); Rueckdeckung must qualify as Planvermoegen via Verpfaendung/Treuhand to net against liabilities."
       },
-      "composite": 83.3,
+      "composite": 74.2,
       "dach_signals": {
         "est_players": "124 Pensionskassen (BaFin 2024) + numerous Unterstuetzungskassen/Pensionsfonds",
         "revenue_band_eur": "Administration mandates EUR 1-20m+; assets in the hundreds of billions EUR",
@@ -3178,14 +3408,24 @@
           "title": "Berenberg und BVV gemeinsame Plattform bAV",
           "url": "https://www.berenberg.de/news/pressemeldung/berenberg-und-bvv-gemeinsame-plattform-bav/",
           "note": "BVV as a large occupational pension vehicle building administration platforms"
+        },
+        {
+          "title": "BaFin - Wie Pensionskassen und -fonds mit Personalnot umgehen",
+          "url": "https://www.bafin.de/SharedDocs/Veroeffentlichungen/DE/Fachartikel/2025/fa_250212_Personalnot_Pensionskassen.html",
+          "note": "~97% of EbAV outsource functions wholly/partially - strong tailwind for admin providers"
+        },
+        {
+          "title": "BaFin - Aufsicht ueber Pensionskassen und Pensionsfonds",
+          "url": "https://www.bafin.de/DE/Aufsicht/VersichererPensionsfonds/Einrichtungen_bAV/AufsichtPKundPF/aufsicht_ueber_ebav_node.html",
+          "note": "Pensionskassen are BaFin-regulated insurers under VAG - regulated ownership"
         }
       ],
-      "confidence": 4,
-      "status": "grounded",
+      "confidence": 3,
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
-      "investability": "open",
-      "investability_note": "",
+      "investability": "restricted",
+      "investability_note": "Third-party admin/outsourcing providers acquirable, but Pensionskassen are BaFin-regulated insurers (often mutual/member-owned) - only the servicing companies, not the vehicles, are buyable.",
       "actionable": {},
       "child_ids": []
     },
@@ -3205,18 +3445,18 @@
         "recurring": 5,
         "fragmentation": 3,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 4,
+        "margin": 4,
+        "growth": 4,
+        "headroom": 4,
+        "reimbursement_risk": 2
       },
       "rationale": {
         "recurring": "Multi-year BPO contracts with per-participant administration fees; providers run administration, billing and reporting continuously.",
         "fragmentation": "A concentrated set of specialists (Lurse) and the Big-3 consultancies (WTW, Mercer, Aon) plus IT houses — mid-cap layer, few micro-players.",
         "compliance": "Administration must satisfy BetrAVG duties, actuarial reporting and data protection; complexity of 5 Durchfuehrungswege drives outsourcing."
       },
-      "composite": 83.3,
+      "composite": 74.2,
       "dach_signals": {
         "est_players": "~10-20 serious end-to-end TPAs/consultancies",
         "revenue_band_eur": "EUR 5-100m+ (mid-cap consultancies)",
@@ -3249,14 +3489,24 @@
           "title": "Software-Beratung fuer die bAV - DKbAV eG",
           "url": "https://www.dkbav.de/leistungen-software-beratung.php",
           "note": "Network of bAV service providers and administration software consulting"
+        },
+        {
+          "title": "bAV effizient managen: Outsourcing als Loesung? - Personalwirtschaft",
+          "url": "https://www.personalwirtschaft.de/themen/comp-ben/bav-effizient-managen-outsourcing-als-loesung-190089/",
+          "note": "structural outsourcing tailwind, cost/complexity drivers"
+        },
+        {
+          "title": "bAV und bKV Outsourcing - Pension Capital",
+          "url": "https://pensioncapital.de/bav-und-bkv-outsourcing/",
+          "note": "mid-cap end-to-end TPA example"
         }
       ],
       "confidence": 3,
-      "status": "grounded",
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Independent TPA/consultancy GmbHs (Lurse, Pension Capital, VM Vorsorge, cp partner); recurring admin/BPO fees not commission — freely acquirable, no dedicated PE platform yet.",
       "actionable": {},
       "child_ids": []
     },
@@ -3399,18 +3649,18 @@
         "recurring": 3,
         "fragmentation": 4,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 2,
+        "margin": 3,
+        "growth": 2,
+        "headroom": 4,
+        "reimbursement_risk": 4
       },
       "rationale": {
         "recurring": "Upfront placement fees dominate; some ongoing bestandsprovision, so less recurring than open-fund trail books.",
         "fragmentation": "Small specialist subset of §34f advisers plus a few product houses (Deutsche Finance, Habona, Jamestown).",
         "compliance": "Requires the specific §34f Abs.1 Nr.2/3 permission plus prospectus/KAGB and Vermögensanlagengesetz rules."
       },
-      "composite": 75.0,
+      "composite": 39.2,
       "dach_signals": {
         "est_players": "Minority of §34f holders (Nr.2/3 permission), few dozen product-anbieter",
         "revenue_band_eur": "Market: EUR 962m offered / EUR 572m placed equity in Publikums-AIF 2024",
@@ -3436,14 +3686,29 @@
           "title": "Angebots- und Platzierungszahlen 2024 (Scope, PDF)",
           "url": "https://www.scopeexplorer.com/files/get/?name=news.ReportFile/bytes/filename/mimetype/Scope_Geschlossene_Publikumsfonds_Angebots-_und__fj7r4DZ.pdf",
           "note": "Scope placement figures and top providers"
+        },
+        {
+          "title": "Merkblatt Bereichsausnahme Investmentfondsvermittlung - BaFin",
+          "url": "https://www.bafin.de/SharedDocs/Veroeffentlichungen/DE/Merkblatt/mb_150416_ausnahme_investmentfondsvermittlung.html",
+          "note": "AIF distribution restricted to §34f Nr.1-3 permitted intermediaries - licence gate"
+        },
+        {
+          "title": "Geschlossene Publikums-AIF - Hoertkorn Finanzen",
+          "url": "https://www.hoertkorn-finanzen.de/investment-wiki/geschlossener-publikums-aif/",
+          "note": "Small, shrunken Sachwerte segment (~EUR 572m placed 2024); commission-heavy"
+        },
+        {
+          "title": "Verifort Capital bringt neuen Publikums-AIF - cash-online",
+          "url": "https://www.cash-online.de/a/verifort-capital-bringt-neuen-publikums-aif-2-685843/",
+          "note": "Confirms narrow product-provider base and 2024 debate on Provisionsverbot for Sachwerte"
         }
       ],
       "confidence": 3,
-      "status": "grounded",
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
-      "investability": "open",
-      "investability_note": "",
+      "investability": "restricted",
+      "investability_note": "§34f Nr.2 GewO licence + Sachkunde/consent friction; commission model directly exposed to EU RIS / possible Provisionsverbot.",
       "actionable": {},
       "child_ids": []
     },
@@ -3603,18 +3868,18 @@
         "recurring": 5,
         "fragmentation": 3,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 3,
+        "margin": 4,
+        "growth": 4,
+        "headroom": 3,
+        "reimbursement_risk": 3
       },
       "rationale": {
         "recurring": "Umbrella earns recurring platform/asset-based fees plus advisers' AuM-linked trail; monthly recurring model.",
         "fragmentation": "Handful of umbrellas (BfV, NFS Netfonds, FFPB) host a fragmented base of independent advisers.",
         "compliance": "Whole value proposition is regulatory: adviser operates without own BaFin §15 WpIG licence; licence ownership sits with the umbrella (transfer friction on exit)."
       },
-      "composite": 83.3,
+      "composite": 65.0,
       "dach_signals": {
         "est_players": "~10-15 active Haftungsdach providers; hundreds of tied agents each",
         "revenue_band_eur": "Umbrella fee income embedded in pool groups (e.g. Netfonds EUR 237m group)",
@@ -3650,14 +3915,19 @@
           "title": "KWG §32 --> WpIG §15: Änderungen (NFS Netfonds)",
           "url": "https://www.nfs-netfonds.de/blog/details/vom-kwg-32-zum-wpig-paragraph-15/",
           "note": "Licence-regime shift and umbrella alternative"
+        },
+        {
+          "title": "Haftungsdach WpIG - Netfonds/NFS",
+          "url": "https://www.netfonds.de/geschaeftsmodelle/haftungsdach",
+          "note": "NFS = largest WpIG Haftungsdach, >EUR 15bn AuA, 465+ partners - fee income embedded in Netfonds group"
         }
       ],
-      "confidence": 4,
-      "status": "grounded",
+      "confidence": 3,
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
-      "investability": "open",
-      "investability_note": "",
+      "investability": "restricted",
+      "investability_note": "Haftungsdach itself is a BaFin-supervised WpI (§2(10) KWG / WpIG); acquisition triggers ownership-control (Inhaberkontrolle) approval - licence/consent friction.",
       "actionable": {},
       "child_ids": []
     },
@@ -3677,18 +3947,18 @@
         "recurring": 4,
         "fragmentation": 4,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 2,
+        "margin": 3,
+        "growth": 4,
+        "headroom": 4,
+        "reimbursement_risk": 2
       },
       "rationale": {
         "recurring": "Retainer/AuM fee models recur; but the niche is tiny, so absolute recurring base is small.",
         "fragmentation": "Very fragmented among ~300 §34h holders plus a few fee-based houses; no consolidator.",
         "compliance": "Requires distinct §34h GewO licence with statutory ban on accepting commissions; protected professional title, tight conduct rules; EU RIS could expand the model."
       },
-      "composite": 83.3,
+      "composite": 61.7,
       "dach_signals": {
         "est_players": "~300-331 §34h Honorar-Finanzanlagenberater (DE, 2024)",
         "revenue_band_eur": "EUR 0.2-2m typical; fee-based houses larger (VZ, Quirin)",
@@ -3724,14 +3994,24 @@
           "title": "VZ VermögensZentrum – unabhängige Vermögensverwaltung/Finanzberatung",
           "url": "https://www.vermoegenszentrum.de/",
           "note": "Fee-based advisory/wealth house, awarded best Vermögensverwalter"
+        },
+        {
+          "title": "Honorar-Finanzanlagenberater nach §34h GewO",
+          "url": "https://www.bundesweitefinanzberatung.de/nachrichten/ansicht/honorar-finanzanlagenberater-nach-34h-gewo-14785/",
+          "note": "Fee-only model, commission-forbidden; tiny cohort (~0.25% of commercial advisers)"
+        },
+        {
+          "title": "Gewerbeordnung § 34h Honorar-Finanzanlagenberater",
+          "url": "https://www.gesetze-im-internet.de/gewo/__34h.html",
+          "note": "Statutory basis: fee-only, person-bound permission; benefits from any Provisionsverbot debate"
         }
       ],
-      "confidence": 4,
-      "status": "grounded",
+      "confidence": 3,
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
-      "investability": "open",
-      "investability_note": "",
+      "investability": "restricted",
+      "investability_note": "§34h GewO is a person-tied Erlaubnis; only ~300-331 holders, permission does not automatically transfer on sale, requires re-registration of the responsible person.",
       "actionable": {},
       "child_ids": []
     },
@@ -3891,18 +4171,18 @@
         "recurring": 5,
         "fragmentation": 4,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 4,
+        "margin": 5,
+        "growth": 3,
+        "headroom": 3,
+        "reimbursement_risk": 2
       },
       "rationale": {
         "recurring": "Discretionary AuM mandates; recurring management fees.",
         "fragmentation": "~1,150 licensed firms, many sub-scale; regulation is driving exit/consolidation of those that could not meet FINIG.",
         "compliance": "FINMA licence + AO supervision mandatory; failure to qualify forced firms to shut or merge (regulatory shakeout)."
       },
-      "composite": 91.7,
+      "composite": 78.3,
       "dach_signals": {
         "est_players": "~1,149 FINMA-licensed portfolio managers (of 1,699 applications)",
         "revenue_band_eur": "AuM-fee based; wide dispersion, many <CHF 1bn AuM boutiques",
@@ -3926,14 +4206,29 @@
           "title": "FINMA – Portfolio managers and trustees",
           "url": "https://www.finma.ch/en/authorisation/portfolio-managers-and-trustees/",
           "note": "Licence requirement and supervisory-organisation model"
+        },
+        {
+          "title": "Das groesste Raetsel auf dem Schweizer Finanzplatz - finews",
+          "url": "https://www.finews.ch/news/finanzplatz/50993-eams-unabhaengige-vermoegensverwalter-uvv-konsolidierung-finma-lizenz",
+          "note": "~1,460 licensed managers, down from >2,600; FINIG driving consolidation; 121 to cease/merge"
+        },
+        {
+          "title": "Finma setzt Regeln zur konsolidierten Aufsicht in Kraft - finews",
+          "url": "https://www.finews.ch/news/banken/66840-finma-konsolidierte-aufsicht-rundschreiben-anhoerung",
+          "note": "FINMA circular 2025/4 on consolidated supervision of finance groups under FINIG"
+        },
+        {
+          "title": "Neue FINMA-Lizenzierungsvorgaben - PwC Schweiz",
+          "url": "https://www.pwc.ch/de/presse/neue-finma-lizenzierungsvorgaben-bezeichnen-wendepunkt-fuer-unabhaengige-vermoegensverwalter.html",
+          "note": "Regulatory turning point / cost pressure accelerating consolidation of AuM-fee boutiques"
         }
       ],
       "confidence": 4,
-      "status": "grounded",
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
-      "investability": "open",
-      "investability_note": "",
+      "investability": "restricted",
+      "investability_note": "FINMA portfolio-manager licence is entity-bound; change of control / qualified holdings require FINMA approval and SRO/Aufsichtsorganisation consent.",
       "actionable": {},
       "child_ids": []
     },
@@ -4747,18 +5042,18 @@
         "recurring": 5,
         "fragmentation": 3,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 3,
+        "margin": 4,
+        "growth": 5,
+        "headroom": 4,
+        "reimbursement_risk": 3
       },
       "rationale": {
         "recurring": "Renewal book with embedded prevention services; recurring annual premiums.",
         "fragmentation": "Small number of venture-backed MGAs (Baobab, CyberDirekt+Corvus/Orvia) — emerging, not yet consolidated.",
         "compliance": "Underwriting explicitly gated on NIS2/DSGVO-aligned security controls; prevention is compliance-driven."
       },
-      "composite": 83.3,
+      "composite": 69.2,
       "dach_signals": {
         "est_players": "A handful of DACH cyber MGAs/platforms",
         "revenue_band_eur": "GWP tens of EURm; early-stage",
@@ -4783,14 +5078,29 @@
           "title": "Assekuradeur Corvus bandelt mit Cyberdirekt an",
           "url": "https://www.pfefferminzia.de/gewerbe/neuer-vertriebsweg-assekuradeur-corvus-bandelt-mit-cyberdirekt-an/",
           "note": "Underwriting agency (Assekuradeur) distributing via specialist cyber platform"
+        },
+        {
+          "title": "Ausgruendung Assekuradeur/MGA - Cyber Risk Agency",
+          "url": "https://www.cyberriskagency.de/aktuelles/cyberrisiken-erkennen-und-managen-1.html",
+          "note": "German cyber MGA/Assekuradeur handling advice, underwriting, claims, prevention"
+        },
+        {
+          "title": "Managing General Agent - Versicherungsmonitor",
+          "url": "https://versicherungsmonitor.de/tag/managing-general-agent/",
+          "note": "MGA model context; cyber capacity dependent on carrier appetite"
+        },
+        {
+          "title": "Allianz Commercial Partnerschaft mit Cyber-Assekuradeur Coalition",
+          "url": "https://www.allianz.de/presse/mitteilungen/allianz-commercial-partnerschaft-mit-cyber-assekuradeur-coalition-jetzt-auch-in-deutschland/",
+          "note": "Strong secular cyber growth; handful of DACH platforms, mostly VC-funded"
         }
       ],
       "confidence": 3,
-      "status": "grounded",
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
-      "investability": "open",
-      "investability_note": "",
+      "investability": "restricted",
+      "investability_note": "Cyber MGAs (Stoik, Baobab, Corvus, Cyber Risk Agency) acquirable but mostly VC-backed insurtechs with carrier binding-authority consent needs; loss volatility can trigger capacity withdrawal.",
       "actionable": {},
       "child_ids": []
     },
@@ -5019,18 +5329,18 @@
         "recurring": 5,
         "fragmentation": 4,
         "compliance": 4,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 4,
+        "margin": 4,
+        "growth": 3,
+        "headroom": 4,
+        "reimbursement_risk": 2
       },
       "rationale": {
         "recurring": "Annual liability/cargo programmes renewed by every forwarder/haulier; multi-decade client relationships typical.",
         "fragmentation": "Many owner-operated regional transport-insurance boutiques (Speditions-Assekuranz, Schirmer, MARINE Assekuranz) plus MGAs; no dominant consolidator.",
         "compliance": "Carrier liability is statutory (HGB, min. sum EUR 600,000 for domestic carriage) and CMR for cross-border, making cover effectively mandatory to operate."
       },
-      "composite": 83.3,
+      "composite": 70.0,
       "dach_signals": {
         "est_players": "Many regional transport/marine specialist brokers & agencies",
         "revenue_band_eur": "EUR 0.5-5m typical owner-operated boutiques",
@@ -5066,14 +5376,29 @@
           "title": "FSA24 – Frachtführerversicherung: Verkehrshaftung & CMR",
           "url": "https://www.fsa24.de/",
           "note": "Niche haulier-liability specialist"
+        },
+        {
+          "title": "Die Verkehrshaftungsversicherung - Bernhard Assekuranz",
+          "url": "https://bernhard-assekuranz.com/verkehrshaftungsversicherung/",
+          "note": "specialty transport/marine broker niche"
+        },
+        {
+          "title": "Verkehrshaftungsversicherung - HDI",
+          "url": "https://www.hdi.de/versicherungen/transportversicherung/verkehrshaftungsversicherung/",
+          "note": "line demand / recurring specialty premium"
+        },
+        {
+          "title": "Industriemakler - Versicherungsmonitor",
+          "url": "https://versicherungsmonitor.de/tag/industriemakler/",
+          "note": "consolidation activity concentrated on generalist industrial, leaving specialty niches"
         }
       ],
-      "confidence": 4,
-      "status": "grounded",
+      "confidence": 3,
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Many owner-operated marine/transport specialty boutiques and Assekuradeure; independent §34d, freely acquirable — thinner dedicated-consolidator coverage than mainstream broking.",
       "actionable": {},
       "child_ids": []
     },
@@ -5294,18 +5619,18 @@
         "recurring": 5,
         "fragmentation": 4,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 3,
+        "margin": 4,
+        "growth": 3,
+        "headroom": 5,
+        "reimbursement_risk": 2
       },
       "rationale": {
         "recurring": "~17,000 Apotheken each need continuously renewing commercial packages tied to the pharmacy licence.",
         "fragmentation": "Served by small specialist brokers and networks rather than a dominant consolidator.",
         "compliance": "ApBetrO operating duties and Fremdbesitzverbot make cover a licence-adjacent necessity."
       },
-      "composite": 91.7,
+      "composite": 70.0,
       "dach_signals": {
         "est_players": "few dozen pharmacy-focused specialists",
         "revenue_band_eur": "EUR 0.5-3m typical",
@@ -5324,14 +5649,29 @@
           "title": "priass - Versicherungen fuer Heilberufe (Aerzte und Apotheker)",
           "url": "https://www.priass.de/heilberufe/versicherungen",
           "note": "Specialist advising pharmacists on profession-specific cover"
+        },
+        {
+          "title": "ApoRisk - Versicherungskonzept fuer Apotheken",
+          "url": "https://aporisk.de/",
+          "note": "Independent specialist broker with group-contract concepts for pharmacies"
+        },
+        {
+          "title": "PharmAssec - Apotheken Versicherung",
+          "url": "https://www.pharmassec.de/",
+          "note": "All-risk pharmacy specialist; niche with few dozen players, no dedicated consolidator"
+        },
+        {
+          "title": "Apothekenversicherung - Goettle & Partner",
+          "url": "https://www.goettle-partner.de/apotheke",
+          "note": "Commission P&C book robust; pharmacy count declining (Apothekensterben) modestly shrinks client base"
         }
       ],
       "confidence": 3,
-      "status": "grounded",
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Independent pharmacy-focused Makler (ApoRisk, PharmAssec, Goettle) freely acquirable; standard §34d licence only.",
       "actionable": {},
       "child_ids": []
     },
@@ -5351,18 +5691,18 @@
         "recurring": 5,
         "fragmentation": 3,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 3,
+        "margin": 4,
+        "growth": 3,
+        "headroom": 4,
+        "reimbursement_risk": 2
       },
       "rationale": {
         "recurring": "Chamber membership requires continuous Berufshaftpflicht, so policies renew annually for the professional's whole career.",
         "fragmentation": "AIA is a large anchor but a long tail of regional Bau-/Planer-specialist brokers remains acquirable below it.",
         "compliance": "Admission to the Architekten-/Ingenieurkammer is conditional on evidenced Berufshaftpflicht; since 2013 also builders/site managers/developers."
       },
-      "composite": 83.3,
+      "composite": 65.8,
       "dach_signals": {
         "est_players": "~50-100 specialist brokers for planning/construction professions",
         "revenue_band_eur": "EUR 1-5m typical",
@@ -5385,14 +5725,29 @@
           "title": "versicherdich.de - Berufshaftpflicht Architekten und Ingenieure",
           "url": "https://versicherdich.de/berufshaftpflicht/architekten-und-ingenieure/",
           "note": "Confirms mandatory chamber-linked cover and minimum sums"
+        },
+        {
+          "title": "Berufshaftpflicht fuer Architekten & Ingenieure - AIA",
+          "url": "https://www.aia.de/",
+          "note": "50+ yr berufsstaendischer Spezialmakler; recurring PI renewal book, chamber-mandated cover"
+        },
+        {
+          "title": "Berufshaftpflichtversicherung - Bauversicherungsmakler",
+          "url": "https://www.bauversicherungsmakler.de/berufshaftpflichtversicherung",
+          "note": "40+ yrs, 750+ insured planning offices - example of long-tail specialist target"
+        },
+        {
+          "title": "Berufshaftpflicht Architekten und Ingenieure - VHV",
+          "url": "https://www.vhv.de/firmen/produkte/haftpflichtversicherung/beruf",
+          "note": "Confirms mandatory-cover demand tied to chamber membership = stable base"
         }
       ],
-      "confidence": 4,
-      "status": "grounded",
+      "confidence": 3,
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Independent §34d specialist Makler-GmbHs freely acquirable; no dedicated PE consolidator for this profession niche.",
       "actionable": {},
       "child_ids": []
     },
@@ -5412,18 +5767,18 @@
         "recurring": 5,
         "fragmentation": 4,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 4,
+        "margin": 4,
+        "growth": 3,
+        "headroom": 3,
+        "reimbursement_risk": 2
       },
       "rationale": {
         "recurring": "Every haulier/forwarder needs continuously renewing Verkehrshaftung/cargo cover tied to operating licences and ADSp trading terms.",
         "fragmentation": "Multiple independent owner-run transport specialists (Schirmer, FSA24, Amschler, Bernhard) with no single dominant national roll-up yet.",
         "compliance": "HGB carrier liability, CMR for cross-border and ADSp minimum forwarding-insurance requirement make cover effectively mandatory."
       },
-      "composite": 91.7,
+      "composite": 74.2,
       "dach_signals": {
         "est_players": "~50-150 transport/logistics specialist brokers",
         "revenue_band_eur": "EUR 0.5-4m typical",
@@ -5454,14 +5809,29 @@
           "title": "Amschler Versicherungen - Verkehrshaftung",
           "url": "https://www.amschler-versicherungen.de/de/produkte/verkehrshaftung/",
           "note": "Transport-industry specialist broker"
+        },
+        {
+          "title": "Die Transportversicherung im Vergleich 2026 - Bernhard Assekuranz",
+          "url": "https://bernhard-assekuranz.com/transportversicherung/",
+          "note": "specialist transport broker landscape"
+        },
+        {
+          "title": "Maklerkonsolidierung in Deutschland - Versicherungsbote",
+          "url": "https://www.versicherungsbote.de/id/4939604/Maklerkonsolidierung-in-Deutschland-Entwicklungen-und-Perspektiven/",
+          "note": ">90 broker acquisitions 2025; commercial/industrial focus of consolidators"
+        },
+        {
+          "title": "MRH Trowe will weiter wachsen - procontra",
+          "url": "https://www.procontra-online.de/maklerpool/artikel/neuer-investor-steigt-bei-industriemakler-ein",
+          "note": "PE-backed industrial broker consolidator (TA Associates)"
         }
       ],
-      "confidence": 4,
-      "status": "grounded",
+      "confidence": 3,
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Independent §34d Makler with recurring Verkehrshaftung/Warentransport commission books; freely acquirable, but MRH Trowe/GGW already race commercial/industrial broking.",
       "actionable": {},
       "child_ids": []
     },
@@ -5620,18 +5990,18 @@
         "recurring": 5,
         "fragmentation": 4,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 3,
+        "margin": 3,
+        "growth": 3,
+        "headroom": 3,
+        "reimbursement_risk": 3
       },
       "rationale": {
         "recurring": "Kfz-Haftpflicht is legally mandatory and fleet framework contracts renew annually with heavy claims-servicing lock-in.",
         "fragmentation": "Many owner-operated fleet specialists (FVO, Dittmeier, vfm, Wahler) - FVO alone 23+ years owner-operated - with no dominant national roll-up.",
         "compliance": "PflVG makes motor-liability cover statutory; fleet halter-liability and duty-of-care obligations reinforce demand."
       },
-      "composite": 91.7,
+      "composite": 60.8,
       "dach_signals": {
         "est_players": "~100+ fleet/motor-fleet specialist brokers",
         "revenue_band_eur": "EUR 0.5-5m typical",
@@ -5657,14 +6027,19 @@
           "title": "Dittmeier - Grosskunden-Flottenversicherung",
           "url": "https://www.dittmeier.de/Versicherungen/Flottenversicherung/Gro%C3%9Fkunden-Flottenversicherung",
           "note": "Fleet-insurance specialist broker"
+        },
+        {
+          "title": "Flottenversicherung 2026 - Bernhard Assekuranz",
+          "url": "https://bernhard-assekuranz.com/flottenversicherung/",
+          "note": "Confirms fragmented specialist-broker landscape for motor fleet"
         }
       ],
-      "confidence": 4,
-      "status": "grounded",
+      "confidence": 3,
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Independent §34d Makler-GmbHs, freely acquirable; no consent bar.",
       "actionable": {},
       "child_ids": []
     },
@@ -5684,11 +6059,11 @@
         "recurring": 5,
         "fragmentation": 3,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 4,
+        "margin": 4,
+        "growth": 5,
+        "headroom": 4,
+        "reimbursement_risk": 1
       },
       "rationale": {
         "recurring": "Mehrjaehrige Verwaltungsvertraege mit Pro-Kopf-/Pro-Anwartschaft-Gebuehren; Bestand wird laufend administriert statt einmalig verkauft.",
@@ -5733,14 +6108,19 @@
           "title": "Betriebliche Altersversorgung (bAV) – Lurse",
           "url": "https://www.lurse.de/expertise/betriebliche-altersversorgung-bav/",
           "note": "End-to-End Administration ueber Plattform P-LIVE (Admin, Aktuariat, Abrechnung)"
+        },
+        {
+          "title": "bAV-Komplexitaet auslagern - Longial",
+          "url": "https://www.longial.de/aktuelles/news/bav-komplexitaet-auslagern/page",
+          "note": "Full outsourcing of benefit/retiree administration; growing outsourcing demand"
         }
       ],
-      "confidence": 4,
-      "status": "grounded",
+      "confidence": 3,
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Independent TPA/Verwaltungs-GmbHs are acquirable; some anchors carrier-owned (Longial/ERGO), but many independent specialist administrators remain.",
       "actionable": {},
       "child_ids": []
     },
@@ -5760,18 +6140,18 @@
         "recurring": 5,
         "fragmentation": 3,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 4,
+        "margin": 4,
+        "growth": 3,
+        "headroom": 4,
+        "reimbursement_risk": 1
       },
       "rationale": {
         "recurring": "Jaehrliche Bewertung zu jedem Bilanzstichtag ist Pflicht; Mandate laufen ueber Jahre stabil.",
         "fragmentation": "Heubeck marktbeherrschend, dazu Mercer/WTW und kleine spezialisierte Aktuar-Boutiquen wie H2B Aktuare.",
         "compliance": "HGB §253, IAS 19, EStG §6a und IDW-Verlautbarungen machen das Gutachten gesetzlich zwingend."
       },
-      "composite": 83.3,
+      "composite": 75.0,
       "dach_signals": {
         "est_players": "~30-60 aktuarielle Beratungs-/Gutachterfirmen (DAV-Mitglieder)",
         "revenue_band_eur": "EUR 0.5-5m typisch bei Aktuar-Boutiquen",
@@ -5804,14 +6184,24 @@
           "title": "Aktuarielle Dienstleistungen – Mercer",
           "url": "https://www.mercer.com/de-de/solutions/retirement/aktuarielle-dienstleistungen/",
           "note": "Aktuarielle Gutachten und bAV-Bewertung nach nationalen/internationalen Standards"
+        },
+        {
+          "title": "Versicherungsmathematische Gutachten - PCAK",
+          "url": "https://www.pcak.de/versicherungsmathematische-gutachten.html",
+          "note": "DAV/IVS actuary boutique; digital solutions, recurring mandates"
+        },
+        {
+          "title": "actuarconsult - versicherungsmathematische Gutachten",
+          "url": "https://www.actuarconsult.com/",
+          "note": "Fragmented field of ~30-60 boutiques; no PE consolidator at SME level"
         }
       ],
-      "confidence": 5,
-      "status": "grounded",
+      "confidence": 4,
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Actuarial boutiques (DAV/IVS) are acquirable professional-services firms; actuary is a regulated profession but firm ownership is unrestricted, only key-person retention risk.",
       "actionable": {},
       "child_ids": []
     },
@@ -5831,18 +6221,18 @@
         "recurring": 5,
         "fragmentation": 4,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 3,
+        "margin": 4,
+        "growth": 4,
+        "headroom": 5,
+        "reimbursement_risk": 1
       },
       "rationale": {
         "recurring": "Laufende Kontenfuehrung, Kapitalanlage-Reporting und Treuhandschaft ueber die gesamte Ansparphase.",
         "fragmentation": "Wenige Spezialisten (DBZWK, Foresight) neben Versicherer-Treuhandloesungen und Mercer – kein dominanter Konsolidierer.",
         "compliance": "Flexi-II-Gesetz und SGB IV verlangen gesetzliche Insolvenzsicherung des Wertguthabens (Treuhand/CTA)."
       },
-      "composite": 91.7,
+      "composite": 79.2,
       "dach_signals": {
         "est_players": "~10-20 spezialisierte Verwalter/Treuhaender",
         "revenue_band_eur": "EUR 0.5-5m typisch bei Spezialisten",
@@ -5872,14 +6262,24 @@
           "title": "Zeitwertkonten und Treuhandloesungen – Mercer",
           "url": "https://www.mercer.com/de-de/solutions/retirement/zeitwertkonten-und-treuhandloesungen/",
           "note": "Kontenadministration und Insolvenzsicherung ueber Mercer Treuhand"
+        },
+        {
+          "title": "Verwaltung - Deutsche Beratungsgesellschaft fuer Zeitwertkonten (DBZWK)",
+          "url": "https://www.dbzwk.de/leistungen/verwaltung/",
+          "note": "Specialist conception, administration, Wertkontenverwaltung and Treuhand since 2004"
+        },
+        {
+          "title": "Zeitwertkonto Anbieter im Vergleich 2025 - PensExpert",
+          "url": "https://pensexpert.de/2025/07/07/zeitwertkonto-anbieter-im-vergleich/",
+          "note": "Small handful of specialist administrators; recurring admin (25-35 EUR/person/yr) plus Treuhandgebuehr"
         }
       ],
-      "confidence": 4,
-      "status": "grounded",
+      "confidence": 3,
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Verwaltungs-/Treuhand-GmbHs (DBZWK, Foresight, PensExpert) are freely acquirable; no licence-transfer or ownership restriction.",
       "actionable": {},
       "child_ids": []
     },
@@ -5899,18 +6299,18 @@
         "recurring": 5,
         "fragmentation": 4,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 3,
+        "margin": 4,
+        "growth": 4,
+        "headroom": 5,
+        "reimbursement_risk": 2
       },
       "rationale": {
         "recurring": "Kasse verwaltet laufende Renten- und Anwartschaftsfaelle gegen Entgelt ueber Jahrzehnte.",
         "fragmentation": "Viele kleine spezialisierte Anbieter (AUTHENT, Deutsche Unterstuetzungskasse) neben Versicherer-Gruppenkassen; stark fragmentiert.",
         "compliance": "BetrAVG, EStG §4d, PSV-Insolvenzsicherung und steuerliche Anerkennung treiben den Verwaltungsbedarf."
       },
-      "composite": 91.7,
+      "composite": 74.2,
       "dach_signals": {
         "est_players": "~50+ Gruppen-/pauschaldotierte U-Kassen und Verwalter",
         "revenue_band_eur": "EUR 0.5-5m typisch bei Spezialverwaltern",
@@ -5940,14 +6340,24 @@
           "title": "DUK Deutsche Unterstuetzungskasse",
           "url": "https://www.deutsche-unterstuetzungskasse.de/",
           "note": "Unabhaengige, kongruent rueckgedeckte Unterstuetzungskasse als fuehrender Anbieter"
+        },
+        {
+          "title": "Raus aus der pauschaldotierten Unterstuetzungskasse - IPM",
+          "url": "https://www.ipm-bav.de/fachinfos/ipm-aktuell/pauschaldotierte-unterstuetzungskasse/",
+          "note": "IPM as specialist administrator; outsourced Rechts-/Steuer-/Verwaltungs-Backoffice"
+        },
+        {
+          "title": "Bundesverband pauschaldotierte Unterstuetzungskasse",
+          "url": "https://bundesverband-pduk.de/pauschaldotierte-unterstuetzungskasse/",
+          "note": "~50+ groups/administrators; niche with no PE consolidator, bAV tailwind"
         }
       ],
-      "confidence": 4,
-      "status": "grounded",
+      "confidence": 3,
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
-      "investability": "open",
-      "investability_note": "",
+      "investability": "restricted",
+      "investability_note": "Administration/back-office GmbHs (AUTHENT, IPM) acquirable, but the U-Kasse vehicle itself is typically member-owned e.V. - ownership sits in the admin GmbH, not the Kasse.",
       "actionable": {},
       "child_ids": []
     },
@@ -6753,18 +7163,18 @@
         "recurring": 5,
         "fragmentation": 4,
         "compliance": 4,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 3,
+        "margin": 5,
+        "growth": 4,
+        "headroom": 4,
+        "reimbursement_risk": 2
       },
       "rationale": {
         "recurring": "Monatliche/quartalsweise Abrechnungslaeufe als laufende SaaS-/BPO-Leistung; hohe Prozessbindung.",
         "fragmentation": "Zersplittert unter Spezialanbietern (b-tix, Inveda/IBePro) plus MVP-integrierte Loesungen - kein dominanter Standard-Consolidator.",
         "compliance": "BiPRO-Normen 430.x sind De-facto-Pflichtstandard fuer den Abrechnungsverkehr; korrekte Provisionsabrechnung ist regulatorisch/handelsrechtlich sensibel."
       },
-      "composite": 83.3,
+      "composite": 74.2,
       "dach_signals": {
         "est_players": "~10-20 Abrechnungs-/BiPRO-Spezialisten und Dienstleister",
         "revenue_band_eur": "EUR 1-15m typisch",
@@ -6793,14 +7203,19 @@
           "title": "Courtageabrechnung - b-tix",
           "url": "https://www.b-tix.de/tag/courtageabrechnung/",
           "note": "BiPRO-basierte Abrechnungs-/Web-App-Loesungen"
+        },
+        {
+          "title": "Provisionsabrechnung Software IBePro - Inveda.net",
+          "url": "https://ibepro.inveda.net/Provisionsabrechnung-Software.html",
+          "note": "pool/distributor commission-settlement software"
         }
       ],
       "confidence": 3,
-      "status": "grounded",
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Independent software/BPO GmbHs (b-tix, Inveda/IBePro, CODie, DEMV); asset-light SaaS/BPO fee revenue, freely acquirable, digitisation tailwind (BiPRO 430), no dedicated consolidator.",
       "actionable": {},
       "child_ids": []
     },
@@ -6820,18 +7235,18 @@
         "recurring": 5,
         "fragmentation": 4,
         "compliance": 4,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 3,
+        "margin": 4,
+        "growth": 4,
+        "headroom": 4,
+        "reimbursement_risk": 2
       },
       "rationale": {
         "recurring": "Laufende Bestands-/Betreuungscourtage solange die Vertraege bestehen; klassisches Annuitaeten-Servicing.",
         "fragmentation": "Zahlreiche Pools und Bestandsservicer (Fonds Finanz, Policen Direkt, DEMV) plus regionale Betreuer ohne dominanten Konsolidator verwaister Bestaende.",
         "compliance": "IDD-Betreuungspflicht, §34d-Erlaubnis und Beschwerdemanagement machen laufendes, regelkonformes Servicing verpflichtend."
       },
-      "composite": 83.3,
+      "composite": 70.0,
       "dach_signals": {
         "est_players": "~10-30 Pools/BPO-Servicer plus langer Schwanz",
         "revenue_band_eur": "EUR 2-30m Umsatz je Servicer",
@@ -6856,14 +7271,29 @@
           "title": "Ruhestand fuer Versicherungsmakler: Nachfolger gesucht? - DEMV",
           "url": "https://www.demv.de/blog/makleralltag/maklernachfolge",
           "note": "Dienstleister/Pool-Modelle fuer Bestandsbetreuung und Nachfolge"
+        },
+        {
+          "title": "Run-off-Bestaende auslagern: Auf das Wie kommt es an - April",
+          "url": "https://www.april.de/ueber-april/news-presse/details/news/detail/News/run-off-bestaende-auslagern-auf-das-wie-kommt-es-an/",
+          "note": "Confirms growing outsourcing/servicing demand for run-off portfolios"
+        },
+        {
+          "title": "Business Process Outsourcing (BPO) in der Versicherungsbranche - versicherungsbetriebe.de",
+          "url": "https://www.versicherungsbetriebe.de/it-itk/2020/business-process-outsourcing--bpo--in-der-versicherungsbranche.html",
+          "note": "Rising BPO demand, scale-economy margins, still nascent vs UK market"
+        },
+        {
+          "title": "Versicherungsbestand verkaufen - Deutsche Unternehmensverkauf",
+          "url": "https://www.deutsche-unternehmensverkauf.de/versicherungsbestand-verkaufen/",
+          "note": "Broker retirement wave = supply of verwaiste Bestaende (demographic tailwind)"
         }
       ],
       "confidence": 3,
-      "status": "grounded",
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Verwaltungs-/BPO-GmbHs freely acquirable; servicing of orphaned books needs §34d mandate but no structural ownership bar.",
       "actionable": {},
       "child_ids": []
     }
