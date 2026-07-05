@@ -3764,6 +3764,16 @@
           "title": "",
           "url": "https://aventis-advisors.com/tic-company-valuations/",
           "note": ""
+        },
+        {
+          "title": "GP Prüfservice – DGUV V3 Prüfungen vom Profi",
+          "url": "https://www.gp-pruefservice.de/",
+          "note": "Newly added independent target: nationwide owner-operated DGUV V3 inspector, portable equipment, >1m devices tested"
+        },
+        {
+          "title": "ESG Elektro Service Gesellschaft mbH",
+          "url": "https://www.esg-gesellschaft.de/",
+          "note": "Newly added independent target: family-run DGUV V3 / E-Check provider, 20+ yrs, nationwide (Köln-Frechen)"
         }
       ],
       "confidence": 5,
@@ -3774,10 +3784,8 @@
       "investability_note": "Freely acquirable, asset-light, statutorily-mandated recurring service (private employer-pay); FLAG - 3i-backed OMS Pruefservice is already the DACH consolidator (900+ staff, 43 sites), so whitespace is closing fast.",
       "actionable": {
         "named_targets": [
-          "OMS Prüfservice (DGUV V3, 41+ Standorte bundesweit) — oms-pruefservice.de",
-          "E+Service+Check GmbH (zert. Fachbetrieb, ortsveränderliche Geräte) — e-service-check.de",
-          "Piepenbrock Prüfservice DGUV V3 (FM-Konzern-Sparte) — piepenbrock.de",
-          "GP Prüfservice (DGUV V3 Prüfungen) — gp-pruefservice.de"
+          "GP Prüfservice GmbH (unabhängiger DGUV V3 Prüfdienstleister, ortsveränderliche Geräte, bundesweit) — gp-pruefservice.de",
+          "ESG Elektro Service Gesellschaft mbH (familiengeführt, DGUV V3 / E-Check bundesweit, Köln-Frechen) — esg-gesellschaft.de"
         ],
         "ebitda_margin": "12-20% (TIC-sector band, Aventis Advisors)",
         "entry_multiple": "n/a — proprietary; sector ref 7-8x EBITDA sub-EUR30m TIC (Aventis Advisors)",
@@ -6104,10 +6112,9 @@
       "investability_note": "",
       "actionable": {
         "named_targets": [
-          "ecoprotec GmbH (SiGeKo / Baustellensicherheit) — ecoprotec.de",
+          "ecoprotec GmbH (Paderborn; SiGeKo / Baustellensicherheit) — ecoprotec.de",
           "FKC GmbH (Baustellenkoordination SiGeKo) — fkc-gmbh.de",
-          "sigekos.de (Netzwerk von Sicherheitskoordinatoren) — sigekos.de",
-          "TÜV Rheinland (SiGeKo-Koordination Großbaustellen) — tuv.com"
+          "sigekos.de (Netzwerk zertifizierter Sicherheits-/Gesundheitsschutzkoordinatoren) — sigekos.de"
         ],
         "ebitda_margin": "omit — no niche-specific source (day-rate project services)",
         "entry_multiple": "n/a — proprietary; sector ref 7-8x EBITDA sub-EUR30m TIC (Aventis Advisors)",
@@ -6270,9 +6277,8 @@
       "actionable": {
         "named_targets": [
           "ias-Gruppe Messstelle (DAkkS-akkreditiert n. §7 GefStoffV; Gefahrstoff/Lärm/Vibration) — ias-gruppe.de",
-          "Müller-BBM Industry Solutions GmbH (Messstelle Gefahrstoffe/Schall) — muellerbbm.de",
-          "SPHÄRA GmbH (Arbeitsplatzmessungen & Gefahrstoffe) — sphaera.de",
-          "DEKRA (akkreditierte Messstelle §7 Abs.10 GefStoffV) — dekra.de"
+          "Müller-BBM Industry Solutions GmbH (unabhängige DAkkS-Messstelle Gefahrstoffe/Schall, ~400 MA, Reutlingen) — muellerbbm.de",
+          "SPHÄRA GmbH (Rottenburg a. N.; Arbeitsplatzmessungen & Gefahrstoffe) — sphaera.de"
         ],
         "ebitda_margin": "12-20% (TIC-sector band; sampling+lab model — Aventis Advisors)",
         "entry_multiple": "n/a — proprietary; sector ref 7-8x EBITDA sub-EUR30m TIC (Aventis Advisors)",
@@ -6371,8 +6377,7 @@
         "named_targets": [
           "Praevencio (Kombi Brandschutzhelfer + Ersthelfer an einem Tag, bundesweit) — praevencio.de",
           "Help First Akademie (DGUV 205-023, 50+ Standorte) — helpfirst.de",
-          "Brandschutz-Zentrale (Brandschutz/Erste-Hilfe-Schulungen, online + vor Ort) — brandschutz-zentrale.de",
-          "DEKRA Akademie (Brandschutzhelfer-Ausbildung inhouse bundesweit) — dekra-akademie.de"
+          "Brandschutz-Zentrale (Brandschutz-/Erste-Hilfe-Schulungen, online + vor Ort) — brandschutz-zentrale.de"
         ],
         "ebitda_margin": "omit — no niche-specific source (trainer-utilisation model)",
         "entry_multiple": "n/a — proprietary; sector ref 7-8x EBITDA sub-EUR30m TIC (Aventis Advisors)",
@@ -6770,6 +6775,16 @@
           "title": "",
           "url": "https://aventis-advisors.com/tic-company-valuations/",
           "note": ""
+        },
+        {
+          "title": "datenschutz cert GmbH – Akkreditierungen & Anerkennungen",
+          "url": "https://www.datenschutz-cert.de/ueber-uns/akkreditierungen-und-anerkennungen",
+          "note": "Newly added independent target: DAkkS-accredited ISO/IEC 27001 body, owner-managed (GF Dr. Maseberg), Bremen"
+        },
+        {
+          "title": "GUTcert international (AFNOR Group)",
+          "url": "https://www.gut-cert.de/en/the-gutcert/gutcert-international",
+          "note": "GUTcert removed as target: part of French AFNOR Group since 2008 (strategic-owned)"
         }
       ],
       "confidence": 4,
@@ -6780,10 +6795,8 @@
       "investability_note": "",
       "actionable": {
         "named_targets": [
-          "DQS (DAkkS-akkreditierte ISMS-Zertifizierung) — dqs.de",
-          "TÜV SÜD (DAkkS-akkreditiert n. ISO/IEC 27006-1) — tuvsud.com",
-          "SOCOTEC Certification Deutschland (Halblech; DAkkS-akkreditiert) — socotec-certification-international.de",
-          "GUTcert (Berlin; ISO/IEC 27001) — gut-cert.de"
+          "DQS (unabhängige, DAkkS-akkreditierte ISMS-Zertifizierung; getragen von DGQ/DIN, nicht strategisch-/PE-eigen) — dqs.de",
+          "datenschutz cert GmbH (Bremen; inhabergeführte DAkkS-akkreditierte ISO/IEC 27001-/27701-Zertifizierungsstelle) — datenschutz-cert.de"
         ],
         "ebitda_margin": "12-20% (TIC-sector band, Aventis Advisors)",
         "entry_multiple": "n/a — proprietary; sector ref: TIC targets >EUR30m attract double-digit EV/EBITDA, <EUR30m 7-8x (Aventis Advisors)",
@@ -7434,6 +7447,21 @@
           "title": "",
           "url": "https://aventis-advisors.com/tic-company-valuations/",
           "note": ""
+        },
+        {
+          "title": "FADER Umweltanalytik GmbH – Home",
+          "url": "https://fader.de/en/",
+          "note": "Newly added independent target: DAkkS 17025 environmental lab, Karlsruhe, ~25 staff, 40 yrs"
+        },
+        {
+          "title": "IUL Vorpommern – akkreditiertes Umweltlabor Greifswald",
+          "url": "https://iul-vorpommern.de/",
+          "note": "Newly added independent target: standalone DAkkS lab (water/soil/air), since 1991"
+        },
+        {
+          "title": "SGS acquires SYNLAB Analytics & Services (2021)",
+          "url": "https://www.sgs.com/en/news/2021/04/synlab-analytics-and-services-becomes-sgs-analytics",
+          "note": "SGS Analytics removed as target: arm of public SGS, a consolidator not a bolt-on"
         }
       ],
       "confidence": 3,
@@ -7444,10 +7472,9 @@
       "investability_note": "",
       "actionable": {
         "named_targets": [
-          "AGROLAB GROUP (DAkkS D-PL-14289; Boden/Abfall/Eluat/Wasser, Multi-Standort DE) — agrolab.com",
-          "Eurofins Umwelt Deutschland (17025-akkreditiertes LaN­etzwerk) — eurofins.de/umwelt",
-          "SGS Analytics (ex-SYNLAB A&S, DE/Benelux Umweltlabore) — sgs.com",
-          "GEO data Umwelt (regionales DAkkS-Wasser-/Umweltlabor, Bolt-on-Kandidat) — geodata-umwelt.de"
+          "GEO data Umwelt (Garbsen; regionales DAkkS-Wasser-/Umweltlabor, ~40 MA, Bolt-on-Kandidat) — geodata-umwelt.de",
+          "FADER Umweltanalytik GmbH (Karlsruhe; unabhängiges DAkkS-17025-Umweltlabor, ~25 MA, Wasser/Boden/Altlasten) — fader.de",
+          "IUL Vorpommern (Greifswald; unabhängiges DAkkS-Umweltlabor Trinkwasser/Abwasser/Boden/Raumluft, seit 1991) — iul-vorpommern.de"
         ],
         "ebitda_margin": "12-20% (TIC-sector band; lab testing is asset-intensive so at lower end — Aventis Advisors)",
         "entry_multiple": "sub-EUR30m targets ~7-8x EBITDA, >EUR30m double-digit EV/EBITDA (Aventis Advisors); precedent: SGS bought SYNLAB A&S for ~EUR550m (2021)",
@@ -7786,6 +7813,21 @@
           "title": "",
           "url": "https://aventis-advisors.com/tic-company-valuations/",
           "note": ""
+        },
+        {
+          "title": "LKS mbH – Labor Futtermittel (LKV Sachsen)",
+          "url": "https://www.lkvsachsen.de/en/company/lks-mbh/",
+          "note": "Newly added independent target: QS-approved, DAkkS-accredited feed/agri lab, Lichtenwalde; not AGROLAB/Eurofins-owned"
+        },
+        {
+          "title": "LKS Zertifizierung / Akkreditierung",
+          "url": "https://www.lks-mbh.com/zertifizierung/",
+          "note": "DAkkS accreditation (feed, agriculture, food)"
+        },
+        {
+          "title": "QS-Futtermittelmonitoring – anerkannte Labore (Übersichtskarte)",
+          "url": "https://q-s.de/certification-bodies-and-laboratories/feed-monitoring-overview-map-approved-laboratories.html",
+          "note": "Directory of QS-approved feed labs; AGROLAB/Eurofins are consolidators in the same list"
         }
       ],
       "confidence": 3,
@@ -7796,9 +7838,7 @@
       "investability_note": "",
       "actionable": {
         "named_targets": [
-          "AGROLAB LUFA GmbH (Kiel; DIN EN 17025, GMP+/QS-anerkannt für Futtermittel) — agrolab.com",
-          "Eurofins (Futter-/Agraranalytik im LaN­etzwerk) — eurofins.de",
-          "AGROLAB Agrar und Umwelt GmbH (Kiel; Dünger/Boden/Ernteprodukte) — agrolab.com"
+          "LKS mbH (Lichtenwalde/Sachsen; DAkkS-akkreditiertes, QS-/GMP+-anerkanntes Futter-/Agrarlabor, unabhängig von AGROLAB/Eurofins) — lks-mbh.com"
         ],
         "ebitda_margin": "12-20% (TIC-sector band; asset-intensive lab, lower end — Aventis Advisors)",
         "entry_multiple": "sub-EUR30m ~7-8x EBITDA; >EUR30m double-digit (Aventis Advisors)",

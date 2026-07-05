@@ -333,6 +333,11 @@
           "title": "",
           "url": "https://www.capstonepartners.com/insights/article-industrial-environmental-services-market-update/",
           "note": ""
+        },
+        {
+          "title": "SCHNURRER Kanaltechnik - Unternehmen (independent family firm, Güteschutz-Kanalbau)",
+          "url": "https://kanaltechnik.com/wp/unternehmen",
+          "note": "Confirms independent, owner-operated regional TV-Inspektion/Dichtheitsprüfung specialist"
         }
       ],
       "confidence": 4,
@@ -343,10 +348,9 @@
       "investability_note": "Hundreds of privately-held owner-operated certified operators; freely acquirable (private property-side work is no municipal monopoly), though municipal sewer contracts run via public tender.",
       "actionable": {
         "named_targets": [
-          "Kanalservice Holding AG / Kanalservice Gruppe (kanalservicegruppe.com) - active DE/CH Buy & Build consolidator in underground-infrastructure services",
-          "Swietelsky-Faber Kanalsanierung GmbH (swietelsky-faber.de) - Prüftechnik / TV-Inspektion",
-          "SCHNURRER Kanaltechnik GmbH (kanaltechnik.com) - TV-Inspektion, Dichtheitsprüfung, Deformationsmessung",
-          "MB Rohrfuchs (mb-rohrfuchs.de) - regional TV-Inspektion / Dichtheitsprüfung operator"
+          "SCHNURRER Kanaltechnik GmbH (kanaltechnik.com) - family-owned Weiden operator: TV-Inspektion, Dichtheitsprüfung, Deformationsmessung (Güteschutz-Kanalbau member)",
+          "MB Rohrfuchs (mb-rohrfuchs.de) - regional owner-operated TV-Inspektion / Dichtheitsprüfung operator",
+          "kanalprofi GmbH (kanalprofi.de) - owner-operated regional Kanalinspektion / Dichtheitsprüfung / Reinigung specialist"
         ],
         "ebitda_margin": "omit - no reliable public band for this niche",
         "entry_multiple": "n/a - proprietary; note an active strategic consolidator (Kanalservice Holding) already competing for assets",
@@ -1407,10 +1411,9 @@
       "investability_note": "Owner-operated acoustics Ingenieurbueros, asset-light, no Fremdbesitzverbot; firm-level accreditation transfers on acquisition.",
       "actionable": {
         "named_targets": [
-          "Akustikbüro Dahms GmbH (akustikbuero.de) - §29b BImSchG bekanntgegebene Messstelle for noise/vibration",
-          "BEKON Lärmschutz & Akustik GmbH (bekon-akustik.de) - §29b Messstelle, consulting + planning",
-          "LAIRM CONSULT GmbH (lairm.de) - nationwide acoustics/Immissionsschutz Ingenieurbüro",
-          "Normec Uppenkamp (normecuppenkamp.com) - §29b Messstelle, already part of PE-backed Normec buy-and-build TIC group"
+          "Akustikbüro Dahms GmbH (akustikbuero.de) - independent §29b BImSchG bekanntgegebene Messstelle for noise/vibration",
+          "BEKON Lärmschutz & Akustik GmbH (bekon-akustik.de) - independent §29b Messstelle, consulting + planning",
+          "LAIRM CONSULT GmbH (lairm.de) - independent nationwide acoustics / Immissionsschutz Ingenieurbüro"
         ],
         "ebitda_margin": "12-20% (TIC / accredited-testing proxy band, Aventis Advisors) - directional only",
         "entry_multiple": "n/a - proprietary for SME add-ons; sector context: listed TIC ~12x EV/EBITDA, 10-yr average 14.2x (Aventis)",
@@ -3127,6 +3130,16 @@
           "title": "",
           "url": "https://www.polygongroup.com/de-DE/service/wasserschaden/wasserschadensanierung/",
           "note": ""
+        },
+        {
+          "title": "MGN-Pura GmbH - Unternehmen (TÜV-certified independent Schimmelsanierer)",
+          "url": "https://www.mgn-pura.de/unternehmen/",
+          "note": "Independent owner-managed certified mould remediation SME (replaces PE-owned majors BELFOR/Polygon)"
+        },
+        {
+          "title": "Michael Grübel GmbH - Schimmelbeseitigung",
+          "url": "https://www.gruebel-kg.de/schimmelbeseitigung/",
+          "note": "Independent owner-operated certified Schimmelsanierung specialist, 30+ yrs"
         }
       ],
       "confidence": 3,
@@ -3137,9 +3150,8 @@
       "investability_note": "Highly fragmented (~28,000 firms, only ~287 TUV-certified), owner-operated, no financial consolidator; freely acquirable. Insurance/private-pay revenue.",
       "actionable": {
         "named_targets": [
-          "BELFOR Deutschland GmbH (belfor.com) - global damage-restoration leader incl. Schimmelpilzbekämpfung",
-          "Polygon Deutschland (polygongroup.com) - water-damage & mould restoration, operating since 1992",
-          "Heinrich Schmid - trade group with Schadstoff/Schimmel capability"
+          "MGN-Pura GmbH (mgn-pura.de) - owner-led TÜV-/ISO-9001/14001-certified Schimmelsanierung specialist, 20+ yrs in northern Germany",
+          "Michael Grübel GmbH (gruebel-kg.de) - owner-operated Schimmelbeseitigung firm, 30+ yrs, TÜV-Rheinland-trained staff"
         ],
         "ebitda_margin": "omit - no reliable public band for this niche",
         "entry_multiple": "n/a - proprietary",
@@ -5266,6 +5278,11 @@
           "title": "",
           "url": "https://www.tanso.de/en/blog/epr-under-the-ppwr-extended-producer-responsibility-modulated-fees-and-registration-in-the-lucid-register",
           "note": ""
+        },
+        {
+          "title": "Deutsche Recycling Service GmbH - Umwelt-Compliance",
+          "url": "https://deutsche-recycling.com/",
+          "note": "Independent full-service EPR compliance adviser (not a dual-system incumbent like Interzero/Reclay)"
         }
       ],
       "confidence": 4,
@@ -5276,10 +5293,8 @@
       "investability_note": "Asset-light advisory freely acquirable; recurring B2B compliance fees, no ownership restriction.",
       "actionable": {
         "named_targets": [
-          "Deutsche Recycling GmbH (deutsche-recycling.com) - LUCID registration + multi-country EPR compliance-as-a-service",
-          "Lizenzero (Interzero) - online packaging-licensing platform",
-          "Reclay Group - dual-system operator + EPR advisory / authorised representative",
-          "take-e-way / EPR-Compliance.com (epr-compliance.com) - producer registration & reporting service"
+          "Deutsche Recycling Service GmbH (deutsche-recycling.com) - independent LUCID registration + multi-country EPR compliance-as-a-service provider",
+          "take-e-way GmbH / EPR-Compliance.com (epr-compliance.com) - independent ISO-9001/14001-certified producer registration & reporting service"
         ],
         "ebitda_margin": "omit - no reliable public band for this niche",
         "entry_multiple": "n/a - proprietary",
@@ -5635,6 +5650,16 @@
           "title": "",
           "url": "https://resources.bauer.de/de/pfas",
           "note": ""
+        },
+        {
+          "title": "PLANREAL - Biologische Boden- & Grundwassersanierung",
+          "url": "https://planreal.com/de/",
+          "note": "Independent in-situ soil/groundwater remediation operator (regional Altlasten add-on)"
+        },
+        {
+          "title": "Aquifex GS - In-situ Altlastensanierung",
+          "url": "https://aquifex-gs.de/altlastensanierung.html",
+          "note": "Independent in-situ remediation specialist (regional Altlasten add-on)"
         }
       ],
       "confidence": 4,
@@ -5645,9 +5670,9 @@
       "investability_note": "Private specialist remediation/consulting firms, polluter-pays project revenue; freely acquirable.",
       "actionable": {
         "named_targets": [
-          "Cornelsen Umwelttechnologie GmbH (cornelsen.group) - patented PerfluorAd PFAS treatment + mobile fire-water/soil-washing systems",
-          "BAUER Resources GmbH (resources.bauer.de) - mobile PFAS soil-washing and groundwater purification plants",
-          "Arcadis Germany - multinational remediation engineering incumbent"
+          "Cornelsen Umwelttechnologie GmbH (cornelsen.group) - independent, patented PerfluorAd PFAS treatment + mobile fire-water/soil-washing systems (platform pick)",
+          "PLANREAL AG (planreal.com) - independent in-situ biological soil & groundwater remediation operator (DACH)",
+          "Aquifex GS GmbH (aquifex-gs.de) - independent in-situ Altlastensanierung specialist (remediation-well construction to operation)"
         ],
         "ebitda_margin": "omit - no reliable public band for this niche",
         "entry_multiple": "n/a - proprietary (premium project pricing)",
@@ -7512,10 +7537,9 @@
       "investability_note": "Thousands of DWA-certified owner-operated Wartungsfirmen, virgin fragmentation with no financial consolidator; private homeowner-pay mandated maintenance is robust; low ticket per visit caps scale.",
       "actionable": {
         "named_targets": [
-          "Kläranlagenprofi (klaeranlagenprofi.de) - Wartung of full/partial-biological Kleinkläranlagen",
-          "Dietz AW (dietz-aw.de) - Kleinkläranlagen Wartung, Reparatur, Sanierung",
-          "ATB Water (atbwater.com) - manufacturer Wartungsservice",
-          "Krenkel AWT (krenkel-awt.de) - Wartungsverträge KKA"
+          "Kläranlagenprofi (klaeranlagenprofi.de) - independent Wartung of full/partial-biological Kleinkläranlagen",
+          "Dietz AW (dietz-aw.de) - independent Kleinkläranlagen Wartung, Reparatur, Sanierung",
+          "Krenkel AWT (krenkel-awt.de) - independent certified Wartungsverträge KKA operator"
         ],
         "ebitda_margin": "omit - no reliable public band for this niche",
         "entry_multiple": "n/a - proprietary",
@@ -8250,6 +8274,11 @@
           "title": "",
           "url": "https://aventis-advisors.com/tic-company-valuations/",
           "note": ""
+        },
+        {
+          "title": "Über Triwala - independent DAkkS-accredited Legionella lab",
+          "url": "https://triwala.de/ueber-uns/ueber-triwala/",
+          "note": "Independent accredited sampler + lab (replaces TIC majors SGS/Eurofins/AGROLAB)"
         }
       ],
       "confidence": 4,
@@ -8260,10 +8289,8 @@
       "investability_note": "Statutory TrinkwV periodic testing = large recurring, private landlord-pay TAM; lab layer asset-light. Eurofins/SGS/AGROLAB already rolling up labs but sampling network still fragmented and acquirable.",
       "actionable": {
         "named_targets": [
-          "SGS Institut Fresenius GmbH (sgs-institut-fresenius.de) - accredited Legionella sampling & analysis per TrinkwV/42. BImSchV",
-          "Eurofins Umwelt (eurofins.de) - accredited drinking-water/Legionella labs, regional sampling",
-          "AGROLAB Group (agrolab.com) - accredited sampling techs across DE + AT",
-          "ÖHMI Analytik GmbH - accredited water-analysis lab"
+          "Triwala GmbH (triwala.de) - independent DAkkS-accredited microbiological lab, founded 2011, 40+ staff, nationwide statutory Legionella sampling & analysis",
+          "ÖHMI Analytik GmbH - independent accredited water-analysis lab / regional sampler"
         ],
         "ebitda_margin": "12-20% (TIC / accredited-testing band, Aventis Advisors); premium lab operators 18-23%",
         "entry_multiple": "n/a - proprietary for SME add-ons; sector context: listed TIC ~12x EV/EBITDA, 10-yr avg 14.2x (Aventis); environmental-lab M&A live (ALS acquired German lab Wessling Group, 2024)",

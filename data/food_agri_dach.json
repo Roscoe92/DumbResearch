@@ -2470,6 +2470,11 @@
           "title": "",
           "url": "https://www.envitec-biogas.com/service/repowering",
           "note": ""
+        },
+        {
+          "title": "BHKW-Service - ServiceUnion GmbH",
+          "url": "https://serviceunion.de/bhkw-service",
+          "note": "Manufacturer-independent BHKW/biogas service network (2,000+ CHP, 800 plants, 8 sites) - independent target replacing Frankfurt-listed EnviTec Biogas AG's captive service arm"
         }
       ],
       "confidence": 4,
@@ -2481,8 +2486,7 @@
       "actionable": {
         "named_targets": [
           "bwe Energiesysteme GmbH - manufacturer-independent BHKW service (MAN/MWM/Jenbacher/2G), specialising in repowering old spark-ignition engines (verified bwe-energie.de)",
-          "EnviTec Service GmbH - technical service, repowering, flexibilisation across the installed base (verified envitec-biogas.com)",
-          "2G Energy AG - CHP OEM with service partner network; strategic anchor/exit route (verified)"
+          "ServiceUnion GmbH - manufacturer-independent BHKW/biogas service network servicing 2,000+ CHP units & 800 plants from 8 German sites, full scope from scheduled maintenance to complete repowering of existing plants (verified serviceunion.de)"
         ],
         "entry_multiple": "n/a - proprietary (specialist service firms; no public DACH comps)",
         "bnb_angle": "The ~9,600 German biogas plants are ageing out of 20-year EEG tariffs and must flexibilise/repower CHP to chase capacity-market and CO2 upside; roll up manufacturer-independent service crews into a national maintenance platform with recurring service contracts plus repowering project pipeline as a value kicker.",
@@ -3518,7 +3522,7 @@
       "actionable": {
         "named_targets": [
           "Schönherr (schoenherr-technik.de) - manufacturer-independent service/repair of butchery machines of all makes (verified)",
-          "Handtmann Service GmbH & Co. KG - OEM service network (fillers/portioning) for meat & dairy, Biberach + Georgsmarienhütte hubs (verified handtmann.com)",
+          "G.I.S. AG (Gesellschaft für Industrieservice) - manufacturer-independent 'Food-Perfect' maintenance (electrical + mechanical) for large butcheries, slaughterhouses, bakeries & breweries, 30+ yrs, works to IFS requirements (verified gis-ag.de)",
           "Lindemann Industrie-Service - manufacturer-independent maintenance/repair of processing equipment (verified lindemann-service.de)"
         ],
         "entry_multiple": "n/a - proprietary (owner-operated service SMEs; no public comps)",
@@ -4077,6 +4081,16 @@
           "title": "",
           "url": "https://hercowater.com/en/sectors/watertreatment-for-beverage-industry",
           "note": ""
+        },
+        {
+          "title": "Getränkeindustrie - ATN Wasseraufbereitung GmbH",
+          "url": "https://www.atn-wasseraufbereitung.de/branchen/getrankeindustrie",
+          "note": "Family-run mid-sized process/beverage water-treatment firm (est. 1992) incl. maintenance of existing plant - independent bolt-on replacing PWG-Group-owned Herco"
+        },
+        {
+          "title": "von Hebel Wasseraufbereitung GmbH",
+          "url": "https://www.vonhebel-wasseraufbereitung.de/",
+          "note": "3rd-gen family firm (est. 1964); manufacturer-independent service/maintenance/repair of existing water-treatment plant - independent recurring-service bolt-on"
         }
       ],
       "confidence": 4,
@@ -4087,8 +4101,9 @@
       "investability_note": "~150-300 privately owned service firms freely acquirable; strategics (Veolia, Kurita) present at the top but the maintenance/Legionella-monitoring service layer remains fragmented.",
       "actionable": {
         "named_targets": [
-          "EUWA H.H. Eumann GmbH (Gärtringen) - 50+ yrs beverage-industry water treatment, made-in-Germany turnkey + service/system support (verified euwa.com)",
-          "Herco Wassertechnik GmbH - ~80 yrs, part of international PWG Group; brewery/dairy/beverage systems with nationwide maintenance, validation & retrofit service (verified hercowater.com)"
+          "EUWA H.H. Eumann GmbH (Gärtringen) - 50+ yrs beverage-industry water treatment, made-in-Germany turnkey + service/system support; independent (verified euwa.com)",
+          "ATN Wasseraufbereitung GmbH (Aqua Technologie Nörpel, est. 1992) - mid-sized inhabergeführtes Familienunternehmen for process/brewing water; planning through maintenance & optimisation of existing softening/RO plant for beverage & brewery producers (verified atn-wasseraufbereitung.de)",
+          "von Hebel Wasseraufbereitung GmbH (Karlsruhe, est. 1964, 3rd-generation family) - manufacturer-independent service, maintenance & repair of existing water-treatment plant for industrial/commercial customers (verified vonhebel-wasseraufbereitung.de)"
         ],
         "entry_multiple": "n/a - proprietary (mid-market industrial-service Mittelstand; no reliable public comps)",
         "bnb_angle": "F&B producers need continuous softening/RO/disinfection uptime and validation, generating recurring service/retrofit revenue on installed plant; acquire a systems anchor (EUWA/Herco-type) and bolt on regional service firms to convert one-off plant sales into a recurring maintenance + consumables annuity across breweries and dairies.",
@@ -5220,6 +5235,11 @@
           "title": "",
           "url": "https://ctacquisitions.com/answers/why-pest-control-higher-multiples/",
           "note": ""
+        },
+        {
+          "title": "Lebensmittel- & Pharmaindustrie – hentschke + sawatzki",
+          "url": "https://hentschke-sawatzki.de/branchen/lebensmittel-und-pharmaindustrie/",
+          "note": "Owner-led family business (est. 1954); market leader IFS Food/pharma pest-monitoring - independent bolt-on replacing EQT-owned Anticimex and FTSE-listed Rentokil"
         }
       ],
       "confidence": 4,
@@ -5230,11 +5250,10 @@
       "investability_note": "Freely acquirable B2B service; only friction is Sachkunde §15 IfSG/biocide licensing of technicians, which transfers with the business. Rentokil/Anticimex already bundle this into multi-site food-industry contracts.",
       "actionable": {
         "named_targets": [
-          "Anticimex Deutschland - EQT-backed market leader, digital IFS Food/IFS Logistics real-time reporting, 480+ staff DE (verified anticimex.de)",
-          "Rentokil Initial GmbH - global consolidator, IFS-capable food-facility contracts, GPCB co-founder (verified rentokil-initial.de)",
-          "APC AG - 30+ years, nationwide expert network, strong food-industry reputation (verified, GPCB co-founder)"
+          "APC AG - founder-run (est. 1995 by M. Kahlo/H. Glöckl, converted to AG in 2001 to stay independent), nationwide expert network, strong food-industry/IFS Food reputation, GPCB co-founder (verified apc-ag.de)",
+          "hentschke + sawatzki (Neumünster) - owner-led family business est. 1954, market leader in IFS Food/pharma pest monitoring, digital ePermanent-Monitoring, nationwide; genuinely independent SME (verified hentschke-sawatzki.de)"
         ],
-        "ebitda_margin": "~20% at owner-operator level (US pest-control benchmark; DACH directionally similar, source ctacquisitions.com)",
+        "ebitda_margin": "~25% at premium/owner-operator level (US pest-control benchmark; premium operators 25%+; DACH directionally similar, source ctacquisitions.com)",
         "entry_multiple": "6.9-10x EBITDA for mid-market operators with high recurring revenue; 3.3-6x for single-route owner-operators (US pest-control benchmark, source ctacquisitions.com)",
         "bnb_angle": "IFS/BRC-driven standing monitoring contracts are near-100% recurring and audit-mandatory; consolidate IFS-capable regional Schädlingsbekämpfer into a food-industry-focused platform (bait-station networks + digital documentation) to win multi-site framework deals from food manufacturers and cold-chain operators - the exact playbook Anticimex/Rentokil are running.",
         "key_risks": [
@@ -5387,6 +5406,11 @@
           "title": "",
           "url": "https://ctacquisitions.com/answers/why-pest-control-higher-multiples/",
           "note": ""
+        },
+        {
+          "title": "Unternehmen – hentschke + sawatzki",
+          "url": "https://hentschke-sawatzki.de/unternehmen/",
+          "note": "Owner-led family business (est. 1954), only nationwide inhabergeführtes Familienunternehmen in segment - independent target replacing EQT-owned Anticimex"
         }
       ],
       "confidence": 5,
@@ -5397,11 +5421,10 @@
       "investability_note": "Freely acquirable (Sachkundenachweis transfers with firm), but this is THE crowded consolidation lane: Rentokil (~30% EU share) and PE-backed Anticimex are actively rolling up the 800-1,200 DE firms.",
       "actionable": {
         "named_targets": [
-          "APC AG - nationwide expert network, strong commercial/food & healthcare book, GPCB co-founder (verified)",
-          "Anticimex Deutschland - PE-backed (EQT) consolidator active across commercial/urban segments (verified anticimex.de)",
-          "hentschke + sawatzki - established commercial pest-control operator and GPCB co-founder (verified via GPCB)"
+          "APC AG - founder-run independent (AG since 2001), nationwide expert network, strong commercial/food & healthcare book, GPCB co-founder (verified apc-ag.de)",
+          "hentschke + sawatzki (Neumünster) - owner-led family business est. 1954, GPCB co-founder, commercial & food-industry pest control, nationwide (verified hentschke-sawatzki.de)"
         ],
-        "ebitda_margin": "~20% at owner-operator level (US pest-control benchmark; source ctacquisitions.com)",
+        "ebitda_margin": "~25% at premium/owner-operator level (US pest-control benchmark; premium operators 25%+; source ctacquisitions.com)",
         "entry_multiple": "3.3-6x EBITDA for single-route owner-operators; up to 6.9-10x for platform-scale operators with high recurring revenue (US benchmark, source ctacquisitions.com)",
         "bnb_angle": "The ~800-1,200 general Kammerjäger SMEs are the cheapest entry tier for a density roll-up; acquire owner-operated books, convert callout work to service contracts, and layer in route optimisation - a lower-multiple feeder into the higher-value IFS food-facility segment.",
         "key_risks": [
@@ -6747,6 +6770,11 @@
           "title": "",
           "url": "https://www.exitstrategiesgroup.com/business-valuation-101-for-testing-laboratories/",
           "note": ""
+        },
+        {
+          "title": "Wasser Analytik - Chemisches Labor Dr. Graser KG",
+          "url": "https://www.labor-graser.de/wasser/",
+          "note": "Independent, family/owner-run DAkkS-accredited (D-PL-18015) drinking/process-water & Legionella lab - replaces Euronext-listed consolidator Eurofins Umwelt"
         }
       ],
       "confidence": 4,
@@ -6757,9 +6785,9 @@
       "investability_note": "Large fragmented base of DIN EN ISO 17025 water labs, freely acquirable; TrinkwV mandates recurring Legionella testing (statutory but privately paid), giving durable recurring demand and roll-up whitespace.",
       "actionable": {
         "named_targets": [
-          "AGROLAB Group - accredited water-analytics labs (Kiel, Potsdam, Eching, Fellbach, Leopoldshöhe) with regional sampling across all DE states + AT (verified agrolab.com)",
-          "Eurofins Umwelt - accredited Legionella/TrinkwV testing, own labs + accredited sampling per DIN EN ISO 19458 (verified eurofins.de)",
-          "Labor Kneißler (Burglengenfeld) - accredited drinking-water + food micro lab, official §64 LFGB counter-sample lab (verified labor-kneissler.de)"
+          "AGROLAB Group - privately owned accredited water-analytics labs (Kiel, Potsdam, Eching, Fellbach, Leopoldshöhe) with regional sampling across all DE states + AT (verified agrolab.com)",
+          "Labor Kneißler (Burglengenfeld) - accredited drinking-water + food micro lab, official §64 LFGB counter-sample lab (verified labor-kneissler.de)",
+          "Chemisches Labor Dr. Graser KG (Röthlein, est. 1991) - independent DAkkS-accredited lab (DIN EN ISO/IEC 17025, reg. D-PL-18015-01-00) for drinking/process water & Legionella, LGL-recognised §15 TrinkwV testing body with own on-site sampling fleet (verified labor-graser.de)"
         ],
         "entry_multiple": "3-4.5x EBITDA for sub-EUR1m-EBITDA labs; 5-8x at greater scale (small/mid testing-lab benchmark, source exitstrategiesgroup.com / laboratoryforsale.com)",
         "bnb_angle": "Legionella/process-water testing is legally periodic and route-based; consolidate accredited regional water labs into a network with shared accreditation, courier/sampling logistics and cross-sell into food-plant micro testing - though Eurofins/AGROLAB set a high acquisitive bar.",

@@ -4166,6 +4166,11 @@
           "title": "FOCUS - Healthcare EBITDA Multiples 2026",
           "url": "https://focusbankers.com/healthcare-ebitda-multiples/",
           "note": "Healthcare-services median ~11.5x EV/EBITDA"
+        },
+        {
+          "title": "Dr. Anton Arbeitsmedizin GmbH",
+          "url": "https://www.betriebsmediziner.de/",
+          "note": "Independent, privately/owner-managed regional occupational-medicine GmbH (Nuremberg), operating predominantly in Bavaria; genuinely acquirable regional AMD (not BG-owned, not PE consolidator)"
         }
       ],
       "confidence": 4,
@@ -4180,10 +4185,10 @@
       "investability_note": "No Fremdbesitzverbot/Kassensitz restriction applies to occupational health (ASiG/ArbMedVV services, not SGB V Kassenzulassung). Providers are already PE-/corporately owned (B.A.D, IAS, TUEV). The Betriebsaerztemangel is an operational staffing constraint, not an ownership bar. Consider relocating this leaf out of POCT into a services/care branch.",
       "actionable": {
         "named_targets": [
-          "IAS Gruppe - privately held, ~1,500 experts (physicians, engineers, psychologists) at ~110 locations; the largest non-BG independent occupational-health platform and a potential anchor",
           "AMD ingepp (Neubrandenburg) - regional owner-operated arbeitsmedizinischer Dienst focused on eastern Mecklenburg-Vorpommern",
           "AMD Bocholt - regional occupational/traffic-medicine provider serving companies, municipalities and care facilities",
-          "AMD der Kreishandwerkerschaft GmbH (Mosel-Eifel-Hunsrueck) - regional AMD founded 1998 serving Handwerk member firms"
+          "AMD der Kreishandwerkerschaft GmbH (Mosel-Eifel-Hunsrueck) - regional AMD founded 1998 serving Handwerk member firms",
+          "Dr. Anton Arbeitsmedizin GmbH (Nuremberg) - privately/owner-managed regional occupational- and traffic-medicine provider operating predominantly across Bavaria (not BG-owned, not PE-backed)"
         ],
         "entry_multiple": "n/a - proprietary/bilateral for regional AMD SMEs; broader healthcare-services median ~11.5x EV/EBITDA (2026), small add-ons below",
         "bnb_angle": "Consolidate fragmented regional AMDs into a national ASiG/DGUV-Vorschrift-2 platform capturing legally mandatory, supply-constrained recurring occupational-health demand amid the Betriebsaerztemangel, and cross-sell BGM/corporate-health services.",
@@ -10952,6 +10957,11 @@
           "title": "IB Interview Questions - Current M&A multiples 2025-2026",
           "url": "https://ibinterviewquestions.com/guides/valuation-investment-banking/current-ma-multiples-across-sectors-2025-2026",
           "note": "Professional/IT-services LMM ~4-7x EBITDA"
+        },
+        {
+          "title": "About us - Zamann Pharma Support GmbH",
+          "url": "https://zamann-pharma.com/about-us/",
+          "note": "Independent owner-led GxP/CSV validation & qualification consultancy (est. 2017, Lampertheim, HRB 96615 Darmstadt); CEO/MD founder Alireza Zarei Nejad Farshi"
         }
       ],
       "confidence": 4,
@@ -10962,9 +10972,9 @@
       "investability_note": "Asset-light B2B consulting, freely acquirable; highly fragmented DACH landscape (DHC, Valicare and ~100-200 consultancies/freelancers) with no dominant financial consolidator yet.",
       "actionable": {
         "named_targets": [
-          "DHC Dr. Herterich & Consultants GmbH (Saarbruecken / Buelach CH) - CSV/GxP compliance specialist since 1996 (SAP + software validation)",
-          "Valicare GmbH (Frankfurt am Main) - 100+ engineers/scientists, CSV plus qualification & validation for pharma/biotech/ATMP",
-          "Network Assistance GmbH (Berlin) - pharma-IT system house delivering CSV (GAMP 5, Annex 11, 21 CFR Part 11) since 1999"
+          "DHC Dr. Herterich & Consultants GmbH (Saarbruecken / Buelach CH) - founder-led CSV/GxP compliance specialist since 1996 (SAP + software validation)",
+          "Network Assistance GmbH (Berlin) - independent pharma-IT system house delivering CSV (GAMP 5, Annex 11, 21 CFR Part 11) since 1999",
+          "Zamann Pharma Support GmbH (Lampertheim) - owner-led (founder/MD Alireza Zarei Nejad Farshi, est. 2017) GxP/CSV validation and qualification consultancy per GAMP 5, EU GMP Annex 11 and 21 CFR Part 11"
         ],
         "entry_multiple": "~5-9x EV/EBITDA (LMM professional/IT-services base ~4-7x, with a premium for specialist regulated life-sciences consulting); proprietary/bilateral for boutiques",
         "bnb_angle": "Consolidate CSV/CSA boutiques into a scaled GxP-IT validation platform riding the GAMP 5 2nd-edition / risk-based CSA shift and cloud/LIMS/MES validation demand, converting project work into recurring managed-validation retainers.",
@@ -11138,6 +11148,16 @@
           "title": "Bloomberg Law - BC Partners reaches deal for Tentamus",
           "url": "https://news.bloomberglaw.com/mergers-and-acquisitions/bc-partners-is-said-to-near-deal-for-german-labs-group-tentamus",
           "note": "PE appetite for pharma-testing/TIC roll-ups; ~EUR1bn valuation"
+        },
+        {
+          "title": "Firmengeschichte der GMP REINRAUMSERVICE GmbH",
+          "url": "https://www.gmp-reinraumservice.de/unternehmen",
+          "note": "Founder-owned independent SME: founded 07/2021 by Stefan Ballhausen & Carsten Gassner (20+ yrs cleanroom, ex bc-technology); Pfullingen, HRB 780181 Stuttgart"
+        },
+        {
+          "title": "Your Specialist for GMP Services in the Life Sciences Industry - QP-Engineering",
+          "url": "https://qp-eng.de/en/",
+          "note": "Owner-operated (Inhaber/founder Simon Menges, M.Eng.), independent GMP qualification/validation and metrology boutique"
         }
       ],
       "confidence": 3,
@@ -11152,8 +11172,8 @@
       "investability_note": "Owner-operated engineering/metrology GmbHs, freely acquirable; no Fremdbesitz or statutory-seat constraint.",
       "actionable": {
         "named_targets": [
-          "Testo Industrial Services GmbH (Kirchzarten) - ISO 17025-accredited cleanroom qualification (DQ/IQ/OQ/PQ) to ISO 14644, VDI 2083 and EU-GMP Annex 1 (part of Testo group)",
-          "Valicare GmbH (Frankfurt am Main) - GMP-compliant qualification & validation of equipment/facilities plus requalification services"
+          "GMP REINRAUMSERVICE GmbH (Pfullingen) - founder-owned (Stefan Ballhausen & Carsten Gassner, ex bc-technology) cleanroom qualification (DQ/IQ/OQ/PQ) and periodic requalification to DIN EN ISO 14644 and EU-GMP Annex 1",
+          "QP-Engineering GmbH (Packaging Valley, Baden-Wuerttemberg) - owner-operated (founder Simon Menges) full DQ/IQ/OQ/PQ GMP cleanroom qualification/validation and accredited metrology to ISO 14644 and EU-GMP Annex 1"
         ],
         "entry_multiple": "n/a - proprietary/bilateral for engineering/metrology boutiques; scaled TIC/lab platforms have traded materially higher (Tentamus valued ~EUR1bn, BC Partners 2021)",
         "bnb_angle": "Consolidate cleanroom/GMP qualification and metrology boutiques into a TIC-style recurring-requalification platform riding the 2023 EU-GMP Annex 1 tightening and DACH ATMP/sterile capacity build-out; the Tentamus (BC Partners + Auctus) pharma-testing roll-up is the template.",
@@ -15317,6 +15337,16 @@
           "title": "Waterland Private Equity - Athera",
           "url": "https://www.waterlandpe.com/company/athera/",
           "note": "Largest DE therapy network, 100+ centres, ~1,200 experts incl. occupational therapy"
+        },
+        {
+          "title": "Praxis fuer Ergotherapie in Dresden - Ergotherapie Meyer GmbH",
+          "url": "https://ergomeyer.de/",
+          "note": "Independent owner/family-run multi-site Ergotherapie practice (4 Dresden-area sites) - neurology/psychiatry/paediatrics/orthopaedics/geriatrics; genuine acquirable bolt-on"
+        },
+        {
+          "title": "Ergotherapie Duesseldorf - Praxis Isik & Rettig",
+          "url": "https://ergotherapie-online.de/",
+          "note": "Inhabergefuehrt since April 2008 (Jale Yaygin & Anna Zumkeller); independent single-site Ergotherapie practice (orthopaedics/neurology)"
         }
       ],
       "confidence": 4,
@@ -15327,9 +15357,8 @@
       "investability_note": "Heilmittelpraxen acquirable with Kassenzulassung and employed therapists; no ownership prohibition, earlier-stage than physio.",
       "actionable": {
         "named_targets": [
-          "APELOS Therapie GmbH - multi-site therapy operator (physio/therapy) as an in-scope bolt-on/platform base",
-          "GANTZE Zentrum fuer Gesundheit (Wertingen) - broad multi-service centre incl. occupational therapy / hand therapy (acquired into ATHERA)",
-          "ATHERA (Rehacon, Waterland-backed) - Germany's largest therapy network (100+ centres, ~1,200 experts) incl. Ergotherapie; the proven consolidator/comparable"
+          "Ergotherapie Meyer GmbH (Dresden) - independent, owner/family-run Ergotherapie group across 4 sites (Dresden-Klotzsche, Dresden-Weixdorf, Ottendorf-Okrilla, Dresden Zentrum) covering neurology, psychiatry, paediatrics, orthopaedics/surgery and geriatrics",
+          "Praxis fuer Ergotherapie Isik & Rettig (Duesseldorf) - inhabergefuehrt since 2008 (Jale Yaygin & Anna Zumkeller), single-site Ergotherapie practice in orthopaedics and neurology - a genuine owner-operated bolt-on"
         ],
         "entry_multiple": "n/a - proprietary/bilateral for single practices; broader healthcare-services median ~11.5x EV/EBITDA (2026), small Heilmittel add-ons well below platform level",
         "bnb_angle": "Aggregate GKV-Heilmittel Ergotherapie practices (physician-prescription-driven, recurring caseload) into a multi-therapy platform (physio/ergo/logo) capturing owner Nachfolge plus central admin/recruiting scale; ATHERA/Waterland proves the multi-therapy roll-up model.",

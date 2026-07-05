@@ -469,9 +469,8 @@
       "investability_note": "Testing/service GmbHs freely acquirable; DGUV V3 is a firm-/Elektrofachkraft-level compliance service, no person-bound licence blocking a share deal.",
       "actionable": {
         "named_targets": [
-          "E+Service+Check GmbH (e-service-check.de) - DGUV V3 testing incl. ortsfeste Anlagen",
-          "DPG-Gruppe (dpg-gruppe.de) - elektrische Betriebssicherheitspruefung (ortsfest & ortsveraenderlich)",
-          "Messtechnik Paderborn (messtechnik-paderborn.de) - DGUV V3 / DIN VDE 0105-100 fixed-installation testing"
+          "DPG-Gruppe / DPG Deutsche Elektro Pruefgesellschaft mbH (dpg-gruppe.de) - herstellerunabhaengige elektrische Betriebssicherheitspruefung (ortsfest & ortsveraenderlich)",
+          "B&S Messtechnik Paderborn (messtechnik-paderborn.de) - inhabergefuehrter DGUV V3 / DIN VDE 0105-100 ortsfeste-Anlagen Pruefdienstleister"
         ],
         "ebitda_margin": "Compliance-inspection/TIC segment 12-20% (Aventis Advisors, 2024)",
         "entry_multiple": "~7-8x EV/EBITDA for sub-EUR 30m TIC/inspection SMEs (Aventis Advisors, Sep-2024) - proprietary at deal level",
@@ -570,9 +569,8 @@
       "investability_note": "Testing needs only a 'befähigte Person'/Elektrofachkraft, not a Handwerks-Meister; companies freely acquirable, but E+Service+Check is already a scaled PE-style platform.",
       "actionable": {
         "named_targets": [
-          "E+Service+Check GmbH (e-service-check.de) - specialist DGUV V3 testing of ortsveraenderliche Betriebsmittel, national footprint",
-          "DPG-Gruppe (dpg-gruppe.de) - Betriebssicherheitspruefung incl. ortsveraenderliche Betriebsmittel",
-          "Messtechnik Paderborn (messtechnik-paderborn.de) - DGUV V3 portable-appliance testing"
+          "DPG-Gruppe / DPG Deutsche Elektro Pruefgesellschaft mbH (dpg-gruppe.de) - herstellerunabhaengiger Pruefdienstleister, Betriebssicherheitspruefung incl. ortsveraenderliche Betriebsmittel",
+          "B&S Messtechnik Paderborn (messtechnik-paderborn.de) - inhabergefuehrter regionaler DGUV V3 portable-appliance Pruefdienstleister (Raum Paderborn/Bielefeld)"
         ],
         "ebitda_margin": "Compliance-inspection/TIC segment 12-20% (Aventis Advisors, 2024); per-device volume testing at density can exceed the band",
         "entry_multiple": "~7-8x EV/EBITDA for sub-EUR 30m TIC/inspection SMEs (Aventis Advisors, Sep-2024) - proprietary at deal level",
@@ -960,7 +958,7 @@
           "E-TEC Power Management (e-tecpowerman.com) - bundesweiter USV & NEA Wartungs-/Service-Anbieter",
           "NEA-TEC GmbH (nea-tec-gmbh.de) - Notstromversorgung Inbetriebnahme, Wartung, Service",
           "AMP Power (amppower.de) - Rund-um-Service fuer NEA und USV",
-          "Zeppelin Power Systems (zeppelin-powersystems.com) - NEA/USV turnkey & maintenance (CAT aggregates)"
+          "Thiele KG (thiele-kg.de) - inhabergefuehrter, herstellerunabhaengiger USV/NEA Service seit 1983"
         ],
         "ebitda_margin": "No published niche margin - omitted; margin driven by mandatory recurring maintenance/test contracts on critical estates",
         "entry_multiple": "n/a - proprietary; data-centre/critical-power tailwind supports premium interest, but large-cap facilities index (15.3x, Lincoln Q2-2025) overstates SME pricing",
@@ -3931,6 +3929,11 @@
           "title": "",
           "url": "https://aventis-advisors.com/tic-company-valuations/",
           "note": ""
+        },
+        {
+          "title": "tegeba GmbH - Gefaehrdungsbeurteilung Rueckkuehlwerke / Kuehltuerme",
+          "url": "https://tegeba-gmbh.de/gefaehrdungsbeurteilung-rueckkuehlwerke/",
+          "note": "Independent nationwide VDI 2047-2 / 42. BImSchV cooling-tower hygiene-service SME (added target)"
         }
       ],
       "confidence": 3,
@@ -3941,9 +3944,8 @@
       "investability_note": "Water-hygiene service plus accredited labs (VDI 2047) - no Handwerk licence bar; >30,000 regulated systems, mandate-driven; fragmented, early.",
       "actionable": {
         "named_targets": [
-          "aquagroup holding GmbH (aquagroup.com) - cooling-tower hygiene under 42. BImSchV",
-          "Veolia Water Technologies Deutschland (veoliawatertechnologies.de) - Kuehlwasseraufbereitung / 42. BImSchV Legionella control",
-          "Aqua-Technik GmbH (aqua-technik-gmbh.de) - 42. BImSchV Legionella hygiene service"
+          "aqua-Technik Beratungs GmbH (aqua-technik-gmbh.de) - inhabergefuehrter (Nuernberg, >30 Jahre) Wasseraufbereitungs- & 42.-BImSchV-Kuehlturm-Hygieneservice mit eigenem Labor",
+          "TEGEBA GmbH (tegeba-gmbh.de) - unabhaengiger, ISO-9001-zertifizierter VDI-2047-2 Hygiene-/Gefaehrdungsbeurteilungs-Service fuer Rueckkuehlwerke & Kuehltuerme (Hagen, bundesweit)"
         ],
         "ebitda_margin": "Accredited lab/TIC band 12-20% (Aventis Advisors, 2024); Eurofins/SGS-type accredited testing sits 18-23% - hygiene-service SMEs typically lower",
         "entry_multiple": "~7-8x EV/EBITDA for sub-EUR 30m TIC/inspection SMEs; accredited-lab platforms with growth achieve double digits (Aventis Advisors, Sep-2024) - proprietary at deal level",
@@ -6284,6 +6286,11 @@
           "title": "",
           "url": "https://aventis-advisors.com/tic-company-valuations/",
           "note": ""
+        },
+        {
+          "title": "Ueber Triwala - unabhaengiges DAkkS-akkreditiertes Legionellen-Labor",
+          "url": "https://triwala.de/ueber-uns/ueber-triwala/",
+          "note": "Independent (est. 2011) DAkkS-accredited Legionella lab + sampling network, realistic SME target (added)"
         }
       ],
       "confidence": 4,
@@ -6294,8 +6301,8 @@
       "investability_note": "Sampling firms and accredited labs freely acquirable; DAkkS accreditation is firm-level, but environmental-testing labs (SGS, Agrolab, ALS) already consolidating the analytics side.",
       "actionable": {
         "named_targets": [
-          "SGS Institut Fresenius (sgs-institut-fresenius.de) - accredited TrinkwV Legionella sampling & analysis",
-          "Eurofins Umwelt (eurofins.de) - accredited Legionella sampling & lab network with external-Probenehmer channel"
+          "Triwala GmbH (triwala.de) - unabhaengiges, seit 2011 eigenstaendiges DAkkS-akkreditiertes Legionellen-Labor mit eigenem Probenehmer-Netz (TrinkwV)",
+          "AGROLAB GROUP (agrolab.com) - eigentuemer-koordinierte, unabhaengige DAkkS-akkreditierte Wasserlabore, Legionellen-Analytik & Probenahme"
         ],
         "ebitda_margin": "Accredited testing/TIC 18-23% for the majors, sector band overall 12-20% (Aventis Advisors, 2024)",
         "entry_multiple": "~7-8x EV/EBITDA sub-EUR 30m; growing accredited-lab platforms reach double digits (Aventis Advisors, Sep-2024) - proprietary at deal level",
