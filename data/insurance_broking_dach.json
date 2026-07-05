@@ -853,18 +853,18 @@
         "recurring": 4,
         "fragmentation": 3,
         "compliance": 4,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 4,
+        "margin": 4,
+        "growth": 5,
+        "headroom": 2,
+        "reimbursement_risk": 1
       },
       "rationale": {
         "recurring": "Annual D&O/cyber renewals recur, but harder-market repricing and re-tendering makes retention less automatic than SME multi-line.",
         "fragmentation": "A smaller cluster of specialists (Finlex, Q, Dr. Ihlas) plus large-broker units; more concentrated than the SME long tail.",
         "compliance": "Cyber/D&O demand is driven by tightening underwriting, NIS2/DSGVO exposure and corporate governance liability rather than a licence mandate."
       },
-      "composite": 66.7,
+      "composite": 75.0,
       "dach_signals": {
         "est_players": "Cluster of specialist/wholesale firms + large-broker Financial Lines units",
         "revenue_band_eur": "EUR 1-30m; platform players (Finlex) scaling",
@@ -895,14 +895,24 @@
           "title": "Howden Deutschland - Financial Lines",
           "url": "https://www.howdengroup.com/de-de/sector/financial-lines",
           "note": "Consolidator's financial-lines specialty practice"
+        },
+        {
+          "title": "Übernahmefieber unter Gewerbe- und Industriemaklern (asscompact)",
+          "url": "https://www.asscompact.de/nachrichten/heat-%C3%BCbernahmefieber-unter-gewerbe-und-industriemaklern-teil-1?page=1",
+          "note": "active buy-and-build among commercial/industrial specialist brokers"
+        },
+        {
+          "title": "GGW Group – Versicherungswirtschaft-heute",
+          "url": "https://versicherungswirtschaft-heute.de/tag/ggw-group/",
+          "note": "GGW consolidates FL/D&O into Hendricks GmbH to challenge Howden — low whitespace"
         }
       ],
-      "confidence": 3,
-      "status": "grounded",
+      "confidence": 4,
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "§34d broker GmbHs freely acquirable — but consolidators (GGW/Hendricks, Howden, MRH Trowe) are already racing to buy FL/D&O specialists.",
       "actionable": {},
       "child_ids": []
     },
@@ -922,18 +932,18 @@
         "recurring": 4,
         "fragmentation": 4,
         "compliance": 3,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 3,
+        "margin": 5,
+        "growth": 5,
+        "headroom": 4,
+        "reimbursement_risk": 1
       },
       "rationale": {
         "recurring": "Operational asset programmes renew annually across large fleets (EVK insures 10,000+ plants), giving recurring books.",
         "fragmentation": "Several independent specialists (Enser/EVK, Thomas Andresen, NW Assekuranz) with no dominant renewables consolidator.",
         "compliance": "Cover is driven by lender/EEG operator requirements and asset-financing conditions rather than a broking-licence mandate."
       },
-      "composite": 66.7,
+      "composite": 75.0,
       "dach_signals": {
         "est_players": "Several dedicated renewables specialists",
         "revenue_band_eur": "EUR 1-10m typical specialist",
@@ -958,14 +968,24 @@
           "title": "Thomas Andresen - Versicherung für Erneuerbare Energien",
           "url": "https://wind-versfina.de/erneuerbare-energien",
           "note": "Wind/renewables specialist broker"
+        },
+        {
+          "title": "NW Assekuranz - Versicherung für Erneuerbare Energien",
+          "url": "https://www.nw-assekuranz.de/renewable-energies",
+          "note": "Second dedicated specialist — handful of scalable targets, few PE-owned yet"
+        },
+        {
+          "title": "Christian Schlösser feiert mit EVK 25-jähriges Firmenjubiläum",
+          "url": "https://w3.windmesse.de/windenergie/news/36488-enser-versicherungskontor-evk-firmenjubilaum-bestehen-mitarbeiter-wirkungsraum-erneuerbare-energien-versicherungsschutz",
+          "note": "Owner-operated founder firms — early, energy-transition secular tailwind"
         }
       ],
       "confidence": 3,
-      "status": "grounded",
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Specialist broker GmbHs (Enser/EVK, NW Assekuranz, wind-versfina) freely acquirable; commercial P&C, no ownership restriction.",
       "actionable": {},
       "child_ids": []
     },
@@ -1171,18 +1191,18 @@
         "recurring": 4,
         "fragmentation": 3,
         "compliance": 4,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 5,
+        "margin": 4,
+        "growth": 3,
+        "headroom": 2,
+        "reimbursement_risk": 2
       },
       "rationale": {
         "recurring": "Pools clip an ongoing override on every renewal in the connected brokers' Komposit/life Bestand; sticky multi-year partner relationships.",
         "fragmentation": "Top is concentrated (Fonds Finanz, JDC, Netfonds) but tens of thousands of small partners and many mid-size pools remain.",
         "compliance": "Haftungsdach absorbs §34f/34h and IDD compliance burden for attached advisers, which is itself the value proposition."
       },
-      "composite": 66.7,
+      "composite": 65.8,
       "dach_signals": {
         "est_players": "Dozens of pools; top-3 dominate (Fonds Finanz, JDC, Netfonds)",
         "revenue_band_eur": "Top pools EUR 150m-800m gross revenue; Fonds Finanz ~EUR 292m (2023)",
@@ -1212,14 +1232,24 @@
           "title": "Maklerpools Teil 3: JDC Group (Preis und Wert)",
           "url": "https://www.preis-und-wert.com/maklerpools-teil-3-jdc-group/",
           "note": "JDC as pool + Haftungsdach; ~29% revenue growth 2024, white-label allesmeins.de"
+        },
+        {
+          "title": "Zukunft der Maklerpools: 'Unter 30 Mio. laufen nicht mehr viele frei herum'",
+          "url": "https://www.cash-online.de/a/zukunft-der-maklerpools-unter-30-millionen-euro-laufen-nicht-mehr-viele-frei-herum-635746/",
+          "note": "consolidated top-heavy market; scale platform economics"
+        },
+        {
+          "title": "Warburg Pincus übernimmt Netfonds",
+          "url": "https://www.mein-geld-medien.de/berater/warburg-pincus-uebernimmt-netfonds-und-treibt-konsolidierung-im-maklerpool-markt-voran",
+          "note": "PE ownership of top pools; retail P&C commission less regulation-exposed than life"
         }
       ],
       "confidence": 4,
-      "status": "grounded",
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
-      "investability": "open",
-      "investability_note": "",
+      "investability": "restricted",
+      "investability_note": "Haftungsdach (§34f/WpIG) liability-umbrella pools carry BaFin owner-control approval friction; top-3 (Fonds Finanz, JDC, Netfonds) already PE-consolidated.",
       "actionable": {},
       "child_ids": []
     },
@@ -1568,18 +1598,18 @@
         "recurring": 4,
         "fragmentation": 4,
         "compliance": 3,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 3,
+        "margin": 4,
+        "growth": 5,
+        "headroom": 3,
+        "reimbursement_risk": 1
       },
       "rationale": {
         "recurring": "Pet health/OP policies renew annually with strong emotional retention.",
         "fragmentation": "Several specialists (Agila, Uelzener, Petplan/Tiergarant, Barmenia) plus many niche brokers.",
         "compliance": "Standard §34d/IDD; health-line documentation duties."
       },
-      "composite": 66.7,
+      "composite": 70.8,
       "dach_signals": {
         "est_players": "~5-8 lead carriers/assekuradeure + niche broker channel",
         "revenue_band_eur": "Agila ~400,000 customers; niche brokers EUR 0.3-5m",
@@ -1603,14 +1633,24 @@
           "title": "Barmenia setzt auf Tierversicherung als Tueroeffner (procontra)",
           "url": "https://www.procontra-online.de/artikel/date/2017/02/barmenia-setzt-auf-tierversicherung-als-tueroeffner/",
           "note": "Pet cover used as cross-sell door-opener in retail distribution"
+        },
+        {
+          "title": "WERTGARANTIE trennt sich von Tierversicherung AGILA",
+          "url": "https://www.asscompact.de/nachrichten/wertgarantie-trennt-sich-von-tierversicherung-agila",
+          "note": "Agila sold to UK Pinnacle Pet Group 2023 — carrier-level consolidation underway, distribution channel still open"
+        },
+        {
+          "title": "Versichererübersicht | 4PFOTEN Tierversicherungen",
+          "url": "https://meine4pfoten.com/tierversicherungen/versichereruebersicht/",
+          "note": "Fragmented niche broker/comparison channel + new entrants (Lassie, Dalma) = private-pay, no statutory tariff risk"
         }
       ],
       "confidence": 3,
-      "status": "grounded",
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Niche broker/Vertrieb GmbHs freely acquirable; pure Assekuradeur binders need carrier consent (mild friction), and carrier-level (Agila) already scooped by strategics.",
       "actionable": {},
       "child_ids": []
     },
@@ -2285,18 +2325,18 @@
         "recurring": 5,
         "fragmentation": 3,
         "compliance": 3,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 2,
+        "margin": 5,
+        "growth": 3,
+        "headroom": 3,
+        "reimbursement_risk": 1
       },
       "rationale": {
         "recurring": "Enthusiast owners rarely churn; OCC serves 160,000+ loyal customers on renewing annual policies.",
         "fragmentation": "A few specialists (OCC, BELMOT/Mannheimer) plus insurer in-house schemes – moderate concentration.",
         "compliance": "Motor line is regulated (§ 34d, IDD) but valuation/agreed-value expertise, not compliance, is the buying driver."
       },
-      "composite": 66.7,
+      "composite": 62.5,
       "dach_signals": {
         "est_players": "~5-10 dedicated Oldtimer specialists in DACH",
         "revenue_band_eur": "EUR 2-20m revenue (OCC 160,000+ customers, DE/AT/CH)",
@@ -2325,14 +2365,19 @@
           "title": "Oldtimer-Versicherungen im Vergleich – auto motor und sport",
           "url": "https://www.auto-motor-und-sport.de/event/oldtimer-versicherungen-im-vergleich-fall-studie/",
           "note": "OCC and BELMOT (Mannheimer) as leading Oldtimer providers; BELMOT up to EUR 100m liability"
+        },
+        {
+          "title": "Provinzial übernimmt Oldtimer-Spezialist OCC",
+          "url": "https://www.cash-online.de/a/provinzial-uebernimmt-oldtimer-spezialist-occ-552153/",
+          "note": "market leader OCC acquired by insurer Provinzial — leader off the table"
         }
       ],
-      "confidence": 4,
-      "status": "grounded",
+      "confidence": 3,
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
-      "investability": "open",
-      "investability_note": "",
+      "investability": "restricted",
+      "investability_note": "Asset-light Assekuradeur GmbHs are acquirable but tied to co-insurance risk-carrier binding authority; the segment leader OCC is already owned by insurer Provinzial, leaving only ~5-10 sub-scale targets.",
       "actionable": {},
       "child_ids": []
     },
@@ -2477,18 +2522,18 @@
         "recurring": 4,
         "fragmentation": 4,
         "compliance": 3,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 2,
+        "margin": 5,
+        "growth": 3,
+        "headroom": 3,
+        "reimbursement_risk": 1
       },
       "rationale": {
         "recurring": "Collection and museum programmes renew annually; long-standing client relationships (Zilkens 35+ yrs).",
         "fragmentation": "A handful of expert houses and individuals dominate – owner-run, no consolidator.",
         "compliance": "Regulated under § 34d/IDD, but connoisseurship, valuation and transit-risk expertise are the buying driver."
       },
-      "composite": 66.7,
+      "composite": 62.5,
       "dach_signals": {
         "est_players": "A few specialised art-insurance houses/underwriters in DACH",
         "revenue_band_eur": "EUR 0.5-5m revenue typical (niche, high-value low-volume)",
@@ -2511,14 +2556,29 @@
           "title": "Kunstversicherung – AssCompact",
           "url": "https://www.asscompact.de/nachrichten/kunstversicherung-%E2%80%9Eein-grunds%C3%A4tzliches-verst%C3%A4ndnis-von-kunst-sollte-schon-gegeben-sein%E2%80%9C",
           "note": "Expertise-driven nature of German art-insurance niche"
+        },
+        {
+          "title": "Artekuranz - Spezialisierte Kunstversicherung",
+          "url": "https://www.artekuranz.de/",
+          "note": "Dedicated art underwriting/broking specialist — asset-light high-margin MGA"
+        },
+        {
+          "title": "aris-consult.de - Underwriting Agency Jewellery/Art/Transport",
+          "url": "https://www.aris-consult.de/",
+          "note": "Global underwriting agency (binder-based) — change of control needs carrier consent → restricted"
+        },
+        {
+          "title": "DUAL Deutschland - Fine Art und Specie Versicherung",
+          "url": "https://www.dualinsurance.com/us-en/products/personal-property/fine-art-and-collectibles",
+          "note": "DUAL entered DE art market + Attikon acquired Zilkens Fine Art (1 of 3 leaders) → consolidation started, tiny pool"
         }
       ],
       "confidence": 3,
-      "status": "grounded",
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
-      "investability": "open",
-      "investability_note": "",
+      "investability": "restricted",
+      "investability_note": "MGA/Assekuradeur operates on carrier binding authority — change of control typically requires capacity-provider/carrier consent; very thin target universe (only ~3 leading DACH art specialists).",
       "actionable": {},
       "child_ids": []
     },
@@ -4230,18 +4290,18 @@
         "recurring": 5,
         "fragmentation": 3,
         "compliance": 4,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 5,
+        "margin": 4,
+        "growth": 3,
+        "headroom": 2,
+        "reimbursement_risk": 3
       },
       "rationale": {
         "recurring": "Revenue is largely recurring commission/Bestandsprovision flow off affiliated advisers' books; Fonds Finanz EUR 335m commission income.",
         "fragmentation": "Consolidating: a few large pools (Fonds Finanz, JDC, Netfonds, BCA) buying advisory books from the fragmented tail.",
         "compliance": "Pools carry §34f/§34d and increasingly Haftungsdach/§15 WpIG licences; MiFID II settlement and FinVermV apply."
       },
-      "composite": 75.0,
+      "composite": 65.0,
       "dach_signals": {
         "est_players": "~15-20 relevant pools; Fonds Finanz alone ~31,000 affiliated brokers",
         "revenue_band_eur": "Fonds Finanz EUR 335m commission / EUR 74.6m gross profit; Netfonds EUR 237m group sales; BCA EUR 80m",
@@ -4273,14 +4333,29 @@
           "title": "Hitliste Maklerpools: JDC will Haupttreiber der Marktkonsolidierung sein (Cash.)",
           "url": "https://www.cash-online.de/a/hitliste-maklerpools-statements-jdc-will-haupttreiber-der-marktkonsolidierung-sein-702141/",
           "note": "JDC consolidation thesis and record 2024"
+        },
+        {
+          "title": "Warburg Pincus übernimmt Netfonds und treibt Konsolidierung voran",
+          "url": "https://www.mein-geld-medien.de/berater/warburg-pincus-uebernimmt-netfonds-und-treibt-konsolidierung-im-maklerpool-markt-voran",
+          "note": "Netfonds €182m valuation; Fonds Finanz=HG Capital, JDC=Bain — top pools all PE-owned"
+        },
+        {
+          "title": "Maklerpools und Private Equity – das Unabhängigkeits-Paradox",
+          "url": "https://www.dasinvestment.com/private-equity-maklerpools-professional-services-unabhaengigkeit/",
+          "note": "PE roll-up wave across the pool segment"
+        },
+        {
+          "title": "EU-Kleinanlegerstrategie: Provisionsverbot vom Tisch",
+          "url": "https://www.procontra-online.de/recht-politik/artikel/eu-kleinanlegerstrategie-provisionsverbot-vom-tisch-buerokratie-steigt",
+          "note": "RIS blanket ban dropped but commission-dependent investment distribution still exposed to inducement test / national caps"
         }
       ],
-      "confidence": 5,
-      "status": "grounded",
+      "confidence": 4,
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
-      "investability": "open",
-      "investability_note": "",
+      "investability": "restricted",
+      "investability_note": "Pools run Haftungsdach/§34f-WpIG structures with BaFin owner-control friction, and the top players (Fonds Finanz/HG Capital, Netfonds+Blau Direkt/Warburg Pincus, JDC/Bain) are already PE-held.",
       "actionable": {},
       "child_ids": []
     },
@@ -4854,9 +4929,7 @@
         "insurance-brokerage-financial-services-value-chain/claims-loss-adjusting-ancillary-services/wasser-brandschadensanierung-trocknung-restoration-coordination",
         "insurance-brokerage-financial-services-value-chain/claims-loss-adjusting-ancillary-services/kfz-schadenmanagement-bpo-rechnungsprufung-claims-tech-bpo",
         "insurance-brokerage-financial-services-value-chain/claims-loss-adjusting-ancillary-services/assistance-soforthilfe-dienstleister-emergency-assistance",
-        "insurance-brokerage-financial-services-value-chain/claims-loss-adjusting-ancillary-services/leckortung-wasserschaden-erstservice-leak-detection",
         "insurance-brokerage-financial-services-value-chain/claims-loss-adjusting-ancillary-services/kfz-schadengutachter-motor-damage-appraisal",
-        "insurance-brokerage-financial-services-value-chain/claims-loss-adjusting-ancillary-services/gebaude-bausachverstandige-sach-schadenregulierung",
         "insurance-brokerage-financial-services-value-chain/claims-loss-adjusting-ancillary-services/brand-wasserschadensanierung-property-restoration",
         "insurance-brokerage-financial-services-value-chain/claims-loss-adjusting-ancillary-services/24h-schaden-notdienst-assistance-netzwerke",
         "insurance-brokerage-financial-services-value-chain/claims-loss-adjusting-ancillary-services/schaden-sanierungssteuerung-claims-bpo-fur-versicherer"
@@ -4952,18 +5025,18 @@
         "recurring": 3,
         "fragmentation": 5,
         "compliance": 4,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 2,
+        "margin": 4,
+        "growth": 5,
+        "headroom": 5,
+        "reimbursement_risk": 2
       },
       "rationale": {
         "recurring": "Grows with EV parc; still mandate-by-mandate but higher ticket per report.",
         "fragmentation": "Very few qualified HV experts today – fragmented and nascent.",
         "compliance": "Requires HV/battery-safety qualification on top of standard Kfz certification."
       },
-      "composite": 75.0,
+      "composite": 65.8,
       "dach_signals": {
         "est_players": "small subset of the ~5,000–6,000 Kfz experts",
         "revenue_band_eur": "premium per-report vs standard gutachten",
@@ -4981,14 +5054,29 @@
           "title": "Kfz-Gutachter Markttrends 2026 (E-Fahrzeuge)",
           "url": "https://die-kfzgutachter.de/ratgeber/kfz-gutachter-werden.htm",
           "note": "rise of EVs requiring special knowledge, new business field"
+        },
+        {
+          "title": "Elektroauto Gutachten: Nicht jeder Gutachter kommt jetzt in Frage!",
+          "url": "https://kfz-gutachter-ada.de/leistungen/elektroauto-gutachten/",
+          "note": "HV/EV appraisal requires EuP qualification — narrow specialist subset, high barrier"
+        },
+        {
+          "title": "HOCHVOLT ELEKTROAUTOS - Kfz Sachverständiger und Unfallgutachter",
+          "url": "https://www.fragdeinengutachter.de/leistungen-1/elektrofahrzeuge/",
+          "note": "Separate HV-battery diagnostics/premium reports = growth + pricing tailwind"
+        },
+        {
+          "title": "BGH-Urteil: Werkstattrisiko gilt auch für Gutachterkosten",
+          "url": "https://www.advoca.de/bgh-urteil-sachverstaendigenrisiko-gutachterkosten-verkehrsunfall",
+          "note": "BGH VI ZR 280/22 (2024) protects full reimbursement of appraiser fees → moderate reimbursement risk"
         }
       ],
-      "confidence": 2,
-      "status": "grounded",
+      "confidence": 3,
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Freie Kfz-Sachverstaendigenbueros are GmbHs freely acquirable; only oeffentlich bestellte/vereidigte experts are person-bound, but EV/HV specialists mostly operate as freie SV — no Fremdbesitzverbot.",
       "actionable": {},
       "child_ids": []
     },
@@ -5008,18 +5096,18 @@
         "recurring": 3,
         "fragmentation": 5,
         "compliance": 4,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 3,
+        "margin": 3,
+        "growth": 4,
+        "headroom": 5,
+        "reimbursement_risk": 1
       },
       "rationale": {
         "recurring": "Continuous claims flow (>1.1m water claims/yr alone) drives repeat instructions, though large insurers keep some assessment in-house.",
         "fragmentation": "Part of the >8,400 IHK öbuv experts across 264 fields plus many non-öbuv building experts; dominated by small architect/engineer-led büros.",
         "compliance": "öffentliche Bestellung & Vereidigung by IHK/chamber is a formal administrative act with impartiality and facility requirements – a genuine gate."
       },
-      "composite": 75.0,
+      "composite": 66.7,
       "dach_signals": {
         "est_players": ">8,400 IHK öbuv experts (all fields) + long tail of building experts",
         "revenue_band_eur": "EUR 0.2–3m typical",
@@ -5051,14 +5139,24 @@
           "title": "IHK-Sachverständigenverzeichnis (SVV)",
           "url": "https://svv.ihk.de/",
           "note": "national register of certified experts"
+        },
+        {
+          "title": "Sachverständige – Bundesingenieurkammer",
+          "url": "https://bingk.de/sachverstaendige/",
+          "note": ">8,400 öbuv experts; person-bound public appointment"
+        },
+        {
+          "title": "DACH Versicherungsvermittlung M&A Q1 2026 (MarshBerry)",
+          "url": "https://www.marshberry.com/eu/de/blog/dach-versicherungsvermittlung-ma-q1-2026-konsolidierung-wird-selektiver-und-fokussierter/",
+          "note": "consolidation concentrated on broking, not expert/claims-service firms — virgin whitespace"
         }
       ],
-      "confidence": 4,
-      "status": "grounded",
+      "confidence": 3,
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
-      "investability": "open",
-      "investability_note": "",
+      "investability": "restricted",
+      "investability_note": "The value sits in the personally öffentlich bestellte/vereidigte (öbuv) expert appointment, which is person-bound and non-transferable; the GmbH is acquirable but talent/certification retention is the friction.",
       "actionable": {},
       "child_ids": []
     },
@@ -5147,18 +5245,18 @@
         "recurring": 4,
         "fragmentation": 5,
         "compliance": 3,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 3,
+        "margin": 3,
+        "growth": 4,
+        "headroom": 4,
+        "reimbursement_risk": 2
       },
       "rationale": {
         "recurring": "Tied to >1.1m annual leakage/water claims; insurer reimbursement creates steady, repeat B2B2C flow.",
         "fragmentation": "Many small regional specialists (MBS, SMS, Blue Detect, WDS, Sattler, Leck Check) with no clear consolidator.",
         "compliance": "Insurance cover conditions and Wohngebäudeversicherung policy terms drive when/how leak detection is paid; technical standards apply."
       },
-      "composite": 75.0,
+      "composite": 61.7,
       "dach_signals": {
         "est_players": "hundreds of regional leak-detection specialists",
         "revenue_band_eur": "EUR 0.3–5m typical",
@@ -5190,14 +5288,24 @@
           "title": "Zahlt die Gebäudeversicherung eine Leckortung? – Verivox",
           "url": "https://www.verivox.de/wohngebaeudeversicherung/ratgeber/zahlt-die-gebaeudeversicherung-eine-leckortung-1118785/",
           "note": "insurer-payer dynamics for leak detection"
+        },
+        {
+          "title": "LOCATEC® | Leckortung, SchadenERSTservice nach Wasserschaden",
+          "url": "https://www.locatec.de/",
+          "note": "Market leader DE/AT, franchise/nationwide fleet — 25+ yrs, proves roll-up scalability"
+        },
+        {
+          "title": "Brandschaden, Wasserschaden & Leckortung | POLYGON",
+          "url": "https://www.polygongroup.com/de-DE/",
+          "note": "PE-backed restoration platform in adjacency; pure Leckortung still fragmented/owner-operated"
         }
       ],
-      "confidence": 4,
-      "status": "grounded",
+      "confidence": 3,
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Regional van-based service GmbHs freely acquirable; no licence/ownership restriction — Locatec franchise model proves scalability.",
       "actionable": {},
       "child_ids": []
     },
@@ -6140,18 +6248,18 @@
         "recurring": 5,
         "fragmentation": 3,
         "compliance": 4,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 4,
+        "margin": 5,
+        "growth": 5,
+        "headroom": 3,
+        "reimbursement_risk": 1
       },
       "rationale": {
         "recurring": "Platform placements are annually renewed specialty policies; recurring override/commission income on renewal books.",
         "fragmentation": "Few platforms (FINLEX, CyberDirekt, Baobab) but they serve a highly fragmented base of ~184,000 registered intermediaries / ~46,500 brokers.",
         "compliance": "Enable IDD/§34d-compliant advice on regulation-driven lines (NIS2 cyber, governance D&O); documentation and comparison support the buying driver."
       },
-      "composite": 75.0,
+      "composite": 83.3,
       "dach_signals": {
         "est_players": "Handful of FL/cyber platforms serving ~184,000 §34d intermediaries",
         "revenue_band_eur": "Platform GWP in tens of EURm; venture-backed",
@@ -6181,14 +6289,19 @@
           "title": "CyberDirekt – Plattform für Makler",
           "url": "https://www.cyberdirekt.de/makler",
           "note": "Digital wholesale platform enabling brokers to place specialty cyber"
+        },
+        {
+          "title": "Products – Finlex GmbH",
+          "url": "https://finlex.io/en/products/",
+          "note": "robo-underwriting D&O/Cyber/PI marketplace; strong FL/cyber secular growth"
         }
       ],
-      "confidence": 4,
-      "status": "grounded",
+      "confidence": 3,
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
-      "investability": "open",
-      "investability_note": "",
+      "investability": "restricted",
+      "investability_note": "Asset-light MGA/platform GmbHs are acquirable but depend on insurer binding authority and carry venture cap tables (e.g. Finlex Series A) plus §34d licensing — control transfer has friction.",
       "actionable": {},
       "child_ids": []
     },
@@ -6608,18 +6721,18 @@
         "recurring": 4,
         "fragmentation": 5,
         "compliance": 3,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 3,
+        "margin": 5,
+        "growth": 3,
+        "headroom": 3,
+        "reimbursement_risk": 2
       },
       "rationale": {
         "recurring": "Farm liability, machinery and buildings cover renew annually with high retention given local relationships.",
         "fragmentation": "Dozens of small regional Agrar-specialist brokers (AGRAR versicherungsmakler, GV Makler, Liebich & Schroeder, VML) with no dominant consolidator.",
         "compliance": "Livestock-keeper liability (§833 BGB) and operator duties drive demand, though cover is largely voluntary rather than statutory."
       },
-      "composite": 75.0,
+      "composite": 65.8,
       "dach_signals": {
         "est_players": "~100+ regional agri specialist brokers",
         "revenue_band_eur": "EUR 0.3-3m typical",
@@ -6650,14 +6763,29 @@
           "title": "Liebich & Schroeder - Nutzen Versicherungsmakler fuer Landwirte",
           "url": "https://www.liebichundschroeder.de/nutzen-versicherungsmakler-fuer-landwirte/",
           "note": "Farm-specialist broker value proposition"
+        },
+        {
+          "title": "gvf VersicherungsMakler AG - Spezialist für Agrar-Versicherungen",
+          "url": "https://gvf.de/",
+          "note": "Market leader East DE, ~2,350 agri clients — evidences EUR-1m+ scalable specialists"
+        },
+        {
+          "title": "MRH Trowe kauft zu - Versicherungswirtschaft-heute",
+          "url": "https://versicherungswirtschaft-heute.de/maerkte-und-vertrieb/2023-04-19/mrh-trowe-kauft-zu/",
+          "note": "MRH Trowe acquired asmarit (agri-machinery insurance) 2023, building 'Agrar' practice → consolidation underway"
+        },
+        {
+          "title": "GGW - Versicherungslösungen für Agrarindustrie und Landwirtschaft",
+          "url": "https://www.ggw.de/branchen/agrarindustrie-landwirtschaft",
+          "note": "GGW dedicated agri branch → second consolidator racing = reduced headroom"
         }
       ],
-      "confidence": 3,
-      "status": "grounded",
+      "confidence": 4,
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Agri broker GmbHs freely acquirable; watch Maschinenring/cooperative-linked vehicles (e.g. MRVV) for member-owner friction, but most (GVF, DAV, ISW) are open.",
       "actionable": {},
       "child_ids": []
     },
@@ -7205,79 +7333,6 @@
       },
       "child_ids": []
     },
-    "insurance-brokerage-financial-services-value-chain/claims-loss-adjusting-ancillary-services/leckortung-wasserschaden-erstservice-leak-detection": {
-      "id": "insurance-brokerage-financial-services-value-chain/claims-loss-adjusting-ancillary-services/leckortung-wasserschaden-erstservice-leak-detection",
-      "name": "Leckortung & Wasserschaden-Erstservice (leak detection)",
-      "parent_id": "insurance-brokerage-financial-services-value-chain/claims-loss-adjusting-ancillary-services",
-      "level": 2,
-      "path": [
-        "Insurance Brokerage & Financial Services value chain",
-        "Claims, Loss Adjusting & Ancillary Services",
-        "Leckortung & Wasserschaden-Erstservice (leak detection)"
-      ],
-      "value_chain_stage": "services",
-      "description": "Owner-run und Franchise-Betriebe, die bei Wasserschäden Lecks zerstörungsarm orten (Thermografie, Tracergas, Akustik) und den Schaden-Erstservice/Bautrocknung übernehmen. Klassische, wiederkehrende Leistung auf Gebäude-/Wohngebäudeversicherungsfälle.",
-      "scores": {
-        "recurring": 4,
-        "fragmentation": 5,
-        "compliance": 3,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
-      },
-      "rationale": {
-        "recurring": "Leckortung wird bei bestehendem versichertem Schaden von der Wohngebäudeversicherung getragen; kontinuierlicher Fallstrom aus Versicherer-/Vermittlernetzen.",
-        "fragmentation": "LOCATEC allein >60 Standorte als regionale, inhaberbetriebene Betriebe plus dutzende unabhängige Spezialisten (Blue Detect, Specht, Leckageortung.de) - kein dominanter Konsolidierer.",
-        "compliance": "Kostenerstattung an Versicherungsbedingungen (nachgewiesener versicherter Schaden, Dokumentation) geknüpft, aber Regulierung selbst kein Kaufzwang."
-      },
-      "composite": 75.0,
-      "dach_signals": {
-        "est_players": "mehrere hundert Betriebe (LOCATEC allein >60 Standorte / >200 Fahrzeuge)",
-        "revenue_band_eur": "EUR 0.3-3m typical",
-        "example_companies": [
-          "LOCATEC Ortungstechnik",
-          "Blue Detect",
-          "Specht GmbH (Norddeutschland)",
-          "Leckageortung.de"
-        ],
-        "regulation": [
-          "VGB Wohngebäude-Versicherungsbedingungen",
-          "Leckortungsklausel / Kostenerstattung Gebäudeversicherung"
-        ]
-      },
-      "sources": [
-        {
-          "title": "LOCATEC | Leckortung & SchadenERSTservice",
-          "url": "https://www.locatec.de/",
-          "note": "Marktführer Leckortung DACH, >25 Jahre, inhabergeführte Standorte"
-        },
-        {
-          "title": "LOCATEC Standorte / Franchise",
-          "url": "https://franchise.locatec.de/home",
-          "note": ">60 Standorte, >200 Einsatzfahrzeuge DE/AT, Franchise mit inhabergeführten Regionalbetrieben"
-        },
-        {
-          "title": "Leckageortung - Verivox Ratgeber",
-          "url": "https://www.verivox.de/wohngebaeudeversicherung/ratgeber/zahlt-die-gebaeudeversicherung-eine-leckortung-1118785/",
-          "note": "Gebäudeversicherung trägt Leckortungskosten bei versichertem Schaden"
-        },
-        {
-          "title": "Blue Detect Leckageortung",
-          "url": "https://www.bluedetect.de/",
-          "note": "unabhängiger Leckortungs-Spezialbetrieb"
-        }
-      ],
-      "confidence": 4,
-      "status": "grounded",
-      "why_now": "",
-      "pe_activity": [],
-      "investability": "open",
-      "investability_note": "",
-      "actionable": {},
-      "child_ids": []
-    },
     "insurance-brokerage-financial-services-value-chain/claims-loss-adjusting-ancillary-services/kfz-schadengutachter-motor-damage-appraisal": {
       "id": "insurance-brokerage-financial-services-value-chain/claims-loss-adjusting-ancillary-services/kfz-schadengutachter-motor-damage-appraisal",
       "name": "Kfz-Schadengutachter (motor damage appraisal)",
@@ -7294,18 +7349,18 @@
         "recurring": 4,
         "fragmentation": 5,
         "compliance": 3,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 4,
+        "margin": 4,
+        "growth": 3,
+        "headroom": 3,
+        "reimbursement_risk": 2
       },
       "rationale": {
         "recurring": "Konstante Fallzahl aus Verkehrsunfällen; Gutachten pro Schaden neu beauftragt über Werkstatt-/Versicherer-/Anwaltsnetze.",
         "fragmentation": "~10.000 Kfz-Sachverständigenbüros in DE, BVSK-Verband nur ~1.000 Mitglieder in 17 Landesgruppen; DAT/SSH/intertaxexpert bündeln nur Teile.",
         "compliance": "Begriff 'Sachverständiger' nicht geschützt, aber ~80% BVSK-Mitglieder oeffentlich bestellt/zertifiziert; Qualifikation prägt Panel-Zugang."
       },
-      "composite": 75.0,
+      "composite": 65.8,
       "dach_signals": {
         "est_players": "~10,000 Kfz-Sachverständigenbüros in DE",
         "revenue_band_eur": "EUR 0.2-2m typical",
@@ -7341,88 +7396,29 @@
           "title": "DAT Kfz-Sachverständige finden",
           "url": "https://www.dat.de/sachverstaendige/",
           "note": "DAT Expert-Partner an mehreren hundert Standorten"
+        },
+        {
+          "title": "TÜV SÜD: Neues Erfolgskonzept für Kfz-Sachverständige",
+          "url": "https://www.autohaus.de/nachrichten/schadenbusiness/tuev-sued-neues-erfolgskonzept-fuer-kfz-sachverstaendige-3744358",
+          "note": "TÜV SÜD 350+ partner offices, +100 planned; DAT ~600 experts/250 sites — network consolidation started"
+        },
+        {
+          "title": "Überhöhte Kosten bei Kfz-Sachverständigen: BGH stärkt Rechte von Unfallgeschädigten",
+          "url": "https://www.blitzeranwalt.com/artikel/ueberhoehte-kosten-bei-kfz-sachverstaendigen-bgh-staerkt-die-rechte-von-unfallgeschaedigten/",
+          "note": "Fee disputes with insurers ongoing but BGH protects full reimbursement → moderate risk"
+        },
+        {
+          "title": "Die größten Kfz-Sachverständigenbüros im Ruhrgebiet - Regio Manager",
+          "url": "https://www.regiomanager.de/revier/ranking/mobilitaet-logistik/kfz-sachverstaendige/revier/",
+          "note": "Top-3 concentration ~52% regionally but ~10,000 bueros nationally = still fragmented"
         }
       ],
       "confidence": 4,
-      "status": "grounded",
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
-      "actionable": {},
-      "child_ids": []
-    },
-    "insurance-brokerage-financial-services-value-chain/claims-loss-adjusting-ancillary-services/gebaude-bausachverstandige-sach-schadenregulierung": {
-      "id": "insurance-brokerage-financial-services-value-chain/claims-loss-adjusting-ancillary-services/gebaude-bausachverstandige-sach-schadenregulierung",
-      "name": "Gebäude-/Bausachverständige & Sach-Schadenregulierung",
-      "parent_id": "insurance-brokerage-financial-services-value-chain/claims-loss-adjusting-ancillary-services",
-      "level": 2,
-      "path": [
-        "Insurance Brokerage & Financial Services value chain",
-        "Claims, Loss Adjusting & Ancillary Services",
-        "Gebäude-/Bausachverständige & Sach-Schadenregulierung"
-      ],
-      "value_chain_stage": "services",
-      "description": "Ingenieur- und Sachverständigenbüros, die Gebäude-, Hausrat-, Elementar- und Haftpflichtschäden im Versicherungsauftrag besichtigen, Ursache/Umfang feststellen und im Außendienst regulieren (Außenregulierung / Aussersachverständige).",
-      "scores": {
-        "recurring": 4,
-        "fragmentation": 5,
-        "compliance": 3,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
-      },
-      "rationale": {
-        "recurring": "Versicherer lagern Besichtigung/Regulierung von Gebäude- und Sachschäden dauerhaft an PLZ-gebietsweise beauftragte Büros aus - stetiger Auftragsstrom.",
-        "fragmentation": "Viele kleine Ingenieur-/Sachverständigenbüros plus Netzvermittler (Deutsche Schaden-Service, DSH); kein dominanter Konsolidierer.",
-        "compliance": "Oeffentlich bestellte/zertifizierte Sachverständige für Bauwesen bevorzugt; Regulierung an Versicherungsbedingungen und Beweissicherung gebunden."
-      },
-      "composite": 75.0,
-      "dach_signals": {
-        "est_players": "mehrere tausend Ingenieur-/Sachverständigenbüros",
-        "revenue_band_eur": "EUR 0.3-3m typical",
-        "example_companies": [
-          "Sachverständigenbüro Cremer",
-          "Ingenieur- und Sachverständigenbüro Rachfahl",
-          "Deutsche Schaden-Service GmbH",
-          "Deutsche Schadenshilfe (Gutachtervermittlung)"
-        ],
-        "regulation": [
-          "oeffentliche Bestellung §36 GewO / DIN EN ISO 17024",
-          "VGB/AHB Versicherungsbedingungen",
-          "Beweissicherungsverfahren"
-        ]
-      },
-      "sources": [
-        {
-          "title": "Schadenregulierer / Bausachverständiger - Cremer",
-          "url": "https://www.sachverstaendigercremer.de/schadenregulierer-2/",
-          "note": "inhabergeführtes Büro für Gebäudeschadenregulierung im Versicherungsauftrag"
-        },
-        {
-          "title": "Deutsche Schaden-Service GmbH - Versicherungen",
-          "url": "https://www.deutscheschadenservice.de/versicherungen/",
-          "note": "deutschlandweites Netz von Sachverständigen für Haftpflicht-/Sachschadenregulierung"
-        },
-        {
-          "title": "Außenregulierer - Gabler Versicherungslexikon",
-          "url": "https://www.versicherungsmagazin.de/lexikon/aussenregulierer-1944623.html",
-          "note": "definiert PLZ-gebietsweise Vor-Ort-Regulierung von Sachschäden"
-        },
-        {
-          "title": "Gebäudesachverständiger - Deutsche Schadenshilfe",
-          "url": "https://deutsche-schadenshilfe.de/sachverstaendige/gebaeudesachverstaendiger-gutachter-fuer-gebaeudeschaeden/",
-          "note": "Gutachtervermittlung fuer Gebaeudeschaeden gegenueber Versicherung"
-        }
-      ],
-      "confidence": 4,
-      "status": "grounded",
-      "why_now": "",
-      "pe_activity": [],
-      "investability": "open",
-      "investability_note": "",
+      "investability_note": "Freie Sachverstaendigenbueros (GmbH) freely acquirable; oeffentlich bestellte/vereidigte titles are person-bound (partial friction) but the book/firm transfers freely.",
       "actionable": {},
       "child_ids": []
     },
@@ -7664,18 +7660,18 @@
         "recurring": 5,
         "fragmentation": 4,
         "compliance": 3,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 4,
+        "margin": 4,
+        "growth": 5,
+        "headroom": 2,
+        "reimbursement_risk": 3
       },
       "rationale": {
         "recurring": "Erworbene Bestände liefern jahrzehntelang laufende Bestands-/Betreuungscourtage; Policen Direkt kaufte in einem Q2 32 Bestände mit ~20 Mio. EUR Prämien und 1,65 Mio. EUR laufender Courtage.",
         "fragmentation": "Mehrere konkurrierende Aufkäufer (Policen Direkt, Resultate Institut, blau direkt, Fonds Finanz) neben langem Schwanz von Nachfolge-Vermittlern und Boersen.",
         "compliance": "GewO §34d-Erlaubnis, Datenschutz-/Bestandsuebertragungszustimmung und IDD-Betreuungspflicht regeln den Transfer, sind aber nicht Kaufmotiv."
       },
-      "composite": 75.0,
+      "composite": 69.2,
       "dach_signals": {
         "est_players": "~10-20 aktive Aufkaeufer + Boersen; ~46.000 §34d-Makler als Verkaeuferpool",
         "revenue_band_eur": "Bestandswerte typ. EUR 0.2-3m pro Deal; Aufkaeufer-Plattformen EUR 5-50m Umsatz",
@@ -7706,14 +7702,29 @@
           "title": "Bestandskauf - Fonds Finanz",
           "url": "https://www.fondsfinanz.de/unternehmen/bestandskauf",
           "note": "Pool kauft Bestaende oder uebernimmt sie zur Betreuung"
+        },
+        {
+          "title": "Bestandskauf & Maklernachfolge - DTFH Deutsches Fondshaus GmbH",
+          "url": "https://fondsbestand.de/",
+          "note": "Active courtage-book aggregator among ~10-20 buyers competing for the ~46k §34d seller pool"
+        },
+        {
+          "title": "Resultate Institut - Maklerbestand kaufen und verkaufen",
+          "url": "https://www.resultate-institut.de/",
+          "note": "Marketplace/intermediary — dense buyer competition = low headroom"
+        },
+        {
+          "title": "Großinvestoren sponsern Aufkäufer am deutschen Maklermarkt | DAS INVESTMENT",
+          "url": "https://www.dasinvestment.com/von-rauchhaupt-und-senftleben-ggw-group-mrh-trowe-summitas/",
+          "note": "GGW, MRH Trowe, Summitas PE-backed and buying books → crowded; life/investment books expose to EU RIS/provision caps"
         }
       ],
       "confidence": 4,
-      "status": "grounded",
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Aggregator GmbHs acquirable via share deal; §34d/§34f registrations follow ownership (IHK, no BaFin control-approval for pure brokerage) → open, though this IS the crowded consolidator layer.",
       "actionable": {},
       "child_ids": []
     },
