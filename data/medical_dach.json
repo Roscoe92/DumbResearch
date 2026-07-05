@@ -1071,6 +1071,16 @@
           "title": "Novum Reinraumtechnik - Qualifizierung",
           "url": "https://www.novum-reinraumtechnik.de/qualifizierung/",
           "note": "Independent cleanroom qualification firm."
+        },
+        {
+          "title": "bc-technology - Unternehmen (part of Daldrop + Dr. Ing. Huber group since 2013)",
+          "url": "https://www.bc-technology.de/unternehmen/",
+          "note": "REASON DROPPED: bc-technology GmbH became a member of the Daldrop + Dr. Ing. Huber GmbH + Co. KG cleanroom-OEM group in 2013 - not independent (strategic/OEM captive)."
+        },
+        {
+          "title": "Novum Reinraumtechnik - part of ap-systems company group (Reutlingen)",
+          "url": "https://www.novum-reinraumtechnik.de/reinraumtechnik-2/",
+          "note": "REASON DROPPED: Novum Reinraumtechnik is a brand/unit of the ap-systems GmbH Reinraumtechnik group, not a standalone independent qualification SME."
         }
       ],
       "confidence": 3,
@@ -1082,19 +1092,14 @@
       "actionable": {
         "named_targets": [
           {
-            "name": "QP-Engineering (QP Engineering GmbH)",
-            "hq": "Germany",
-            "note": "Independent boutique doing GMP cleanroom qualification (DQ/IQ/OQ/PQ) to Annex 1 / ISO 14644."
+            "name": "QP-Engineering (QP Engineering)",
+            "hq": "Germany (Packaging Valley region)",
+            "note": "Owner-operated by founder Simon Menges; independent GMP boutique doing DQ/IQ/OQ/PQ cleanroom qualification to ISO 14644 / EU-GMP Annex 1. ISO 9001 certified. Verified independent (no PE/strategic/OEM parent)."
           },
           {
-            "name": "bc-technology GmbH",
-            "hq": "Germany",
-            "note": "TÜV-certified independent cleanroom-service/qualification & documentation provider."
-          },
-          {
-            "name": "Novum Reinraumtechnik GmbH",
-            "hq": "Germany",
-            "note": "Independent cleanroom qualification/requalification firm."
+            "name": "HG Messtechnik",
+            "hq": "Hesse (Rhine-Main / Frankfurt)",
+            "note": "Independent owner-run cleanroom (re)qualification and measurement firm (ISO 14644 / VDI 2083 / EU-GMP Annex 1), 10+ years, ISO 9001. Standalone provider, not part of an OEM/builder group. Replaces bc-technology (part of Daldrop group) and Novum (part of ap-systems group)."
           }
         ],
         "ebitda_margin": "omitted - not verifiable from public sources",

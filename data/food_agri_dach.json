@@ -6703,23 +6703,13 @@
         "named_targets": [
           {
             "name": "AGROLAB GmbH / AGROLAB Group",
-            "note": "Privately/family-owned (founder & CEO Dr. Paul Wimmer, est. 1986); named SZ 'best family-owned chemical company 2025'; pesticide screening of 500+ actives by GC-MS/LC-MS-MS. Rare scaled independent (non-Eurofins/SGS).",
+            "note": "Privately/family-owned (founder & CEO Dr. Paul Wimmer, est. 1986); deliberately avoids external capital/investors; named SZ 'best family-owned chemical company 2025'; pesticide screening of 500+ actives by GC-MS/LC-MS-MS. Rare scaled independent (non-Eurofins/SGS).",
             "source": "https://agrolab.com/en/news/agrolab-news/5746-agrolab-best-chemical-familybusiness-2025.html"
-          },
-          {
-            "name": "ifp Institut für Produktqualität GmbH (Berlin)",
-            "note": "Independent accredited food/feed/water lab, 300+ staff (est. 2004); contaminant/residue analytics.",
-            "source": "https://www.adlershof.de/firmensuche-institute/adressverzeichnis/firma/detail/ifp-institut-fuer-produktqualitaet-gmbh/"
-          },
-          {
-            "name": "PhytoLab GmbH & Co. KG",
-            "note": "Independent, accredited lab (part of family-owned Bionorica) for plant material, food & feed residues.",
-            "source": "https://www.phytolab.com/en/"
           }
         ],
         "ebitda_margin": "TIC/testing sector typically 12-20% EBITDA margin",
         "entry_multiple": "TIC EV/EBITDA public median ~14.3x (2025); private specialist labs trade below the listed majors",
-        "bnb_angle": "High-capacity MS/MS residue labs are scarce, capex-heavy and consolidating fast (Eurofins, ALS - which absorbed Wessling's labs in 2024); an independent family lab such as AGROLAB or ifp is a rare scaled platform with recurring retailer/QS-GAP-mandated testing.",
+        "bnb_angle": "High-capacity MS/MS residue labs are scarce, capex-heavy and consolidating fast (Eurofins, ALS - which absorbed Wessling's labs in 2024); an independent family lab such as AGROLAB is a rare scaled platform with recurring retailer/QS-GAP-mandated testing.",
         "key_risks": [
           "Capex/scale intensity and price competition from Eurofins/SGS consolidation",
           "Method-accreditation dependency",
@@ -6819,17 +6809,12 @@
         "named_targets": [
           {
             "name": "AGROLAB Group",
-            "note": "Family-owned independent group (founder Dr. Paul Wimmer); mycotoxin/contaminant analytics (LC-MS/MS) with strong feed/agri overlap.",
+            "note": "Family-owned independent group (founder Dr. Paul Wimmer); avoids external investors; mycotoxin/contaminant analytics (LC-MS/MS) with strong feed/agri overlap.",
             "source": "https://agrolab.com/de/produkte-leistungen/lebensmittelanalytik/lebensmittel-rueckstaende-und-kontaminanten.html"
           },
           {
-            "name": "ifp Institut für Produktqualität (Berlin)",
-            "note": "Independent accredited lab; mycotoxin analytics plus proprietary rapid diagnostic kits.",
-            "source": "https://www.produktqualitaet.com/de/lebensmittel/kontaminanten/kontaminanten-mykotoxine-analytik-im-ifp.html"
-          },
-          {
             "name": "Chemisches Labor Dr. Wirts + Partner",
-            "note": "Independent lab; mycotoxin analytics by LC-MS/MS and HPLC-FLD/DAD.",
+            "note": "Independent accredited lab (Sachverständigen GmbH, Hannover); mycotoxin analytics by LC-MS/MS and HPLC-FLD/DAD.",
             "source": "https://www.wirts.de/mykotoxine/"
           }
         ],

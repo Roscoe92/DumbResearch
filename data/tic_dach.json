@@ -5395,6 +5395,11 @@
           "title": "",
           "url": "https://aventis-advisors.com/tic-industry/",
           "note": ""
+        },
+        {
+          "title": "Cotecna Becomes Equity Stakeholder of ACT Lab",
+          "url": "https://www.cotecna.com/en/media/news/cotecna-acquires-act-lab",
+          "note": "ACT Lab (US-HQ, incl. ACT LAB GmbH) is majority-owned by the strategic TIC group Cotecna - NOT an independent DACH SME; removed as a target."
         }
       ],
       "confidence": 4,
@@ -5405,8 +5410,7 @@
       "investability_note": "",
       "actionable": {
         "named_targets": [
-          "CTL GmbH Bielefeld (ctl-bielefeld.de) - independent DAkkS-accredited EN 71 toy lab, explicitly without shareholdings/conflicts",
-          "ACT LAB GmbH (act-lab.com) - independent children's-toy testing lab"
+          "CTL GmbH Bielefeld (ctl-bielefeld.de) - independent DAkkS-accredited EN 71 toy lab, explicitly without shareholdings/conflicts (note: genuinely independent SME toy labs are scarce - the field is dominated by TUEV/SGS Fresenius/Intertek/DEKRA, and SLG is part of TUEV Rheinland)"
         ],
         "ebitda_margin": {
           "band": "~12-20% (TIC-sector norm)",
@@ -8164,6 +8168,21 @@
           "title": "",
           "url": "https://aventis-advisors.com/tic-industry/",
           "note": ""
+        },
+        {
+          "title": "AGROLAB best family-owned chemical company 2025",
+          "url": "https://agrolab.com/en/news/agrolab-news/5746-agrolab-best-chemical-familybusiness-2025.html",
+          "note": "Confirms AGROLAB is independent, family-owned (Dr. Paul Wimmer); food/water/agri analytics"
+        },
+        {
+          "title": "White & Case: Battery Ventures acquires ifp",
+          "url": "https://www.whitecase.com/news/press-release/white-case-advises-battery-ventures-acquisition-laboratory-service-provider-ifp",
+          "note": "ifp Institut fuer Produktqualitaet is PE-owned (Battery Ventures) - NOT independent; removed as a target."
+        },
+        {
+          "title": "Normec acquires Labor Friedle & GALAB (2025)",
+          "url": "https://normecgroup.com/news/normec-welcomes-labor-friedle-and-galab/",
+          "note": "Shows heavy consolidation of DACH food labs (GALAB, Labor Friedle absorbed by Normec 2025); reinforces scarce-independents thesis. gbm Labor dropped as primarily an environmental/construction lab (weak food-niche fit)."
         }
       ],
       "confidence": 3,
@@ -8174,9 +8193,8 @@
       "investability_note": "",
       "actionable": {
         "named_targets": [
-          "ifp Institut für Produktqualität GmbH (produktqualitaet.com, Berlin) - independent accredited food/feed/water analytics lab, founded 2004, ~300+ staff",
-          "ÖHMI Analytik GmbH (oehmi-analytik.de, Magdeburg) - independent accredited food/water/environmental lab",
-          "gbm Labor GmbH (gbm-labor.de) - independent DAkkS ISO 17025 food/sampling lab"
+          "OEHMI Analytik GmbH (oehmi-analytik.de, Magdeburg) - independent accredited food/water/agricultural/environmental analytics lab, privately held under OEHMI AG (1990-92 management buy-out)",
+          "AGROLAB Group / AGROLAB GmbH (agrolab.com, Landshut) - independent family-owned (founder/CEO Dr. Paul Wimmer) accredited food/water/agricultural contaminant analytics lab group (~2,600 staff, 30+ sites); named best family-owned chemical company 2025 (SZ ranking)"
         ],
         "ebitda_margin": {
           "band": "~12-20% (TIC-sector norm)",

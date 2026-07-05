@@ -1343,15 +1343,9 @@
       "actionable": {
         "named_targets": [
           {
-            "name": "GreenPocket GmbH",
-            "location": "Köln",
-            "ownership": "founder-led SME (MD Dr. Thomas Goette, ~35 staff), energy-management & visualisation software",
-            "source": "https://www.greenpocket.com/de/unternehmen/ueber-greenpocket"
-          },
-          {
             "name": "Komprenu (Komprenu GmbH)",
             "location": "Germany",
-            "ownership": "founder-managed (Yves Goergen & Rolf-Dieter Clavery), energy-monitoring / building-management software",
+            "ownership": "founder-managed (Yves Goergen & Rolf-Dieter Clavery), energy-monitoring / condition-monitoring / building-management software (Katmai platform), BAFA-listed",
             "source": "https://komprenu.de/ueber-uns"
           }
         ],
@@ -1941,14 +1935,8 @@
           {
             "name": "BSS Brandschutz Sichelstiel GmbH",
             "location": "Nürnberg (+ branches)",
-            "ownership": "owner-managed family firm, sole shareholder Peter Sichelstiel; VdS-recognised sprinkler/water-spray installer",
+            "ownership": "owner-managed family firm, sole shareholder Peter Sichelstiel (founded 2006); VdS-recognised sprinkler/spray-water/gas installer",
             "source": "https://www.bss-sichelstiel.de/"
-          },
-          {
-            "name": "Jockel-Bramax GmbH",
-            "location": "Gladbeck",
-            "ownership": "VdS-recognised sprinkler installer; part of the independent family Jockel group (stayed independent vs. Presto sale)",
-            "source": "https://www.jockel-bramax.de/"
           }
         ],
         "ebitda_margin": "~8-12% EBITDA for recurring-service-heavy fire firms (Swiss/European fire-safety benchmark)",
