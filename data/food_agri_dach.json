@@ -45,6 +45,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
+      "actionable": {},
       "child_ids": [
         "food-agriculture-services-value-chain/food-certification-auditing",
         "food-agriculture-services-value-chain/cold-chain-food-logistics",
@@ -92,6 +93,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
+      "actionable": {},
       "child_ids": [
         "food-agriculture-services-value-chain/food-certification-auditing/gfsi-food-safety-scheme-certification-ifs-food-brcgs-fssc-22000",
         "food-agriculture-services-value-chain/food-certification-auditing/organic-bio-certification-eu-oko-vo-kontrollstellen",
@@ -176,6 +178,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
+      "actionable": {},
       "child_ids": [
         "food-agriculture-services-value-chain/food-certification-auditing/gfsi-food-safety-scheme-certification-ifs-food-brcgs-fssc-22000/retail-manufacturer-standards-ifs-food-brcgs",
         "food-agriculture-services-value-chain/food-certification-auditing/gfsi-food-safety-scheme-certification-ifs-food-brcgs-fssc-22000/fssc-22000-iso-22000-management-system-certification"
@@ -251,6 +254,7 @@
       "pe_activity": [],
       "investability": "restricted",
       "investability_note": "DAkkS accreditation + IFS/BRCGS scheme approval required (licence-bound); acquirable but with regulatory-consent friction.",
+      "actionable": {},
       "child_ids": []
     },
     "food-agriculture-services-value-chain/food-certification-auditing/gfsi-food-safety-scheme-certification-ifs-food-brcgs-fssc-22000/fssc-22000-iso-22000-management-system-certification": {
@@ -324,6 +328,7 @@
       "pe_activity": [],
       "investability": "restricted",
       "investability_note": "Bodies need DAkkS accreditation (Sachkunde/licence-bound) and the ~13-25 accredited bodies are already dominated by TIC consolidators (SGS, Eurofins/ARS PROBATA, DEKRA, DQS, all three TUEV) - few independents left to acquire.",
+      "actionable": {},
       "child_ids": []
     },
     "food-agriculture-services-value-chain/food-certification-auditing/organic-bio-certification-eu-oko-vo-kontrollstellen": {
@@ -392,6 +397,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
+      "actionable": {},
       "child_ids": [
         "food-agriculture-services-value-chain/food-certification-auditing/organic-bio-certification-eu-oko-vo-kontrollstellen/association-verband-organic-certification-demeter-bioland-naturland"
       ]
@@ -456,6 +462,7 @@
       "pe_activity": [],
       "investability": "blocked",
       "investability_note": "Demeter/Bioland/Naturland are member-owned associations (eingetragene Vereine), not acquirable; the ~19 Öko-Kontrollstellen underneath are the only investable layer.",
+      "actionable": {},
       "child_ids": []
     },
     "food-agriculture-services-value-chain/food-certification-auditing/qs-system-globalg-a-p-farm-feed-audits": {
@@ -536,6 +543,7 @@
       "pe_activity": [],
       "investability": "restricted",
       "investability_note": "Cert bodies are DAkkS-accredited and QS-approved (licence/approval-bound); acquirable but accreditation transfer + scheme approval create friction, and global TIC players (Kiwa/SGS/DEKRA) already active.",
+      "actionable": {},
       "child_ids": []
     },
     "food-agriculture-services-value-chain/food-certification-auditing/animal-welfare-sustainability-label-auditing": {
@@ -609,6 +617,7 @@
       "pe_activity": [],
       "investability": "restricted",
       "investability_note": "Audits tied to scheme owners (QS/ITW, industry-owned) + accreditation; state Tierhaltungskennzeichen (mandatory 2027) adds licence-bound approval.",
+      "actionable": {},
       "child_ids": []
     },
     "food-agriculture-services-value-chain/food-certification-auditing/halal-kosher-certification": {
@@ -682,6 +691,7 @@
       "pe_activity": [],
       "investability": "restricted",
       "investability_note": "~9 major halal certifiers + kosher bodies in DE, many are religious associations (Vereine) / faith-governed and person-bound with no unified protected seal - ownership/governance friction despite ~EUR 5bn end-market and no financial consolidator yet.",
+      "actionable": {},
       "child_ids": []
     },
     "food-agriculture-services-value-chain/food-certification-auditing/haccp-hygiene-consulting-training": {
@@ -761,6 +771,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Hundreds of privately owned, asset-light consultancies/training providers; freely acquirable (trainer Sachkunde is personal but transferable, not a corporate ownership block).",
+      "actionable": {},
       "child_ids": []
     },
     "food-agriculture-services-value-chain/food-certification-auditing/packaging-sustainability-certification-fsc-pefc-epr-lucid-compliance": {
@@ -840,6 +851,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "EPR/LUCID compliance advisory leg is freely acquirable and dominant; only the FSC/PEFC CoC audit leg carries ASI-accreditation friction. Strong PPWR/EPR regulatory tailwind but Interzero/Reclay/Lizenzero already consolidating compliance side.",
+      "actionable": {},
       "child_ids": []
     },
     "food-agriculture-services-value-chain/cold-chain-food-logistics": {
@@ -878,6 +890,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
+      "actionable": {},
       "child_ids": [
         "food-agriculture-services-value-chain/cold-chain-food-logistics/temperature-controlled-warehousing-kuhlhaus-tk-lager",
         "food-agriculture-services-value-chain/cold-chain-food-logistics/refrigerated-transport-tk-distribution-frischedienst",
@@ -956,6 +969,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
+      "actionable": {},
       "child_ids": [
         "food-agriculture-services-value-chain/cold-chain-food-logistics/temperature-controlled-warehousing-kuhlhaus-tk-lager/deep-freeze-tk-bulk-storage-18c",
         "food-agriculture-services-value-chain/cold-chain-food-logistics/temperature-controlled-warehousing-kuhlhaus-tk-lager/chilled-fresh-multi-temp-storage-regional-distribution-hubs"
@@ -1033,6 +1047,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Freely acquirable asset/share deals, but capital-heavy (warehouse real estate + refrigeration) and heavily contested.",
+      "actionable": {},
       "child_ids": []
     },
     "food-agriculture-services-value-chain/cold-chain-food-logistics/temperature-controlled-warehousing-kuhlhaus-tk-lager/chilled-fresh-multi-temp-storage-regional-distribution-hubs": {
@@ -1105,6 +1120,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Privately/family-owned regional cold stores are freely acquirable, but capital-heavy (real estate, energy) and consolidation is already advanced - NewCold, Constellation, Lineage, Americold and Blackstone (Nagel portfolio) are actively rolling up.",
+      "actionable": {},
       "child_ids": []
     },
     "food-agriculture-services-value-chain/cold-chain-food-logistics/refrigerated-transport-tk-distribution-frischedienst": {
@@ -1180,6 +1196,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
+      "actionable": {},
       "child_ids": [
         "food-agriculture-services-value-chain/cold-chain-food-logistics/refrigerated-transport-tk-distribution-frischedienst/deep-freeze-line-haul-tk-fernverkehr",
         "food-agriculture-services-value-chain/cold-chain-food-logistics/refrigerated-transport-tk-distribution-frischedienst/regional-chilled-frischedienst-multi-drop-distribution"
@@ -1251,6 +1268,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Private hauliers freely acquirable, but sector is capital-heavy and already being consolidated by strategics (Nagel-Group ~EUR 2bn, Dachser/Frigoscandia).",
+      "actionable": {},
       "child_ids": []
     },
     "food-agriculture-services-value-chain/cold-chain-food-logistics/refrigerated-transport-tk-distribution-frischedienst/regional-chilled-frischedienst-multi-drop-distribution": {
@@ -1318,6 +1336,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Freely acquirable owner-operated GmbHs; several hundred regional players, capital-heavy fleets. PE precedent exists (Eismann/Gilde; Nagel-Group scale) but regional multi-drop tier still fragmented.",
+      "actionable": {},
       "child_ids": []
     },
     "food-agriculture-services-value-chain/cold-chain-food-logistics/foodservice-catering-delivery-wholesale-zustellgrohandel": {
@@ -1388,6 +1407,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
+      "actionable": {},
       "child_ids": [
         "food-agriculture-services-value-chain/cold-chain-food-logistics/foodservice-catering-delivery-wholesale-zustellgrohandel/national-full-line-delivery-wholesalers",
         "food-agriculture-services-value-chain/cold-chain-food-logistics/foodservice-catering-delivery-wholesale-zustellgrohandel/regional-cooperative-zustellgrohandel-specialist-frischedienst"
@@ -1460,6 +1480,7 @@
       "pe_activity": [],
       "investability": "restricted",
       "investability_note": "Oligopoly of ~4 groups (Transgourmet=Coop co-op, Chefs Culinar family, Metro listed, Service-Bund); not a many-target roll-up, ownership largely locked.",
+      "actionable": {},
       "child_ids": []
     },
     "food-agriculture-services-value-chain/cold-chain-food-logistics/foodservice-catering-delivery-wholesale-zustellgrohandel/regional-cooperative-zustellgrohandel-specialist-frischedienst": {
@@ -1531,6 +1552,7 @@
       "pe_activity": [],
       "investability": "restricted",
       "investability_note": "Many targets are member-owned cooperatives (Intergast, HGK eG) that are structurally un-acquirable, and the independents have largely been absorbed by strategics - Transgourmet (REWE), Chefs Culinar, EDEKA/Handelshof; low-margin distribution.",
+      "actionable": {},
       "child_ids": []
     },
     "food-agriculture-services-value-chain/cold-chain-food-logistics/last-mile-grocery-fresh-frozen-home-delivery": {
@@ -1610,6 +1632,7 @@
       "pe_activity": [],
       "investability": "restricted",
       "investability_note": "Only ~5-10 scaled players, most strategically owned (Flaschenpost/Oetker, Picnic/Edeka, Knuspr/Rohlik) and not for sale; capital-heavy, thin/negative margins, market already consolidating.",
+      "actionable": {},
       "child_ids": []
     },
     "food-agriculture-services-value-chain/cold-chain-food-logistics/cold-store-commercial-refrigeration-service-gewerbekalte": {
@@ -1694,6 +1717,7 @@
       "pe_activity": [],
       "investability": "restricted",
       "investability_note": "Kälteanlagenbauer is a Meisterpflicht craft (Anlage A HwO) plus F-Gas Sachkundenachweis; acquirable but licence/Meister-bound. PE buy-and-build in TGA/Handwerk already targeting this space (VDKF 900+ members).",
+      "actionable": {},
       "child_ids": []
     },
     "food-agriculture-services-value-chain/cold-chain-food-logistics/temperature-monitoring-cold-chain-compliance-tech": {
@@ -1773,6 +1797,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "SaaS/sensor vendors freely acquirable; no dominant PE software consolidator yet in DACH.",
+      "actionable": {},
       "child_ids": []
     },
     "food-agriculture-services-value-chain/cold-chain-food-logistics/bonded-veterinary-controlled-food-import-handling": {
@@ -1857,6 +1882,7 @@
       "pe_activity": [],
       "investability": "restricted",
       "investability_note": "Activity is gated by state-run veterinary border-control posts (Grenzkontrollstellen) and authorised Zolllager approvals - handlers must operate under BCP/customs authorisations (licence-bound), though the specialist agents themselves are fragmented and un-consolidated.",
+      "actionable": {},
       "child_ids": []
     },
     "food-agriculture-services-value-chain/agricultural-contracting-farm-services": {
@@ -1895,6 +1921,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
+      "actionable": {},
       "child_ids": [
         "food-agriculture-services-value-chain/agricultural-contracting-farm-services/agricultural-contracting-lohnunternehmen",
         "food-agriculture-services-value-chain/agricultural-contracting-farm-services/biogas-plant-operation-service",
@@ -1971,6 +1998,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
+      "actionable": {},
       "child_ids": [
         "food-agriculture-services-value-chain/agricultural-contracting-farm-services/agricultural-contracting-lohnunternehmen/slurry-manure-spreading-gulle-wirtschaftsdunger",
         "food-agriculture-services-value-chain/agricultural-contracting-farm-services/agricultural-contracting-lohnunternehmen/harvesting-ernte-silage-mahdrusch-hackfrucht",
@@ -2051,6 +2079,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Hundreds of privately owned Lohnunternehmen (>3,000 professional firms, ~EUR 4.5bn sector), no financial consolidator yet; Maschinenring co-ops compete but individual firms are acquirable.",
+      "actionable": {},
       "child_ids": []
     },
     "food-agriculture-services-value-chain/agricultural-contracting-farm-services/agricultural-contracting-lohnunternehmen/harvesting-ernte-silage-mahdrusch-hackfrucht": {
@@ -2111,6 +2140,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "~6,000 firms, ~EUR 3bn, unlicensed and freely acquirable; investor involvement explicitly 'not widespread', large succession gap = virgin whitespace. But capital-heavy (combines/forage harvesters), seasonal, low-margin.",
+      "actionable": {},
       "child_ids": []
     },
     "food-agriculture-services-value-chain/agricultural-contracting-farm-services/agricultural-contracting-lohnunternehmen/sowing-tillage-crop-establishment": {
@@ -2176,6 +2206,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Private owner-operated firms freely acquirable; no financial consolidator yet, but capital-heavy machinery fleets.",
+      "actionable": {},
       "child_ids": []
     },
     "food-agriculture-services-value-chain/agricultural-contracting-farm-services/biogas-plant-operation-service": {
@@ -2240,6 +2271,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
+      "actionable": {},
       "child_ids": [
         "food-agriculture-services-value-chain/agricultural-contracting-farm-services/biogas-plant-operation-service/technical-service-maintenance-repowering",
         "food-agriculture-services-value-chain/agricultural-contracting-farm-services/biogas-plant-operation-service/substrate-digestate-logistics"
@@ -2316,6 +2348,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Independent service/repowering firms serving ~9,600 plants are freely acquirable and largely un-consolidated (OEMs like Schmack/PlanET plus a long tail); revenue is heavily tied to EEG tariffs/Ausschreibung and plants may decommission at subsidy expiry (2026-2030).",
+      "actionable": {},
       "child_ids": []
     },
     "food-agriculture-services-value-chain/agricultural-contracting-farm-services/biogas-plant-operation-service/substrate-digestate-logistics": {
@@ -2381,6 +2414,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Private logistics/Lohnunternehmen freely acquirable, but revenue is tied to EEG-subsidised biogas plants; with EEG payments expiring ~70% of biogas operators signalled intent to quit in 2025 – shrinking, highly subsidy-dependent base.",
+      "actionable": {},
       "child_ids": []
     },
     "food-agriculture-services-value-chain/agricultural-contracting-farm-services/agricultural-machinery-dealer-service-repair-landtechnik-werkstatt": {
@@ -2454,6 +2488,7 @@
       "pe_activity": [],
       "investability": "restricted",
       "investability_note": "Land- u. Baumaschinenmechatroniker is Meisterpflicht; dealer arms bound by OEM franchise/consent. ~4,000 specialist firms (~5,930 in craft register, ~EUR 13bn), but sales cyclical (-6.7% recent) and brand contracts limit free roll-up.",
+      "actionable": {},
       "child_ids": []
     },
     "food-agriculture-services-value-chain/agricultural-contracting-farm-services/livestock-services-klauenpflege-besamung-stallhygiene": {
@@ -2517,6 +2552,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
+      "actionable": {},
       "child_ids": [
         "food-agriculture-services-value-chain/agricultural-contracting-farm-services/livestock-services-klauenpflege-besamung-stallhygiene/hoof-care-klauenpflege",
         "food-agriculture-services-value-chain/agricultural-contracting-farm-services/livestock-services-klauenpflege-besamung-stallhygiene/ai-breeding-services-besamung-tierzucht",
@@ -2593,6 +2629,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Fragmented, owner-operated mobile SMEs, succession-driven and roll-up-friendly. 'Gepruefte/r Klauenpfleger/in' is a voluntary standardised qualification, not a licensing monopoly - so no professional-reservation barrier to outside ownership (unlike the sibling AI/Breeding node, which stays blocked).",
+      "actionable": {},
       "child_ids": []
     },
     "food-agriculture-services-value-chain/agricultural-contracting-farm-services/livestock-services-klauenpflege-besamung-stallhygiene/ai-breeding-services-besamung-tierzucht": {
@@ -2671,6 +2708,7 @@
       "pe_activity": [],
       "investability": "blocked",
       "investability_note": "The ~20 Besamungsstationen are member-owned registered cooperatives / breeding associations (RSH eG, RBG Memmingen eG, RZB eG) under EU Tierzucht-VO governance - structurally un-acquirable by financial sponsors; declining livestock herds cap growth.",
+      "actionable": {},
       "child_ids": []
     },
     "food-agriculture-services-value-chain/agricultural-contracting-farm-services/livestock-services-klauenpflege-besamung-stallhygiene/barn-hygiene-cleaning-disinfection": {
@@ -2739,6 +2777,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Dozens-to-hundreds of regional, owner-operated hygiene firms, no financial consolidator; barn cleaning itself is not licence-bound (unlike sister niches Besamung/Klauenpflege), so freely acquirable.",
+      "actionable": {},
       "child_ids": []
     },
     "food-agriculture-services-value-chain/agricultural-contracting-farm-services/precision-ag-drone-soil-mapping-services": {
@@ -2811,6 +2850,7 @@
       "pe_activity": [],
       "investability": "restricted",
       "investability_note": "Virgin, no financial consolidator, strong digitisation tailwind (~12.6% CAGR) but tiny early-stage pool (EUR 0.05-1m). Drone ops need EU/LBA pilot licences and permits; aerial application heavily restricted; farm uptake leans on GAP digitisation subsidies.",
+      "actionable": {},
       "child_ids": []
     },
     "food-agriculture-services-value-chain/agricultural-contracting-farm-services/crop-protection-agronomy-advisory": {
@@ -2883,6 +2923,7 @@
       "pe_activity": [],
       "investability": "restricted",
       "investability_note": "Bulk sits with state Landwirtschaftskammern (public) and member-owned Erzeugerringe (non-tradable co-ops); private slice needs Pflanzenschutz-Sachkunde for advisory.",
+      "actionable": {},
       "child_ids": []
     },
     "food-agriculture-services-value-chain/agricultural-contracting-farm-services/forestry-services-forstdienstleister": {
@@ -2955,6 +2996,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "~8,000 highly fragmented, owner-operated private contractors (>50% Kleingewerbe/Freiberuf) with no financial consolidator - freely acquirable, but capital-heavy (harvesters), weather/calamity-cyclical, and partly dependent on public-forest contracts and forestry subsidies.",
+      "actionable": {},
       "child_ids": []
     },
     "food-agriculture-services-value-chain/agricultural-contracting-farm-services/agricultural-irrigation-services-bewasserung-beregnung": {
@@ -3027,6 +3069,7 @@
       "pe_activity": [],
       "investability": "restricted",
       "investability_note": "A large share of the sector is run by Wasser- und Bodenverbände, which are self-governing public-law corporations (Körperschaften des öffentlichen Rechts) and un-acquirable; only private irrigation contractors are investable.",
+      "actionable": {},
       "child_ids": []
     },
     "food-agriculture-services-value-chain/food-processing-equipment-service-hygiene": {
@@ -3065,6 +3108,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
+      "actionable": {},
       "child_ids": [
         "food-agriculture-services-value-chain/food-processing-equipment-service-hygiene/food-beverage-processing-machine-maintenance-repair-manufacturer-independent",
         "food-agriculture-services-value-chain/food-processing-equipment-service-hygiene/industrial-cip-clean-in-place-systems-hygienic-cleaning-service",
@@ -3148,6 +3192,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
+      "actionable": {},
       "child_ids": [
         "food-agriculture-services-value-chain/food-processing-equipment-service-hygiene/food-beverage-processing-machine-maintenance-repair-manufacturer-independent/bakery-machine-service-backereimaschinen",
         "food-agriculture-services-value-chain/food-processing-equipment-service-hygiene/food-beverage-processing-machine-maintenance-repair-manufacturer-independent/meat-dairy-brewery-machine-service"
@@ -3230,6 +3275,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Manufacturer-independent field service (ahk, MBM Lambeck, AMS-Kohl); ~300-500 firms, owner-operated, no financial consolidator. Asset-light recurring service margins; open to acquire. Declining artisan-bakery count is a mild headwind offset by industrial bakeries.",
+      "actionable": {},
       "child_ids": []
     },
     "food-agriculture-services-value-chain/food-processing-equipment-service-hygiene/food-beverage-processing-machine-maintenance-repair-manufacturer-independent/meat-dairy-brewery-machine-service": {
@@ -3298,6 +3344,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Private owner-operated field-service firms freely acquirable; asset-light recurring maintenance, no PE consolidator visible.",
+      "actionable": {},
       "child_ids": []
     },
     "food-agriculture-services-value-chain/food-processing-equipment-service-hygiene/industrial-cip-clean-in-place-systems-hygienic-cleaning-service": {
@@ -3387,6 +3434,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Fragmented long tail of 150-300 system/service integrators is freely acquirable, but the consumables/chemistry layer is dominated by majors (Ecolab ~30% share, Diversey, Christeyns) who anchor recurring hygiene contracts - partial consolidation from the top.",
+      "actionable": {},
       "child_ids": []
     },
     "food-agriculture-services-value-chain/food-processing-equipment-service-hygiene/weighing-checkweighing-foreign-body-inspection-equipment-service": {
@@ -3472,6 +3520,7 @@
       "pe_activity": [],
       "investability": "restricted",
       "investability_note": "~300-500 firms, asset-light recurring calibration/inspection; Eichung is legal metrology requiring state-recognised Prüfstelle / DAkkS accreditation (MessEG), a licence hurdle but firms remain acquirable.",
+      "actionable": {},
       "child_ids": []
     },
     "food-agriculture-services-value-chain/food-processing-equipment-service-hygiene/filling-packaging-line-service": {
@@ -3550,6 +3599,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Asset-light recurring line service; ~200-400 firms but OEM service arms (Krones/KHS/Optima) capture much of the market, leaving a smaller independent long tail and partial consolidation. Freely acquirable.",
+      "actionable": {},
       "child_ids": []
     },
     "food-agriculture-services-value-chain/food-processing-equipment-service-hygiene/industrial-refrigeration-service-for-food-plants-nh3-co2": {
@@ -3630,6 +3680,7 @@
       "pe_activity": [],
       "investability": "restricted",
       "investability_note": "Acquirable but personnel need F-Gas/Kälteschein Sachkunde; NH3/CO2 handling licence-bound, otherwise fragmented owner-operated pool.",
+      "actionable": {},
       "child_ids": []
     },
     "food-agriculture-services-value-chain/food-processing-equipment-service-hygiene/commercial-kitchen-equipment-service-grokuchentechnik": {
@@ -3714,6 +3765,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "1,000+ small owner-operated service/maintenance Fachbetriebe (EUR 0.5-8m) across DE/AT, largely virgin with no visible financial consolidator - freely acquirable; only mild Sachkunde needs (gas/refrigerant handling), asset-light recurring maintenance revenue.",
+      "actionable": {},
       "child_ids": []
     },
     "food-agriculture-services-value-chain/food-processing-equipment-service-hygiene/process-water-f-b-water-treatment-service": {
@@ -3794,6 +3846,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "~150-300 privately owned service firms freely acquirable; strategics (Veolia, Kurita) present at the top but the maintenance/Legionella-monitoring service layer remains fragmented.",
+      "actionable": {},
       "child_ids": []
     },
     "food-agriculture-services-value-chain/agri-inputs-distribution-advisory-land-management": {
@@ -3832,6 +3885,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
+      "actionable": {},
       "child_ids": [
         "food-agriculture-services-value-chain/agri-inputs-distribution-advisory-land-management/agri-input-distribution-landhandel-seed-fertiliser-crop-protection",
         "food-agriculture-services-value-chain/agri-inputs-distribution-advisory-land-management/agricultural-advisory-farm-bookkeeping-tax-landwirtschaftliche-buchstelle",
@@ -3907,6 +3961,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
+      "actionable": {},
       "child_ids": [
         "food-agriculture-services-value-chain/agri-inputs-distribution-advisory-land-management/agri-input-distribution-landhandel-seed-fertiliser-crop-protection/co-operative-warengenossenschaften-raiffeisen",
         "food-agriculture-services-value-chain/agri-inputs-distribution-advisory-land-management/agri-input-distribution-landhandel-seed-fertiliser-crop-protection/private-independent-landhandel-grain-trade",
@@ -3988,6 +4043,7 @@
       "pe_activity": [],
       "investability": "blocked",
       "investability_note": "Member-owned registered cooperatives (eG) under GenG - one-member-one-vote, member-promotion purpose; structurally un-acquirable by an external PE investor. ~2,600 co-ops consolidate only into each other / Agravis, not sold to financial sponsors.",
+      "actionable": {},
       "child_ids": []
     },
     "food-agriculture-services-value-chain/agri-inputs-distribution-advisory-land-management/agri-input-distribution-landhandel-seed-fertiliser-crop-protection/private-independent-landhandel-grain-trade": {
@@ -4007,18 +4063,18 @@
         "recurring": 4,
         "fragmentation": 5,
         "compliance": 4,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 4,
+        "margin": 2,
+        "growth": 2,
+        "headroom": 3,
+        "reimbursement_risk": 3
       },
       "rationale": {
         "recurring": "Seasonal input supply + grain intake with sticky local farmer relationships.",
         "fragmentation": "~675 private firms (2010), mostly family-owned regional operators — classic long tail.",
         "compliance": "Sachkundenachweis for crop-protection sales; fertiliser documentation under Düngeverordnung."
       },
-      "composite": 83.3,
+      "composite": 52.5,
       "dach_signals": {
         "est_players": "~675 private Landhandel firms (DE, 2010)",
         "revenue_band_eur": "EUR 2-50m typical",
@@ -4038,14 +4094,20 @@
           "title": "Landhandel – Wikipedia",
           "url": "https://de.wikipedia.org/wiki/Landhandel",
           "note": "675 private Landhandel firms; scope of inputs + grain + machinery trade"
+        },
+        {
+          "title": "BayWa-Krise: Agrarhaendler streicht 26 Standorte und 1.300 Arbeitsplaetze - agrarheute",
+          "url": "https://www.agrarheute.com/management/agribusiness/baywa-krise-agrarhaendler-streicht-26-standorte-1300-arbeitsplaetze-629616",
+          "note": "Structural margin/financial pressure at the sector leader; capital-heavy commodity model."
         }
       ],
-      "confidence": 3,
-      "status": "grounded",
+      "confidence": 4,
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
-      "investability": "open",
-      "investability_note": "",
+      "investability": "restricted",
+      "investability_note": "Private firms are acquirable, but the segment is dominated by member-owned Raiffeisen co-ops (BayWa/Agravis, GenG) that structurally hold most volume; commodity trade, thin margins, CAP-subsidy-dependent farmer customers.",
+      "actionable": {},
       "child_ids": []
     },
     "food-agriculture-services-value-chain/agri-inputs-distribution-advisory-land-management/agri-input-distribution-landhandel-seed-fertiliser-crop-protection/animal-feed-mischfutter-distribution-advisory": {
@@ -4065,18 +4127,18 @@
         "recurring": 5,
         "fragmentation": 3,
         "compliance": 4,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 4,
+        "margin": 2,
+        "growth": 2,
+        "headroom": 3,
+        "reimbursement_risk": 2
       },
       "rationale": {
         "recurring": "Feed is consumed and re-ordered continuously — the most recurring input on livestock farms.",
         "fragmentation": "~264 mills with top-10 ~60% share — intensive competition but consolidating (12 mills lost YoY).",
         "compliance": "Feed law (Futtermittelrecht), HACCP/QS certification, hygiene and traceability duties."
       },
-      "composite": 75.0,
+      "composite": 53.3,
       "dach_signals": {
         "est_players": "~276 compound-feed mills (DE, 2023, DVT)",
         "revenue_band_eur": "sector ~EUR 9.4bn (2023, DVT; down from ~EUR 10.5bn 2022); mills EUR 5-200m",
@@ -4107,14 +4169,20 @@
           "title": "DVT - Mischfutterproduktion 2023",
           "url": "https://www.dvtiernahrung.de/aktuelles-detail/mischfutterproduktion-2023-starker-abwaertstrend-der-vorjahre-vorerst-abgefangen",
           "note": "2023: EUR 9.4bn turnover, 21.7 Mt output, 276 mills; replaces EUR 8.3bn/264 mills. 'Top-10 ~60% share' claim removed as unverified"
+        },
+        {
+          "title": "Mischfutter-Wirtschaftszahlen 2023 - schweine.net",
+          "url": "https://www.schweine.net/news/mischfutterproduktion-2023-schweinesegment-weiter.html",
+          "note": "Top 10 mills hold ~60% share; sector Mittelstand but co-op/large dominated, pig-feed segment falling"
         }
       ],
       "confidence": 4,
-      "status": "grounded",
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
-      "investability": "open",
-      "investability_note": "",
+      "investability": "restricted",
+      "investability_note": "Large slice of the ~276 mills / EUR 9.4bn sector sits inside Raiffeisen/AGRAVIS/co-op (GenG eG) structures that are member-owned and un-acquirable; private family mills are buyable but capital-heavy.",
+      "actionable": {},
       "child_ids": []
     },
     "food-agriculture-services-value-chain/agri-inputs-distribution-advisory-land-management/agricultural-advisory-farm-bookkeeping-tax-landwirtschaftliche-buchstelle": {
@@ -4187,6 +4255,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
+      "actionable": {},
       "child_ids": [
         "food-agriculture-services-value-chain/agri-inputs-distribution-advisory-land-management/agricultural-advisory-farm-bookkeeping-tax-landwirtschaftliche-buchstelle/farm-bookkeeping-tax-payroll-buchstelle-core",
         "food-agriculture-services-value-chain/agri-inputs-distribution-advisory-land-management/agricultural-advisory-farm-bookkeeping-tax-landwirtschaftliche-buchstelle/farm-business-agronomic-advisory-private-beratung"
@@ -4209,18 +4278,18 @@
         "recurring": 5,
         "fragmentation": 4,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 3,
+        "margin": 5,
+        "growth": 3,
+        "headroom": 4,
+        "reimbursement_risk": 2
       },
       "rationale": {
         "recurring": "Statutory annual filings and monthly bookkeeping renew automatically.",
         "fragmentation": "Local practices + association Buchstellen; no national consolidator.",
         "compliance": "Protected §44 title; regulated tax-advisory monopoly under StBerG."
       },
-      "composite": 91.7,
+      "composite": 74.2,
       "dach_signals": {
         "est_players": "hundreds of qualified Buchstellen (DE)",
         "revenue_band_eur": "EUR 0.5-5m per practice",
@@ -4240,14 +4309,25 @@
           "title": "Steuerberatung für Land- und Forstwirtschaft – PMPG",
           "url": "https://www.pmpg.de/steuern/landwirtschaftliche-buchstelle/",
           "note": "Scope of Buchstelle services for farm/forestry clients"
+        },
+        {
+          "title": "Sec 44 StBerG - Bezeichnung 'Landwirtschaftliche Buchstelle' - steuertipps.de",
+          "url": "https://www.steuertipps.de/gesetze/steuerberatungsgesetz-stberg/44-bezeichnung-landwirtschaftliche-buchstelle",
+          "note": "Protected title granted only to StB/RA persons; firms only if a qualified partner/representative holds authorisation."
+        },
+        {
+          "title": "Landwirtschaftliche Buchstelle - Steuerberaterkammer Muenchen",
+          "url": "https://www.steuerberaterkammer-muenchen.de/de/steuerberater/steuerberatung/weitere_qualifikationen/landwirtschaftliche_buchstelle/index_ger.html",
+          "note": "Person-bound qualification confirming reserved-profession status."
         }
       ],
       "confidence": 4,
-      "status": "grounded",
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
-      "investability": "open",
-      "investability_note": "",
+      "investability": "blocked",
+      "investability_note": "Tax advice is a reserved profession under StBerG; the 'landwirtschaftliche Buchstelle' title and Steuerberatung are person-bound and subject to Fremdbesitzverbot (majority ownership must be Steuerberater), so a financial investor cannot own the core.",
+      "actionable": {},
       "child_ids": []
     },
     "food-agriculture-services-value-chain/agri-inputs-distribution-advisory-land-management/agricultural-advisory-farm-bookkeeping-tax-landwirtschaftliche-buchstelle/farm-business-agronomic-advisory-private-beratung": {
@@ -4267,18 +4347,18 @@
         "recurring": 3,
         "fragmentation": 5,
         "compliance": 4,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 3,
+        "margin": 4,
+        "growth": 3,
+        "headroom": 4,
+        "reimbursement_risk": 3
       },
       "rationale": {
         "recurring": "Repeat retainers around annual planning cycles but re-won project by project.",
         "fragmentation": "Many sole practitioners and small consultancies; chambers + private mix.",
         "compliance": "Advice driven by mandatory Düngeverordnung nutrient balances and Pflanzenschutz Sachkunde duties."
       },
-      "composite": 75.0,
+      "composite": 56.7,
       "dach_signals": {
         "est_players": "many hundreds of advisors (Kammern + private)",
         "revenue_band_eur": "EUR 0.2-2m typical",
@@ -4303,14 +4383,25 @@
           "title": "GAP – LKSH",
           "url": "https://www.lksh.de/beratung/anbauberatung/gap-gemeinsame-agrarpolitik",
           "note": "Chamber advisory role on GAP/Konditionalität"
+        },
+        {
+          "title": "§ 44 StBerG Landwirtschaftliche Buchstelle",
+          "url": "https://www.steuertipps.de/gesetze/steuerberatungsgesetz-stberg/44-bezeichnung-landwirtschaftliche-buchstelle",
+          "note": "Buchstelle designation is licence-bound (StB/RA with agri competence), granted by Steuerberaterkammer"
+        },
+        {
+          "title": "Landwirtschaftliche Buchstelle - StBK Niedersachsen",
+          "url": "https://www.stbk-niedersachsen.de/de/f%C3%BCr_steuerberater_innen/_landwirtschaftliche_buchstelle_/",
+          "note": "Confirms Kammer-administered authorisation; advisory market fragmented across chambers + private advisors"
         }
       ],
       "confidence": 3,
-      "status": "grounded",
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
-      "investability": "open",
-      "investability_note": "",
+      "investability": "restricted",
+      "investability_note": "Asset-light but ownership friction: tax/Buchstelle arms bound by StBerG (only StB/Buchstelle designation holders), and much agronomic advice is Kammer 'Offizialberatung' (public) or CAP-subsidised; only the private advisory layer is freely acquirable.",
+      "actionable": {},
       "child_ids": []
     },
     "food-agriculture-services-value-chain/agri-inputs-distribution-advisory-land-management/farm-succession-land-management-estate-services": {
@@ -4378,6 +4469,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
+      "actionable": {},
       "child_ids": [
         "food-agriculture-services-value-chain/agri-inputs-distribution-advisory-land-management/farm-succession-land-management-estate-services/land-management-leasing-estate-administration"
       ]
@@ -4399,18 +4491,18 @@
         "recurring": 4,
         "fragmentation": 5,
         "compliance": 4,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 2,
+        "margin": 4,
+        "growth": 3,
+        "headroom": 4,
+        "reimbursement_risk": 2
       },
       "rationale": {
         "recurring": "Lease administration and land-portfolio management are annual, contracted services.",
         "fragmentation": "Regional Gutsverwalter and small firms; highly localised.",
         "compliance": "Landpachtverkehrsgesetz, Grundstückverkehrsgesetz approvals, GAP eligibility of leased land."
       },
-      "composite": 83.3,
+      "composite": 61.7,
       "dach_signals": {
         "est_players": "many local estate managers / Rentkammern",
         "revenue_band_eur": "EUR 0.2-2m typical",
@@ -4430,14 +4522,25 @@
           "title": "Hofnachfolger finden – Flächenplattform Brandenburg",
           "url": "https://flaechenplattform.de/nachhaltige-landwirtschaft/hofnachfolger-finden",
           "note": "Land/lease matching and management around succession"
+        },
+        {
+          "title": "Flaechenverwaltung - Landgesellschaft Mecklenburg-Vorpommern",
+          "url": "https://www.lgmv.de/flaechenmanagement/flaechenverwaltung/",
+          "note": "State-owned Landgesellschaften manage large hectarage, illustrating the semi-public share of the market."
+        },
+        {
+          "title": "Verwaltung von Flaechen - Bundesverband der gemeinnuetzigen Landgesellschaften",
+          "url": "https://www.blg-berlin.de/die-gemeinnuetzigen-landgesellschaften/die-taetigkeiten-a-z/verwaltung-von-flaechen/",
+          "note": "~105,000 ha managed by non-profit Landgesellschaften; private managers/brokers fill the commercial remainder."
         }
       ],
-      "confidence": 2,
-      "status": "grounded",
+      "confidence": 3,
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Private estate managers / Agrarmakler / Pachtverwalter are freely acquirable and asset-light; but the pool is tiny (EUR 0.2-2m firms) and large public/gemeinnuetzige Landgesellschaften hold a big share of managed land non-commercially.",
+      "actionable": {},
       "child_ids": []
     },
     "food-agriculture-services-value-chain/agri-inputs-distribution-advisory-land-management/subsidy-application-agricultural-surveying-services-gap-agrarantrag": {
@@ -4510,6 +4613,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Demand is entirely tied to GAP direct-payment/eco-scheme filing - highest possible reimbursement/policy dependency (score 5): any reform of GAP direct payments directly reshapes the workload.",
+      "actionable": {},
       "child_ids": []
     },
     "food-agriculture-services-value-chain/agri-inputs-distribution-advisory-land-management/viticulture-horticulture-services": {
@@ -4577,6 +4681,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
+      "actionable": {},
       "child_ids": []
     },
     "food-agriculture-services-value-chain/agri-inputs-distribution-advisory-land-management/farm-software-herd-management-light": {
@@ -4644,6 +4749,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
+      "actionable": {},
       "child_ids": []
     },
     "food-agriculture-services-value-chain/pest-control-food-industry-hygiene": {
@@ -4688,6 +4794,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
+      "actionable": {},
       "child_ids": [
         "food-agriculture-services-value-chain/pest-control-food-industry-hygiene/commercial-food-industry-pest-control-schadlingsbekampfung-haccp-monitoring",
         "food-agriculture-services-value-chain/pest-control-food-industry-hygiene/stored-product-structural-fumigation-begasung-vorratsschutz",
@@ -4771,6 +4878,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
+      "actionable": {},
       "child_ids": [
         "food-agriculture-services-value-chain/pest-control-food-industry-hygiene/commercial-food-industry-pest-control-schadlingsbekampfung-haccp-monitoring/haccp-ifs-food-facility-monitoring-contracts",
         "food-agriculture-services-value-chain/pest-control-food-industry-hygiene/commercial-food-industry-pest-control-schadlingsbekampfung-haccp-monitoring/digital-connected-smart-pest-monitoring-iot-fallen",
@@ -4794,18 +4902,18 @@
         "recurring": 5,
         "fragmentation": 4,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 4,
+        "margin": 4,
+        "growth": 4,
+        "headroom": 3,
+        "reimbursement_risk": 1
       },
       "rationale": {
         "recurring": "Fixed inspection intervals under the certification programme create predictable monthly/quarterly recurring revenue.",
         "fragmentation": "Narrower than general pest control (needs IFS-literate documentation), but still many regional specialists plus the two consolidators.",
         "compliance": "Audit-critical: certification (and thus retail supply) is withdrawn without a compliant, documented programme."
       },
-      "composite": 91.7,
+      "composite": 83.3,
       "dach_signals": {
         "est_players": "~300-600 IFS-capable providers (DE)",
         "revenue_band_eur": "EUR 2-8k per site/yr; multi-site contracts EUR 50k-1m+",
@@ -4831,14 +4939,25 @@
           "title": "IFS PestControl Leitfaden (offizieller Umsetzungsleitfaden)",
           "url": "https://www.sanitarc.si/wp-content/uploads/2018/02/IFS_PestControl_leitfaden2018_DE_1001_AS.pdf",
           "note": "Official IFS pest-control implementation requirements"
+        },
+        {
+          "title": "Rentokil Initial übernimmt Preventa Schädlingsbekämpfung",
+          "url": "https://www.rentokil-initial.de/presse-und-aktuelles/zu-100-gemeinsam-gegen-schadlinge",
+          "note": "Evidence of active buy-and-build in DE food-facility pest/hygiene monitoring"
+        },
+        {
+          "title": "Anticimex Deutschland",
+          "url": "https://www.anticimex.de/",
+          "note": ">480 staff DE, W&S Insekt Control acquired Jan 2026 - consolidator active in HACCP/food monitoring"
         }
       ],
       "confidence": 4,
-      "status": "grounded",
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Freely acquirable B2B service; only friction is Sachkunde §15 IfSG/biocide licensing of technicians, which transfers with the business. Rentokil/Anticimex already bundle this into multi-site food-industry contracts.",
+      "actionable": {},
       "child_ids": []
     },
     "food-agriculture-services-value-chain/pest-control-food-industry-hygiene/commercial-food-industry-pest-control-schadlingsbekampfung-haccp-monitoring/digital-connected-smart-pest-monitoring-iot-fallen": {
@@ -4858,11 +4977,11 @@
         "recurring": 5,
         "fragmentation": 3,
         "compliance": 4,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 3,
+        "margin": 4,
+        "growth": 5,
+        "headroom": 2,
+        "reimbursement_risk": 1
       },
       "rationale": {
         "recurring": "Subscription hardware + monitoring platform locks in multi-year recurring revenue with high switching costs.",
@@ -4901,12 +5020,13 @@
           "note": "Connected rodent detection with real-time reporting"
         }
       ],
-      "confidence": 4,
-      "status": "grounded",
+      "confidence": 3,
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
-      "investability": "open",
-      "investability_note": "",
+      "investability": "restricted",
+      "investability_note": "Freely acquirable in principle, but the digital-monitoring layer is already owned by the two PE-scale consolidators (Anticimex Smart, Rentokil PestConnect); few independent IoT-trap platforms remain to buy.",
+      "actionable": {},
       "child_ids": []
     },
     "food-agriculture-services-value-chain/pest-control-food-industry-hygiene/commercial-food-industry-pest-control-schadlingsbekampfung-haccp-monitoring/general-commercial-urban-pest-control-gewerbe-kammerjager": {
@@ -4926,18 +5046,18 @@
         "recurring": 4,
         "fragmentation": 5,
         "compliance": 3,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 5,
+        "margin": 4,
+        "growth": 4,
+        "headroom": 2,
+        "reimbursement_risk": 1
       },
       "rationale": {
         "recurring": "Mix of standing gastronomy/housing contracts and repeat seasonal callouts.",
         "fragmentation": "The bulk of the ~1,000+ firm long tail; low entry barrier beyond Sachkunde/biocide licence.",
         "compliance": "Regulated (biocide Sachkunde, hygiene law) but often reactive rather than certification-driven."
       },
-      "composite": 75.0,
+      "composite": 79.2,
       "dach_signals": {
         "est_players": "~800-1,200 firms (DE)",
         "revenue_band_eur": "EUR 0.2-2m typical",
@@ -4957,14 +5077,25 @@
           "title": "Firmenliste Schädlingsbekämpfer Deutschland (datenhalle)",
           "url": "https://www.datenhalle.de/produkt/Kammerj%C3%A4ger-Sch%C3%A4dlingsbek%C3%A4mpfung-in-Deutschland/",
           "note": "~978 firms across all 16 Bundesländer, NRW-heavy"
+        },
+        {
+          "title": "Pest Control Market - Fortune Business Insights",
+          "url": "https://www.fortunebusinessinsights.com/pest-control-market-102854",
+          "note": "Sector growing ~4-6%/yr on urbanisation/climate; highly fragmented"
+        },
+        {
+          "title": "Anticimex Deutschland",
+          "url": "https://www.anticimex.de/",
+          "note": "PE-backed consolidator, latest tuck-in Jan 2026 - little virgin whitespace left"
         }
       ],
-      "confidence": 3,
-      "status": "grounded",
+      "confidence": 5,
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Freely acquirable (Sachkundenachweis transfers with firm), but this is THE crowded consolidation lane: Rentokil (~30% EU share) and PE-backed Anticimex are actively rolling up the 800-1,200 DE firms.",
+      "actionable": {},
       "child_ids": []
     },
     "food-agriculture-services-value-chain/pest-control-food-industry-hygiene/stored-product-structural-fumigation-begasung-vorratsschutz": {
@@ -4983,18 +5114,18 @@
         "recurring": 3,
         "fragmentation": 3,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 2,
+        "margin": 3,
+        "growth": 3,
+        "headroom": 4,
+        "reimbursement_risk": 2
       },
       "rationale": {
         "recurring": "Episodic per consignment/season but repeat for mills, grain handlers and container importers with continuous throughput.",
         "fragmentation": "Limited pool of licensed firms — TRGS 512 requires an authority permit plus ≥2-4 Befähigungsschein holders, restricting entry vs general pest control.",
         "compliance": "TRGS 512 and Gefahrstoffrecht make fumigation with toxic gases permit-only; time-limited Befähigungsschein (max 6 yrs) is mandatory."
       },
-      "composite": 66.7,
+      "composite": 49.2,
       "dach_signals": {
         "est_players": "~50-150 licensed fumigation firms (DE)",
         "revenue_band_eur": "EUR 0.5-5m typical",
@@ -5023,11 +5154,12 @@
         }
       ],
       "confidence": 4,
-      "status": "grounded",
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
-      "investability": "open",
-      "investability_note": "",
+      "investability": "restricted",
+      "investability_note": "Fumigation requires a TRGS 512 Erlaubnis/Befaehigungsschein and person-bound Sachkunde (Begasungsleiter); acquirable at firm level but licence transfer/key-person retention is a real friction. Small pool.",
+      "actionable": {},
       "child_ids": []
     },
     "food-agriculture-services-value-chain/pest-control-food-industry-hygiene/bird-pigeon-control-vogel-taubenabwehr": {
@@ -5046,18 +5178,18 @@
         "recurring": 3,
         "fragmentation": 5,
         "compliance": 3,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 3,
+        "margin": 3,
+        "growth": 3,
+        "headroom": 3,
+        "reimbursement_risk": 1
       },
       "rationale": {
         "recurring": "Largely one-off installation projects, but netting/spike maintenance and repeat soiling remediation add recurring elements.",
         "fragmentation": "Many small specialists and industrial-climber firms alongside pest-control add-on providers; no dominant player.",
         "compliance": "Driven by hygiene/HACCP (bird droppings as contamination hazard) and building protection; animal-welfare rules apply to deterrence methods."
       },
-      "composite": 66.7,
+      "composite": 58.3,
       "dach_signals": {
         "est_players": "~150-300 specialist/adjacent firms (DE)",
         "revenue_band_eur": "EUR 0.2-3m typical",
@@ -5083,14 +5215,25 @@
           "title": "ORNITEC – technische Vogelabwehr",
           "url": "https://www.ornitec.de/",
           "note": "Professional technical bird-control provider (DE)"
+        },
+        {
+          "title": "Taubenabwehr Firmenliste Deutschland",
+          "url": "https://www.firmendatenbanken.de/firmen/n1/s/taubenabwehr.html",
+          "note": "Fragmented specialist/adjacent firm base"
+        },
+        {
+          "title": "TONI Taubenabwehr",
+          "url": "https://www.vogelabwehr.de/",
+          "note": "Specialist provider bundling bird control with disinfection - typical owner-operated target"
         }
       ],
       "confidence": 3,
-      "status": "grounded",
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Freely acquirable niche; mix of one-off installation (netting/spikes, capital-lite but project-based) and recurring cleaning/disinfection. Adjacent pest-control consolidators are starting to sweep it up.",
+      "actionable": {},
       "child_ids": []
     },
     "food-agriculture-services-value-chain/pest-control-food-industry-hygiene/wood-destroying-pest-structural-wood-protection-bekampfender-holzschutz": {
@@ -5109,18 +5252,18 @@
         "recurring": 2,
         "fragmentation": 5,
         "compliance": 4,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 3,
+        "margin": 3,
+        "growth": 3,
+        "headroom": 5,
+        "reimbursement_risk": 2
       },
       "rationale": {
         "recurring": "Predominantly project-based remediation triggered by infestation/damage rather than standing contracts.",
         "fragmentation": "Long tail of Sachkundenachweis-holding carpenters, Holzschutz specialists and pest firms; no consolidator.",
         "compliance": "DIN 68800-4 restricts control works to qualified firms with the Sachkundenachweis Holzschutz am Bau; often triggered by building/insurance requirements."
       },
-      "composite": 66.7,
+      "composite": 53.3,
       "dach_signals": {
         "est_players": "~200-500 qualified firms (DE)",
         "revenue_band_eur": "EUR 0.3-3m typical",
@@ -5145,14 +5288,20 @@
           "title": "ATOX Holzschutz nach DIN 68800/4",
           "url": "https://atox-schaedlingsbekaempfung.de/weitere-dienstleistungen/holzschutz-nach-din-68800-4",
           "note": "Example qualified structural wood-protection provider"
+        },
+        {
+          "title": "DIN 68800-4 (2020-12) - Holzschutz, bekaempfende/sanierende Massnahmen - Baunormenlexikon",
+          "url": "https://www.baunormenlexikon.de/norm/din-68800-4/562d061b-b00a-422c-8ec8-06abf47b8de3",
+          "note": "Remedial wood protection standard; work reserved to qualified Fachbetriebe."
         }
       ],
       "confidence": 3,
-      "status": "grounded",
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
-      "investability": "open",
-      "investability_note": "",
+      "investability": "restricted",
+      "investability_note": "Very fragmented, owner-operated Fachbetriebe (no financial consolidator), but remedial work per DIN 68800-4 requires a Sachkundenachweis; project-based (not recurring) revenue caps margin.",
+      "actionable": {},
       "child_ids": []
     },
     "food-agriculture-services-value-chain/pest-control-food-industry-hygiene/disinfection-services-desinfektion-ifsg": {
@@ -5171,18 +5320,18 @@
         "recurring": 4,
         "fragmentation": 5,
         "compliance": 4,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 3,
+        "margin": 4,
+        "growth": 3,
+        "headroom": 3,
+        "reimbursement_risk": 1
       },
       "rationale": {
         "recurring": "Recurring hygiene-plan disinfection cycles in food production plus reactive outbreak/ordered disinfection.",
         "fragmentation": "Offered by many pest-control firms, cleaning companies and standalone Desinfektor businesses; highly fragmented.",
         "compliance": "IfSG §17(2) requires a state-certified Desinfektor for statutory infection-control disinfection; food hygiene law mandates cleaning/disinfection plans."
       },
-      "composite": 83.3,
+      "composite": 70.8,
       "dach_signals": {
         "est_players": "~500-1,000 firms/providers (DE, overlapping cleaning & pest)",
         "revenue_band_eur": "EUR 0.2-3m typical",
@@ -5209,14 +5358,25 @@
           "title": "Staatlich geprüfter Desinfektor – Einsatzbereiche (DiG)",
           "url": "https://www.dig-sanitaetsdienst.de/staatlich-gepruefter-desinfektor-dienstleister/",
           "note": "Food-production disinfection scope and qualification"
+        },
+        {
+          "title": "Taubenabwehr/Desinfektion Dienstleister",
+          "url": "https://www.der-puschmann.de/taubenabwehr",
+          "note": "Disinfection bundled with hygiene/pest services under IfSG/BG rules"
+        },
+        {
+          "title": "Pest Control Market - Fortune Business Insights",
+          "url": "https://www.fortunebusinessinsights.com/pest-control-market-102854",
+          "note": "Hygiene/disinfection sits within the broader ~4-6% pest & hygiene services market"
         }
       ],
       "confidence": 3,
-      "status": "grounded",
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Freely acquirable service (IfSG/BioStoffV Sachkunde required, transfers with firm); demand normalised post-COVID. Overlaps cleaning and pest, where consolidators are already active.",
+      "actionable": {},
       "child_ids": []
     },
     "food-agriculture-services-value-chain/pest-control-food-industry-hygiene/food-plant-deep-cleaning-cip-hygiene-services": {
@@ -5235,18 +5395,18 @@
         "recurring": 5,
         "fragmentation": 3,
         "compliance": 4,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 4,
+        "margin": 3,
+        "growth": 4,
+        "headroom": 3,
+        "reimbursement_risk": 1
       },
       "rationale": {
         "recurring": "Daily/per-shift production cleaning under standing multi-year hygiene contracts — among the most recurring in the branch.",
         "fragmentation": "Mid-cap FM/industrial cleaners (Piepenbrock, etc.) plus regional food-cleaning specialists; more concentrated than pest niches but still a long tail.",
         "compliance": "EU 852/2004, IFS/BRC and EHEDG hygienic-design expectations make validated cleaning/disinfection mandatory for certification."
       },
-      "composite": 75.0,
+      "composite": 70.8,
       "dach_signals": {
         "est_players": "~200-500 food-capable industrial cleaners (DE)",
         "revenue_band_eur": "EUR 0.5-5m regional; large FM contracts EUR 10m+",
@@ -5283,14 +5443,20 @@
           "title": "EHEDG - European Hygienic Engineering & Design Group",
           "url": "https://www.ehedg.org/",
           "note": "Hygienic-design reference; used to delineate cleaning-labour vs CIP-hardware scope"
+        },
+        {
+          "title": "Reinigung Lebensmittelindustrie / CIP - Piepenbrock",
+          "url": "https://www.piepenbrock.de/dienstleistungen/industriereinigung/maschinen-anlagenreinigung/reinigung-lebensmittelindustrie/",
+          "note": "Large FM provider offering CIP/food-plant hygiene; signals FM-giant presence at the top end of a fragmented base."
         }
       ],
       "confidence": 3,
-      "status": "grounded",
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Freely acquirable commercial service; but labour-intensive contract cleaning has modest margins, and large FM players (e.g. Piepenbrock) already compete for the biggest food-plant contracts.",
+      "actionable": {},
       "child_ids": []
     },
     "food-agriculture-services-value-chain/food-safety-testing-laboratories": {
@@ -5329,6 +5495,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
+      "actionable": {},
       "child_ids": [
         "food-agriculture-services-value-chain/food-safety-testing-laboratories/microbiological-food-testing-routine-self-monitoring",
         "food-agriculture-services-value-chain/food-safety-testing-laboratories/chemical-residues-contaminants",
@@ -5410,6 +5577,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
+      "actionable": {},
       "child_ids": [
         "food-agriculture-services-value-chain/food-safety-testing-laboratories/microbiological-food-testing-routine-self-monitoring/pathogen-detection-hygiene-indicator-counts"
       ]
@@ -5431,18 +5599,18 @@
         "recurring": 5,
         "fragmentation": 4,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 4,
+        "margin": 3,
+        "growth": 4,
+        "headroom": 2,
+        "reimbursement_risk": 1
       },
       "rationale": {
         "recurring": "Per-batch legal criteria (e.g. Listeria in ready-to-eat) generate continuous sample streams.",
         "fragmentation": "Standardised, low-capex culture methods sustain many small regional labs.",
         "compliance": "Binding food-safety criteria and process-hygiene criteria in Annex I of 2073/2005."
       },
-      "composite": 91.7,
+      "composite": 79.2,
       "dach_signals": {
         "est_players": "part of ~150-250 micro labs",
         "revenue_band_eur": "EUR 0.5-3m typical",
@@ -5462,14 +5630,25 @@
           "title": "Labor Kneissler - Mikrobiologische Untersuchungen",
           "url": "https://www.labor-kneissler.de/fachbereiche/lebensmittel/mikrobiologische-untersuchungen/",
           "note": "Pathogen and indicator testing menu at independent lab"
+        },
+        {
+          "title": "Prüf- und Analyse-Labordienstleistungen - M&A Review",
+          "url": "https://ma-review.de/artikel/pruef-und-analyse-labordienstleistungen-zunehmend-gefragter-bestandteil-des-qualitaetssicherungsprozesses-in-pharma-und-life-sciences",
+          "note": "PE-backed platforms (GBA, Certania, Tentamus, Normec) rolling up TIC/lab market"
+        },
+        {
+          "title": "Eurofins Lebensmittel-Labore Deutschland",
+          "url": "https://www.eurofins.de/lebensmittel/labore/",
+          "note": "Dense Eurofins DE micro/food lab network - strategic consolidator present"
         }
       ],
       "confidence": 4,
-      "status": "grounded",
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Private labs freely acquirable, but Eurofins, SGS, Tentamus, GBA/Certania and Agrolab are already running buy-and-build across DE micro food testing - limited whitespace.",
+      "actionable": {},
       "child_ids": []
     },
     "food-agriculture-services-value-chain/food-safety-testing-laboratories/chemical-residues-contaminants": {
@@ -5541,6 +5720,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
+      "actionable": {},
       "child_ids": [
         "food-agriculture-services-value-chain/food-safety-testing-laboratories/chemical-residues-contaminants/pesticide-residue-analysis",
         "food-agriculture-services-value-chain/food-safety-testing-laboratories/chemical-residues-contaminants/mycotoxin-testing",
@@ -5564,18 +5744,18 @@
         "recurring": 4,
         "fragmentation": 3,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 3,
+        "margin": 4,
+        "growth": 4,
+        "headroom": 2,
+        "reimbursement_risk": 1
       },
       "rationale": {
         "recurring": "Recurs per harvest/lot and per supplier-qualification cycle; strong in import trade.",
         "fragmentation": "Concentrated in high-capex specialist labs; few can run 500+ analyte panels.",
         "compliance": "VO (EG) 396/2005 MRLs are legally binding, driving mandatory testing."
       },
-      "composite": 75.0,
+      "composite": 70.8,
       "dach_signals": {
         "est_players": "~20-40 high-capacity pesticide labs",
         "revenue_band_eur": "EUR 3-30m",
@@ -5595,14 +5775,25 @@
           "title": "Merieux NutriSciences - Pestizidanalytik",
           "url": "https://www.merieuxnutrisciences.com/de/pestizidanalytik/",
           "note": "Accredited pesticide identification/quantification services"
+        },
+        {
+          "title": "Analyse von Pestiziden in Lebens- und Futtermitteln - Eurofins Deutschland",
+          "url": "https://www.eurofins.de/lebensmittel/analysen/pestizide.aspx",
+          "note": "Eurofins runs a nationwide network of world-leading residue labs - dominant consolidator."
+        },
+        {
+          "title": "Rueckstandsanalytik im akkreditierten Labor - Tentamus Group",
+          "url": "https://www.tentamus.com/lab-analyses/residue-analysis/",
+          "note": "Competing accredited-lab roll-up platform in DACH residue testing."
         }
       ],
       "confidence": 4,
-      "status": "grounded",
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Accredited commercial labs are freely acquirable and high-margin/recurring, but pesticide residue testing is already heavily rolled up by Eurofins, Tentamus and SGS - limited independent whitespace.",
+      "actionable": {},
       "child_ids": []
     },
     "food-agriculture-services-value-chain/food-safety-testing-laboratories/chemical-residues-contaminants/mycotoxin-testing": {
@@ -5622,18 +5813,18 @@
         "recurring": 4,
         "fragmentation": 4,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 3,
+        "margin": 3,
+        "growth": 4,
+        "headroom": 3,
+        "reimbursement_risk": 1
       },
       "rationale": {
         "recurring": "Harvest- and lot-driven, plus QS/GMP+ scheme monitoring; recurs each crop cycle.",
         "fragmentation": "Both large residue labs and regional LUFA/agri labs run mycotoxins, widening the field.",
         "compliance": "Maximum levels under VO (EU) 2023/915; QS scheme requirements add mandatory spend."
       },
-      "composite": 83.3,
+      "composite": 70.8,
       "dach_signals": {
         "est_players": "~30-60 labs (residue + LUFA/agri)",
         "revenue_band_eur": "EUR 1-15m",
@@ -5654,14 +5845,25 @@
           "title": "LUFA NRW - Mykotoxinuntersuchungen nach QS-Vorgaben",
           "url": "https://www.landwirtschaftskammer.de/lufa/",
           "note": "Regional lab running mycotoxin testing under QS scheme"
+        },
+        {
+          "title": "LUFA Nord-West Mykotoxinuntersuchungen",
+          "url": "https://www.lufa-nord-west.de/index.cfm/article/2014.html",
+          "note": "Mycotoxin testing partly delivered by Kammer-owned LUFA labs (public, not acquirable)"
+        },
+        {
+          "title": "AGROLAB LUFA Kiel",
+          "url": "https://agrolab.com/de/agrolab-lufa-kiel-deutschland.html",
+          "note": "Agrolab is a leading private mycotoxin/residue lab consolidator - partial prior consolidation"
         }
       ],
-      "confidence": 4,
-      "status": "grounded",
+      "confidence": 3,
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Private residue labs acquirable; capital-intensive HPLC/LC-MS. Caveat: LUFA labs are Landwirtschaftskammer/public-owned (un-acquirable) and Agrolab has already consolidated much of the private agri-residue space.",
+      "actionable": {},
       "child_ids": []
     },
     "food-agriculture-services-value-chain/food-safety-testing-laboratories/chemical-residues-contaminants/heavy-metals-inorganic-contaminants": {
@@ -5681,11 +5883,11 @@
         "recurring": 3,
         "fragmentation": 3,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 3,
+        "margin": 4,
+        "growth": 4,
+        "headroom": 2,
+        "reimbursement_risk": 1
       },
       "rationale": {
         "recurring": "Periodic monitoring-plan and supplier-driven; less frequent than micro or pesticides.",
@@ -5713,14 +5915,25 @@
           "title": "AGROLAB - Lebensmittelanalytik (Rueckstaende, Mykotoxine, Pestizide, Schwermetalle)",
           "url": "https://agrolab.com/de/produkte-leistungen/lebensmittelanalytik.html",
           "note": "Confirms heavy-metal/contaminant testing scope"
+        },
+        {
+          "title": "Analyse von Lebens- und Futtermitteln - Eurofins Deutschland",
+          "url": "https://www.eurofins.de/lebensmittel/analysen/",
+          "note": "Broad contaminant testing under one dominant network; illustrates consolidation of chemical-residue labs."
+        },
+        {
+          "title": "Lebensmittelanalyse im akkreditierten Auftragslabor - Tentamus",
+          "url": "https://www.tentamus.com/lab-analyses/food-testing/",
+          "note": "Second accredited-lab platform actively rolling up food/feed testing including inorganics."
         }
       ],
       "confidence": 3,
-      "status": "grounded",
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "ICP-MS accredited labs are acquirable and high-margin; growth from tightening heavy-metal/contaminant limits, but the same Eurofins/Tentamus/SGS consolidators already hold most capacity.",
+      "actionable": {},
       "child_ids": []
     },
     "food-agriculture-services-value-chain/food-safety-testing-laboratories/allergen-authenticity-food-fraud-testing": {
@@ -5791,6 +6004,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
+      "actionable": {},
       "child_ids": [
         "food-agriculture-services-value-chain/food-safety-testing-laboratories/allergen-authenticity-food-fraud-testing/allergen-testing-elisa-pcr",
         "food-agriculture-services-value-chain/food-safety-testing-laboratories/allergen-authenticity-food-fraud-testing/authenticity-origin-species-dna-isotope-nmr"
@@ -5813,18 +6027,18 @@
         "recurring": 4,
         "fragmentation": 3,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 3,
+        "margin": 3,
+        "growth": 4,
+        "headroom": 2,
+        "reimbursement_risk": 1
       },
       "rationale": {
         "recurring": "Cleaning-validation and labelling verification recur per changeover/production cycle.",
         "fragmentation": "Kit-based ELISA is accessible to many labs; PCR narrows the field somewhat.",
         "compliance": "Mandatory allergen declaration under VO (EU) 1169/2011."
       },
-      "composite": 75.0,
+      "composite": 66.7,
       "dach_signals": {
         "est_players": "~40-80 labs",
         "revenue_band_eur": "EUR 0.5-10m",
@@ -5844,14 +6058,25 @@
           "title": "SGS Institut Fresenius - Laboratory tests for the food industry",
           "url": "https://sgs-institut-fresenius.de/en/health-nutrition/food-industry",
           "note": "Allergen and labelling testing services"
+        },
+        {
+          "title": "Analyse von Lebens- und Futtermitteln - Eurofins",
+          "url": "https://www.eurofins.de/lebensmittel/analysen/",
+          "note": "Allergen/authenticity testing offered by strategic consolidators"
+        },
+        {
+          "title": "Branchenanalyse Laboranalytik - Böckler Study 342",
+          "url": "https://www.boeckler.de/fpdf/HBS-006491/p_study_hbs_342.pdf",
+          "note": "Lab analytics sector concentration/consolidation dynamics"
         }
       ],
-      "confidence": 4,
-      "status": "grounded",
+      "confidence": 3,
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Freely acquirable specialist labs, but only ~40-80 exist and the big TIC platforms (Eurofins/Tentamus/SGS) are already absorbing allergen/authenticity capability.",
+      "actionable": {},
       "child_ids": []
     },
     "food-agriculture-services-value-chain/food-safety-testing-laboratories/allergen-authenticity-food-fraud-testing/authenticity-origin-species-dna-isotope-nmr": {
@@ -5871,18 +6096,18 @@
         "recurring": 2,
         "fragmentation": 3,
         "compliance": 3,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 2,
+        "margin": 4,
+        "growth": 4,
+        "headroom": 3,
+        "reimbursement_risk": 1
       },
       "rationale": {
         "recurring": "Largely incident-, tender- and supplier-audit-driven rather than continuous.",
         "fragmentation": "Reference-database and NMR capability concentrate in a few specialists.",
         "compliance": "Driven by VO 178/2002 general fraud prohibition and retailer requirements, not a mandated periodic test."
       },
-      "composite": 41.7,
+      "composite": 50.0,
       "dach_signals": {
         "est_players": "~10-25 specialist labs",
         "revenue_band_eur": "EUR 1-20m",
@@ -5902,14 +6127,25 @@
           "title": "Laborpraxis - Food Fraud: der wahren Herkunft auf der Spur",
           "url": "https://www.laborpraxis.vogel.de/food-fraud-der-wahren-herkunft-von-lebensmitteln-auf-der-spur-a-784855/",
           "note": "Isotope/DNA/NMR authenticity method context"
+        },
+        {
+          "title": "Eurofins Food Integrity Control Services GmbH - Eurofins Deutschland",
+          "url": "https://www.eurofins.de/lebensmittel/labore/eurofins-food-integrity-control-services/",
+          "note": "Dedicated authenticity/integrity unit (LC-Orbitrap-HRMS, EA/LC-IRMS) - dominant specialist consolidator."
+        },
+        {
+          "title": "Food Fraud: Lebensmittelbetrug auf die Spur kommen - Eurofins",
+          "url": "https://www.eurofins.de/lebensmittel/analysen/food-fraud/",
+          "note": "Confirms secular growth of DNA/isotope/NMR authenticity testing demand."
         }
       ],
       "confidence": 3,
-      "status": "grounded",
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "High-value specialist analytics (NMR/IRMS/DNA), acquirable and high-margin, with a strong food-fraud tailwind; but a very small pool and Eurofins EFICS already dominates the authenticity niche.",
+      "actionable": {},
       "child_ids": []
     },
     "food-agriculture-services-value-chain/food-safety-testing-laboratories/environmental-hygiene-water-testing-for-food-producers": {
@@ -5981,6 +6217,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
+      "actionable": {},
       "child_ids": [
         "food-agriculture-services-value-chain/food-safety-testing-laboratories/environmental-hygiene-water-testing-for-food-producers/swab-environmental-personnel-hygiene-monitoring",
         "food-agriculture-services-value-chain/food-safety-testing-laboratories/environmental-hygiene-water-testing-for-food-producers/process-drinking-water-legionella-testing"
@@ -6003,18 +6240,18 @@
         "recurring": 5,
         "fragmentation": 5,
         "compliance": 4,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 4,
+        "margin": 4,
+        "growth": 4,
+        "headroom": 3,
+        "reimbursement_risk": 1
       },
       "rationale": {
         "recurring": "Fixed monitoring schedules make revenue quasi-contractual and repeat.",
         "fragmentation": "Very low technical barrier and local sampling need produce a dense owner-operated tail.",
         "compliance": "Required to evidence HACCP self-monitoring, though the exact plan is operator-defined."
       },
-      "composite": 91.7,
+      "composite": 83.3,
       "dach_signals": {
         "est_players": "part of ~300-500+ hygiene providers",
         "revenue_band_eur": "EUR 0.3-2m",
@@ -6033,14 +6270,25 @@
           "title": "Hygiene Netzwerk - Probenentnahme (Abklatschproben) fuer HACCP",
           "url": "https://www.hygiene-netzwerk.de/leistungen/probenentnahme-wir-holen-lebensmittel-wasser-und-abklatschproben-ihrem-betrieb",
           "note": "On-site swab sampling service supporting HACCP"
+        },
+        {
+          "title": "Prüf- und Analyse-Labordienstleistungen - M&A Review",
+          "url": "https://ma-review.de/artikel/pruef-und-analyse-labordienstleistungen-zunehmend-gefragter-bestandteil-des-qualitaetssicherungsprozesses-in-pharma-und-life-sciences",
+          "note": "Recurring hygiene/environmental monitoring within growing TIC outsourcing trend"
+        },
+        {
+          "title": "Eurofins Lebensmittelanalytik",
+          "url": "https://www.eurofins.de/lebensmittel/",
+          "note": "Environmental/personnel hygiene swab monitoring offered as recurring service"
         }
       ],
-      "confidence": 4,
-      "status": "grounded",
+      "confidence": 3,
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Freely acquirable; recurring, relatively asset-light sampling + lab work across a fragmented 300-500+ provider base, though pest/hygiene and lab consolidators both touch this segment.",
+      "actionable": {},
       "child_ids": []
     },
     "food-agriculture-services-value-chain/food-safety-testing-laboratories/environmental-hygiene-water-testing-for-food-producers/process-drinking-water-legionella-testing": {
@@ -6060,18 +6308,18 @@
         "recurring": 5,
         "fragmentation": 4,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 4,
+        "margin": 4,
+        "growth": 4,
+        "headroom": 3,
+        "reimbursement_risk": 2
       },
       "rationale": {
         "recurring": "TrinkwV mandates recurring intervals for water and Legionella sampling.",
         "fragmentation": "Many regional water/hygiene labs, though accreditation for drinking water narrows the field a little.",
         "compliance": "Trinkwasserverordnung makes testing legally mandatory with fixed schedules."
       },
-      "composite": 91.7,
+      "composite": 78.3,
       "dach_signals": {
         "est_players": "~150-300 accredited water labs",
         "revenue_band_eur": "EUR 0.5-5m",
@@ -6093,14 +6341,25 @@
           "title": "Chemisches Labor Dr. Graser - Hygiene und Mikrobiologie",
           "url": "https://www.labor-graser.de/hygiene-und-mikrobiologie/",
           "note": "Water/Legionella and hygiene testing at independent lab"
+        },
+        {
+          "title": "Legionellen in der Trinkwasserverordnung - Bundesgesundheitsministerium",
+          "url": "https://www.bundesgesundheitsministerium.de/service/begriffe-von-a-z/t/trinkwasser/trinkwasserverordnung-und-legionellen",
+          "note": "Statutory mandatory recurring Legionella testing for large/commercial hot-water systems."
+        },
+        {
+          "title": "Trinkwasseranalyse gemaess Trinkwasserverordnung - TUEV SUED",
+          "url": "https://www.tuvsud.com/de-de/branchen/gesundheit-und-medizintechnik/arbeits-gesundheitsschutz/mikrobiologisches-monitoring-firmenkunden/trinkwasseranalyse",
+          "note": "Only ISO-17025-accredited labs may perform the required tests; confirms recurring accredited-testing model."
         }
       ],
       "confidence": 4,
-      "status": "grounded",
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Large fragmented base of DIN EN ISO 17025 water labs, freely acquirable; TrinkwV mandates recurring Legionella testing (statutory but privately paid), giving durable recurring demand and roll-up whitespace.",
+      "actionable": {},
       "child_ids": []
     },
     "food-agriculture-services-value-chain/food-safety-testing-laboratories/feed-agricultural-sample-testing": {
@@ -6119,18 +6378,18 @@
         "recurring": 4,
         "fragmentation": 3,
         "compliance": 4,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 3,
+        "margin": 3,
+        "growth": 3,
+        "headroom": 3,
+        "reimbursement_risk": 2
       },
       "rationale": {
         "recurring": "Harvest-cycle and continuous scheme-monitoring (GMP+/QS) generate large recurring volumes - LUFA Rostock alone tests ~20,000 feed samples/year.",
         "fragmentation": "Regional LUFA institutes plus AGROLAB roll-up create a semi-concentrated but still regionally split market.",
         "compliance": "Feed Hygiene Regulation VO (EG) 183/2005 and GMP+/QS certification schemes drive testing."
       },
-      "composite": 66.7,
+      "composite": 53.3,
       "dach_signals": {
         "est_players": "~15-30 feed/agri labs (LUFA network + private)",
         "revenue_band_eur": "EUR 2-25m",
@@ -6163,14 +6422,20 @@
           "title": "AGROLAB - Futteruntersuchungen (GMP+)",
           "url": "https://www.agrolab.com/de/produkte-leistungen/futteruntersuchungen-gmp.html",
           "note": "GMP+ feed testing scope"
+        },
+        {
+          "title": "LUFA NRW",
+          "url": "https://www.landwirtschaftskammer.de/lufa/",
+          "note": "LUFA feed testing sits under Landwirtschaftskammer (public/Kammer ownership)"
         }
       ],
-      "confidence": 4,
-      "status": "grounded",
+      "confidence": 3,
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
-      "investability": "open",
-      "investability_note": "",
+      "investability": "restricted",
+      "investability_note": "Bimodal ownership: the LUFA network is Landwirtschaftskammer-owned (public, un-acquirable) and Agrolab already dominates private feed/agri testing, leaving few independent buyable labs.",
+      "actionable": {},
       "child_ids": []
     },
     "food-agriculture-services-value-chain/food-safety-testing-laboratories/food-contact-packaging-migration-testing": {
@@ -6189,11 +6454,11 @@
         "recurring": 3,
         "fragmentation": 2,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 2,
+        "margin": 4,
+        "growth": 4,
+        "headroom": 2,
+        "reimbursement_risk": 1
       },
       "rationale": {
         "recurring": "Recurs per new material/product, formulation change and conformity-declaration renewal, but not per production batch.",
@@ -6233,14 +6498,20 @@
           "title": "BAV-Institut - Lebensmittelkontaktmaterialien: Migration als Sicherheitskriterium",
           "url": "https://www.bav-institut.de/de/news/lebensmittelkontaktmaterialien-migration-aus-verpackungen-als-zentrales-sicherheitskriterium",
           "note": "EN 1186 overall / EN 13130 specific migration and regulatory drivers"
+        },
+        {
+          "title": "Analytik fuer Lebensmittel-, Umwelt- und Konsumgueterindustrie - Eurofins Deutschland",
+          "url": "https://www.eurofins.de/",
+          "note": "Eurofins network spans food-contact/consumer-goods testing; illustrates concentration of migration-capable capacity."
         }
       ],
-      "confidence": 4,
-      "status": "grounded",
+      "confidence": 3,
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Specialist high-margin migration labs are acquirable, with a regulatory tailwind (recycled-plastic, PFAS, food-contact rules); but a very small pool already concentrated among Eurofins/SGS/ISEGA/Tentamus.",
+      "actionable": {},
       "child_ids": []
     },
     "food-agriculture-services-value-chain/food-safety-testing-laboratories/shelf-life-sensory-testing": {
@@ -6259,11 +6530,11 @@
         "recurring": 3,
         "fragmentation": 4,
         "compliance": 2,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 3,
+        "margin": 3,
+        "growth": 3,
+        "headroom": 4,
+        "reimbursement_risk": 1
       },
       "rationale": {
         "recurring": "Recurs per new product, recipe/packaging change and periodic MHD verification, but is project-based rather than per-batch.",
@@ -6303,14 +6574,25 @@
           "title": "DIL - Challengetests",
           "url": "https://www.dil-ev.de/en/media/challengetests.html",
           "note": "Institute-based challenge/shelf-life testing"
+        },
+        {
+          "title": "Branchenanalyse Laboranalytik - Böckler Study 342",
+          "url": "https://www.boeckler.de/fpdf/HBS-006491/p_study_hbs_342.pdf",
+          "note": "Sensory/shelf-life is a fragmented long-tail sub-segment of lab analytics"
+        },
+        {
+          "title": "Prüf- und Analyse-Labordienstleistungen - M&A Review",
+          "url": "https://ma-review.de/artikel/pruef-und-analyse-labordienstleistungen-zunehmend-gefragter-bestandteil-des-qualitaetssicherungsprozesses-in-pharma-und-life-sciences",
+          "note": "Consolidators prioritise chemistry/micro over sensory - whitespace remains"
         }
       ],
       "confidence": 3,
-      "status": "grounded",
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Largely virgin, owner-operated niche with little dedicated consolidator focus; labour-intensive sensory panels cap margins, and some capacity sits in non-acquirable university/Fraunhofer institutes.",
+      "actionable": {},
       "child_ids": []
     },
     "food-agriculture-services-value-chain/animal-by-product-disposal-rendering-tierkoerperbeseitigung-kat-1-3": {
@@ -6382,6 +6664,7 @@
       "pe_activity": [],
       "investability": "restricted",
       "investability_note": "Split verdict. Cat 1/2 (Tierkoerperbeseitigung) is a public-law Beseitigungspflicht assigned by the Laender/Kreise as a tendered regional monopoly (concession/Beleihung under sec. 3 TierNebG; BVerwG confirms a monopoly position with no market-price formation), SecAnim/Saria-dominated - blocked to financial investors. Cat 3 rendering/petfood/oleochemicals/biodiesel is open to private competition. Node downgraded from 'open' to 'restricted' to reflect the monopoly-controlled Cat 1/2 leg.",
+      "actionable": {},
       "child_ids": []
     },
     "food-agriculture-services-value-chain/agricultural-contracting-farm-services/livestock-services-klauenpflege-besamung-stallhygiene/herd-health-large-animal-veterinary-services-bestandsbetreuung": {
@@ -6457,6 +6740,7 @@
       "pe_activity": [],
       "investability": "blocked",
       "investability_note": "Blocked for financial investors: veterinary practice ownership and drug dispensing are professionally reserved to licensed Tieraerzte under the tieraerztliche Berufsordnung (majority of shares/voting rights and responsible management must rest with veterinarians). Node changed from 'open' to 'blocked'.",
+      "actionable": {},
       "child_ids": []
     }
   }

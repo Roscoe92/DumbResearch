@@ -45,6 +45,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
+      "actionable": {},
       "child_ids": [
         "building-facility-technical-services-value-chain/electrical-services-building-automation",
         "building-facility-technical-services-value-chain/fire-protection-systems-brandschutz",
@@ -91,6 +92,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
+      "actionable": {},
       "child_ids": [
         "building-facility-technical-services-value-chain/electrical-services-building-automation/electrical-installation-service-elektrohandwerk",
         "building-facility-technical-services-value-chain/electrical-services-building-automation/statutory-electrical-safety-testing-dguv-v3-e-check",
@@ -162,6 +164,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
+      "actionable": {},
       "child_ids": [
         "building-facility-technical-services-value-chain/electrical-services-building-automation/electrical-installation-service-elektrohandwerk/residential-commercial-installation-fit-out",
         "building-facility-technical-services-value-chain/electrical-services-building-automation/electrical-installation-service-elektrohandwerk/industrial-electrical-switchgear-schaltanlagenbau"
@@ -236,6 +239,7 @@
       "pe_activity": [],
       "investability": "restricted",
       "investability_note": "Open Handwerk but zulassungspflichtig: needs Meister-owner or employed Meister as Betriebsleiter on takeover (HwO Anlage A) - friction, not blocking.",
+      "actionable": {},
       "child_ids": []
     },
     "building-facility-technical-services-value-chain/electrical-services-building-automation/electrical-installation-service-elektrohandwerk/industrial-electrical-switchgear-schaltanlagenbau": {
@@ -302,6 +306,7 @@
       "pe_activity": [],
       "investability": "restricted",
       "investability_note": "Elektrotechniker-Handwerk is Anlage A (zulassungspflichtig) => Meisterpflicht: acquirer must retain/employ an Elektromeister as Betriebsleiter; friction, not blocking.",
+      "actionable": {},
       "child_ids": []
     },
     "building-facility-technical-services-value-chain/electrical-services-building-automation/statutory-electrical-safety-testing-dguv-v3-e-check": {
@@ -370,6 +375,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
+      "actionable": {},
       "child_ids": [
         "building-facility-technical-services-value-chain/electrical-services-building-automation/statutory-electrical-safety-testing-dguv-v3-e-check/fixed-installation-testing-ortsfeste-anlagen-din-vde-0105-100",
         "building-facility-technical-services-value-chain/electrical-services-building-automation/statutory-electrical-safety-testing-dguv-v3-e-check/portable-equipment-testing-ortsveranderliche-betriebsmittel-dguv-v3",
@@ -441,6 +447,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Testing/service GmbHs freely acquirable; DGUV V3 is a firm-/Elektrofachkraft-level compliance service, no person-bound licence blocking a share deal.",
+      "actionable": {},
       "child_ids": []
     },
     "building-facility-technical-services-value-chain/electrical-services-building-automation/statutory-electrical-safety-testing-dguv-v3-e-check/portable-equipment-testing-ortsveranderliche-betriebsmittel-dguv-v3": {
@@ -507,6 +514,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Testing needs only a 'befähigte Person'/Elektrofachkraft, not a Handwerks-Meister; companies freely acquirable, but E+Service+Check is already a scaled PE-style platform.",
+      "actionable": {},
       "child_ids": []
     },
     "building-facility-technical-services-value-chain/electrical-services-building-automation/statutory-electrical-safety-testing-dguv-v3-e-check/e-check-private-residential-safety-seal": {
@@ -574,6 +582,7 @@
       "pe_activity": [],
       "investability": "restricted",
       "investability_note": "Elektro-Handwerk Meisterpflicht plus E-Check is an Innung/ZVEH-licensed brand mark - ownership friction on both, not blocking.",
+      "actionable": {},
       "child_ids": []
     },
     "building-facility-technical-services-value-chain/electrical-services-building-automation/building-automation-glt-bms-integration-knx-ddc-msr": {
@@ -641,6 +650,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "'DEOS AG' removed - it is a DDC/controls OEM manufacturer, not an independent GLT/BMS system integrator; retained examples are genuine integration-service firms.",
+      "actionable": {},
       "child_ids": [
         "building-facility-technical-services-value-chain/electrical-services-building-automation/building-automation-glt-bms-integration-knx-ddc-msr/knx-room-lighting-automation",
         "building-facility-technical-services-value-chain/electrical-services-building-automation/building-automation-glt-bms-integration-knx-ddc-msr/glt-bms-integration-service-modernization"
@@ -709,6 +719,7 @@
       "pe_activity": [],
       "investability": "restricted",
       "investability_note": "KNX partner status itself is only a certification, but installation is almost always delivered by Elektro-Handwerk firms carrying Anlage-A Meisterpflicht; ownership friction, not blocking.",
+      "actionable": {},
       "child_ids": []
     },
     "building-facility-technical-services-value-chain/electrical-services-building-automation/building-automation-glt-bms-integration-knx-ddc-msr/glt-bms-integration-service-modernization": {
@@ -776,6 +787,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "System-integrator GmbHs freely acquirable; no ownership restriction. Buy-and-build already active (Apleona, Caverion, PE-backed FM players).",
+      "actionable": {},
       "child_ids": []
     },
     "building-facility-technical-services-value-chain/electrical-services-building-automation/emergency-power-ups-generator-service-usv-nea": {
@@ -855,6 +867,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Independent service firms freely acquirable; service (not new-install) largely avoids Elektro-Meisterpflicht; no dominant financial consolidator surfaced.",
+      "actionable": {},
       "child_ids": []
     },
     "building-facility-technical-services-value-chain/electrical-services-building-automation/lightning-protection-surge-blitzschutz-uberspannungsschutz": {
@@ -928,6 +941,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Not a standalone zulassungspflichtiges Vollhandwerk (VDB-Fachbetrieb certification, done by electricians/roofers); owner-operated, no financial consolidator surfaced.",
+      "actionable": {},
       "child_ids": []
     },
     "building-facility-technical-services-value-chain/electrical-services-building-automation/ev-charging-install-o-m-ladeinfrastruktur": {
@@ -1010,6 +1024,7 @@
       "pe_activity": [],
       "investability": "restricted",
       "investability_note": "'DKV Mobility' removed - it is a fleet fuel-card / eMSP aggregator (charging billing & roaming), not an electrical-trade Errichter/O&M firm, so it mislabels the node scope.",
+      "actionable": {},
       "child_ids": []
     },
     "building-facility-technical-services-value-chain/electrical-services-building-automation/pv-solar-install-o-m": {
@@ -1084,6 +1099,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Out-of-scope examples removed: 'Enter' is a Sanierung advisory platform, 'Anesco' is a UK solar-O&M firm, 'Enzeit' unverified. Replaced with recognised DACH PV-Handwerk installers; the ~634 O&M-firm figure was unverifiable and softened.",
+      "actionable": {},
       "child_ids": []
     },
     "building-facility-technical-services-value-chain/electrical-services-building-automation/building-energy-monitoring-management": {
@@ -1163,6 +1179,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Asset-light SaaS+service, no licensing/ownership friction; freely acquirable but market has established software vendors and some consolidation.",
+      "actionable": {},
       "child_ids": []
     },
     "building-facility-technical-services-value-chain/fire-protection-systems-brandschutz": {
@@ -1201,6 +1218,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
+      "actionable": {},
       "child_ids": [
         "building-facility-technical-services-value-chain/fire-protection-systems-brandschutz/portable-extinguishers-wall-hydrant-water-supply-service",
         "building-facility-technical-services-value-chain/fire-protection-systems-brandschutz/fire-alarm-detection-bma-service",
@@ -1284,6 +1302,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
+      "actionable": {},
       "child_ids": [
         "building-facility-technical-services-value-chain/fire-protection-systems-brandschutz/portable-extinguishers-wall-hydrant-water-supply-service/portable-mobile-extinguishers-feuerloscher-service",
         "building-facility-technical-services-value-chain/fire-protection-systems-brandschutz/portable-extinguishers-wall-hydrant-water-supply-service/wall-hydrants-dry-wet-fire-water-supply-din-14462"
@@ -1360,6 +1379,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Sachkundigen/Prüfdienst (DIN 14406), not a licensed Vollhandwerk - freely acquirable; but Brandschutz is the most PE-crowded sub-sector.",
+      "actionable": {},
       "child_ids": []
     },
     "building-facility-technical-services-value-chain/fire-protection-systems-brandschutz/portable-extinguishers-wall-hydrant-water-supply-service/wall-hydrants-dry-wet-fire-water-supply-din-14462": {
@@ -1426,6 +1446,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Service by Sachkundige/befaehigte Person (DIN 14462/EN 671) - qualification hurdle only, no Fremdbesitzverbot; freely acquirable.",
+      "actionable": {},
       "child_ids": []
     },
     "building-facility-technical-services-value-chain/fire-protection-systems-brandschutz/fire-alarm-detection-bma-service": {
@@ -1505,6 +1526,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "DIN 14675 certification is firm-level (transferable in a share deal), not person-bound; ~1,900 certified Errichter, freely acquirable.",
+      "actionable": {},
       "child_ids": []
     },
     "building-facility-technical-services-value-chain/fire-protection-systems-brandschutz/sprinkler-water-mist-water-extinguishing-systems": {
@@ -1589,6 +1611,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "VdS-Anerkennung is a company-level (transferable) certification, not person-bound ownership; acquirable, but an active PE consolidation wave (Fire Protection Solutions/Calanbau) is already compressing whitespace.",
+      "actionable": {},
       "child_ids": []
     },
     "building-facility-technical-services-value-chain/fire-protection-systems-brandschutz/smoke-heat-exhaust-ventilation-rwa-shev": {
@@ -1673,6 +1696,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Spurious 'DIN 18323' (a VOB/C section unrelated to RWA) removed; added the EN 12101 SHEV product/system series.",
+      "actionable": {},
       "child_ids": []
     },
     "building-facility-technical-services-value-chain/fire-protection-systems-brandschutz/passive-fire-protection-dampers-doors-compartmentation": {
@@ -1748,6 +1772,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
+      "actionable": {},
       "child_ids": [
         "building-facility-technical-services-value-chain/fire-protection-systems-brandschutz/passive-fire-protection-dampers-doors-compartmentation/fire-dampers-brandschutzklappen-inspection",
         "building-facility-technical-services-value-chain/fire-protection-systems-brandschutz/passive-fire-protection-dampers-doors-compartmentation/fire-doors-gates-hold-open-devices"
@@ -1818,6 +1843,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Inspection by befaehigte Person per DIN 14677 - certification hurdle only, no ownership prohibition; asset-light and freely acquirable.",
+      "actionable": {},
       "child_ids": []
     },
     "building-facility-technical-services-value-chain/fire-protection-systems-brandschutz/passive-fire-protection-dampers-doors-compartmentation/fire-doors-gates-hold-open-devices": {
@@ -1892,6 +1918,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Maintenance/inspection firms freely acquirable; new DIN 14677:2025 person-competency rule is a service requirement, not an ownership block.",
+      "actionable": {},
       "child_ids": []
     },
     "building-facility-technical-services-value-chain/fire-protection-systems-brandschutz/gas-special-extinguishing-systems": {
@@ -1966,6 +1993,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "VdS company certification transferable, freely acquirable; but a small specialist pool and the same fire-protection PE wave (Calanbau/FPS Group) limit remaining whitespace.",
+      "actionable": {},
       "child_ids": []
     },
     "building-facility-technical-services-value-chain/fire-protection-systems-brandschutz/emergency-safety-lighting-sicherheitsbeleuchtung": {
@@ -2044,6 +2072,7 @@
       "pe_activity": [],
       "investability": "restricted",
       "investability_note": "Overlaps Elektro-Handwerk (Meisterpflicht friction); DIN EN 1838 2025 revision + mid-2027 retrofit deadline drives near-term demand.",
+      "actionable": {},
       "child_ids": []
     },
     "building-facility-technical-services-value-chain/technical-fm-building-envelope": {
@@ -2082,6 +2111,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
+      "actionable": {},
       "child_ids": [
         "building-facility-technical-services-value-chain/technical-fm-building-envelope/technisches-gebaudemanagement-tgm-wartung-bundles",
         "building-facility-technical-services-value-chain/technical-fm-building-envelope/gebaudereinigung-industrie-gebaudereinigung",
@@ -2162,6 +2192,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
+      "actionable": {},
       "child_ids": [
         "building-facility-technical-services-value-chain/technical-fm-building-envelope/technisches-gebaudemanagement-tgm-wartung-bundles/tga-wartung-instandhaltung-hlk-sanitar-elektro",
         "building-facility-technical-services-value-chain/technical-fm-building-envelope/technisches-gebaudemanagement-tgm-wartung-bundles/prufpflichtige-anlagen-aufzuge-brandschutz-dguv-v3-elektro"
@@ -2232,6 +2263,7 @@
       "pe_activity": [],
       "investability": "restricted",
       "investability_note": "SHK & Elektro trades are Anlage A (Meisterpflicht); acquirable via Betriebsleiter but with licence friction. Note: multiple PE platforms already racing.",
+      "actionable": {},
       "child_ids": []
     },
     "building-facility-technical-services-value-chain/technical-fm-building-envelope/technisches-gebaudemanagement-tgm-wartung-bundles/prufpflichtige-anlagen-aufzuge-brandschutz-dguv-v3-elektro": {
@@ -2300,6 +2332,7 @@
       "pe_activity": [],
       "investability": "restricted",
       "investability_note": "Bundle mixes acquirable maintenance work with un-acquirable pieces: statutory ZÜS lift inspection is a TÜV/DEKRA accredited-body oligopoly (regulated TÜPrKost fees) and lift service is dominated by OEM majors (KONE/TKE/Schindler/Otis).",
+      "actionable": {},
       "child_ids": []
     },
     "building-facility-technical-services-value-chain/technical-fm-building-envelope/gebaudereinigung-industrie-gebaudereinigung": {
@@ -2369,6 +2402,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
+      "actionable": {},
       "child_ids": [
         "building-facility-technical-services-value-chain/technical-fm-building-envelope/gebaudereinigung-industrie-gebaudereinigung/unterhaltsreinigung-recurring-maintenance-cleaning",
         "building-facility-technical-services-value-chain/technical-fm-building-envelope/gebaudereinigung-industrie-gebaudereinigung/industrie-sonderreinigung"
@@ -2434,6 +2468,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Gebäudereiniger is a zulassungsfreies Handwerk (Anlage B, no Meisterpflicht) – freely acquirable; but large strategics (WISAG, Dussmann, Piepenbrock) already cover ~half the market.",
+      "actionable": {},
       "child_ids": []
     },
     "building-facility-technical-services-value-chain/technical-fm-building-envelope/gebaudereinigung-industrie-gebaudereinigung/industrie-sonderreinigung": {
@@ -2501,6 +2536,7 @@
       "pe_activity": [],
       "investability": "restricted",
       "investability_note": "Gebäudereiniger is a zulassungspflichtiges Handwerk (Meister/Betriebsleiter friction); labour-heavy low-margin; PE already active (e.g. Beyond Capital).",
+      "actionable": {},
       "child_ids": []
     },
     "building-facility-technical-services-value-chain/technical-fm-building-envelope/infrastrukturelles-fm-soft-services-bundle": {
@@ -2573,6 +2609,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "No licence/Fremdbesitz restriction; freely acquirable. But labour-heavy low-margin soft services and already dominated by large primes/PE (PAI-Apleona, Dussmann, Geiger).",
+      "actionable": {},
       "child_ids": []
     },
     "building-facility-technical-services-value-chain/technical-fm-building-envelope/dach-service-flachdach-inspektion-dachdecker": {
@@ -2650,6 +2687,7 @@
       "pe_activity": [],
       "investability": "restricted",
       "investability_note": "Dachdecker is Meisterpflicht (Anlage A HwO): a qualified Meister must lead the business, creating ownership/operational friction for a pure-financial acquirer (workaround via employed Meister, but real constraint).",
+      "actionable": {},
       "child_ids": []
     },
     "building-facility-technical-services-value-chain/technical-fm-building-envelope/industrietor-verladetechnik-service-tor-service": {
@@ -2724,6 +2762,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Independent service/inspection firms freely acquirable; maintenance largely outside Metallbauer-Meisterpflicht; OEM service (Hörmann/Novoferm) is the main competitor, no financial roll-up surfaced.",
+      "actionable": {},
       "child_ids": []
     },
     "building-facility-technical-services-value-chain/technical-fm-building-envelope/fassaden-glasreinigung-hohenzugang-seilzugangstechnik": {
@@ -2798,6 +2837,7 @@
       "pe_activity": [],
       "investability": "restricted",
       "investability_note": "Falls under Gebäudereiniger-Handwerk (Meisterpflicht friction); rope-access niche is premium-priced but small; very fragmented, owner-operated.",
+      "actionable": {},
       "child_ids": []
     },
     "building-facility-technical-services-value-chain/technical-fm-building-envelope/grunpflege-winterdienst-galabau-pflege": {
@@ -2869,6 +2909,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "GaLaBau is not an Anlage-A Meisterpflicht trade and has no ownership restriction; freely acquirable. Several PE platforms already active but still early phase.",
+      "actionable": {},
       "child_ids": []
     },
     "building-facility-technical-services-value-chain/technical-fm-building-envelope/schadlingsbekampfung-monitoring-fm-nah-food-overlap": {
@@ -2947,6 +2988,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "IHK-geprüfte firms are freely acquirable GmbHs; but Rentokil, Anticimex and ServiceMaster are already aggressively rolling up (50+ regional M&A) — little virgin whitespace left.",
+      "actionable": {},
       "child_ids": []
     },
     "building-facility-technical-services-value-chain/hvac-ventilation-cooling-service": {
@@ -2985,6 +3027,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
+      "actionable": {},
       "child_ids": [
         "building-facility-technical-services-value-chain/hvac-ventilation-cooling-service/ventilation-rlt-hygiene-inspection-cleaning-vdi-6022",
         "building-facility-technical-services-value-chain/hvac-ventilation-cooling-service/air-conditioning-energy-inspection-74-geg-epbd",
@@ -3063,6 +3106,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
+      "actionable": {},
       "child_ids": [
         "building-facility-technical-services-value-chain/hvac-ventilation-cooling-service/ventilation-rlt-hygiene-inspection-cleaning-vdi-6022/rlt-hygiene-inspection-erst-wiederholungsinspektion",
         "building-facility-technical-services-value-chain/hvac-ventilation-cooling-service/ventilation-rlt-hygiene-inspection-cleaning-vdi-6022/duct-rlt-cleaning-disinfection"
@@ -3134,6 +3178,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "VDI 6022 competence is a personal Sachkunde/certification held by staff, company-level acquirable; but large players (TÜV SÜD, Rentokil, Eurofins) already active in the ~300-600 firm pool.",
+      "actionable": {},
       "child_ids": []
     },
     "building-facility-technical-services-value-chain/hvac-ventilation-cooling-service/ventilation-rlt-hygiene-inspection-cleaning-vdi-6022/duct-rlt-cleaning-disinfection": {
@@ -3202,6 +3247,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "VDI 6022 hygiene service, not a licensed Vollhandwerk (category A/B qualified staff) - freely acquirable; fragmented, only strategics (e.g. Rentokil) present.",
+      "actionable": {},
       "child_ids": []
     },
     "building-facility-technical-services-value-chain/hvac-ventilation-cooling-service/air-conditioning-energy-inspection-74-geg-epbd": {
@@ -3270,6 +3316,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Performed by berechtigte Person (engineer/energy consultant) - qualification hurdle only; no ownership restriction. Small pool and TUEV-dominated limits platform scale.",
+      "actionable": {},
       "child_ids": []
     },
     "building-facility-technical-services-value-chain/hvac-ventilation-cooling-service/commercial-industrial-refrigeration-service-gewerbe-industriekalte": {
@@ -3335,6 +3382,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
+      "actionable": {},
       "child_ids": [
         "building-facility-technical-services-value-chain/hvac-ventilation-cooling-service/commercial-industrial-refrigeration-service-gewerbe-industriekalte/commercial-refrigeration-supermarket-food-retail",
         "building-facility-technical-services-value-chain/hvac-ventilation-cooling-service/commercial-industrial-refrigeration-service-gewerbe-industriekalte/industrial-process-refrigeration-ammonia-nh3-plants"
@@ -3405,6 +3453,7 @@
       "pe_activity": [],
       "investability": "restricted",
       "investability_note": "Kälteanlagenbauer is Meisterpflicht (Anlage A HwO) → Meister-led ownership friction; PE consolidation already started (VR Equitypartner / Kälte Eckert buy-and-build).",
+      "actionable": {},
       "child_ids": []
     },
     "building-facility-technical-services-value-chain/hvac-ventilation-cooling-service/commercial-industrial-refrigeration-service-gewerbe-industriekalte/industrial-process-refrigeration-ammonia-nh3-plants": {
@@ -3478,6 +3527,7 @@
       "pe_activity": [],
       "investability": "restricted",
       "investability_note": "'F-Gas Certificate B/C (CO2/NH3)' corrected - NH3/CO2 are natural refrigerants handled under a national Sachkunde, distinct from EU F-Gas categories.",
+      "actionable": {},
       "child_ids": []
     },
     "building-facility-technical-services-value-chain/hvac-ventilation-cooling-service/cooling-towers-evaporative-coolers-hygiene-42-bimschv-legionella": {
@@ -3551,6 +3601,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Water-hygiene service plus accredited labs (VDI 2047) - no Handwerk licence bar; >30,000 regulated systems, mandate-driven; fragmented, early.",
+      "actionable": {},
       "child_ids": []
     },
     "building-facility-technical-services-value-chain/hvac-ventilation-cooling-service/f-gas-leak-checks-refrigerant-compliance-f-gase-vo-chemklimaschutzv": {
@@ -3622,6 +3673,7 @@
       "pe_activity": [],
       "investability": "restricted",
       "investability_note": "'Bundesfachschule Kälte-Klima-Technik' removed - it is a training/certification school, not a service firm. The unverified 'April 2026' amendment date was softened rather than asserted.",
+      "actionable": {},
       "child_ids": []
     },
     "building-facility-technical-services-value-chain/hvac-ventilation-cooling-service/building-cooling-chillers-data-centre-cooling": {
@@ -3695,6 +3747,7 @@
       "pe_activity": [],
       "investability": "restricted",
       "investability_note": "Overlaps the meisterpflichtige Kälteanlagenbauer trade (Anlage A HwO) → Meister-led ownership friction; DC-cooling service still fragmented but same trade is consolidating.",
+      "actionable": {},
       "child_ids": []
     },
     "building-facility-technical-services-value-chain/hvac-ventilation-cooling-service/heat-pump-service-maintenance-overlaps-energy": {
@@ -3773,6 +3826,7 @@
       "pe_activity": [],
       "investability": "restricted",
       "investability_note": "SHK/Installateur-Heizungsbauer is meisterpflichtig (Anlage A) – Meister-friction; multiple PE/strategic roll-ups (Thermondo, 1Komma5°, Enpal) already racing, so limited early whitespace and some GEG/BEG subsidy-demand exposure.",
+      "actionable": {},
       "child_ids": []
     },
     "building-facility-technical-services-value-chain/hvac-ventilation-cooling-service/cleanroom-hvac-qualification-maintenance-overlaps-pharma": {
@@ -3791,18 +3845,18 @@
         "recurring": 4,
         "fragmentation": 3,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 3,
+        "margin": 4,
+        "growth": 4,
+        "headroom": 3,
+        "reimbursement_risk": 1
       },
       "rationale": {
         "recurring": "Periodic requalification and routine HVAC maintenance mandated by GMP quality systems.",
         "fragmentation": "Specialised qualification providers; fewer players than mainstream HVAC service.",
         "compliance": "GMP Annex 1 / ISO 14644 qualification is mandatory for pharma manufacturing licences."
       },
-      "composite": 75.0,
+      "composite": 70.8,
       "dach_signals": {
         "est_players": "~50-150 specialised qualification/service firms",
         "revenue_band_eur": "EUR 0.5-10m typical",
@@ -3828,14 +3882,25 @@
           "title": "RLT HVAC Pharma Reinraum GMP Qualifizierung Anhang 1 | PTS",
           "url": "https://www.pts.eu/3063/rlt-hvac-pharma-reinraum-gmp-qualifizierung-anhang-1.html",
           "note": "GMP Annex 1 cleanroom HVAC qualification"
+        },
+        {
+          "title": "ap-qualifizierung GmbH – Reinraum Qualifizierung & Wartung",
+          "url": "https://www.ap-qualifizierung.de/",
+          "note": "Independent specialist offering cleanroom qualification, requalification and maintenance – illustrates fragmented specialist pool."
+        },
+        {
+          "title": "Reinraumtechnik – ENGIE Deutschland",
+          "url": "https://www.engie-deutschland.de/de/reinraumtechnik",
+          "note": "Large FM/engineering group already offering cleanroom qualification/validation/maintenance – signals some consolidation pressure."
         }
       ],
       "confidence": 3,
-      "status": "grounded",
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Engineering/qualification services, no licence-ownership block; freely acquirable, though large FM/engineering groups (ENGIE, Bilfinger) already active.",
+      "actionable": {},
       "child_ids": []
     },
     "building-facility-technical-services-value-chain/lift-escalator-service": {
@@ -3885,6 +3950,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Harmonised the '~800' figure to a single meaning: ~800 refers to the total small-and-mid-sized lift-firm population in DE (predominantly independents), consistent with the est_players of the 'Independent (non-OEM) lift maintenance & service' node - not '~800 independents' as a separate count.",
+      "actionable": {},
       "child_ids": [
         "building-facility-technical-services-value-chain/lift-escalator-service/independent-non-oem-lift-maintenance-service",
         "building-facility-technical-services-value-chain/lift-escalator-service/oem-lift-service-big-four-captive-base",
@@ -3977,6 +4043,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Duplicate removed: 'Aufzugswerke Schmitt' is the same firm as 'Schmitt + Sohn Aufzüge' (formal name Aufzugswerke Schmitt + Sohn, Nürnberg); replaced with LUTZ Aufzüge, a genuinely distinct family-owned, manufacturer-independent lift-service firm (Reinbek near Hamburg, branches across northern Germany).",
+      "actionable": {},
       "child_ids": [
         "building-facility-technical-services-value-chain/lift-escalator-service/independent-non-oem-lift-maintenance-service/full-service-independent-maintenance-contracts",
         "building-facility-technical-services-value-chain/lift-escalator-service/independent-non-oem-lift-maintenance-service/multi-brand-manufacturer-independent-takeover-of-oem-installed-base"
@@ -3999,18 +4066,18 @@
         "recurring": 5,
         "fragmentation": 5,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 5,
+        "margin": 4,
+        "growth": 4,
+        "headroom": 4,
+        "reimbursement_risk": 1
       },
       "rationale": {
         "recurring": "Sold as multi-year contracts renewed on the installed base; the anchor recurring cash-flow of the sector.",
         "fragmentation": "Hundreds of regional owner-operated firms, no consolidator dominates the independent tail.",
         "compliance": "BetrSichV requires the operator to keep the lift maintained; contract is the practical route to compliance."
       },
-      "composite": 100.0,
+      "composite": 91.7,
       "dach_signals": {
         "est_players": "Hundreds of regional firms in DE",
         "revenue_band_eur": "EUR 0.5-5m typical; contract value ~EUR 1,000-3,000/lift/yr",
@@ -4030,14 +4097,30 @@
           "title": "VmA - Was wir tun",
           "url": "https://www.vma.de/was-wir-tun/",
           "note": "Independent members offer full-lifecycle service on open systems"
+        },
+        {
+          "title": "Herstellerunabhaengige Aufzugswartung - KONE",
+          "url": "https://www.kone.de/bestandsgebaeude/aufzugswartung/",
+          "note": "Confirms independent/multi-brand service model; ~EUR 2.5bn DE lift industry, SMEs >30% share"
+        },
+        {
+          "title": "VmA Umkreissuche",
+          "url": "https://www.vma.de/umkreissuche/",
+          "note": "70+ independent mid-sized lift firms; membership ends on acquisition by multinationals = no PE consolidator yet"
+        },
+        {
+          "title": "Liste 800 Aufzugsfirmen - listflix",
+          "url": "https://listflix.de/bauunternehmen/tga-unternehmen/aufzugsfirmen/",
+          "note": "Hundreds of SME targets, highly fragmented independent base"
         }
       ],
-      "confidence": 3,
-      "status": "grounded",
+      "confidence": 4,
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
-      "investability": "open",
-      "investability_note": "",
+      "investability": "restricted",
+      "investability_note": "Freely acquirable SME roll-up, but lift work touches Anlage-A Handwerk (Metallbau/Elektro) so each entity needs a Meister/qualified TRBS person on staff.",
+      "actionable": {},
       "child_ids": []
     },
     "building-facility-technical-services-value-chain/lift-escalator-service/independent-non-oem-lift-maintenance-service/multi-brand-manufacturer-independent-takeover-of-oem-installed-base": {
@@ -4057,11 +4140,11 @@
         "recurring": 5,
         "fragmentation": 4,
         "compliance": 4,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 5,
+        "margin": 4,
+        "growth": 4,
+        "headroom": 3,
+        "reimbursement_risk": 1
       },
       "rationale": {
         "recurring": "Contract-based recurring revenue captured from a competitor's base and retained.",
@@ -4088,14 +4171,25 @@
           "title": "Herstellerunabhängige Wartung & Services für Aufzüge - KONE Deutschland",
           "url": "https://www.kone.de/bestandsgebaeude/service-wartung-aufzug-rolltreppe-automatiktuer/",
           "note": "Service offered independent of the original manufacturer"
+        },
+        {
+          "title": "Herstellerunabhängige Wartung & Services für Aufzüge – KONE",
+          "url": "https://www.kone.de/bestandsgebaeude/aufzugswartung/",
+          "note": "Confirms manufacturer-independent takeover of any brand's installed base is an active service model."
+        },
+        {
+          "title": "Liste mit 800 Aufzugsfirmen + Branchenübersicht – listflix",
+          "url": "https://listflix.de/bauunternehmen/tga-unternehmen/aufzugsfirmen/",
+          "note": "~800 lift firms; SME segment holds >30% share vs Big Four OEMs."
         }
       ],
-      "confidence": 3,
-      "status": "grounded",
+      "confidence": 4,
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Aftermarket service contracts freely transferable; ~765k lift installed base and ~800 independents make it acquirable, no ownership block.",
+      "actionable": {},
       "child_ids": []
     },
     "building-facility-technical-services-value-chain/lift-escalator-service/oem-lift-service-big-four-captive-base": {
@@ -4114,18 +4208,18 @@
         "recurring": 5,
         "fragmentation": 2,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 5,
+        "margin": 5,
+        "growth": 4,
+        "headroom": 1,
+        "reimbursement_risk": 1
       },
       "rationale": {
         "recurring": "Service on the OEM's own installed base is the most durable, high-margin recurring revenue in the sector.",
         "fragmentation": "Big Four hold ~60% of service (Schindler ~21%, KONE/TKE/Otis ~13% each incl. second brands) - concentrated, not fragmented.",
         "compliance": "Same mandatory maintenance/inspection regime underpins the recurring contract."
       },
-      "composite": 75.0,
+      "composite": 83.3,
       "dach_signals": {
         "est_players": "4 OEM groups + their second brands/participations",
         "revenue_band_eur": "EUR 100m+ per OEM DE service unit; ~EUR 2.5bn total DE industry",
@@ -4156,14 +4250,25 @@
           "title": "Aufzugsfirmen Deutschland (Listflix)",
           "url": "https://listflix.de/bauunternehmen/aufzugsfirmen/",
           "note": "Big-Four OEM service dominance vs. independent Mittelstand; OEM captive base is not a roll-up target."
+        },
+        {
+          "title": "Aufzugsfirmen Deutschland - wer-zu-wem",
+          "url": "https://www.wer-zu-wem.de/industrie/aufzugshersteller.html",
+          "note": "Big Four dominate; Schindler ~20% share, captive service bases"
+        },
+        {
+          "title": "Herstellerunabhaengige Aufzugswartung - KONE",
+          "url": "https://www.kone.de/bestandsgebaeude/aufzugswartung/",
+          "note": "OEM service oligopoly context"
         }
       ],
       "confidence": 4,
-      "status": "grounded",
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "blocked",
-      "investability_note": "Highly concentrated captive service of the four global OEMs; a benchmark competitor, not an acquisition universe (per the node's own description).",
+      "investability_note": "Captive service units of Otis/Schindler/KONE/TKE; not for sale to PE (structurally locked inside the OEM groups).",
+      "actionable": {},
       "child_ids": []
     },
     "building-facility-technical-services-value-chain/lift-escalator-service/lift-modernisation-repair": {
@@ -4182,11 +4287,11 @@
         "recurring": 3,
         "fragmentation": 4,
         "compliance": 4,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 4,
+        "margin": 3,
+        "growth": 4,
+        "headroom": 3,
+        "reimbursement_risk": 1
       },
       "rationale": {
         "recurring": "Modernisation is project/cyclical (re-won each time) but breakdown repair recurs on the maintained base; ageing stock creates a long structural pipeline.",
@@ -4224,14 +4329,20 @@
           "title": "VDMA / Aufzüge und Fahrtreppen (Statista Themenseite)",
           "url": "https://de.statista.com/themen/5951/aufzuege-und-fahrtreppen/",
           "note": "~750,000 lifts, ~half at least 20 years old; base reconciled to level-1 node."
+        },
+        {
+          "title": "Aufzug-Modernisierung – Lutz Aufzüge",
+          "url": "https://lutz-aufzuege.de/aufzuege/gebaeudearten/modernisierung-sanierung/",
+          "note": "Independent modernisation with freely available components, several hundred independents compete."
         }
       ],
-      "confidence": 3,
-      "status": "grounded",
+      "confidence": 4,
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Project-based modernisation open to independents; free-market components mean no OEM lock-in on ownership.",
+      "actionable": {},
       "child_ids": []
     },
     "building-facility-technical-services-value-chain/lift-escalator-service/escalator-moving-walk-service": {
@@ -4250,18 +4361,18 @@
         "recurring": 5,
         "fragmentation": 2,
         "compliance": 4,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 2,
+        "margin": 4,
+        "growth": 3,
+        "headroom": 2,
+        "reimbursement_risk": 1
       },
       "rationale": {
         "recurring": "Heavy-use public assets on mandatory maintenance and frequent inspection cycles - strongly recurring.",
         "fragmentation": "Far more OEM-concentrated than lifts (Schindler world escalator leader; few independents have the capability).",
         "compliance": "Same BetrSichV/ZÜS inspection regime plus higher public-safety scrutiny."
       },
-      "composite": 66.7,
+      "composite": 58.3,
       "dach_signals": {
         "est_players": "Mainly the Big Four + a handful of specialists",
         "revenue_band_eur": "Higher per-unit contract values than lifts",
@@ -4291,14 +4402,20 @@
           "title": "VDMA / Aufzüge und Fahrtreppen (Statista Themenseite)",
           "url": "https://de.statista.com/themen/5951/aufzuege-und-fahrtreppen/",
           "note": "Escalator service dominated by the Big Four OEMs."
+        },
+        {
+          "title": "Aufzugsfirmen DACH - aufzug24",
+          "url": "https://www.aufzug24.net/liste-von-aufzugsfirmen-127.html",
+          "note": "Escalator service concentrated in Big Four plus a handful of specialists"
         }
       ],
       "confidence": 3,
-      "status": "grounded",
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "restricted",
-      "investability_note": "OEM-concentrated (Big Four) with only a thin independent layer (fragmentation=2); accreditation-gated, not a fragmented roll-up.",
+      "investability_note": "Very few independent targets outside the Big Four; specialist firms are Handwerk (Metallbau) with Meisterpflicht friction.",
+      "actionable": {},
       "child_ids": []
     },
     "building-facility-technical-services-value-chain/lift-escalator-service/platform-lifts-accessibility-treppenlifte-homelifts-install-service": {
@@ -4364,6 +4481,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
+      "actionable": {},
       "child_ids": [
         "building-facility-technical-services-value-chain/lift-escalator-service/platform-lifts-accessibility-treppenlifte-homelifts-install-service/stairlift-platform-lift-sales-installation",
         "building-facility-technical-services-value-chain/lift-escalator-service/platform-lifts-accessibility-treppenlifte-homelifts-install-service/platform-home-lift-maintenance-tuv"
@@ -4386,18 +4504,18 @@
         "recurring": 2,
         "fragmentation": 4,
         "compliance": 4,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 3,
+        "margin": 3,
+        "growth": 4,
+        "headroom": 3,
+        "reimbursement_risk": 3
       },
       "rationale": {
         "recurring": "Predominantly one-off capital sale, though refurb/second-hand and upsell recur.",
         "fragmentation": "Lifta dominant in sales but a broad long tail of dealers/manufacturers exists.",
         "compliance": "Pflegekasse (SGB XI §40, up to EUR 4,180) and KfW grants heavily influence the sale."
       },
-      "composite": 58.3,
+      "composite": 48.3,
       "dach_signals": {
         "est_players": "Many dealers/manufacturers",
         "revenue_band_eur": "EUR 4k-15k straight, up to EUR 25k+ curved",
@@ -4418,14 +4536,25 @@
           "title": "Treppenlift Anbieter/Hersteller (treppenlifto.de)",
           "url": "https://www.treppenlifto.de/hersteller-liste-228.html",
           "note": "Lifta market leader (170k+ sold); broad list of DACH manufacturers/dealers"
+        },
+        {
+          "title": "Analyse der Marktgröße und des Anteils von Treppenliften – Mordor Intelligence",
+          "url": "https://www.mordorintelligence.com/industry-reports/stair-lift-market",
+          "note": "Stairlift market growth ~5-6% CAGR, demographic-driven."
+        },
+        {
+          "title": "Treppenlift Anbieter 2026 – altersgerecht-modernisieren.de",
+          "url": "https://altersgerecht-modernisieren.de/treppenlift/treppenlift-anbieter/",
+          "note": "Lifta market leader (>170k units); mix of manufacturers and dealers."
         }
       ],
       "confidence": 3,
-      "status": "grounded",
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Freely acquirable dealer/installer model, but Lifta and OEM-backed players (TK Home Solutions) already dominant; demand partly hinges on Pflegekasse Zuschuss.",
+      "actionable": {},
       "child_ids": []
     },
     "building-facility-technical-services-value-chain/lift-escalator-service/platform-lifts-accessibility-treppenlifte-homelifts-install-service/platform-home-lift-maintenance-tuv": {
@@ -4445,18 +4574,18 @@
         "recurring": 4,
         "fragmentation": 4,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 3,
+        "margin": 3,
+        "growth": 5,
+        "headroom": 4,
+        "reimbursement_risk": 2
       },
       "rationale": {
         "recurring": "Annual maintenance contracts + biennial inspection on a growing installed base.",
         "fragmentation": "Serviced by dealers, manufacturers and independents regionally.",
         "compliance": "EN 81-41 mandates biennial TÜV main inspection plus routine maintenance."
       },
-      "composite": 83.3,
+      "composite": 70.0,
       "dach_signals": {
         "est_players": "Dealers + independents",
         "revenue_band_eur": "EUR 200-500/yr maintenance + EUR 150-300 biennial TÜV",
@@ -4475,14 +4604,25 @@
           "title": "Senioren-Aufzug / Homelift Kosten & Förderung (pflege-panorama)",
           "url": "https://www.pflege-panorama.de/ratgeber/senioren-aufzug-homelift-privathaus/",
           "note": "EN 81-41 biennial TÜV and annual maintenance obligations & costs"
+        },
+        {
+          "title": "Stair Lift Market - Fortune Business Insights",
+          "url": "https://www.fortunebusinessinsights.com/stair-lift-market-111072",
+          "note": "~4.7% CAGR; ageing-driven secular demand; growing PE interest"
+        },
+        {
+          "title": "Homelift-Anbieter Deutschland - GueDe",
+          "url": "https://guede-aufzugtechnik.com/blog/homelift-anbieter/",
+          "note": "Fragmented dealer/independent service base; recurring maintenance + biennial TUV"
         }
       ],
       "confidence": 3,
-      "status": "grounded",
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
-      "investability": "open",
-      "investability_note": "",
+      "investability": "restricted",
+      "investability_note": "Fragmented dealer/installer base but tied to manufacturer authorisations and Anlage-A Handwerk; Pflegekasse Zuschuss partly funds installs (demand subsidy, robust).",
+      "actionable": {},
       "child_ids": []
     },
     "building-facility-technical-services-value-chain/lift-escalator-service/lift-emergency-call-remote-monitoring-notruf-aufschaltung": {
@@ -4501,11 +4641,11 @@
         "recurring": 5,
         "fragmentation": 3,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 4,
+        "margin": 5,
+        "growth": 4,
+        "headroom": 3,
+        "reimbursement_risk": 1
       },
       "rationale": {
         "recurring": "Monthly/annual Aufschaltung subscription per lift, plus mandated 72h routine test call - highly recurring SaaS-like revenue.",
@@ -4539,14 +4679,25 @@
           "title": "Informationen zur Norm EN 81-28 (Notrufe24)",
           "url": "https://www.notrufe24.de/infos-normen-8128",
           "note": "EN 81-28 two-way call requirements; 72h routine test call; specialist monitoring provider"
+        },
+        {
+          "title": "Notrufe24 – Aufzugsnotrufzentrale",
+          "url": "https://www.notrufe24.de/",
+          "note": "Leading independent Aufschaltzentrale with >26,000 active connections; brand-agnostic monitoring."
+        },
+        {
+          "title": "Notrufsystem für Aufzüge ist Pflicht – Schindler",
+          "url": "https://www.schindler.de/de/service/optionen/notruf.html",
+          "note": "Emergency-call system mandatory for every lift since 2020 – structural recurring demand."
         }
       ],
       "confidence": 4,
-      "status": "grounded",
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Subscription monitoring business freely acquirable; mandatory Notruf since 2020 drives recurring private revenue, no ownership restriction.",
+      "actionable": {},
       "child_ids": []
     },
     "building-facility-technical-services-value-chain/lift-escalator-service/statutory-lift-inspection-zus-tic-overlap": {
@@ -4565,18 +4716,18 @@
         "recurring": 5,
         "fragmentation": 2,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 3,
+        "margin": 5,
+        "growth": 3,
+        "headroom": 2,
+        "reimbursement_risk": 2
       },
       "rationale": {
         "recurring": "Legally mandated cycle (max 2-yr main + interim within 1 yr) on the entire ~840k DE installed base - guaranteed recurring.",
         "fragmentation": "Accreditation-gated; dominated by a handful of large TIC bodies (TÜV Süd/Nord/Rheinland, DEKRA), not fragmented.",
         "compliance": "Pure compliance spend - only a ZÜS may perform the inspection; operating without a valid check is unlawful."
       },
-      "composite": 75.0,
+      "composite": 65.8,
       "dach_signals": {
         "est_players": "Handful of accredited ZÜS in DE (TÜV entities, DEKRA, plus smaller ZÜS)",
         "revenue_band_eur": "~EUR 150-400 per inspection; multiplied over ~750,000 units biennially",
@@ -4613,14 +4764,25 @@
           "title": "VDMA / Aufzüge und Fahrtreppen (Statista Themenseite)",
           "url": "https://de.statista.com/themen/5951/aufzuege-und-fahrtreppen/",
           "note": "Installed base ~750,000 lifts (not ~840k); ZÜS inspection concentrated among accredited bodies."
+        },
+        {
+          "title": "ZUES fuer Aufzugspruefungen - DEKRA",
+          "url": "https://www.dekra.de/de/zues-fuer-aufzugpruefungen/",
+          "note": "Only accredited ZUES (DEKRA, TUV) may perform recurring lift inspection"
+        },
+        {
+          "title": "BetrSichV Aufzuege - TUV SUED",
+          "url": "https://www.tuvsud.com/de-de/indust-re/betriebssicherheitsverordnung-info/betriebssicherheitsverordnung-aufzug",
+          "note": "Sec.16 BetrSichV restricts inspection to accredited bodies; ~750k units biennial"
         }
       ],
-      "confidence": 4,
-      "status": "grounded",
+      "confidence": 3,
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
-      "investability": "restricted",
-      "investability_note": "TÜV/DEKRA/OEM-concentrated, accreditation-gated (ZÜS), low fragmentation (fragmentation=2) - not a fragmented roll-up; access is via acquiring/partnering with an accredited ZÜS, not open entry.",
+      "investability": "blocked",
+      "investability_note": "ZUES accreditation (BetrSichV Sec.16) is scarce and incumbents (TUV entities/DEKRA) are e.V./foundation structures - not a buildable roll-up; fees quasi-regulated.",
+      "actionable": {},
       "child_ids": []
     },
     "building-facility-technical-services-value-chain/security-access-systems": {
@@ -4659,6 +4821,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
+      "actionable": {},
       "child_ids": [
         "building-facility-technical-services-value-chain/security-access-systems/intruder-hold-up-alarm-systems-ema-uma-install-service",
         "building-facility-technical-services-value-chain/security-access-systems/alarm-receiving-monitoring-centres-nsl-leitstellen",
@@ -4735,6 +4898,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
+      "actionable": {},
       "child_ids": [
         "building-facility-technical-services-value-chain/security-access-systems/intruder-hold-up-alarm-systems-ema-uma-install-service/ema-uma-maintenance-inspection-contracts-wartung"
       ]
@@ -4756,18 +4920,18 @@
         "recurring": 5,
         "fragmentation": 5,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 4,
+        "margin": 4,
+        "growth": 4,
+        "headroom": 3,
+        "reimbursement_risk": 1
       },
       "rationale": {
         "recurring": "Contractual periodic maintenance mandated by VdS 2311 for the system's operational life; re-won only on churn.",
         "fragmentation": "Base is captured by the installing SME; highly local and sticky.",
         "compliance": "Insurance cover and VdS attestation lapse without documented periodic servicing."
       },
-      "composite": 100.0,
+      "composite": 87.5,
       "dach_signals": {
         "est_players": "co-extensive with EMA installer base",
         "revenue_band_eur": "recurring EUR 100-500 per system p.a.; core margin driver",
@@ -4785,14 +4949,25 @@
           "title": "VdS-anerkannte Errichter (Infotool)",
           "url": "https://vds-home.de/infotool/errichter-1",
           "note": "Mandatory maintenance contract requirement and installer recognition"
+        },
+        {
+          "title": "Merkblatt Einbruchmeldeanlagen nach DIN EN 50131 und VdS – BHE",
+          "url": "https://www.bhe.de/_Resources/Persistent/6/b/9/7/6b970bdb406ca0d227193993e07d33591d7935d4/Infopapier_EMA%20EN+VdS_05_2026.pdf",
+          "note": "DIN VDE 0833 mandates regular maintenance/inspection – recurring revenue driver."
+        },
+        {
+          "title": "Marktforschung Sicherheitsbranche – openPR",
+          "url": "https://www.openpr.de/news/1274701/Marktforschung-zur-Sicherheitsbranche-Trends-und-Wachstumsprognosen-fuer-die-kommenden-Jahre.html",
+          "note": "German security sector ~EUR10bn, 6-8% growth to 2028."
         }
       ],
       "confidence": 4,
-      "status": "grounded",
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Errichter/Wartung firms freely acquirable (VdS certification is firm-level, not an ownership block); highly fragmented BHE installer base.",
+      "actionable": {},
       "child_ids": []
     },
     "building-facility-technical-services-value-chain/security-access-systems/alarm-receiving-monitoring-centres-nsl-leitstellen": {
@@ -4811,18 +4986,18 @@
         "recurring": 5,
         "fragmentation": 4,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 3,
+        "margin": 5,
+        "growth": 4,
+        "headroom": 3,
+        "reimbursement_risk": 1
       },
       "rationale": {
         "recurring": "Monthly per-connection monitoring fees (Aufschaltung) are contractual subscriptions; Securitas alone reports ~78,000 active connections.",
         "fragmentation": "Market is mostly small/medium NSL operators plus a few large groups (Securitas, ADT/Tyco, Dussmann); certification barriers limit but do not concentrate it.",
         "compliance": "DIN EN 50518 (structural/technical/operational) certification, 3-year validity with annual interim audits; VdS 3138 qualification for personnel."
       },
-      "composite": 91.7,
+      "composite": 83.3,
       "dach_signals": {
         "est_players": "dozens of DIN EN 50518-certified NSL operators DE-wide (mostly SME)",
         "revenue_band_eur": "recurring EUR ~10-30/connection/month; operator revenue EUR 1-50m",
@@ -4854,14 +5029,25 @@
           "title": "Alarm receiving centers: DIN EN 50518 certification — TÜV NORD",
           "url": "https://www.tuev-nord.de/en/services/auditing-and-certification/en-50518/",
           "note": "Certification validity, annual interim inspection cadence"
+        },
+        {
+          "title": "NSL nach DIN EN 50518 zertifiziert - Protector",
+          "url": "https://www.protector.de/notruf-und-service-leitstelle-nach-din-en-50518-zertifiziert",
+          "note": "Certified-operator requirement, recurring monitoring revenue model"
+        },
+        {
+          "title": "Fachfirmen Sicherheitstechnik - BHE",
+          "url": "https://www.bhe.de/fachfirmen-sicherheitstechnik",
+          "note": "BHE 1,250+ members, mostly SME installers/operators - fragmented base"
         }
       ],
-      "confidence": 4,
-      "status": "grounded",
+      "confidence": 3,
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
-      "investability": "open",
-      "investability_note": "",
+      "investability": "restricted",
+      "investability_note": "Acquirable, but DIN EN 50518 / VdS certification and security licensing (Sec.34a GewO) create ownership/operating friction; some consolidation by Securitas/large players.",
+      "actionable": {},
       "child_ids": []
     },
     "building-facility-technical-services-value-chain/security-access-systems/video-surveillance-cctv-videosicherheit-install-service": {
@@ -4880,11 +5066,11 @@
         "recurring": 3,
         "fragmentation": 5,
         "compliance": 4,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 4,
+        "margin": 3,
+        "growth": 5,
+        "headroom": 3,
+        "reimbursement_risk": 1
       },
       "rationale": {
         "recurring": "Recurring maintenance/service and increasingly cloud/VSaaS and remote video-monitoring subscriptions, but a large share is project/replacement-cycle driven.",
@@ -4916,14 +5102,25 @@
           "title": "Markt für elektronische Sicherheitstechnik — BHE",
           "url": "https://www.bhe.de/der-bhe/aktuelles/markt-fuer-elektronische-sicherheitstechnik-steigert-umsatz-auf-knapp-5-mrd-euro",
           "note": "Video as a reported Gewerk within the growing electronic-security market"
+        },
+        {
+          "title": "Video Surveillance Systems Market – Mordor Intelligence",
+          "url": "https://www.mordorintelligence.com/industry-reports/video-surveillance-systems-market",
+          "note": "Global video surveillance ~10% CAGR; VSaaS growing >20% – strong secular tailwind."
+        },
+        {
+          "title": "Markt für Alarmanlagen und Videoüberwachung Deutschland – Businesscoot",
+          "url": "https://www.businesscoot.com/en/study/the-market-for-alarms-and-video-surveillance-germany",
+          "note": "German alarm/video market growth; PE-driven M&A consolidating mid-tier suppliers."
         }
       ],
-      "confidence": 3,
-      "status": "grounded",
+      "confidence": 4,
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Errichter/integrator firms freely acquirable; large fragmented population, but rising PE interest is already consolidating mid-tier suppliers.",
+      "actionable": {},
       "child_ids": []
     },
     "building-facility-technical-services-value-chain/security-access-systems/access-control-electronic-locking-zutrittskontrolle": {
@@ -4986,6 +5183,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
+      "actionable": {},
       "child_ids": [
         "building-facility-technical-services-value-chain/security-access-systems/access-control-electronic-locking-zutrittskontrolle/mechatronic-locking-systems-mechatronische-schlieanlagen"
       ]
@@ -5007,18 +5205,18 @@
         "recurring": 4,
         "fragmentation": 4,
         "compliance": 3,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 3,
+        "margin": 3,
+        "growth": 4,
+        "headroom": 4,
+        "reimbursement_risk": 1
       },
       "rationale": {
         "recurring": "Ongoing re-programming, credential/cylinder management and service contracts replace physical rekeying; sticky to the installing Fachhändler.",
         "fragmentation": "Authorised dealer/Errichter networks per brand; locally delivered.",
         "compliance": "Patent-protected key/security-card systems restrict duplicate keys to authorised dealers; DIN EN standards for locking."
       },
-      "composite": 66.7,
+      "composite": 62.5,
       "dach_signals": {
         "est_players": "authorised dealer networks of major brands DACH",
         "revenue_band_eur": "EUR 0.3-5m per Fachhändler",
@@ -5038,14 +5236,25 @@
           "title": "Mechatronische Schließsysteme — BauNetz Wissen",
           "url": "https://www.baunetzwissen.de/sicherheitstechnik/fachwissen/elektron-schliesstechnik/mechatronische-schliesssysteme-2316779",
           "note": "Definition, flexibility, dealer/key-control model"
+        },
+        {
+          "title": "Marktuebersichten Mechatronische Schliesssysteme - BHE",
+          "url": "https://www.bhe.de/de/Marktuebersichten-Mechatronische-Schliesssysteme_2015",
+          "note": "Dealer/manufacturer landscape (Assa Abloy, SimonsVoss, CES, Wilka)"
+        },
+        {
+          "title": "Digitale/mechatronische Schliessanlagen - AVT",
+          "url": "https://avt-gmbh.de/loesung/digitale-schliessanlagen/",
+          "note": "Authorised-partner install/service model, digitisation tailwind"
         }
       ],
       "confidence": 3,
-      "status": "grounded",
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
-      "investability": "open",
-      "investability_note": "",
+      "investability": "restricted",
+      "investability_note": "Fragmented Fachhaendler base with little PE, but revenue is product-resale heavy and tied to manufacturer authorisations plus Metall/Elektro Handwerk.",
+      "actionable": {},
       "child_ids": []
     },
     "building-facility-technical-services-value-chain/security-access-systems/mechanical-security-locksmithing-schlieanlagen-schlusseldienst": {
@@ -5064,18 +5273,18 @@
         "recurring": 2,
         "fragmentation": 5,
         "compliance": 2,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 3,
+        "margin": 2,
+        "growth": 3,
+        "headroom": 4,
+        "reimbursement_risk": 1
       },
       "rationale": {
         "recurring": "Mostly transactional (openings, rekeys, key cutting) with replacement cycles; recurring element limited to key-control on protected systems.",
         "fragmentation": "~2,900-6,400 Schlüsseldienst firms in Germany; deregulated craft (no Meisterzwang), overwhelmingly micro-businesses with no consolidator.",
         "compliance": "Largely discretionary; VdS/insurer standards apply to mechanical security classes (RC/WK resistance) but locksmithing itself is unregulated."
       },
-      "composite": 50.0,
+      "composite": 45.8,
       "dach_signals": {
         "est_players": "~2,900-6,400 Schlüsseldienst firms (DE); highly variable by database",
         "revenue_band_eur": "EUR 0.1-1m typical; micro-firms",
@@ -5105,14 +5314,25 @@
           "title": "Mechanische Schließanlagen — Pankofer Sicherheitstechnik",
           "url": "https://pankofer.de/geschaeftskunden-2/schliesstechnik/mechanische-schliessanlagen/",
           "note": "Example mechanical locking Fachbetrieb"
+        },
+        {
+          "title": "Errichter für Einbruchmeldeanlage & Sicherheitstechnik – Mohr",
+          "url": "https://sicherheitstechnik-mohr.de/sicherheitstechnik/einbruchmeldeanlagen-ema",
+          "note": "Illustrates overlap of mechanical/electronic security trades and qualification requirements."
+        },
+        {
+          "title": "Wartung von Einbruchmeldeanlagen – wlw.de",
+          "url": "https://www.wlw.de/de/suche/wartung-von-einbruchmeldeanlagen",
+          "note": "Broad supplier directory indicating highly fragmented, owner-operated firm base."
         }
       ],
       "confidence": 3,
-      "status": "grounded",
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
-      "investability": "open",
-      "investability_note": "",
+      "investability": "restricted",
+      "investability_note": "Micro-firm pool with low tickets; Schließanlagenbau/Metallbau touches Meisterpflicht (Anlage A), adding licence/qualification friction to roll-up.",
+      "actionable": {},
       "child_ids": []
     },
     "building-facility-technical-services-value-chain/security-access-systems/fire-security-integration-gma-gefahrenmeldeanlagen": {
@@ -5131,11 +5351,11 @@
         "recurring": 5,
         "fragmentation": 3,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 5,
+        "margin": 4,
+        "growth": 4,
+        "headroom": 2,
+        "reimbursement_risk": 1
       },
       "rationale": {
         "recurring": "Fire/hazard systems carry statutory periodic inspection and maintenance obligations (Instandhaltung) for the building's life — the strongest recurring driver.",
@@ -5169,14 +5389,30 @@
           "title": "Norm für Notruf- und Serviceleitstellen — GIT-SICHERHEIT",
           "url": "https://git-sicherheit.de/de/topstories/norm-fuer-notruf-und-serviceleit-stellen-fordert-planer-und-betreiber-heraus",
           "note": "Norm-driven planning/operating obligations across hazard-detection systems"
+        },
+        {
+          "title": "Fachfirmen DIN 14675 - VdS",
+          "url": "https://vds.de/en/expertise/fire-safety/certification/installation-and-specialist-companies/specialist-companies-din-14675",
+          "note": "Certification mandatory for BMA installers; hundreds of Errichter"
+        },
+        {
+          "title": "Facherrichter DIN 14675 FAQ",
+          "url": "https://www.din-14675.de/facherrichter/",
+          "note": "Certification + ISO 9001 prerequisite; recurring maintenance contracts"
+        },
+        {
+          "title": "KLAR Partners acquires KONZMANN (TGA platform)",
+          "url": "https://www.klarpartners.com/en/klar-partners-acquires-konzmann-group-a-leading-german-technical-building-services-platform/",
+          "note": "Evidence of active PE buy-and-build in adjacent technical building services/security"
         }
       ],
       "confidence": 4,
-      "status": "grounded",
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
-      "investability": "open",
-      "investability_note": "",
+      "investability": "restricted",
+      "investability_note": "Large TAM but PE-crowded (fire-safety buy-and-build already active); DIN 14675 certification and Elektro Meisterpflicht add friction.",
+      "actionable": {},
       "child_ids": []
     },
     "building-facility-technical-services-value-chain/plumbing-sanitary-water-hygiene-shk": {
@@ -5215,6 +5451,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
+      "actionable": {},
       "child_ids": [
         "building-facility-technical-services-value-chain/plumbing-sanitary-water-hygiene-shk/heating-installation-service-incl-warmepumpe",
         "building-facility-technical-services-value-chain/plumbing-sanitary-water-hygiene-shk/drinking-water-hygiene-legionella-trinkwv",
@@ -5301,6 +5538,7 @@
       "pe_activity": [],
       "investability": "restricted",
       "investability_note": "Zulassungspflichtiges Handwerk (Anlage A, Meisterpflicht) - PE can acquire a Meisterbetrieb but the trade is licence-gated; matched to the residential Elektrohandwerk node. F-Gas citation updated to the in-force EU 2024/573.",
+      "actionable": {},
       "child_ids": [
         "building-facility-technical-services-value-chain/plumbing-sanitary-water-hygiene-shk/heating-installation-service-incl-warmepumpe/heat-pump-install-statutory-operational-check",
         "building-facility-technical-services-value-chain/plumbing-sanitary-water-hygiene-shk/heating-installation-service-incl-warmepumpe/boiler-heating-maintenance-contracts"
@@ -5323,18 +5561,18 @@
         "recurring": 3,
         "fragmentation": 5,
         "compliance": 4,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 5,
+        "margin": 3,
+        "growth": 4,
+        "headroom": 3,
+        "reimbursement_risk": 3
       },
       "rationale": {
         "recurring": "Install is transactional but subsidy-driven volume high; new 2026 periodic-check duty adds recurring revenue.",
         "fragmentation": "Same ~48k SHK base plus new-entrant installer platforms; highly fragmented and capacity-constrained.",
         "compliance": "GEG 65%-renewable rule drives demand; mandatory operational checks and F-gas certification gate the work."
       },
-      "composite": 75.0,
+      "composite": 65.0,
       "dach_signals": {
         "est_players": "Thousands of certified SHK firms; few national platforms",
         "revenue_band_eur": "EUR 15-30k per install; check ~EUR 100-300",
@@ -5359,14 +5597,25 @@
           "title": "Neue Prüfpflicht für Wärmepumpen (SHK-Innung Harburg)",
           "url": "https://shkinnung-harburg.de/2026/02/19/neue-pruefpflicht-fuer-waermepumpen-was-handwerker-jetzt-wissen-muessen/",
           "note": "Periodic heat-pump check duty from 2026"
+        },
+        {
+          "title": "SHK-Handwerk weiter auf Wachstumskurs – ZVSHK",
+          "url": "https://www.zvshk.de/presse/medien-center/pressemitteilungen/shk-handwerk-weiter-auf-wachstumskurs",
+          "note": "48,100 SHK firms; large, fragmented handwerk base."
+        },
+        {
+          "title": "Wärmepumpen-Absatz 2025 – autarc.energy",
+          "url": "https://www.autarc.energy/wissen/warmepumpe-absatz-2025",
+          "note": "299,000 heat pumps sold 2025 (+55%); BWP expects ~10% p.a. growth but subsidy-sensitive."
         }
       ],
-      "confidence": 3,
-      "status": "grounded",
+      "confidence": 4,
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
-      "investability": "open",
-      "investability_note": "",
+      "investability": "restricted",
+      "investability_note": "SHK is Meisterpflicht (Installateur- und Heizungsbauer, Anlage A) – acquirable but with licence/Meister friction; demand also policy/BEG-subsidy dependent.",
+      "actionable": {},
       "child_ids": []
     },
     "building-facility-technical-services-value-chain/plumbing-sanitary-water-hygiene-shk/heating-installation-service-incl-warmepumpe/boiler-heating-maintenance-contracts": {
@@ -5386,11 +5635,11 @@
         "recurring": 5,
         "fragmentation": 5,
         "compliance": 3,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 5,
+        "margin": 4,
+        "growth": 4,
+        "headroom": 3,
+        "reimbursement_risk": 1
       },
       "rationale": {
         "recurring": "Annual Wartungsvertrag maintenance is contractual and repeats yearly.",
@@ -5422,14 +5671,25 @@
           "title": "Erste Verordnung zum BImSchG (1. BImSchV) - gesetze-im-internet.de",
           "url": "https://www.gesetze-im-internet.de/bimschv_1_2010/",
           "note": "1. BImSchV governs Schornsteinfeger emission checks on furnaces, not the SHK maintenance obligation - re-attributed as an adjacent interface."
+        },
+        {
+          "title": "Neue Pruefpflicht fuer Waermepumpen 2026 - SHK Innung Harburg",
+          "url": "https://shkinnung-harburg.de/2026/02/19/neue-pruefpflicht-fuer-waermepumpen-was-handwerker-jetzt-wissen-muessen/",
+          "note": "New 2026 heat-pump inspection duty expands recurring maintenance mandate"
+        },
+        {
+          "title": "Private Equity im deutschen Handwerk - DHI",
+          "url": "https://dhi.zdh.de/dhi-news/aktuelle-veroeffentlichungen/private-equity-im-deutschen-handwerk/",
+          "note": "Active PE buy-and-build in SHK/TGA; Meisterpflicht as ownership friction"
         }
       ],
-      "confidence": 3,
-      "status": "grounded",
+      "confidence": 4,
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
-      "investability": "open",
-      "investability_note": "",
+      "investability": "restricted",
+      "investability_note": "~48k SHK firms, huge base, but SHK Installateur/Heizungsbauer is Anlage-A Meisterpflicht; PE consolidation already underway (Thermondo, 1Komma5).",
+      "actionable": {},
       "child_ids": []
     },
     "building-facility-technical-services-value-chain/plumbing-sanitary-water-hygiene-shk/drinking-water-hygiene-legionella-trinkwv": {
@@ -5498,6 +5758,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
+      "actionable": {},
       "child_ids": [
         "building-facility-technical-services-value-chain/plumbing-sanitary-water-hygiene-shk/drinking-water-hygiene-legionella-trinkwv/legionella-sampling-lab-analysis",
         "building-facility-technical-services-value-chain/plumbing-sanitary-water-hygiene-shk/drinking-water-hygiene-legionella-trinkwv/gefahrdungsanalyse-hygienic-remediation"
@@ -5520,18 +5781,18 @@
         "recurring": 5,
         "fragmentation": 4,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 4,
+        "margin": 4,
+        "growth": 4,
+        "headroom": 3,
+        "reimbursement_risk": 1
       },
       "rationale": {
         "recurring": "Minimum 3-year statutory cycle (annual on exceedance) locks in repeat revenue.",
         "fragmentation": "Many local sampling firms feed a smaller set of accredited labs.",
         "compliance": "§14b TrinkwV mandates sampling for >=3 units with central warm water and commercial use."
       },
-      "composite": 91.7,
+      "composite": 83.3,
       "dach_signals": {
         "est_players": "Thousands of samplers; hundreds of accredited labs",
         "revenue_band_eur": "EUR 150-400 per round",
@@ -5551,14 +5812,25 @@
           "title": "TrinkwV und Legionellen (BMG)",
           "url": "https://www.bundesgesundheitsministerium.de/fileadmin/Dateien/3_Downloads/T/Trinkwasserverordnung/Stammtext_TrinkwV_und_Legionellen.pdf",
           "note": "3-year cycle and >=3-unit trigger"
+        },
+        {
+          "title": "Legionella – AGROLAB GROUP",
+          "url": "https://www.agrolab.com/de/produkte-leistungen/wasseranalytik/legionellen.html",
+          "note": "Large accredited lab group; signals consolidation on the analysis side."
+        },
+        {
+          "title": "Legionellenprüfung von Trinkwasser – SGS Institut Fresenius",
+          "url": "https://sgs-institut-fresenius.de/en/industries-environment/hygiene-diagnostics/legionella",
+          "note": "TrinkwV mandates recurring legionella testing via DAkkS-accredited labs – structural demand."
         }
       ],
       "confidence": 4,
-      "status": "grounded",
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Sampling firms and accredited labs freely acquirable; DAkkS accreditation is firm-level, but environmental-testing labs (SGS, Agrolab, ALS) already consolidating the analytics side.",
+      "actionable": {},
       "child_ids": []
     },
     "building-facility-technical-services-value-chain/plumbing-sanitary-water-hygiene-shk/drinking-water-hygiene-legionella-trinkwv/gefahrdungsanalyse-hygienic-remediation": {
@@ -5578,18 +5850,18 @@
         "recurring": 3,
         "fragmentation": 4,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 3,
+        "margin": 4,
+        "growth": 4,
+        "headroom": 4,
+        "reimbursement_risk": 1
       },
       "rationale": {
         "recurring": "Triggered by exceedances and periodic first inspections, semi-recurring rather than fully contractual.",
         "fragmentation": "SHK firms plus specialist hygiene Sachverständige, regionally fragmented.",
         "compliance": "Mandatory hazard analysis on limit exceedance under TrinkwV, concretised by VDI 6023 and DVGW W 551."
       },
-      "composite": 75.0,
+      "composite": 70.8,
       "dach_signals": {
         "est_players": "~hundreds of hygiene Sachverständige + SHK firms",
         "revenue_band_eur": "EUR 1-10k per analysis/remediation",
@@ -5614,14 +5886,25 @@
           "title": "Betreiberpflichten VDI 6023 (anro-hygiene)",
           "url": "https://anro-hygiene.de/dienstleistungen/vdi-6023-schulung-trinkwasserhygiene-kategorie-a-b/betreiberpflichten-in-der-trinkwasserhygiene-kontrolle-instandhaltung-nach-vdi-6023/",
           "note": "Operator control/maintenance duties under VDI 6023"
+        },
+        {
+          "title": "Risikoabschaetzung/Gefaehrdungsanalyse TrinkwV - GFA Deutschland",
+          "url": "https://gfa-deutschland.de/2025/02/26/risikoabschaetzung-gefaehrdungsanalyse-gemaess-trinkwasserverordnung-alles-was-sie-wissen-muessen/",
+          "note": "TrinkwV mandate triggers analysis at 100 KBE/100ml; recurring compliance driver"
+        },
+        {
+          "title": "Trinkwasserhygiene Pflicht/Legionellen - TUV NORD",
+          "url": "https://www.tuev-nord.de/de/themen/hygiene/trinkwasserhygiene-pflicht-pruefung-und-legionellen/",
+          "note": "Statutory testing for multi-unit/commercial systems; fragmented Sachverstaendige market"
         }
       ],
       "confidence": 3,
-      "status": "grounded",
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
-      "investability": "open",
-      "investability_note": "",
+      "investability": "restricted",
+      "investability_note": "Fragmented, early and asset-light on the analysis side, but remediation is SHK Handwerk and analysis needs certified Sachverstaendige - qualification/Handwerk friction.",
+      "actionable": {},
       "child_ids": []
     },
     "building-facility-technical-services-value-chain/plumbing-sanitary-water-hygiene-shk/backflow-prevention-rpz-systemtrenner-testing": {
@@ -5640,18 +5923,18 @@
         "recurring": 5,
         "fragmentation": 5,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 3,
+        "margin": 4,
+        "growth": 3,
+        "headroom": 4,
+        "reimbursement_risk": 1
       },
       "rationale": {
         "recurring": "Annual functional test mandated via maintenance contract between operator and installer.",
         "fragmentation": "Performed by the broad SHK long tail; no consolidator, low-ticket dispersed work.",
         "compliance": "DIN EN 1717 plus TrinkwV make backflow protection and annual testing mandatory."
       },
-      "composite": 100.0,
+      "composite": 79.2,
       "dach_signals": {
         "est_players": "Subset of ~48k SHK firms with certified Prüfer",
         "revenue_band_eur": "EUR 50-100 per BA separator test/year",
@@ -5682,14 +5965,20 @@
           "title": "Funktionsprüfung und Wartung von Systemtrennern (SBZ Monteur)",
           "url": "https://www.sbz-monteur.de/sites/default/files/wp-content/uploads/2012/03/twin09_08.pdf",
           "note": "Annual test procedure per DIN EN 1717/806-5"
+        },
+        {
+          "title": "Systemtrenner sind Trinkwasserschutz – SHK Profi",
+          "url": "https://www.shk-profi.de/artikel/shk_Systemtrenner_sind_Trinkwasserschutz-1489510.html",
+          "note": "Testing only by trained/certified Vertragsinstallateure – restricts operator pool."
         }
       ],
-      "confidence": 4,
-      "status": "grounded",
+      "confidence": 3,
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
-      "investability": "open",
-      "investability_note": "",
+      "investability": "restricted",
+      "investability_note": "Recurring statutory test but low ticket and embedded in SHK; requires certified Prüfer / SHK Meisterbetrieb (Anlage A), giving licence friction.",
+      "actionable": {},
       "child_ids": []
     },
     "building-facility-technical-services-value-chain/plumbing-sanitary-water-hygiene-shk/sanitary-installation-bathroom-modernisation": {
@@ -5757,6 +6046,7 @@
       "pe_activity": [],
       "investability": "restricted",
       "investability_note": "Zulassungspflichtiges Handwerk (Anlage A, Meisterpflicht as Installateur- und Heizungsbauer); PE can buy a Meisterbetrieb but the trade is licence-gated - aligned with the sibling heating node.",
+      "actionable": {},
       "child_ids": [
         "building-facility-technical-services-value-chain/plumbing-sanitary-water-hygiene-shk/sanitary-installation-bathroom-modernisation/barrier-free-age-appropriate-bath-altersgerecht"
       ]
@@ -5778,18 +6068,18 @@
         "recurring": 2,
         "fragmentation": 5,
         "compliance": 3,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 4,
+        "margin": 2,
+        "growth": 5,
+        "headroom": 4,
+        "reimbursement_risk": 2
       },
       "rationale": {
         "recurring": "One-off conversion per household, but structurally growing demand base.",
         "fragmentation": "Executed by the SHK long tail and specialist franchises regionally.",
         "compliance": "DIN 18040 accessibility norms and funding conditions shape but do not mandate the work."
       },
-      "composite": 58.3,
+      "composite": 57.5,
       "dach_signals": {
         "est_players": "Thousands of SHK/finishing firms + specialist franchises",
         "revenue_band_eur": "EUR 10-30k per conversion",
@@ -5807,14 +6097,25 @@
           "title": "Altersgerechte Badsanierung (Meistertipp)",
           "url": "https://www.meistertipp.de/aktuelles/altersgerechte-badsanierung-milliardenmarkt-fuers-handwerk",
           "note": "Demographic-driven barrier-free bath demand"
+        },
+        {
+          "title": "SHK-Handwerk / Waermemarkt - ZVSHK",
+          "url": "https://www.zvshk.de/themen/waermemarkt",
+          "note": "Thousands of SHK/finishing firms; bathroom modernisation as major renovation TAM"
+        },
+        {
+          "title": "Stair Lift / accessibility market - Fortune Business Insights",
+          "url": "https://www.fortunebusinessinsights.com/stair-lift-market-111072",
+          "note": "Ageing-population secular tailwind for altersgerecht conversions"
         }
       ],
       "confidence": 3,
-      "status": "grounded",
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
-      "investability": "open",
-      "investability_note": "",
+      "investability": "restricted",
+      "investability_note": "Very fragmented but low-recurring, project/labour-heavy renovation; SHK/finishing Handwerk with Meisterpflicht; partly funded by Pflegekasse Zuschuss (robust demand subsidy).",
+      "actionable": {},
       "child_ids": []
     },
     "building-facility-technical-services-value-chain/plumbing-sanitary-water-hygiene-shk/inside-building-sewer-drainage-grundleitung": {
@@ -5833,18 +6134,18 @@
         "recurring": 3,
         "fragmentation": 5,
         "compliance": 4,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 4,
+        "margin": 3,
+        "growth": 3,
+        "headroom": 4,
+        "reimbursement_risk": 1
       },
       "rationale": {
         "recurring": "Periodic re-inspection cycles and rehabilitation triggered by condition assessments.",
         "fragmentation": "Many small drain/sewer specialists and rehab firms regionally; no dominant player.",
         "compliance": "DIN 1986-30 not a statute itself, but Länder/municipal ordinances mandate inspection/tightness testing; owner is responsible."
       },
-      "composite": 75.0,
+      "composite": 66.7,
       "dach_signals": {
         "est_players": "~thousands of Kanal/Rohrreinigung & Sanierung firms (DE)",
         "revenue_band_eur": "EUR 300-1,500 inspection; EUR 5-30k relining",
@@ -5868,14 +6169,25 @@
           "title": "Dichtheitsprüfung der Abwasserrohre: Pflicht? (wohnglueck)",
           "url": "https://wohnglueck.de/artikel/dichtheitspruefung-abwasserrohre-9302",
           "note": "Local ordinances determine when tightness testing is mandatory"
+        },
+        {
+          "title": "Kanalsanierung mit Inliner – Rohrreinigung Wilken",
+          "url": "https://www.rohrreinigung-wilken.de/kanalsanierung",
+          "note": "Trenchless relining of building drains; typical regional owner-operated firm."
+        },
+        {
+          "title": "Grabenlose Kanalsanierung – Lieferantenverzeichnis wlw",
+          "url": "https://www.wlw.de/de/suche/grabenlose-kanalsanierung",
+          "note": "Broad, fragmented population of Kanalsanierung/Rohrreinigung providers."
         }
       ],
       "confidence": 3,
-      "status": "grounded",
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Rohrreinigung/Kanalsanierung is largely zulassungsfrei and owner-operated; freely acquirable, little financial consolidation yet.",
+      "actionable": {},
       "child_ids": []
     },
     "building-facility-technical-services-value-chain/plumbing-sanitary-water-hygiene-shk/submetering-heat-cost-allocation-messdienst": {
@@ -5894,18 +6206,18 @@
         "recurring": 5,
         "fragmentation": 1,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 5,
+        "margin": 5,
+        "growth": 4,
+        "headroom": 1,
+        "reimbursement_risk": 2
       },
       "rationale": {
         "recurring": "Annual consumption-based billing is statutorily required and contractually locked with long terms.",
         "fragmentation": "Techem + ista hold 50-60% and the top five 70-80%; Bundeskartellamt found a competition-free oligopoly with high switching barriers.",
         "compliance": "Heizkostenverordnung mandates consumption-based billing and remotely readable devices (rollout to end-2026)."
       },
-      "composite": 66.7,
+      "composite": 74.2,
       "dach_signals": {
         "est_players": "Oligopoly: ~5 majors + small local Messdienste",
         "revenue_band_eur": "EUR 30-150 per unit/year; billion-EUR national market",
@@ -5941,14 +6253,25 @@
           "title": "Messdienste im Vergleich (nexoen)",
           "url": "https://nexoen.de/blog/messdienste-vergleich",
           "note": "Confirms Brunata-Metrona and Minol as two separate majors and the oligopoly structure."
+        },
+        {
+          "title": "Sektoruntersuchung Submetering - Bundeskartellamt",
+          "url": "https://www.bundeskartellamt.de/SharedDocs/Publikation/DE/Sektoruntersuchungen/Sektoruntersuchung%20Submetering.pdf",
+          "note": "Confirms non-competitive oligopoly; top5 ~90%; device/software lock-in barriers"
+        },
+        {
+          "title": "Marktanteile Heizungsablesung - Statista",
+          "url": "https://de.statista.com/statistik/daten/studie/162960/umfrage/marktanteile-der-anbieter-fuer-heizungsablesung-im-jahr-2010/",
+          "note": "Techem/ista/Brunata-Metrona/Minol shares - concentrated market"
         }
       ],
       "confidence": 4,
-      "status": "grounded",
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "restricted",
-      "investability_note": "Concentrated ~5-major oligopoly (top-4 ~70-80% share); investable only as buy-and-build of small independent Messdienste against the core, not entry into the concentrated core itself.",
+      "investability_note": "Non-competitive oligopoly (Techem+ista 50-60%, top5 ~90%) already infra/PE-owned; only tiny local Messdienste left; Kartellamt price scrutiny on regulated allocation.",
+      "actionable": {},
       "child_ids": []
     },
     "building-facility-technical-services-value-chain/plumbing-sanitary-water-hygiene-shk/building-water-leak-monitoring-water-management": {
@@ -5967,18 +6290,18 @@
         "recurring": 3,
         "fragmentation": 3,
         "compliance": 2,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 3,
+        "margin": 3,
+        "growth": 4,
+        "headroom": 4,
+        "reimbursement_risk": 1
       },
       "rationale": {
         "recurring": "Device install plus optional monitoring/app subscriptions and periodic checks.",
         "fragmentation": "Product OEMs (Grohe, Kemper, Syr) plus many SHK installers; mid-fragmented with brand concentration on the hardware side.",
         "compliance": "Largely discretionary/insurance-driven; not mandated, though insurers incentivise adoption."
       },
-      "composite": 41.7,
+      "composite": 50.0,
       "dach_signals": {
         "est_players": "Few hardware OEMs + broad SHK installer base",
         "revenue_band_eur": "EUR 300-2,000 per system installed",
@@ -6009,14 +6332,20 @@
           "title": "KEMPER Leckage-Sicherheitssystem (Huber Haustechnik)",
           "url": "https://www.shop-huber-haustechnik.de/wasser/leckageschutz/27/kemper-leckage-sicherheits-system-steuereinheit-vav-mit-stellantrieb-und-wasserfuehler",
           "note": "Commercial leak-safety system example"
+        },
+        {
+          "title": "SHK-Handwerk weiter auf Wachstumskurs – waermepumpe.de/BWP",
+          "url": "https://www.waermepumpe.de/presse/news/details/shk-handwerk-weiter-auf-wachstumskurs/",
+          "note": "SHK installer base that would deploy leak-monitoring/water-management systems is large and growing."
         }
       ],
-      "confidence": 3,
-      "status": "grounded",
+      "confidence": 2,
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Nascent, few hardware OEMs plus broad SHK installer base; virgin from a consolidation standpoint and freely acquirable, but small TAM today.",
+      "actionable": {},
       "child_ids": []
     },
     "building-facility-technical-services-value-chain/technical-fm-building-envelope/dguv-arbeitsmittel-regalprufung-leitern-regale-din-en-15635-psa-gegen-absturz": {
@@ -6035,11 +6364,11 @@
         "recurring": 5,
         "fragmentation": 5,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 4,
+        "margin": 5,
+        "growth": 4,
+        "headroom": 4,
+        "reimbursement_risk": 1
       },
       "rationale": {
         "recurring": "Legally mandated annual/periodic re-inspection cycles for racking, ladders and PSA.",
@@ -6047,7 +6376,7 @@
         "compliance": "Employer duty under BetrSichV / DGUV V1; DIN EN 15635 (racking) and DGUV Information 208-016 (ladders).",
         "headroom": "No dominant consolidator; classic bolt-on inspection route business."
       },
-      "composite": 100.0,
+      "composite": 91.7,
       "dach_signals": {
         "est_players": "hundreds of Arbeitsmittel-/Regalprüfdienste & befähigte Personen (DE); large overlap with DGUV V3 inspection firms",
         "revenue_band_eur": "EUR 0.2-3m typical route/inspection firm",
@@ -6069,14 +6398,25 @@
           "title": "DGUV - Vorschriften und Regeln",
           "url": "https://www.dguv.de/de/praevention/vorschriften_regeln/index.jsp",
           "note": "DGUV V1 / Regel 108-007 and Information 208-016 establish the recurring inspection duties for racking, ladders and work equipment."
+        },
+        {
+          "title": "Regalpruefung nach DIN EN 15635 & DGUV - regalprofi24",
+          "url": "https://www.regalprofi24.de/info/regalinspektion.html",
+          "note": "Annual mandatory inspection by befaehigte Person; recurring compliance revenue"
+        },
+        {
+          "title": "Pruefung von Arbeitsmitteln nach DGUV V3 - GBS",
+          "url": "https://gbs-gesellschaft.de/leistungen/pruefung-von-arbeitsmitteln-nach-dguv-v3/",
+          "note": "External Pruefdienstleister market; overlaps DGUV V3 electrical inspection routes"
         }
       ],
-      "confidence": 0,
-      "status": "grounded",
+      "confidence": 3,
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Inspection service (befaehigte Person qualification, not Anlage-A Handwerk); freely acquirable, fragmented befaehigte-Personen/route firms, little financial consolidator yet.",
+      "actionable": {},
       "child_ids": []
     }
   }
