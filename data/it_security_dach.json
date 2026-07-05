@@ -397,6 +397,21 @@
           "title": "NIS2 Beratung - Proliance",
           "url": "https://www.proliance.ai/nis2-beratung",
           "note": "PE/VC-backed compliance platform already active => some consolidation reduces headroom."
+        },
+        {
+          "title": "Cybervize – Cybersecurity Consulting, vCISO & Interim CISO",
+          "url": "https://www.cybervize.de/en",
+          "note": "Founder-run 2021 boutique, NIS2/ISO27001/DORA + own ISMS platform, DE hosting; independent."
+        },
+        {
+          "title": "ct acquisitions – MSSP & Cybersecurity Services M&A Multiples 2026",
+          "url": "https://ctacquisitions.com/guides/mssp-ma-multiples-2026/",
+          "note": "Advisory-tilted security firms below monitoring-MRR MSSP multiples; MSSP LMM ~8-11x."
+        },
+        {
+          "title": "Deal Origination DACH – Bewertungsmultiples DACH-Mittelstand 2026",
+          "url": "https://dealorigination.de/blog/bewertungsmultiples-dach-mittelstand-2026",
+          "note": "IT/security add-ons ~7-10x; recurring share is the key valuation lever."
         }
       ],
       "confidence": 4,
@@ -405,7 +420,27 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Standard consulting GmbHs; retainer contracts freely transferable, no licence barrier.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          {
+            "name": "Cybervize Consulting GmbH",
+            "hq_region": "Germany (Made-in-Germany, DE hosting)",
+            "note": "Founder-run boutique (founded 2021), independent; vCISO/Interim-CISO + NIS2/ISO 27001/DORA delivered on own ISMS platform, retainer model from ~EUR 3,600/mo. Not PE/strategic-owned."
+          },
+          {
+            "name": "ing-ism (Ingenieurbüro für Informationssicherheit)",
+            "hq_region": "Germany (Mittelstand focus)",
+            "note": "Independent owner-led boutique, 10+ yrs; external ISB & vCISO for SMEs (ISO 27001, BSI IT-Grundschutz, NIS2), recurring EUR 1.4-8k/mo retainers."
+          }
+        ],
+        "ebitda_margin": "~15-25% EBITDA (consulting/retainer boutiques; platform-supported delivery lifts margin, project-heavy firms lower).",
+        "entry_multiple": "~6-9x EV/EBITDA (advisory-tilted SMEs below MSSP monitoring multiples; recurring retainer + platform IP toward upper end).",
+        "bnb_angle": "Aggregate scarce vCISO/ISMS boutiques into a NIS2 Compliance-as-a-Service platform, standardise onto one ISMS tooling stack, and convert one-off gap-analysis projects into recurring external-ISB/vCISO retainers across the ~29,500 in-scope firms.",
+        "key_risks": [
+          "Senior-consultant talent dependence and low recurring share vs project revenue.",
+          "NIS2 'compliance wave' demand is partly cyclical; risk of commoditisation and margin pressure once mandates are met."
+        ]
+      },
       "child_ids": []
     },
     "managed-it-cybersecurity-services-value-chain/managed-it-services-it-systemhauser/managed-backup-baas-draas-cyber-recovery": {
@@ -559,6 +594,21 @@
           "title": "Medi-IT.Care GmbH – Managed IT für Praxen zu Fixpreis/Monat",
           "url": "https://medi-it.care/",
           "note": "Recurring fixed-monthly managed-IT model = durable revenue"
+        },
+        {
+          "title": "Netzleiter – KBV-zertifizierter IT-Dienstleister für Arztpraxen (Medical IT)",
+          "url": "https://netzleiter.net/blog/it-dienstleister-arztpraxen-medical-it/",
+          "note": "Owner-managed GmbH & Co. KG (Aroui/Klein), KBV §75b certified healthcare IT."
+        },
+        {
+          "title": "Informatics-SYSTEMS GmbH – IT-Service für Arztpraxen & MVZ (Bautzen)",
+          "url": "https://www.informatics.de/",
+          "note": "Independent healthcare Systemhaus with own development for practices/MVZ/clinics."
+        },
+        {
+          "title": "Deal Origination DACH – Bewertungsmultiples DACH-Mittelstand 2026",
+          "url": "https://dealorigination.de/blog/bewertungsmultiples-dach-mittelstand-2026",
+          "note": "IT-Services 7-12x; add-ons (<EUR 5m) ~7-10x, recurring/managed premium."
         }
       ],
       "confidence": 4,
@@ -567,7 +617,32 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Freely acquirable GmbHs; §75b/gematik certification is firm-bound not ownership-blocking",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          {
+            "name": "Netzleiter GmbH & Co. KG",
+            "hq_region": "Hamburg",
+            "note": "Owner-managed (Kommanditisten/GF Mehdi Aroui & Jonny Klein); KBV-certified §75b service provider (also 'Medical IT' brand) for Arztpraxen/MVZ. Independent, not PE/strategic."
+          },
+          {
+            "name": "IT Ärzte GmbH",
+            "hq_region": "Reutlingen, Baden-Württemberg (multi-site)",
+            "note": "Founder/GF-run (Baris Sariyildiz), independent GmbH; gematik/TI-certified managed IT exclusively for Arztpraxen/MVZ/Kliniken."
+          },
+          {
+            "name": "Informatics-SYSTEMS GmbH",
+            "hq_region": "Bautzen / Sachsen",
+            "note": "Independent healthcare-IT Systemhaus with own software development; IT-service, medical software and interfaces for practices/MVZ/clinics. No PE/OEM parent."
+          }
+        ],
+        "ebitda_margin": "~10-18% EBITDA (branch-specialised managed-IT Systemhaus SME band; KBV/gematik contracts add recurring base).",
+        "entry_multiple": "~6-10x EV/EBITDA (DACH IT-services SMEs; healthcare specialisation and recurring TI/managed contracts toward upper end).",
+        "bnb_angle": "Consolidate KBV/gematik-certified regional healthcare-IT houses into a nationwide platform, standardising TI/KIM/ePA managed services and MDR/security, and cross-selling into the large captive practice/MVZ base.",
+        "key_risks": [
+          "Regulatory/reimbursement dependence (gematik TI mandates, KBV certification, funding caps) can compress pricing.",
+          "MVZ/clinic-chain and CGM/strategic in-sourcing plus scarce certified staff limit organic growth."
+        ]
+      },
       "child_ids": []
     },
     "managed-it-cybersecurity-services-value-chain/managed-it-services-it-systemhauser/tisax-automotive-zulieferer-informationssicherheit-managed-services": {
@@ -1146,6 +1221,26 @@
           "title": "security-insider – SIEM/SOC-Betrieb und Datenschutz (revisionssichere Speicherung)",
           "url": "https://www.security-insider.de/siem-und-soc-betrieb-und-der-datenschutz-a-cccfd2e5b67f5698e8b11c5dbb6418ac/",
           "note": "KRITIS/NIS2/DORA drive long-retention demand"
+        },
+        {
+          "title": "ProLog AG – Log Management aus Deutschland",
+          "url": "https://prolog.ag/",
+          "note": "Independent owner-managed manufacturer/operator; MaRisk/BAIT/VAIT/KRITIS/DSGVO report packs 'made in Germany'."
+        },
+        {
+          "title": "omniIT GmbH – Managed SIEM: SIEM als Service (München)",
+          "url": "https://www.omniit.de/managed-services/managed-siem",
+          "note": "Independent, owner-managed (Wlodarczyk/Chroust, 2018); fully managed SIEM/log management, ISO27001/GDPR retention."
+        },
+        {
+          "title": "ProSoft – ProLog Log Management & SIEM für Ihre Compliance",
+          "url": "https://www.prosoft.de/hersteller/software/prolog/",
+          "note": "Confirms MaRisk/BAIT/VAIT/KRITIS/B3S/DSGVO compliance report packs and revisionssichere long retention."
+        },
+        {
+          "title": "ct acquisitions – MSSP & Cybersecurity Services M&A Multiples 2026",
+          "url": "https://ctacquisitions.com/guides/mssp-ma-multiples-2026/",
+          "note": "High-MRR MSSPs (USD 3-10m) ~8-11x adj. EBITDA; recurring monitoring commands premium."
         }
       ],
       "confidence": 3,
@@ -1154,7 +1249,27 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Freely acquirable GmbHs; asset-light SaaS log-management vendors",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          {
+            "name": "ProLog AG",
+            "hq_region": "Aresing / Garching, Bayern",
+            "note": "Independent owner-managed AG (formerly Netzwerk Software GmbH; single shareholder, Vorstand M. Klopsch); 'made in Germany' log-management/SIEM with pre-built MaRisk/BAIT/VAIT/KRITIS/DSGVO report packs."
+          },
+          {
+            "name": "omniIT GmbH",
+            "hq_region": "München",
+            "note": "Independent, owner-managed (founders Patryk Wlodarczyk & Marek Chroust, 2018); fully managed SIEM / log management (Graylog partner) with GDPR/ISO 27001 retention. Not PE/strategic."
+          }
+        ],
+        "ebitda_margin": "~15-25% EBITDA (recurring security-software/managed-SIEM economics above generic Systemhaus band).",
+        "entry_multiple": "~8-12x EV/EBITDA (recurring MSSP/security-software; DACH SMEs with high monitoring MRR command a premium over MSP add-ons).",
+        "bnb_angle": "Combine a compliance-report-rich log-management IP owner with independent managed-SIEM operators to build a DSGVO/MaRisk/KRITIS 'Systeme zur Angriffserkennung' platform, converting one-time license/log projects into recurring long-retention SIEM-as-a-Service for banks, insurers and KRITIS operators.",
+        "key_risks": [
+          "Hyperscaler/global SIEM vendors (Microsoft Sentinel, Splunk, Graylog) and MDR platforms squeezing niche log-mgmt players.",
+          "Small talent pool of SIEM/compliance engineers; heavy regulatory-report maintenance burden."
+        ]
+      },
       "child_ids": []
     },
     "managed-it-cybersecurity-services-value-chain/managed-security-services-soc-mdr-siem/incident-response-digital-forensics-dfir-retainers": {
@@ -1439,6 +1554,31 @@
           "title": "Pentest Anbieter in Deutschland und der DACH-Region - Blaze Infosec",
           "url": "https://www.blazeinfosec.com/post/penetration-testing-companies/",
           "note": "Large fragmented boutique landscape => early consolidation headroom."
+        },
+        {
+          "title": "SySS GmbH – About us",
+          "url": "https://www.syss.de/en/about-us/syss-gmbh",
+          "note": "Owner-managed, vendor-independent, leading DACH pentest provider, ~180 staff."
+        },
+        {
+          "title": "ProSec – Penetrationstest Anbieter",
+          "url": "https://www.prosec-networks.com/penetrationstest-anbieter/",
+          "note": "Independent pentest/vuln-analysis boutique, BSI/OWASP, founded 2016."
+        },
+        {
+          "title": "Trovent Security – Pentesting",
+          "url": "https://trovent.io/pentesting/",
+          "note": "Independent pentest + continuous vulnerability management + SOC, ISO 27001."
+        },
+        {
+          "title": "viaductus – IT valuation multiples 2025",
+          "url": "https://www.viaductus.de/wissen/thema/it-unternehmensboerse/it-unternehmen-welche-multiples-sind-ueblich",
+          "note": "Cybersecurity/recurring premium; IT/security multiples up to ~10.4x."
+        },
+        {
+          "title": "exit-coach – EBITDA Multiples 2026 by industry/size",
+          "url": "https://exit-coach.de/ebitda-multiples/",
+          "note": "DACH SME EBITDA-multiple ranges by sector and size."
         }
       ],
       "confidence": 3,
@@ -1447,7 +1587,32 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "200+ acquirable pentest/vuln GmbHs; key-person/talent risk but no legal ownership barrier.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          {
+            "name": "SySS GmbH",
+            "hq": "Tübingen, DE (+ Frankfurt, München, Wien)",
+            "note": "Founder/MD Sebastian Schreiber (since 1998), owner-managed and vendor-independent; ~180 staff, leading DACH pentest provider. Independent (not listed/PE) – platform-grade asset commanding a premium."
+          },
+          {
+            "name": "ProSec GmbH",
+            "hq": "Mendig (Rheinland-Pfalz), DE",
+            "note": "Independent pentest & vulnerability-analysis boutique (founded 2016) working to BSI/OWASP standards. Owner-operated, not part of a roll-up."
+          },
+          {
+            "name": "Trovent Security GmbH",
+            "hq": "Bochum, DE",
+            "note": "Founded 2019, independent; combines penetration testing, continuous vulnerability management and SOC/analytics. ISO/IEC 27001-certified. Not PE/OEM-owned."
+          }
+        ],
+        "ebitda_margin": "~15-25% typical for specialised pentest/vuln-management consultancies (high day-rate, utilisation-driven); recurring managed-vulnerability (VMaaS) subscriptions lift margin and quality of earnings.",
+        "entry_multiple": "~6-10x EV/EBITDA for DACH SME offensive-security firms; a scaled, brand-name, high-recurring pentest platform (SySS-type) can command a premium above 10x, while people-dependent boutiques sit at the low end (cybersecurity specialisation +1-2x).",
+        "bnb_angle": "Anchor on a reputable independent pentest brand, bolt on continuous/automated vulnerability-management-as-a-service to convert episodic pentests into recurring subscriptions, and consolidate scarce offensive-security talent to serve NIS2/DORA-driven demand for continuous testing.",
+        "key_risks": [
+          "Severe scarcity of certified (OSCP-grade) offensive-security testers caps growth and drives wage inflation / churn.",
+          "Commoditisation pressure from automated scanning tools and low-cost 'pentest' offerings at the bottom of the market."
+        ]
+      },
       "child_ids": []
     },
     "managed-it-cybersecurity-services-value-chain/managed-security-services-soc-mdr-siem/managed-firewall-perimeter-sase-operations": {
@@ -1592,6 +1757,31 @@
           "title": "ISO 27001 Software: Anbieter 2026 – secjur",
           "url": "https://www.secjur.com/blog/iso-27001-software",
           "note": "Emerging software-enabled compliance platforms; fragmented consultancy base."
+        },
+        {
+          "title": "ing-ism - Externer ISB ab 1.400 EUR/Monat",
+          "url": "https://www.ing-ism.de/leistungen/externer-isb/",
+          "note": "Owner-operated external ISB/vCISO retainer pricing & scope (Inh. Maximilian Schildmann)."
+        },
+        {
+          "title": "Opexa Advisory GmbH - Bayern Innovativ profile",
+          "url": "https://www.bayern-innovativ.de/en/kompetenzen/techhub-svi-competencies/opexa-advisory-gmbh/",
+          "note": "Munich-based private ISO 27001/TISAX/NIS2 boutique, DACH offices, 11-50 staff."
+        },
+        {
+          "title": "DATUREX GmbH - Informationssicherheitsbeauftragter ab 300 EUR/Mo",
+          "url": "https://informationssicherheitsbeauftragter-dresden.de/",
+          "note": "Independent Dresden firm, external ISB / continuous ISO27001-NIS2-KRITIS monitoring, 500+ mandates since 2012."
+        },
+        {
+          "title": "Valuation Multiples in the IT Industry 2025 (viaductus)",
+          "url": "https://www.viaductus.de/en-US/knowledge/topics/it-services/multiples",
+          "note": "IT-services / cybersecurity EV/EBITDA multiple and margin reference."
+        },
+        {
+          "title": "EBITDA Multiples DACH (Deal Origination)",
+          "url": "https://dealorigination.de/en/ebitda-multiples-dach",
+          "note": "DACH SME EV/EBITDA benchmark (mean ~8.7x, median ~7.3x 2025)."
         }
       ],
       "confidence": 4,
@@ -1600,7 +1790,32 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Consultancies/vCISO practices are freely acquirable GmbHs; no accreditation barrier for advisory (unlike certification bodies).",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          {
+            "name": "ing-ism (Ingenieurbüro für Informationssicherheit, Inh. Maximilian Schildmann)",
+            "hq_region": "Deutschland (Einzelunternehmen/Ingenieurbüro)",
+            "note": "Owner-operated engineering practice offering external ISB / vCISO retainers from ~EUR 1,400/month, ISO 27001 + BSI IT-Grundschutz + NIS2 monitoring for the Mittelstand; not PE/OEM-owned."
+          },
+          {
+            "name": "Opexa Advisory GmbH",
+            "hq_region": "München (plus Zürich & Wien offices) - true DACH footprint",
+            "note": "Founder-led (Klaus Kilvinger) 11-50-person boutique for ISO 27001, TISAX and NIS2 compliance for Mittelstand; privately held, not part of a roll-up."
+          },
+          {
+            "name": "DATUREX GmbH",
+            "hq_region": "Dresden (Sachsen)",
+            "note": "Independent interdisciplinary firm (since 2012, 500+ mandates) selling external ISB / continuous ISO 27001-KRITIS-NIS2 monitoring 'ab 300 EUR/Monat'; not a subsidiary or PE platform."
+          }
+        ],
+        "ebitda_margin": "~15-25% EBITDA for advisory-led information-security boutiques; recurring vCISO/ISB retainers push utilisation and margin toward the upper end.",
+        "entry_multiple": "~6-9x EV/EBITDA for DACH SME managed-compliance/vCISO boutiques (in line with the 6-10x band for SME IT-security services).",
+        "bnb_angle": "Buy one anchor vCISO/ISB retainer book and bolt on regional ISB boutiques to build a national 'compliance-as-a-service' platform riding the NIS2/CRA regulatory wave; convert one-off audit prep into recurring monthly monitoring contracts.",
+        "key_risks": [
+          "Heavy key-person / senior-consultant dependency and a tight talent market for certified ISB/vCISO staff.",
+          "Revenue is regulation-driven, so a slippage or softening of NIS2/CRA enforcement timelines can defer demand."
+        ]
+      },
       "child_ids": []
     },
     "managed-it-cybersecurity-services-value-chain/cybersecurity-consulting-audit-compliance": {
@@ -1729,6 +1944,26 @@
           "title": "ISO 27001 Beratung und Zertifizierung | SECURAM Consulting",
           "url": "https://securam-consulting.com/leistungen/isms/iso-27001/",
           "note": "Long tail of DACH ISMS boutiques (20+ yr independents) - fragmented, asset-light advisory."
+        },
+        {
+          "title": "ACATO GmbH - Über uns",
+          "url": "https://acato.de/ueber-uns/",
+          "note": "Founder-managed (Christian Bartsch, since 2010), ISO 27001/forensics, compliance platform."
+        },
+        {
+          "title": "Schönbrunn TASC - ISO 27001 consulting",
+          "url": "https://www.schoenbrunn-tasc.de/en/consulting/iso-27001-consulting-certification-and-implementation/",
+          "note": "Owner-led (Jan-Sebastian Schönbrunn) ISMS/ISO 27001 boutique, Leonberg."
+        },
+        {
+          "title": "SECURAM Consulting - Über uns",
+          "url": "https://securam-consulting.com/ueber-uns-securam-consulting/",
+          "note": "Owner-managed since 2012 (Nadine Eibel), ISO 27001 + BSI + ISBaaS."
+        },
+        {
+          "title": "Valuation Multiples in the IT Industry 2025 (viaductus)",
+          "url": "https://www.viaductus.de/en-US/knowledge/topics/it-services/multiples",
+          "note": "IT-security advisory EV/EBITDA & margin reference."
         }
       ],
       "confidence": 4,
@@ -1737,7 +1972,32 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Advisory boutiques freely acquirable GmbHs; note DAkkS-accredited certification bodies must stay independent from consulting, but the target is advisory/cert-prep, not the audit body.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          {
+            "name": "ACATO GmbH",
+            "hq_region": "München (Bogenhausen)",
+            "note": "Founder-managed (Christian Bartsch, GmbH since 2010), ISO 27001 / ISMS documentation & cert-prep plus IT-forensics and a proprietary compliance platform; independent, not PE/listed."
+          },
+          {
+            "name": "Schönbrunn TASC GmbH",
+            "hq_region": "Leonberg (Baden-Württemberg)",
+            "note": "Owner-led (founder/GF Jan-Sebastian Schönbrunn), ISO 27001 / ISMS consulting incl. TISAX, KRITIS, BAIT/VAIT, C5 and pentest; independent boutique."
+          },
+          {
+            "name": "SECURAM Consulting GmbH",
+            "hq_region": "Hamburg",
+            "note": "Owner-managed since 2012 (founder Nadine Eibel), ISO 27001 + BSI IT-Grundschutz build-to-certification and external ISBaaS, 30+ ISMS projects; independent."
+          }
+        ],
+        "ebitda_margin": "~15-25% EBITDA for ISMS advisory boutiques; utilisation and repeat surveillance-audit work drive the range.",
+        "entry_multiple": "~6-9x EV/EBITDA for DACH SME ISO 27001 / ISMS boutiques within the 6-10x SME IT-security band.",
+        "bnb_angle": "Roll up regional ISMS boutiques into a multi-standard platform (ISO 27001 + BSI + TISAX + NIS2 + DORA), converting one-off certification-prep projects into recurring internal-audit / surveillance-audit and external-ISB retainers across the combined client base.",
+        "key_risks": [
+          "Consultant-capacity constrained and highly key-person dependent; scaling requires reliable senior-auditor recruitment.",
+          "Competition from accredited certification bodies (TÜV, DEKRA, DQS) and larger consultancies bundling audit + advisory."
+        ]
+      },
       "child_ids": []
     },
     "managed-it-cybersecurity-services-value-chain/cybersecurity-consulting-audit-compliance/external-isb-vciso-isms-as-a-service": {
@@ -1815,6 +2075,21 @@
           "title": "cybervize – vCISO ~3.600–7.200 €/Monat",
           "url": "https://www.cybervize.de/en/blog/ciso-vs-iso-information-security-officer-difference",
           "note": "Retainer pricing; NIS2 vastly expands obligated entities = demand tailwind"
+        },
+        {
+          "title": "netz16 – vCISO / ISBaaS",
+          "url": "https://www.netz16.de/leistungen/vciso-isbaas/",
+          "note": "Independent regional house running client ISMS as a service."
+        },
+        {
+          "title": "dealorigination – EBITDA multiples DACH",
+          "url": "https://dealorigination.de/en/ebitda-multiples-dach",
+          "note": "DACH SME multiples ~3.5-10x; recurring-revenue premium."
+        },
+        {
+          "title": "channelpartner – Wie geht es deutschen IT-Dienstleistern (margins)",
+          "url": "https://www.channelpartner.de/article/3901169/wie-geht-es-deutschen-it-dienstleistern.html",
+          "note": "IT-services EBITDA-margin benchmarks (cloud/recurring far above avg ~9.8%)."
         }
       ],
       "confidence": 4,
@@ -1823,7 +2098,32 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Freely acquirable GmbHs; asset-light consulting though some key-person/retainer dependence",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          {
+            "name": "ing-ism (Ingenieurbüro für Informationssicherheit)",
+            "hq": "DE (Mittelstand focus)",
+            "note": "Independent owner-operated engineering office delivering external ISB (from ~EUR 1.4k/mo) and vCISO retainers on ISO 27001 / BSI IT-Grundschutz / NIS2 for SMEs. Not PE/strategic-owned."
+          },
+          {
+            "name": "netz16 GmbH",
+            "hq": "Kempten (Allgäu), DE",
+            "note": "Owner-managed regional IT/security house with a dedicated vCISO / ISBaaS line building & running client ISMS. Independent SME, not part of a roll-up."
+          },
+          {
+            "name": "brandmauer IT GmbH",
+            "hq": "Bruchsal, DE",
+            "note": "Independent owner-led Systemhaus offering ISB/ISMS-as-a-Service and ISO 27001 support to Mittelstand clients. Not listed, not PE-owned."
+          }
+        ],
+        "ebitda_margin": "~15-25% typical for pure retainer-based ISB/vCISO consulting (people-light overhead, high billable utilisation); lower where bundled with a broader Systemhaus cost base.",
+        "entry_multiple": "~5-8x EV/EBITDA for DACH SME security-consulting practices; recurring multi-year ISB/ISMS retainers command the top end (recurring-revenue premium ~+30-50% per DACH benchmarks), one-man dependence discounts the low end.",
+        "bnb_angle": "Roll up sub-scale regional ISB/vCISO practices into one branded 'compliance-as-a-service' platform, standardise the ISO 27001 / NIS2 delivery methodology and tooling, and convert one-off audits into sticky monthly retainers as NIS2 forces thousands of new German 'wichtige/besondere Einrichtungen' to appoint a security officer.",
+        "key_risks": [
+          "Key-person/founder dependence – revenue often tied to a named lead consultant's reputation.",
+          "Low barriers to entry and a crowded solo-consultant field pressure retainer pricing."
+        ]
+      },
       "child_ids": []
     },
     "managed-it-cybersecurity-services-value-chain/cybersecurity-consulting-audit-compliance/tisax-advisory-assessment-automotive": {
@@ -1967,6 +2267,21 @@
           "title": "TISAX - Beratung, Umsetzung und Assessment - tec4net",
           "url": "https://www.tec4net.com/web/2025/08/21/tisax-beratung-umsetzung-und-assessment-in-muenchen-und-bayern/",
           "note": "Regional boutique; German auto downturn tempers structural growth."
+        },
+        {
+          "title": "SECURAM Consulting - TISAX Beratung Hamburg",
+          "url": "https://securam-consulting.com/it-compliance-governance/tisax-beratung/",
+          "note": "Owner-managed Hamburg TISAX/ISO 27001 boutique (Nadine Eibel)."
+        },
+        {
+          "title": "Herold Unternehmensberatung (hub24) - TISAX/ISMS Automotive",
+          "url": "https://www.hub24.de/informationssicherheit/beratung-automotive/",
+          "note": "Independent consultancy delivering TISAX certification support for suppliers."
+        },
+        {
+          "title": "Valuation Multiples in the IT Industry 2025 (viaductus)",
+          "url": "https://www.viaductus.de/en-US/knowledge/topics/it-services/multiples",
+          "note": "IT-security advisory EV/EBITDA & margin reference."
         }
       ],
       "confidence": 3,
@@ -1975,7 +2290,32 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Readiness/consulting GmbHs freely acquirable (assessment accreditation itself sits with ENX-audited bodies, but advisory is unrestricted).",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          {
+            "name": "SECURAM Consulting GmbH",
+            "hq_region": "Hamburg",
+            "note": "Owner-managed since 2012 (Nadine Eibel); headline 'TISAX Consulting aus Hamburg', VDA-ISA / ISO 27001-based readiness for Mittelstand suppliers; independent, not OEM/PE-owned."
+          },
+          {
+            "name": "ITANIX GmbH",
+            "hq_region": "Hamburg & Hannover",
+            "note": "Independent GmbH boutique focused on TISAX consulting for the automotive industry with ISO 27001/9001 gap analysis, supplier audits and technical implementation."
+          },
+          {
+            "name": "Herold Unternehmensberatung GmbH (hub24.de)",
+            "hq_region": "Deutschland",
+            "note": "Independent consultancy (own statement: not in a business relationship with ENX) delivering ISMS build and TISAX certification support for automotive suppliers."
+          }
+        ],
+        "ebitda_margin": "~15-25% EBITDA for TISAX/ISMS readiness boutiques; margin tracks senior-consultant utilisation on 6-10-month supplier projects.",
+        "entry_multiple": "~6-9x EV/EBITDA, within the 6-10x SME IT-security band; automotive-cyclicality can pull the entry point lower.",
+        "bnb_angle": "Aggregate regional TISAX-readiness boutiques into a supplier-cybersecurity platform, standardising VDA-ISA/ISO 27001 templates and converting one-off label projects into recurring surveillance/re-assessment retainers as OEMs enforce TISAX across their Tier-2/3 base.",
+        "key_risks": [
+          "Direct exposure to automotive-sector capex cycles and OEM supplier-cost pressure; demand tied to VDA/ENX assessment-renewal cadence.",
+          "Small project teams and key-person dependency; larger certifiers (TÜV, DEKRA) and Big-4 compete for the same suppliers."
+        ]
+      },
       "child_ids": []
     },
     "managed-it-cybersecurity-services-value-chain/cybersecurity-consulting-audit-compliance/nis2-kritis-readiness-compliance-advisory": {
@@ -2831,6 +3171,21 @@
           "title": "Externer Datenschutzbeauftragter Gesundheitswesen - ER Secure",
           "url": "https://www.er-secure.de/externer-datenschutzbeauftragter-gesundheitswesen.php",
           "note": "Dozens of small nationwide boutiques => fragmented, low PE penetration in the healthcare niche."
+        },
+        {
+          "title": "ViCoTec - Datenschutzbeauftragter Gesundheitswesen",
+          "url": "https://www.vicotec.de/datenschutz-gesundheitswesen.html",
+          "note": "Owner-run (Thorsten Brendel, since 1994), healthcare focus, 250+ clients."
+        },
+        {
+          "title": "Datenschutz & Gesundheit - Impressum",
+          "url": "https://www.datenschutzundgesundheit.de/impressum/",
+          "note": "Owner-operated (Henning Zander, Hannover), healthcare-only DSB practice."
+        },
+        {
+          "title": "EBITDA Multiples DACH (Deal Origination)",
+          "url": "https://dealorigination.de/en/ebitda-multiples-dach",
+          "note": "DACH SME EV/EBITDA benchmark; small-scale discount applies."
         }
       ],
       "confidence": 3,
@@ -2839,7 +3194,32 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Freely acquirable Datenschutz-GmbHs / RA-Boutiquen; DPO role is contractual, no ownership restriction.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          {
+            "name": "ER Secure GmbH",
+            "hq_region": "Grünwald (München); branches Berlin, Düsseldorf, Zossen",
+            "note": "Founder-owned (René Rautenberg, founded 2014), external DSB specialised in healthcare / sensitive patient data (Arztpraxen, Kliniken); independent, not PE/listed."
+          },
+          {
+            "name": "ViCoTec IT-Sicherheit & Datenschutz GmbH & Co. KG",
+            "hq_region": "Oldenburg (Nordwest)",
+            "note": "Owner-run since 1994 (GF Thorsten Brendel), 250+ SME clients, explicit healthcare focus (Praxen, Kliniken, Pflegedienste); family/owner-operated, independent."
+          },
+          {
+            "name": "Datenschutz & Gesundheit (Inh. Henning Zander)",
+            "hq_region": "Hannover (serves Praxen/Apotheken bundesweit)",
+            "note": "Owner-operated boutique (Diplomjurist, TÜV-cert. DSB) exclusively serving medical/dental practices & pharmacies; small but a clean sector-pure tuck-in."
+          }
+        ],
+        "ebitda_margin": "~15-25% EBITDA; per-practice retainers of a few hundred EUR/month keep ticket sizes small but recurring.",
+        "entry_multiple": "~5-8x EV/EBITDA - below the general band given small scale and key-person concentration in the smallest practices.",
+        "bnb_angle": "Consolidate sub-scale healthcare-privacy boutiques into a single vertical platform, standardising Praxis/Klinik/Apotheke retainer templates and cross-selling ISMS/KRITIS (hospital) and TI-security services into a captive medical client base.",
+        "key_risks": [
+          "Very small average deal size and, in sole-practitioner targets, acute key-person / succession risk.",
+          "Sector regulation (KHZG, §75c SGB V, Gematik/TI) shifts scope; targets must keep pace with health-specific IT-security rules."
+        ]
+      },
       "child_ids": []
     },
     "managed-it-cybersecurity-services-value-chain/data-protection-privacy-services-dsgvo/data-protection-audits-certification-iso-27701-tuv-dekra": {
@@ -6014,6 +6394,26 @@
           "title": "Neue Gruppe von Managed Service Providern (Ploon IT Group) | ChannelPartner",
           "url": "https://www.channelpartner.de/article/3902268/neue-gruppe-von-managed-service-providern-entsteht.html",
           "note": "General Systemhaus roll-ups active (Ploon/Prom12, netgo/Waterland) but legal vertical still largely virgin."
+        },
+        {
+          "title": "Dacher Systems – Impressum (ownership)",
+          "url": "https://dacher-systems.de/impressum/",
+          "note": "Owner-managed GmbH, MD/founder Tiberius Dacher."
+        },
+        {
+          "title": "RHEIN IT – IT für Rechtsanwälte",
+          "url": "https://www.rhein-it.de/rechtsanwaelte/",
+          "note": "Owner-operated law-firm IT specialist (RA-MICRO/Advoware)."
+        },
+        {
+          "title": "it-business – Margen-Entwicklung von ITK-Systemhäusern",
+          "url": "https://www.it-business.de/die-margen-entwicklung-von-itk-systemhaeusern-a-dfdfa8d91072bc061be7847b0ee4d300/",
+          "note": "EBITDA-margin benchmarks for German IT Systemhäuser."
+        },
+        {
+          "title": "ascon M&A – Wertbestimmung IT-Systemhaus",
+          "url": "https://ascon-ma.de/was-bestimmt-den-wert-eines-unternehmens-aus-der-it-systemhaus-branche/",
+          "note": "Valuation drivers/multiples for IT-Systemhaus M&A (recurring & specialisation premiums)."
         }
       ],
       "confidence": 3,
@@ -6022,7 +6422,37 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Owner-operated Systemhaus GmbHs, freely acquirable; RA-MICRO/DATEV partner status transfers with the business.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          {
+            "name": "Dacher Systems GmbH",
+            "hq": "Berlin, DE",
+            "note": "Founder/MD Tiberius Dacher (since 2005, HRB 99129 B); managed IT + IT-security for law firms with deep RA-MICRO & DATEV Anwalt expertise and BRAK-compliance focus. Owner-led, independent."
+          },
+          {
+            "name": "ITR Service GmbH",
+            "hq": "Hürth (Köln), DE",
+            "note": "Founder-led Systemhaus (since 2008) with a dedicated Rechtsanwälte specialisation on RA-MICRO/DATEV. Independent SME, not part of a platform."
+          },
+          {
+            "name": "VAST IT GmbH",
+            "hq": "Frankfurt am Main, DE",
+            "note": "Largest RA-MICRO partner in the Rhein-Main/Rhein-Neckar region; managed IT for Kanzleien & Notare. Independent owner-operated."
+          },
+          {
+            "name": "RHEIN IT (Rhein IT GmbH)",
+            "hq": "Düsseldorf, DE",
+            "note": "Owner-operated Systemhaus focused on law-firm IT with RA-MICRO / Advoware / DictaNet expertise. Independent, not PE-owned."
+          }
+        ],
+        "ebitda_margin": "~8-15% typical for owner-operated IT-Systemhäuser; managed-service/recurring-heavy mixes reach the higher end while hardware-reselling drags margins down (ITK-Systemhaus benchmarks).",
+        "entry_multiple": "~6-9x EV/EBITDA for DACH SME managed-IT Systemhäuser; a vertical-specialised, high-recurring Kanzlei-IT book earns the upper end (>36-month contracts +10-20%, cybersecurity/managed specialisation +1-2x).",
+        "bnb_angle": "Consolidate the fragmented long tail of regional RA-MICRO/DATEV Systemhäuser into one national 'Kanzlei-IT' platform, standardise a managed private-cloud/beA-secure workplace offering, and up-sell BRAK-mandated IT-security to a sticky, referral-driven lawyer base.",
+        "key_risks": [
+          "Deep dependence on third-party legal-software vendors (RA-MICRO, DATEV) – partner-status or roadmap changes hit the model.",
+          "Small, owner-centric shops carry client-concentration and succession/key-person risk."
+        ]
+      },
       "child_ids": []
     },
     "managed-it-cybersecurity-services-value-chain/managed-it-services-it-systemhauser/arzt-zahnarztpraxis-mvz-it-healthcare-ti": {
@@ -6165,6 +6595,26 @@
           "title": "Medsolve – Zahnmedizin IT/Managed Services SLA",
           "url": "https://www.medsolve.de/fachrichtungen/zahnmedizin",
           "note": "Managed/as-a-service SLA model in dental"
+        },
+        {
+          "title": "denkkontor – Gesundheitswesen / IT für Zahnarztpraxen (Münster)",
+          "url": "https://denkkontor.com/gesundheitswesen/",
+          "note": "Owner-managed dental-IT specialist, 300+ dental practices in Westfalen-Lippe."
+        },
+        {
+          "title": "SCHAFFLHUBER DENTAL-SYSTEMHAUS GmbH & Co. KG (Salem) – northdata",
+          "url": "https://www.northdata.com/SCHAFFLHUBER%20DENTAL-SYSTEMHAUS%20GmbH%20&%20Co%C2%B7%20KG,%20Salem/Amtsgericht%20Freiburg%20HRA%20706559",
+          "note": "Family GmbH & Co. KG, owner Carsten Schafflhuber; dental-IT house, 300+ practices southern Germany."
+        },
+        {
+          "title": "ChannelPartner – Investor beteiligt sich an Zahnarzt-MSP VisionmaxX",
+          "url": "https://www.channelpartner.de/article/4161328/investor-beteiligt-sich-an-dem-zahnarzt-msp-visionmaxx.html",
+          "note": "Reason VisionmaxX was dropped: majority stake taken by Nord Holding (PE), no longer independent."
+        },
+        {
+          "title": "Deal Origination DACH – Bewertungsmultiples DACH-Mittelstand 2026",
+          "url": "https://dealorigination.de/blog/bewertungsmultiples-dach-mittelstand-2026",
+          "note": "IT-Services add-ons (<EUR 5m) ~7-10x; managed/recurring drive margin & multiple."
         }
       ],
       "confidence": 3,
@@ -6173,7 +6623,32 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Freely acquirable GmbHs; §75b/KZBV certification firm-bound, not ownership-blocking",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          {
+            "name": "denkkontor GmbH",
+            "hq_region": "Münster / Westfalen-Lippe (NRW)",
+            "note": "Owner-managed (GF Teske), no PE/strategic backing; >10 yrs specialised on dentists/orthodontists/oral surgeons, serves 300+ dental practices, tomedo partner."
+          },
+          {
+            "name": "SCHAFFLHUBER DENTAL-SYSTEMHAUS GmbH & Co. KG",
+            "hq_region": "Salem (Bodensee), Baden-Württemberg",
+            "note": "Family/owner-operated GmbH & Co. KG (owner Carsten Schafflhuber); pure dental-IT house serving 300+ practices/clinics in southern Germany. Independent."
+          },
+          {
+            "name": "Compfair GmbH",
+            "hq_region": "Kiel / Schleswig-Holstein",
+            "note": "Owner-managed (GF Richard Marnau), independent GmbH; dental-IT + Telematik/Telekonnekt service provider across Northern Germany. Not PE/OEM owned."
+          }
+        ],
+        "ebitda_margin": "~10-18% EBITDA (specialised managed-IT/Systemhaus SME band; recurring practice contracts lift margin vs pure resale).",
+        "entry_multiple": "~6-9x EV/EBITDA (sub-EUR 5m MSP add-on range in DACH; specialised, high-recurring dental focus toward upper end).",
+        "bnb_angle": "Roll up regional dental-IT specialists into one national 'Dental-IT' platform, then cross-sell gematik/TI managed services, cybersecurity and cloud backup into a captive, regulation-driven, high-recurring practice base.",
+        "key_risks": [
+          "Founder/key-technician dependence and thin management bench in EUR 0.3-3m firms.",
+          "Dental DSO chains (patient21/Dental21, zahneins etc.) and gematik/TI price/reg shifts could insource or commoditise practice IT."
+        ]
+      },
       "child_ids": []
     },
     "managed-it-cybersecurity-services-value-chain/managed-it-services-it-systemhauser/steuerberater-wirtschaftsprufer-kanzlei-it": {
@@ -6540,6 +7015,26 @@
           "title": "Externe Datenschutzbeauftragte in Arztpraxis und Krankenhaus - ULD",
           "url": "https://www.datenschutzzentrum.de/artikel/50-Externe-Datenschutzbeauftragte-in-Arztpraxis-und-Krankenhaus.html",
           "note": "De-facto DPO mandate for virtually all practices (Gesundheitsdaten) => durable demand."
+        },
+        {
+          "title": "ViCoTec – Datenschutz im Gesundheitswesen",
+          "url": "https://www.vicotec.de/datenschutz-gesundheitswesen.html",
+          "note": "Independent owner-run external DPO, healthcare focus, ~250 SME clients."
+        },
+        {
+          "title": "OBSECOM – Datenschutzbeauftragter Arztpraxis",
+          "url": "https://obsecom.eu/datenschutzbeauftragter-arztpraxis/",
+          "note": "GDD-certified independent external DPO with healthcare sector practice."
+        },
+        {
+          "title": "datenschutzundgesundheit.de – Kosten externer DSB",
+          "url": "https://www.datenschutzundgesundheit.de/kosten-externer-datenschutzbeauftragter/",
+          "note": "Healthcare-DPO pricing context (retainer economics per practice)."
+        },
+        {
+          "title": "fraghugo – externer DSB Arztpraxen ab 79 EUR/Monat",
+          "url": "https://www.fraghugo.de/externer-datenschutzbeauftragter-arztpraxen/",
+          "note": "Evidence of low-cost commoditisation / price pressure at entry level."
         }
       ],
       "confidence": 3,
@@ -6548,7 +7043,32 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Several hundred owner-operated Datenschutz-Boutiquen, all standard GmbH/PartG - freely acquirable.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          {
+            "name": "ER Secure GmbH",
+            "hq": "Grünwald / München, DE",
+            "note": "Founder/MD René Rautenberg; external-DPO provider with explicit healthcare (patient-data / § 203 StGB) specialisation and its own DSGVO management tool. Independent, owner-led."
+          },
+          {
+            "name": "ViCoTec (Vico Consult)",
+            "hq": "Oldenburg region, DE",
+            "note": "Owner-operated external DPO with 20+ years' experience advising ~250 SMEs, dedicated Gesundheitswesen practice (Arztpraxen, Kliniken, Pflege). Neutral/independent, not PE-owned."
+          },
+          {
+            "name": "OBSECOM GmbH",
+            "hq": "Stuttgart, DE",
+            "note": "Independent external DPO/ISB team, GDD-certified, with a healthcare sector focus (Kliniken, Pflege, Arzt-/Gemeinschaftspraxen). Not part of a roll-up."
+          }
+        ],
+        "ebitda_margin": "~15-25% typical for retainer-based external-DPO practices (people-light, high billable utilisation); productised/tool-supported models (fixed monthly fees per practice) can exceed this at scale.",
+        "entry_multiple": "~5-8x EV/EBITDA for DACH SME data-protection consultancies; recurring per-practice DPO retainers and a proprietary compliance tool support the upper end, sole-practitioner dependence the lower end.",
+        "bnb_angle": "Roll up healthcare-focused external-DPO boutiques into one vertical platform, layer a scalable SaaS/DSGVO-tool over a per-practice fixed-fee retainer model, and cross-sell IT-security/NIS2 & TI-Sicherheit into a highly regulated, sticky base of practices, MVZ, clinics and pharmacies.",
+        "key_risks": [
+          "Commoditised, price-competitive market with entry-level offers (e.g. ~EUR 79/mo) compressing per-client economics.",
+          "Founder/key-person dependence and healthcare client concentration; § 203 StGB liability exposure."
+        ]
+      },
       "child_ids": []
     },
     "managed-it-cybersecurity-services-value-chain/cybersecurity-consulting-audit-compliance/external-dpo-dsgvo-compliance-as-a-service/mittelstand-sme-external-dpo-retainer-pools-dsb-as-a-service": {
@@ -6625,6 +7145,31 @@
           "title": "Externer Datenschutzbeauftragter – intersoft consulting",
           "url": "https://www.intersoft-consulting.de/externer-datenschutzbeauftragter/",
           "note": "Asset-light consulting retainer model; GDPR + NIS2 mandate tailwind."
+        },
+        {
+          "title": "Keyed GmbH - Unternehmen",
+          "url": "https://keyed.de/unternehmen/",
+          "note": "Founder-led (Nils Möllers), 750+ clients, in-house DSMS software, external-DSB retainers."
+        },
+        {
+          "title": "Cortina Consult - Experten & Unternehmen",
+          "url": "https://cortina-consult.com/experten/",
+          "note": "Owner-managed Münster DSB/ISMS boutique, 20+ experts, proprietary SaaS."
+        },
+        {
+          "title": "pörtner consulting - Externer Datenschutzbeauftragter für KMU",
+          "url": "https://www.poertner-consulting.de/externer-datenschutzbeauftragter-fuer-kmu/",
+          "note": "Owner-managed (Andreas Pörtner) external-DSB retainer from EUR 69/mo, 500+ clients."
+        },
+        {
+          "title": "Valuation Multiples in the IT Industry 2025 (viaductus)",
+          "url": "https://www.viaductus.de/en-US/knowledge/topics/it-services/multiples",
+          "note": "Recurring-revenue IT-services EV/EBITDA & margin reference."
+        },
+        {
+          "title": "EBITDA Multiples DACH (Deal Origination)",
+          "url": "https://dealorigination.de/en/ebitda-multiples-dach",
+          "note": "DACH SME EV/EBITDA benchmark."
         }
       ],
       "confidence": 3,
@@ -6633,7 +7178,32 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "External-DSB delivered by GmbHs on recurring retainers; role is person-named but firms are freely acquirable.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          {
+            "name": "Keyed GmbH",
+            "hq_region": "Altenberge / Münsterland (plus Köln, Hamburg)",
+            "note": "Founder-led (Nils Möllers, founded 2017), 750+ long-term SME clients on external-DSB retainers with an in-house data-protection management software; privately held, not PE/listed."
+          },
+          {
+            "name": "Cortina Consult GmbH",
+            "hq_region": "Münster",
+            "note": "Owner-managed (CEO/founder Jörg ter Beek), 20+ experts, external DSB + whistleblowing officer + proprietary SaaS/training; independent, 10+ years."
+          },
+          {
+            "name": "pörtner consulting (Inh. Andreas Pörtner)",
+            "hq_region": "Hundsangen (Rheinland-Pfalz)",
+            "note": "Owner-managed KMU-focused external-DSB service from EUR 69/month, 500+ clients, 20+ years; independent digital-business & data-protection practice."
+          }
+        ],
+        "ebitda_margin": "~20-30% EBITDA where retainer books are software-leveraged and highly recurring; lower for consulting-heavy delivery.",
+        "entry_multiple": "~7-10x EV/EBITDA - recurring, sticky monthly retainer revenue supports the upper half of the 6-10x SME band.",
+        "bnb_angle": "Acquire a software-enabled anchor (e.g. Keyed/Cortina model) and roll up regional DSB retainer books, migrating acquired mandates onto one DSMS platform to lift gross margin and cross-sell ISMS/NIS2 modules into the installed base.",
+        "key_risks": [
+          "Fragmented, low-priced retainers (EUR 69-few-hundred/month) mean value hinges on churn control and platform-driven consultant efficiency.",
+          "Crowded market with price competition from PE-backed platforms (DataGuard, Proliance) compressing per-mandate pricing."
+        ]
+      },
       "child_ids": []
     },
     "managed-it-cybersecurity-services-value-chain/cybersecurity-consulting-audit-compliance/external-dpo-dsgvo-compliance-as-a-service/external-dpo-for-vereine-gemeinnutzige-organisationen-public-sector-kommunen-schulen": {
@@ -7015,6 +7585,31 @@
           "title": "KRITIS-Dachgesetz seit März 2026 – OpenKRITIS",
           "url": "https://www.openkritis.de/r/OpenKRITIS_NIS2_KRITIS-Dachgesetz_Betreiber.pdf",
           "note": "New law expands obligated water/wastewater operators — strong tailwind"
+        },
+        {
+          "title": "admeritia GmbH – OT-Security (company site)",
+          "url": "https://www.admeritia.de/",
+          "note": "Owner-managed OT/ICS-security specialist for industry, energy & KRITIS."
+        },
+        {
+          "title": "admeritia GmbH – Northdata register entry",
+          "url": "https://www.northdata.com/admeritia%20GmbH,%20Langenfeld%20(Rheinland)/Amtsgericht%20D%C3%BCsseldorf%20HRB%2057024",
+          "note": "HRB 57024 Düsseldorf, MD Heiko Rudolph – confirms independent GmbH."
+        },
+        {
+          "title": "Limes Security – OT Security for Industry & KRITIS",
+          "url": "https://limessecurity.com/en/ot-security-management/",
+          "note": "100% Austrian-owned OT-security house serving water & wastewater industry."
+        },
+        {
+          "title": "8com – Über uns",
+          "url": "https://www.8com.de/ueber-uns",
+          "note": "Independent owner-managed MSSP, BSI-certified SOC monitoring KRITIS/OT."
+        },
+        {
+          "title": "viaductus – IT valuation multiples 2025",
+          "url": "https://www.viaductus.de/wissen/thema/it-unternehmensboerse/it-unternehmen-welche-multiples-sind-ueblich",
+          "note": "IT/security multiples up to ~10.4x, cybersecurity/recurring premium."
         }
       ],
       "confidence": 3,
@@ -7023,7 +7618,32 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "OT-security boutiques are freely acquirable GmbHs; revenue mandate-driven (NIS2/KRITIS) and durable, not subsidy-dependent",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          {
+            "name": "admeritia GmbH",
+            "hq": "Langenfeld (Rheinland), DE",
+            "note": "Founded 2004, owner-managed (MD Heiko Rudolph, EUR 25k capital, HRB 57024 Düsseldorf); pure-play OT/ICS-security house working with energy & KRITIS operators along IEC 62443 / BSI-KritisV. Not PE/OEM-owned."
+          },
+          {
+            "name": "Limes Security GmbH",
+            "hq": "Hagenberg, AT (+ DE sites)",
+            "note": "100% Austrian owner-managed; ~20+ OT-security experts explicitly serving the water & wastewater industry among KRITIS operators. Independent, not part of a roll-up."
+          },
+          {
+            "name": "8com GmbH & Co. KG",
+            "hq": "Neustadt an der Weinstraße, DE",
+            "note": "Owner-founded/led by Götz & Sandra Schartner (since 2004); independent MSSP running a BSI-IT-Grundschutz-certified SOC that monitors KRITIS/OT environments. Not listed, not PE-owned."
+          }
+        ],
+        "ebitda_margin": "~10-18% typical for OT-security consulting/monitoring boutiques; recurring managed-monitoring (industrial SOC) contracts push toward the top of the band, project/assessment-heavy mixes to the bottom.",
+        "entry_multiple": "~6-9x EV/EBITDA for DACH SME OT-security services; a cyber/KRITIS specialisation premium of ~+1-2x applies where monitoring is recurring (viaductus notes IT/security up to ~10.4x; DACH SME range ~3.5-10x).",
+        "bnb_angle": "Buy an independent OT-security assessor (admeritia/Limes type) as the platform, bolt on a recurring industrial-SOC/anomaly-detection managed service, and cross-sell NIS2/KRITIS-mandated monitoring into the ~5,900 German water suppliers + Zweckverbände that must now comply.",
+        "key_risks": [
+          "Scarce OT/ICS engineering talent caps organic scaling and inflates wage costs.",
+          "Water utilities are budget-constrained public bodies with long, tender-driven sales cycles; revenue is lumpy and price-sensitive."
+        ]
+      },
       "child_ids": []
     },
     "managed-it-cybersecurity-services-value-chain/managed-security-services-soc-mdr-siem/ot-ics-security-monitoring-industrial-soc-for-kritis-manufacturing/manufacturing-automotive-plant-ot-security-iec-62443": {
@@ -7605,6 +8225,26 @@
           "title": "KanzleiASP - schlaue Alternative zu DATEVasp | Wimmer IT",
           "url": "https://wimmer-it.de/leistungen/kanzlei-asp-fuer-datev",
           "note": "German-only data-centre compliant hosting - recurring, private-pay, robust."
+        },
+        {
+          "title": "SPECTRUM Computer Systemhaus GmbH – Über uns (Erkrath)",
+          "url": "https://www.spectrum-news.de/ueber-uns",
+          "note": "~40-yr family business, own Düsseldorf high-security DC, ~700 law firms; Giesen family owners."
+        },
+        {
+          "title": "neumeier AG – DATEV in der Cloud: PartnerASP Hosting",
+          "url": "https://neumeier-edv.de/datev-partnerasp",
+          "note": "Owner-run IT-Systemhaus since 1996, own DC, DATEV PartnerASP Premium Partner, 230+ Kanzleien."
+        },
+        {
+          "title": "tera zwo GmbH – DATEV / RA-Micro Systembetreuung Berlin",
+          "url": "https://www.tera-zwo.de/tera-zwo/branchensoftware-datev-ra-micro.asp",
+          "note": "Independent owner-managed (Volker Sahm), law-firm/tax-advisor IT on DATEV/RA-MICRO."
+        },
+        {
+          "title": "Deal Origination DACH – Bewertungsmultiples DACH-Mittelstand 2026",
+          "url": "https://dealorigination.de/blog/bewertungsmultiples-dach-mittelstand-2026",
+          "note": "Managed services 70-90% recurring drive premium multiples; IT-services add-ons ~7-10x."
         }
       ],
       "confidence": 3,
@@ -7613,7 +8253,32 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Ordinary GmbHs; §203 StGB imposes confidentiality/processor duties on the provider but does not restrict ownership or acquisition.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          {
+            "name": "SPECTRUM Computer Systemhaus GmbH",
+            "hq_region": "Erkrath / Düsseldorf (NRW)",
+            "note": "Family business (Giesen family; GF Mona Henning & Markus Rogge), independent; own high-security Düsseldorf data centre, ~700 law firms on DATEV/RA-MICRO cloud. Not PE/listed."
+          },
+          {
+            "name": "neumeier AG",
+            "hq_region": "Niederbayern (Mühldorf / Regensburg DC)",
+            "note": "Owner-run IT-Systemhaus since 1996, own data centre; DATEV PartnerASP Premium & Solution Partner, 230+ law firms. Independent (not PE/strategic)."
+          },
+          {
+            "name": "tera zwo GmbH",
+            "hq_region": "Berlin-Mitte",
+            "note": "Owner-managed (GF Volker Sahm), independent; DATEV/RA-MICRO/RA-Win/Lecare Systembetreuung for law firms & tax advisors. Niche fit on §203-relevant Kanzlei IT."
+          }
+        ],
+        "ebitda_margin": "~15-25% EBITDA (compliant/private-cloud hosting with high recurring, DC-backed revenue sits above pure project Systemhäuser).",
+        "entry_multiple": "~7-10x EV/EBITDA (DACH managed-hosting/IT-services SMEs; high recurring + own DC and regulated client base at upper end).",
+        "bnb_angle": "Build a national §203-compliant Kanzlei/Steuerberater private-cloud platform by acquiring regional DATEV/RA-MICRO hosters, consolidating onto shared certified data centres and up-selling security, backup and DATEV-managed services to sticky, regulation-locked clients.",
+        "key_risks": [
+          "DATEV's own PartnerASP/cloud strategy and hyperscaler moves could disintermediate hosters.",
+          "Capex/certification burden of own data centres and §203/DSGVO liability; concentration in one profession's software stack."
+        ]
+      },
       "child_ids": []
     },
     "managed-it-cybersecurity-services-value-chain/cloud-hosting-data-center-services/sector-specific-compliant-hosting-healthcare-public-sector/revisionssichere-dms-archivierung-as-a-service-gobd-konform": {
