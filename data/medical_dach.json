@@ -240,6 +240,21 @@
           "title": "CRO-Liste Deutschland - Constares",
           "url": "https://www.constares.de/brancheninfos/contract-research-organisations-liste.html",
           "note": "Long tail of German CROs below the globals"
+        },
+        {
+          "title": "FGK Clinical Research - VC Magazin profile (ownership)",
+          "url": "https://www.vc-magazin.de/blog/portfolio/fgk-clinical-research-profile/",
+          "note": "Confirms founder/senior-director ownership, independent CRO."
+        },
+        {
+          "title": "FGK Group - CRO / about",
+          "url": "https://fgk-group.com/fgk-cro/",
+          "note": "Full-service CRO scope, Munich HQ."
+        },
+        {
+          "title": "FGK acquires Clinicology (independent, founder-led growth)",
+          "url": "https://www.iptonline.com/articles/fgk-clinical-research-gmbh-acquires-clinicology-ltd-expanding-territorial-footprint-in-europe",
+          "note": "Independent CRO expanding by bolt-on."
         }
       ],
       "confidence": 4,
@@ -248,7 +263,28 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Ordinary GmbH service firms, freely acquirable; PE already active (ArchiMed/NAMSA bought DE CRO CRI), but a long tail of ~100 DE CROs remains.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          {
+            "name": "FGK Clinical Research GmbH",
+            "hq": "Munich",
+            "note": "Founded 2002, owned by founders (Martin Krauss, Dr. Edgar Fenzl) + senior directors, ~140 staff; independent full-service CRO."
+          },
+          {
+            "name": "Dr. Notghi Contract Research GmbH",
+            "hq": "Berlin",
+            "note": "Owner-named independent clinical CRO (Phase I-IV, bioequivalence)."
+          }
+        ],
+        "ebitda_margin": "omitted - not verifiable from public sources",
+        "entry_multiple": "n/a - proprietary",
+        "bnb_angle": "Assemble therapeutic-niche DACH mid-cap CROs into a full-service platform that competes with the globals on local regulatory know-how and sponsor intimacy, adding data-management/biometrics scale and cross-border reach via bolt-ons.",
+        "key_risks": [
+          "Cyclical, backlog-driven revenue tied to biotech funding; cancellations hit utilisation fast.",
+          "Global CROs (IQVIA/ICON) and price competition pressure niche players on large multinational trials.",
+          "Founder/medical-director dependence and clinical talent scarcity complicate integration."
+        ]
+      },
       "child_ids": []
     },
     "medical-value-chain/pharmaceuticals-biotech/contract-research-cro-clinical-trial-support/site-management-organisations-smo-trial-site-networks": {
@@ -1020,6 +1056,21 @@
           "title": "Grundlagen der Qualifizierung von Raeumen (GMP-Verlag)",
           "url": "https://www.gmp-verlag.de/blog/regulatorische-und-normative-grundlagen-der-qualifizierung-von-raeumen-und-raumlufttechnischen-anlagen",
           "note": "Annex 1 upgrade wave drives mandatory cleanroom (re)qualification demand."
+        },
+        {
+          "title": "QP-Engineering - Reinraum qualifizieren nach GMP",
+          "url": "https://qp-eng.de/reinraum-qualifizieren/",
+          "note": "Independent GMP cleanroom qualification (DQ/IQ/OQ/PQ)."
+        },
+        {
+          "title": "bc-technology - Reinraumqualifizierung & Dokumentation",
+          "url": "https://www.bc-technology.de/reinraumservice/reinraumqualifizierung/",
+          "note": "Independent TÜV-certified qualification service."
+        },
+        {
+          "title": "Novum Reinraumtechnik - Qualifizierung",
+          "url": "https://www.novum-reinraumtechnik.de/qualifizierung/",
+          "note": "Independent cleanroom qualification firm."
         }
       ],
       "confidence": 3,
@@ -1028,7 +1079,33 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Freely acquirable engineering/validation service firms; barrier is GxP expertise/accreditation, not licence or ownership rule.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          {
+            "name": "QP-Engineering (QP Engineering GmbH)",
+            "hq": "Germany",
+            "note": "Independent boutique doing GMP cleanroom qualification (DQ/IQ/OQ/PQ) to Annex 1 / ISO 14644."
+          },
+          {
+            "name": "bc-technology GmbH",
+            "hq": "Germany",
+            "note": "TÜV-certified independent cleanroom-service/qualification & documentation provider."
+          },
+          {
+            "name": "Novum Reinraumtechnik GmbH",
+            "hq": "Germany",
+            "note": "Independent cleanroom qualification/requalification firm."
+          }
+        ],
+        "ebitda_margin": "omitted - not verifiable from public sources",
+        "entry_multiple": "n/a - proprietary",
+        "bnb_angle": "Roll up regional cleanroom-qualification/metrology firms into a DACH-wide requalification platform; because Annex 1 requalification is time-bound and recurring, the model converts to subscription-like maintenance contracts with high renewal.",
+        "key_risks": [
+          "Depends on certified metrologists and calibrated equipment - capacity and calibration/accreditation upkeep are cost drivers.",
+          "Cyclicality tied to pharma capex (new-line build-out) for the qualification (vs. requalification) portion.",
+          "Fragmented local relationships; national account standardisation may erode boutique pricing."
+        ]
+      },
       "child_ids": []
     },
     "medical-value-chain/pharmaceuticals-biotech/gxp-gmp-compliance-services/qualified-person-qp-on-demand-batch-release": {
@@ -3914,6 +3991,26 @@
           "title": "Branchenanalyse Laboranalytik (Böckler-Stiftung)",
           "url": "https://www.boeckler.de/fpdf/HBS-006491/p_study_hbs_342.pdf",
           "note": "Concentration with few large groups plus many regional labs"
+        },
+        {
+          "title": "LUA - Labor fuer Umweltanalytik GmbH (owner Dr. Manthey, accredited 1997)",
+          "url": "https://www.chemie.de/firmen/6122/lua-labor-fuer-umweltanalytik-gmbh.html",
+          "note": "Independent owner-run accredited lab."
+        },
+        {
+          "title": "OEHMI Analytik - Home",
+          "url": "https://www.oehmi-analytik.de/index.php",
+          "note": "Independent accredited food/environmental lab."
+        },
+        {
+          "title": "ELAB Analytik - Lebensmittelanalytik",
+          "url": "https://elab-analytik.de/lebensmittelanalytik/",
+          "note": "Independent food-analytics lab."
+        },
+        {
+          "title": "AGROLAB Group - company (private, founded 1986)",
+          "url": "https://www.agrolab.com/de/unternehmen.html",
+          "note": "Private family-founded lab group; not PE/listed."
         }
       ],
       "confidence": 4,
@@ -3922,7 +4019,38 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Commercial TIC labs, freely acquirable; hundreds of accredited targets but top consolidated by Eurofins/SGS/Tentamus/ALS — no GKV exposure (private/regulatory-driven demand).",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          {
+            "name": "LUA - Labor für Umweltanalytik GmbH",
+            "hq": "Schwerin",
+            "note": "DAkkS-accredited since 1997, sole owner/MD Dr. Gerhard Manthey; explicitly independent of industry/associations."
+          },
+          {
+            "name": "OEHMI Analytik GmbH",
+            "hq": "Magdeburg",
+            "note": "Independent accredited lab for food, drinking water, soils/waters, agri products."
+          },
+          {
+            "name": "ELAB Analytik GmbH",
+            "hq": "Germany",
+            "note": "Independent food-analytics lab with own advisory; owner-run."
+          },
+          {
+            "name": "AGROLAB Group",
+            "hq": "Bruckberg (Bavaria)",
+            "note": "Private family-founded (1986) agri/environmental/food lab group; not PE/listed - larger consolidation-scale target."
+          }
+        ],
+        "ebitda_margin": "omitted - not verifiable from public sources",
+        "entry_multiple": "n/a - proprietary (note: Eurofins/SGS strategic bids set the ceiling in scaled deals)",
+        "bnb_angle": "Consolidate the long tail of regional accredited food/environmental labs into a routing-and-logistics network with a shared LIMS and centralised high-throughput analytics, arbitraging fixed-instrument utilisation - the exact playbook Eurofins ran.",
+        "key_risks": [
+          "Eurofins/SGS are aggressive strategic acquirers - competition for assets inflates entry prices.",
+          "Capital-intensive instrumentation and accreditation scope-maintenance weigh on returns.",
+          "Regulated, low-margin routine testing is price-competitive; differentiation needs turnaround/service quality, not just capacity."
+        ]
+      },
       "child_ids": []
     },
     "medical-value-chain/diagnostics-laboratory/point-of-care-dezentrale-betriebliche-diagnostik": {
@@ -5485,6 +5613,21 @@
           "title": "Betreutes und gefoerdertes Wohnen bieten Investoren Unterschlupf",
           "url": "https://www.portfolio-institutionell.de/betreutes-und-gefoerdertes-wohnen-bieten-auch-investoren-unterschlupf/",
           "note": "PE/family-office/REIT expansion and price stability in the segment"
+        },
+        {
+          "title": "Rosenhof Seniorenwohnanlagen - Unternehmen (private, independent)",
+          "url": "https://rosenhof.de/unternehmen",
+          "note": "Private independent operator, 11 sites."
+        },
+        {
+          "title": "Betreiberprofil Betreutes Wohnen: Rosenhof (pflegemarkt.com)",
+          "url": "https://www.pflegemarkt.com/betreuteswohnenbetreiber/rosenhof-ahrensburg-seniorenwohnanlagen-betriebsgesellschaft-mbh/",
+          "note": "Operator profile / scale."
+        },
+        {
+          "title": "Betreutes Wohnen market (~7,900 facilities) - REALIS research",
+          "url": "https://www.realisag.de/research/research-news/megatrend-demografischer-wandel-assetklasse-mit-viel-potential-der-markt-fuer-betreutes-wohnen-in-deutschland/",
+          "note": "Market size / fragmentation."
         }
       ],
       "confidence": 4,
@@ -5493,7 +5636,28 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Freely acquirable operator/real-estate assets (~7,900 facilities); rent + private service-Pauschale, limited GKV/SGB XI exposure, but capital-intensive and REITs/PE already active.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          {
+            "name": "Rosenhof Seniorenwohnanlagen",
+            "hq": "Ahrensburg",
+            "note": "Private, 50+ year independent operator of 11 premium assisted-living sites (~4,000 residents); not a PE/strategic chain."
+          },
+          {
+            "name": "Augustinum gGmbH",
+            "hq": "Munich",
+            "note": "Foundation/charitable-owned premium senior-living operator; independent of PE/listed groups."
+          }
+        ],
+        "ebitda_margin": "omitted - not verifiable from public sources",
+        "entry_multiple": "n/a - proprietary (segment straddles opco/propco; real-estate value often separated from operating multiple)",
+        "bnb_angle": "Buy independent premium operators as an opco platform and pair with a propco/forward-funding partner to roll up the ~7,900 fragmented Betreutes-Wohnen sites, monetising both the service pauschale annuity and the demographic-driven new-build pipeline.",
+        "key_risks": [
+          "Opco/propco split and rising construction/financing costs make new-build economics fragile.",
+          "Service-package margins are thin and rent-regulated; care-quality/regulatory scrutiny risk if co-located with nursing.",
+          "Charitable/foundation ownership (e.g. Augustinum) may be structurally unsellable - narrows the true acquisition universe to private operators like Rosenhof."
+        ]
+      },
       "child_ids": []
     },
     "medical-value-chain/care-delivery-providers/rehabilitation-clinics-reha-kliniken-stationaer-ambulant": {
@@ -5780,6 +5944,16 @@
           "title": "Private Equity kauft Tierarzt-Monopole zusammen - Börsen-Zeitung",
           "url": "https://www.boersen-zeitung.de/meinung-analyse/private-equity-kauft-tierarzt-monopole-zusammen",
           "note": "EQT, Silver Lake, KKR, Mars, Nestlé consolidating DE vet clinics into local monopolies"
+        },
+        {
+          "title": "Tierklinik Oberhaching - independent inhabergefuehrt clinic",
+          "url": "https://tierklinik-oberhaching.de/",
+          "note": "Confirms independent, owner-managed large clinic."
+        },
+        {
+          "title": "Deutschlands groesste Kleintier- und Pferdekliniken (vetline)",
+          "url": "https://vetline.de/deutschlands-groesste-kleintier-und-pferdekliniken",
+          "note": "Context: largest clinics incl. independents."
         }
       ],
       "confidence": 4,
@@ -5788,7 +5962,28 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "No Fremdbesitzverbot for vet practices - freely acquirable, private-pay revenue. Still highly fragmented (thousands of practices) but strategics/PE already racing (IVC Evidensia/EQT ~80, AniCura/Mars ~78, Tierarzt Plus ~100 sites).",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          {
+            "name": "Tieraerztliche Klinik Oberhaching (with Kleintierzentrum Starnberg)",
+            "hq": "Oberhaching (near Munich)",
+            "note": "~260 staff / ~80 vets; explicitly independent and inhabergeführt - one of the largest privately run DACH clinics still outside a chain."
+          },
+          {
+            "name": "Tierklinik am Kaiserberg",
+            "hq": "Duisburg",
+            "note": "60+ year independently run companion-animal clinic; not part of IVC/AniCura/TPP."
+          }
+        ],
+        "ebitda_margin": "omitted - not verifiable from public sources",
+        "entry_multiple": "n/a - proprietary (adjacent segment; scaled chains reported to trade at high-single-to-double-digit EV/EBITDA)",
+        "bnb_angle": "The consolidation window is closing - EQT/IVC, Mars/AniCura and Inflexion/TPP already hold the large chains, so the remaining thesis is to buy the few large INDEPENDENT referral clinics (Oberhaching, Kaiserberg) as anchor hubs and roll owner-succession GP practices beneath them.",
+        "key_risks": [
+          "NOT human healthcare - flagged adjacent; different reimbursement (private-pay) and thesis than the core mandate.",
+          "Prime assets are already consolidated - scarcity of independent anchors and inflated competitive tension from incumbent PE roll-ups.",
+          "Vet shortage and regulatory scrutiny of PE-owned veterinary 'monopolies' (press/political attention in DE) create reputational and staffing risk."
+        ]
+      },
       "child_ids": []
     },
     "medical-value-chain/digital-health-health-it": {
@@ -7821,6 +8016,11 @@
           "title": "myDRG Fachportal - Medizincontrolling, Hybrid-DRG, Krankenhausreform",
           "url": "https://www.mydrg.de/",
           "note": "Krankenhausreform, MD audits, Hybrid-DRG expansion drive demand; hospital-budget funded"
+        },
+        {
+          "title": "DRG Doktor - Leistungen (Medizincontrolling)",
+          "url": "https://www.drg-doktor.de/leistungen/",
+          "note": "Independent owner-run coding/controlling service."
         }
       ],
       "confidence": 3,
@@ -7829,7 +8029,33 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Many dozens of small coding/controlling firms + freelancers, freely acquirable, no financial consolidator; virgin and highly fragmented",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          {
+            "name": "DLMC (Deutsches Leistungs- und Medizincontrolling)",
+            "hq": "Sprockhoevel",
+            "note": "Independent certified external medical-controlling / DRG-coding & MD-management provider."
+          },
+          {
+            "name": "Franz + Wenke GmbH",
+            "hq": "Germany",
+            "note": "Independent coding / Medizincontrolling / MD-management outsourcing (interim & permanent)."
+          },
+          {
+            "name": "DRG Doktor",
+            "hq": "Germany",
+            "note": "Independent owner-run Medizincontrolling/coding service."
+          }
+        ],
+        "ebitda_margin": "omitted - not verifiable from public sources",
+        "entry_multiple": "n/a - proprietary",
+        "bnb_angle": "Consolidate freelancer-heavy coding/Medizincontrolling shops into an outsourced RCM platform for sub-scale hospitals that cannot staff their own coding teams, adding software-assisted coding and MDK/MD-audit-defence as recurring managed services.",
+        "key_risks": [
+          "Hospital-reform (Leistungsgruppen / Krankenhausreform 2025-26) reshapes DRG/PEPP demand and could compress volumes.",
+          "Freelancer-dependent delivery model - retention and utilisation risk on consolidation.",
+          "Public-hospital procurement cycles and budget pressure lengthen sales and squeeze fees."
+        ]
+      },
       "child_ids": []
     },
     "medical-value-chain/healthcare-services-outsourcing/healthcare-staffing-zeitarbeit-pflege-aerzte": {
@@ -11254,6 +11480,21 @@
           "title": "Good Distribution Practice – theentourage.de",
           "url": "https://theentourage.de/en/manufacturing-supply-chain-management/good-distribution-practice/",
           "note": "Cold-chain/temperature-mapping audit demand."
+        },
+        {
+          "title": "EIPL - GDP Audit (pruefend)",
+          "url": "https://eipl-institute.eu/dienstleistungen/gdp-audit-prufend/",
+          "note": "Independent GDP audit/consulting, cold-chain focus."
+        },
+        {
+          "title": "EIPL - Ueber uns (independent GmbH, CEO C. Specht)",
+          "url": "https://eipl-institute.eu/uber-uns/",
+          "note": "Ownership/independence."
+        },
+        {
+          "title": "FC Management - Good Distribution Practice (GDP)",
+          "url": "https://fcmanagement.de/zertifizierungen/good-distribution-practice-gdp/",
+          "note": "Independent GDP consulting/audit-support firm."
         }
       ],
       "confidence": 3,
@@ -11262,7 +11503,28 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Private pharma B2B fees, asset-light high-margin advisory, freely acquirable; but small day-rate/engagement TAM among fragmented boutiques with no consolidator yet.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          {
+            "name": "EIPL - European Institute for Pharma Logistics Services GmbH",
+            "hq": "St. Leon-Rot",
+            "note": "Independent owner-run GDP consulting/audit firm (CEO Christian Specht), temperature-controlled logistics/cold-chain focus."
+          },
+          {
+            "name": "FC Management (Fokus Compliance)",
+            "hq": "Germany",
+            "note": "Independent GDP consulting/audit & certification-support provider for pharma wholesale/logistics."
+          }
+        ],
+        "ebitda_margin": "omitted - not verifiable from public sources",
+        "entry_multiple": "n/a - proprietary (segment flagged 'Too small' - likely bolt-on rather than platform)",
+        "bnb_angle": "Best pursued as a bolt-on to a broader GxP-audit platform: attach GDP/cold-chain audit capability to a GMP-audit network to offer wholesalers/3PLs a single supplier-qualification and transport-validation programme.",
+        "key_risks": [
+          "Sub-scale niche ('Too small') - insufficient stand-alone platform economics; only accretive as an add-on.",
+          "Overlaps with TIC certifiers (DQS, TUV) that bundle GDP certification, limiting pure-consulting pricing.",
+          "Key-person dependence on a few GDP specialists."
+        ]
+      },
       "child_ids": []
     },
     "medical-value-chain/pharmaceuticals-biotech/gxp-gmp-compliance-services/gmp-gxp-consulting-auditing/supplier-lohnhersteller-contract-manufacturer-auditing": {
@@ -11346,6 +11608,21 @@
           "title": "Audits von Lohnherstellern und Auftragslaboren | Blue Inspection",
           "url": "https://www.blue-inspection.com/de/gmp-gxp-audits-de/audits-lohnhersteller-auftragslabore-de/",
           "note": "Confirms fragmented boutique/individual-auditor base; drug-shortage & EU GMP scrutiny driving demand."
+        },
+        {
+          "title": "Zicura Pharma Solutions GmbH - company register (HRB 213278, founded 2019)",
+          "url": "https://www.unternehmen24.info/Firmeninformationen/Deutschland/Firma/4561508",
+          "note": "Independence / founding data."
+        },
+        {
+          "title": "blue inspection body GmbH",
+          "url": "https://www.blue-inspection.com/de/",
+          "note": "Independent accredited 3rd-party GMP auditor of suppliers/CMOs."
+        },
+        {
+          "title": "blue inspection GmbH - Northdata (Münster, HRB 11228)",
+          "url": "https://www.northdata.com/blue%20inspection%20GmbH,%20M%C3%BCnster/HRB%2011228",
+          "note": "Legal/registry confirmation of independent GmbH."
         }
       ],
       "confidence": 3,
@@ -11358,7 +11635,28 @@
       ],
       "investability": "open",
       "investability_note": "Boutiques freely acquirable; funded by private pharma spend, though key-auditor/QP dependency adds retention friction.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          {
+            "name": "Zicura Pharma Solutions GmbH",
+            "hq": "Nordhorn (Lower Saxony)",
+            "note": "Founded 2019, owner-managed GMP-audit/PV/RA boutique offering shared supplier/CMO audits; independent, no PE/strategic owner found."
+          },
+          {
+            "name": "blue inspection body GmbH",
+            "hq": "Münster",
+            "note": "DAkkS-accredited independent 3rd-party GMP auditor of excipient/API/finished-product suppliers, founded ~2007, MD Norbert Waldöfner; still a stand-alone GmbH."
+          }
+        ],
+        "ebitda_margin": "omitted - not verifiable from public sources",
+        "entry_multiple": "n/a - proprietary (personal/boutique auditor firms; sub-EUR-5m deals)",
+        "bnb_angle": "Aggregate a network of ageing solo/boutique DAkkS-accredited auditors under one QP/audit-scheduling platform, cross-sell shared audits and convert one-off audit spend into recurring supplier-qualification programmes for MAHs.",
+        "key_risks": [
+          "Value is embedded in a handful of senior individual auditors - severe key-person/retention risk on integration.",
+          "Accreditation (DAkkS) and impartiality rules constrain aggressive cross-selling and conflict-of-interest structures.",
+          "Highly fragmented, low-ticket revenue makes buy-side diligence and quality standardisation costly relative to deal size."
+        ]
+      },
       "child_ids": []
     },
     "medical-value-chain/payers-regulatory-ecosystem/regulatory-affairs-market-access-hta-pharmacovigilance-services/regulatory-affairs-mdr-consulting-medtech/mdr-technical-documentation-annex-ii-iii-authoring-remediation": {
@@ -11684,6 +11982,21 @@
           "title": "German Government launches new Pharma & MedTech Dialogue (Inside EU Life Sciences)",
           "url": "https://www.insideeulifesciences.com/2026/01/28/german-government-launches-new-pharma-and-medtech-dialogue/",
           "note": "MDR/IVDR reform keeps conformity-assessment support demand high."
+        },
+        {
+          "title": "Metecon GmbH",
+          "url": "https://www.metecon.de/en/",
+          "note": "Independent founder-led RA/NB-support firm."
+        },
+        {
+          "title": "senetics - MDR & IVDR / NB support",
+          "url": "https://senetics.de/beratung/mdr-ivdr/",
+          "note": "Independent NB liaison / audit prep."
+        },
+        {
+          "title": "GBA Group / Quadriga Capital majority stake in Johner Institut (2026)",
+          "url": "https://quadriga-capital.de/gba-group-erweitert-europaeische-plattform-fuer-medtech-solutions-mit-mehrheitsbeteiligung-am-johner-institut",
+          "note": "Johner is NOT independent - PE-backed consolidator; exclude."
         }
       ],
       "confidence": 3,
@@ -11692,7 +12005,28 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Freely acquirable, medtech-funded RA consultancies; ~100+ small firms, virtually no PE platform yet.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          {
+            "name": "Metecon GmbH",
+            "hq": "Mannheim",
+            "note": "Founder-led (Alexander Fink), independent; manages technical documentation, deficiency responses and NB/audit prep for MDR/IVDR."
+          },
+          {
+            "name": "senetics healthcare group GmbH & Co. KG",
+            "hq": "Ansbach",
+            "note": "Independent RA/QM firm providing NB-application strategy and audit preparation."
+          }
+        ],
+        "ebitda_margin": "omitted - not verifiable from public sources",
+        "entry_multiple": "n/a - proprietary",
+        "bnb_angle": "Platform the independent RA boutiques that manage manufacturer-to-notified-body dialogue; acute NB capacity shortages make deficiency-response and audit-prep a scarce, high-value recurring service to bundle across an MDR/IVDR consolidation.",
+        "key_risks": [
+          "The leading brand (Johner Institut) is now GBA Group / Quadriga Capital-owned (majority stake, 2026) - a well-capitalised consolidator is already active; exclude it and compete for the remaining independents.",
+          "Revenue partly tied to the MDR/IVDR transition bulge and NB throughput - both can normalise.",
+          "Senior-consultant dependence and utilisation risk."
+        ]
+      },
       "child_ids": []
     },
     "medical-value-chain/payers-regulatory-ecosystem/regulatory-affairs-market-access-hta-pharmacovigilance-services/regulatory-affairs-mdr-consulting-medtech/ivdr-consulting-in-vitro-diagnostics": {
@@ -11761,6 +12095,21 @@
           "title": "IVDR Compliance & IVD Consulting - Metecon",
           "url": "https://www.metecon.de/en/leistungen-ivd/",
           "note": "Example IVDR-focused consultancy"
+        },
+        {
+          "title": "senetics - MDR & IVDR consulting",
+          "url": "https://senetics.de/beratung/mdr-ivdr/",
+          "note": "IVDR performance-evaluation / PRRC services; part of senetics healthcare group GmbH & Co. KG (independent)."
+        },
+        {
+          "title": "Metecon GmbH - about (founder, since 1999)",
+          "url": "https://www.metecon.de/en/",
+          "note": "Founder-led independent MDR/IVDR documentation & market-access firm."
+        },
+        {
+          "title": "The Entourage - IVD consulting",
+          "url": "https://theentourage.de/en/in-vitro-diagnostika-consulting/",
+          "note": "Independent IVDR/ISO 13485 diagnostics consultancy."
         }
       ],
       "confidence": 3,
@@ -11769,7 +12118,33 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Owner-operated advisory GmbHs, freely acquirable and asset-light; strong regulatory tailwind but partly project/deadline-driven (IVDR transition), some key-expert dependence.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          {
+            "name": "senetics healthcare group GmbH & Co. KG",
+            "hq": "Ansbach",
+            "note": "Owner-run RA/QM consultancy with dedicated IVDR performance-evaluation & PRRC services; independent partnership, not PE/listed."
+          },
+          {
+            "name": "Metecon GmbH",
+            "hq": "Mannheim",
+            "note": "Founder-led (Alexander Fink, since 1999), 60+ engineers/scientists doing MDR/IVDR technical documentation & market access; independent GmbH."
+          },
+          {
+            "name": "The Entourage Group (IVD consulting)",
+            "hq": "Germany",
+            "note": "Boutique IVDR-readiness/ISO 13485/CE consultancy for diagnostics; independent."
+          }
+        ],
+        "ebitda_margin": "omitted - not verifiable from public sources",
+        "entry_multiple": "n/a - proprietary",
+        "bnb_angle": "Roll up sub-scale MDR/IVDR consultancies into a single regulated-diagnostics platform; the IVDR up-classification wave (most IVDs newly need a notified body) creates a multi-year, non-discretionary demand backlog to cross-sell across bolt-ons.",
+        "key_risks": [
+          "Demand is partly a one-off transition bulge; requalification/maintenance revenue must be built to avoid a post-deadline cliff.",
+          "Notified-body capacity shortages can bottleneck client projects and revenue recognition regardless of consulting capacity.",
+          "People business - utilisation and senior-consultant attrition drive margins; hard to standardise across acquired boutiques."
+        ]
+      },
       "child_ids": []
     },
     "medical-value-chain/payers-regulatory-ecosystem/regulatory-affairs-market-access-hta-pharmacovigilance-services/pharmacovigilance-outsourcing-qppv-stufenplanbeauftragter/eu-qppv-as-a-service": {
@@ -12006,6 +12381,11 @@
           "title": "Regulatory-Affairs-Manager.com - Pharmakovigilanz Marktplatz",
           "url": "https://www.regulatory-affairs-manager.com/marktplatz/pharmakovigilanz/",
           "note": "Long fragmented list of PV service providers/freelancers"
+        },
+        {
+          "title": "Dr. Beckers & Partner - Pharmakovigilanz-Dienstleister",
+          "url": "http://www.dr-beckers-partner.de/DE/pharmakovigilanz-dienstleister.htm",
+          "note": "Independent owner-run PV/medical-writing (PSUR, signal detection)."
         }
       ],
       "confidence": 3,
@@ -12014,7 +12394,33 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Freely acquirable boutique medical-writing/PV firms, mostly owner-operated with no financial consolidator yet; asset-light, pharma-paid, no GKV exposure.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          {
+            "name": "VigiPRO GmbH",
+            "hq": "Germany",
+            "note": "Independent PV outsourcing firm explicitly authoring PSUR/PBRER and providing QPPV; owner-run SME."
+          },
+          {
+            "name": "PharmaSupport",
+            "hq": "Germany",
+            "note": "Independent PV service provider focused on SMEs (PSUR, ICSR, signal detection)."
+          },
+          {
+            "name": "Dr. Beckers & Partner",
+            "hq": "Munich area",
+            "note": "Independent owner-run PV/medical-writing service (PSUR, CIOMS, RMP)."
+          }
+        ],
+        "ebitda_margin": "omitted - not verifiable from public sources",
+        "entry_multiple": "n/a - proprietary",
+        "bnb_angle": "Consolidate boutique PV/medical-writing shops into a QPPV-plus-aggregate-reporting platform selling recurring PSUR/PBRER/DSUR cycles under multi-year framework contracts to small/mid MAHs that cannot staff GVP Module VII in-house.",
+        "key_risks": [
+          "Revenue is project/cycle-based and can be re-tendered; stickiness depends on holding the QPPV/PSMF role.",
+          "Scarce experienced safety writers - wage inflation and attrition compress margins.",
+          "GVP inspection findings or a client's product withdrawals can create liability and revenue volatility."
+        ]
+      },
       "child_ids": []
     },
     "medical-value-chain/payers-regulatory-ecosystem/regulatory-affairs-market-access-hta-pharmacovigilance-services/pharmacovigilance-outsourcing-qppv-stufenplanbeauftragter/local-safety-officer-stufenplanbeauftragter-63a-amg": {
@@ -12476,6 +12882,11 @@
           "title": "DGUV - Vorschriften und Regeln (DGUV Vorschrift 3)",
           "url": "https://www.dguv.de/de/praevention/vorschriften-regeln/index.jsp",
           "note": "Confirms standardised, prescribed recurring electrical-safety testing regime -> commoditised, limited headroom"
+        },
+        {
+          "title": "bau-medizintechnik - VDE-Pruefung nach DIN EN 62353 (VDE 0751-1)",
+          "url": "https://bau-medizintechnik.com/vde-pruefung-von-medizintechnik-nach-din-en-62353-vde-0751-1/",
+          "note": "Independent EN 62353 testing provider."
         }
       ],
       "confidence": 4,
@@ -12488,7 +12899,33 @@
       ],
       "investability": "open",
       "investability_note": "Craft/SME testing firms are freely acquirable; no licence or ownership barrier to a roll-up.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          {
+            "name": "EFM Medizingeraeteprüfung",
+            "hq": "Germany",
+            "note": "Owner-managed independent specialist in DIN VDE 0751 / EN 62353 medical-device safety testing."
+          },
+          {
+            "name": "KS Medizintechnik",
+            "hq": "Germany",
+            "note": "Independent technical service doing VDE/EN 62353 testing of medical devices."
+          },
+          {
+            "name": "bau-medizintechnik",
+            "hq": "Germany",
+            "note": "Independent provider of EN 62353 (VDE 0751-1) medical-device safety testing."
+          }
+        ],
+        "ebitda_margin": "omitted - not verifiable from public sources",
+        "entry_multiple": "n/a - proprietary",
+        "bnb_angle": "The statutory 6-24 month retest cadence makes revenue subscription-like; roll up craft-scale medical-device-specific testers under a routing/scheduling software (mirroring 3i-backed OMS in general DGUV V3) and cross-sell EN 62353 into clinics, practices and care homes.",
+        "key_risks": [
+          "OMS Pruefservice (3i-backed, 43 sites, INSPEKTRA software) is aggressively consolidating adjacent DGUV V3 electrical testing and could move down into the medical sub-segment.",
+          "Fragmented craft base with thin, wage-sensitive margins; test-technician certification (TRBS 1203) supply is tight.",
+          "Overlap with hospitals' in-house medical-technology departments and multivendor ISOs limits addressable outsourcing."
+        ]
+      },
       "child_ids": []
     },
     "medical-value-chain/medical-devices-equipment/medical-equipment-servicing-inspection-maintenance-medizintechnik-service/multivendor-independent-service-organisations-iso-as-a-business-model": {
@@ -12560,6 +12997,21 @@
           "title": "Medizintechnik Service für Krankenhäuser - factpartner",
           "url": "https://www.factpartner.de/medizintechnik/",
           "note": "Multivendor hospital service model; fragmented base"
+        },
+        {
+          "title": "TBM Medizintechnik GmbH - Service (manufacturer-neutral, DGUV V3)",
+          "url": "https://www.tbm-medizintechnik.de/service/",
+          "note": "Independent multivendor service."
+        },
+        {
+          "title": "DKM Service Krankenhaus-Medizintechnik",
+          "url": "https://www.dkmservice.de/",
+          "note": "Independent hospital device-management provider."
+        },
+        {
+          "title": "MD Service-Medizintechnik",
+          "url": "https://www.mdservicemedizintechnik.de/",
+          "note": "Independent multivendor maintenance/inspection per DGUV."
         }
       ],
       "confidence": 3,
@@ -12568,7 +13020,33 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Owner-operated multivendor service firms freely acquirable; recurring STK/MTK contracts under MPBetreibV, no financial consolidator yet.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          {
+            "name": "TBM Medizintechnik GmbH",
+            "hq": "Germany",
+            "note": "Independent, manufacturer-neutral repair/spare-parts and DGUV V3 testing of mixed OEM fleets."
+          },
+          {
+            "name": "DKM Service Krankenhaus-Medizintechnik",
+            "hq": "Germany",
+            "note": "Independent hospital device-management (STK/MTK, maintenance) provider."
+          },
+          {
+            "name": "MD Service-Medizintechnik",
+            "hq": "Germany",
+            "note": "Independent multivendor maintenance/inspection service for clinics per DGUV."
+          }
+        ],
+        "ebitda_margin": "omitted - not verifiable from public sources",
+        "entry_multiple": "n/a - proprietary",
+        "bnb_angle": "Roll up regional multivendor service firms into a single national ISO offering hospitals a brand-agnostic full-fleet Gerätemanagement contract, winning share from captive OEM service on price and single-point-of-contact while building recurring STK/MTK maintenance revenue.",
+        "key_risks": [
+          "OEMs restrict access to spare parts, software keys and service documentation - structural dependency and litigation risk.",
+          "Requires broad multi-modality technical talent; hard to scale engineer coverage across regions.",
+          "Hospital procurement consolidation and OEM full-service bundles can squeeze independents out of large accounts."
+        ]
+      },
       "child_ids": []
     },
     "medical-value-chain/medical-devices-equipment/medical-equipment-servicing-inspection-maintenance-medizintechnik-service/statutory-safety-metrology-inspections-stk-mtk-per-mpbetreibv/sicherheitstechnische-kontrolle-stk-of-anlage-1-devices": {
@@ -14615,6 +15093,21 @@
           "title": "Destatis - Pflegeeinrichtungen in Deutschland (Pflegestatistik 2023)",
           "url": "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Gesundheit/Pflege/Tabellen/pflegeeinrichtungen-deutschland.html",
           "note": "Supports ~15,400 ambulante Pflegedienste (2023) - corrects the ~17,938 (2025) figure"
+        },
+        {
+          "title": "Die Wundprofis GmbH - Der Pflegedienst",
+          "url": "https://wundprofis-pflegedienst.de/",
+          "note": "Independent chronic-wound SGB V Pflegedienst."
+        },
+        {
+          "title": "Unitas Pflegedienst Nuernberg - Wundmanagement",
+          "url": "https://unitas-pflegedienst.de/leistungen/wundmanagement-wundversorgung/",
+          "note": "Independent wound-management/SGB V provider."
+        },
+        {
+          "title": "advita (DomusVi) & Bonitas (Advent) ownership - NOT independent",
+          "url": "https://www.pflegemarkt.com/fachartikel/liste-der-10-groessten-privaten-pflegedienste-2023/",
+          "note": "Confirms largest 'private' Pflegedienste are PE/strategic-owned; exclude from independents."
         }
       ],
       "confidence": 4,
@@ -14627,7 +15120,33 @@
       ],
       "investability": "open",
       "investability_note": "Pflegedienst GmbHs are acquirable; only friction is re-approval of SGB V Versorgungsvertraege on change of control.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          {
+            "name": "Die Wundprofis GmbH (Pflegedienst)",
+            "hq": "Germany",
+            "note": "Independent owner-run ambulatory service specialised in chronic-wound / SGB V Behandlungspflege."
+          },
+          {
+            "name": "Unitas Pflegedienst",
+            "hq": "Nuremberg",
+            "note": "Independent ambulatory service with dedicated wound-management/SGB V Behandlungspflege line."
+          },
+          {
+            "name": "CURA Ambulante Krankenpflegedienste GmbH",
+            "hq": "Eschweiler",
+            "note": "Independent owner-run Pflegedienst offering specialised chronic-wound SGB V care."
+          }
+        ],
+        "ebitda_margin": "omitted - not verifiable from public sources",
+        "entry_multiple": "n/a - proprietary",
+        "bnb_angle": "Build a specialised chronic-wound (Wundversorgung) SGB V pure-play by rolling up succession-driven owner-operated Pflegedienste, concentrating on the higher-margin, structured-reimbursement nurse-qualified Behandlungspflege line rather than commoditised SGB XI basic care.",
+        "key_risks": [
+          "IK Partners-backed Medical Wundmanagement is already the clearest financial consolidator in this exact wound niche - competitive tension on assets.",
+          "Acute nurse shortage caps organic growth and inflates wage costs; do not double-count the SGB XI provider base (~96% overlap).",
+          "Reimbursement/prescription-rule changes for wound care (Verbandmittel definition, physician prescriptions) can hit the high-margin line directly."
+        ]
+      },
       "child_ids": []
     },
     "medical-value-chain/care-delivery-providers/outpatient-mobile-nursing-services-ambulante-pflegedienste/specialised-palliative-home-care-sapv": {
@@ -17548,7 +18067,28 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Local validation/reprocessing service firms freely acquirable; paid privately by ~50k dental practices, no GKV tariff link.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          {
+            "name": "biocheck Hygienetechnisches Labor GmbH",
+            "hq": "Germany",
+            "note": "Independent hygiene lab/service specialising in dental & practice instrument-reprocessing validation and hygiene management."
+          },
+          {
+            "name": "Krolicki Medizintechnik + Praxisbedarf GmbH & Co. KG",
+            "hq": "Krefeld",
+            "note": "Family-run (GmbH & Co. KG) medical/dental supplier offering instrument reprocessing/sterilisation support; independent."
+          }
+        ],
+        "ebitda_margin": "omitted - not verifiable from public sources",
+        "entry_multiple": "n/a - proprietary",
+        "bnb_angle": "Build a regional off-site pooled-reprocessing / managed-hygiene network for the ~50k+ small dental & ambulatory practices that cannot economically validate their own RDG lines, converting statutory RKI/DGSV reprocessing obligations into subscription revenue.",
+        "key_risks": [
+          "Off-site pooled reprocessing is logistics-intensive (turnaround, chain-of-custody) and capital-heavy on validated RDG/autoclave equipment.",
+          "Regulatory/liability exposure if reprocessing quality fails a practice audit (RKI/KV Begehung).",
+          "Practices may in-source with cheap benchtop autoclaves, capping addressable demand for critical-B instruments only."
+        ]
+      },
       "child_ids": []
     },
     "medical-value-chain/healthcare-services-outsourcing/sterile-reprocessing-aemp-zsva-outsourcing/flexible-endoscope-reprocessing": {

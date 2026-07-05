@@ -240,6 +240,26 @@
           "title": "CVC Credit leads refinancing/merger of Kanalservice Gruppe and Grupo Sasti",
           "url": "https://www.cvc.com/media/news/2026/cvc-credit-leads-the-refinancing-and-merger-of-kanalservice-gruppe-and-group-sasti/",
           "note": "Confirms committed follow-on capital for systematic buy-and-build - platform already scaling."
+        },
+        {
+          "title": "",
+          "url": "https://rs-kanal.de/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://kuchler-gmbh.de/kanalreinigung",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.kanal-wambach.de/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www2.hl.com/pdf/2025/bus-environmental-services-q4-2024.pdf",
+          "note": ""
         }
       ],
       "confidence": 4,
@@ -248,7 +268,21 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Freely acquirable service firms; municipal sewer maintenance is competitively tendered to private contractors, not a KrWG household-waste monopoly.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          "RS Kanal GmbH (Bisingen/Radolfzell, est. 2009) - family-run Kanalreinigung/HD-Spuelung + CCTV for municipalities & industry",
+          "Kuchler GmbH - independent regional Rohr-/Kanalreinigung with modern suction/flush trucks (water recovery)",
+          "Kanal Wambach GmbH - independent family Kanalreinigung firm operating own flush/vacuum special vehicles"
+        ],
+        "ebitda_margin": "omitted - no niche-specific sourced band",
+        "entry_multiple": "n/a - proprietary (off-market DACH SME); listed environmental-services comps ~7-15x EV/EBITDA per Houlihan Lokey Q4 2024",
+        "bnb_angle": "Dense, recurring municipal flushing routes with high truck-fleet barriers - a regional platform can densify routes, add CCTV inspection and feed relining/repair work, though note Kanalservice Holding is already consolidating and would be excluded.",
+        "key_risks": [
+          "Active PE consolidation raises entry prices and shrinks the independent pool",
+          "Capex-heavy fleet (combi trucks) and driver shortage",
+          "Municipal tender pricing pressure and exposure to public budgets"
+        ]
+      },
       "child_ids": []
     },
     "environmental-services-value-chain/industrial-sewer-cleaning-services/sewer-drain-cleaning-cctv-inspection-kanalreinigung-tv-inspektion/cctv-inspection-leak-testing-tv-inspektion-dichtheitspruefung": {
@@ -1624,6 +1658,21 @@
           "title": "Genehmigungsplanung von BImSchG bis WHG - Ramm Umwelt",
           "url": "https://www.ramm-umwelt.de/leistungen/genehmigungsplanung/",
           "note": "Typical fragmented independent planner; industrial/energy-transition permitting tailwind."
+        },
+        {
+          "title": "",
+          "url": "https://ibpassow.de/verfahren-nach-dem-bundes-immissionsschutzgesetz-2/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://leoma-partner.de/bimschg-genehmigung/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.hhw.eu/umweltschutz/genehmigungsplanung-nach-bimschg",
+          "note": ""
         }
       ],
       "confidence": 3,
@@ -1632,7 +1681,21 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Hundreds of owner-operated Ingenieurbueros, no financial consolidator visible; acquirable but key-person/expertise dependent.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          "Ingenieurbuero Passow (ibpassow.de) - independent BImSchG §4/§16 dossier & procedure management",
+          "LEOMA GmbH (leoma-partner.de) - independent consultancy preparing BImSchG permit applications",
+          "hhw ingenieurgesellschaft mbH - independent BImSchG Genehmigungsplanung/permit dossiers"
+        ],
+        "ebitda_margin": "omitted - no niche-specific sourced band",
+        "entry_multiple": "n/a - proprietary (sub-EUR 5m fee-based Ingenieurbuero; off-market)",
+        "bnb_angle": "Consolidate specialist permitting offices into a national BImSchG platform that owns the client relationship at the front of every industrial/energy build and cross-sells UVP, immission modelling and post-permit compliance.",
+        "key_risks": [
+          "Key-person dependency on a small number of senior permitting engineers",
+          "Project-lumpy revenue tied to industrial capex and regulatory cycle",
+          "Competes with large multidisciplinary engineering groups (HPC, TUeV) on major projects"
+        ]
+      },
       "child_ids": []
     },
     "environmental-services-value-chain/environmental-consulting-monitoring-compliance/environmental-permitting-genehmigungsplanung-bimschg/environmental-impact-assessment-uvp-dispersion-immission-modelling": {
@@ -1692,6 +1755,16 @@
           "title": "Infravadis interview - Genehmigungsstau / permitting backlog tailwind",
           "url": "https://bau.bi/umweltbau/kanalsanierung/infravadis-im-interview-neue-wege-gegen-den-sanierungsstau-u21810",
           "note": "Energy-transition/infrastructure buildout drives permitting & immission-modelling demand (growth tailwind)."
+        },
+        {
+          "title": "",
+          "url": "https://www.lohmeyer.de/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://ibpassow.de/immissionsprognosen-fuer-luftschadstoffe-und-gerueche/",
+          "note": ""
         }
       ],
       "confidence": 3,
@@ -1700,7 +1773,20 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Consulting/engineering firms freely acquirable; niche specialism within permitting Ingenieurbueros, largely owner-operated with little financial-sponsor consolidation.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          "Ingenieurbuero Lohmeyer GmbH & Co. KG - independent specialist in air-quality/dispersion modelling & immission prognoses (AUSTAL/TA Luft)",
+          "Ingenieurbuero Passow (ibpassow.de) - independent immission prognoses for air pollutants & odour"
+        ],
+        "ebitda_margin": "omitted - no niche-specific sourced band",
+        "entry_multiple": "n/a - proprietary (specialist sub-consultant SME; off-market)",
+        "bnb_angle": "Scarce AUSTAL/TA-Luft dispersion-modelling expertise is a specialist sub-consultant gate into every BImSchG/UVP permit - acquire to capture high-margin analytical work and lock in referrals from permitting platforms.",
+        "key_risks": [
+          "Deep key-person dependency on a handful of modelling experts",
+          "Narrow, project-driven scope with limited recurring revenue",
+          "Methodology/software (AUSTAL) is public - differentiation is expertise/reputation only"
+        ]
+      },
       "child_ids": []
     },
     "environmental-services-value-chain/environmental-consulting-monitoring-compliance/outsourced-statutory-environmental-officers-betriebsbeauftragte": {
@@ -1926,6 +2012,21 @@
           "title": "Abfallbeauftragter - Wikipedia (§§59-60 KrWG, AbfBeauftrV)",
           "url": "https://de.wikipedia.org/wiki/Abfallbeauftragter",
           "note": "Person-bound qualification requirement; highly fragmented (hundreds of small advisers), no financial consolidator."
+        },
+        {
+          "title": "",
+          "url": "https://www.umco.de/hse/externe-umweltbeauftragte.html",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://123ingenieure.de/abfallbeauftragter/externer-abfallbeauftragter/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.umweltinstitut.de/000017",
+          "note": ""
         }
       ],
       "confidence": 3,
@@ -1934,7 +2035,21 @@
       "pe_activity": [],
       "investability": "restricted",
       "investability_note": "Firms acquirable but mandates are bound to a named, Sachkunde-qualified individual (key-person risk on novation); low ticket (EUR 3-20k/mandate) caps roll-up economics.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          "UMCO GmbH (Hamburg) - independent provider of external Umweltbeauftragte incl. Abfall & Gewaesserschutz",
+          "123ingenieure GmbH - independent nationwide external Abfallbeauftragter/Umweltbeauftragter service",
+          "Umweltinstitut Offenbach (UIO) - independent provider of external Gewaesserschutz-/Abfallbeauftragte mandates"
+        ],
+        "ebitda_margin": "omitted - no niche-specific sourced band",
+        "entry_multiple": "n/a - proprietary (fee-per-mandate SME; off-market)",
+        "bnb_angle": "Sticky, statute-mandated annual retainers - bundle Abfall/Gewaesserschutz/Immissionsschutz officer roles per client and scale a subscription-like compliance-mandate book across DACH industry.",
+        "key_risks": [
+          "Node flagged investability 'restricted' / 'too late' - crowded and partly consolidated",
+          "Small ticket per mandate (EUR 3-20k/yr) requires high mandate density to matter",
+          "Competes with TIC majors (DEKRA, TUeV) offering officer services as a loss-leader"
+        ]
+      },
       "child_ids": []
     },
     "environmental-services-value-chain/environmental-consulting-monitoring-compliance/esg-csrd-reporting-carbon-accounting-advisory": {
@@ -2305,6 +2420,16 @@
           "title": "Quentic now part of AMCS",
           "url": "https://www.quentic.com/software/technology/saas/",
           "note": "AMCS acquired Quentic (2022) and Quentic itself bought NordSafety - consolidation already underway, compressing headroom."
+        },
+        {
+          "title": "",
+          "url": "https://www.qumsult.de/unternehmen/software-qualitaet-umwelt-arbeitsschutz/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.maqsima.de/",
+          "note": ""
         }
       ],
       "confidence": 4,
@@ -2313,7 +2438,20 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Freely acquirable SaaS vendors; asset-light, private subscription revenue with no statutory tariff exposure.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          "Qumsult GmbH & Co. KG - independent vendor of Web SARA HSEQ software (Rechtskataster, Gefahrstoffe, audits)",
+          "MAQSIMA GmbH - independent EHS management software (Rechtskataster, Gefahrstoffe, Betriebsanweisungen, training)"
+        ],
+        "ebitda_margin": "omitted - no niche-specific sourced band",
+        "entry_multiple": "n/a - proprietary; SaaS valued on ARR not EBITDA at this scale",
+        "bnb_angle": "Fragmented DACH EHSQ SaaS long-tail is roll-up territory: acquire single-module niche vendors, migrate to one cloud platform and cross-sell Gefahrstoff/Rechtskataster modules to lift ARR per seat.",
+        "key_risks": [
+          "Incumbency of Quentic (Wolters Kluwer) and other well-capitalised suites squeezes SMB vendors",
+          "Many DACH tools are still on-prem/perpetual-licence - migration and churn risk",
+          "Low ARR and founder-led sales limit standalone scale"
+        ]
+      },
       "child_ids": []
     },
     "environmental-services-value-chain/environmental-consulting-monitoring-compliance/ecological-surveying-environmental-construction-supervision-umweltbaubegleitung": {
@@ -2971,6 +3109,21 @@
           "title": "Schadstoffsanierung - Meyer Technik Unternehmensgruppe",
           "url": "https://www.meyergruppe.de/schadstoffsanierung",
           "note": "Regional multi-service remediation firm; fragmentation overlapping asbestos/insulation trades."
+        },
+        {
+          "title": "",
+          "url": "https://kace-concepts.de/leistungen/mineralwolle-sanierung",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.schadstoffsanierung-essen.de/kmf-sanierung-essen/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www2.hl.com/pdf/2025/bus-environmental-services-q4-2024.pdf",
+          "note": ""
         }
       ],
       "confidence": 3,
@@ -2979,7 +3132,21 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Hundreds of small Sachkunde-qualified (TRGS 521) remediation firms, no dominant PE platform; freely acquirable, construction/renovation-funded.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          "GUP Schadstoffsanierung (bauschadstoff.de) - independent TRGS 521/519 abatement firm, 25+ yrs",
+          "KACE Concepts GmbH (Stuttgart) - independent TRGS 521 KMF/mineral-wool remediation contractor",
+          "Asbest- & Schadstoffsanierung Essen (schadstoffsanierung-essen.de) - independent regional TRGS 521 KMF specialist"
+        ],
+        "ebitda_margin": "omitted - no niche-specific sourced band",
+        "entry_multiple": "n/a - proprietary (off-market DACH SME); listed environmental-services comps ~7-15x EV/EBITDA per Houlihan Lokey Q4 2024",
+        "bnb_angle": "KMF is a low-differentiation add-on that rides the same crews/permits as asbestos abatement - consolidate regional Schadstoffsanierer to cover the full TRGS 519/521/524 scope under one Fachbetrieb.",
+        "key_risks": [
+          "Labour-intensive, skilled-crew shortage and wage inflation compress margins",
+          "Cyclical exposure to demolition/renovation volumes",
+          "Overlaps heavily with asbestos work - hard to isolate as a standalone thesis"
+        ]
+      },
       "child_ids": []
     },
     "environmental-services-value-chain/hazardous-materials-pollutant-removal/other-building-pollutant-remediation-kmf-pcb-pak-lead-heavy-metals/pcb-pak-pcp-heavy-metal-decontamination-trgs-524": {
@@ -3046,6 +3213,21 @@
           "title": "Gebaeudeschadstoffe beim Bauen im Bestand - BG BAU Bauportal",
           "url": "https://bauportal.bgbau.de/bauportal-42023/thema/sanierung-und-bauwerksunterhalt/gebaeudeschadstoffe-beim-bauen-im-bestand",
           "note": ">50% of residential investment now goes to renovation/modernisation of existing stock - structural demand tailwind for pollutant remediation."
+        },
+        {
+          "title": "",
+          "url": "https://sanierung-gutjahr.de/leistungen/schadstoffsanierung/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.mki-service.de/unser-service/know-how/pak-entfernen",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www2.hl.com/pdf/2025/bus-environmental-services-q4-2024.pdf",
+          "note": ""
         }
       ],
       "confidence": 3,
@@ -3054,7 +3236,21 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Fachbetriebe (TRGS 519/524 qualification) are freely acquirable; several hundred owner-operated firms with little visible financial-sponsor consolidation.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          "Fiedler Schadstoffsanierung GmbH (NRW) - independent TRGS 524 PCB/PAK abatement Fachbetrieb",
+          "Gutjahr Rueckbau & Schadstoffsanierung - independent demolition & TRGS 519/521/524 pollutant remediation firm",
+          "MKI Industrieservice GmbH - independent PAK/PCB decontamination specialist (DGUV 101-004)"
+        ],
+        "ebitda_margin": "omitted - no niche-specific sourced band",
+        "entry_multiple": "n/a - proprietary (off-market DACH SME); listed environmental-services comps ~7-15x EV/EBITDA per Houlihan Lokey Q4 2024",
+        "bnb_angle": "Higher-complexity PCB/PAK/PCP decontamination commands better pricing than commodity asbestos work - build a specialist multi-pollutant Fachbetrieb covering the full TRGS 519/521/524 scope for demolition and industrial clients.",
+        "key_risks": [
+          "Skilled-crew scarcity and strict TRGS 524 protocols raise cost/liability",
+          "Cyclical exposure to demolition/renovation pipeline",
+          "Disposal-cost volatility for hazardous fractions"
+        ]
+      },
       "child_ids": []
     },
     "environmental-services-value-chain/hazardous-materials-pollutant-removal/mould-remediation-schimmelsanierung": {
@@ -3287,6 +3483,26 @@
           "title": "POLYGON Group - Brand-/Wasserschaden",
           "url": "https://www.polygongroup.com/de-DE/",
           "note": "Insurance-driven restoration platform - climate/flooding tailwind, robust reimbursement."
+        },
+        {
+          "title": "",
+          "url": "https://rjctrockner.de/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.mika-trocknungstechnik.de/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.gtggmbh.de/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www2.hl.com/pdf/2025/bus-environmental-services-q4-2024.pdf",
+          "note": ""
         }
       ],
       "confidence": 4,
@@ -3295,7 +3511,21 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Freely acquirable service firms; insurance-funded demand, no licence monopoly.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          "RJC Trockner GmbH (Hainburg) - regional family firm: leak detection, water extraction, structural drying & reinstatement",
+          "MiKa-Trocknungstechnik (Karlsruhe) - independent family firm for water-damage remediation & Bautrocknung",
+          "GTG GmbH (Langenfeld/Rhld., since 1990s) - independent family Leckortung/Trocknung/Sanierung firm"
+        ],
+        "ebitda_margin": "omitted - no niche-specific sourced band",
+        "entry_multiple": "n/a - proprietary (off-market DACH SME); listed environmental-services comps ~7-15x EV/EBITDA per Houlihan Lokey Q4 2024",
+        "bnb_angle": "Highly fragmented, insurer-funded, recurring damage-restoration market - a regional platform densifies coverage, wins insurer/loss-adjuster framework panels and standardises drying equipment utilisation (note ARTUS and Polygon already consolidating).",
+        "key_risks": [
+          "Reimbursement pressure and panel gatekeeping from insurers",
+          "Equipment-intensive with volatile, weather-driven demand",
+          "Established consolidators (Polygon, ARTUS) compete for the same targets"
+        ]
+      },
       "child_ids": []
     },
     "environmental-services-value-chain/hazardous-materials-pollutant-removal/fire-water-damage-restoration-brand-wasserschadensanierung/fire-soot-damage-restoration-brandschaden": {
@@ -3432,6 +3662,21 @@
           "title": "Gebaeudeschadstoffe beim Bauen im Bestand - BG BAU Bauportal",
           "url": "https://bauportal.bgbau.de/bauportal-42023/thema/sanierung-und-bauwerksunterhalt/gebaeudeschadstoffe-beim-bauen-im-bestand",
           "note": "Renovation-in-existing-stock wave plus tightened Gefahrstoffverordnung/asbestos survey duties drive surveying demand."
+        },
+        {
+          "title": "",
+          "url": "https://www.gubas.de/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.spiekermann.de/fokusthema/gebaeudeschadstoffe",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://sunds-umwelt.de/",
+          "note": ""
         }
       ],
       "confidence": 3,
@@ -3440,7 +3685,21 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Fee-based Gutachter/Ingenieurbueros freely acquirable (some person-bound Sachverstaendigen recognition, but firms transfer); fragmented, largely owner-operated, minimal PE consolidation.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          "GUBAS - Dr. Behrens & Partner (Essen) - independent Gutachter for building pollutants, soil/groundwater contamination and Schadstoffkataster",
+          "spiekermann ingenieure gmbh - independent engineering firm doing Gebaeudeschadstoff sampling/analysis (asbestos, KMF, PAK, PCB, heavy metals) with accredited labs",
+          "S&S Ingenieurbuero (sunds-umwelt.de) - independent Norddeutschland office (Hamburg/SH/Niedersachsen) building VDI 6202 Schadstoffkataster / Erkundungen"
+        ],
+        "ebitda_margin": "omitted - no niche-specific sourced band",
+        "entry_multiple": "n/a - proprietary (sub-EUR 5m fee-based Ingenieurbuero; off-market)",
+        "bnb_angle": "Buy a regional Gutachter platform and bolt on adjacent offices to build a national VDI 6202 / DIN SPEC 91484 survey network that becomes the upstream deal-origination funnel for downstream abatement roll-ups.",
+        "key_risks": [
+          "Value is embedded in a few Sachkundige/named experts - high key-person and succession risk",
+          "Fee-based, project-driven revenue with limited recurring contracts and thin capital base",
+          "Liability exposure on missed pollutants in the register"
+        ]
+      },
       "child_ids": []
     },
     "environmental-services-value-chain/hazardous-materials-pollutant-removal/industrial-decontamination-plant-dismantling-industrieruckbau-dekontamination": {
@@ -3574,6 +3833,16 @@
           "title": "RadonTec - Radonschutz und Radonsanierung",
           "url": "https://radontec.de/",
           "note": "One of few specialised providers - virgin, owner-operated, no financial consolidator."
+        },
+        {
+          "title": "",
+          "url": "https://www.binker.eu/radon-im-haus-radonsanierung.html",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.radea.de/",
+          "note": ""
         }
       ],
       "confidence": 3,
@@ -3582,7 +3851,21 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Freely acquirable but tiny emerging pool (tens of firms, <EUR 1m) limits platform scale; no consolidator present.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          "RadonTec GmbH - independent specialist for radon protection, measurement & remediation (new-build & existing)",
+          "Binker Materialschutz GmbH (Dr. G. Binker) - independent recognised radon measurement facility & remediation firm, multiple DE locations",
+          "RADEA (radea.de) - independent radon consultancy/measurement & remediation provider"
+        ],
+        "ebitda_margin": "omitted - no niche-specific sourced band",
+        "entry_multiple": "n/a - proprietary (nascent micro-niche; off-market)",
+        "bnb_angle": "Regulation-created niche (2018 Strahlenschutzgesetz, 300 Bq/m3 reference, radon-priority areas) - too small alone but a bolt-on to a building-diagnostics/abatement platform selling measurement-through-mitigation.",
+        "key_risks": [
+          "Very small, early-stage market - limited standalone scale",
+          "Demand hinges on enforcement of radon-priority-area rules",
+          "Depends on scarce certified Radonfachpersonen"
+        ]
+      },
       "child_ids": []
     },
     "environmental-services-value-chain/recycling-materials-recovery": {
@@ -4662,6 +4945,26 @@
           "title": "Es wird weniger Bauschutt und Bodenaushub recycelt - Staatsanzeiger BW",
           "url": "https://www.staatsanzeiger.de/nachrichten/wirtschaft/es-wird-weniger-bauschutt-und-bodenaushub-recycelt/",
           "note": "Declining recycled construction-waste volumes; ~90% quota already high, limiting structural growth."
+        },
+        {
+          "title": "",
+          "url": "https://feess.de/leistungen/recycling/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.andreasthaler.de/recycling-baustoffe",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.rbs-rcbaustoffe.de/services/baustoffrecycling-aufbereitung",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www2.hl.com/pdf/2025/bus-environmental-services-q4-2024.pdf",
+          "note": ""
         }
       ],
       "confidence": 4,
@@ -4670,7 +4973,21 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Openly acquirable but strategics (Remondis, PreZero, Veolia) and PE buy-and-build already active; permits transferable.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          "Heinrich Feess GmbH & Co. KG (Kirchheim/Teck) - independent family recycler, 75+ yrs, ~300 staff, up to 40 QUBA RC-Baustoffe",
+          "Andreas Thaler GmbH & Co. KG - independent family Bauschutt recycler producing QUBA-certified RC-Baustoffe",
+          "RBS Recycling Baustoffe (rbs-rcbaustoffe.de) - independent regional C&D processor/aufbereitung"
+        ],
+        "ebitda_margin": "omitted - no niche-specific sourced band",
+        "entry_multiple": "n/a - proprietary (off-market DACH SME); listed environmental-services comps ~7-15x EV/EBITDA per Houlihan Lokey Q4 2024",
+        "bnb_angle": "The nationwide Ersatzbaustoffverordnung (EBV, Aug 2023) legitimises and standardises RC-Baustoffe demand - roll up permitted regional recyclers (permits + local aggregate reserves are the moat) into a circular-aggregates platform.",
+        "key_risks": [
+          "Volumes cyclical with construction/demolition activity",
+          "Remondis (Remex) and other majors dominate and compete for targets",
+          "Permitting for processing sites and RC-material market acceptance remain hurdles"
+        ]
+      },
       "child_ids": []
     },
     "environmental-services-value-chain/recycling-materials-recovery/battery-li-ion-recycling-battg-eu-batterieverordnung": {
@@ -6000,6 +6317,26 @@
           "title": "Deponierueckstellung (Wikipedia)",
           "url": "https://de.wikipedia.org/wiki/Deponier%C3%BCckstellung",
           "note": "Operators must build statutory provisions for closure/aftercare - funded, stable demand."
+        },
+        {
+          "title": "",
+          "url": "https://www.au-consult.de/leistungen/deponienachsorge-und-betriebsfuehrung/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://ashauer-ingenieure.de/taetigkeitsfelder/deponien-altablagerungen/deponienachsorge/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.lambda.de/de/produkte-leistungen/dienstleistungen/deponienachsorge/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www2.hl.com/pdf/2025/bus-environmental-services-q4-2024.pdf",
+          "note": ""
         }
       ],
       "confidence": 3,
@@ -6008,7 +6345,21 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Private engineering/monitoring service firms are acquirable; some landfill operators are municipal but the service pool is private.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          "AU Consult GmbH - independent firm for landfill planning, aftercare & Betriebsfuehrung (gas, leachate, monitoring)",
+          "Ashauer Ingenieure - independent engineering office for Deponienachsorge (leachate/surface-water/gas monitoring, annual reports)",
+          "LAMBDA Gesellschaft fuer Gastechnik mbH - independent operator of landfill gas/energy and leachate-treatment systems"
+        ],
+        "ebitda_margin": "omitted - no niche-specific sourced band",
+        "entry_multiple": "n/a - proprietary (off-market DACH SME); listed environmental-services comps ~7-15x EV/EBITDA per Houlihan Lokey Q4 2024",
+        "bnb_angle": "Statutory ~30-year post-closure obligations financed by mandatory provisions create a highly visible, contracted annuity - roll up regional monitoring/operations specialists into a national Deponienachsorge platform.",
+        "key_risks": [
+          "Revenue tied to municipal/public landfill owners and their budgets",
+          "Long-tail liability on gas/leachate containment performance",
+          "Declining number of new closures caps organic TAM growth"
+        ]
+      },
       "child_ids": []
     },
     "environmental-services-value-chain/contaminated-site-remediation-geo-environmental/brownfield-redevelopment-services-flaechenrecycling": {
@@ -7026,6 +7377,26 @@
           "title": "Reconomy acquires Sudamin Rohstoff - Noventiz",
           "url": "https://www.noventiz.de/en/reconomy-acquires-german-company-sudamin-rohstoff/",
           "note": "Further German add-on; trading arm exposed to recyclate/commodity prices."
+        },
+        {
+          "title": "",
+          "url": "https://www.wlw.de/de/firma/innotec-abfallmanagement-gmbh-1117723",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://ccsp.de/dienstleistungen/abfallmakler/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://abfallmanagement.pro/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www2.hl.com/pdf/2025/bus-environmental-services-q4-2024.pdf",
+          "note": ""
         }
       ],
       "confidence": 4,
@@ -7034,7 +7405,21 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Asset-light EfbV broker model acquirable; thousands of certified firms, though Reconomy/EMK already scaling the broker roll-up.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          "Innotec Abfallmanagement GmbH (Kiel) - independent EfbV-certified nationwide waste-management service provider",
+          "CCSP GmbH (ccsp.de) - independent Abfallmakler / disposal-route organiser for waste producers",
+          "abfallmanagement.pro GmbH - independent clearances & nationwide disposal-solutions broker"
+        ],
+        "ebitda_margin": "omitted - no niche-specific sourced band",
+        "entry_multiple": "n/a - proprietary (off-market DACH SME); listed environmental-services comps ~7-15x EV/EBITDA per Houlihan Lokey Q4 2024",
+        "bnb_angle": "Asset-light brokerage/Efb platform scalable by adding regional books of waste-producer contracts and EPR/PRO mandates, cross-selling compliant disposal routes without owning collection assets.",
+        "key_risks": [
+          "Low barriers to entry and thin margins - differentiation is only the customer book and certifications",
+          "Disintermediation risk as large disposers contract producers directly",
+          "Compliance/liability if brokered routes breach KrWG or EfbV requirements"
+        ]
+      },
       "child_ids": []
     },
     "environmental-services-value-chain/waste-collection-disposal/disposal-compliance-documentation-eanv-nachweisverfahren": {
@@ -7361,6 +7746,16 @@
           "title": "Betriebsfuehrung - ALMAWATECH",
           "url": "https://www.almawatech.com/betriebsmanagement/",
           "note": "Independent operator serving metal/chemical/food industry; fragmented specialist landscape."
+        },
+        {
+          "title": "",
+          "url": "https://www.aws-gw.de/abwasser/betriebsfuehrung",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.almawatech.com/betriebsfuehrung/anlagenmanagement-von-der-almawatech-gmbh/",
+          "note": ""
         }
       ],
       "confidence": 3,
@@ -7369,7 +7764,21 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Asset-light recurring service contracts, freely acquirable; owner-operated specialists (Almawatech, cobos) with no financial consolidator.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          "Cobos Fluid Solutions GmbH (cobos-fs.de) - independent operator/Betriebsfuehrung of industrial wastewater & process-water plants",
+          "AWS GmbH (aws-gw.de) - independent contract operation (Betriebsfuehrung) of industrial WWTPs",
+          "ALMAWATECH GmbH - independent Anlagenmanagement/Betriebsfuehrung of industrial water plants"
+        ],
+        "ebitda_margin": "omitted - no niche-specific sourced band",
+        "entry_multiple": "n/a - proprietary (off-market DACH SME); listed environmental-services comps ~7-15x EV/EBITDA per Houlihan Lokey Q4 2024",
+        "bnb_angle": "Recurring, permit-anchored O&M annuity with high customer switching costs - platform can bolt on chemicals supply, sampling/reporting and remote-monitoring to lift contract value per site.",
+        "key_risks": [
+          "Small operator pool dominated by OEM/majors (EnviroChemie, Veolia, Remondis) as competitors",
+          "Technical liability for discharge-permit breaches at client plants",
+          "Contracts often tied to the OEM that built the plant, limiting independent-operator SAM"
+        ]
+      },
       "child_ids": []
     },
     "environmental-services-value-chain/water-wastewater-services/decentralized-sewage-plants-kleinklaeranlagen-service-emptying": {
@@ -8915,6 +9324,21 @@
           "title": "Muenzer Bioindustrie: UCO collection",
           "url": "https://muenzer.com/de-en/products-and-services/household-collection",
           "note": "National integrated collector/biodiesel producer; RED III / biofuel-mandate demand tailwind, feedstock-price exposure."
+        },
+        {
+          "title": "",
+          "url": "https://www.energor.de/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.altfett-verwertung-west.de/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.altfett-lesch.de/",
+          "note": ""
         }
       ],
       "confidence": 4,
@@ -8923,7 +9347,21 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Private regional collectors freely acquirable; national feedstock groups (SARIA/ReFood, Muenzer) already vertically integrating.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          "Energor GmbH - independent regional Entsorgungsfachbetrieb collecting gastronomy fats/food waste with own biogas plant",
+          "Altfett-Verwertung West GmbH - independent regional collector/recycler of used cooking fat",
+          "Altfettrecycling Lesch (since 1981) - independent family UCO collector serving ~25,000 gastronomy sites"
+        ],
+        "ebitda_margin": "omitted - no niche-specific sourced band",
+        "entry_multiple": "n/a - proprietary (off-market DACH SME); listed environmental-services comps ~7-15x EV/EBITDA per Houlihan Lokey Q4 2024",
+        "bnb_angle": "Fragmented regional UCO collectors sit on recurring, RED-II-certified feedstock routes prized by biodiesel majors - consolidate the collection long-tail into a route-dense platform with secured downstream offtake.",
+        "key_risks": [
+          "Feedstock margins swing with volatile UCO/biodiesel prices and RED-II policy",
+          "Vertically integrated renderers (SARIA/ReFood, Muenzer) compete for the same routes",
+          "Category-3 ABP (Reg. EC 1069/2009) handling/compliance burden"
+        ]
+      },
       "child_ids": []
     },
     "environmental-services-value-chain/waste-collection-disposal/thermal-waste-treatment-waste-to-energy-mva-ebs-kraftwerke": {

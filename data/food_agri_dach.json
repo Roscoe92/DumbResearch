@@ -246,6 +246,11 @@
           "title": "IFS Food Zertifizierung - Eurofins",
           "url": "https://www.eurofins.de/assurance/lebensmittelsicherheit/gfsi-zertifizierung/ifs-zertifizierung/ifs-food/",
           "note": "Eurofins among largest DE certifiers; TIC consolidators already active (low headroom)."
+        },
+        {
+          "title": "",
+          "url": "https://aventis-advisors.com/tic-company-valuations/",
+          "note": ""
         }
       ],
       "confidence": 4,
@@ -254,7 +259,16 @@
       "pe_activity": [],
       "investability": "restricted",
       "investability_note": "DAkkS accreditation + IFS/BRCGS scheme approval required (licence-bound); acquirable but with regulatory-consent friction.",
-      "actionable": {},
+      "actionable": {
+        "ebitda_margin": "TIC/certification sector typically 12-20% EBITDA margin",
+        "entry_multiple": "TIC EV/EBITDA public median ~14.3x (2025) - reflects the accreditation-scarcity premium",
+        "bnb_angle": "Not actionable as a founder/family buyout: IFS Food and BRCGS site certification in DACH is dominated by TÜV SÜD/Rheinland/Nord, DQS, SGS and Bureau Veritas (all excluded listed strategics or large German-owned bodies); DAkkS/GFSI accreditation barriers mean no genuinely independent, acquirable founder-owned SME body of scale was verifiable.",
+        "key_risks": [
+          "Strategic/TIC dominance and accreditation moat block SME entry",
+          "Auditor scarcity",
+          "Price competition; node flagged 'too late/restricted'"
+        ]
+      },
       "child_ids": []
     },
     "food-agriculture-services-value-chain/food-certification-auditing/gfsi-food-safety-scheme-certification-ifs-food-brcgs-fssc-22000/fssc-22000-iso-22000-management-system-certification": {
@@ -320,6 +334,16 @@
           "title": "FSSC 22000 | SGS Germany",
           "url": "https://www.sgs.com/de-de/services/fssc-22000",
           "note": "SGS positioned as largest global FSSC certifier"
+        },
+        {
+          "title": "",
+          "url": "https://www.foodquality-campus.de/brcgs-ifs-food-ifs-progress-oder-iso-fssc-22000-welcher-standard-passt-zu-welchem-lebensmittelbetrieb/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://aventis-advisors.com/tic-company-valuations/",
+          "note": ""
         }
       ],
       "confidence": 4,
@@ -328,7 +352,16 @@
       "pe_activity": [],
       "investability": "restricted",
       "investability_note": "Bodies need DAkkS accreditation (Sachkunde/licence-bound) and the ~13-25 accredited bodies are already dominated by TIC consolidators (SGS, Eurofins/ARS PROBATA, DEKRA, DQS, all three TUEV) - few independents left to acquire.",
-      "actionable": {},
+      "actionable": {
+        "ebitda_margin": "TIC/certification sector typically 12-20% EBITDA margin",
+        "entry_multiple": "TIC EV/EBITDA public median ~14.3x (2025) - accreditation-scarcity premium",
+        "bnb_angle": "Not actionable as a founder/family buyout: FSSC 22000 / ISO 22000 certification in DACH is dominated by DNV, DQS, SGS, TÜV and Bureau Veritas; DAkkS/Foundation-FSSC accreditation requirements mean no genuinely independent, acquirable founder-owned SME certification body was verifiable.",
+        "key_risks": [
+          "Strategic/TIC dominance and accreditation moat block SME entry",
+          "Auditor scarcity",
+          "Price competition; node flagged 'too late/restricted'"
+        ]
+      },
       "child_ids": []
     },
     "food-agriculture-services-value-chain/food-certification-auditing/organic-bio-certification-eu-oko-vo-kontrollstellen": {
@@ -861,6 +894,21 @@
           "title": "Zertifizierungsstellen - FSC Deutschland",
           "url": "https://www.fsc-deutschland.de/verarbeitung-handel/produktkettenzertifizierung/zertifizierungsstellen/",
           "note": "CoC bodies are ASI-accredited (licence friction on the certification leg)."
+        },
+        {
+          "title": "",
+          "url": "https://www.gfa-cert.com/en/types-of-certification/fsc-certification/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.gfa-cert.com/en/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://aventis-advisors.com/tic-company-valuations/",
+          "note": ""
         }
       ],
       "confidence": 3,
@@ -869,7 +917,24 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "EPR/LUCID compliance advisory leg is freely acquirable and dominant; only the FSC/PEFC CoC audit leg carries ASI-accreditation friction. Strong PPWR/EPR regulatory tailwind but Interzero/Reclay/Lizenzero already consolidating compliance side.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          {
+            "name": "GFA Certification GmbH (Hamburg)",
+            "note": "Independent, DAkkS/ASI-accredited certification body founded 1999; leading FSC/PEFC chain-of-custody plus RSPO/SURE-REDcert/Blue Angel; 3,000+ certificates. Rare genuinely independent (non-TÜV/SGS/DNV) DACH CoC body.",
+            "source": "https://www.gfa-cert.com/en/types-of-certification/fsc-certification/"
+          }
+        ],
+        "ebitda_margin": "TIC/certification sector typically 12-20% EBITDA margin",
+        "entry_multiple": "TIC EV/EBITDA public median ~14.3x (2025), peaked 17.2x; niche/private CoC bodies trade materially below the listed majors",
+        "bnb_angle": "EU PPWR/VerpackDG (2026) and EPR/LUCID drive both annual chain-of-custody audits and recurring registration/compliance work; an independent accredited body like GFA plus a bolt-on EPR-compliance service could form a packaging-sustainability compliance platform where the accreditation is the moat.",
+        "key_risks": [
+          "Accreditation scope constraints and audit-independence rules limit cross-sell",
+          "TÜV/SGS/DNV dominance and price pressure",
+          "Revenue is regulation-dependent (timing of PPWR/VerpackDG)",
+          "Auditor scarcity"
+        ]
+      },
       "child_ids": []
     },
     "food-agriculture-services-value-chain/cold-chain-food-logistics": {
@@ -1130,6 +1195,16 @@
           "title": "Blackstone kauft Kuehllogistik-Immobilien der Nagel-Gruppe",
           "url": "https://www.handelsblatt.com/finanzen/immobilien/kuehlhaeuser-blackstone-kauft-portfolio-an-kuehllogistik-immobilien-der-nagel-gruppe/28067466.html",
           "note": "PE (Blackstone) buying cold-store real estate portfolio"
+        },
+        {
+          "title": "",
+          "url": "https://www.stenkamp.net/ueber-uns/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.kuehllogistik-theiss.at/",
+          "note": ""
         }
       ],
       "confidence": 4,
@@ -1138,7 +1213,29 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Privately/family-owned regional cold stores are freely acquirable, but capital-heavy (real estate, energy) and consolidation is already advanced - NewCold, Constellation, Lineage, Americold and Blackstone (Nagel portfolio) are actively rolling up.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          {
+            "name": "Stenkamp (Transporte/Logistik) GmbH",
+            "note": "Owner-managed family logistics group (Burlo/Duisburg/Voerde), ~55,000 m2, explicit focus on temperature-controlled/fresh food storage and distribution.",
+            "source": "https://www.stenkamp.net/ueber-uns/"
+          },
+          {
+            "name": "Kühllogistik Theiss (AT)",
+            "note": "Independent Austrian chilled/fresh food storage & regional distribution operator (DACH).",
+            "source": "https://www.kuehllogistik-theiss.at/"
+          }
+        ],
+        "ebitda_margin": "omitted - no reliable niche-specific source (asset-heavy 3PL)",
+        "entry_multiple": "n/a - proprietary; asset-heavy refrigerated-property/logistics valuations vary widely",
+        "bnb_angle": "Chilled multi-temp is more fragmented and owner-operated than deep-freeze (VDKL counts 233 members / 496 sites); consolidate regional Kühlhäuser into a multi-temp network with cross-dock hubs and combine recurring 3PL contracts with the underlying refrigerated real estate. Energy-efficiency capex is a clear value lever.",
+        "key_risks": [
+          "High asset and energy intensity",
+          "Retailer/customer buyer power on rates",
+          "Large capex to modernise refrigeration/comply with F-gas",
+          "Structurally thin logistics margins"
+        ]
+      },
       "child_ids": []
     },
     "food-agriculture-services-value-chain/cold-chain-food-logistics/refrigerated-transport-tk-distribution-frischedienst": {
@@ -1761,6 +1858,26 @@
           "title": "Chancen und Herausforderungen durch Private Equity im Handwerk (LFI München)",
           "url": "https://lfi-muenchen.de/wp-content/uploads/2025/10/2025_Bachner_Private-Equity.pdf",
           "note": "58 PE deals 2010-2024; succession-driven, low consolidation of craft trades."
+        },
+        {
+          "title": "",
+          "url": "https://www.kaelte-klima-langer.de/kaeltetechnik_gewerbekaelte.html",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.hbh-kaelte.de/leistungen/wartung-service",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.kaelte-klima-gmbh.de/Leistungsbereiche/kaelte-klima-service/wartung.htm",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://firstpagesage.com/business/hvac-ebitda-valuation-multiples/",
+          "note": ""
         }
       ],
       "confidence": 4,
@@ -1769,7 +1886,38 @@
       "pe_activity": [],
       "investability": "restricted",
       "investability_note": "Kälteanlagenbauer is a Meisterpflicht craft (Anlage A HwO) plus F-Gas Sachkundenachweis; acquirable but licence/Meister-bound. PE buy-and-build in TGA/Handwerk already targeting this space (VDKF 900+ members).",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          {
+            "name": "Kälte Klima Langer",
+            "note": "Independent Gewerbekälte / commercial refrigeration service firm.",
+            "source": "https://www.kaelte-klima-langer.de/kaeltetechnik_gewerbekaelte.html"
+          },
+          {
+            "name": "Arktika GmbH",
+            "note": "Independent refrigeration-plant maintenance/service (industry & commerce).",
+            "source": "https://arktika-gmbh.de/kaeltetechnik/kaelteanlagen-wartung/"
+          },
+          {
+            "name": "HBH-Kälte GmbH & Co. KG",
+            "note": "Owner-operated refrigeration maintenance & service.",
+            "source": "https://www.hbh-kaelte.de/leistungen/wartung-service"
+          },
+          {
+            "name": "KÄLTE-KLIMA Firmengruppe",
+            "note": "Independent group offering maintenance, F-gas leak-testing (Dichtheitsprüfung) and full-service.",
+            "source": "https://www.kaelte-klima-gmbh.de/Leistungsbereiche/kaelte-klima-service/wartung.htm"
+          }
+        ],
+        "ebitda_margin": "omitted - no reliable niche-specific source",
+        "entry_multiple": "SME HVAC/refrigeration service ~3.4-7.8x EBITDA; sector M&A ~10.9x EV/EBITDA in 2025",
+        "bnb_angle": "F-gas leak-testing and ChemKlimaschutzV mandates give recurring compliance revenue, but node is flagged 'too late/restricted' - building-services overlap means PE and strategics are already consolidating; any roll-up must differentiate through food/cold-store verticalisation and refrigerant-transition (CO2/NH3) capability.",
+        "key_risks": [
+          "Crowded - PE already active in refrigeration/HVAC service",
+          "Refrigerant-regulation transition risk (F-gas phase-down)",
+          "Engineer scarcity and commoditised service pricing"
+        ]
+      },
       "child_ids": []
     },
     "food-agriculture-services-value-chain/cold-chain-food-logistics/temperature-monitoring-cold-chain-compliance-tech": {
@@ -2247,6 +2395,21 @@
           "title": "Umsatz von Lohnunternehmen in der Landwirtschaft (Statista)",
           "url": "https://de.statista.com/statistik/daten/studie/163392/umfrage/umsatz-von-lohnunternehmen-in-der-landwirtschaft-seit-2004/",
           "note": "Sector revenue tied to farm incomes / GAP subsidies (reimbursement exposure)."
+        },
+        {
+          "title": "",
+          "url": "http://www.lohnunternehmen-rupp.de/unternehmen.php",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.lu-hoegl.de/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.agrarheute.com/land-leben/deutschlands-groesste-lohnunternehmer-528593",
+          "note": ""
         }
       ],
       "confidence": 4,
@@ -2255,7 +2418,29 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "~6,000 firms, ~EUR 3bn, unlicensed and freely acquirable; investor involvement explicitly 'not widespread', large succession gap = virgin whitespace. But capital-heavy (combines/forage harvesters), seasonal, low-margin.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          {
+            "name": "Lohnunternehmen Rupp",
+            "note": "Family contracting business registered 1962; combine harvesting and silage chopping a core service; independent.",
+            "source": "http://www.lohnunternehmen-rupp.de/unternehmen.php"
+          },
+          {
+            "name": "Lohnunternehmen Högl",
+            "note": "40+ yrs, independent family firm with 30+ combines and 5 forage harvesters.",
+            "source": "https://www.lu-hoegl.de/"
+          }
+        ],
+        "ebitda_margin": "omitted - no reliable niche-specific source",
+        "entry_multiple": "n/a - proprietary; capital-intensive seasonal contracting",
+        "bnb_angle": "Watchlist rather than platform: consolidation logic is fleet utilisation and geographic/seasonal spread of very expensive self-propelled foragers/combines (EUR 0.5m+ each), but asset intensity, weather risk and thin margins cap returns - best pursued as bolt-ons to a broader agri-services platform, not a standalone buy-and-build.",
+        "key_risks": [
+          "Extreme seasonality and weather exposure",
+          "High capex and machinery residual-value risk",
+          "Structurally thin margins",
+          "Skilled-operator scarcity"
+        ]
+      },
       "child_ids": []
     },
     "food-agriculture-services-value-chain/agricultural-contracting-farm-services/agricultural-contracting-lohnunternehmen/sowing-tillage-crop-establishment": {
@@ -2768,6 +2953,21 @@
           "title": "BRS/Rind-Schwein - Klauenpflege",
           "url": "https://www.rind-schwein.de/brs-news/klauenpflege.html",
           "note": "Klauenpfleger qualification is a training standard, not a statutory licensing monopoly"
+        },
+        {
+          "title": "",
+          "url": "https://www.klauenpflege.de/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://findeisenklauenpflege.de/unternehmen-klauenpfleger/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://web2.cylex.de/firma-home/kuhperfect-gmbh-_-co--kg-7683738.html",
+          "note": ""
         }
       ],
       "confidence": 3,
@@ -2776,7 +2976,33 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Fragmented, owner-operated mobile SMEs, succession-driven and roll-up-friendly. 'Gepruefte/r Klauenpfleger/in' is a voluntary standardised qualification, not a licensing monopoly - so no professional-reservation barrier to outside ownership (unlike the sibling AI/Breeding node, which stays blocked).",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          {
+            "name": "Höchstädter Klauenpflege GmbH",
+            "note": "Founded 2000, ~1.5m animals trimmed, employs state-certified 'Geprüfte Klauenpfleger'; independent, founder-run.",
+            "source": "https://www.klauenpflege.de/"
+          },
+          {
+            "name": "Findeisen Klauenpflege",
+            "note": "25+ qualified trimmers, >30 yrs; owns its own crush-chute maker (Defi Woldegk); independent.",
+            "source": "https://findeisenklauenpflege.de/unternehmen-klauenpfleger/"
+          },
+          {
+            "name": "Kuhperfect GmbH & Co. KG",
+            "note": "Founder-led by Hubert Dahmen (farmer + certified trimmer); hoof care, advisory & product dev.",
+            "source": "https://web2.cylex.de/firma-home/kuhperfect-gmbh-_-co--kg-7683738.html"
+          }
+        ],
+        "ebitda_margin": "omitted - no reliable niche-specific source",
+        "entry_multiple": "n/a - proprietary; owner-operated micro-SMEs, sub-institutional pricing",
+        "bnb_angle": "Roll up regional mobile trimming rounds into a single certified, branded network with route density, shared crush-chute fleet and central scheduling; the 8-12 week trim cycle gives predictable, recurring revenue and a base to cross-sell stall hygiene and advisory.",
+        "key_risks": [
+          "Micro-scale/key-man dependence and scarce certified Klauenpfleger labour",
+          "Very low barriers to entry keep the niche fragmented and price-competitive",
+          "EBITDA is hard to institutionalise away from the founder-operator"
+        ]
+      },
       "child_ids": []
     },
     "food-agriculture-services-value-chain/agricultural-contracting-farm-services/livestock-services-klauenpflege-besamung-stallhygiene/ai-breeding-services-besamung-tierzucht": {
@@ -3437,6 +3663,21 @@
           "title": "EUR-Lex - Regulation (EU) 2023/1230 on machinery",
           "url": "https://eur-lex.europa.eu/eli/reg/2023/1230/oj",
           "note": "Machinery Regulation supersedes Directive 2006/42/EC from 20 Jan 2027"
+        },
+        {
+          "title": "",
+          "url": "https://www.peuckmann.com/uber-uns",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://hoffmeister-baeckereimaschinen.de/serviceleistungen",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://rewadi-baeckereitechnik.de/",
+          "note": ""
         }
       ],
       "confidence": 3,
@@ -3445,7 +3686,39 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Manufacturer-independent field service (ahk, MBM Lambeck, AMS-Kohl); ~300-500 firms, owner-operated, no financial consolidator. Asset-light recurring service margins; open to acquire. Declining artisan-bakery count is a mild headwind offset by industrial bakeries.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          {
+            "name": "Bäckerei Service Peuckmann GmbH & Co. KG",
+            "note": "Family firm founded 1997 by Peter Peuckmann, now run by 3 brothers (~22 staff, Rietberg); manufacturer-independent maintenance, repair & retrofit of bakery machines.",
+            "source": "https://www.peuckmann.com/uber-uns"
+          },
+          {
+            "name": "MBM Lambeck",
+            "note": "Manufacturer-independent regional bakery-machine service (Brandenburg); owner-operated.",
+            "source": "https://www.mbm-lambeck.de/reparatur-service-baeckereimaschinen"
+          },
+          {
+            "name": "Hoffmeister Bäckereimaschinen",
+            "note": "2nd-generation family firm, 33 yrs; service, repair, sale.",
+            "source": "https://hoffmeister-baeckereimaschinen.de/serviceleistungen"
+          },
+          {
+            "name": "REWADI GmbH",
+            "note": "Independent bakery-technology maintenance & repair (ovens, dividers, dishwashers).",
+            "source": "https://rewadi-baeckereitechnik.de/"
+          }
+        ],
+        "ebitda_margin": "omitted - no reliable niche-specific source",
+        "entry_multiple": "n/a - proprietary; small industrial field-service SMEs",
+        "bnb_angle": "Consolidate fragmented manufacturer-independent service firms into a branded national network serving both craft and industrial bakeries; recurring maintenance contracts, spare-parts margin and modernisation/retrofit give annuity revenue, and technician scarcity plus bakery consolidation favour a scaled 24/7 service player.",
+        "key_risks": [
+          "Severe technician scarcity limits organic scaling",
+          "Dependence on OEM spare-parts access for older/branded machines",
+          "Long-run decline in craft-bakery count shrinks the installed base",
+          "Very small individual company scale"
+        ]
+      },
       "child_ids": []
     },
     "food-agriculture-services-value-chain/food-processing-equipment-service-hygiene/food-beverage-processing-machine-maintenance-repair-manufacturer-independent/meat-dairy-brewery-machine-service": {
@@ -3717,6 +3990,26 @@
           "title": "Eichservice – Waagen Eichung aller Hersteller – seca service",
           "url": "https://de.secashop.com/services/calibration-service",
           "note": "Mandatory legal calibration/Eichung cycle underpins recurring, accreditation-bound service revenue."
+        },
+        {
+          "title": "",
+          "url": "https://www.neue-verpackung.de/markt/generationswechsel-bei-hoefelmeyer-waagen/2238282",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.as-waegetechnik.de/produkte/kontrollwaagen/kontrollwaage-mit-metalldetektor/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.koppelmann.de/service-und-gewichtsgestellung",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.waagen-dammaschke.de/produkte/lebensmittelindustrie",
+          "note": ""
         }
       ],
       "confidence": 4,
@@ -3725,7 +4018,39 @@
       "pe_activity": [],
       "investability": "restricted",
       "investability_note": "~300-500 firms, asset-light recurring calibration/inspection; Eichung is legal metrology requiring state-recognised Prüfstelle / DAkkS accreditation (MessEG), a licence hurdle but firms remain acquirable.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          {
+            "name": "Höfelmeyer Waagen GmbH",
+            "note": "Family firm founded 1987 (Reinhard Höfelmeyer; son Felix now MD/shareholder); scale service, calibration/Eichung and inspection technology for food industry.",
+            "source": "https://www.hoefelmeyer.de/services"
+          },
+          {
+            "name": "AS-Wägetechnik GmbH",
+            "note": "Independent nationwide service of checkweighers, metal detectors and legal calibration (Eichung).",
+            "source": "https://www.as-waegetechnik.de/produkte/kontrollwaagen/kontrollwaage-mit-metalldetektor/"
+          },
+          {
+            "name": "Koppelmann Wägetechnik GmbH (Holzwickede)",
+            "note": "ISO 9001-certified independent scale service/Eichung/maintenance.",
+            "source": "https://www.koppelmann.de/service-und-gewichtsgestellung"
+          },
+          {
+            "name": "Waagen Dammaschke",
+            "note": "Independent metal-detector and X-ray inspection service for the food industry.",
+            "source": "https://www.waagen-dammaschke.de/produkte/lebensmittelindustrie"
+          }
+        ],
+        "ebitda_margin": "omitted - no reliable niche-specific source",
+        "entry_multiple": "n/a - proprietary; legal-metrology field-service SMEs",
+        "bnb_angle": "Recurring statutory Eichung plus validation of checkweighers, metal detectors and X-ray systems is sticky, compliance-mandated (HACCP/IFS/BRC) revenue; consolidate manufacturer-agnostic independent service firms into a national inspection-service platform - though node is flagged 'too late/restricted'.",
+        "key_risks": [
+          "OEM service-arm competition (Minebea Intec/Sesotec)",
+          "Calibration-accreditation dependency",
+          "Technician scarcity",
+          "'Too late/restricted' positioning"
+        ]
+      },
       "child_ids": []
     },
     "food-agriculture-services-value-chain/food-processing-equipment-service-hygiene/filling-packaging-line-service": {
@@ -3877,6 +4202,31 @@
           "title": "EUR-Lex - Regulation (EU) 2024/573 on fluorinated greenhouse gases",
           "url": "https://eur-lex.europa.eu/eli/reg/2024/573/oj",
           "note": "(EU) 2024/573 repealed (EU) 517/2014 effective 11 Mar 2024; fixes internal inconsistency with cold-chain nodes"
+        },
+        {
+          "title": "",
+          "url": "https://andertenkaelte.de/ueber-uns/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.amberger-kuehltechnik.de/unternehmen/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.roter-kaeltetechnik.de/ammoniak-kaelteanlagen-r717/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://firstpagesage.com/business/hvac-ebitda-valuation-multiples/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.capstonepartners.com/insights/article-hvac-equipment-sector-ma-update/",
+          "note": ""
         }
       ],
       "confidence": 3,
@@ -3885,7 +4235,33 @@
       "pe_activity": [],
       "investability": "restricted",
       "investability_note": "Acquirable but personnel need F-Gas/Kälteschein Sachkunde; NH3/CO2 handling licence-bound, otherwise fragmented owner-operated pool.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          {
+            "name": "Anderten Kälte + Klima GmbH",
+            "note": "Family firm founded 1961 (Karl Heinz Anderten), 3rd generation (Christoph & Markus Anderten); dedicated NH3 industrial refrigeration incl. service & maintenance.",
+            "source": "https://andertenkaelte.de/ueber-uns/"
+          },
+          {
+            "name": "Amberger Kühltechnik GmbH (AKÜ)",
+            "note": "Owner-managed (Schmid family lineage), early NH3-technology adopter; industrial & commercial refrigeration full-service across Germany.",
+            "source": "https://www.amberger-kuehltechnik.de/unternehmen/"
+          },
+          {
+            "name": "roter kältetechnik",
+            "note": "Independent NH3/R717 industrial refrigeration specialist; installation, service & compliance.",
+            "source": "https://www.roter-kaeltetechnik.de/ammoniak-kaelteanlagen-r717/"
+          }
+        ],
+        "ebitda_margin": "omitted - no reliable niche-specific source (service-heavy refrigeration)",
+        "entry_multiple": "SME HVAC/refrigeration service ~3.4-7.8x EBITDA; broader sector M&A averaged ~10.9x EV/EBITDA in 2025",
+        "bnb_angle": "Build a safety-regulated NH3/CO2 service platform: recurring BetrSichV/TRBS pressure-equipment inspections plus the F-gas-free 'natural refrigerant' migration create sticky, compliance-driven revenue; consolidate regional Kältetechnik firms into national coverage of slaughterhouses, dairies and breweries.",
+        "key_risks": [
+          "Node flagged 'too late/restricted' - PE/strategics already active in refrigeration service",
+          "Acute scarcity of qualified refrigeration engineers",
+          "Project cyclicality and significant safety/ammonia liability"
+        ]
+      },
       "child_ids": []
     },
     "food-agriculture-services-value-chain/food-processing-equipment-service-hygiene/commercial-kitchen-equipment-service-grokuchentechnik": {
@@ -4798,6 +5174,21 @@
           "title": "Verwaltung von Flaechen - Bundesverband der gemeinnuetzigen Landgesellschaften",
           "url": "https://www.blg-berlin.de/die-gemeinnuetzigen-landgesellschaften/die-taetigkeiten-a-z/verwaltung-von-flaechen/",
           "note": "~105,000 ha managed by non-profit Landgesellschaften; private managers/brokers fill the commercial remainder."
+        },
+        {
+          "title": "",
+          "url": "https://carmienke.de/landw-pachtverwaltung/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.evers-landmakler.de/ackerland-pachten-landwirtschaftliche-flaechen/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.gis.gmbh/agrar/pachtverwaltung.html",
+          "note": ""
         }
       ],
       "confidence": 3,
@@ -4806,7 +5197,29 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Private estate managers / Agrarmakler / Pachtverwalter are freely acquirable and asset-light; but the pool is tiny (EUR 0.2-2m firms) and large public/gemeinnuetzige Landgesellschaften hold a big share of managed land non-commercially.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          {
+            "name": "Carmienke Immobilien",
+            "note": "Decades of professional agricultural lease/land administration (Pachtverwaltung), matching landlords and tenants; independent regional service provider.",
+            "source": "https://carmienke.de/landw-pachtverwaltung/"
+          },
+          {
+            "name": "Evers Landmakler",
+            "note": "Independent farmland leasing/administration (Verpachtung landwirtschaftlicher Flächen).",
+            "source": "https://www.evers-landmakler.de/ackerland-pachten-landwirtschaftliche-flaechen/"
+          }
+        ],
+        "ebitda_margin": "omitted - no reliable niche-specific source",
+        "entry_multiple": "n/a - proprietary; 'too small' - sub-scale fee businesses",
+        "bnb_angle": "The recurring, contractable slice (Pachtverwaltung) is genuine but structurally hard to consolidate: the field is dominated by asset-owning Gutsverwaltungen, church/foundation Rentkammern and one-person makers. A credible roll-up would need a software/platform angle (e.g. GIS-type Pachtverwaltung tooling) rather than pure service consolidation.",
+        "key_risks": [
+          "Sub-scale with little institutionalisable recurring EBITDA",
+          "Relationship/trust-based, key-man revenue",
+          "Competes with free bank/Genossenschaft services and cheap software",
+          "No obvious multi-arbitrage - thin acquisition pipeline"
+        ]
+      },
       "child_ids": []
     },
     "food-agriculture-services-value-chain/agri-inputs-distribution-advisory-land-management/subsidy-application-agricultural-surveying-services-gap-agrarantrag": {
@@ -5705,6 +6118,21 @@
           "title": "Pest Control Market - Fortune Business Insights",
           "url": "https://www.fortunebusinessinsights.com/pest-control-market-102854",
           "note": "Hygiene/disinfection sits within the broader ~4-6% pest & hygiene services market"
+        },
+        {
+          "title": "",
+          "url": "https://brarbe.de/desinfektionhygienefachkraft/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.schwarz-umweltservice.de/zertifizierungen-und-mitgliedschaften/desinfektor-owl/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://firstpagesage.com/business/ebitda-multiples-for-pest-control-companies/",
+          "note": ""
         }
       ],
       "confidence": 3,
@@ -5713,7 +6141,38 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Freely acquirable service (IfSG/BioStoffV Sachkunde required, transfers with firm); demand normalised post-COVID. Overlaps cleaning and pest, where consolidators are already active.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          {
+            "name": "DiG GmbH / DiG Sanitätsdienst (Gelsenkirchen)",
+            "note": "Independent provider of state-certified Desinfektor services (IfSG), incl. food-production areas.",
+            "source": "https://www.dig-sanitaetsdienst.de/staatlich-gepruefter-desinfektor-dienstleister/"
+          },
+          {
+            "name": "TS-Sauber Gebäudereinigung GmbH",
+            "note": "Certified Desinfektor per IfSG §17(2) for care, medicine and the food industry; owner-operated.",
+            "source": "https://www.ts-sauber.eu/dienstleistungen/gepruefter-desinfektor/"
+          },
+          {
+            "name": "Brarbe",
+            "note": "Independent disinfection & hygiene / Desinfektor (Hessen).",
+            "source": "https://brarbe.de/desinfektionhygienefachkraft/"
+          },
+          {
+            "name": "Schwarz Umweltservice",
+            "note": "Independent cleaning/Desinfektor provider (OWL/Bielefeld).",
+            "source": "https://www.schwarz-umweltservice.de/zertifizierungen-und-mitgliedschaften/desinfektor-owl/"
+          }
+        ],
+        "ebitda_margin": "no direct source; hygiene/pest-services proxy ~15-25% EBITDA margin",
+        "entry_multiple": "hygiene/pest-services proxy: ~7-10x EBITDA mid-market tuck-ins, ~3.5-5x for owner-operators",
+        "bnb_angle": "Bundle IfSG disinfection with pest control and food-plant hygiene into a single compliance-services platform; demand is recurring and outbreak/audit-driven, and the scarce state-certified Desinfektor licence is the gating asset for scale.",
+        "key_risks": [
+          "Overlaps crowded cleaning and pest-control markets",
+          "Demand partly event-driven (post-Covid normalisation)",
+          "Labour/licensing dependent with low switching costs"
+        ]
+      },
       "child_ids": []
     },
     "food-agriculture-services-value-chain/pest-control-food-industry-hygiene/food-plant-deep-cleaning-cip-hygiene-services": {
@@ -5785,6 +6244,31 @@
           "title": "Reinigung Lebensmittelindustrie / CIP - Piepenbrock",
           "url": "https://www.piepenbrock.de/dienstleistungen/industriereinigung/maschinen-anlagenreinigung/reinigung-lebensmittelindustrie/",
           "note": "Large FM provider offering CIP/food-plant hygiene; signals FM-giant presence at the top end of a fragmented base."
+        },
+        {
+          "title": "",
+          "url": "https://www.cleanfix-service.de/das-unternehmen/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://pht.group/2024/02/26/reinigung-lebensmittelindustrie/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.ibr-vorpommern.de/industriereinigung/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://firstpagesage.com/business/ebitda-multiples-for-pest-control-companies/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://ctacquisitions.com/answers/why-pest-control-higher-multiples/",
+          "note": ""
         }
       ],
       "confidence": 3,
@@ -5793,7 +6277,33 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Freely acquirable commercial service; but labour-intensive contract cleaning has modest margins, and large FM players (e.g. Piepenbrock) already compete for the biggest food-plant contracts.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          {
+            "name": "CleanFix Service GmbH",
+            "note": "Founded 2011; independent provider of industrial and plant cleaning in the food sector.",
+            "source": "https://www.cleanfix-service.de/das-unternehmen/"
+          },
+          {
+            "name": "PHT Group",
+            "note": "Independent specialist in food-industry industrial cleaning (foam/plant cleaning for dairies, breweries, meat, bakery).",
+            "source": "https://pht.group/2024/02/26/reinigung-lebensmittelindustrie/"
+          },
+          {
+            "name": "IBR (Vorpommern)",
+            "note": "Independent regional industrial-cleaning SME (Mecklenburg-Vorpommern).",
+            "source": "https://www.ibr-vorpommern.de/industriereinigung/"
+          }
+        ],
+        "ebitda_margin": "no direct source; hygiene/pest-services proxy ~15-25% EBITDA margin",
+        "entry_multiple": "hygiene/pest-services proxy: ~7-10x EBITDA for mid-market operators",
+        "bnb_angle": "Outsourced food-plant deep cleaning is sticky, audit-mandated (IFS/BRCGS) recurring-labour work; consolidate regional food-capable industrial cleaners into a national contract-hygiene platform for dairies, breweries and meat plants where disciplined labour management is the operational edge.",
+        "key_risks": [
+          "Labour-intensive and low-margin, exposed to wage inflation",
+          "Competes with large FM players (Piepenbrock/Dussmann)",
+          "Customer concentration and contamination/liability exposure"
+        ]
+      },
       "child_ids": []
     },
     "food-agriculture-services-value-chain/food-safety-testing-laboratories": {
@@ -6151,6 +6661,36 @@
           "title": "Rueckstandsanalytik im akkreditierten Labor - Tentamus Group",
           "url": "https://www.tentamus.com/lab-analyses/residue-analysis/",
           "note": "Competing accredited-lab roll-up platform in DACH residue testing."
+        },
+        {
+          "title": "",
+          "url": "https://www.agrolab.com/en/company/about-us.html",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://agrolab.com/en/news/agrolab-news/5746-agrolab-best-chemical-familybusiness-2025.html",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.adlershof.de/firmensuche-institute/adressverzeichnis/firma/detail/ifp-institut-fuer-produktqualitaet-gmbh/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.phytolab.com/en/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://aventis-advisors.com/tic-company-valuations/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://de.wessling-group.com/de/laendergesellschaft-der-wessling-gruppe-wechselt-eigentuemer",
+          "note": ""
         }
       ],
       "confidence": 4,
@@ -6159,7 +6699,33 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Accredited commercial labs are freely acquirable and high-margin/recurring, but pesticide residue testing is already heavily rolled up by Eurofins, Tentamus and SGS - limited independent whitespace.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          {
+            "name": "AGROLAB GmbH / AGROLAB Group",
+            "note": "Privately/family-owned (founder & CEO Dr. Paul Wimmer, est. 1986); named SZ 'best family-owned chemical company 2025'; pesticide screening of 500+ actives by GC-MS/LC-MS-MS. Rare scaled independent (non-Eurofins/SGS).",
+            "source": "https://agrolab.com/en/news/agrolab-news/5746-agrolab-best-chemical-familybusiness-2025.html"
+          },
+          {
+            "name": "ifp Institut für Produktqualität GmbH (Berlin)",
+            "note": "Independent accredited food/feed/water lab, 300+ staff (est. 2004); contaminant/residue analytics.",
+            "source": "https://www.adlershof.de/firmensuche-institute/adressverzeichnis/firma/detail/ifp-institut-fuer-produktqualitaet-gmbh/"
+          },
+          {
+            "name": "PhytoLab GmbH & Co. KG",
+            "note": "Independent, accredited lab (part of family-owned Bionorica) for plant material, food & feed residues.",
+            "source": "https://www.phytolab.com/en/"
+          }
+        ],
+        "ebitda_margin": "TIC/testing sector typically 12-20% EBITDA margin",
+        "entry_multiple": "TIC EV/EBITDA public median ~14.3x (2025); private specialist labs trade below the listed majors",
+        "bnb_angle": "High-capacity MS/MS residue labs are scarce, capex-heavy and consolidating fast (Eurofins, ALS - which absorbed Wessling's labs in 2024); an independent family lab such as AGROLAB or ifp is a rare scaled platform with recurring retailer/QS-GAP-mandated testing.",
+        "key_risks": [
+          "Capex/scale intensity and price competition from Eurofins/SGS consolidation",
+          "Method-accreditation dependency",
+          "Analytical-chemist scarcity"
+        ]
+      },
       "child_ids": []
     },
     "food-agriculture-services-value-chain/food-safety-testing-laboratories/chemical-residues-contaminants/mycotoxin-testing": {
@@ -6221,6 +6787,26 @@
           "title": "AGROLAB LUFA Kiel",
           "url": "https://agrolab.com/de/agrolab-lufa-kiel-deutschland.html",
           "note": "Agrolab is a leading private mycotoxin/residue lab consolidator - partial prior consolidation"
+        },
+        {
+          "title": "",
+          "url": "https://agrolab.com/de/produkte-leistungen/lebensmittelanalytik/lebensmittel-rueckstaende-und-kontaminanten.html",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.produktqualitaet.com/de/lebensmittel/kontaminanten/kontaminanten-mykotoxine-analytik-im-ifp.html",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.wirts.de/mykotoxine/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://aventis-advisors.com/tic-company-valuations/",
+          "note": ""
         }
       ],
       "confidence": 3,
@@ -6229,7 +6815,33 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Private residue labs acquirable; capital-intensive HPLC/LC-MS. Caveat: LUFA labs are Landwirtschaftskammer/public-owned (un-acquirable) and Agrolab has already consolidated much of the private agri-residue space.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          {
+            "name": "AGROLAB Group",
+            "note": "Family-owned independent group (founder Dr. Paul Wimmer); mycotoxin/contaminant analytics (LC-MS/MS) with strong feed/agri overlap.",
+            "source": "https://agrolab.com/de/produkte-leistungen/lebensmittelanalytik/lebensmittel-rueckstaende-und-kontaminanten.html"
+          },
+          {
+            "name": "ifp Institut für Produktqualität (Berlin)",
+            "note": "Independent accredited lab; mycotoxin analytics plus proprietary rapid diagnostic kits.",
+            "source": "https://www.produktqualitaet.com/de/lebensmittel/kontaminanten/kontaminanten-mykotoxine-analytik-im-ifp.html"
+          },
+          {
+            "name": "Chemisches Labor Dr. Wirts + Partner",
+            "note": "Independent lab; mycotoxin analytics by LC-MS/MS and HPLC-FLD/DAD.",
+            "source": "https://www.wirts.de/mykotoxine/"
+          }
+        ],
+        "ebitda_margin": "TIC/testing sector typically 12-20% EBITDA margin",
+        "entry_multiple": "TIC EV/EBITDA public median ~14.3x (2025); private specialist labs below the listed majors",
+        "bnb_angle": "Strong feed + food + retail overlap and recurring harvest-season demand; consolidate specialist independent labs and layer in diagnostic-kit IP (as ifp/Romer do) to add a higher-margin product line alongside services.",
+        "key_risks": [
+          "Consolidation pressure from Eurofins/SGS/Mérieux",
+          "Seasonality of harvest-driven testing volumes",
+          "Accreditation and chemist scarcity"
+        ]
+      },
       "child_ids": []
     },
     "food-agriculture-services-value-chain/food-safety-testing-laboratories/chemical-residues-contaminants/heavy-metals-inorganic-contaminants": {

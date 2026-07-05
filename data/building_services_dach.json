@@ -1312,6 +1312,26 @@
           "title": "Energiemanagement Software Vergleich 2026",
           "url": "https://www.energieaudit365.de/energiemanagement-software-vergleich/",
           "note": "Fragmented vendor landscape (Optenda, Sauter, Advizeo, DEOS etc.) – dozens to low-hundreds of providers"
+        },
+        {
+          "title": "",
+          "url": "https://www.greenpocket.com/de/unternehmen/ueber-greenpocket",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://komprenu.de/ueber-uns",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.mvv.de/ueber-uns/unternehmensgruppe/mvv-enamic/econ-solutions",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.optenda.de/unternehmen/ueber-optenda/",
+          "note": ""
         }
       ],
       "confidence": 3,
@@ -1320,7 +1340,29 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Asset-light SaaS+service, no licensing/ownership friction; freely acquirable but market has established software vendors and some consolidation.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          {
+            "name": "GreenPocket GmbH",
+            "location": "Köln",
+            "ownership": "founder-led SME (MD Dr. Thomas Goette, ~35 staff), energy-management & visualisation software",
+            "source": "https://www.greenpocket.com/de/unternehmen/ueber-greenpocket"
+          },
+          {
+            "name": "Komprenu (Komprenu GmbH)",
+            "location": "Germany",
+            "ownership": "founder-managed (Yves Goergen & Rolf-Dieter Clavery), energy-monitoring / building-management software",
+            "source": "https://komprenu.de/ueber-uns"
+          }
+        ],
+        "entry_multiple": "n/a — proprietary; small SaaS + service energy-monitoring vendors transact on revenue-multiple / strategic bases, no clean EBITDA comps (note: consolidators active — OPTENDA is Steag/Iqony-owned, econ solutions is MVV-owned, so genuinely independent targets are thinning)",
+        "bnb_angle": "GEG (from 2025), EnEfG and ISO 50001 are pulling non-residential buildings toward mandatory metering/monitoring; a platform combining independent monitoring software with FM/energy-consulting delivery captures recurring SaaS plus implementation revenue — but the pool of independent DACH vendors is already shrinking via utility acquisitions.",
+        "key_risks": [
+          "Utilities and OEMs (Siemens, Schneider, MVV, Steag) are actively acquiring, thinning the independent target set",
+          "SaaS margins depend on scale; many targets are sub-scale with services drag",
+          "Regulatory demand real but adoption timing/enforcement uncertain"
+        ]
+      },
       "child_ids": []
     },
     "building-facility-technical-services-value-chain/fire-protection-systems-brandschutz": {
@@ -1512,6 +1554,26 @@
           "title": "bvbf - Wartung und Prüfung (ASR A2.2)",
           "url": "https://www.bvbf-brandschutz.de/brandschutz-unternehmen/asr-a2-2-massnahmen-gegen-braende/wartung-und-pruefung-1/arbeitsstaettenregel-asr-a2-2-wartung-und-pruefung",
           "note": "2-yearly maintenance obligation drives recurring service revenue"
+        },
+        {
+          "title": "",
+          "url": "https://www.juschka-brandschutz.de/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.heinzlbrandschutz.de/leistungen/vorbeugender-abwehrender-brandschutz/feuerloescher-wartung.php",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://isb-brandschutz.de/feuerloescher-warten-pruefen/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://ctacquisitions.com/guides/private-equity-fire-life-safety-2026/",
+          "note": ""
         }
       ],
       "confidence": 4,
@@ -1520,7 +1582,36 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Sachkundigen/Prüfdienst (DIN 14406), not a licensed Vollhandwerk - freely acquirable; but Brandschutz is the most PE-crowded sub-sector.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          {
+            "name": "Juschka Brandschutz",
+            "location": "Ruhrgebiet, NRW",
+            "ownership": "independent firm, 20+ yrs; extinguisher maintenance, training, RWA inspection",
+            "source": "https://www.juschka-brandschutz.de/"
+          },
+          {
+            "name": "Heinzl Brandschutztechnik",
+            "location": "Germany",
+            "ownership": "independent Fachbetrieb, extinguisher maintenance & inspection",
+            "source": "https://www.heinzlbrandschutz.de/leistungen/vorbeugender-abwehrender-brandschutz/feuerloescher-wartung.php"
+          },
+          {
+            "name": "ISB Brandschutz",
+            "location": "Saarland",
+            "ownership": "independent regional Fachbetrieb, extinguisher servicing",
+            "source": "https://isb-brandschutz.de/feuerloescher-warten-pruefen/"
+          }
+        ],
+        "ebitda_margin": "~8-12% EBITDA for recurring-service fire firms; portable-extinguisher service is high-recurring, low-ticket route work (European fire-safety benchmark)",
+        "entry_multiple": "4-6x EBITDA for small firms with mostly service/inspection work; moves toward 6-8x as recurring inspection share and route density rise",
+        "bnb_angle": "The mandatory 2-year DIN 14406 Sachkundigen inspection cycle makes revenue almost annuity-like; density-driven roll-up of local Prüfdienste onto shared routes and scheduling software is a textbook recurring-revenue re-rating, with insurer/ASR A2.2 compliance underpinning demand.",
+        "key_risks": [
+          "Low ticket size demands high route density to be economic",
+          "Minimax Mobile / CWS incumbents compete on national contracts and price",
+          "Sachkundigen labour availability and van/route logistics cap scaling speed"
+        ]
+      },
       "child_ids": []
     },
     "building-facility-technical-services-value-chain/fire-protection-systems-brandschutz/portable-extinguishers-wall-hydrant-water-supply-service/wall-hydrants-dry-wet-fire-water-supply-din-14462": {
@@ -1817,6 +1908,26 @@
           "title": "VdS – Errichter- und Fachfirmen für den Brandschutz",
           "url": "https://vds.de/en/expertise/fire-safety/certification/installation-and-specialist-companies",
           "note": "Maintenance must be by VdS-recognised installers – certification barrier, but company-level"
+        },
+        {
+          "title": "",
+          "url": "https://www.bss-sichelstiel.de/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.jockel-bramax.de/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://ctacquisitions.com/guides/private-equity-fire-life-safety-2026/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://waldercapital.ch/en/industry/fire-safety-protection/",
+          "note": ""
         }
       ],
       "confidence": 4,
@@ -1825,7 +1936,30 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "VdS-Anerkennung is a company-level (transferable) certification, not person-bound ownership; acquirable, but an active PE consolidation wave (Fire Protection Solutions/Calanbau) is already compressing whitespace.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          {
+            "name": "BSS Brandschutz Sichelstiel GmbH",
+            "location": "Nürnberg (+ branches)",
+            "ownership": "owner-managed family firm, sole shareholder Peter Sichelstiel; VdS-recognised sprinkler/water-spray installer",
+            "source": "https://www.bss-sichelstiel.de/"
+          },
+          {
+            "name": "Jockel-Bramax GmbH",
+            "location": "Gladbeck",
+            "ownership": "VdS-recognised sprinkler installer; part of the independent family Jockel group (stayed independent vs. Presto sale)",
+            "source": "https://www.jockel-bramax.de/"
+          }
+        ],
+        "ebitda_margin": "~8-12% EBITDA for recurring-service-heavy fire firms (Swiss/European fire-safety benchmark)",
+        "entry_multiple": "4-6x EBITDA for project/install-heavy firms, rising to 6-8x once >40% revenue is recurring inspection; Swiss fire-safety deals 6.5-9.5x",
+        "bnb_angle": "Insurer- and VdS/DIN-mandated periodic inspection creates sticky, non-discretionary recurring revenue, while the scarce pool of VdS-anerkannte Errichter licences is a genuine barrier — consolidating regional installers builds a hard-to-replicate, insurer-endorsed service footprint.",
+        "key_risks": [
+          "Acute shortage of VdS-certified engineers/planners caps organic and integration growth",
+          "Installation backlog is tied to commercial construction cyclicality",
+          "Minimax Viking and other large incumbents dominate marquee industrial accounts"
+        ]
+      },
       "child_ids": []
     },
     "building-facility-technical-services-value-chain/fire-protection-systems-brandschutz/smoke-heat-exhaust-ventilation-rwa-shev": {
@@ -1902,6 +2036,26 @@
           "title": "DIN - Normenausschuss Bauwesen (NABau)",
           "url": "https://www.din.de/de/mitwirken/normenausschuesse/nabau",
           "note": "RWA/SHEV governed by DIN 18232 and the EN 12101 series; DIN 18323 (VOB/C) is unrelated."
+        },
+        {
+          "title": "",
+          "url": "https://rwa-lueftung.de/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.montec-gmbh.net/rwa-montec-rwa.php",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://ctacquisitions.com/guides/private-equity-fire-life-safety-2026/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://waldercapital.ch/en/industry/fire-safety-protection/",
+          "note": ""
         }
       ],
       "confidence": 3,
@@ -1910,7 +2064,30 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Spurious 'DIN 18323' (a VOB/C section unrelated to RWA) removed; added the EN 12101 SHEV product/system series.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          {
+            "name": "Klein RWA- und Lüftungstechnik GmbH & Co. KG",
+            "location": "Neustadt/Weinstraße",
+            "ownership": "independent specialist, 25+ yrs, manufacturer-independent RWA maintenance/repair (all makes)",
+            "source": "https://rwa-lueftung.de/"
+          },
+          {
+            "name": "Montec GmbH",
+            "location": "Germany",
+            "ownership": "independent Fachbetrieb, natural/mechanical Rauch- & Wärmeabzug incl. inspection & Dichtheitsprüfung",
+            "source": "https://www.montec-gmbh.net/rwa-montec-rwa.php"
+          }
+        ],
+        "ebitda_margin": "~8-12% EBITDA for recurring-service fire-safety firms (European benchmark; RWA maintenance is annuity-like)",
+        "entry_multiple": "4-6x EBITDA project-heavy; 6-8x as mandated annual RWA maintenance share rises; Swiss fire-safety deals 6.5-9.5x",
+        "bnb_angle": "Annual RWA maintenance is legally mandated (DIN 18232 / EN 12101, ASR A2.2) in assembly buildings, high-rises and hospitals, giving recurring, compliance-driven revenue; manufacturer-independent servicing of GEZE/D+H/Aumüller estates lets a consolidator service any installed base — a natural add-on to a fire-safety or technical-FM platform.",
+        "key_risks": [
+          "Overlaps and competes with facades/OEM (D+H, GEZE) service channels",
+          "Hundreds of small Fachbetriebe — fragmented, low brand differentiation",
+          "Skilled RWA/control-systems technician scarcity"
+        ]
+      },
       "child_ids": []
     },
     "building-facility-technical-services-value-chain/fire-protection-systems-brandschutz/passive-fire-protection-dampers-doors-compartmentation": {
@@ -2747,6 +2924,36 @@
           "title": "Die Top 30 Reinigungsfirmen in Deutschland",
           "url": "https://www.datenmarkt.de/liste-30-groesste-reinigungsfirmen-deutschland/",
           "note": "Large incumbents cover ~half of revenue; long SME tail remains"
+        },
+        {
+          "title": "",
+          "url": "https://www.triscari-gebaeudereinigung.de/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.weidler.de/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.gebaeudereinigung-muenchen.biz/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.saubere-sache.com/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.dealflowagent.com/blog/business-exit-valuations-2025-26-complete-guide-ebitda-multiples-sale-prices",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://ctacquisitions.com/commercial-cleaning-business-valuation-capitalize-on-pe-interest/",
+          "note": ""
         }
       ],
       "confidence": 4,
@@ -2755,7 +2962,42 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Gebäudereiniger is a zulassungsfreies Handwerk (Anlage B, no Meisterpflicht) – freely acquirable; but large strategics (WISAG, Dussmann, Piepenbrock) already cover ~half the market.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          {
+            "name": "TRISCARI Gebäudereinigung GmbH",
+            "location": "Ingolstadt (nationwide)",
+            "ownership": "family-run, commercial object cleaning for SME clients",
+            "source": "https://www.triscari-gebaeudereinigung.de/"
+          },
+          {
+            "name": "WEIDLER (Gebäudedienstleistungen)",
+            "location": "Germany",
+            "ownership": "family-owned for 140+ years",
+            "source": "https://www.weidler.de/"
+          },
+          {
+            "name": "GEBRA Gebäudereinigungs GmbH",
+            "location": "Allgäu / München",
+            "ownership": "independent Mittelstand, 40+ years",
+            "source": "https://www.gebaeudereinigung-muenchen.biz/"
+          },
+          {
+            "name": "Herdegen Gebäudeservice GmbH",
+            "location": "Berlin",
+            "ownership": "independent family firm",
+            "source": "https://www.saubere-sache.com/"
+          }
+        ],
+        "ebitda_margin": "~15-18%+ EBITDA achievable with multi-year contracts, 90%+ retention and low customer concentration (German facility-services benchmark)",
+        "entry_multiple": "4.5-6.0x EBITDA typical German facility services; compresses to ~4x with concentration/month-to-month contracts, pushes to ~6x with diversified base, multi-year contracts and clean labour documentation",
+        "bnb_angle": "Unterhaltsreinigung is the recurring cash core of FM — daily/weekly contracts with high retention. Rolling up sub-EUR 5m family firms lifts the multiple simply by de-risking founder dependence, diversifying clients and lengthening contract tenor, independent of margin gains.",
+        "key_risks": [
+          "Labour-intensive with sectoral CBA (Rahmentarifvertrag) wage inflation and holiday-pay accrual gaps",
+          "Customer concentration and month-to-month contracts common at founder-run targets",
+          "Labour-compliance / minimum-wage documentation risk in due diligence"
+        ]
+      },
       "child_ids": []
     },
     "building-facility-technical-services-value-chain/technical-fm-building-envelope/gebaudereinigung-industrie-gebaudereinigung/industrie-sonderreinigung": {
@@ -3217,6 +3459,31 @@
           "title": "Green Landscaping Group kauft erste GaLaBau-Betriebe (Neue Landschaft)",
           "url": "https://neuelandschaft.de/artikel/neuer-player-in-der-gruenen-branche-green-landscaping-group-kauft-erste-galabau-betriebe-11867",
           "note": "New PE-backed consolidator entering DE green-care market => headroom narrowing."
+        },
+        {
+          "title": "",
+          "url": "https://baasner-galabau.de/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.drewes-galabau.de/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.natura-duesseldorf.de/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://ctacquisitions.com/guides/landscaping-ma-multiples-2026/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://firstpagesage.com/business/ebitda-multiples-for-landscaping-companies/",
+          "note": ""
         }
       ],
       "confidence": 4,
@@ -3225,7 +3492,36 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "GaLaBau is not an Anlage-A Meisterpflicht trade and has no ownership restriction; freely acquirable. Several PE platforms already active but still early phase.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          {
+            "name": "Baasner GaLaBau GmbH",
+            "location": "Lünen, NRW",
+            "ownership": "independent family-owned Fachbetrieb (Grünpflege, Winterdienst)",
+            "source": "https://baasner-galabau.de/"
+          },
+          {
+            "name": "Drewes Landschaftsbau GmbH",
+            "location": "Hannover",
+            "ownership": "independent family Mittelstand, full GaLaBau incl. grounds care",
+            "source": "https://www.drewes-galabau.de/"
+          },
+          {
+            "name": "Natura Becher Galabau",
+            "location": "Düsseldorf",
+            "ownership": "independent family firm (~25 yrs), Grünflächenpflege + Winterdienst",
+            "source": "https://www.natura-duesseldorf.de/"
+          }
+        ],
+        "ebitda_margin": "~10-20% EBITDA; recurring maintenance/grounds-care mix runs at the higher end (landscaping benchmark, predominantly US data)",
+        "entry_multiple": "SME add-ons ~5-7x adj. EBITDA; quality commercial grounds-maintenance platforms 6.5-9x in the US — apply a DACH SME discount as no DACH transaction comps are public",
+        "bnb_angle": "Roll up sub-EUR 5m family GaLaBau firms into a regional grounds-maintenance platform with route density, converting one-off garden work into contracted municipal/housing-association Grünpflege plus bundled Verkehrssicherungspflicht-driven winter service. Mirrors proven US commercial-landscaping consolidation arbitrage.",
+        "key_risks": [
+          "Winter-service revenue is weather-dependent and volatile year to year",
+          "Acute GaLaBau labour shortage and CBA wage inflation compress margins",
+          "Low switching costs and price-driven municipal tenders limit pricing power"
+        ]
+      },
       "child_ids": []
     },
     "building-facility-technical-services-value-chain/technical-fm-building-envelope/schadlingsbekampfung-monitoring-fm-nah-food-overlap": {
@@ -3296,6 +3592,31 @@
           "title": "Das millionenschwere Geschäft mit der Rattenplage-Vorsorge (DWN)",
           "url": "https://deutsche-wirtschafts-nachrichten.de/501652/das-millionenschwere-geschaeft-mit-der-rattenplage-vorsorge",
           "note": "German pest-control market estimated ~EUR 600-650m p.a. (~2020), ~2.5x the dated 2018 Statista figure."
+        },
+        {
+          "title": "",
+          "url": "https://hoefler-sbk.eu/schaedlingsmonitoring",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.killfix-schaedlingsbekaempfung.de/qualitaetssicherung/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://whd-brodt.de/monitoring-haccp.html",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.breakwaterma.com/blog/pest-control-company-valuation-multiples-2026",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://ctacquisitions.com/pest-control-business-valuation-guide/",
+          "note": ""
         }
       ],
       "confidence": 4,
@@ -3304,7 +3625,36 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "IHK-geprüfte firms are freely acquirable GmbHs; but Rentokil, Anticimex and ServiceMaster are already aggressively rolling up (50+ regional M&A) — little virgin whitespace left.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          {
+            "name": "Höfler Schädlingsbekämpfung",
+            "location": "Germany",
+            "ownership": "independent firm, IPM/sensor-based digital pest monitoring",
+            "source": "https://hoefler-sbk.eu/schaedlingsmonitoring"
+          },
+          {
+            "name": "Killfix Schädlingsbekämpfung",
+            "location": "Hamburg / Schleswig-Holstein",
+            "ownership": "independent IHK-certified firm, food-production/sensitive-area focus",
+            "source": "https://www.killfix-schaedlingsbekaempfung.de/qualitaetssicherung/"
+          },
+          {
+            "name": "WHD Brodt",
+            "location": "Germany",
+            "ownership": "independent firm, ISO 9001 QM, HACCP monitoring",
+            "source": "https://whd-brodt.de/monitoring-haccp.html"
+          }
+        ],
+        "ebitda_margin": "~15-25% EBITDA (well-run contract-based pest control), with best operators cited at 25-35%",
+        "entry_multiple": "Europe owner-operated firms ~3-5x EBITDA; contract-rich operators command more; PE platforms 7-10x+ (Rentokil/Anticimex the strategic consolidators driving the re-rating)",
+        "bnb_angle": "Recurring HACCP/IFS monitoring contracts for food and industrial sites are sticky, compliance-driven and high-margin; a DACH roll-up of IHK-certified SMEs onto a shared digital-monitoring (IoT trap) platform captures the multiple arbitrage that Anticimex/Rentokil have proven globally.",
+        "key_risks": [
+          "Rentokil and Anticimex are aggressive, well-capitalised consolidators bidding up assets",
+          "IHK-certified technician scarcity constrains organic growth",
+          "Consumer/residential exposure is lower-margin and more churny than B2B contracts"
+        ]
+      },
       "child_ids": []
     },
     "building-facility-technical-services-value-chain/hvac-ventilation-cooling-service": {
@@ -3486,6 +3836,21 @@
           "title": "Rentokil THS – Hygieneinspektion VDI 6022",
           "url": "https://www.rentokil-ths.de/leistungen/hygieneinspektion-vdi6022/",
           "note": "Certified specialist; asset-light inspection service"
+        },
+        {
+          "title": "",
+          "url": "https://svb-bitter.de/de/hygieneinspektionen-von-lueftungsanlagen",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.ms-sachverstaendige.de/index.php?hp=1&show=23",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://sachverstaendiger.ppm-frankfurt.de/suchbegriffe/hygieneinspektion-rlt-vdi-6022-frankfurt-am-main/",
+          "note": ""
         }
       ],
       "confidence": 3,
@@ -3494,7 +3859,35 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "VDI 6022 competence is a personal Sachkunde/certification held by staff, company-level acquirable; but large players (TÜV SÜD, Rentokil, Eurofins) already active in the ~300-600 firm pool.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          {
+            "name": "SVB Bitter (Sachverständigenbüro)",
+            "location": "Germany",
+            "ownership": "independent expert office, VDI 6022 hygiene inspections of RLT systems",
+            "source": "https://svb-bitter.de/de/hygieneinspektionen-von-lueftungsanlagen"
+          },
+          {
+            "name": "MS Sachverständige",
+            "location": "Germany",
+            "ownership": "independent expert office, VDI 6022 hygiene inspection",
+            "source": "https://www.ms-sachverstaendige.de/index.php?hp=1&show=23"
+          },
+          {
+            "name": "Ingenieurbüro Dipl.-Ing. Jürgen Münz",
+            "location": "Frankfurt am Main",
+            "ownership": "independent owner-run Sachverständiger, RLT VDI 6022 hygiene inspection",
+            "source": "https://sachverstaendiger.ppm-frankfurt.de/suchbegriffe/hygieneinspektion-rlt-vdi-6022-frankfurt-am-main/"
+          }
+        ],
+        "entry_multiple": "n/a — proprietary; sub-scale Sachverständigenbüros with heavy key-person dependence transact privately, not on clean EBITDA multiples",
+        "bnb_angle": "Category-A VDI 6022 hygiene inspection is a recurring 2-3 year statutory cycle that mechanically generates follow-on cleaning/remediation work — most valuable when paired with a duct-cleaning arm so the platform captures both the inspection fee and the remediation it triggers.",
+        "key_risks": [
+          "Acute key-person / certified-inspector (Kat. A) dependence in tiny offices",
+          "Long 2-3 year inspection cycle limits per-asset revenue frequency",
+          "TÜV/DMT/Eurofins-class incumbents hold much of the credentialed inspection market"
+        ]
+      },
       "child_ids": []
     },
     "building-facility-technical-services-value-chain/hvac-ventilation-cooling-service/ventilation-rlt-hygiene-inspection-cleaning-vdi-6022/duct-rlt-cleaning-disinfection": {
@@ -3555,6 +3948,21 @@
           "title": "vdi 6022 Firmenliste - Deutschland",
           "url": "https://www.firmendatenbanken.de/firmen/n1/s/vdi-6022.html",
           "note": "~300-500 duct-cleaning firms; fragmented, no financial consolidator surfaced"
+        },
+        {
+          "title": "",
+          "url": "https://global-luftkanalreinigung.de/ueber-uns-fachbetrieb-fuer-luftkanalreinigung-rlt-hygiene/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://hanseatic-rohr.de/service-wartung-lueftung-und-abluft-reinigen",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://ctacquisitions.com/guides/hvac-business-valuation/",
+          "note": ""
         }
       ],
       "confidence": 3,
@@ -3563,7 +3971,30 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "VDI 6022 hygiene service, not a licensed Vollhandwerk (category A/B qualified staff) - freely acquirable; fragmented, only strategics (e.g. Rentokil) present.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          {
+            "name": "Global Luftkanalreinigung",
+            "location": "Germany (nationwide)",
+            "ownership": "independent specialist Fachbetrieb for duct/RLT cleaning per VDI 6022/2052",
+            "source": "https://global-luftkanalreinigung.de/ueber-uns-fachbetrieb-fuer-luftkanalreinigung-rlt-hygiene/"
+          },
+          {
+            "name": "Hanseatic Rohr GmbH",
+            "location": "Hamburg area",
+            "ownership": "independent SME, ventilation/exhaust cleaning per VDI 2052 & 6022",
+            "source": "https://hanseatic-rohr.de/service-wartung-lueftung-und-abluft-reinigen"
+          }
+        ],
+        "ebitda_margin": "no reliable public band for this micro-niche; broadly tracks technical-cleaning/HVAC-service margins (~10-15%) — treat as indicative, not sourced to the niche",
+        "entry_multiple": "n/a — proprietary; small technical-cleaning firms transact privately, HVAC-service SME comps ~3-7x EBITDA as a loose anchor",
+        "bnb_angle": "VDI 6022 hygiene findings mechanically trigger cleaning/disinfection work, so a cleaning arm attached to an RLT-inspection platform captures the remediation spend the inspector uncovers — a natural cross-sell roll-up within technical FM.",
+        "key_risks": [
+          "Highly fragmented, low-barrier trade with weak brand differentiation and price competition",
+          "Demand partly project/event-driven rather than fully contracted",
+          "Skilled-labour scarcity and physically demanding work drive attrition"
+        ]
+      },
       "child_ids": []
     },
     "building-facility-technical-services-value-chain/hvac-ventilation-cooling-service/air-conditioning-energy-inspection-74-geg-epbd": {
@@ -3624,6 +4055,21 @@
           "title": "Energetische Inspektion nach §74 GEG: Pflichten, Strafen | Energieaudit365",
           "url": "https://www.energieaudit365.de/energetische-inspektion-nach-%C2%A774-geg/",
           "note": "Operator duties and penalties"
+        },
+        {
+          "title": "",
+          "url": "https://www.tga-effizienz.de/inhalt_inspektionen.html",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://ibburkhardt.de/index.php/lueftung/energetische-inspektion-von-lueftungs-und-klimaanlagen",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.btga.de/energetische-inspektion-von-klimaanlagen-nach-%c2%a7%c2%a7-74-78-geg/",
+          "note": ""
         }
       ],
       "confidence": 3,
@@ -3632,7 +4078,29 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Performed by berechtigte Person (engineer/energy consultant) - qualification hurdle only; no ownership restriction. Small pool and TUEV-dominated limits platform scale.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          {
+            "name": "Ingenieurbüro TGA Effizienz",
+            "location": "Germany",
+            "ownership": "independent engineering office, Bundesprüfstelle-TGA-certified §§74-78 GEG inspector",
+            "source": "https://www.tga-effizienz.de/inhalt_inspektionen.html"
+          },
+          {
+            "name": "Ingenieurbüro Dipl.-Ing. (FH) Carsten Burkhardt",
+            "location": "Neumarkt i.d.OPf., Bayern",
+            "ownership": "independent owner-run engineering office, energetic inspection of ventilation/AC",
+            "source": "https://ibburkhardt.de/index.php/lueftung/energetische-inspektion-von-lueftungs-und-klimaanlagen"
+          }
+        ],
+        "entry_multiple": "n/a — proprietary; these are sub-scale owner-run Ingenieurbüros that transact privately (often team lift-outs / consolidation into energy-consultancy platforms rather than clean EBITDA deals)",
+        "bnb_angle": "Statutory 10-year §74 GEG inspection cycle on all >12 kW cooling installations creates a legally mandated, calendar-driven pipeline; the fragmented pool of qualified inspectors is a potential add-on layer to an energy-consulting / TGA-inspection platform rather than a standalone platform.",
+        "key_risks": [
+          "Niche is 'Too small' — tiny individual firms, heavy key-person/inspector dependence",
+          "Long 10-year re-inspection cycle limits revenue frequency per asset",
+          "TÜV/DEKRA and energy-consultant incumbents already hold the certification franchise"
+        ]
+      },
       "child_ids": []
     },
     "building-facility-technical-services-value-chain/hvac-ventilation-cooling-service/commercial-industrial-refrigeration-service-gewerbe-industriekalte": {
@@ -4019,6 +4487,21 @@
           "title": "ChemKlimaschutzV - gesetze-im-internet.de",
           "url": "https://www.gesetze-im-internet.de/chemklimaschutzv/",
           "note": "German ChemKlimaschutzV text; specific 'April 2026' amendment date not verifiable, so softened."
+        },
+        {
+          "title": "",
+          "url": "https://kaeltetechnik-baranowski.de/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.kaelte-klima-langer.de/service_dichtheitspruefung.html",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://ctacquisitions.com/guides/hvac-business-valuation/",
+          "note": ""
         }
       ],
       "confidence": 4,
@@ -4027,7 +4510,30 @@
       "pe_activity": [],
       "investability": "restricted",
       "investability_note": "'Bundesfachschule Kälte-Klima-Technik' removed - it is a training/certification school, not a service firm. The unverified 'April 2026' amendment date was softened rather than asserted.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          {
+            "name": "Kälte- und Klimatechnik Baranowski",
+            "location": "Ruhrgebiet, NRW",
+            "ownership": "owner-managed Meisterbetrieb, F-Gas leak testing & refrigerant compliance",
+            "source": "https://kaeltetechnik-baranowski.de/"
+          },
+          {
+            "name": "Kälte Klima Langer",
+            "location": "Germany",
+            "ownership": "independent Kälte/Klima firm offering F-Gas Dichtheitsprüfung",
+            "source": "https://www.kaelte-klima-langer.de/service_dichtheitspruefung.html"
+          }
+        ],
+        "ebitda_margin": "no niche-specific public band; compliance work is bundled into refrigeration-service contracts (~10-15% HVAC-service EBITDA as a proxy)",
+        "entry_multiple": "HVAC/refrigeration-service SME comps ~3-7x EBITDA; recurring maintenance base pushes higher — but treat as anchor only, no F-Gas-specific comps exist",
+        "bnb_angle": "Statutory F-Gas leak checks, logbooks and recovery are mandatory and recurring across every stationary AC/refrigeration/heat-pump asset, giving a compliance-annuity attached to Kälte/Klima service firms; however the niche is flagged 'restricted / Too late', so it is better an add-on capability inside a refrigeration-service platform than a standalone thesis.",
+        "key_risks": [
+          "Investability restricted; compliance is bundled, hard to carve out as standalone revenue",
+          "Regulatory flux as ChemKlimaschutzV aligns to EU 2024/573 (refrigerant phase-down) reshapes demand",
+          "Certified Kältetechnik labour is scarce and ageing"
+        ]
+      },
       "child_ids": []
     },
     "building-facility-technical-services-value-chain/hvac-ventilation-cooling-service/building-cooling-chillers-data-centre-cooling": {
@@ -4466,6 +4972,21 @@
           "title": "Liste 800 Aufzugsfirmen - listflix",
           "url": "https://listflix.de/bauunternehmen/tga-unternehmen/aufzugsfirmen/",
           "note": "Hundreds of SME targets, highly fragmented independent base"
+        },
+        {
+          "title": "",
+          "url": "https://kms-aufzuege.de/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://lechner-aufzuege.de/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://ctacquisitions.com/how-to-sell-an-elevator-service-business/",
+          "note": ""
         }
       ],
       "confidence": 4,
@@ -4474,7 +4995,30 @@
       "pe_activity": [],
       "investability": "restricted",
       "investability_note": "Freely acquirable SME roll-up, but lift work touches Anlage-A Handwerk (Metallbau/Elektro) so each entity needs a Meister/qualified TRBS person on staff.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          {
+            "name": "KMS Aufzüge GmbH",
+            "location": "Germany",
+            "ownership": "mid-sized family firm, manufacturer-/type-independent maintenance & repair",
+            "source": "https://kms-aufzuege.de/"
+          },
+          {
+            "name": "Lechner Aufzüge",
+            "location": "Köln",
+            "ownership": "independent, TÜV-certified, maintains all makes regardless of manufacturer",
+            "source": "https://lechner-aufzuege.de/"
+          }
+        ],
+        "ebitda_margin": "~15-25% EBITDA once route density is achieved (recurring maintenance is the margin anchor)",
+        "entry_multiple": "~6-11x EBITDA for independents; median ~7.5x (~1.3x revenue); dense contracted-unit portfolios with repair pull-through at the top of the range",
+        "bnb_angle": "Multi-year any-brand Wartungsverträge are annuity revenue with high retention; a roll-up densifies routes and cross-sells repair/modernisation into the contracted base — the exact mix shift that moves independents from ~6x toward 8-11x. Niche flagged 'restricted / Too late', so entry timing and asset scarcity matter.",
+        "key_risks": [
+          "Investability restricted / 'Too late' — competition for quality independents already elevated",
+          "OEM proprietary controls limit third-party service scope on newer lifts",
+          "Contract values per lift are modest (~EUR 1-3k/yr); scaling needs many units and mechanics"
+        ]
+      },
       "child_ids": []
     },
     "building-facility-technical-services-value-chain/lift-escalator-service/independent-non-oem-lift-maintenance-service/multi-brand-manufacturer-independent-takeover-of-oem-installed-base": {
@@ -4723,6 +5267,26 @@
           "title": "Aufzug-Modernisierung – Lutz Aufzüge",
           "url": "https://lutz-aufzuege.de/aufzuege/gebaeudearten/modernisierung-sanierung/",
           "note": "Independent modernisation with freely available components, several hundred independents compete."
+        },
+        {
+          "title": "",
+          "url": "https://niggemeier-leurs.de/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://hollmann-aufzuege.de/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.ortloff-aufzugstechnik.de/alt-neu.html",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://ctacquisitions.com/how-to-sell-an-elevator-service-business/",
+          "note": ""
         }
       ],
       "confidence": 4,
@@ -4731,7 +5295,36 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Project-based modernisation open to independents; free-market components mean no OEM lock-in on ownership.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          {
+            "name": "Aufzug- und Fördertechnik Niggemeier & Leurs GmbH",
+            "location": "Germany (Niederrhein)",
+            "ownership": "owner-managed family business since 1973, ~63 employees, manufacturer-independent modernisation/service",
+            "source": "https://niggemeier-leurs.de/"
+          },
+          {
+            "name": "Hollmann Aufzüge",
+            "location": "Erfurt, Thüringen",
+            "ownership": "family business ~50 yrs, manufacturer-independent",
+            "source": "https://hollmann-aufzuege.de/"
+          },
+          {
+            "name": "Ortloff Aufzugstechnik",
+            "location": "Germany",
+            "ownership": "independent firm, lift modernisation & replacement",
+            "source": "https://www.ortloff-aufzugstechnik.de/alt-neu.html"
+          }
+        ],
+        "ebitda_margin": "~15-25% EBITDA for scaled lift-service businesses (repair/modernisation pull-through lifts margin)",
+        "entry_multiple": "~6-11x EBITDA for independents (outside the Big 4), median independent deal ~7.5x; install/modernisation-heavy, thin-maintenance firms at the 4-6x bottom",
+        "bnb_angle": "The ageing DACH installed base (~750k lifts, roughly half 20+ years old) drives a long modernisation wave; buying regional independents and pulling higher-margin modernisation/repair through an existing maintenance book is the value lever PE prizes (repair pull-through capitalised at 8-13x).",
+        "key_risks": [
+          "Project revenue is cyclical and lumpier than pure maintenance contracts",
+          "OEMs (KONE/TK/Schindler/Otis) push proprietary controls that lock modernisation scope",
+          "Skilled lift-mechanic shortage constrains execution capacity"
+        ]
+      },
       "child_ids": []
     },
     "building-facility-technical-services-value-chain/lift-escalator-service/escalator-moving-walk-service": {
@@ -5566,6 +6159,31 @@
           "title": "Markt für Alarmanlagen und Videoüberwachung Deutschland – Businesscoot",
           "url": "https://www.businesscoot.com/en/study/the-market-for-alarms-and-video-surveillance-germany",
           "note": "German alarm/video market growth; PE-driven M&A consolidating mid-tier suppliers."
+        },
+        {
+          "title": "",
+          "url": "https://www.sicherheitstechnik-tst.de/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://neda-sicherheitstechnik.de/videoueberwachung/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://wkn-datentechnik.de/videoueberwachung/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.dealflowagent.com/valuation/security-systems-multiples",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://ctacquisitions.com/how-to-sell-a-security-integration-company/",
+          "note": ""
         }
       ],
       "confidence": 4,
@@ -5574,7 +6192,36 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Errichter/integrator firms freely acquirable; large fragmented population, but rising PE interest is already consolidating mid-tier suppliers.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          {
+            "name": "Telesystems Thorwarth GmbH (TST)",
+            "location": "Germany",
+            "ownership": "owner-managed security-tech firm (video surveillance, EMA, BMA, access control)",
+            "source": "https://www.sicherheitstechnik-tst.de/"
+          },
+          {
+            "name": "NEDA Sicherheitstechnik",
+            "location": "Germany",
+            "ownership": "independent certified Errichter, DSGVO-compliant video surveillance",
+            "source": "https://neda-sicherheitstechnik.de/videoueberwachung/"
+          },
+          {
+            "name": "WKN Datentechnik",
+            "location": "Germany",
+            "ownership": "independent SME, video surveillance & security systems for businesses",
+            "source": "https://wkn-datentechnik.de/videoueberwachung/"
+          }
+        ],
+        "ebitda_margin": "project-heavy integrators ~project margins; recurring/managed-service-rich integrators command materially higher EBITDA (security benchmark, US/global data)",
+        "entry_multiple": "3.5-6.5x EBITDA for project-heavy installers; 5-8x rising to 7-11x as recurring/RMR (cloud video, VSaaS, managed monitoring) passes 30-40%",
+        "bnb_angle": "The shift from one-off CCTV installs to cloud video / AI-analytics / video-as-a-service converts a project trade into recurring monthly revenue; buying regional Errichter and migrating their base onto a managed recurring platform is a classic RMR-multiple re-rating play.",
+        "key_risks": [
+          "DSGVO/data-protection compliance exposure on every deployment",
+          "Hardware commoditisation and OEM (Bosch, Hikvision-class) pressure on install margins",
+          "Talent scarcity for certified integrators; recurring share often still low at target firms"
+        ]
+      },
       "child_ids": []
     },
     "building-facility-technical-services-value-chain/security-access-systems/access-control-electronic-locking-zutrittskontrolle": {
@@ -6661,6 +7308,21 @@
           "title": "Grabenlose Kanalsanierung – Lieferantenverzeichnis wlw",
           "url": "https://www.wlw.de/de/suche/grabenlose-kanalsanierung",
           "note": "Broad, fragmented population of Kanalsanierung/Rohrreinigung providers."
+        },
+        {
+          "title": "",
+          "url": "https://www.cannaqua.com/leistungen/dichtheitspruefung-kanal",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.drekopf-kanalservice.de/kanalsanierung-rohrsanierung/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://ctacquisitions.com/guides/plumbing-ma-multiples-2026/",
+          "note": ""
         }
       ],
       "confidence": 3,
@@ -6669,7 +7331,30 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Rohrreinigung/Kanalsanierung is largely zulassungsfrei and owner-operated; freely acquirable, little financial consolidation yet.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          {
+            "name": "Cannaqua GmbH",
+            "location": "Germany",
+            "ownership": "independent certified Kanalsanierung / Dichtheitsprüfung specialist (nationwide)",
+            "source": "https://www.cannaqua.com/leistungen/dichtheitspruefung-kanal"
+          },
+          {
+            "name": "DREKOPF Entsorgung und Kanalservice GmbH",
+            "location": "Krefeld / Rhein-Ruhr",
+            "ownership": "independent family Kanalservice & Kanalsanierung group",
+            "source": "https://www.drekopf-kanalservice.de/kanalsanierung-rohrsanierung/"
+          }
+        ],
+        "ebitda_margin": "no niche-specific public band; drain/sewer specialists benefit from high-margin emergency/after-hours work (15-20pp above scheduled service) flowing to EBITDA",
+        "entry_multiple": "CIPP/trenchless-relining operators ~6.0-9.0x adj. EBITDA in the lower-middle market (US benchmark); owned relining equipment supports the top of the range",
+        "bnb_angle": "State/municipal Dichtheitsprüfung ordinances under DIN 1986-30 create mandatory inspection demand that funnels into high-ticket trenchless relining; PE pays a premium for owned CIPP capability as a rare sub-scale operational moat — a clear inspect-then-rehabilitate roll-up.",
+        "key_risks": [
+          "Regulatory enforcement of Dichtheitsprüfung varies by Land/municipality, softening demand where deadlines slip",
+          "Capex-intensive (CCTV, relining rigs) and skilled-operator dependent",
+          "Highly fragmented, overlaps commodity Rohrreinigung with weak differentiation"
+        ]
+      },
       "child_ids": []
     },
     "building-facility-technical-services-value-chain/plumbing-sanitary-water-hygiene-shk/submetering-heat-cost-allocation-messdienst": {

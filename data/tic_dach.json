@@ -801,6 +801,21 @@
           "title": "Eichamt Sachsen - Kalibrierlaboratorium",
           "url": "https://www.eichamt.sachsen.de/kalibrierlaboratorium.html",
           "note": "Confirms statutory Eichung sits with state bodies - capped-licence niche around the service."
+        },
+        {
+          "title": "",
+          "url": "https://schmitt-waagenbau.de/ueber-uns.html",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.waagen-friederichs.de/waagen-service.html",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://aventis-advisors.com/tic-industry/",
+          "note": ""
         }
       ],
       "confidence": 3,
@@ -809,7 +824,25 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Service/maintenance/Eichvorbereitung is freely acquirable and virgin; FLAG - the actual Eichung (verification) itself is a state Eichamt / staatlich anerkannte Pruefstelle monopoly, so a buyer captures prep+service, not the statutory stamp.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          "Schmitt Waagenbau GmbH (schmitt-waagenbau.de, Düsseldorf) - family-owned scale-service firm founded 1860, run by 4th-generation owner Felix Schmitt",
+          "Waagen-Schmitt GmbH (waagen-schmitt.de, Hamburg) - independent multi-brand scale service incl. Eichvorbereitung coordination",
+          "Waagen Friederichs (waagen-friederichs.de) - independent regional scale-service firm"
+        ],
+        "ebitda_margin": {
+          "band": "~12-18% (service; blended down by product resale)",
+          "basis": "sector-level; niche proprietary",
+          "source": "https://aventis-advisors.com/tic-industry/"
+        },
+        "entry_multiple": "n/a - proprietary",
+        "bnb_angle": "Roll up succession-stage family scale-service firms into a national weighing-service platform on recurring maintenance + Eichvorbereitung contracts, with DAkkS-tested reference weights and OEM-agnostic service as the moat.",
+        "key_risks": [
+          "Succession-driven micro-firms with owner dependency",
+          "Revenue partly product distribution rather than pure service",
+          "OEM service arms compete; statutory Eichung itself sits with state/notified bodies"
+        ]
+      },
       "child_ids": []
     },
     "testing-inspection-certification-value-chain/calibration-metrology/gas-detection-instrument-calibration-inspection-gaswarngerate": {
@@ -870,6 +903,21 @@
           "title": "Gaswarngeräte Prüfung & Wartung nach DGUV 213-056/057 - abrix",
           "url": "https://www.abrix.de/kalibrierung-pruefung-wartung-reparatur-von-gaswarngeraeten/",
           "note": "Mandated 120-day recurring inspection cycle; manufacturer-independent service"
+        },
+        {
+          "title": "",
+          "url": "https://kleinschmidtgmbh.com/kalibrierung/pruefservice-draeger-gaswarngeraete/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.saw-arbeitsschutz.de/schulungen-service/wartung/gaswarngeraete/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://aventis-advisors.com/tic-industry/",
+          "note": ""
         }
       ],
       "confidence": 3,
@@ -878,7 +926,25 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Private safety-compliance spend (T021/T023, DGUV 213-056/057, 120-day cycle); manufacturer-independent firms freely acquirable, no consolidator yet.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          "Kleinschmidt GmbH (kleinschmidtgmbh.com) - independent manufacturer-agnostic gas-detector T021/T023 calibration & inspection",
+          "SAW Arbeitsschutz / security@work (saw-arbeitsschutz.de) - independent multi-brand gas-detector calibration/adjustment/service",
+          "abrix GmbH (abrix.de) - independent gas-detector calibration, testing, maintenance & repair per DGUV 213-056/057"
+        ],
+        "ebitda_margin": {
+          "band": "~12-20% (recurring service)",
+          "basis": "sector-level; niche proprietary",
+          "source": "https://aventis-advisors.com/tic-industry/"
+        },
+        "entry_multiple": "n/a - proprietary",
+        "bnb_angle": "Consolidate manufacturer-independent gas-detector calibration/service workshops into a recurring-maintenance platform driven by the quarterly DGUV bump-test/calibration duty, using multi-brand independence (Dräger/MSA/Honeywell) versus OEM lock-in as the wedge.",
+        "key_risks": [
+          "OEM service arm (Dräger) captures much of the addressable service revenue",
+          "Small-ticket, high-volume logistics",
+          "Test-gas and calibration-standard traceability compliance"
+        ]
+      },
       "child_ids": []
     },
     "testing-inspection-certification-value-chain/calibration-metrology/prufmittelmanagement-calibration-management-services-software": {
@@ -1848,6 +1914,31 @@
           "title": "VFIB e.V. - Bauwerksprüfung nach DIN 1076",
           "url": "https://www.vfib-ev.de/",
           "note": "Certification body and qualification requirements for Bauwerksprüfer"
+        },
+        {
+          "title": "",
+          "url": "https://www.leuchtmann-ing.de/bruecken-und-ingenieurbau/bauwerkspruefung",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.sib-ingenieure.eu/projekte/bruecke-bauwerkspruefung-nach-din-1076/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.ezi-ingenieure.de/bauwerkspruefung/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.bechertundpartner.de/home/leistungen/bauwerkspruefung-nach-din-1076",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://aventis-advisors.com/tic-industry/",
+          "note": ""
         }
       ],
       "confidence": 3,
@@ -1856,7 +1947,26 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Private Ingenieurbüros freely acquirable; DEKRA/TÜV present but no financial consolidator dominating the long tail.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          "Leuchtmann Ingenieure (leuchtmann-ing.de) - VFIB-certified independent Bauwerksprüfer for bridges/civil structures",
+          "SiB Ingenieurgesellschaft mbH & Co. KG (sib-ingenieure.eu) - independent Ingenieurbüro doing DIN 1076 inspection",
+          "EZI Ingenieure GmbH (ezi-ingenieure.de) - independent firm specialised in DIN 1076 inspection of small/medium bridges",
+          "Bechert + Partner (bechertundpartner.de) - independent multi-site Ingenieurbüro for DIN 1076 Bauwerksprüfung"
+        ],
+        "ebitda_margin": {
+          "band": "~12-20% (TIC-sector norm)",
+          "basis": "sector-level; niche-specific proprietary",
+          "source": "https://aventis-advisors.com/tic-industry/"
+        },
+        "entry_multiple": "n/a - proprietary",
+        "bnb_angle": "Consolidate VFIB-certified Ingenieurbüros into a national Bauwerksprüfung platform riding the German bridge-renovation supercycle (Autobahn GmbH and Deutsche Bahn backlogs); statutory 6-year DIN 1076 cycles give predictable recurring revenue.",
+        "key_risks": [
+          "Acute shortage of certified Bauwerksprüfer is the binding growth constraint",
+          "Public-tender pricing pressure",
+          "Work often bundled with engineering design rather than pure TIC"
+        ]
+      },
       "child_ids": []
     },
     "testing-inspection-certification-value-chain/construction-structural-real-estate-inspection/chimney-sweeping-statutory-schornsteinfeger": {
@@ -2414,6 +2524,21 @@
           "title": "Zerstörungsfreie Prüfverfahren - TÜV Rheinland",
           "url": "https://www.tuv.com/germany/de/conventional-ndt.html",
           "note": "Majors (TÜV, Applus, SGS) present at the top; SME surface-method layer still owner-operated."
+        },
+        {
+          "title": "",
+          "url": "https://zeros-gmbh.de/en/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.awt-peters.de/unternehmen.html",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://aventis-advisors.com/tic-industry/",
+          "note": ""
         }
       ],
       "confidence": 3,
@@ -2422,7 +2547,24 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Freely acquirable private B2B service firms; EN ISO 9712 personnel certification is person-bound (key-person retention risk) but not an ownership barrier.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          "ZEROS GmbH (zeros-gmbh.de) - independent multi-site ZfP/NDT lab & field service since 1995 (Berlin, Bavaria, Baden-Württemberg)",
+          "AWT Peters GmbH (awt-peters.de, Kirchzarten) - owner-managed (Dirk Peters) NDT field-service specialist, regional market leader for pipeline/plant/steel construction"
+        ],
+        "ebitda_margin": {
+          "band": "~12-18% (low-capex, technician-driven)",
+          "basis": "sector-level; niche proprietary",
+          "source": "https://aventis-advisors.com/tic-industry/"
+        },
+        "entry_multiple": "n/a - proprietary",
+        "bnb_angle": "Aggregate owner-managed ZfP field-service firms into a low-capex, high-volume surface-inspection platform for weld/casting QA in plant, pipeline and steel construction, monetising recurring personnel re-certification and framework contracts.",
+        "key_risks": [
+          "Low barriers to entry in surface methods drive price competition",
+          "Certified technician (EN ISO 9712) recruitment/retention",
+          "Project-cyclical industrial capex exposure"
+        ]
+      },
       "child_ids": []
     },
     "testing-inspection-certification-value-chain/industrial-ndt-materials-testing/conventional-advanced-ndt-field-services-ut-rt-pt-mt-vt/volumetric-advanced-ut-paut-tofd-rt-digital-radiography": {
@@ -2887,6 +3029,16 @@
           "title": "GSI SLV Duisburg - FROSIO Beschichtungsinspektor",
           "url": "https://www.frosio-beschichtungsinspektor.de/",
           "note": "Single German FROSIO training authority - qualification is person-certified, thin talent pool."
+        },
+        {
+          "title": "",
+          "url": "https://www.id-s.de/leistungsuebersicht/externe-fertigungsueberwachung/fertigungsueberwachung-frosio-inspektor-level-iii",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://aventis-advisors.com/tic-industry/",
+          "note": ""
         }
       ],
       "confidence": 3,
@@ -2895,7 +3047,25 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Freely acquirable, asset-light inspector micro-firms (private industrial/offshore/wind pay); virgin and owner-operated, but the target pool is small (EUR0.2-3m each) limiting platform scale.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          "Technocommerz GmbH (technocommerz.com) - independent FROSIO/NACE coating & corrosion inspection, FROSIO Level III since 2014",
+          "korrotec (korrotec.de) - independent FROSIO inspector / QA in heavy corrosion protection of steel and concrete",
+          "IDS Oberflächentechnik (id-s.de) - independent FROSIO Level III coating inspection / Fertigungsüberwachung"
+        ],
+        "ebitda_margin": {
+          "band": "~12-18% (people-driven TIC service)",
+          "basis": "sector-level; niche proprietary",
+          "source": "https://aventis-advisors.com/tic-industry/"
+        },
+        "entry_multiple": "n/a - proprietary",
+        "bnb_angle": "Aggregate FROSIO/NACE inspector micro-firms into a QA-inspection platform for offshore wind, tanks/pipelines and steel fabrication, riding energy-transition steel demand; scale converts key-man risk into a managed roster.",
+        "key_risks": [
+          "Micro-scale and acute key-man risk around individual certified inspectors",
+          "Project/cyclical revenue tied to steel-construction capex",
+          "Thin defensibility versus contractors doing their own QA"
+        ]
+      },
       "child_ids": []
     },
     "testing-inspection-certification-value-chain/industrial-ndt-materials-testing/dimensional-geometric-metrology-services-cmm-ct-lohnmessung": {
@@ -3602,6 +3772,21 @@
           "title": "DGUV Test - Prüfsachverständiger Krane (Personenzertifizierung)",
           "url": "https://www.dguv.de/dguv-test/personen-zert/pruefsachverstaendiger-krane/index.jsp",
           "note": "New 17024 personnel certification replaces Ermächtigung; competence is person-bound."
+        },
+        {
+          "title": "",
+          "url": "https://www.haisch-kran.de/produkte/kran-und-pruefservice/herstellerunabhaengige-pruefung-ihrer-krananlagen",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://kran-uvv.de/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://aventis-advisors.com/tic-industry/",
+          "note": ""
         }
       ],
       "confidence": 3,
@@ -3610,7 +3795,24 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Crane-inspection SMEs are freely acquirable; Prüfsachverständige now personnel-certified under DIN EN ISO/IEC 17024 (DGUV Test) - person-bound competence but no ownership barrier.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          "HAISCH KRAN GmbH & Co. KG (haisch-kran.de, Göppingen) - independent, manufacturer-agnostic crane inspection per DGUV V52/V3 (60+ yrs)",
+          "Heckl / kran-uvv.de (Aichach) - independent Prüfsachverständiger for crane UVV/DGUV inspection"
+        ],
+        "ebitda_margin": {
+          "band": "~12-18% (field-service; blended with repair)",
+          "basis": "sector-level; niche proprietary",
+          "source": "https://aventis-advisors.com/tic-industry/"
+        },
+        "entry_multiple": "n/a - proprietary",
+        "bnb_angle": "Roll up manufacturer-independent crane-inspection SMEs into a recurring statutory-inspection platform (annual §26 plus 4-yearly Sachverständigen-Prüfung), differentiating on OEM-agnostic multi-brand coverage and software-driven scheduling.",
+        "key_risks": [
+          "Authorised-Sachverständiger personnel bottleneck",
+          "Many firms bundle service/repair, mixing margins and diluting the TIC multiple",
+          "OEM (Demag/ABUS) and TÜV/DEKRA competition"
+        ]
+      },
       "child_ids": []
     },
     "testing-inspection-certification-value-chain/periodic-technical-safety-inspection/electrical-installation-inspection-dguv-v3-e-check": {
@@ -4003,6 +4205,26 @@
           "title": "Prüfung nach DIN EN 1176 - TÜV NORD",
           "url": "https://www.tuev-nord.de/en/services/audit-and-expertise/playgrounds-and-play-equipment/",
           "note": "Majors offer the service but SME/owner-operated layer remains unconsolidated (headroom)."
+        },
+        {
+          "title": "",
+          "url": "https://www.spielplatzmobil.de/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.grieseler-gmbh.de/grieseler-engineering/spielplatzpruefung/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.spielplatz-inspektion.de/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://aventis-advisors.com/tic-industry/",
+          "note": ""
         }
       ],
       "confidence": 3,
@@ -4011,7 +4233,25 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Freely acquirable inspection SMEs with recurring per-site annual municipal contracts; Spielplatzprüfer qualification (DIN 79161) is person-bound but not an ownership barrier; no financial consolidator yet.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          "Spielplatzmobil GmbH (spielplatzmobil.de) - independent playground inspection SME (~20 yrs, ~8 inspectors), also BSFH/FLL training body",
+          "grieseler GmbH (grieseler-gmbh.de) - independent, certified Spielplatzprüfer doing DIN EN 1176 inspections",
+          "Spielplatzservice (spielplatz-inspektion.de) - independent qualified playground-inspection SME"
+        ],
+        "ebitda_margin": {
+          "band": "~12-18% (field-service TIC)",
+          "basis": "sector-level; niche proprietary",
+          "source": "https://aventis-advisors.com/tic-industry/"
+        },
+        "entry_multiple": "n/a - proprietary",
+        "bnb_angle": "Roll up certified Spielplatzprüfer SMEs into a recurring annual-inspection platform for municipalities, housing associations and Kitas (DIN EN 1176 mandates an annual main inspection), adding SaaS defect-tracking to lift route density and margin.",
+        "key_risks": [
+          "Highly fragmented, micro-scale target set",
+          "Municipal budget/tender price pressure and seasonal/weather-dependent field work",
+          "Individual Spielplatzprüfer certification dependency"
+        ]
+      },
       "child_ids": []
     },
     "testing-inspection-certification-value-chain/periodic-technical-safety-inspection/work-equipment-ppe-inspection-ladders-racking-psa-against-falls": {
@@ -4596,6 +4836,26 @@
           "title": "EMV-Labor | ib-lenhardt",
           "url": "https://ib-lenhardt.com/product-testing/electromagnetic-compatibility",
           "note": "Independent EMV lab example"
+        },
+        {
+          "title": "",
+          "url": "https://www.emc-testhaus.de/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.akuvib.com/emc/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.s-team.de/akkreditierung-emv-messlabor/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://aventis-advisors.com/tic-industry/",
+          "note": ""
         }
       ],
       "confidence": 4,
@@ -4604,7 +4864,25 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          "EMC TestHaus GmbH & Co. KG (Siegen) - independent, DAkkS-accredited EMV lab founded 1991 by Dr. Dieter & Christiane Schreiber; family/owner-managed",
+          "AKUVIB Engineering and Testing GmbH (Bochum) - independent DAkkS-accredited lab combining EMV, environmental simulation and vibration under one roof",
+          "s-team (s-team.de) - DAkkS-accredited independent EMV measurement lab"
+        ],
+        "ebitda_margin": {
+          "band": "~12-20% (TIC-sector norm; often mid-teens given chamber capex)",
+          "basis": "sector-level; niche-specific figures proprietary",
+          "source": "https://aventis-advisors.com/tic-industry/"
+        },
+        "entry_multiple": "n/a - proprietary",
+        "bnb_angle": "Buy-and-build a multi-site accredited EMV platform by rolling up owner-succession labs, sharing shielded/anechoic chamber utilisation and cross-selling adjacent RED and e-mark work. Capex-heavy chambers create a real barrier once a hub-and-spoke footprint is assembled.",
+        "key_risks": [
+          "High fixed-cost chambers make results very utilisation-sensitive",
+          "Accreditation scope and key-personnel dependency",
+          "Cyclical exposure to industrial/automotive R&D spend"
+        ]
+      },
       "child_ids": []
     },
     "testing-inspection-certification-value-chain/product-testing-certification/electrical-product-safety-emc-emv-testing/electrical-safety-low-voltage-testing": {
@@ -4724,6 +5002,26 @@
           "title": "Richtlinie 2014/53/EU – Wikipedia",
           "url": "https://de.wikipedia.org/wiki/Richtlinie_2014/53/EU",
           "note": "RED scope and cyber-security requirement dates"
+        },
+        {
+          "title": "",
+          "url": "https://ib-lenhardt.com/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.emcc.de/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://nmigroup.com/group-news/die-nmi-gruppe-ubernimmt-phoenix-testlab-und-starkt-marktzugangskompetenzen-in-den-bereichen-batterie-funk-und-emv-konformitat/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://aventis-advisors.com/tic-industry/",
+          "note": ""
         }
       ],
       "confidence": 4,
@@ -4732,7 +5030,24 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          "IB-Lenhardt AG (ib-lenhardt.com, St. Ingbert) - independent radio/EMV testing group with own accredited IBL-Lab GmbH and KL-Certification GmbH (NB/TCB/FCB)",
+          "EMCCons DR. RAŠEK GmbH & Co. KG (emcc.de, Ebermannstadt) - privately/owner-owned RED & EMC lab and Notified Body (NB 0678), independent"
+        ],
+        "ebitda_margin": {
+          "band": "~12-20% (chamber-capex-heavy)",
+          "basis": "sector-level; niche proprietary",
+          "source": "https://aventis-advisors.com/tic-industry/"
+        },
+        "entry_multiple": "n/a - proprietary",
+        "bnb_angle": "Back one of the last independent radio/RED lab-plus-Notified-Body platforms to consolidate a rapidly thinning field (Phoenix Testlab sold to NMi in 2025, CETECOM now inside the RWTUEV group); IoT and the cyber-security RED requirements (Art. 3.3 d-f from Aug 2025) are the demand catalyst.",
+        "key_risks": [
+          "Consolidation has already absorbed most independents, shrinking the target set and raising entry prices",
+          "Heavy anechoic-chamber capex",
+          "Accreditation/NB status and key-personnel dependency"
+        ]
+      },
       "child_ids": []
     },
     "testing-inspection-certification-value-chain/product-testing-certification/machinery-safety-functional-safety": {
@@ -5065,6 +5380,21 @@
           "title": "Toys and children's products | SGS Institut Fresenius",
           "url": "https://sgs-institut-fresenius.de/en/consumer-goods-retail/consumer-goods/toys-and-childrens-products",
           "note": "Toy/children's product testing scope"
+        },
+        {
+          "title": "",
+          "url": "https://ctl-bielefeld.de/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://act-lab.com/de/kinderspielzeug-tests/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://aventis-advisors.com/tic-industry/",
+          "note": ""
         }
       ],
       "confidence": 4,
@@ -5073,7 +5403,24 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          "CTL GmbH Bielefeld (ctl-bielefeld.de) - independent DAkkS-accredited EN 71 toy lab, explicitly without shareholdings/conflicts",
+          "ACT LAB GmbH (act-lab.com) - independent children's-toy testing lab"
+        ],
+        "ebitda_margin": {
+          "band": "~12-20% (TIC-sector norm)",
+          "basis": "sector-level; niche proprietary",
+          "source": "https://aventis-advisors.com/tic-industry/"
+        },
+        "entry_multiple": "n/a - proprietary",
+        "bnb_angle": "Build an independent consumer-product/toy-safety testing platform (EN 71 mechanical + chemical + REACH) for importers/retailers; the EU Toy Safety Regulation revision and REACH SVHC tightening drive test volume.",
+        "key_risks": [
+          "Dominated by TÜV/SGS Institut Fresenius/Intertek - few independent SME targets",
+          "Capex chemistry instrumentation",
+          "Import-volume cyclicality"
+        ]
+      },
       "child_ids": []
     },
     "testing-inspection-certification-value-chain/product-testing-certification/toys-consumer-products-gs-mark/gs-mark-consumer-product-certification": {
@@ -5196,6 +5543,26 @@
           "title": "Akkreditierungen und Zertifizierungen | MPA Universität Stuttgart",
           "url": "https://www.mpa.uni-stuttgart.de/ingenieur_und_pruefdienstleistungen/akkreditierungen_und_zertifizierungen/",
           "note": "DIBt-recognised PÜZ body (BWU03)"
+        },
+        {
+          "title": "",
+          "url": "https://www.sigma-ka.de/leistungen/pruefungsinstitut/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://puezbau.de/ueber-uns",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.zertbaupruef.de/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://aventis-advisors.com/tic-industry/",
+          "note": ""
         }
       ],
       "confidence": 4,
@@ -5204,7 +5571,25 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          "SIGMA KARLSRUHE GmbH (sigma-ka.de, Malsch) - independent DIBt-recognised PÜZ-Stelle & DAkkS lab for construction products (50+ yrs)",
+          "PÜZ BAU GmbH (puezbau.de) - independent PÜZ-Stelle for testing/surveillance/certification of construction products (since 2006/07)",
+          "ZERTbauprüf GmbH (zertbaupruef.de) - independent DAkkS-accredited/notified FPC conformity-assessment body (since 2013)"
+        ],
+        "ebitda_margin": {
+          "band": "~12-20% (TIC-sector norm)",
+          "basis": "sector-level; niche proprietary",
+          "source": "https://aventis-advisors.com/tic-industry/"
+        },
+        "entry_multiple": "n/a - proprietary",
+        "bnb_angle": "Consolidate DIBt-recognised PÜZ-Stellen into a construction-products certification + factory-production-control surveillance platform; the German national route (abZ / Ü-Zeichen) is a regulatory moat with recurring surveillance revenue.",
+        "key_risks": [
+          "State MPAs and DIBt structural competition",
+          "Narrow technical accreditation scopes cap scalability",
+          "Construction-cycle exposure"
+        ]
+      },
       "child_ids": []
     },
     "testing-inspection-certification-value-chain/product-testing-certification/pressure-gas-appliances-ped-gar": {
@@ -6998,6 +7383,21 @@
           "title": "Pflicht zur ISO-50001-Zertifizierung - TÜV SÜD",
           "url": "https://www.tuvsud.com/de-de/wissenswert/value-magazin/iso-50001-pflicht",
           "note": "EnEfG obliges >7.5 GWh/year firms to run ISO 50001/EMAS - statutory driver"
+        },
+        {
+          "title": "",
+          "url": "https://www.ifu-cert.de/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.arqumzert.de/unser-angebot/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://aventis-advisors.com/tic-industry/",
+          "note": ""
         }
       ],
       "confidence": 4,
@@ -7006,7 +7406,24 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          "IFU-CERT GmbH (ifu-cert.de, Hanover) - independent accredited certification body for ISO 50001 / EMAS (30+ yrs)",
+          "Arqum Zert GmbH (arqumzert.de, Munich) - independent DAkkS-accredited ISO 50001 certifier with DAU-approved EMAS Umweltgutachter"
+        ],
+        "ebitda_margin": {
+          "band": "~15-25% (asset-light certification/audit)",
+          "basis": "sector-level; niche proprietary",
+          "source": "https://aventis-advisors.com/tic-industry/"
+        },
+        "entry_multiple": "n/a - proprietary",
+        "bnb_angle": "Consolidate accredited energy/environmental certification bodies plus EMAS Umweltgutachter into an asset-light platform riding EnEfG statutory demand (large energy consumers must certify ISO 50001 or EMAS), with recurring 3-year surveillance cycles.",
+        "key_risks": [
+          "DAkkS accreditation scope and DAU-approved auditor dependency",
+          "Dominated by TÜV/DNV/DEKRA/Bureau Veritas",
+          "Demand hinges on EnEfG thresholds/enforcement"
+        ]
+      },
       "child_ids": []
     },
     "testing-inspection-certification-value-chain/management-system-process-certification/sustainability-esg-csrd-assurance": {
@@ -7155,6 +7572,16 @@
           "title": "Audits als Instrument des nachhaltigen Lieferkettenmanagements - IHK Köln",
           "url": "https://www.ihk.de/koeln/hauptnavigation/international/lieferkettenportal/audits-als-instrument-des-nachhaltigen-lieferkettenmanagements-5972286",
           "note": "Supplier audits (incl. SMETA) as accepted LkSG compliance measure"
+        },
+        {
+          "title": "",
+          "url": "https://www.rittweger-team.de/leistungen/sozialaudit-und-lieferantenrating/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://aventis-advisors.com/tic-industry/",
+          "note": ""
         }
       ],
       "confidence": 4,
@@ -7163,7 +7590,23 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          "RITTWEGER + TEAM (rittweger-team.de) - independent German provider of SA8000/SMETA/BSCI social audits + supplier rating, EcoVadis training partner (note: genuinely independent SME pure-play social auditors are scarce in DACH - most on-site audit capacity sits with TÜV/SGS/BV/Intertek/Eurofins/QIMA)"
+        ],
+        "ebitda_margin": {
+          "band": "~10-18% (labour-intensive audit)",
+          "basis": "sector-level; niche proprietary",
+          "source": "https://aventis-advisors.com/tic-industry/"
+        },
+        "entry_multiple": "n/a - proprietary",
+        "bnb_angle": "LkSG/CSDDD create structural demand, but on-site auditing is consolidated under the majors - the investable independent white-space is a tech-enabled supplier due-diligence/monitoring layer bolted onto a certified audit arm rather than a pure audit roll-up.",
+        "key_risks": [
+          "Heavy consolidation - very few independent SME audit targets",
+          "Audit-quality/liability and reputational risk (social-audit credibility criticism)",
+          "Regulatory flux (LkSG/CSDDD scope) and scarcity of APSCA-certified auditor talent"
+        ]
+      },
       "child_ids": []
     },
     "testing-inspection-certification-value-chain/management-system-process-certification/product-chain-organic-regulated-process-certification-light": {
@@ -7358,6 +7801,21 @@
           "title": "LfU Bayern - §29b-Messstellen",
           "url": "https://www.lfu.bayern.de/luft/p26_messstellen/index.htm",
           "note": "Register confirming multiple announced measurement bodies"
+        },
+        {
+          "title": "",
+          "url": "https://www.oeko-control.com/leistungen/emissionen/messstelle-nach-29b-bundes-immissionsschutzgesetz/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.muellerbbm.de/mueller-bbm/unternehmensstruktur/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://aventis-advisors.com/tic-industry/",
+          "note": ""
         }
       ],
       "confidence": 3,
@@ -7366,7 +7824,24 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          "öko-control GmbH (oeko-control.com, Dessau-Roßlau) - independent §29b-BImSchG bekanntgegebene Messstelle for air-pollutant emission measurement",
+          "Müller-BBM Industry Solutions GmbH (mbbm-ind.com, Planegg) - independent, employee-owned §29b Messstelle for emissions/immissions, odour, noise & vibration (~400 staff; larger)"
+        ],
+        "ebitda_margin": {
+          "band": "~12-20% (TIC-sector norm)",
+          "basis": "sector-level; niche proprietary",
+          "source": "https://aventis-advisors.com/tic-industry/"
+        },
+        "entry_multiple": "n/a - proprietary",
+        "bnb_angle": "Build a national §29b-bekanntgegebene measurement platform by acquiring regional Messstellen; recurring statutory periodic-measurement mandates plus continuous-monitoring calibration create annuity revenue, and TA Luft / 41. BImSchV tightening drives volume.",
+        "key_risks": [
+          "Bekanntgabe/accreditation and Fachkunde personnel dependency",
+          "Regional coverage requirements raise consolidation cost",
+          "Larger independents (e.g. Müller-BBM) already scaled - limited pure-SME targets"
+        ]
+      },
       "child_ids": []
     },
     "testing-inspection-certification-value-chain/environmental-water-emissions-testing/environmental-analytics-soil-water-waste-bbodschv-awsv-krwg": {
@@ -7669,6 +8144,26 @@
           "title": "SGS Institut Fresenius - Laboruntersuchungen fuer die Lebensmittelbranche",
           "url": "https://sgs-institut-fresenius.de/en/health-nutrition/food-industry",
           "note": "Leading DACH food analytics provider"
+        },
+        {
+          "title": "",
+          "url": "https://www.produktqualitaet.com/en/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.oehmi-analytik.de/lebensmittellabor",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://gbm-labor.de/leistungen/akkreditierung/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://aventis-advisors.com/tic-industry/",
+          "note": ""
         }
       ],
       "confidence": 3,
@@ -7677,7 +8172,25 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          "ifp Institut für Produktqualität GmbH (produktqualitaet.com, Berlin) - independent accredited food/feed/water analytics lab, founded 2004, ~300+ staff",
+          "ÖHMI Analytik GmbH (oehmi-analytik.de, Magdeburg) - independent accredited food/water/environmental lab",
+          "gbm Labor GmbH (gbm-labor.de) - independent DAkkS ISO 17025 food/sampling lab"
+        ],
+        "ebitda_margin": {
+          "band": "~12-20% (TIC-sector norm)",
+          "basis": "sector-level; niche proprietary",
+          "source": "https://aventis-advisors.com/tic-industry/"
+        },
+        "entry_multiple": "n/a - proprietary",
+        "bnb_angle": "Assemble an independent food-contaminant analytics platform as a challenger to Eurofins/Tentamus/SGS Institut Fresenius: consolidate owner-succession labs, centralise high-capex LC-MS/GC-MS, and cross-sell retailer-QMS residue/authenticity testing.",
+        "key_risks": [
+          "Eurofins/Tentamus roll-up already advanced - scarce, expensive independents and heavy buyer competition",
+          "Capex-heavy mass-spec instrumentation",
+          "Price-competitive, commoditised routine tests"
+        ]
+      },
       "child_ids": []
     },
     "testing-inspection-certification-value-chain/food-feed-agricultural-testing/microbiological-shelf-life-testing": {
