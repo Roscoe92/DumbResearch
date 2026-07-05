@@ -341,11 +341,11 @@
         "recurring": 4,
         "fragmentation": 5,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 4,
+        "margin": 5,
+        "growth": 5,
+        "headroom": 3,
+        "reimbursement_risk": 1
       },
       "rationale": {
         "recurring": "ISMS maintenance, audits and reporting are annual/continuous obligations, delivered as retainers.",
@@ -382,14 +382,29 @@
           "title": "NIS2-Richtlinie für den Mittelstand: Pflichten, Fristen & Umsetzung 2026 – VALLEY IT",
           "url": "https://valleyit.services/nis2-pflichten-mittelstand.html",
           "note": "NIS2 duties/deadlines driving recurring compliance services"
+        },
+        {
+          "title": "NIS2-Beratung - Cassini Consulting",
+          "url": "https://www.cassini.de/leistungen/nis2-umsetzungs-und-cybersicherheitsstaerkungsgesetz",
+          "note": "~29,500 in-scope firms; NIS-2 in force since Dec 2025 => strong mandate-driven growth."
+        },
+        {
+          "title": "Informationssicherheit & Compliance Mittelstand - Externer ISB & vCISO",
+          "url": "https://www.ing-ism.de/",
+          "note": "Typical boutique vCISO/ISMS retainer model; asset-light."
+        },
+        {
+          "title": "NIS2 Beratung - Proliance",
+          "url": "https://www.proliance.ai/nis2-beratung",
+          "note": "PE/VC-backed compliance platform already active => some consolidation reduces headroom."
         }
       ],
       "confidence": 4,
-      "status": "grounded",
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Standard consulting GmbHs; retainer contracts freely transferable, no licence barrier.",
       "actionable": {},
       "child_ids": []
     },
@@ -409,18 +424,18 @@
         "recurring": 5,
         "fragmentation": 4,
         "compliance": 4,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 4,
+        "margin": 3,
+        "growth": 4,
+        "headroom": 2,
+        "reimbursement_risk": 1
       },
       "rationale": {
         "recurring": "Priced per protected workload per month (fully-managed DRaaS ~EUR 1,500-3,000/month for smaller mid-market); inherently subscription.",
         "fragmentation": "Offered by many Systemhäuser and hosters (DATIS, IT-HAUS, Gierth, RAUSYS) plus platform players (SVA, plusserver); regionally fragmented.",
         "compliance": "DSGVO mandates EU/German data residency; ransomware and NIS2 backup/continuity expectations pull demand, though not a single statutory line-item."
       },
-      "composite": 83.3,
+      "composite": 75.0,
       "dach_signals": {
         "est_players": "many regional Systemhäuser/hosters + national platforms",
         "revenue_band_eur": "EUR 1-5m regional operator; DRaaS ~EUR 1,500-3,000/month per SME",
@@ -453,14 +468,24 @@
           "title": "Backup as a Service: Anbieter und Angebote im Überblick – Computer Weekly",
           "url": "https://www.computerweekly.com/de/feature/Backup-as-a-Service-Anbieter-und-Angebote-im-Ueberblick",
           "note": "Overview of BaaS providers/offerings for German market"
+        },
+        {
+          "title": "Backup as a Service - SVA",
+          "url": "https://sva.de/en/services/backup-as-a-service",
+          "note": "Storage/DC-backed offering => capital intensity caps margin vs pure services."
+        },
+        {
+          "title": "MSP M&A 2025: Deals Focus on Cybersecurity, AI - Omdia",
+          "url": "https://omdia.tech.informa.com/blogs/2026/apr/msp-m-and-a-2025-deals-focus-on-cybersecurity-ai",
+          "note": "PE in 69% of MSP deals; backup/managed-services already heavily consolidated (Infinigate et al.) => low headroom."
         }
       ],
-      "confidence": 4,
-      "status": "grounded",
+      "confidence": 3,
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Regional Systemhäuser/hosters freely acquirable; recurring subscription revenue.",
       "actionable": {},
       "child_ids": []
     },
@@ -480,18 +505,18 @@
         "recurring": 5,
         "fragmentation": 5,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 4,
+        "margin": 4,
+        "growth": 5,
+        "headroom": 4,
+        "reimbursement_risk": 2
       },
       "rationale": {
         "recurring": "TI connectivity, KBV §75b security requirements and practice IT are ongoing operated services with mandatory maintenance.",
         "fragmentation": "Many small regional healthcare-IT specialists (IT Ärzte, Netzleiter, IT One Medical, LEITWERK) serving practices/MVZ; classic owner-operated long tail.",
         "compliance": "Driven by statutory TI mandate (gematik), KBV §75b IT-security guideline, DSGVO health-data and KHZG funding conditions."
       },
-      "composite": 100.0,
+      "composite": 86.7,
       "dach_signals": {
         "est_players": "dozens of gematik/KBV-certified healthcare-IT Systemhäuser",
         "revenue_band_eur": "EUR 0.5-5m typical practice/MVZ specialist",
@@ -524,14 +549,24 @@
           "title": "IT-Service für Arztpraxen & MVZ mit Notfallservice 24/7 – IT One Medical",
           "url": "https://itone-medical.de/it-service/",
           "note": "Specialised managed IT + TI + security for practices, MVZ and pharmacies"
+        },
+        {
+          "title": "BWG Medizinsysteme GmbH (TechniData)",
+          "url": "https://www.technidata.de/firmengruppe/bwg-medizinsysteme-gmbh/",
+          "note": ">600 practices/clinics served, 40yr e-health specialist — shows scale of niche"
+        },
+        {
+          "title": "Medi-IT.Care GmbH – Managed IT für Praxen zu Fixpreis/Monat",
+          "url": "https://medi-it.care/",
+          "note": "Recurring fixed-monthly managed-IT model = durable revenue"
         }
       ],
       "confidence": 4,
-      "status": "grounded",
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Freely acquirable GmbHs; §75b/gematik certification is firm-bound not ownership-blocking",
       "actionable": {},
       "child_ids": []
     },
@@ -551,18 +586,18 @@
         "recurring": 4,
         "fragmentation": 4,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 3,
+        "margin": 4,
+        "growth": 4,
+        "headroom": 4,
+        "reimbursement_risk": 3
       },
       "rationale": {
         "recurring": "TISAX assessments are valid ~3 years with continuous ISMS upkeep; managed-ISMS retainers recur.",
         "fragmentation": "Many regional automotive-focused Systemhäuser/consultancies (März DV, iTSM Group, systemworkx) plus large auditors; supplier base is broad.",
         "compliance": "Without TISAX, suppliers risk losing OEM supplier numbers – effectively mandatory, VDA/ENX-driven spend."
       },
-      "composite": 83.3,
+      "composite": 65.0,
       "dach_signals": {
         "est_players": "many automotive-region Systemhäuser + ISMS consultancies",
         "revenue_band_eur": "EUR 1-5m typical specialist",
@@ -594,14 +629,29 @@
           "title": "Informationssicherheit – NIS2- und TISAX-Audits – systemworkx",
           "url": "https://systemworkx.de/beratung-service/it-sec/informationssicherheit/",
           "note": "ISMS build-out to TISAX requirements for suppliers"
+        },
+        {
+          "title": "TISAX: Informationssicherheit für die Automobilindustrie – KPMG",
+          "url": "https://kpmg.com/de/de/home/themen/2025/09/tisax-informationssicherheit-fuer-die-automobilindustrie.html",
+          "note": "9,500+ active TISAX labels in 2025, ~18% annual growth; mandate for OEM/Tier-1 collaboration."
+        },
+        {
+          "title": "Die Autoindustrie und die Probleme bei der NIS2-Umsetzung",
+          "url": "https://www.springerprofessional.de/en/unternehmen---institutionen/automobilelektronik---software/die-autoindustrie-und-die-probleme-bei-der-nis2-umsetzung/52533114",
+          "note": "NIS2 layered on TISAX drives demand, but auto-sector distress weighs on supplier IT budgets."
+        },
+        {
+          "title": "TISAX Assessments für die Automobilindustrie – Bureau Veritas",
+          "url": "https://www.bureauveritas.de/unsere-services/tisax-assessment",
+          "note": "Confirms managed-service/consulting demand around TISAX labels."
         }
       ],
       "confidence": 3,
-      "status": "grounded",
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Automotive-region Systemhäuser/ISMS consultancies are acquirable GmbHs; but end-customer base (auto suppliers) under structural financial stress = some revenue-durability risk.",
       "actionable": {},
       "child_ids": []
     },
@@ -894,11 +944,11 @@
         "recurring": 5,
         "fragmentation": 4,
         "compliance": 4,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 5,
+        "margin": 3,
+        "growth": 5,
+        "headroom": 2,
+        "reimbursement_risk": 1
       },
       "rationale": {
         "recurring": "Per-seat annual subscription bundled with EDR licences.",
@@ -930,14 +980,29 @@
           "title": "Nomios Germany Managed MDR",
           "url": "https://www.nomios.de/managed-services/nomios-germany-managed-mdr/",
           "note": "24x7 MDR managed service, NIS2 audit capability"
+        },
+        {
+          "title": "Managed Detection and Response (MDR) Service Market | Research Nester",
+          "url": "https://www.researchnester.com/reports/managed-detection-and-response-service-market/8327",
+          "note": "Global MDR ~USD 9.2bn in 2025, +15% YoY; NIS2 drives ~40% adoption uplift in Europe."
+        },
+        {
+          "title": "Was ist MDR? | Trend Micro (DE)",
+          "url": "https://www.trendmicro.com/de_de/what-is/xdr/managed-detection-and-response-mdr.html",
+          "note": "Channel/vendor-led EDR/XDR-bundled MDR - margins compressed by vendor licence pass-through."
+        },
+        {
+          "title": "Private Equity in the IT Channel: Key Investment Trends | ChannelPro",
+          "url": "https://www.channelpronetwork.com/2025/12/04/private-equity-in-the-it-channel-key-investment-trends/",
+          "note": "Heavy PE/distributor (Infinigate-style) consolidation of channel MSPs - little whitespace left."
         }
       ],
-      "confidence": 3,
-      "status": "grounded",
+      "confidence": 4,
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Reselling MSPs are freely acquirable GmbHs; only friction is vendor/distributor channel dependency, not ownership.",
       "actionable": {},
       "child_ids": []
     },
@@ -1042,18 +1107,18 @@
         "recurring": 4,
         "fragmentation": 4,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 2,
+        "margin": 5,
+        "growth": 4,
+        "headroom": 4,
+        "reimbursement_risk": 1
       },
       "rationale": {
         "recurring": "Subscription/maintenance on retention platform.",
         "fragmentation": "Niche German vendors and integrators.",
         "compliance": "Retention duties from DSGVO, MaRISK and KRITIS (>=6 months)."
       },
-      "composite": 83.3,
+      "composite": 75.0,
       "dach_signals": {
         "est_players": "small niche",
         "revenue_band_eur": "EUR 1-5m",
@@ -1071,14 +1136,24 @@
           "title": "ProSoft Log Management & SIEM",
           "url": "https://www.prosoft.de/loesungen/schwachstellen-management/log-management-siem/",
           "note": "German-made DSGVO/KRITIS/MaRISK log management"
+        },
+        {
+          "title": "Cosanta GmbH – SIEM-as-a-Service",
+          "url": "https://www.cosanta.de/cyber-managed-it-security-services/siem/",
+          "note": "Managed SIEM/log service; small niche of specialised providers"
+        },
+        {
+          "title": "security-insider – SIEM/SOC-Betrieb und Datenschutz (revisionssichere Speicherung)",
+          "url": "https://www.security-insider.de/siem-und-soc-betrieb-und-der-datenschutz-a-cccfd2e5b67f5698e8b11c5dbb6418ac/",
+          "note": "KRITIS/NIS2/DORA drive long-retention demand"
         }
       ],
       "confidence": 3,
-      "status": "grounded",
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Freely acquirable GmbHs; asset-light SaaS log-management vendors",
       "actionable": {},
       "child_ids": []
     },
@@ -1311,18 +1386,18 @@
         "recurring": 4,
         "fragmentation": 5,
         "compliance": 4,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 4,
+        "margin": 4,
+        "growth": 4,
+        "headroom": 4,
+        "reimbursement_risk": 1
       },
       "rationale": {
         "recurring": "Continuous scanning subscriptions with chosen intervals (SITS) rather than one-off tests; Oneconsult stresses 'recurring and efficient'.",
         "fragmentation": "Very many small pentest/vuln boutiques and integrators across DACH (ANQA, Oneconsult, SITS, plus platform vendors like Enginsight).",
         "compliance": "ISO 27001, NIS2 and TISAX require ongoing vulnerability management, but scan cadence is often customer-chosen."
       },
-      "composite": 83.3,
+      "composite": 79.2,
       "dach_signals": {
         "est_players": "~200+ pentest/vuln boutiques",
         "revenue_band_eur": "EUR 0.5-5m typical",
@@ -1354,14 +1429,24 @@
           "title": "ANQA IT-Security – Schwachstellenscan & Pentesting (managed)",
           "url": "https://anqa-itsecurity.de/managed-security-services/schwachstellenscan-pentesting/",
           "note": "Managed recurring scan + pentest service"
+        },
+        {
+          "title": "binsec GmbH - Provider for Manual Penetration Testing",
+          "url": "https://binsec.com/en/",
+          "note": "Owner-operated pentest boutique; high day-rate, asset-light."
+        },
+        {
+          "title": "Pentest Anbieter in Deutschland und der DACH-Region - Blaze Infosec",
+          "url": "https://www.blazeinfosec.com/post/penetration-testing-companies/",
+          "note": "Large fragmented boutique landscape => early consolidation headroom."
         }
       ],
       "confidence": 3,
-      "status": "grounded",
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "200+ acquirable pentest/vuln GmbHs; key-person/talent risk but no legal ownership barrier.",
       "actionable": {},
       "child_ids": []
     },
@@ -1444,11 +1529,11 @@
         "recurring": 4,
         "fragmentation": 5,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 4,
+        "margin": 5,
+        "growth": 5,
+        "headroom": 4,
+        "reimbursement_risk": 1
       },
       "rationale": {
         "recurring": "Ongoing vCISO/ISMS-as-a-service retainers rather than one-off audits.",
@@ -1492,14 +1577,29 @@
           "title": "8com – Cybersecurity für KRITIS (SOC, SIEM & XDR)",
           "url": "https://www.8com.de/branchenexpertise/kritis",
           "note": "Compliance support for NIS2/KRITIS-Dachgesetz"
+        },
+        {
+          "title": "NIS2, ISO 27001 und TISAX 2026: Neue Anforderungen",
+          "url": "https://smct-management.de/nis2-iso-27001-und-tisax-2026-neue-anforderungen-fuer-informationssicherheit-und-auditfaehigkeit/",
+          "note": "Compliance shifting from optional to strategic; strong rising demand."
+        },
+        {
+          "title": "NIS2-Compliance für deutsche Unternehmen – activeMind AG",
+          "url": "https://www.activemind.de/informationssicherheit/nis2/",
+          "note": "NIS2UmsuCG in force Dec 2025, expands scope to 50+ employee / EUR 10m firms across 18 sectors."
+        },
+        {
+          "title": "ISO 27001 Software: Anbieter 2026 – secjur",
+          "url": "https://www.secjur.com/blog/iso-27001-software",
+          "note": "Emerging software-enabled compliance platforms; fragmented consultancy base."
         }
       ],
-      "confidence": 3,
-      "status": "grounded",
+      "confidence": 4,
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Consultancies/vCISO practices are freely acquirable GmbHs; no accreditation barrier for advisory (unlike certification bodies).",
       "actionable": {},
       "child_ids": []
     },
@@ -1567,18 +1667,18 @@
         "recurring": 4,
         "fragmentation": 5,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 5,
+        "margin": 5,
+        "growth": 5,
+        "headroom": 3,
+        "reimbursement_risk": 2
       },
       "rationale": {
         "recurring": "Certificate valid 3 years with mandatory annual surveillance audits + re-certification, so advisory retainers recur; typical Mittelstand build 9-14 months then continuous ISMS operation.",
         "fragmentation": "30+ accredited certification bodies but a very long tail of independent ISMS consultants/boutiques; no dominant advisory consolidator below the Big Four/TUVs.",
         "compliance": "Increasingly a de-facto entry ticket for suppliers and a foundation others (NIS2, TISAX, DORA) build on."
       },
-      "composite": 91.7,
+      "composite": 90.8,
       "dach_signals": {
         "est_players": "30+ accredited certification bodies (DAkkS) plus a long tail of hundreds of ISMS advisory boutiques",
         "revenue_band_eur": "EUR 0.5-5m typical for advisory boutiques; audit fees EUR 10-25k, full Mittelstand first-year build EUR 37-215k",
@@ -1614,14 +1714,29 @@
           "title": "ISO 27001 Zertifizierung: Ablauf, Dauer & Voraussetzungen (secjur)",
           "url": "https://www.secjur.com/blog/iso-27001-zertifizierung",
           "note": "3-year cycle with annual surveillance audits; 9-14 month build"
+        },
+        {
+          "title": "ISO 27001 Berater / Fast-Track-Zertifizierung | ISMS.online",
+          "url": "https://de.isms.online/iso-27001/consultants/",
+          "note": "NIS2 expands the affected circle to ~30,000 German organisations - large ISMS advisory TAM."
+        },
+        {
+          "title": "ISMS gemäß ISO 27001 | TÜV Rheinland Consulting",
+          "url": "https://consulting.tuv.com/leistungen/managementberatung/managementsystemberatung/isms-din-iso-27001",
+          "note": "Rising mid-market certification demand driven by clients, standards and regulation."
+        },
+        {
+          "title": "ISO 27001 Beratung und Zertifizierung | SECURAM Consulting",
+          "url": "https://securam-consulting.com/leistungen/isms/iso-27001/",
+          "note": "Long tail of DACH ISMS boutiques (20+ yr independents) - fragmented, asset-light advisory."
         }
       ],
       "confidence": 4,
-      "status": "grounded",
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Advisory boutiques freely acquirable GmbHs; note DAkkS-accredited certification bodies must stay independent from consulting, but the target is advisory/cert-prep, not the audit body.",
       "actionable": {},
       "child_ids": []
     },
@@ -1641,11 +1756,11 @@
         "recurring": 5,
         "fragmentation": 5,
         "compliance": 4,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 4,
+        "margin": 5,
+        "growth": 5,
+        "headroom": 4,
+        "reimbursement_risk": 1
       },
       "rationale": {
         "recurring": "Priced as ongoing monthly retainer (external ISB EUR 1,400-3,500/mo; vCISO EUR 3,000-8,000/mo) — subscription-like, sticky, renews indefinitely.",
@@ -1685,14 +1800,29 @@
           "title": "Externer Informationssicherheitsbeauftragter (HvS-Consulting)",
           "url": "https://www.hvs-consulting.de/en/services/consulting/external-iso",
           "note": "Established provider of outsourced ISO/ISB role"
+        },
+        {
+          "title": "WK IT GmbH – ISB as a Service / vCISO",
+          "url": "https://wk-it.com/cyber-security-services/vciso/",
+          "note": "ISBaaS retainer model, one of hundreds of DACH providers"
+        },
+        {
+          "title": "ing-ISM – Externer ISB & vCISO (ISO 27001 / BSI-Grundschutz)",
+          "url": "https://www.ing-ism.de/",
+          "note": "Recurring retainer service to 30-250 employee mid-market"
+        },
+        {
+          "title": "cybervize – vCISO ~3.600–7.200 €/Monat",
+          "url": "https://www.cybervize.de/en/blog/ciso-vs-iso-information-security-officer-difference",
+          "note": "Retainer pricing; NIS2 vastly expands obligated entities = demand tailwind"
         }
       ],
       "confidence": 4,
-      "status": "grounded",
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Freely acquirable GmbHs; asset-light consulting though some key-person/retainer dependence",
       "actionable": {},
       "child_ids": []
     },
@@ -1787,18 +1917,18 @@
         "recurring": 4,
         "fragmentation": 5,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 3,
+        "margin": 5,
+        "growth": 3,
+        "headroom": 4,
+        "reimbursement_risk": 2
       },
       "rationale": {
         "recurring": "Label renewal every 3 years plus ongoing ISMS maintenance retainers.",
         "fragmentation": "Highly fragmented regional advisory firms around automotive clusters (BW, Bavaria, Saxony).",
         "compliance": "OEM contracts make TISAX non-negotiable for suppliers."
       },
-      "composite": 91.7,
+      "composite": 74.2,
       "dach_signals": {
         "est_players": "Long tail of automotive-focused ISMS advisory boutiques",
         "revenue_band_eur": "EUR 0.3-3m typical",
@@ -1822,14 +1952,29 @@
           "title": "TISAX Beratung (Alter Solutions)",
           "url": "https://www.alter-solutions.de/cybersecurity/tisax",
           "note": "Supplier-focused TISAX preparation"
+        },
+        {
+          "title": "TISAX Beratung/Umsetzung - SECURAM Consulting Hamburg",
+          "url": "https://securam-consulting.com/leistungen/isms/tisax-beratung/",
+          "note": "Owner-operated readiness boutique; long tail of similar firms."
+        },
+        {
+          "title": "TISAX Assessment - operational services",
+          "url": "https://www.operational-services.de/de/tisax-assessment",
+          "note": "3,500+ assessments; mandate is buyer-required for OEM business (durable but tied to auto sector)."
+        },
+        {
+          "title": "TISAX - Beratung, Umsetzung und Assessment - tec4net",
+          "url": "https://www.tec4net.com/web/2025/08/21/tisax-beratung-umsetzung-und-assessment-in-muenchen-und-bayern/",
+          "note": "Regional boutique; German auto downturn tempers structural growth."
         }
       ],
       "confidence": 3,
-      "status": "grounded",
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Readiness/consulting GmbHs freely acquirable (assessment accreditation itself sits with ENX-audited bodies, but advisory is unrestricted).",
       "actionable": {},
       "child_ids": []
     },
@@ -1922,18 +2067,18 @@
         "recurring": 5,
         "fragmentation": 3,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 2,
+        "margin": 5,
+        "growth": 5,
+        "headroom": 3,
+        "reimbursement_risk": 1
       },
       "rationale": {
         "recurring": "Statutory re-verification every 2 years — locked recurring cycle.",
         "fragmentation": "Concentrated: limited pool of accredited audit bodies with the required KRITIS competence, not a long tail.",
         "compliance": "Pure statutory obligation under BSIG for critical-infrastructure operators."
       },
-      "composite": 83.3,
+      "composite": 79.2,
       "dach_signals": {
         "est_players": "Limited set of DAkkS-accredited certification/audit bodies with KRITIS Pruefverfahrenskompetenz",
         "revenue_band_eur": "Mid five- to six-figure per audit engagement",
@@ -1965,14 +2110,29 @@
           "title": "Prufnachweis nach §8a BSIG (Socotec)",
           "url": "https://www.socotec-certification-international.de/leistungen/prufnachweis-absatz8a-bsig",
           "note": "Accredited audit-body offering"
+        },
+        {
+          "title": "BSI – KRITIS-Nachweise (Orientierungshilfe § 39/§8a BSIG)",
+          "url": "https://www.bsi.bund.de/DE/Themen/Regulierte-Wirtschaft/Kritische-Infrastrukturen/OH_Nachweise/orientierungshilfe_node.html",
+          "note": "Prüfende Stelle must prove suitability (DAkkS ISO 27001 accreditation, BSI cert, or IDW) + additional Prüfverfahrenskompetenz."
+        },
+        {
+          "title": "KRITIS zusätzliche Prüfverfahrenskompetenz für §8a BSIG – mITSM",
+          "url": "https://www.mitsm.de/schulung/kritis-zusaetzliche-pruefverfahrenskompetenz-fuer-8a-bsig/",
+          "note": "Person-bound auditor competence requirement — limits acquirability and target pool."
+        },
+        {
+          "title": "§39 BSIG (n.F.) – RSM Certification GmbH",
+          "url": "https://www.rsm-certification.de/auditierungen/39-kritis",
+          "note": "Limited set of accredited certification bodies; six-figure audit engagements, mandate-driven growth."
         }
       ],
-      "confidence": 4,
-      "status": "grounded",
+      "confidence": 3,
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
-      "investability": "open",
-      "investability_note": "",
+      "investability": "restricted",
+      "investability_note": "Requires DAkkS accreditation / BSI-recognised Prüfverfahrenskompetenz plus certifier independence & conflict-of-interest rules — accreditation is entity/person-bound, not freely transferable via share deal.",
       "actionable": {},
       "child_ids": []
     },
@@ -2131,18 +2291,18 @@
         "recurring": 4,
         "fragmentation": 4,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 3,
+        "margin": 5,
+        "growth": 4,
+        "headroom": 4,
+        "reimbursement_risk": 3
       },
       "rationale": {
         "recurring": "Certificate and ISMS require ongoing maintenance and re-certification; public-sector framework contracts recur.",
         "fragmentation": "Fragmented pool of certified individual consultants and small firms; personenzertifizierte Berater are the scarce input.",
         "compliance": "Effectively mandatory for federal/state authorities and a recognised NIS2/KRITIS-compliant route."
       },
-      "composite": 83.3,
+      "composite": 69.2,
       "dach_signals": {
         "est_players": "Pool of BSI personenzertifizierte IT-Grundschutz-Berater and small specialist firms",
         "revenue_band_eur": "EUR 0.3-5m typical",
@@ -2174,14 +2334,29 @@
           "title": "BSI IT-Grundschutz zertifiziert nach ISO 27001 (sector27)",
           "url": "https://www.sector27.de/bsi-it-grundschutz",
           "note": "ISO 27001 on basis of IT-Grundschutz advisory"
+        },
+        {
+          "title": "BSI - Liste zertifizierter IT-Grundschutz-Berater",
+          "url": "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/Zertifizierung-und-Anerkennung/Zertifizierung-von-Personen/GS-Berater/Liste-Grundschutzberater/liste-grundschutzberater_node.html",
+          "note": "Finite pool of person-certified Grundschutz consultants - limited scalable supply."
+        },
+        {
+          "title": "BSI-Grundschutz-Beratung | secuvera GmbH",
+          "url": "https://www.secuvera.de/sicherheitsberatung/bsi-grundschutz/",
+          "note": "Small specialist boutiques (secuvera, HiSolutions) - fragmented, asset-light advisory."
+        },
+        {
+          "title": "HiSolutions: Grundschutz++ BSI IT-Grundschutz",
+          "url": "https://www.hisolutions.com/bsi-it-grundschutz",
+          "note": "Demand tied to Behörden/KRITIS/public-sector budgets - some political/budget exposure."
         }
       ],
       "confidence": 3,
-      "status": "grounded",
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Specialist advisory GmbHs acquirable; BSI person-certification is individual-bound (retention risk) but does not block firm ownership.",
       "actionable": {},
       "child_ids": []
     },
@@ -2602,18 +2777,18 @@
         "recurring": 5,
         "fragmentation": 5,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 3,
+        "margin": 5,
+        "growth": 4,
+        "headroom": 4,
+        "reimbursement_risk": 2
       },
       "rationale": {
         "recurring": "Ongoing DPO mandates for practices/clinics billed as annual retainers.",
         "fragmentation": "Many small regional specialists (datenschutzundgesundheit.de, Integrity, ap-datenschutz, vicotec, OBSECOM) with no consolidator.",
         "compliance": "Art. 9 DSGVO sensitive-data processing plus DSFA can mandate a DPO even in small practices; complex sector-specific rules for hospitals."
       },
-      "composite": 100.0,
+      "composite": 82.5,
       "dach_signals": {
         "est_players": "dozens of healthcare-focused DPO boutiques nationwide",
         "revenue_band_eur": "EUR 0.1-2m typical; per-practice retainers a few hundred EUR/month",
@@ -2646,14 +2821,24 @@
           "title": "Datenschutzbeauftragte im Gesundheitsbereich — Hessischer Datenschutzbeauftragter",
           "url": "https://datenschutz.hessen.de/datenschutz/datenschutzbeauftragte/datenschutzbeauftragte-im-gesundheitswesen",
           "note": "Regulator guidance that sensitive data can trigger DPO below threshold"
+        },
+        {
+          "title": "Datenschutzbeauftragter für Arztpraxis und Apotheke",
+          "url": "https://www.datenschutzundgesundheit.de/",
+          "note": "Nationwide healthcare-specialised external DPO boutique; per-practice retainer model."
+        },
+        {
+          "title": "Externer Datenschutzbeauftragter Gesundheitswesen - ER Secure",
+          "url": "https://www.er-secure.de/externer-datenschutzbeauftragter-gesundheitswesen.php",
+          "note": "Dozens of small nationwide boutiques => fragmented, low PE penetration in the healthcare niche."
         }
       ],
       "confidence": 3,
-      "status": "grounded",
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Freely acquirable Datenschutz-GmbHs / RA-Boutiquen; DPO role is contractual, no ownership restriction.",
       "actionable": {},
       "child_ids": []
     },
@@ -2991,18 +3176,18 @@
         "recurring": 5,
         "fragmentation": 5,
         "compliance": 3,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 5,
+        "margin": 3,
+        "growth": 3,
+        "headroom": 2,
+        "reimbursement_risk": 1
       },
       "rationale": {
         "recurring": "Monthly/annual hosting and domain subscriptions; gross margins reported at 30-40% among the highest in Europe.",
         "fragmentation": "Top-5 hold ~50% of the market while >1,000 smaller hosting firms compete for the other half.",
         "compliance": "DSGVO/data-residency drives 'hosting in Germany' positioning but is rarely the sole buying driver at the SME/web-hosting end."
       },
-      "composite": 83.3,
+      "composite": 75.0,
       "dach_signals": {
         "est_players": ">1,000 hosting firms",
         "revenue_band_eur": "EUR 0.5-10m typical for regional hosters; core Web-Hosting/Domains segment ~EUR 1.2bn+ nationally",
@@ -3037,14 +3222,19 @@
           "title": "Konsolidierung im deutschen Hosting-Markt - ap-verlag",
           "url": "https://ap-verlag.de/konsolidierung-im-deutschen-hosting-markt/23784/",
           "note": "Ongoing consolidation among many regional hosters"
+        },
+        {
+          "title": "Ionos – Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ionos",
+          "note": "United Internet scale consolidator = crowded"
         }
       ],
       "confidence": 4,
-      "status": "grounded",
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Freely acquirable GmbHs, but space already heavily rolled-up",
       "actionable": {},
       "child_ids": []
     },
@@ -3064,18 +3254,18 @@
         "recurring": 5,
         "fragmentation": 3,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 3,
+        "margin": 2,
+        "growth": 5,
+        "headroom": 2,
+        "reimbursement_risk": 2
       },
       "rationale": {
         "recurring": "Consumption-based IaaS/PaaS subscriptions with multi-year enterprise and public-sector contracts.",
         "fragmentation": "Concentrating around IONOS, StackIT, plusserver, T-Systems/Open Telekom Cloud and Delos, plus a mid-tier long tail — regional mid-caps, few dominant consolidators.",
         "compliance": "Data-sovereignty, BSI C5, IT-Grundschutz and DSGVO are the explicit buying driver, especially for public sector and regulated industries."
       },
-      "composite": 83.3,
+      "composite": 65.8,
       "dach_signals": {
         "est_players": "~20-40 credible sovereign/C5-attested cloud providers",
         "revenue_band_eur": "EUR 10m-1bn+ (IONOS/StackIT/T-Systems large; niche providers EUR 5-50m)",
@@ -3111,14 +3301,29 @@
           "title": "Aufgehende Sterne der deutschen Cloud-Szene - cloudcomputing-insider",
           "url": "https://www.cloudcomputing-insider.de/aufgehende-sterne-der-deutschen-cloud-szene-a-ecab1167d52540330dad085324fc153f/",
           "note": "plusserver pluscloud open on SCS/Gaia-X; IONOS OpenStack-based sovereign positioning"
+        },
+        {
+          "title": "Sovereign Cloud 2026 - STACKIT, IONOS, Microsoft Sovereignty",
+          "url": "https://www.hagel-it.de/cloud/sovereign-cloud-2026",
+          "note": "Dominated by large players (IONOS, STACKIT, T-Systems); ~20-40 credible providers."
+        },
+        {
+          "title": "GAIA-X - Die europäische Cloud Plattform - IONOS",
+          "url": "https://cloud.ionos.de/gaia-x",
+          "note": "Capital-intensive datacenter infrastructure => structurally lower margin."
+        },
+        {
+          "title": "Cloud-Souveränität 2026: GAIA-X und Sovereign Cloud - cloudmagazin",
+          "url": "https://www.cloudmagazin.com/2025/10/15/cloud-souveraenitaet-2026-gaia-x-sovereign-cloud-standort/",
+          "note": "EU cloud +24% in 2025, strong sovereignty tailwind; some public/Gaia-X subsidy exposure."
         }
       ],
-      "confidence": 4,
-      "status": "grounded",
+      "confidence": 3,
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Providers are acquirable but capital-heavy and several already PE/strategic-owned (PlusServer, q.beyond); few independent targets.",
       "actionable": {},
       "child_ids": []
     },
@@ -3211,11 +3416,11 @@
         "recurring": 5,
         "fragmentation": 4,
         "compliance": 4,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 4,
+        "margin": 4,
+        "growth": 5,
+        "headroom": 3,
+        "reimbursement_risk": 1
       },
       "rationale": {
         "recurring": "Per-TB / per-workload monthly subscriptions with sticky, high-switching-cost data retention contracts.",
@@ -3256,14 +3461,29 @@
           "title": "Backup as a Service: Anbieter und Angebote im Überblick - Computer Weekly",
           "url": "https://www.computerweekly.com/de/feature/Backup-as-a-Service-Anbieter-und-Angebote-im-Ueberblick",
           "note": "Overview of BaaS/DRaaS providers and combined offering model"
+        },
+        {
+          "title": "DRaaS Market Growing at 16.2% CAGR by 2032 – MarketsandMarkets",
+          "url": "https://www.barchart.com/story/news/3119800/disaster-recovery-as-a-service-draas-market-growing-at-16-2-cagr-by-2032-amid-increasing-demand-for-ransomware-recovery-solutions-report-by-marketsandmarkets",
+          "note": "USD 13.3bn (2024) to USD 46bn (2032), ransomware-driven; strong secular growth."
+        },
+        {
+          "title": "Backup als Service – Made in Germany (ChannelPartner)",
+          "url": "https://www.channelpartner.de/article/4155189/backup-als-service-geschaft-warum-msps-auf-made-in-germany-setzen.html",
+          "note": "German BaaS/DRaaS specialist and MSP landscape."
+        },
+        {
+          "title": "IT-Systemhaus verkaufen – Käufer & Ablauf",
+          "url": "https://exit-coach.de/IT-Systemhaus-verkaufen/",
+          "note": "Active MSP consolidation — some whitespace remaining in DRaaS niche."
         }
       ],
-      "confidence": 4,
-      "status": "grounded",
+      "confidence": 3,
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Hundreds of MSPs and German software specialists, freely acquirable GmbHs.",
       "actionable": {},
       "child_ids": []
     },
@@ -3283,18 +3503,18 @@
         "recurring": 5,
         "fragmentation": 4,
         "compliance": 4,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 5,
+        "margin": 3,
+        "growth": 4,
+        "headroom": 2,
+        "reimbursement_risk": 1
       },
       "rationale": {
         "recurring": "Managed-service contracts with monthly recurring platform + operations fees, typically multi-year.",
         "fragmentation": "Broad field of engineering-led MSPs (plusserver, ScaleUp, Syntax, all-for-one, operational services) plus many regional SAP/IT integrators; no single consolidator.",
         "compliance": "BSI C5-attested operations, DSGVO and sector rules make sovereign private/hybrid cloud a compliance-led purchase for regulated Mittelstand."
       },
-      "composite": 83.3,
+      "composite": 79.2,
       "dach_signals": {
         "est_players": "Broad MSP field; dozens of specialist private/hybrid cloud operators",
         "revenue_band_eur": "EUR 5-200m (integrators larger; niche MSPs EUR 5-30m)",
@@ -3328,14 +3548,29 @@
           "title": "Managed Cloud Hosting - ScaleUp Technologies",
           "url": "https://www.scaleuptech.com/en/cloud-hosting/",
           "note": "OpenStack/OCP-based IaaS operations for Mittelstand"
+        },
+        {
+          "title": "ISG Provider Lens Private/Hybrid Cloud: Managed Services für den Mittelstand | ChannelPartner",
+          "url": "https://www.channelpartner.de/article/3902342/managed-services-fuer-den-mittelstand.html",
+          "note": "ISG rates ~100 providers; large TAM but many established Leaders (plusserver, Cancom, q.beyond, DATAGROUP)."
+        },
+        {
+          "title": "Private/Hybrid-Cloud: Kleine Anbieter erobern den Mittelstand | it-daily",
+          "url": "https://www.it-daily.net/it-management/cloud-computing/private-hybrid-cloud-kleine-anbieter-erobern-den-mittelstand",
+          "note": "Mid-market shift to smaller agile operators; sovereignty/security tailwind."
+        },
+        {
+          "title": "Managed Cloud Services - diese Anbieter sollten Sie im Blick haben | Computerwoche",
+          "url": "https://www.computerwoche.de/article/3799677/managed-cloud-services-diese-anbieter-sollten-sie-im-blick-haben.html",
+          "note": "Field crowded with PE-backed consolidators (Cancom, All for One, q.beyond) - limited whitespace; private-cloud infra weighs on margin."
         }
       ],
       "confidence": 4,
-      "status": "grounded",
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Freely acquirable operator GmbHs; larger/infra-heavy assets simply pricier, no ownership restriction.",
       "actionable": {},
       "child_ids": []
     },
@@ -3439,18 +3674,18 @@
         "recurring": 5,
         "fragmentation": 4,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 3,
+        "margin": 3,
+        "growth": 3,
+        "headroom": 3,
+        "reimbursement_risk": 4
       },
       "rationale": {
         "recurring": "Multi-year clinical hosting contracts tied to KHZG-funded projects and mandatory patient-portal operations.",
         "fragmentation": "Many niche medical-IT hosters and portal providers; highly fragmented long tail.",
         "compliance": "KHZG service standards, DigiG and BSI C5 plus patient-data protection are mandatory purchase gates."
       },
-      "composite": 91.7,
+      "composite": 55.8,
       "dach_signals": {
         "est_players": "Dozens of medical-IT / patient-portal hosters",
         "revenue_band_eur": "EUR 2-30m typical",
@@ -3479,14 +3714,29 @@
           "title": "Versorger suchen Partner mit IT-Expertise - POLAVIS",
           "url": "https://polavis.de/blog/versorger-suchen-partner-mit-it-expertise/",
           "note": "KHZG patient-portal hosting demand from hospitals"
+        },
+        {
+          "title": "Das KHZG und der Hürdenlauf. Wie geht es 2025 weiter?",
+          "url": "https://www.kma-online.de/aktuelles/it-digital-health/detail/das-khzg-und-der-huerdenlauf-wie-geht-es-2025-weiter-51987",
+          "note": "KHZG funding window closed 31 Dec 2025; renewals no longer funded — subsidy cliff = revenue-durability risk."
+        },
+        {
+          "title": "Krankenhauszukunftsfonds (KHZF) – DKG",
+          "url": "https://www.dkgev.de/themen/digitalisierung-daten/krankenhauszukunftsfonds-khzf/",
+          "note": "Grant-dependent demand; up to 2% DRG penalty drove one-off procurement."
+        },
+        {
+          "title": "EdgeDC – Healthcare Lösung",
+          "url": "https://www.edc-datacenter.de/loesungen/healthcare",
+          "note": "Compliant healthcare hosting has data-center/capex component limiting margin."
         }
       ],
       "confidence": 3,
-      "status": "grounded",
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Commercial medical-IT/patient-portal hosters are acquirable GmbHs, but revenue partly grant-driven (KHZG).",
       "actionable": {},
       "child_ids": []
     },
@@ -3507,18 +3757,18 @@
         "recurring": 5,
         "fragmentation": 3,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 3,
+        "margin": 3,
+        "growth": 5,
+        "headroom": 2,
+        "reimbursement_risk": 2
       },
       "rationale": {
         "recurring": "Framework and multi-year public-procurement contracts with statutory budgets.",
         "fragmentation": "Concentrating around a few accredited providers (ITZBund, IONOS, Delos, ]init[, CGI) but still multiple regional/state operators.",
         "compliance": "DVS, BSI C5/IT-Grundschutz and data-on-German-soil requirements are mandatory."
       },
-      "composite": 83.3,
+      "composite": 70.0,
       "dach_signals": {
         "est_players": "Handful of accredited providers + state IT service centres",
         "revenue_band_eur": "EUR 10m-500m+ (framework-scale)",
@@ -3546,14 +3796,29 @@
           "title": "Delos Cloud - Die souveräne Cloud für den Öffentlichen Dienst",
           "url": "https://www.deloscloud.de/index.html",
           "note": "Data on German soil, telemetry controlled by BSI"
+        },
+        {
+          "title": "Dataport – Offizieller Start der Deutschen Verwaltungscloud",
+          "url": "https://www.dataport.de/nachricht/offizieller-start-der-deutschen-verwaltungscloud-dataport-massgeblich-mit-beteiligt/",
+          "note": "State-owned AöR operates the DVC — not privately acquirable"
+        },
+        {
+          "title": "govdigital / IONOS souveräne Cloud für öffentlichen Sektor",
+          "url": "https://www.ionos.de/newsroom/news/souveraene-cloud-fuer-den-oeffentlichen-sektor-ionos-ueber-govdigital-verfuegbar/",
+          "note": "govdigital is a member-owned cooperative of public IT providers; access via accreditation"
+        },
+        {
+          "title": "SecureCloud – BSI C5 Cloud für öffentliche Verwaltung",
+          "url": "https://www.securecloud.de/en/industries/government-public-service",
+          "note": "BSI C5 accreditation barrier; framework-scale revenue tied to public procurement"
         }
       ],
-      "confidence": 4,
-      "status": "grounded",
+      "confidence": 3,
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
-      "investability": "open",
-      "investability_note": "",
+      "investability": "restricted",
+      "investability_note": "Much capacity held by state-owned AöR (Dataport) and the member-owned govdigital cooperative; private BSI-C5-accredited hosters exist but public-procurement/accreditation friction limits acquirability",
       "actionable": {},
       "child_ids": []
     },
@@ -3768,18 +4033,18 @@
         "recurring": 4,
         "fragmentation": 5,
         "compliance": 4,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 3,
+        "margin": 4,
+        "growth": 3,
+        "headroom": 4,
+        "reimbursement_risk": 1
       },
       "rationale": {
         "recurring": "Full portfolio incl. maintenance and support contracts; CONPLUS (~EUR 6m rev, 22 staff) was profitable on recurring SAP B1 services.",
         "fragmentation": "Dozens of owner-operated Gold Partners (neumeier AG, Wrede, bob Systemlösungen, wp.DATA, Konsultec); DATAGROUP is explicitly building 'one of the biggest SAP Business One expert hubs' via roll-up.",
         "compliance": "GoBD-compliant bookkeeping and E-Rechnung processing are core to SAP B1 deployments for the Mittelstand."
       },
-      "composite": 83.3,
+      "composite": 70.8,
       "dach_signals": {
         "est_players": "dozens of German SAP Business One partners (owner-operated)",
         "revenue_band_eur": "EUR 2-10m typical (CONPLUS ~EUR 6m, 22 staff)",
@@ -3812,14 +4077,29 @@
           "title": "Ihr zertifizierter SAP Business One Partner - bob Systemlösungen",
           "url": "https://www.bobsys.com/",
           "note": "30+ year owner-operated SAP B1 Systemhaus example"
+        },
+        {
+          "title": "Ihr SAP Business One Partner - SIGMA / business-one-consulting",
+          "url": "https://www.business-one-consulting.de/ueber-uns/sap-business-one-partner",
+          "note": "Owner-operated B1 partner serving Mittelstand; implementation + support."
+        },
+        {
+          "title": "wp.DATA - SAP Business One ERP Gold Partner & IT Systemhaus",
+          "url": "https://www.wpdata.com/",
+          "note": "Dozens of comparable Gold/Silver B1 partners; fragmented, largely un-consolidated niche."
+        },
+        {
+          "title": "SAP-Partner finden - SAP Germany",
+          "url": "https://www.sap.com/germany/partners/find.html",
+          "note": "Official partner directory confirms breadth of German B1 VAR base."
         }
       ],
-      "confidence": 4,
-      "status": "grounded",
+      "confidence": 3,
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Owner-operated SAP B1 partner GmbHs freely acquirable; recurring AMS/support revenue.",
       "actionable": {},
       "child_ids": []
     },
@@ -3839,18 +4119,18 @@
         "recurring": 5,
         "fragmentation": 4,
         "compliance": 4,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 4,
+        "margin": 4,
+        "growth": 4,
+        "headroom": 3,
+        "reimbursement_risk": 1
       },
       "rationale": {
         "recurring": "Business Central is subscription/cloud ERP sold only through partners, generating recurring licence, support and managed-service revenue.",
         "fragmentation": "Large partner field of regional mid-caps and small Systemhäuser (GOB, ORBIT, SOCITAS, CTM, Modus Consult, Allgeier inovar) with no single dominant DACH consolidator.",
         "compliance": "GoBD, DSGVO and E-Rechnung drive Business Central adoption and localisation add-ons for German bookkeeping."
       },
-      "composite": 83.3,
+      "composite": 79.2,
       "dach_signals": {
         "est_players": "hundreds of Microsoft Dynamics partners in Germany (BC sold only via channel)",
         "revenue_band_eur": "EUR 2-50m (long tail EUR 1-10m owner-operated)",
@@ -3883,14 +4163,24 @@
           "title": "ORBIT ist Business-Central-Partner",
           "url": "https://www.orbit.de/microsoft/microsoft-dynamics-365-business-central/",
           "note": "Example Mittelstand-focused BC partner"
+        },
+        {
+          "title": "List of Microsoft Dynamics Partners in Germany – Cloudtango",
+          "url": "https://www.cloudtango.net/dynamics/de/",
+          "note": "Confirms fragmented partner landscape; long tail of owner-operated firms."
+        },
+        {
+          "title": "Supplier of Dynamics 365 Business Central – agolution / Companial",
+          "url": "https://agolution.com/en/business-central/supplier/",
+          "note": "Companial/Global Dynamics network indicates active partner consolidation — some whitespace but roll-ups underway; cloud migration (NAV->BC SaaS) tailwind."
         }
       ],
       "confidence": 3,
-      "status": "grounded",
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "BC channel partners are freely acquirable GmbHs (BC sold only via partners); large Mittelstand target pool.",
       "actionable": {},
       "child_ids": []
     },
@@ -3990,18 +4280,18 @@
         "recurring": 5,
         "fragmentation": 4,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 3,
+        "margin": 4,
+        "growth": 4,
+        "headroom": 3,
+        "reimbursement_risk": 1
       },
       "rationale": {
         "recurring": "Fully hosted, subscription IT-out-of-the-socket model with continuous patching, operation and support.",
         "fragmentation": "Many independent PartnerASP hosting providers and ASP alternatives (neumeier AG, your-admins, Wimmer IT, Computer Bauer, startIT).",
         "compliance": "Data held in DATEV's ISO/IEC 27001-certified German high-security data centre; DSGVO and tax-data confidentiality are the buying driver."
       },
-      "composite": 91.7,
+      "composite": 79.2,
       "dach_signals": {
         "est_players": "dozens of DATEV PartnerASP hosting providers in Germany",
         "revenue_band_eur": "EUR 0.5-5m typical",
@@ -4034,14 +4324,24 @@
           "title": "IT-Outsourcing - DATEV",
           "url": "https://www.datev.de/web/de/steuerberatung/loesungen/kanzleimanagement/it-und-technik-ausbauen/it-outsourcing",
           "note": "DATEV IT-outsourcing / ASP model for tax firms"
+        },
+        {
+          "title": "Server in der Kanzlei, DATEVasp oder PARTNERasp | List+Lohr",
+          "url": "https://list-lohr.de/news-events/whitepaper/server-in-der-kanzlei-datevasp-oder-partnerasp-was-passt-zu-mir/",
+          "note": "List+Lohr is itself the founder of PE-backed Ploon IT Group - consolidation active in this space."
+        },
+        {
+          "title": "KanzleiASP - Alternative zu DATEVasp | Digital Mountain",
+          "url": "https://www.startit-consulting.de/datev-loesungen/kanzlei-asp/",
+          "note": "Recurring per-seat Kanzlei hosting; asset-light as PartnerASP runs on DATEV's own data centre."
         }
       ],
-      "confidence": 4,
-      "status": "grounded",
+      "confidence": 3,
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "PartnerASP providers are ordinary GmbHs; DATEV certification is transferable to acquirer. No ownership restriction.",
       "actionable": {},
       "child_ids": []
     },
@@ -4272,18 +4572,18 @@
         "recurring": 5,
         "fragmentation": 3,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 5,
+        "margin": 3,
+        "growth": 4,
+        "headroom": 2,
+        "reimbursement_risk": 3
       },
       "rationale": {
         "recurring": "Subscription hosting + managed operations (infrastructure, OS, DB, SAP Basis) is contractual, multi-year recurring revenue; RISE bundles operation into a subscription.",
         "fragmentation": "Regional mid-caps plus a few larger operators (gecko/WIIT Group, All for One, cloudgermany, Syntax); more concentrated than the implementation tail.",
         "compliance": "German data residency and DSGVO/ISO 27001 are explicit selling points; data sovereignty is the buying driver for regulated Mittelstand."
       },
-      "composite": 83.3,
+      "composite": 69.2,
       "dach_signals": {
         "est_players": "regional mid-caps + several larger German SAP hosting operators",
         "revenue_band_eur": "EUR 10-500m+ (infrastructure-scale operators)",
@@ -4315,14 +4615,29 @@
           "title": "S/4HANA Cloud ERP für den Mittelstand - All for One",
           "url": "https://www.all-for-one.com/de/portfolio-a-z/detail/sap-s-4hana-public-cloud.html",
           "note": "Subscription SAP-as-a-service incl. ongoing operation"
+        },
+        {
+          "title": "Rosige Zeiten für SAP-Serviceanbieter in Deutschland | it-daily",
+          "url": "https://www.it-daily.net/it-management/erp-sap/rosige-zeiten-fuer-sap-serviceanbieter-in-deutschland",
+          "note": "Large infrastructure-scale market dominated by All for One, Syntax, Cancom, T-Systems - already consolidated."
+        },
+        {
+          "title": "Cloudbasiertes SAP S/4HANA in Deutschland weiter zögerlich nachgefragt | it-daily",
+          "url": "https://www.it-daily.net/it-management/erp-sap/cloudbasiertes-sap-s-4hana-in-deutschland-weiter-zoegerlich-nachgefragt",
+          "note": "S/4HANA migration tailwind but RISE adoption hesitant and cannibalises third-party hosters."
+        },
+        {
+          "title": "RISE with SAP - Einstieg in die S/4HANA private Cloud | Xiting",
+          "url": "https://xiting.com/de/sap-consulting/authorization-management/rise-migration",
+          "note": "RISE routes hosting to SAP-controlled private cloud - structural disintermediation risk for independent hosters."
         }
       ],
-      "confidence": 3,
-      "status": "grounded",
+      "confidence": 4,
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Operators are acquirable, but RISE with SAP disintermediates independent hosters (SAP pulling hosting in-house) - a genuine revenue-durability risk, not an ownership block.",
       "actionable": {},
       "child_ids": []
     },
@@ -4710,18 +5025,18 @@
         "recurring": 5,
         "fragmentation": 5,
         "compliance": 4,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 4,
+        "margin": 3,
+        "growth": 3,
+        "headroom": 3,
+        "reimbursement_risk": 1
       },
       "rationale": {
         "recurring": "Connectivity is contracted monthly with multi-year terms; core recurring telco spend.",
         "fragmentation": "Beyond Telekom/Vodafone/Colt/Versatel there is a very large number of regional/local carriers and resellers; sources call a full provider count impractical.",
         "compliance": "Providers are TKG-regulated telecommunications operators; DSGVO applies to traffic/customer data."
       },
-      "composite": 91.7,
+      "composite": 75.0,
       "dach_signals": {
         "est_players": "~2,374 TK-services firms in DE (Statista, 2023) with a large regional long tail",
         "revenue_band_eur": "Regional carriers EUR 5-100m+; resellers EUR 0.5-5m",
@@ -4752,14 +5067,29 @@
           "title": "Regionale Glasfaser Anbieter – NetCologne, M-net, EWE uvm.",
           "url": "https://glasfaser-anschluss.de/regionale-glasfaser-anbieter",
           "note": "Named regional business-fibre carriers evidencing fragmentation."
+        },
+        {
+          "title": "Carrier-Verbund – regionale Glasfaser-Carrier (e.discom, enviaTEL, Thüringer Netkom u.a.)",
+          "url": "https://carrierverbund.de/die-carrier-partner/",
+          "note": "Regional carrier landscape; capital-heavy fiber lowers margin"
+        },
+        {
+          "title": "Vodafone Carrier Services / Wholesale für Geschäftskunden",
+          "url": "https://www.vodafone.de/business/carrier-services/",
+          "note": "Resale layer commoditised, thin margins"
+        },
+        {
+          "title": "it-in-germany.de – Festnetzbetreiber (Carrier) Verzeichnis",
+          "url": "https://www.it-in-germany.de/05011111/deu/Festnetzbetreiber%20(Carrier)",
+          "note": "Large regional long tail (~2,300-3,500 TK firms) but active telco/PE fiber consolidation"
         }
       ],
-      "confidence": 4,
-      "status": "grounded",
+      "confidence": 3,
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Freely acquirable GmbHs; carriers need BNetzA registration but that is not ownership-blocking",
       "actionable": {},
       "child_ids": []
     },
@@ -5100,18 +5430,18 @@
         "recurring": 5,
         "fragmentation": 4,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 2,
+        "margin": 4,
+        "growth": 4,
+        "headroom": 3,
+        "reimbursement_risk": 1
       },
       "rationale": {
         "recurring": "PAMaaS sold as all-inclusive subscription covering licence, deployment and ongoing operation.",
         "fragmentation": "Niche skill; delivered by a scattered set of IAM specialists and MSSPs partnering with WALLIX/CyberArk rather than a dominant DACH operator.",
         "compliance": "Privileged-access control is an explicit NIS2 and ISO 27001 hardening requirement, driving mandatory adoption."
       },
-      "composite": 91.7,
+      "composite": 75.0,
       "dach_signals": {
         "est_players": "~20-40 partners/MSSPs",
         "revenue_band_eur": "EUR 0.5-5m PAM practices within larger firms",
@@ -5131,14 +5461,24 @@
           "title": "Privileged Access Management - WALLIX",
           "url": "https://www.wallix.com/products/privileged-access-management/",
           "note": "WALLIX Bastion targeted at mid-market managed/remote-access PAM, the platform DACH partners operate"
+        },
+        {
+          "title": "MSSP Privileged Access Management as a Service - DATAKOM",
+          "url": "https://www.datakom.de/mssp-privileged-access-management-as-a-service",
+          "note": "Managed PAM with flat-rate billing; recurring, high margin."
+        },
+        {
+          "title": "Privileged Access Management (PAM) - DATAKOM",
+          "url": "https://datakom.de/PAM/",
+          "note": "Small pool (~20-40 partners); PAM usually a practice within broader MSSP, limiting standalone scale."
         }
       ],
       "confidence": 3,
-      "status": "grounded",
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "MSSP GmbHs acquirable, but most PAM practices are embedded in larger firms => carve-out sourcing friction, not a legal block.",
       "actionable": {},
       "child_ids": []
     },
@@ -5158,11 +5498,11 @@
         "recurring": 5,
         "fragmentation": 5,
         "compliance": 4,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 4,
+        "margin": 5,
+        "growth": 5,
+        "headroom": 3,
+        "reimbursement_risk": 1
       },
       "rationale": {
         "recurring": "Sold explicitly as continuous 'Intune-as-a-Service' with monitoring, patching and optimisation per device.",
@@ -5202,14 +5542,19 @@
           "title": "IT-Outsourcing mit Managed Services | novaCapta",
           "url": "https://www.novacapta.de/microsoft-technologiekompetenzen/endpoint-management-microsoft-intune",
           "note": "Ongoing operation of Intune endpoint environments incl. lifecycle, packaging, Autopilot"
+        },
+        {
+          "title": "Why Microsoft Intune should be a core MSP service in 2026 – Nerdio",
+          "url": "https://getnerdio.com/blog/why-microsoft-intune-should-be-a-core-msp-service-in-2026/",
+          "note": "Intune is UEM market leader; strong cloud/endpoint growth. Note: Intune Suite bundling into E3/E5 (2026) commoditizes tooling, keeps services value."
         }
       ],
-      "confidence": 4,
-      "status": "grounded",
+      "confidence": 3,
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Modern-workplace/Intune MSP practices are freely acquirable GmbHs among ~30,000 German IT firms.",
       "actionable": {},
       "child_ids": []
     },
@@ -5299,18 +5644,18 @@
         "recurring": 5,
         "fragmentation": 5,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 4,
+        "margin": 4,
+        "growth": 5,
+        "headroom": 3,
+        "reimbursement_risk": 1
       },
       "rationale": {
         "recurring": "Backup is inherently continuous/monitored subscription revenue billed per protected device/workload.",
         "fragmentation": "A very large long tail of regional MSPs run their own or partner-branded BaaS (NetPlans, Ratiodata, comNET, P2, Gromnitza, MXP, Mitteldeutsche IT, Fritz) with no consolidator.",
         "compliance": "DSGVO data-residency, ISO 27001 data centres and NIS2 availability/recovery requirements make German-hosted backup effectively mandatory."
       },
-      "composite": 100.0,
+      "composite": 91.7,
       "dach_signals": {
         "est_players": "Hundreds of regional MSPs offering BaaS",
         "revenue_band_eur": "EUR 0.5-3m typical BaaS lines within MSPs; larger for Ratiodata-scale players",
@@ -5343,14 +5688,29 @@
           "title": "Managed Backup für Unternehmen | Gromnitza",
           "url": "https://www.gromnitza.de/managed-services/managed-backup",
           "note": "DSGVO-compliant, encrypted, versioned, revision-proof managed backup - evidence of small-MSP long tail"
+        },
+        {
+          "title": "Backup als Service-Geschäft: Warum MSPs auf Made in Germany setzen",
+          "url": "https://www.channelpartner.de/article/4155189/backup-als-service-geschaft-warum-msps-auf-made-in-germany-setzen.html",
+          "note": "German MSP BaaS market shift to recurring managed-service models; data sovereignty tailwind."
+        },
+        {
+          "title": "Backup as a Service: Anbieter und Angebote im Überblick",
+          "url": "https://www.computerweekly.com/de/feature/Backup-as-a-Service-Anbieter-und-Angebote-im-Ueberblick",
+          "note": "Fragmented BaaS provider landscape in DACH."
+        },
+        {
+          "title": "IT-Systemhaus verkaufen: Bewertung, Käufer & Ablauf",
+          "url": "https://exit-coach.de/IT-Systemhaus-verkaufen/",
+          "note": "Active Systemhaus/MSP consolidation (Netgo/Waterland etc.), 4-8x EBIT, recurring revenue as value driver."
         }
       ],
-      "confidence": 4,
-      "status": "grounded",
+      "confidence": 3,
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Hundreds of privately held MSP/backup GmbHs, freely acquirable; no licensing barrier.",
       "actionable": {},
       "child_ids": []
     },
@@ -5509,18 +5869,18 @@
         "recurring": 5,
         "fragmentation": 5,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 4,
+        "margin": 5,
+        "growth": 5,
+        "headroom": 3,
+        "reimbursement_risk": 2
       },
       "rationale": {
         "recurring": "Compliance is delivered as continuous monitoring/attestation rather than a periodic audit, i.e. ongoing subscription.",
         "fragmentation": "Nascent offering spun up across the very fragmented German MSP/MSSP base (42% of Mittelstand already use managed IT services; ~30,000 firms in scope).",
         "compliance": "Purely regulation-created demand: NIS2UmsuCG in force since Dec 2025 with no transition period and fines up to EUR 20m; NIS2 also reclassifies MSPs/MSSPs as regulated entities."
       },
-      "composite": 100.0,
+      "composite": 90.8,
       "dach_signals": {
         "est_players": "Long tail of MSPs/MSSPs launching NIS2 endpoint offerings",
         "revenue_band_eur": "EUR 0.3-3m emerging practice lines; per-seat/per-device add-on pricing",
@@ -5557,14 +5917,24 @@
           "title": "NIS 2: Wenn Compliance am Endgerät scheitert | it-daily",
           "url": "https://www.it-daily.net/it-sicherheit/cloud-security/nis-2-compliance-endgeraet-scheitert",
           "note": "Frames NIS2 compliance as an endpoint problem requiring continuous device-state management"
+        },
+        {
+          "title": "NIS2 Software: Anbieter, Kategorien & Auswahlkriterien 2026 | secjur",
+          "url": "https://www.secjur.com/blog/nis2-software",
+          "note": "20+ vendors/DACH platforms (DataGuard, Kertos, Secfix) already active - roll-up race started."
+        },
+        {
+          "title": "Managed Services & NIS2 | MightyCare",
+          "url": "https://www.mightycare.de/managed-services-nis2/",
+          "note": "Long tail of MSPs launching per-device NIS2 baseline compliance offerings."
         }
       ],
       "confidence": 3,
-      "status": "grounded",
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Freely acquirable MSP/MSSP GmbHs; no licence or ownership restriction on endpoint-compliance practice lines.",
       "actionable": {},
       "child_ids": []
     },
@@ -5584,18 +5954,18 @@
         "recurring": 4,
         "fragmentation": 5,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 4,
+        "margin": 4,
+        "growth": 4,
+        "headroom": 4,
+        "reimbursement_risk": 1
       },
       "rationale": {
         "recurring": "Managed-service contracts plus mandatory beA/RA-MICRO patching, backups and monitoring create sticky monthly recurring revenue; providers advertise wartung/support retainers.",
         "fragmentation": "Dozens of small owner-run 'IT-Systemhaus für Anwälte' firms (Dacher, Stüber, TC EDV, die-digitale-anwaltskanzlei) each regionally focused; no dominant national consolidator.",
         "compliance": "beA active use mandatory since 2022, plus BRAO §43a Verschwiegenheit and DSGVO make secure IT a legal obligation, not discretionary."
       },
-      "composite": 91.7,
+      "composite": 83.3,
       "dach_signals": {
         "est_players": "~100+ specialised firms (long tail of regional Systemhäuser + RA-MICRO/DATEV partners)",
         "revenue_band_eur": "EUR 0.5-5m typical owner-operated",
@@ -5629,14 +5999,29 @@
           "title": "IT-Systemhaus für Rechtsanwälte | ITR-Service",
           "url": "https://www.itr-service.de/spezialisierung/rechtsanwaelte/",
           "note": "Vertical-specialised managed IT for lawyers"
+        },
+        {
+          "title": "RA-MICRO - Professionelle IT für Kanzleien mit VAST IT",
+          "url": "https://vast-it.de/",
+          "note": "Regional RA-MICRO partners (e.g. largest in Rhein-Main) - fragmented vertical, owner-operated."
+        },
+        {
+          "title": "IT-Systemhaus für Anwälte | Die digitale Anwaltskanzlei",
+          "url": "https://www.die-digitale-anwaltskanzlei.de/",
+          "note": "100+ specialised legal-IT houses; legal digitisation (beA, e-Akte) drives managed-IT demand."
+        },
+        {
+          "title": "Neue Gruppe von Managed Service Providern (Ploon IT Group) | ChannelPartner",
+          "url": "https://www.channelpartner.de/article/3902268/neue-gruppe-von-managed-service-providern-entsteht.html",
+          "note": "General Systemhaus roll-ups active (Ploon/Prom12, netgo/Waterland) but legal vertical still largely virgin."
         }
       ],
-      "confidence": 4,
-      "status": "grounded",
+      "confidence": 3,
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Owner-operated Systemhaus GmbHs, freely acquirable; RA-MICRO/DATEV partner status transfers with the business.",
       "actionable": {},
       "child_ids": []
     },
@@ -5729,18 +6114,18 @@
         "recurring": 5,
         "fragmentation": 5,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 3,
+        "margin": 4,
+        "growth": 4,
+        "headroom": 5,
+        "reimbursement_risk": 1
       },
       "rationale": {
         "recurring": "Same TI-as-a-Service subscription model plus continuous PVS and imaging support contracts.",
         "fragmentation": "Regional dental-IT specialists and general Systemhäuser splitting ~40k+ dental practices.",
         "compliance": "KZBV/gematik TI mandatory for SHI dental billing; imaging data subject to strict retention."
       },
-      "composite": 100.0,
+      "composite": 83.3,
       "dach_signals": {
         "est_players": "Dozens of regional dental/medical-IT specialists",
         "revenue_band_eur": "EUR 0.3-3m typical",
@@ -5765,14 +6150,29 @@
           "title": "Kanzlei & Praxen | CSA-IT",
           "url": "https://www.csa-it.de/branchen/kanzleien-praxen/",
           "note": "Systemhaus serving medical/dental practices"
+        },
+        {
+          "title": "Xallum® IT-Service für Zahnärzte – KZBV-IT-Sicherheitsrichtlinie-konform",
+          "url": "https://www.xallum.de/it-fuer-zahnaerzte/",
+          "note": "Managed IT with certified firewall/AV per KZBV guideline"
+        },
+        {
+          "title": "Compfair GmbH – IT-Service für Zahnarztpraxen Norddeutschland",
+          "url": "https://compfair.de/it-service-zahnarztpraxis/",
+          "note": "Regional owner-operated dental-IT specialist — fragmented, no consolidator"
+        },
+        {
+          "title": "Medsolve – Zahnmedizin IT/Managed Services SLA",
+          "url": "https://www.medsolve.de/fachrichtungen/zahnmedizin",
+          "note": "Managed/as-a-service SLA model in dental"
         }
       ],
       "confidence": 3,
-      "status": "grounded",
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Freely acquirable GmbHs; §75b/KZBV certification firm-bound, not ownership-blocking",
       "actionable": {},
       "child_ids": []
     },
@@ -5792,18 +6192,18 @@
         "recurring": 5,
         "fragmentation": 5,
         "compliance": 4,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 4,
+        "margin": 4,
+        "growth": 4,
+        "headroom": 3,
+        "reimbursement_risk": 1
       },
       "rationale": {
         "recurring": "Managed-service + DATEV support contracts are ongoing; providers explicitly offer Managed Services and Betreuung retainers, and client base is very sticky.",
         "fragmentation": "Large field of DATEV-Systempartner Systemhäuser (Spectrum ~40 yrs, GME, ITR, netmatics, msts, reitzner) plus netgo's roll-up of the segment; long regional tail.",
         "compliance": "GoBD, DSGVO and Mandantendaten confidentiality drive the buying, though not as legally hard-mandatory as TI/beA."
       },
-      "composite": 91.7,
+      "composite": 83.3,
       "dach_signals": {
         "est_players": "~100+ DATEV-Systempartner / specialised firms",
         "revenue_band_eur": "EUR 0.5-5m typical (some larger, e.g. netgo consolidating)",
@@ -5838,14 +6238,24 @@
           "title": "IT-Lösungen für Kanzleien, Steuerberater & Wirtschaftsprüfer | netgo",
           "url": "https://www.netgo.de/branchen/kanzleien-steuerberater",
           "note": "Managed Services for the StB/WP segment (consolidating player)"
+        },
+        {
+          "title": "netgo tax – nationaler DATEV-Spezialist, aktive Konsolidierung",
+          "url": "https://netgo-tax.de/",
+          "note": "netgo already consolidating (msystems, conNect acquisitions) = reduced headroom"
+        },
+        {
+          "title": "connect-professional – Netgo gründet Spezialisten fürs Kanzleigeschäft",
+          "url": "https://www.connect-professional.de/software-services/netgo-gruendet-spezialisten-fuers-kanzleigeschaeft-302223.html",
+          "note": "Confirms financial consolidator racing in this niche"
         }
       ],
       "confidence": 4,
-      "status": "grounded",
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Freely acquirable GmbHs; DATEV-Systempartner status is transferable",
       "actionable": {},
       "child_ids": []
     },
@@ -6077,18 +6487,18 @@
         "recurring": 5,
         "fragmentation": 5,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 3,
+        "margin": 5,
+        "growth": 4,
+        "headroom": 4,
+        "reimbursement_risk": 2
       },
       "rationale": {
         "recurring": "Sold as ongoing monthly/annual DPO mandates with continuous supervision, not one-off projects.",
         "fragmentation": "Dozens of regional healthcare-datenschutz boutiques (ER Secure, datenschutzundgesundheit.de, Integrity, alphatech, vicotec) with no dominant consolidator.",
         "compliance": "Mandatory: practices with >=20 people processing data or doing umfangreiche Verarbeitung of Art. 9 health data must appoint a DPO; breaches up to EUR 20m / 4% turnover."
       },
-      "composite": 100.0,
+      "composite": 82.5,
       "dach_signals": {
         "est_players": "several hundred healthcare-focused Datenschutz boutiques",
         "revenue_band_eur": "EUR 0.3-3m typical",
@@ -6120,14 +6530,24 @@
           "title": "Datenschutzbeauftragter in Arztpraxis | datenschutz.org",
           "url": "https://www.datenschutz.org/datenschutzbeauftragter-arztpraxis/",
           "note": "Confirms >=20-person threshold and mandatory DPO for health data processing"
+        },
+        {
+          "title": "Gesundheitswesen - KINAST Rechtsanwälte",
+          "url": "https://www.kinast.eu/gesundheitswesen/",
+          "note": "Healthcare-specialised DPO advisory; asset-light."
+        },
+        {
+          "title": "Externe Datenschutzbeauftragte in Arztpraxis und Krankenhaus - ULD",
+          "url": "https://www.datenschutzzentrum.de/artikel/50-Externe-Datenschutzbeauftragte-in-Arztpraxis-und-Krankenhaus.html",
+          "note": "De-facto DPO mandate for virtually all practices (Gesundheitsdaten) => durable demand."
         }
       ],
-      "confidence": 4,
-      "status": "grounded",
+      "confidence": 3,
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Several hundred owner-operated Datenschutz-Boutiquen, all standard GmbH/PartG - freely acquirable.",
       "actionable": {},
       "child_ids": []
     },
@@ -6148,18 +6568,18 @@
         "recurring": 5,
         "fragmentation": 5,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 4,
+        "margin": 5,
+        "growth": 4,
+        "headroom": 4,
+        "reimbursement_risk": 1
       },
       "rationale": {
         "recurring": "Explicit monthly subscription pricing (e.g. from EUR 79-149/month) with auto-renewing DPO mandates.",
         "fragmentation": "Very long tail from solo consultants to scaled players (frag.hugo, Datenschutzexperte/Proliance, CIVAC, pörtner, Mprotect365); no consolidator holds meaningful share.",
         "compliance": "Statutory DPO obligation under Art. 37 DSGVO / §38 BDSG for many firms; low discretionary component."
       },
-      "composite": 100.0,
+      "composite": 91.7,
       "dach_signals": {
         "est_players": "~1,500+ firms/consultants offering external-DSB retainers",
         "revenue_band_eur": "EUR 0.2-5m typical",
@@ -6190,14 +6610,29 @@
           "title": "Was kostet ein externer Datenschutzbeauftragter? | CIVAC",
           "url": "https://civac.de/news/was-kostet-ein-externer-datenschutzbeauftragter",
           "note": "Confirms EUR 300-2,500/month retainer bands, EUR 500-1,200 typical for KMU"
+        },
+        {
+          "title": "DataGuard – Crunchbase Company Profile & Funding",
+          "url": "https://www.crunchbase.com/organization/dataco-gmbh",
+          "note": "VC-backed scale player (4,000+ orgs) shows platform potential; market still highly fragmented (~1,500 firms)."
+        },
+        {
+          "title": "Externer Datenschutzbeauftragter – DSN GROUP",
+          "url": "https://www.dsn-group.de/datenschutz/externer-datenschutzbeauftragter",
+          "note": "20+ years, 2,000+ clients — consolidating retainer pool."
+        },
+        {
+          "title": "Externer Datenschutzbeauftragter – intersoft consulting",
+          "url": "https://www.intersoft-consulting.de/externer-datenschutzbeauftragter/",
+          "note": "Asset-light consulting retainer model; GDPR + NIS2 mandate tailwind."
         }
       ],
-      "confidence": 4,
-      "status": "grounded",
+      "confidence": 3,
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "External-DSB delivered by GmbHs on recurring retainers; role is person-named but firms are freely acquirable.",
       "actionable": {},
       "child_ids": []
     },
@@ -6218,18 +6653,18 @@
         "recurring": 5,
         "fragmentation": 5,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 4,
+        "margin": 5,
+        "growth": 4,
+        "headroom": 3,
+        "reimbursement_risk": 2
       },
       "rationale": {
         "recurring": "Ongoing annual DPO mandates; public bodies cannot lapse the appointment.",
         "fragmentation": "Fragmented across small specialist firms (pdatix, ViCoTec, DieComplianceWerkstatt, variso-kommunal) plus many solo consultants.",
         "compliance": "Every public body/Kommune must appoint a DPO irrespective of size; Vereine must appoint at >=20 data-processing persons."
       },
-      "composite": 100.0,
+      "composite": 86.7,
       "dach_signals": {
         "est_players": "hundreds of firms/solo consultants; ~11,000 Kommunen + hundreds of thousands of Vereine as buyers",
         "revenue_band_eur": "EUR 0.2-2m typical",
@@ -6260,14 +6695,29 @@
           "title": "FAQ Kommunaler Datenschutz | LfD Niedersachsen",
           "url": "https://www.lfd.niedersachsen.de/startseite/infothek/faqs_zur_ds_gvo/faq-datenschutz-kommunen-206875.html",
           "note": "Confirms every Kommune must appoint a DPO regardless of headcount; can be external"
+        },
+        {
+          "title": "Datenschutzbeauftragten finden | BvD",
+          "url": "https://www.bvdnet.de/de/datenschutzbeauftragten-finden/",
+          "note": "BvD directory shows hundreds of firms/solo consultants - highly fragmented supply."
+        },
+        {
+          "title": "Externer behördlicher Datenschutzbeauftragter - Schwerpunkt Kommunen | ask-datenschutz",
+          "url": "https://ask-datenschutz.de/externer-behoerdlicher-datenschutzbeauftragter-bayerische-kommunen/",
+          "note": "Public bodies (cities, districts, universities) always mandated to appoint a DPO - durable statutory demand."
+        },
+        {
+          "title": "Externer Datenschutzbeauftragter | proliance",
+          "url": "https://www.proliance.ai/blog/konzerndatenschutzbeauftragter",
+          "note": "proliance/DataGuard already consolidating the DPO-as-a-service space - some consolidation underway."
         }
       ],
-      "confidence": 4,
-      "status": "grounded",
+      "confidence": 3,
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Advisory GmbHs freely acquirable; DPO role is contractual, not a person-bound licence. Solo-practitioner books need retention but no ownership block.",
       "actionable": {},
       "child_ids": []
     },
@@ -6429,18 +6879,18 @@
         "recurring": 5,
         "fragmentation": 4,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 4,
+        "margin": 4,
+        "growth": 5,
+        "headroom": 3,
+        "reimbursement_risk": 2
       },
       "rationale": {
         "recurring": "Managed OT monitoring / attack-detection is sold as multi-year subscription with mandatory ongoing operation (IT-SiG 2.0 'Systeme zur Angriffserkennung').",
         "fragmentation": "~900-1,400 Stadtwerke plus hundreds of grid/plant operators, served by a long tail of regional integrators and boutiques; only partial consolidation (EnBW, telent/Landis+Gyr-Rhebo).",
         "compliance": "EnWG §11.1b IT-Sicherheitskatalog, IT-SiG 2.0, NIS2 and KRITIS-Dachgesetz make OT monitoring statutory for energy operators."
       },
-      "composite": 91.7,
+      "composite": 82.5,
       "dach_signals": {
         "est_players": "~900-1,400 Stadtwerke + several hundred grid/plant operators; dozens of specialist OT-security providers",
         "revenue_band_eur": "EUR 1-8m typical for boutiques/units",
@@ -6474,14 +6924,24 @@
           "title": "EWE: Eigenes SOC für IT- und OT-Systeme",
           "url": "https://www.stadt-und-werk.de/k21-meldungen/eigenes-soc-fuer-it-und-ot-systeme/",
           "note": "Utility-run OT-SOC offered nationwide to KRITIS operators under NIS2"
+        },
+        {
+          "title": "IT/OT-Security für Stadtwerke & Versorger - 8com",
+          "url": "https://www.8com.de/branchenexpertise/energie-und-versorgungsunternehmen",
+          "note": "24/7 SOC for ~900-1,400 Stadtwerke; KRITIS/NIS-2 mandate drives strong growth."
+        },
+        {
+          "title": "EnBW Cyber Security - OT Managed Security Service",
+          "url": "https://www.enbw.com/cyber-security/produkte/managed-security-service-ot.html",
+          "note": "Large utilities (EnBW, EWE, Siemens) entering => incumbents compress headroom."
         }
       ],
-      "confidence": 5,
-      "status": "grounded",
+      "confidence": 3,
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Specialist OT-security providers are acquirable GmbHs; recurring opex-funded contracts, no state ownership of the vendor.",
       "actionable": {},
       "child_ids": []
     },
@@ -6502,18 +6962,18 @@
         "recurring": 5,
         "fragmentation": 5,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 3,
+        "margin": 4,
+        "growth": 5,
+        "headroom": 5,
+        "reimbursement_risk": 1
       },
       "rationale": {
         "recurring": "Continuous passive OT monitoring and recurring assessments contracted per plant; mandatory attack-detection operation under IT-SiG 2.0.",
         "fragmentation": "~5,900 water suppliers and thousands of wastewater bodies, mostly small municipal Zweckverbände; served by tiny engineering/security boutiques with no dominant consolidator.",
         "compliance": "Sektor Wasser is core KRITIS; NIS2 (2025) and KRITIS-Dachgesetz (2026) prescribe concrete OT cybersecurity measures for drinking-water and wastewater operators."
       },
-      "composite": 100.0,
+      "composite": 87.5,
       "dach_signals": {
         "est_players": "~5,900 water suppliers + thousands of wastewater/Zweckverbände; long tail of OT-security boutiques",
         "revenue_band_eur": "EUR 0.5-4m typical",
@@ -6545,14 +7005,24 @@
           "title": "OT-Security – admeritia GmbH (Meldepflicht für KRITIS)",
           "url": "https://admeritia.de/schwerpunkte/meldepflicht-fuer-kritis/",
           "note": "OT-security consultancy serving KRITIS operators incl. utilities"
+        },
+        {
+          "title": "HST Systemtechnik – SECURA Angriffserkennung Wasserwirtschaft",
+          "url": "https://hst.de/wasserwirtschaft-im-visier-der-cyber-auditoren/",
+          "note": "SzA/monitoring product for water utilities — niche OT-security supplier"
+        },
+        {
+          "title": "KRITIS-Dachgesetz seit März 2026 – OpenKRITIS",
+          "url": "https://www.openkritis.de/r/OpenKRITIS_NIS2_KRITIS-Dachgesetz_Betreiber.pdf",
+          "note": "New law expands obligated water/wastewater operators — strong tailwind"
         }
       ],
-      "confidence": 5,
-      "status": "grounded",
+      "confidence": 3,
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "OT-security boutiques are freely acquirable GmbHs; revenue mandate-driven (NIS2/KRITIS) and durable, not subsidy-dependent",
       "actionable": {},
       "child_ids": []
     },
@@ -6842,18 +7312,18 @@
         "recurring": 5,
         "fragmentation": 4,
         "compliance": 5,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 3,
+        "margin": 2,
+        "growth": 3,
+        "headroom": 3,
+        "reimbursement_risk": 4
       },
       "rationale": {
         "recurring": "Sold as multi-year outsourcing/hosting contracts with SLAs; RZV has operated clinical IT as a data-centre service since 1968, releases/updates/hardware handled by provider on a recurring basis.",
         "fragmentation": "Mix of a few large clinical RZ (RZV, akquinet) plus regional healthcare-IT houses (KAMP, Kramer & Crew) and hospital-owned RZ; no dominant consolidator.",
         "compliance": "Hospitals >30k cases are KRITIS under BSIG §8a; KHZG/DigiG funding, DSGVO patient-data rules and B3S Krankenhaus make German-resident certified operation effectively mandatory."
       },
-      "composite": 91.7,
+      "composite": 51.7,
       "dach_signals": {
         "est_players": "~30-60 specialised clinical RZ / healthcare-IT outsourcers",
         "revenue_band_eur": "EUR 5-80m (regional houses smaller, EUR 2-10m)",
@@ -6892,14 +7362,29 @@
           "title": "Management & Krankenhaus: IT-Outsourcing Trend",
           "url": "https://www.management-krankenhaus.de/topstories/it-kommunikation/krankenhaus-it-der-trend-geht-zum-outsourcing",
           "note": "Confirms structural trend to hospital IT outsourcing in Germany"
+        },
+        {
+          "title": "Knappschaft Kliniken Solution GmbH – Informationstechnologie",
+          "url": "https://www.knappschaft-kliniken.de/solution/geschaeftsbereich/informationstechnologie.php",
+          "note": "Captive clinical RZ owned by hospital group — structural ownership friction."
+        },
+        {
+          "title": "RHÖN-KLINIKUM IT Service (RIT)",
+          "url": "https://www.rhoen-it-service.de/",
+          "note": "Hospital-group-owned IT/RZ service — not on the open M&A market."
+        },
+        {
+          "title": "Das KHZG und der Hürdenlauf 2025",
+          "url": "https://www.kma-online.de/aktuelles/it-digital-health/detail/das-khzg-und-der-huerdenlauf-wie-geht-es-2025-weiter-51987",
+          "note": "KHZG grant cliff + capital-heavy data-center model = lower margin, revenue-durability risk."
         }
       ],
-      "confidence": 4,
-      "status": "grounded",
+      "confidence": 3,
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
-      "investability": "open",
-      "investability_note": "",
+      "investability": "restricted",
+      "investability_note": "Many clinical RZ houses are captive, hospital-group-owned/non-profit (e.g. Knappschaft Kliniken Solution, RHÖN RIT, FACT) — not freely acquirable; plus KHZG grant exposure.",
       "actionable": {},
       "child_ids": []
     },
@@ -7062,18 +7547,18 @@
         "recurring": 5,
         "fragmentation": 5,
         "compliance": 4,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 4,
+        "margin": 4,
+        "growth": 4,
+        "headroom": 4,
+        "reimbursement_risk": 1
       },
       "rationale": {
         "recurring": "Sold as per-seat monthly hosted-workstation / managed-service subscriptions with backups and support; SPECTRUM alone hosts 700+ law firms recurringly.",
         "fragmentation": "Dozens of small regional Systemhäuser (SPECTRUM, Fritz GmbH, ambiFOX, bitsteps, K2L) plus RA-MICRO's own partner cloud; classic owner-operated long tail.",
         "compliance": "§203 StGB professional secrecy and DSGVO force German-resident, encrypted, ISO-27001 operation with AV-Verträge; regulated but somewhat discretionary vs on-prem."
       },
-      "composite": 91.7,
+      "composite": 83.3,
       "dach_signals": {
         "est_players": "~100+ legal/tax-focused IT-Systemhäuser",
         "revenue_band_eur": "EUR 0.5-10m typical",
@@ -7105,14 +7590,29 @@
           "title": "RA-MICRO Kanzleisoftware Cloud",
           "url": "https://www.ra-micro.de/produkte/kanzleiorganisation/kanzleisoftware-cloud.html",
           "note": "RA-MICRO cloud hosted in German contract data centre with daily backups"
+        },
+        {
+          "title": "IT-Service für Ihre Kanzlei | Compfair GmbH",
+          "url": "https://compfair.de/it-service-kanzlei/",
+          "note": "100+ legal/tax-focused IT houses offering §203-compliant hosting - fragmented."
+        },
+        {
+          "title": "IT für Rechtsanwälte | RHEIN IT",
+          "url": "https://www.rhein-it.de/rechtsanwaelte/",
+          "note": "Compliance premium (§203 StGB, DSGVO) supports recurring, defensible hosting revenue."
+        },
+        {
+          "title": "KanzleiASP - schlaue Alternative zu DATEVasp | Wimmer IT",
+          "url": "https://wimmer-it.de/leistungen/kanzlei-asp-fuer-datev",
+          "note": "German-only data-centre compliant hosting - recurring, private-pay, robust."
         }
       ],
-      "confidence": 4,
-      "status": "grounded",
+      "confidence": 3,
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Ordinary GmbHs; §203 StGB imposes confidentiality/processor duties on the provider but does not restrict ownership or acquisition.",
       "actionable": {},
       "child_ids": []
     },
@@ -7133,18 +7633,18 @@
         "recurring": 5,
         "fragmentation": 5,
         "compliance": 4,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
+        "scale": 4,
+        "margin": 4,
+        "growth": 5,
+        "headroom": 3,
+        "reimbursement_risk": 1
       },
       "rationale": {
         "recurring": "Delivered as per-user/per-volume SaaS subscriptions with ongoing archiving and retention management; storage of records runs for statutory 6-10 year retention periods.",
         "fragmentation": "Large field of German DMS/archiving vendors (edoc, IPA-Suite, bitfarm-Archiv, AKTEFIX, smart-store) mostly SME-scale; no dominant hosted-archive consolidator.",
         "compliance": "GoBD and HGB §257 / AO §147 mandate immutable, traceable retention; regulated but customers can also self-host, so not fully lock-in."
       },
-      "composite": 91.7,
+      "composite": 87.5,
       "dach_signals": {
         "est_players": "~100+ DMS/archiving vendors, subset offering hosted service",
         "revenue_band_eur": "EUR 1-15m typical",
@@ -7176,14 +7676,19 @@
           "title": "bitfarm-Archiv: Audit-proof archiving",
           "url": "https://www.bitfarm-archiv.com/document-management/glossary/audit-proof-archiving.html",
           "note": "Defines revisionssichere Archivierung requirements"
+        },
+        {
+          "title": "Mittelstand Heute – Dokumentenarchivierung in die Cloud (Praxisbericht)",
+          "url": "https://www.mittelstand-heute.com/sap-forward/artikel/mit-der-dokumentenarchivierung-in-die-cloud",
+          "note": "Market shift to cloud; DMS space partly consolidated (DocuWare/Ricoh, d.velop, Kendox)"
         }
       ],
       "confidence": 3,
-      "status": "grounded",
+      "status": "verified",
       "why_now": "",
       "pe_activity": [],
       "investability": "open",
-      "investability_note": "",
+      "investability_note": "Freely acquirable GmbHs; standard software/SaaS ownership",
       "actionable": {},
       "child_ids": []
     },
