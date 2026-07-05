@@ -6032,6 +6032,16 @@
           "title": "Viaductus - Valuation Multiples IT-Services 2025",
           "url": "https://www.viaductus.de/en-US/knowledge/topics/it-services/multiples",
           "note": "Connectivity/reseller vs. managed-service multiple bands in DACH."
+        },
+        {
+          "title": "dacoso GmbH: Waterland übernimmt Dacoso - Die Deutsche Wirtschaft",
+          "url": "https://die-deutsche-wirtschaft.de/investoren/dacoso-gmbh-waterland-uebernimmt-dacoso/",
+          "note": "REASON DROPPED: dacoso GmbH is no longer independent - PE firm Waterland acquired it in June 2024 (sellers Joswig/Pohl); Waterland is an excluded roll-up platform. Confirmed by northdata showing dependency on dacoso Group GmbH & Co. KG (controlling company) as of Dec 2025."
+        },
+        {
+          "title": "Über uns | SAVECALL - IT- & Telekom-Sourcing Experten",
+          "url": "https://www.savecall.de/unternehmen/",
+          "note": "Replacement: SAVECALL GmbH, Grünwald/Munich, independent carrier-neutral telecom/IT sourcing advisor since 1998, 80+ carriers, 1,600+ clients - same business-connectivity-resale model as MPC. Owner-run, not PE/carrier/utility-owned."
         }
       ],
       "confidence": 3,
@@ -6045,12 +6055,12 @@
           {
             "name": "MPC Service GmbH",
             "hq": "Heidelberg (Baden-Württemberg), 17 sites",
-            "note": "Owner-managed since founding in 1995 by Ferdinand Ruppert & Mirko Mach; carrier-neutral ITK-connectivity sourcing/reseller (SIP-Trunk, WAN, mobile) managing >EUR 250m TK volume/yr. Independent, not carrier/utility-owned."
+            "note": "Owner-managed since founding in 1995 by Ferdinand Ruppert & Mirko Mach (both still MDs); carrier-neutral ITK-connectivity sourcing/reseller (SIP-Trunk, WAN, mobile), ~EUR 250m TK volume/yr, 70 staff. Independent, not carrier/utility/PE-owned."
           },
           {
-            "name": "dacoso GmbH",
-            "hq": "Langen (near Frankfurt), 11 further DACH sites",
-            "note": "Owner-managed managed-connectivity + cyber-security provider (optical/encrypted data links, virtual networks) with a BSI-certified NOC/SOC; itself an active acquirer (took over we.Networks). Independent SME."
+            "name": "SAVECALL GmbH (Savecall telecommunications consulting GmbH)",
+            "hq": "Grünwald near Munich, Bavaria",
+            "note": "Independent, owner-run carrier-neutral connectivity sourcing/reseller since 1998 (carrier-independent since 1999); bundles voice, mobile, internet, WAN and security across 80+ carriers for 1,600+ mid-market/enterprise clients, ~40 staff. Not PE/carrier/utility-owned. Added as verified-independent replacement for dacoso."
           }
         ],
         "ebitda_margin": "~5-12% for pure connectivity resale (thin, carrier-cost pass-through), rising toward ~15-20% where managed-network/security and recurring service wraps are added (dacoso-type).",
@@ -9877,6 +9887,26 @@
           "title": "Aventis Advisors - IT Services Valuation Multiples (Q4 2025)",
           "url": "https://aventis-advisors.com/it-services-valuation-multiples/",
           "note": "Median IT-services EV/EBITDA ~8.8x; recurring/margin profile supports mid-band pricing."
+        },
+        {
+          "title": "SPG uebernimmt Gromnitza Systemhaus",
+          "url": "https://www.crn.de/news/2025/spg-ubernimmt-gromnitza-systemhaus",
+          "note": "DROPPED Gromnitza GmbH: confirmed part of the Software Partners Group (SPG) roll-up since April 2025; Oliver/Gromnitza CEO now co-partner in SPG - no longer independent. Fails independence test."
+        },
+        {
+          "title": "Gromnitza Systemhaus wird Teil der SPG",
+          "url": "https://www.gromnitza.de/aktuelles/spg",
+          "note": "Company's own confirmation of SPG membership - basis for drop."
+        },
+        {
+          "title": "Managed Backup - PLUTEX",
+          "url": "https://www.plutex.de/managed-backup.html",
+          "note": "Replacement PLUTEX GmbH: independent family-run Bremen MSP, ISO-27001 German data centre, dedicated managed backup with German data residency - niche fit and independent."
+        },
+        {
+          "title": "PLUTEX Zertifizierung (ISO 27001 / ISO 9001)",
+          "url": "https://www.plutex.de/ueber-plutex/zertifizierung",
+          "note": "Confirms TUV ISO-27001 certification of PLUTEX data centres."
         }
       ],
       "confidence": 4,
@@ -9890,17 +9920,17 @@
           {
             "name": "System AG @data GmbH",
             "region": "Lohmar (NRW); own RZ Karlsruhe",
-            "note": "Owner-led IT house since 1990 (MDs Szokolai & Wisser); operates own ISO-27001 data centre in Germany with managed backup/DRaaS - independent, German data residency."
+            "note": "Owner-led IT house since 1990; operates own ISO-27001 (IT-Grundschutz) data centre in Karlsruhe with managed backup in German RZ / DRaaS - independent, German data residency."
           },
           {
             "name": "centron GmbH",
             "region": "Hallstadt / Bamberg (Bayern)",
-            "note": "Owner-managed since 1999 (managing partner Wilhelm Seucan); own ISO-27001-certified data centre offering managed backup/storage/cloud - independent, not PE."
+            "note": "Owner-managed and independent from large corporations (founded 1999 by Monika Safferling & Wilhelm Seucan); own ISO-27001-certified German data centre offering managed backup/storage/cloud - not PE."
           },
           {
-            "name": "Gromnitza GmbH",
-            "region": "Betzdorf (Rheinland-Pfalz)",
-            "note": "Owner-named regional Systemhaus; managed backup with geo-redundant German data centres, encryption and standardised restore tests aligned to ISO 27001/GoBD/DSGVO."
+            "name": "PLUTEX GmbH",
+            "region": "Bremen",
+            "note": "Family-run, independent MSP; operates own TUV ISO-27001 (and ISO-9001) certified data centres in Bremen with dedicated Managed Backup service, data stays in Germany under German law - replacement for dropped Gromnitza."
           }
         ],
         "ebitda_margin": "~15-25% (recurring DRaaS/backup and colocation revenue with high infrastructure gross margins; above the 10-15% pure-MSP band)",

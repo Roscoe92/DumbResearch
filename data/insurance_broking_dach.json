@@ -2799,6 +2799,21 @@
           "title": "Deal Origination DACH - EBITDA Multiples DACH 2026",
           "url": "https://dealorigination.de/en/ebitda-multiples-dach",
           "note": "Niche broker multiple reference"
+        },
+        {
+          "title": "Ecclesia uebernimmt 75,1 Prozent der Anteile an der Schunck Group",
+          "url": "https://www.pkv-vorteile.de/blog/2020/09/17/ecclesia-uebernimmt-751-prozent-der-anteile-an-der-schunck-group/",
+          "note": "DROPPED artSecur (Freiburg): NOT independent. artSecur is the specialised art-insurance division/brand of the SCHUNCK GROUP (schunck-group.de/en/sectors/art-and-artworks), and Ecclesia Gruppe acquired 75.1% of Schunck effective 01/01/2021. Ecclesia is an explicit avoid-list broker consolidator."
+        },
+        {
+          "title": "Kuhn & Buelow Versicherungsmakler Group",
+          "url": "https://www.kuhn-buelow.com/en/",
+          "note": "REPLACEMENT: verified independent, owner-run Berlin fine-art insurance broker (founded 1991), specialises solely in art/collectibles; no insurer/consolidator ownership found."
+        },
+        {
+          "title": "About us, philosophy and history | Zilkens Fine Art Insurance Broker",
+          "url": "https://zilkensfineart.com/en/about-us",
+          "note": "KEPT: confirmed owner-run (Dr. Stephan Zilkens) independent art-insurance-only broker."
         }
       ],
       "confidence": 3,
@@ -2809,8 +2824,8 @@
       "investability_note": "MGA/Assekuradeur operates on carrier binding authority — change of control typically requires capacity-provider/carrier consent; very thin target universe (only ~3 leading DACH art specialists).",
       "actionable": {
         "named_targets": [
-          "Zilkens Fine Art Insurance Broker GmbH, Cologne - owner-run (Dr. Stephan Zilkens), >35 yrs specialised only in art/valuables insurance for collectors, galleries, museums, artists, art logistics",
-          "artSecur (Freiburg) - international, independent broker dealing exclusively with art/collectibles insurance (Direktorin Ines Gutmann); not insurer-tied"
+          "Zilkens Fine Art Insurance Broker GmbH, Cologne - owner-run (Dr. Stephan Zilkens, founded 2010), specialised exclusively in art/valuables insurance for collectors, galleries, museums, artists, art logistics; independent, not insurer/consolidator-owned",
+          "Kuhn & Buelow Versicherungsmakler GmbH, Berlin - independent owner-run fine-art insurance broker (est. 1991, MD Michael Kuhn), one of the leading European art insurance specialists; develops and documents concepts itself, not insurer/consolidator-owned"
         ],
         "ebitda_margin": "~20-30% for a niche art broker/agency (high-value, low-volume, expertise-driven)",
         "entry_multiple": "~6-9x EBITDA - specialised niche broker/underwriting book; thin comparable market",
@@ -4046,6 +4061,26 @@
           "title": "Xempus uebernimmt eVorsorge Systems",
           "url": "https://versicherungswirtschaft-heute.de/maerkte-und-vertrieb/2023-05-11/xempus-uebernimmt-evorsorge/",
           "note": "Evidence eVorsorge is now a Xempus subsidiary (excluded)"
+        },
+        {
+          "title": "NERA Digital becomes the new majority shareholder of BRANDCONSULT GmbH",
+          "url": "https://www.nera-digital.com/en/news/akquisition-der-brandconsult-gmbh",
+          "note": "REASON DROPPED (BRANDCONSULT / EasyPension): NERA Digital Management GmbH (a Gruenwald owner-managed investment holding founded 2022, investing in DACH SMEs) became MAJORITY shareholder; founder Andreas Brand only stays on as a minority. No longer genuinely founder/family-independent -> fails independence test."
+        },
+        {
+          "title": "MARTIUS advises Nera Digital on the acquisition of BRANDCONSULT GmbH",
+          "url": "https://martius-partner.com/en/nera-digital-acquires-brandconsult/",
+          "note": "Confirms BRANDCONSULT is now controlled by NERA Digital investment holding (PE-style buy-and-build), not owner-independent."
+        },
+        {
+          "title": "ets software GmbH - bAV Verwaltungssoftware etspuka (Impressum)",
+          "url": "https://etspuka.de/impressum.html",
+          "note": "KEPT: independent Nuremberg software house, owner-managed by the Kuehnlein family; etspuka bAV platform since 2002."
+        },
+        {
+          "title": "Entgelt und Rente AG - bAV SaaS (E&R AG)",
+          "url": "http://www.er-ag.de/leistung/bav/",
+          "note": "REPLACEMENT: owner-managed independent bAV/payroll SaaS provider since 1998; genuinely independent (not Hypoport/insurer-owned, unlike ePension/E&P which is Hypoport-owned and was excluded)."
         }
       ],
       "confidence": 3,
@@ -4057,14 +4092,14 @@
       "actionable": {
         "named_targets": [
           {
-            "name": "BRANDCONSULT GmbH (EasyPension)",
-            "hq_region": "Raum Hamburg (Norderstedt)",
-            "note": "Owner-managed bAV consultancy (Geschaeftsfuehrer/founder Andreas Brand, 30 yrs bAV), built proprietary EasyPension digital bAV/bKV administration SaaS in-house from 2019; independent, not PE/insurer-owned."
-          },
-          {
             "name": "ets software GmbH (etspuka)",
             "hq_region": "Nuernberg",
-            "note": "Independent owner-run software house (30+ yrs in banking/insurance IT) developing the etspuka bAV administration/controlling platform since 2002; supplies bAV TPAs and providers, not consolidator-owned."
+            "note": "Independent owner-run software house (MDs Richard & Dr. Meike Kuehnlein; active since 1993 as EDV Team Sued), developing the certified etspuka bAV administration/controlling platform since 2002. Family/owner-managed, not consolidator- or insurer-owned."
+          },
+          {
+            "name": "Entgelt und Rente AG (E&R)",
+            "hq_region": "Deutschland",
+            "note": "REPLACEMENT for BRANDCONSULT. Owner-managed (inhabergefuehrt) IT/service company operating since 1998; certified SaaS solution for bAV administration and payroll, managing ~36,000 pension entitlements. Independent, not PE/insurer/consolidator-owned."
           }
         ],
         "ebitda_margin": "20-40% at scale for a recurring-licence bAV SaaS/TPA; sub-scale niche players sit lower while still investing in build-out",
@@ -8316,6 +8351,11 @@
           "title": "Bestand eines Versicherungsmaklers - Bewertung und Verkauf (VersWiki) / Preisentwicklung bei Versicherungsbestaenden",
           "url": "https://www.deutsche-versicherungsboerse.de/verswiki/index_dvb.php?title=Bestand_eines_Versicherungsmaklers_-_Bewertung_und_Verkauf",
           "note": "Courtage-multiple and EBITDA-multiple valuation methodology for broker books"
+        },
+        {
+          "title": "CMO Makler Karlsruhe | Finanzberatung - Immobilienmakler - Versicherungsmakler GmbH",
+          "url": "https://www.cmo-makler.de/karlsruhe-makler/",
+          "note": "DROPPED CMO Finanz- & Versicherungsmakler GmbH: confirmed off-niche generalist (Finanz + Immobilien + Versicherung) small local Karlsruhe broker that only opportunistically buys books in cooperation with the VEMA pool (landingpage.vema-eg.de) for its own growth. Not a dedicated Courtage-Buch aggregator / Maklernachfolge platform; too small and off-focus to anchor this niche."
         }
       ],
       "confidence": 4,
@@ -8328,13 +8368,8 @@
         "named_targets": [
           {
             "name": "Resultate Institut fuer Unternehmensanalysen und Bewertungsverfahren GmbH",
-            "hq_region": "Muenchen, Bayern",
-            "note": "Independent, founder-owned advisory/marketplace (founded 2014 by Andreas W. Grimm & Thomas Oechsner) for Maklernachfolge, broker-book valuation and brokered Bestandsverkauf; not pool/PE-owned (works with, but is not owned by, pools)."
-          },
-          {
-            "name": "CMO Finanz- & Versicherungsmakler GmbH (CMO Makler)",
-            "hq_region": "Karlsruhe, Baden-Wuerttemberg",
-            "note": "Independent owner-run broker explicitly without affiliation to classical broker pools, actively acquiring Versicherungsbestaende / running Maklernachfolge deals off its own balance sheet."
+            "hq_region": "Gruenwald / Muenchen, Bayern",
+            "note": "Independent, founder-owned advisory/marketplace (founded by Andreas W. Grimm & Thomas Oechsner) for Maklernachfolge, broker-book valuation and brokered Bestandsverkauf; not pool/PE-owned (works with, but is not owned by, pools). Operates the MaklerTreuhand model."
           }
         ],
         "ebitda_margin": "20-35% for a run-off/administration platform once acquired books are migrated onto shared systems (recurring courtage, low incremental service cost)",
