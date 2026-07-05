@@ -185,6 +185,26 @@
           "title": "IT-Systemhäuser Deutschland 2026: Markt & Verbünde | hagel-it",
           "url": "https://www.hagel-it.de/it-dienstleister/systemhaus-verbund",
           "note": "MRR-Shift (Modern Workplace) treibt Multiples; 10 der Top 25 haben 2024 Wettbewerber gekauft → dicht besetzt."
+        },
+        {
+          "title": "hagel IT-Services - Über uns",
+          "url": "https://www.hagel-it.de/ueber-uns",
+          "note": "Owner-led since 2004 (Jens Hagel/Philip Kraatz), Microsoft Gold Partner, Modern Workplace/DaaS."
+        },
+        {
+          "title": "Schneider + Wulf - Managed Service Microsoft 365 KMU smart",
+          "url": "https://schneider-wulf.de/loesung/managed-service-microsoft-365-kmu-smart/",
+          "note": "Owner-managed since 1988 (Sven Wulf); packaged managed M365 for SMEs."
+        },
+        {
+          "title": "IT-Systemhaus Hamburg - Managed Workplace 9 Anbieter Vergleich 2026",
+          "url": "https://www.it-systemhaus-hamburg-24x7.de/managed-workplace-hamburg-9-anbieter-im-festpreis-vergleich-2026/",
+          "note": "Market colour: EUR 60-180/seat/month; owner-led Systemhäuser vs. rapidly consolidating field."
+        },
+        {
+          "title": "exit-coach.de - EBITDA Multiples nach Branche & Größe",
+          "url": "https://exit-coach.de/ebitda-multiples/",
+          "note": "DACH SME IT-services multiple band (~6-10x) reference."
         }
       ],
       "confidence": 4,
@@ -193,7 +213,27 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Systemhaus-GmbHs frei akquirierbar; keine Lizenzhürde. Aber bereits stark umkämpftes Buy-and-Build-Feld → wenig unberührtes Terrain.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          {
+            "name": "hagel IT-Services GmbH",
+            "region": "Hamburg (+ Bremen/Kiel/Lübeck)",
+            "note": "Owner-led since 2004 (founder Jens Hagel; co-MD Philip Kraatz); Microsoft Gold Partner running 'one workspace' Device-as-a-Service/Modern Workplace for ~150 SMEs - independent, exact niche fit."
+          },
+          {
+            "name": "Schneider + Wulf EDV-Beratung GmbH & Co. KG",
+            "region": "Babenhausen / Frankfurt (Hessen)",
+            "note": "Owner-managed since 1988 (MD Sven Wulf); packaged 'Managed Service Microsoft 365 KMU smart' operating M365/endpoint for SMEs - independent, founder-held."
+          }
+        ],
+        "ebitda_margin": "~10-15% (recurring per-seat managed-workplace contracts; margin rises with automation/RMM scale but licence pass-through dilutes)",
+        "entry_multiple": "~6-9x EV/EBITDA (high recurring share supports mid-band, but licence pass-through revenue and small size cap it; DACH SME IT typically 6-10x)",
+        "bnb_angle": "Aggregate sub-scale owner-led M365 Systemhäuser (EUR 1-5m revenue, EUR 60-180/seat/month) into a regional Modern-Workplace platform, standardising Intune/Autopilot automation and a security stack to lift per-seat margin and recurring share.",
+        "key_risks": [
+          "SCARCITY/TOO-LATE: this is the single most aggressively rolled-up MSP segment in DACH (Netgo/Waterland, teccle group, q.beyond, Cancom et al.), so genuinely independent targets are thinning and entry multiples are bid up.",
+          "Thin differentiation and Microsoft licence-margin dependence; owner-operator key-person risk at the smallest firms."
+        ]
+      },
       "child_ids": []
     },
     "managed-it-cybersecurity-services-value-chain/managed-it-services-it-systemhauser/co-managed-it-white-label-service-desk-helpdesk-outsourcing": {
@@ -1140,6 +1180,21 @@
           "title": "Private Equity in the IT Channel: Key Investment Trends | ChannelPro",
           "url": "https://www.channelpronetwork.com/2025/12/04/private-equity-in-the-it-channel-key-investment-trends/",
           "note": "Heavy PE/distributor (Infinigate-style) consolidation of channel MSPs - little whitespace left."
+        },
+        {
+          "title": "20 Jahre 8com - founders Sandra & Goetz Schartner, own SOC/MDR (PresseBox)",
+          "url": "https://www.pressebox.de/pressemitteilung/8com-gmbh-co-kg-neustadt-an-der-weinstrasse/20-Jahre-8com-Neustadt-feiert-zwei-Jahrzehnte-Cybersicherheit-made-in-Germany/boxid/1218109",
+          "note": "Family/founder-owned MSSP, MDR niche fit"
+        },
+        {
+          "title": "suresecure - Managed Detection & Response",
+          "url": "https://suresecure.eu/services/detect/mdr",
+          "note": "Founder-led (2017) SOC/MDR on channel EDR/XDR"
+        },
+        {
+          "title": "Cybersecurity Valuation Multiples Mid-2025 - Finro",
+          "url": "https://www.finrofca.com/news/cybersecurity-valuation-mid-2025",
+          "note": "MDR/MSSP EBITDA multiple benchmarks & premia"
         }
       ],
       "confidence": 4,
@@ -1148,7 +1203,27 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Reselling MSPs are freely acquirable GmbHs; only friction is vendor/distributor channel dependency, not ownership.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          {
+            "name": "8com GmbH & Co. KG",
+            "hq_region": "Neustadt an der Weinstrasse, Rhineland-Palatinate",
+            "note": "Family/founder-owned MSSP (founded 2004 by Sandra & Goetz Schartner, ~100 staff) running its own SOC delivering MDR/security-monitoring bundled on vendor EDR/XDR for the Mittelstand. Independent GmbH & Co. KG."
+          },
+          {
+            "name": "suresecure GmbH",
+            "hq_region": "Duesseldorf, NRW",
+            "note": "Founder-led IT-security specialist (founded 2017) operating a SOC and MDR service on channel EDR/XDR + SOAR/threat-intel (Google Cloud Security partner). Owner-managed, no PE/strategic parent."
+          }
+        ],
+        "ebitda_margin": "~12-20% (recurring MDR/SOC managed service; higher than resale-only MSPs but licence pass-through on EDR/XDR caps the upside)",
+        "entry_multiple": "~7-10x EV/EBITDA (recurring 24/7 MDR contracts and cyber-specialisation premium push above generic managed-IT; scale/SOC utilisation drives the range)",
+        "bnb_angle": "Build a mid-market MDR champion by consolidating owner-led SOC operators (8com + suresecure) onto one shared 24/7 SOC and unified EDR/XDR stack, spreading fixed analyst/tooling cost across a larger recurring subscriber base and cross-selling incident-response retainers.",
+        "key_risks": [
+          "Margin and differentiation squeezed by EDR/XDR vendors (SentinelOne, CrowdStrike, Microsoft) moving into MDR directly and by well-funded platforms (Arctic Wolf, G DATA)",
+          "Severe SOC-analyst shortage makes 24/7 staffing and post-deal retention the key operational constraint"
+        ]
+      },
       "child_ids": []
     },
     "managed-it-cybersecurity-services-value-chain/managed-security-services-soc-mdr-siem/siem-as-a-service-compliance-log-management-kritis-systeme-zur-angriffserkennung": {
@@ -2535,6 +2610,26 @@
           "title": "§39 BSIG (n.F.) – RSM Certification GmbH",
           "url": "https://www.rsm-certification.de/auditierungen/39-kritis",
           "note": "Limited set of accredited certification bodies; six-figure audit engagements, mandate-driven growth."
+        },
+        {
+          "title": "CEA Certification GmbH - §8a BSIG KRITIS (accredited, owner-managed family business)",
+          "url": "https://www.cea-certification.de/8a-bsig",
+          "note": "Confirms accredited pruefende-Stelle status and independence."
+        },
+        {
+          "title": "secuvera GmbH - KRITIS-Pruefer nach §8a BSIG",
+          "url": "https://www.secuvera.de/aktuelles/kritis-pruefer-nach-%C2%A78a-bsig/",
+          "note": "Confirms §8a(3) BSIG audit competence, founder-led independence."
+        },
+        {
+          "title": "8com - Cybersecurity fuer KRITIS-Unternehmen (owner-managed independent MSSP)",
+          "url": "https://www.8com.de/branchenexpertise/kritis",
+          "note": "Confirms independent, owner-managed KRITIS/NIS2 delivery."
+        },
+        {
+          "title": "KPMG Atlas - Multiplikatoren (IT-security / advisory)",
+          "url": "https://atlas.kpmg.com/de/de/deal-advisory-services/kapitalkosten-und-multiplikatoren/multiplikatoren",
+          "note": "Reference for security-advisory EBITDA multiples/margins."
         }
       ],
       "confidence": 3,
@@ -2543,7 +2638,32 @@
       "pe_activity": [],
       "investability": "restricted",
       "investability_note": "Requires DAkkS accreditation / BSI-recognised Prüfverfahrenskompetenz plus certifier independence & conflict-of-interest rules — accreditation is entity/person-bound, not freely transferable via share deal.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          {
+            "name": "CEA Certification GmbH",
+            "hq_region": "Kassel / Munich",
+            "note": "Owner-managed family business (2 owners, founded 2003), DAkkS-accredited certification body performing §8a BSIG KRITIS Nachweispruefungen; strictly independent (no consulting). Not part of a group/roll-up."
+          },
+          {
+            "name": "secuvera GmbH",
+            "hq_region": "Gaeufelden / Baden-Wuerttemberg",
+            "note": "Founder-led BSI-recognised Pruefstelle (since 1992, MD Tobias Glemser) with auditors holding §8a(3) BSIG Pruefverfahrenskompetenz; manufacturer-independent. Owner-operated GmbH."
+          },
+          {
+            "name": "8com GmbH & Co. KG",
+            "hq_region": "Neustadt an der Weinstrasse / Rheinland-Pfalz",
+            "note": "Owner-managed, independent MSSP (20+ yrs, 100+ staff, BSI IT-Grundschutz-certified SOC) serving KRITIS operators on §8a BSIG / NIS2 readiness & assessment. Not PE/listed/subsidiary."
+          }
+        ],
+        "ebitda_margin": "~15-30% (asset-light professional-services / accredited audit work; auditor-utilisation driven)",
+        "entry_multiple": "~6-9x EV/EBITDA (SME security-audit/certification advisory within the 6-10x managed-security band; regulatory tailwind supports upper end)",
+        "bnb_angle": "Build a NIS2/KRITIS compliance platform combining an accredited pruefende Stelle with §8a-competent auditors and MSSP/SOC delivery, capturing the mandatory 2-yearly re-audit cycle plus follow-on ISMS, penetration-test and managed-detection retainers as the KRITIS-Dachgesetz widens the regulated population.",
+        "key_risks": [
+          "Independence rules: accredited certifiers may not sell remediation consulting to the same client - limits cross-sell and requires careful separation of legal entities.",
+          "Scarce §8a-Pruefverfahrenskompetenz + sector-competent auditors; capacity and key-person risk cap scalability."
+        ]
+      },
       "child_ids": []
     },
     "managed-it-cybersecurity-services-value-chain/cybersecurity-consulting-audit-compliance/penetration-testing-technical-security-assessments": {
@@ -4123,6 +4243,31 @@
           "title": "Managed Cloud Services - diese Anbieter sollten Sie im Blick haben | Computerwoche",
           "url": "https://www.computerwoche.de/article/3799677/managed-cloud-services-diese-anbieter-sollten-sie-im-blick-haben.html",
           "note": "Field crowded with PE-backed consolidators (Cancom, All for One, q.beyond) - limited whitespace; private-cloud infra weighs on margin."
+        },
+        {
+          "title": "centron GmbH - About (founder-led, own data center, managed private cloud)",
+          "url": "https://www.centron.de/en/about-us/",
+          "note": "Confirms founder ownership since 1999 and managed private cloud / DC operations."
+        },
+        {
+          "title": "michael wessel - Managed Services & Private Cloud (owner-managed system house)",
+          "url": "https://www.michael-wessel.de/managed-services/private-cloud-mittelstand",
+          "note": "Confirms vendor-independent managed private/hybrid cloud for Mittelstand."
+        },
+        {
+          "title": "Arne Madro EDV-Organisation GmbH - Ueber uns (founder-run IT house)",
+          "url": "https://www.madro-edv.com/ueber-uns/",
+          "note": "Confirms owner-founded independent mid-market IT / managed services."
+        },
+        {
+          "title": "ap-verlag - Private/Hybrid Cloud: kleinere Managed-Services-Anbieter im Mittelstand",
+          "url": "https://ap-verlag.de/private-und-hybrid-cloud-kleinere-managed-services-anbieter-mischen-den-mittelstandsmarkt-auf/93013/",
+          "note": "Market context: small independent MSPs contesting the mid-market."
+        },
+        {
+          "title": "KPMG Atlas - Multiplikatoren (IT-services / cloud)",
+          "url": "https://atlas.kpmg.com/de/de/deal-advisory-services/kapitalkosten-und-multiplikatoren/multiplikatoren",
+          "note": "Reference for managed-cloud/IT-services EBITDA multiples and margins."
         }
       ],
       "confidence": 4,
@@ -4131,7 +4276,32 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Freely acquirable operator GmbHs; larger/infra-heavy assets simply pricier, no ownership restriction.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          {
+            "name": "centron GmbH",
+            "hq_region": "Hallstadt / Bamberg, Bavaria",
+            "note": "Founder-led since 1999 (founders Wilhelm Seucan & Monika Safferling still active), operates own ISO-27001 data center; managed private cloud, managed servers/hosting. Owner-managed, not PE/listed."
+          },
+          {
+            "name": "Michael Wessel Informationstechnologie GmbH",
+            "hq_region": "Hannover",
+            "note": "Eponymous owner-managed IT system house (since 1992, ~70 staff, founder Michael Wessel as MD); vendor-independent managed services, private/hybrid cloud & data-center modernisation. Not PE/OEM/utility subsidiary."
+          },
+          {
+            "name": "Arne Madro EDV-Organisation GmbH (MADRO EDV)",
+            "hq_region": "Stahnsdorf (Berlin-Brandenburg)",
+            "note": "Founder-run mid-market IT house (GmbH since 1995) delivering managed servers and private/hybrid cloud for SMEs; organic-grown, independent. (Also active in vertical hospitality IT.)"
+          }
+        ],
+        "ebitda_margin": "~15-25% (recurring managed-services lift margins above pure Systemhaus, but data-center/infrastructure capex and depreciation weigh vs. pure advisory)",
+        "entry_multiple": "~7-10x EV/EBITDA (recurring, sticky managed-cloud revenue at the upper end of the 6-10x SME managed-IT band; scarcity of independent DE-hosted operators supports pricing)",
+        "bnb_angle": "Aggregate sub-scale regional MSPs and single-site data-center operators into a sovereign 'made-in-Germany' managed-private/hybrid-cloud platform, standardising tooling and cross-selling security/backup/DR, to serve mid-market and public-sector customers wary of hyperscalers.",
+        "key_risks": [
+          "Capex intensity and hyperscaler price/scale competition compress margins; sub-scale DCs face rising energy and modernisation costs.",
+          "Talent scarcity and technology-refresh risk; integration of heterogeneous infrastructure stacks in a roll-up is complex."
+        ]
+      },
       "child_ids": []
     },
     "managed-it-cybersecurity-services-value-chain/cloud-hosting-data-center-services/sector-specific-compliant-hosting-healthcare-public-sector": {
@@ -5403,6 +5573,26 @@
           "title": "Top 10 IT-Dienstleister für E-Rechnungen 2026 (Mindforms)",
           "url": "https://mind-forms.de/knowhow/it-dienstleister-e-rechnung/",
           "note": "Fragmented specialist provider field; software M&A active (Comarch, Wolters Kluwer, EDICOM already consolidating)"
+        },
+        {
+          "title": "HS - Hamburger Software: E-Rechnung / GoBD",
+          "url": "https://www.hamburger-software.de/produkte/e-rechnung",
+          "note": "Confirms owner-managed vendor, >26,000 customers, ZUGFeRD/XRechnung + GoBD archiving."
+        },
+        {
+          "title": "PresseBox: Agenda InvoiceHub - Die Lösung für die E-Rechnung",
+          "url": "https://www.pressebox.de/inaktiv/agenda-informationssysteme-gmbh-co-kg/agenda-invoicehub-die-loesung-fuer-die-e-rechnung/boxid/1229737",
+          "note": "Rosenheim owner-operated since 1984, >350k users, InvoiceHub e-invoicing."
+        },
+        {
+          "title": "Seeburger (Unternehmen) - Wikipedia",
+          "url": "https://de.wikipedia.org/wiki/Seeburger_(Unternehmen)",
+          "note": "Founded 1986 by Bernd Seeburger who remains principal shareholder; EDI + e-invoicing (independent)."
+        },
+        {
+          "title": "viaductus - Valuation Multiples in the IT Industry 2025",
+          "url": "https://www.viaductus.de/wissen/thema/it-unternehmensboerse/it-unternehmen-welche-multiples-sind-ueblich",
+          "note": "DACH SME IT/software multiples up to ~10.4x; recurring/software at top of band."
         }
       ],
       "confidence": 4,
@@ -5411,7 +5601,32 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Freely acquirable SaaS/EDI GmbHs; no ownership friction, regulatory-mandate revenue not subsidy-dependent.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          {
+            "name": "HS - Hamburger Software GmbH & Co. KG",
+            "region": "Hamburg",
+            "note": "Owner-managed since 1979 (>26,000 customers DE/AT); ERP with native ZUGFeRD/XRechnung creation plus GoBD-compliant DMS/archiving - exact niche fit, no PE/strategic owner."
+          },
+          {
+            "name": "Agenda Informationssysteme GmbH & Co. KG",
+            "region": "Rosenheim (Bayern)",
+            "note": "Owner-operated since 1984 (>350,000 users); launched 'InvoiceHub' e-invoicing (ZUGFeRD/XRechnung) for SMEs and tax advisors - independent, founder/family-held."
+          },
+          {
+            "name": "SEEBURGER AG",
+            "region": "Bretten (Baden-Württemberg)",
+            "note": "Family-owned since 1986; founder Bernd Seeburger remains principal shareholder; BIS suite combines EDI, MFT and e-invoicing - independent (not listed free-float, not PE)."
+          }
+        ],
+        "ebitda_margin": "~15-25% (software/e-invoicing SaaS-EDI vendors run higher margins than pure service MSPs; DACH software/IT-Dienstleister among the highest-margin SME segments)",
+        "entry_multiple": "~7-12x EV/EBITDA (recurring SaaS/EDI licence revenue commands the top of the DACH IT band; SME IT/software up to ~10.4x, software premium above)",
+        "bnb_angle": "Roll up regional DMS/EDI specialists and tax-advisor-channel e-invoicing tools into one GoBD/E-Rechnung compliance platform, cross-selling mandatory B2B e-invoicing (verpflichtend since 1 Jan 2025) into an installed ERP base as recurring per-document/SaaS revenue.",
+        "key_risks": [
+          "Large ERP incumbents (DATEV, SAP, Comarch) bundle e-invoicing for free, compressing standalone pricing.",
+          "Compliance-driven demand is partly a one-off migration wave; risk of churn once SMEs are compliant unless stickiness comes from archiving/DMS."
+        ]
+      },
       "child_ids": []
     },
     "managed-it-cybersecurity-services-value-chain/network-connectivity-unified-communications": {
@@ -5917,6 +6132,26 @@
           "title": "Beschützerbox - rechtssicheres Gäste-WLAN",
           "url": "https://beschuetzerbox.de/",
           "note": "Typical small owner-operated recurring managed-service provider"
+        },
+        {
+          "title": "Eventnet GmbH - Inhaber Maximilian Pohl (LinkedIn)",
+          "url": "https://www.linkedin.com/in/maximilianpohl/",
+          "note": "Confirms owner/Inhaber of Berlin managed-WiFi specialist eventnet."
+        },
+        {
+          "title": "ADDIX - Firmengeschichte / Unternehmen",
+          "url": "https://www.addix.net/informationen/unternehmen/",
+          "note": "Owner-managed since 1992 MBO; operates Northern Germany's largest public WLAN (#sh_wlan)."
+        },
+        {
+          "title": "personalWLAN - Startseite",
+          "url": "https://personalwlan.de/en/",
+          "note": "Hamburg owner-managed since 2002, managed guest-WLAN for hotels/care/gastronomy."
+        },
+        {
+          "title": "HOTSPLOTS Pressemitteilung - hotsplots wird Teil der Wifirst-Gruppe",
+          "url": "https://hotsplots.com/wp-content/uploads/2024/01/2024-01-18_Pressemitteilung_HOTSPLOTS_Wifirst.pdf",
+          "note": "Evidence the niche is consolidating (hotsplots acquired by Wifirst 2024); FREDERIX belongs to swissnet - both excluded as non-independent."
         }
       ],
       "confidence": 3,
@@ -5925,7 +6160,32 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Owner-operated GmbHs freely acquirable; only light telecom/Störerhaftung compliance, no structural block.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          {
+            "name": "eventnet GmbH",
+            "region": "Berlin",
+            "note": "Owner-operated (founder/Inhaber Maximilian Pohl); managed high-density event WiFi plus permanent installs in venues/hotels - independent, niche-pure."
+          },
+          {
+            "name": "ADDIX GmbH",
+            "region": "Kiel (Schleswig-Holstein)",
+            "note": "Owner-managed since 1992 MBO (managing partners Hagen & Schwarze); operates Northern Germany's largest public WLAN (#sh_wlan, 3,000+ APs) plus managed WLAN/security - independent."
+          },
+          {
+            "name": "personalWLAN GmbH",
+            "region": "Hamburg",
+            "note": "Owner-managed since 2002; managed guest-WLAN turnkey (planning + service from one source) for 500+ hotels, care homes, gastronomy - independent SME."
+          }
+        ],
+        "ebitda_margin": "~8-15% (hardware-plus-managed-service model; recurring hotspot/monitoring contracts lift margin above pure install work)",
+        "entry_multiple": "~6-9x EV/EBITDA (lower end of DACH SME managed-IT band given hardware content; DACH IT services median ~8.8x)",
+        "bnb_angle": "Consolidate fragmented regional guest-WiFi/hotspot operators into a national managed-WLAN platform, standardising a cloud captive-portal + operator-liability (Störerhaftung/DSGVO) compliance layer and adding recurring analytics/marketing modules on top of the connectivity base.",
+        "key_risks": [
+          "Carriers/ISPs (Deutsche Glasfaser, Vodafone) and PE roll-ups (Wifirst/hotsplots, swissnet/FREDERIX) already bundle managed hotspot - margin and independence pressure.",
+          "Hardware-heavy, project-lumpy revenue with thin recurring share at the smallest operators."
+        ]
+      },
       "child_ids": []
     },
     "managed-it-cybersecurity-services-value-chain/network-connectivity-unified-communications/structured-cabling-low-voltage-network-infrastructure": {
@@ -6069,6 +6329,26 @@
           "title": "NIS2 für MSPs & MSSPs | CloudSoul",
           "url": "https://www.cloudsoul.net/de/resources/blog/nis2-msp-mssp-managed-service-providers-regulated/",
           "note": "MSSP als regulierte Einrichtung; mandatgetriebene, wiederkehrende Verträge → hohe Umsatzdurabilität."
+        },
+        {
+          "title": "becom Systemhaus - Netzwerk & Security (SD-WAN, managed firewall/SIEM)",
+          "url": "https://www.becom.net/uber-uns/",
+          "note": "Owner-led family Systemhaus, niche fit"
+        },
+        {
+          "title": "Anqa IT-Security schliesst die Luecke bei Systemhaeusern - CRN",
+          "url": "https://www.crn.de/news/2025/anqa-it-security-schlie-t-die-lucke-bei-systemhausern",
+          "note": "Founder-led MSSP, managed UTM/NIS2, Cologne SOC"
+        },
+        {
+          "title": "Die Margen-Entwicklung von ITK-Systemhaeusern - IT-Business",
+          "url": "https://www.it-business.de/die-margen-entwicklung-von-itk-systemhaeusern-a-dfdfa8d91072bc061be7847b0ee4d300/",
+          "note": "Systemhaus EBIT/EBITDA margin benchmarks"
+        },
+        {
+          "title": "Valuation Multiples in the IT Industry 2025 - Viaductus",
+          "url": "https://www.viaductus.de/en-US/knowledge/topics/it-services/multiples",
+          "note": "EV/EBITDA multiples for German IT services"
         }
       ],
       "confidence": 4,
@@ -6077,7 +6357,27 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "MSSP/Integrator GmbHs frei akquirierbar; NIS2 schafft Nachfrage, keine personengebundene Lizenz für Managed-Security-Betrieb.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          {
+            "name": "becom Systemhaus GmbH & Co. KG",
+            "hq_region": "Wetzlar, Hesse",
+            "note": "Owner-led family Systemhaus (founded 1988, GF/owner Ralf Becker, GmbH & Co. KG) focused since 2017 on managed SD-WAN, managed firewall, managed SIEM and resilient/redundant connectivity for NIS2-affected Mittelstand. Independent, no PE."
+          },
+          {
+            "name": "Anqa IT-Security GmbH (formerly Network Box Deutschland)",
+            "hq_region": "Cologne, NRW",
+            "note": "Founder/owner-managed MSSP (GF Dariush Ansari) delivering UTM firewall / secure-connectivity and NIS2 compliance 100% as managed service via its own Cologne SOC, largely through Systemhaus partners. Independent GmbH."
+          }
+        ],
+        "ebitda_margin": "~8-15% (Systemhaus/integrator model; managed-service mix lifts margin, hardware/connectivity pass-through drags it toward the lower end)",
+        "entry_multiple": "~6-10x EV/EBITDA (SME managed-IT/security; recurring managed-firewall/SD-WAN contracts and NIS2 tailwind support the upper end)",
+        "bnb_angle": "Build a NIS2-compliance-as-a-service connectivity platform: combine becom's managed SD-WAN/SIEM engineering with Anqa's channel-delivered managed UTM to package resilient connectivity + SASE + NIS2 documentation as a single recurring subscription sold into the 30,000+ newly regulated Mittelstand firms.",
+        "key_risks": [
+          "Vendor/technology dependence (Fortinet/Versa/Cisco etc.) compresses margins and creates switching risk",
+          "Crowded, fragmented integrator market where larger roll-ups (Netgo, Fernao, Controlware) compete for the same NIS2 spend"
+        ]
+      },
       "child_ids": []
     },
     "managed-it-cybersecurity-services-value-chain/identity-endpoint-device-management": {
@@ -6492,6 +6792,21 @@
           "title": "Fonlos MDM Managed Service (Relution, DE-Hosting)",
           "url": "https://www.fonlos.de/mobile-device-management-mdm/",
           "note": "Small specialist delivering MDM as recurring managed service; DATAGROUP/systemhäuser bundling → some consolidation"
+        },
+        {
+          "title": "EBF GmbH - Managed Services (Intune/Jamf/Ivanti UEM)",
+          "url": "https://ebf.com/en/",
+          "note": "Owner-managed since 1994, vendor-neutral UEM managed service"
+        },
+        {
+          "title": "itelio GmbH - Intune MDM managed device management",
+          "url": "https://www.itelio.com/en/solutions/intune-mdm",
+          "note": "Entrepreneur-led, MDM managed service + Docusnab IP"
+        },
+        {
+          "title": "MSP Valuation Multiples - Aventis Advisors",
+          "url": "https://aventis-advisors.com/msp-valuation-multiples/",
+          "note": "MSP / managed-services EV/EBITDA benchmarks by size"
         }
       ],
       "confidence": 3,
@@ -6500,7 +6815,27 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Managed-service GmbHs freely acquirable; software mostly licensed from third parties, no ownership friction.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          {
+            "name": "EBF GmbH",
+            "hq_region": "Cologne (with Muenster & Augustusburg), NRW",
+            "note": "Owner-managed enterprise-mobility/UEM house founded 1994 by Marco Foellmer & Markus Adolph; vendor-neutral managed services on Intune, Jamf, Ivanti, Omnissa/Workspace ONE. Founder-owned, independent."
+          },
+          {
+            "name": "itelio GmbH",
+            "hq_region": "Kiefersfelden (near Rosenheim), Bavaria",
+            "note": "Entrepreneur-led IT house (founded 2004) offering Intune MDM/managed device management alongside its own Docusnab IT-documentation software; independent GmbH, not PE/strategic-owned."
+          }
+        ],
+        "ebitda_margin": "~12-20% (managed device-lifecycle/UEM service; higher than hardware resale, below pure SaaS; software/IP element lifts the blend)",
+        "entry_multiple": "~6-9x EV/EBITDA (SME managed-IT; sticky per-device recurring UEM contracts support valuation, sub-EUR 5m specialists nearer 5-6x)",
+        "bnb_angle": "Roll up regional Intune/Jamf/UEM specialists into a national managed-endpoint platform, standardising a per-device recurring managed-service catalogue (device lifecycle + endpoint security + MDM) and bolting on proprietary tooling (e.g. itelio's Docusnab) for higher-margin IP.",
+        "key_risks": [
+          "Deep dependence on Microsoft Intune/Apple platform roadmaps; commoditisation risk as UEM bundles into M365 licences",
+          "Talent-driven services business with modest switching costs at the low end of the market"
+        ]
+      },
       "child_ids": []
     },
     "managed-it-cybersecurity-services-value-chain/identity-endpoint-device-management/managed-endpoint-backup-backup-as-a-service-baas": {
@@ -7508,6 +7843,16 @@
           "title": "Ranking der größten IT-Systemhäuser 2025 | ChannelPartner",
           "url": "https://www.channelpartner.de/article/4012344/ranking-der-grosten-it-dienstleister-die-top-25-systemhauser-in-deutschland-2025.html",
           "note": "Private Systemhaus-Landschaft (Top 25) als akquirierbare Basis für Public-Sector-Plattform."
+        },
+        {
+          "title": "one4 IT - IT für Kommunen",
+          "url": "https://one4-it.de/it_leistungen/it-fuer-kommunen/",
+          "note": "Owner-managed Hessian Systemhaus (MD Tobias Heinl) serving Kommunen/Stadtwerke."
+        },
+        {
+          "title": "ESIS GmbH - kommune.digital.forum Anbieterprofil",
+          "url": "https://www.kommune-digital-forum.de/en/anbieter/esis-gmbh",
+          "note": "Owner-managed specialist for public-sector IT (>20 yrs, independent)."
         }
       ],
       "confidence": 4,
@@ -7516,7 +7861,32 @@
       "pe_activity": [],
       "investability": "restricted",
       "investability_note": "Große kommunale IT-Dienstleister sind AöR/Zweckverbände (strukturell nicht akquirierbar); nur private Public-Sector-Systemhäuser frei erwerbbar.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          {
+            "name": "one4 IT GmbH",
+            "region": "Ulrichstein (Vogelsbergkreis, Hessen)",
+            "note": "Owner-managed (MD Tobias Heinl), >20 yrs; full managed IT for Kommunen and Stadtwerke across central Hesse - private, independent, niche-pure."
+          },
+          {
+            "name": "WBS IT-Service GmbH",
+            "region": "Leipzig (+ Magdeburg/Halle/Berlin/München)",
+            "note": "Family-owned (single shareholder, MDs Wolter & Opitz) since 1990, ~250 staff; managed services for public administration - manufacturer-independent, not PE."
+          },
+          {
+            "name": "ESIS GmbH",
+            "region": "Gladbeck (NRW)",
+            "note": "Owner-managed >20 yrs; specialist public-sector IT (Behördensoftware, contract/records management, operations) for federal/state bodies - independent."
+          }
+        ],
+        "ebitda_margin": "~8-15% (public-sector managed services; steady multi-year framework contracts but tender-priced, limiting upside)",
+        "entry_multiple": "~6-9x EV/EBITDA (sticky, low-churn public revenue supports the band, but growth is capped by procurement cycles; DACH SME IT 6-10x)",
+        "bnb_angle": "Build a private, VgV/tender-capable Kommunal-IT platform by rolling up regional public-sector Systemhäuser, pooling framework-agreement (Rahmenvertrag) coverage and BSI-Grundschutz/OZG compliance capability to win larger municipal managed-IT and data-centre outsourcing mandates.",
+        "key_risks": [
+          "SCARCITY: much of municipal IT sits in non-acquirable public bodies (AKDB, KDO, Dataport, kommunale Zweckverbände/RZ), so the truly private independent pool is limited.",
+          "Public procurement dependency: long sales cycles, price pressure from tenders, and in-housing/sovereignty politics can reverse outsourcing."
+        ]
+      },
       "child_ids": []
     },
     "managed-it-cybersecurity-services-value-chain/managed-it-services-it-systemhauser/hotel-gastronomie-it-pos-pms": {
@@ -7589,6 +7959,26 @@
           "title": "Kassensystem Hotel 2026 Anbietervergleich (Serviceselector)",
           "url": "https://serviceselector.de/kassensystem-hotel/",
           "note": "Fragmented owner-operated field, TSE-mandate digitisation tailwind, no financial consolidator visible"
+        },
+        {
+          "title": "Martin Becker GmbH - Hotel-IT / Oracle Hospitality partner (2nd-gen family business)",
+          "url": "https://www.mb-gmbh.de/de/home",
+          "note": "Confirms family ownership and hospitality POS/PMS niche fit."
+        },
+        {
+          "title": "42 GmbH - Unternehmen (independent hotel-IT full-service since 1989)",
+          "url": "https://www.42-gmbh.de/unternehmen/",
+          "note": "Confirms independent best-of-breed hospitality-IT positioning."
+        },
+        {
+          "title": "Arne Madro EDV-Organisation GmbH - Ueber uns (founder-run, PMS/POS)",
+          "url": "https://www.madro-edv.com/ueber-uns/",
+          "note": "Confirms owner-founded independence and hospitality PMS/POS niche."
+        },
+        {
+          "title": "KPMG Atlas - Multiplikatoren (IT-Dienstleistung/Systemhaus)",
+          "url": "https://atlas.kpmg.com/de/de/deal-advisory-services/kapitalkosten-und-multiplikatoren/multiplikatoren",
+          "note": "Reference for Systemhaus EBITDA multiples and margins."
         }
       ],
       "confidence": 3,
@@ -7597,7 +7987,32 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Regional hospitality-IT GmbHs freely acquirable; private-pay (cyclical hospitality) but no reimbursement/ownership block.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          {
+            "name": "Martin Becker GmbH",
+            "hq_region": "Muensterland / NRW",
+            "note": "Second-generation family business (Martin Becker + son Philipp), Germany's oldest Oracle Hospitality/MICROS partner since 1994; hotel-IT POS/PMS integration & managed support. Owner-operated, independent."
+          },
+          {
+            "name": "42 GmbH",
+            "hq_region": "Hannover",
+            "note": "Independent hotel/gastronomy IT full-service house since 1989; best-of-breed (own products + market solutions), cloud hotel software, POS, network & DSGVO support. Not PE/OEM-owned."
+          },
+          {
+            "name": "Arne Madro EDV-Organisation GmbH (MADRO EDV)",
+            "hq_region": "Stahnsdorf (Berlin-Brandenburg)",
+            "note": "Founder-named owner-run house (sole proprietorship 1991, GmbH since 1995), 25+ yrs in hospitality/gastro; own PMS 'hope' plus SIHOT partner, POS hardware/software. Independent, organic-grown."
+          }
+        ],
+        "ebitda_margin": "~8-15% (Systemhaus model: hardware/POS resale + integration dilutes margin, recurring support/hosting lifts it)",
+        "entry_multiple": "~6-9x EV/EBITDA (regional hospitality-IT Systemhaeuser within the SME managed-IT 6-10x range; sticky recurring service revenue toward upper end)",
+        "bnb_angle": "Roll up regional hospitality-IT specialists into a national POS/PMS managed-service platform, standardising on a few PMS/POS stacks and converting break-fix relationships into recurring hosting, payment and managed-support contracts across hotel and multi-site gastronomy chains.",
+        "key_risks": [
+          "OEM/vendor dependency (Oracle Hospitality, SIHOT, Hypersoft etc.) - margin and reseller status sit with the platform owner.",
+          "Cyclical, capex-shy hospitality end-market; seasonal cash flows and price-sensitive independent hotels limit pricing power."
+        ]
+      },
       "child_ids": []
     },
     "managed-it-cybersecurity-services-value-chain/cybersecurity-consulting-audit-compliance/external-dpo-dsgvo-compliance-as-a-service/gesundheitsdatenschutz-external-dpo-for-arztpraxen-kliniken-apotheken": {
@@ -8060,6 +8475,26 @@
           "title": "Onlineschulung eLearning Datenschutz Preise | ShapeMinds",
           "url": "https://shapeminds.de/pages/online-schulung-datenschutz-mitarbeiter",
           "note": "SaaS-Content über Browser, hohe Marge; DSGVO/NIS2/AI-Act treiben jährliche Pflichtschulungen."
+        },
+        {
+          "title": "Keyed GmbH / Mitarbeiterschule - E-Learning Datenschutz (founder Nils Moellers, 2017)",
+          "url": "https://keyed.de/blog/e-learning-datenschutz-mitarbeiterschulungen-online-gemaess-dsgvo/",
+          "note": "Confirms founder-owned status and DSGVO e-learning subscription offering."
+        },
+        {
+          "title": "SICODA GmbH - Ueber uns (founder & managing shareholder RA Oliver Goenner)",
+          "url": "https://www.sicoda.de/ueber-uns/",
+          "note": "Confirms inhabergefuehrt / owner-operated independence and DSGVO training."
+        },
+        {
+          "title": "KPMG Atlas - Kapitalkosten und Multiplikatoren (DE)",
+          "url": "https://atlas.kpmg.com/de/de/deal-advisory-services/kapitalkosten-und-multiplikatoren/multiplikatoren",
+          "note": "Reference for German sector EBITDA/EBIT multiples."
+        },
+        {
+          "title": "Exit-Coach - EBITDA Multiples 2026 nach Branche & Groesse",
+          "url": "https://exit-coach.de/ebitda-multiples/",
+          "note": "German mid-market multiple ranges; software/recurring assets toward the top of the band."
         }
       ],
       "confidence": 3,
@@ -8068,7 +8503,32 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Kleine E-Learning/SaaS-GmbHs frei akquirierbar; keine Lizenz-/Zulassungshürde, Content-Abo-Modell.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          {
+            "name": "Keyed GmbH (with Mitarbeiterschule GmbH)",
+            "hq_region": "Bielefeld / NRW",
+            "note": "Founder-owned (Nils Moellers, founded 2017, Gruender & Geschaeftsfuehrer of both Keyed and Mitarbeiterschule GmbH); runs subscription DSGVO e-learning under mitarbeiterschule.de. Independent, not PE/listed/subsidiary."
+          },
+          {
+            "name": "SICODA GmbH",
+            "hq_region": "Bonn / Duesseldorf, NRW",
+            "note": "Inhabergefuehrt; founder & managing shareholder RA Oliver Goenner (merger of Filges Datenschutz + Kanzlei Goenner). Offers external DPO plus DSGVO e-learning/Mitarbeitersensibilisierung. Owner-operated, independent."
+          },
+          {
+            "name": "ShapeMinds (brand of Wiemer Arndt)",
+            "hq_region": "Berlin / Freiburg / Gelsenkirchen",
+            "note": "E-learning brand (Plato360 platform) of founder-owned data-protection consultancy Wiemer Arndt (30+ yrs, ~100 client firms). Independent partnership, not PE/roll-up."
+          }
+        ],
+        "ebitda_margin": "~20-30% (asset-light, subscription/recurring e-learning content; above the 8-15% typical for hardware-carrying Systemhaeuser)",
+        "entry_multiple": "~7-11x EV/EBITDA (recurring-revenue advisory/SaaS-style content businesses trade above the 6-10x SME managed-IT band; German mid-market software/subscription assets reach ~10x+)",
+        "bnb_angle": "Bolt the e-learning subscription base onto an external-DPO / compliance-as-a-service platform to convert one-off audit clients into recurring per-seat training revenue, then cross-sell whistleblowing, ISMS and KI-VO/AI-Act modules on the same LMS.",
+        "key_risks": [
+          "Low content-differentiation and heavy fragmentation - dozens of near-identical DSGVO courses compress pricing power.",
+          "Key-person/regulatory-content risk: courses must be continuously updated (NIS2, KI-VO) or churn spikes; small teams are founder-dependent."
+        ]
+      },
       "child_ids": []
     },
     "managed-it-cybersecurity-services-value-chain/cybersecurity-consulting-audit-compliance/external-dpo-dsgvo-compliance-as-a-service/iso-27701-pims-tom-vvt-documentation-audit-services": {
@@ -8141,6 +8601,26 @@
           "title": "TÜV Rheinland ISO/IEC 27701 PIMS Zertifizierung",
           "url": "https://www.tuv.com/germany/de/iso-iec-27701-zertifizierung",
           "note": "Accredited certification is independence-constrained; consulting side stays acquirable"
+        },
+        {
+          "title": "Cortina Consult - ISO 27701 Zertifizierungsprozess (independent Muenster consultancy)",
+          "url": "https://cortina-consult.com/informationssicherheit/wissen/iso-27701-zertifizierungsprozess/",
+          "note": "Confirms independent DSGVO/ISO 27701 PIMS practice."
+        },
+        {
+          "title": "activeMind AG - Unternehmen / ISO 27701 & Informationssicherheit",
+          "url": "https://www.activemind.de/informationssicherheit/",
+          "note": "Owner-managed consulting & training firm delivering ISMS/PIMS."
+        },
+        {
+          "title": "secuvera GmbH - BSI-Pruefstelle (MD Tobias Glemser, manufacturer-independent)",
+          "url": "https://www.secuvera.de/bsi-pruefstelle/",
+          "note": "Founder-led independent security firm, ISMS/ISO 27001 & audits."
+        },
+        {
+          "title": "ascon M&A - Was bestimmt den Wert eines IT-Systemhauses / IT-Beratung",
+          "url": "https://ascon-ma.de/was-bestimmt-den-wert-eines-unternehmens-aus-der-it-systemhaus-branche/",
+          "note": "Reference for German IT-advisory valuation drivers/multiples."
         }
       ],
       "confidence": 4,
@@ -8149,7 +8629,32 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "DPO/consulting/internal-audit GmbHs freely acquirable; note accredited certification bodies (TÜV) must stay independent and cannot be bundled with the consulting arm.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          {
+            "name": "Cortina Consult GmbH",
+            "hq_region": "Muenster / NRW",
+            "note": "Independent DSGVO + information-security consultancy (10+ yrs, 20+ specialists) with dedicated ISO 27701 PIMS / ISMS documentation practice. GmbH, not PE-owned / not a certifier subsidiary."
+          },
+          {
+            "name": "activeMind AG",
+            "hq_region": "Munich / Berlin",
+            "note": "Owner-managed consulting & training firm (founder Klaus Foitzick; info-security since 2000, DSGVO since 2009); own ISMS certified to ISO 27001, delivers ISO 27701 PIMS builds. Privately held AG, not listed / not PE."
+          },
+          {
+            "name": "secuvera GmbH",
+            "hq_region": "Gaeufelden / Baden-Wuerttemberg",
+            "note": "Founder-led BSI-recognised security firm (MD Tobias Glemser) delivering ISMS/ISO 27001 & PIMS documentation and audits; manufacturer-independent. Owner-operated GmbH, not a group subsidiary."
+          }
+        ],
+        "ebitda_margin": "~15-25% (asset-light advisory / documentation & audit work; consultant-utilisation driven)",
+        "entry_multiple": "~6-9x EV/EBITDA (SME cybersecurity/compliance advisory sits within the 6-10x managed-IT/security band)",
+        "bnb_angle": "Consolidate sub-scale DSGVO/ISMS boutiques into one PIMS platform that packages ISO 27701 gap-analysis, VVT/TOM documentation and readiness audits as a productised, repeatable engagement - then feed clients into recurring external-DPO and ISMS-as-a-service retainers.",
+        "key_risks": [
+          "Consultant-capacity ceiling and wage inflation for scarce ISO 27701 / privacy specialists cap organic growth.",
+          "Standard is young (stand-alone ISO 27701:2025) - demand timing and certifier-accreditation dynamics could shift the advisory market."
+        ]
+      },
       "child_ids": []
     },
     "managed-it-cybersecurity-services-value-chain/managed-security-services-soc-mdr-siem/ot-ics-security-monitoring-industrial-soc-for-kritis-manufacturing/energy-stadtwerke-grid-ot-security-monitoring": {
@@ -8476,6 +8981,31 @@
           "title": "OT Security – SEC Consult",
           "url": "https://sec-consult.com/processes-organisation/ot-security/",
           "note": "NIS2 + IEC 62443 als starker Nachfragetreiber für industrielle OT-Security."
+        },
+        {
+          "title": "admeritia GmbH - OT-Security (owner-managed, founded 2004)",
+          "url": "https://www.admeritia.de/",
+          "note": "Independence + IEC 62443/ICS niche fit"
+        },
+        {
+          "title": "Protektis GmbH, Aschaffenburg - Companyhouse",
+          "url": "https://www.companyhouse.de/Protektis-GmbH-Aschaffenburg",
+          "note": "Ownership/GF structure, founding, HQ"
+        },
+        {
+          "title": "Nasari Consulting GmbH, Munich - Northdata HRB 239095",
+          "url": "https://www.northdata.com/Nasari+Consulting+GmbH,+M%C3%BCnchen/HRB+239095",
+          "note": "Single shareholder, founder-led"
+        },
+        {
+          "title": "IEC 62443 - ganzheitliche OT-Security (Sichere Industrie)",
+          "url": "https://www.sichere-industrie.de/iec-62443-einfuehrung/",
+          "note": "Niche definition / demand context"
+        },
+        {
+          "title": "Valuation Multiples in the IT Industry 2025 - Viaductus",
+          "url": "https://www.viaductus.de/en-US/knowledge/topics/it-services/multiples",
+          "note": "German IT-services EBITDA multiples & margin premia"
         }
       ],
       "confidence": 4,
@@ -8484,7 +9014,32 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "OT-Security-Boutiquen (Beratung/Monitoring) frei akquirierbar; nur akkreditierte IEC-62443-Zertifizierungsstellen (Bureau Veritas etc.) unterliegen Unabhängigkeitsregeln, nicht die Consulting-Targets.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          {
+            "name": "admeritia GmbH",
+            "hq_region": "Langenfeld (Rheinland), NRW",
+            "note": "Owner-managed (inhabergeführt) ICS/OT-security boutique founded 2004, led by founder Heiko Rudolph; pure-play IEC 62443 / industrial security engineering for automotive, process & energy plants. No PE/strategic owner."
+          },
+          {
+            "name": "Protektis GmbH",
+            "hq_region": "Aschaffenburg, Bavaria",
+            "note": "Founder/partner-owned OT-security specialist (GFs Frank Fengel & Dennis Jost, ~4 owners) delivering IEC 62443-based OT security for process & automation industry; independent GmbH, not part of any group."
+          },
+          {
+            "name": "Nasari Consulting GmbH",
+            "hq_region": "Munich, Bavaria",
+            "note": "Single-shareholder, founder-led (GF Muhibullah Nasari, founded 2018) advisory combining information security with OT/IEC 62443 and TISAX for manufacturing/automotive; independent per Handelsregister HRB 239095."
+          }
+        ],
+        "ebitda_margin": "~15-25% (asset-light OT/ICS security advisory & engineering; consulting-heavy end of the managed-IT range)",
+        "entry_multiple": "~6-9x EV/EBITDA (SME cyber/IT-services; small specialists under ~EUR 5m rev trade nearer 5-6x, cyber specialisation adds a premium)",
+        "bnb_angle": "Assemble a national IEC 62443 OT-security platform by rolling up 2-3 regional engineering boutiques (admeritia + Protektis + Nasari) into one KRITIS/NIS2 delivery brand, cross-selling recurring OT-monitoring/managed services onto a currently project-based advisory base.",
+        "key_risks": [
+          "Highly people-dependent (senior OT/automation engineers are scarce and mobile; retention post-deal is critical)",
+          "Revenue skewed to non-recurring assessment/project work rather than sticky managed contracts"
+        ]
+      },
       "child_ids": []
     },
     "managed-it-cybersecurity-services-value-chain/managed-security-services-soc-mdr-siem/ot-ics-security-monitoring-industrial-soc-for-kritis-manufacturing/hospital-klinik-medical-device-ot-security-kritis-gesundheit": {
@@ -8556,6 +9111,21 @@
           "title": "PwC: OT-Security in Krankenhäusern",
           "url": "https://www.pwc.de/de/cyber-security/ot-security-in-krankenhausern-die-unsichtbare-bedrohung-im-eigenen-netzwerk.html",
           "note": "Hospital cyber spend was heavily KHZG-grant-funded (Fördertatbestand 10) and budgets under GKV pressure → revenue-durability risk"
+        },
+        {
+          "title": "CETUS Health IT - KRITIS Compliance Gesundheitswesen",
+          "url": "https://www.cetus-health.com/kritis",
+          "note": "Owner-managed, product-independent, hospital KRITIS niche"
+        },
+        {
+          "title": "TTS - Unternehmen (founders, locations, team)",
+          "url": "https://www.tts-security.com/unternehmen/",
+          "note": "Founded 2002 by Cordsen & Gehrke; independence"
+        },
+        {
+          "title": "Cybersecurity Valuation Multiples Mid-2025 - Finro",
+          "url": "https://www.finrofca.com/news/cybersecurity-valuation-mid-2025",
+          "note": "Cyber advisory/SaaS EBITDA & revenue multiple benchmarks"
         }
       ],
       "confidence": 3,
@@ -8564,7 +9134,27 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Specialist security advisors/systemhäuser are acquirable GmbHs; hospitals themselves often public/church-owned with captive in-house IT (buy the advisor, not the RZ).",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          {
+            "name": "CETUS Health IT Leadership Gesellschaft fuer Digitalisierung und Service GmbH",
+            "hq_region": "Essen, NRW",
+            "note": "Owner-managed, explicitly vendor/product-independent consultancy dedicated to hospital IT/information security and KRITIS compliance (KHZG, B3S Krankenhaus, cert4health/Kritiscare). Independent GmbH, healthcare-only focus."
+          },
+          {
+            "name": "TTS Trusted Technologies and Solutions GmbH",
+            "hq_region": "Berlin / Essen / Hannover",
+            "note": "Owner-managed (founded 2002 by Dr. Joerg Cordsen & Dr. Michael Gehrke, ~40 staff) specialising in medical information security / ISMS for clinics plus its TTS trax ISMS tool. Founder-owned, independent."
+          }
+        ],
+        "ebitda_margin": "~15-25% (asset-light medical-security advisory/ISMS; SaaS ISMS-tool element can lift the blended margin toward the top of the range)",
+        "entry_multiple": "~6-9x EV/EBITDA (SME cyber advisory; a proprietary ISMS SaaS module would attract a software premium above pure consulting)",
+        "bnb_angle": "Create a KRITIS-Gesundheit compliance platform serving Germany's ~1,900 hospitals: pair CETUS's KHZG/B3S advisory reach with TTS's ISMS tooling to convert one-off §391 SGB V / KRITIS projects into recurring managed ISMS + medical-device/OT monitoring subscriptions.",
+        "key_risks": [
+          "Demand is regulation-cycle driven (KHZG funding, §391 SGB V deadlines) and can be lumpy once compliance waves pass",
+          "Long, budget-constrained hospital sales cycles and heavy reliance on scarce healthcare-security specialists"
+        ]
+      },
       "child_ids": []
     },
     "managed-it-cybersecurity-services-value-chain/managed-security-services-soc-mdr-siem/ot-ics-security-monitoring-industrial-soc-for-kritis-manufacturing/rail-transport-ot-security-cenelec-ts-50701": {
@@ -9272,6 +9862,21 @@
           "title": "MDSYSTEC Managed Backup",
           "url": "https://www.mdsystec.de/leistungen/managed-backup",
           "note": "Ransomware/data-residency tailwind; broad MSP consolidation already underway → moderate headroom"
+        },
+        {
+          "title": "System AG @data - Rechenzentrum / Managed Backup",
+          "url": "https://www.system.ag/it-infrastruktur/nachloesungskompetenzen/cloud-rechenzentrum",
+          "note": "Owner-led since 1990, own ISO-27001 German RZ (Karlsruhe), managed backup in German data centre."
+        },
+        {
+          "title": "PresseBox: 25 Jahre centron - ISO-27001-Rechenzentrum Hallstadt",
+          "url": "https://www.pressebox.de/pressemitteilung/centron-gmbh/25-jahre-centron-ein-vierteljahrhundert-innovation-und-erfolg-im-rechenzentrumsbetrieb/boxid/1216263",
+          "note": "Owner-managed since 1999, own ISO-27001 data centre, managed backup/cloud (independent)."
+        },
+        {
+          "title": "Aventis Advisors - IT Services Valuation Multiples (Q4 2025)",
+          "url": "https://aventis-advisors.com/it-services-valuation-multiples/",
+          "note": "Median IT-services EV/EBITDA ~8.8x; recurring/margin profile supports mid-band pricing."
         }
       ],
       "confidence": 4,
@@ -9280,7 +9885,32 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Hundreds of regional MSPs/Rechenzentren freely acquirable; recurring private-pay contracts, no ownership block.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          {
+            "name": "System AG @data GmbH",
+            "region": "Lohmar (NRW); own RZ Karlsruhe",
+            "note": "Owner-led IT house since 1990 (MDs Szokolai & Wisser); operates own ISO-27001 data centre in Germany with managed backup/DRaaS - independent, German data residency."
+          },
+          {
+            "name": "centron GmbH",
+            "region": "Hallstadt / Bamberg (Bayern)",
+            "note": "Owner-managed since 1999 (managing partner Wilhelm Seucan); own ISO-27001-certified data centre offering managed backup/storage/cloud - independent, not PE."
+          },
+          {
+            "name": "Gromnitza GmbH",
+            "region": "Betzdorf (Rheinland-Pfalz)",
+            "note": "Owner-named regional Systemhaus; managed backup with geo-redundant German data centres, encryption and standardised restore tests aligned to ISO 27001/GoBD/DSGVO."
+          }
+        ],
+        "ebitda_margin": "~15-25% (recurring DRaaS/backup and colocation revenue with high infrastructure gross margins; above the 10-15% pure-MSP band)",
+        "entry_multiple": "~7-10x EV/EBITDA (recurring, sticky data-residency contracts sit mid-to-upper DACH IT band; median IT services ~8.8x)",
+        "bnb_angle": "Buy several regional MSPs/RZ operators each with an ISO-27001 German data centre and consolidate them into a 'Datenresidenz-DE' managed backup & DRaaS platform, harmonising Veeam/immutable-backup tooling and cross-selling into healthcare (KRITIS) and public-sector accounts that legally require German data residency.",
+        "key_risks": [
+          "Capex-intensive data-centre footprint; hyperscaler 'EU sovereign cloud' and specialist consolidators (plusserver, teccle group) compete for the same compliance narrative.",
+          "Consolidation is advancing fast - many attractive targets are already PE-/group-owned (e.g. DATIS in PTA-Gruppe, bluvo in teccle group), thinning the independent pool."
+        ]
+      },
       "child_ids": []
     }
   }
