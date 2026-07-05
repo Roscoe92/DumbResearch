@@ -331,6 +331,26 @@
           "title": "Heilberufe/Heilwesen - CMO Makler Karlsruhe",
           "url": "https://www.cmo-makler.de/heilberufe-heilwesen/",
           "note": "Example independent regional Heilwesen specialist broker"
+        },
+        {
+          "title": "Hagen & Kruse – Unser Unternehmen",
+          "url": "https://www.hagenundkruse.de/unser-unternehmen.html",
+          "note": "Independent owner-managed broker since 1901, managing partners; medical/Heilwesen focus (3,500+ physicians)."
+        },
+        {
+          "title": "LIGA-Löffler Versicherungsmakler – Über uns",
+          "url": "https://www.loeffler-versmakler.com/ueber-uns.html",
+          "note": "Independent GmbH & Co. KG in Freiburg specialising in hospitals/rehab clinics and healthcare professionals."
+        },
+        {
+          "title": "openPR – Preisentwicklung bei Versicherungsbeständen und Maklerunternehmen",
+          "url": "https://www.openpr.de/news/1309777/Preisentwicklung-bei-Versicherungsbestaenden-und-Maklerunternehmen.html",
+          "note": "German broker valuation ranges (Courtage- vs EBITDA-multiple) 2024/25."
+        },
+        {
+          "title": "Versicherungsbote – Maklerkonsolidierung in Deutschland",
+          "url": "https://www.versicherungsbote.de/id/4939604/Maklerkonsolidierung-in-Deutschland-Entwicklungen-und-Perspektiven/",
+          "note": "Consolidator entry multiples (10x average, up to 14-16x) for German broker M&A."
         }
       ],
       "confidence": 4,
@@ -339,7 +359,32 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Independent §34d Makler-GmbHs, freely acquirable; Heilwesennetzwerk is a knowledge network not an owner; no consent friction beyond routine licence transfer.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          {
+            "name": "Hagen & Kruse GmbH & Co. KG",
+            "hq_region": "Hamburg",
+            "note": "Independent, owner-managed broker (founded 1901; managing partners Jörg Enders & Jörg Will), with a long-standing Heilwesen practice serving 3,500+ practising/employed physicians and MVZ; not part of any consolidator."
+          },
+          {
+            "name": "LIGA-Löffler Versicherungsmakler GmbH & Co. KG",
+            "hq_region": "Freiburg im Breisgau",
+            "note": "Independent GmbH & Co. KG (GP + LP, family/owner-held), 30+ years specialising in acute/rehab hospitals, carrier companies and healthcare/therapy professionals — a pure Heilwesen book, not PE-backed or insurer-owned."
+          },
+          {
+            "name": "CMO Makler (CMO GmbH), Karlsruhe",
+            "hq_region": "Karlsruhe (Baden-Württemberg)",
+            "note": "Independent regional specialist broker positioned 'von Ärzten für Ärzte' for Ärzte/Heilberufe/Heilwesen (Berufshaftpflicht, practice, clinics); owner-operated, not affiliated to the listed consolidators."
+          }
+        ],
+        "ebitda_margin": "~20-35% on a mature commercial/specialist broker book (lean cost base, recurring Courtage); niche Heilwesen books sit at the upper end due to sticky physician/clinic relationships.",
+        "entry_multiple": "~6-9x EBITDA for an independent specialist book (Courtage-multiple still used for very small books); platform/consolidator prints run 8-12x+ and up to 14-16x for scarce quality assets in the late consolidation phase.",
+        "bnb_angle": "Buy one anchor Heilwesen specialist (Berufshaftpflicht + practice/clinic property/cyber) and bolt on regional physician/MVZ books, then cross-sell bAV and private-client cover into a captive, referral-driven Heilberufe client base where switching is low.",
+        "key_risks": [
+          "Heavy dependence on a few key advisers/founders and their personal relationships to hospital chains and medical associations — retention/earn-out risk on exit.",
+          "Regulatory/loss-ratio pressure in medical malpractice (Heilwesen-Haftpflicht) can shrink insurer capacity and squeeze commissions."
+        ]
+      },
       "child_ids": []
     },
     "insurance-brokerage-financial-services-value-chain/commercial-industrial-insurance-brokerage/construction-bau-specialist-brokers": {
@@ -1149,6 +1194,26 @@
           "title": "Affinity | Howden Deutschland",
           "url": "https://www.howdengroup.com/de-de/sector/affinity",
           "note": "Target-group schemes from associations/organisations to companies; several dozen specialists"
+        },
+        {
+          "title": "Konzept & Marketing Gruppe – Versicherungsmakler Hannover (Profil)",
+          "url": "https://www.wer-zu-wem.de/firma/konzept-marketing.html",
+          "note": "Independent affinity concept provider; insurers hold no shares / no influence."
+        },
+        {
+          "title": "Konzept & Marketing – Marktplatz für Finanzdienstleister",
+          "url": "https://maklerkonzepte.com/marktplatz/konzept-marketing/",
+          "note": "Affinity/group concepts for independent brokers, service-oriented processing."
+        },
+        {
+          "title": "hepster – About (embedded/affinity MGA)",
+          "url": "https://partner.hepster.com/en-us/company/about-us",
+          "note": "Founder-led affinity/embedded MGA running B2B2X group schemes, independent."
+        },
+        {
+          "title": "openPR – Preisentwicklung bei Versicherungsbeständen und Maklerunternehmen",
+          "url": "https://www.openpr.de/news/1309777/Preisentwicklung-bei-Versicherungsbestaenden-und-Maklerunternehmen.html",
+          "note": "German broker valuation ranges used to frame affinity-book multiples."
         }
       ],
       "confidence": 3,
@@ -1157,7 +1222,27 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Independent affinity/association-scheme specialist brokers/MGAs are acquirable; big brokers (Funk, Marsh, Howden, WTW) run divisions but many niche specialists remain.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          {
+            "name": "Konzept & Marketing GmbH (Konzept & Marketing Gruppe)",
+            "hq_region": "Hannover",
+            "note": "Independent affinity concept house/Assekuradeur (founded 2001, 100+ staff, ~7,500 distribution partners) developing private-lines group/affinity concepts; explicitly states cooperating insurers hold no shares and have no influence — owner-controlled, not a consolidator."
+          },
+          {
+            "name": "hepster (MOINsure GmbH)",
+            "hq_region": "Rostock",
+            "note": "Founder-led embedded/affinity MGA (2016) running group/affinity schemes across mobility, sport, electronics and pet for 3,000+ B2B2X partners; independent of insurers and consolidators (VC-financed — see risks)."
+          }
+        ],
+        "ebitda_margin": "~20-35% for an established affinity/group-scheme operator (recurring scheme commissions/fees, lean shared-service admin); embedded/affinity MGA models can reach the upper end at scale but early-stage platforms run leaner.",
+        "entry_multiple": "~7-10x EBITDA for a profitable affinity/Verbands book (sticky multi-year scheme contracts); tech-enabled embedded/affinity MGAs with strong growth command 10x+ or revenue-multiple pricing.",
+        "bnb_angle": "Acquire an affinity concept factory as the platform and bolt on Verbands-/Gruppen brokers and embedded-insurance MGAs, aggregating association/partner distribution to negotiate better framework contracts and cross-sell additional lines into captive member/partner bases.",
+        "key_risks": [
+          "Scheme/partner concentration — loss of a single large Verband or affinity partner (or its framework contract renegotiation) can remove a big chunk of revenue.",
+          "Dependence on insurer capacity and, for embedded/MGA models, carrier and VC-funding continuity; margin pressure if partners in-source distribution."
+        ]
+      },
       "child_ids": []
     },
     "insurance-brokerage-financial-services-value-chain/retail-personal-lines-brokerage/spezial-nischen-personal-lines-distribution-assekuradeure-niche-brokers": {
@@ -1352,6 +1437,26 @@
           "title": "Expat-Krankenversicherung - Kundler",
           "url": "https://kundler.com/privatversicherung/expat-krankenversicherung/",
           "note": "Independent specialist broker distributing Allianz Care - dozens of niche players, no dedicated consolidator"
+        },
+        {
+          "title": "DR-WALTER – Weltweit gut versichert (Expatriates)",
+          "url": "https://www.dr-walter.com/en/solutions/for-individuals/expatriates/",
+          "note": "Independent owner-run specialist broker/assekuradeur for expats, ~60 yrs, Neunkirchen-Seelscheid."
+        },
+        {
+          "title": "Care Concept AG, Bonn – Company profile (NorthData)",
+          "url": "https://www.northdata.com/CARE%20CONCEPT%20AG,%20Bonn/HRB%208470",
+          "note": "Privately held AG (shareholders ECC and HVP Hanse Vertriebspartner AG); expat-health assekuradeur since 1999."
+        },
+        {
+          "title": "Expatriate Care Consult (ECC-Weltweit) – Über uns",
+          "url": "https://www.ecc-weltweit.net/%C3%BCber-uns/",
+          "note": "Owner-managed specialist broker for international/expat insurance, two private shareholders."
+        },
+        {
+          "title": "Deal Origination DACH – EBITDA Multiples DACH",
+          "url": "https://dealorigination.de/en/ebitda-multiples-dach",
+          "note": "Broker multiples 8-12x for €5-20m courtage; niche independents lower, MGAs higher."
         }
       ],
       "confidence": 3,
@@ -1360,7 +1465,32 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Independent expat-health specialist brokers (BDAE, DR-WALTER, Kundler) freely acquirable; private international health = private-pay, no GKV commission risk.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          {
+            "name": "DR-WALTER Versicherungsmakler GmbH",
+            "hq_region": "Neunkirchen-Seelscheid, North Rhine-Westphalia",
+            "note": "Independent, ~60-yr owner-run specialist broker/assekuradeur for expats, posted workers, students, au-pairs & digital nomads; own products via Barmenia/Cigna etc., not consolidator- or insurer-owned."
+          },
+          {
+            "name": "Care Concept AG",
+            "hq_region": "Bonn, North Rhine-Westphalia",
+            "note": "Independent specialist assekuradeur/broker for international/expat health since 1999, in-house policy issuance & claims; privately held (shareholders Expatriate Care Consult Versicherungsmakler GmbH and HVP Hanse Vertriebspartner AG), no consolidator/listed parent."
+          },
+          {
+            "name": "Expatriate Care Consult Versicherungsmakler GmbH (ECC-Weltweit)",
+            "hq_region": "Bonn, North Rhine-Westphalia",
+            "note": "Owner-managed specialist broker for international insurance (90+ yrs heritage), two private shareholders; independent — though affiliated with Care Concept AG, so treat as one potential platform."
+          }
+        ],
+        "ebitda_margin": "Expat-health specialist brokers/assekuradeure run ~25-35%+ EBITDA margin; MGA/assekuradeur models with binder authority and in-house claims can exceed this on scaled recurring books.",
+        "entry_multiple": "Indicative ~6-9x EBITDA for independent niche personal-lines broker books; MGA/assekuradeur platforms with proprietary products and delegated authority command higher (8-12x+).",
+        "bnb_angle": "Combine an assekuradeur (own product + binder authority) with several distribution-only expat brokers to form a vertically integrated expat-health champion — capturing both underwriting margin and distribution, then scale via digital direct sales to remote workers/emigrants across DACH.",
+        "key_risks": [
+          "Regulatory/underwriting risk — dependence on capacity providers (Barmenia/Cigna etc.) and medical-inflation/loss-ratio pressure on delegated binders.",
+          "Fragmented, price-transparent online niche with competition from insurer-backed players (e.g. BDAE/MSH) and thin barriers to entry in pure distribution."
+        ]
+      },
       "child_ids": []
     },
     "insurance-brokerage-financial-services-value-chain/retail-personal-lines-brokerage/ausschliesslichkeitsvertreter-gebundene-vertreter-tied-exclusive-agents": {
@@ -1718,6 +1848,21 @@
           "title": "Der deutsche Cybermarkt ist die am schnellsten wachsende Sparte - Cash.Online",
           "url": "https://www.cash-online.de/a/der-deutsche-cybermarkt-ist-die-mit-abstand-am-schnellsten-wachsende-sparte-644233/",
           "note": "German cyber premium ~EUR 500m, fastest-growing line, ~50% growth"
+        },
+        {
+          "title": "Cyber Risk Agency GmbH - Muenchen (Creditreform profile, HRB 224794, founder Oliver Lehmeyer 2016)",
+          "url": "https://firmeneintrag.creditreform.de/80539/8171090850/CYBER_RISK_AGENCY_GMBH",
+          "note": "Founder/GF and independence (no insurer parent per Impressum disclosure)."
+        },
+        {
+          "title": "exali.de - Versicherungen fuer Selbststaendige (MGA for IT/cyber liability)",
+          "url": "https://www.exali.de/",
+          "note": "Independent Augsburg MGA founded 2008, board Ralph Guenther/Alexander Schmid; cyber + professional indemnity."
+        },
+        {
+          "title": "Baobab / cyber-Assekuradeur market context (Versicherungswirtschaft-heute)",
+          "url": "https://versicherungswirtschaft-heute.de/unternehmen-und-management/2024-08-27/cyber-assekuradeur-baobab-steigt-in-den-it-haftpflichtmarkt-ein/",
+          "note": "Confirms cyber-MGA / Assekuradeur model and capacity-carrier dependence (Zurich); most VC-backed peers excluded as non-independent."
         }
       ],
       "confidence": 3,
@@ -1726,7 +1871,27 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Cyber MGAs / Assekuradeure are freely acquirable §34d-based entities; capacity agreements with carriers but no ownership block.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          {
+            "name": "Cyber Risk Agency GmbH (with subsidiary Cyber Risk Agency - Versicherungsloesungen GmbH)",
+            "hq": "Muenchen",
+            "note": "Founded 03/2016 by IT-security expert Oliver Lehmeyer; per own Impressum no insurer holds >10% and it holds no >10% stake in any insurer - independent, founder-led MGA + 'CISO-as-a-service' for cyber."
+          },
+          {
+            "name": "exali AG",
+            "hq": "Augsburg",
+            "note": "Founded 2008, chaired by founder Ralph Guenther (with Alexander Schmid); independent Assekuradeur/MGA for IT-/professional-liability and cyber for digital professions - not owned by an insurer or consolidator."
+          }
+        ],
+        "ebitda_margin": "~20-35% for an established, scaled MGA on fee/commission income (early-stage cyber MGAs often run lower or negative while building premium).",
+        "entry_multiple": "MGAs/Assekuradeure typically trade above plain broker books, roughly ~8-12x+ EBITDA in DACH given asset-light, recurring underwriting fees.",
+        "bnb_angle": "Acquire a founder-led cyber/IT-liability MGA as the underwriting platform, bolt on cyber-security services (CISO-as-a-service, attack-surface scans) and expand capacity and lines across DACH SME to grow written premium.",
+        "key_risks": [
+          "Capacity dependence on a single risk carrier - loss of the binder wipes out the book.",
+          "Cyber loss-ratio and accumulation volatility, plus key-person underwriting talent."
+        ]
+      },
       "child_ids": []
     },
     "insurance-brokerage-financial-services-value-chain/specialty-niche-underwriting-agencies-assekuradeure-mga/transport-marine-underwriting-agencies-transport-assekuradeure": {
@@ -1945,6 +2110,31 @@
           "title": "Tierversicherungen: Markt waechst, Wettbewerb nimmt zu - Cash.Online",
           "url": "https://www.cash-online.de/a/tierversicherungen-markt-waechst-wettbewerb-nimmt-zu-718067/",
           "note": "Specialists Agila, PetProtect, Uelzener, Petolo lead; growing competition, ~12-15% CAGR"
+        },
+        {
+          "title": "PANDA Tierversicherung – Impressum",
+          "url": "https://panda-tierversicherung.com/impressum/",
+          "note": "Berlin-based founder-led pet Assekuradeur (PANDA InsurTech GmbH)."
+        },
+        {
+          "title": "Versicherungsmonitor – 'Panda mit ehrgeizigen Plänen'",
+          "url": "https://versicherungsmonitor.de/2025/01/03/panda-mit-ehrgeizigen-plaenen/",
+          "note": "PANDA strategy plus context on Element carrier insolvency affecting the MGA."
+        },
+        {
+          "title": "hepster – About / Assekuradeur (MOINsure GmbH)",
+          "url": "https://partner.hepster.com/en-us/company/about-us",
+          "note": "Founder-led embedded/affinity MGA (incl. pet), Rostock, independent."
+        },
+        {
+          "title": "Pfefferminzia – Uelzener gründet Assekuradeur (Cleos Welt)",
+          "url": "https://www.pfefferminzia.de/zuhause/cleos-welt-uelzener-gruendet-assekuradeur-fuer-hunde-und-katzen/",
+          "note": "Evidence Cleos/Cleo & You is an Uelzener subsidiary (dropped as non-independent)."
+        },
+        {
+          "title": "Versicherungswirtschaft-heute – MGA/Assekuradeur deal (valuation context)",
+          "url": "https://versicherungswirtschaft-heute.de/unternehmen-und-management/2026-06-30/pe-investor-mobeus-verkauft-assekuradeur-assured-underwriting-group-an-anv/",
+          "note": "PE/M&A activity in Assekuradeur/MGA space framing multiples."
         }
       ],
       "confidence": 3,
@@ -1953,7 +2143,27 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Independent pet MGAs/brands (Petolo, PetProtect, insurtechs) are acquirable; several are carrier-tied (Agila, PetProtect/DFV) which adds partial friction.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          {
+            "name": "PANDA Tierversicherung (PANDA InsurTech GmbH)",
+            "hq_region": "Berlin",
+            "note": "Founder-led digital pet Assekuradeur (CEO/founder Hannah Niedermayer) with own brand, product and admin; independent of the big pet insurers — though venture-financed and carrier-dependent (see risks)."
+          },
+          {
+            "name": "hepster (MOINsure GmbH)",
+            "hq_region": "Rostock",
+            "note": "Founder-led MGA/Assekuradeur (founders Hornung, Range, Bachmann, 2016) writing embedded/affinity lines including pet; independent, not owned by an insurer or consolidator — pet is one of several categories."
+          }
+        ],
+        "ebitda_margin": "MGA economics: ~20-35% fee margin achievable at scale on a mature Assekuradeur book (capital-light, low fixed cost), but early-stage digital pet MGAs typically still run at or below break-even while scaling GWP.",
+        "entry_multiple": "~8-12x EBITDA for a profitable, growing pet/specialty MGA (revenue-multiple pricing common while pre-/early-profit given ~double-digit segment CAGR); scarce, scaled assets can print higher.",
+        "bnb_angle": "Acquire a founder-led pet MGA as a specialty-underwriting platform, secure/diversify carrier capacity, and bolt on adjacent affinity/embedded lines (pet, bike, gadget) to spread fixed tech and claims cost across more GWP.",
+        "key_risks": [
+          "Risk-carrier dependency and capacity risk — PANDA was hit when its carrier Element became insolvent (Jan 2025); loss of a single carrier can halt new business.",
+          "Truly independent DACH pet MGAs are scarce — most are insurer-owned (Cleos/Uelzener, figopet–AGILA/Tiergarant) or already acquired (TIERdirekt/helden.de) — and remaining targets are VC-financed with thin/negative EBITDA."
+        ]
+      },
       "child_ids": []
     },
     "insurance-brokerage-financial-services-value-chain/specialty-niche-underwriting-agencies-assekuradeure-mga/fine-art-valuables-underwriting-agencies-kunstversicherung": {
@@ -3182,6 +3392,16 @@
           "title": "Zeitwertkonto Anbieter im Vergleich 2025 - PensExpert",
           "url": "https://pensexpert.de/2025/07/07/zeitwertkonto-anbieter-im-vergleich/",
           "note": "provider landscape / independent trustee solutions"
+        },
+        {
+          "title": "Foresight GmbH – Über die Foresight GmbH",
+          "url": "https://www.foresight.gmbh/foresight-gmbh/",
+          "note": "Owner-managed Zeitwertkonten pure-play since 2008 (Inhaber Heinz-Jürgen Zink)."
+        },
+        {
+          "title": "exit-coach – EBITDA Multiples nach Branche & Größe",
+          "url": "https://exit-coach.de/ebitda-multiples/",
+          "note": "German EBITDA-multiple benchmarks used to frame recurring-admin valuation."
         }
       ],
       "confidence": 3,
@@ -3190,7 +3410,27 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Independent Verwaltungs-/Treuhand-GmbHs (Deutsche Zeitwert, DBZWK, PensExpert, audalis); admin-fee model, freely acquirable, no dedicated PE consolidator yet.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          {
+            "name": "Foresight GmbH",
+            "hq_region": "Germany (owner-managed by Heinz-Jürgen Zink)",
+            "note": "Clearly inhabergeführt: owner Heinz-Jürgen Zink has worked exclusively on Zeitwertkonten/Lebensarbeitszeit since 2008 — pure-play concept, insolvency-protection and administration specialist, independent of any insurer or consolidator."
+          },
+          {
+            "name": "Deutsche Beratungsgesellschaft für Zeitwertkonten und Lebensarbeitszeitmodelle mbH (DBZWK)",
+            "hq_region": "Germany",
+            "note": "Independent specialist since 2004 delivering the full stack — Konzeption, Administration, Wertkontenverwaltung and Treuhandschaft — 'aus einer Hand'; not owned by a bank/insurer."
+          }
+        ],
+        "ebitda_margin": "~25-40% — recurring, AUM/headcount-linked administration and trustee fees with very high client retention and modest incremental cost once the platform and trust structure are in place.",
+        "entry_multiple": "~8-11x EBITDA — small but sticky, tech-and-trust-based recurring revenue with high switching costs supports a premium to plain broker books; scarcity of qualified operators supports the upper end.",
+        "bnb_angle": "Acquire a Zeitwertkonten concept/trustee specialist as the platform and bolt on adjacent bAV administration and insolvency-protection (Treuhand) mandates, then cross-sell into corporate HR clients — a recurring, high-retention BPO where regulatory complexity is a moat.",
+        "key_risks": [
+          "Very small pool of qualified specialists and heavy key-person dependence (actuarial/legal/trustee know-how) — succession and retention are the core deal risk.",
+          "Regulatory and capital-market sensitivity (insolvency-protection/Treuhand rules, investment returns on the Wertkonten) can affect demand and fee levels."
+        ]
+      },
       "child_ids": []
     },
     "insurance-brokerage-financial-services-value-chain/employee-benefits-occupational-pensions-bav/aktuarielle-bewertung-pensionsgutachten-direktzusage": {
@@ -3263,6 +3503,26 @@
           "title": "Pensionsgutachten - Neuburger und Partner",
           "url": "https://www.neuburger.com/kompetenzen/pensionsgutachten/",
           "note": "60-year owner-operated actuarial firm - fragmented long tail below Big-3"
+        },
+        {
+          "title": "DIOMEDEA AG – Versicherungsmathematische Gutachten / Pensionsrückstellungen",
+          "url": "https://www.diomedea-ag.com/pensionszusage/versicherungsmathematische-gutachten-pensionsrueckstellungen/",
+          "note": "Independent, commission-free actuarial practice (Ulrich Vierneisel, sworn expert) for Direktzusage valuations."
+        },
+        {
+          "title": "Mathilde Kolckmann – Versicherungsmathematische Gutachten",
+          "url": "https://mathilde-kolckmann.de/versicherungsmathematische-Gutachten",
+          "note": "Independent owner-operated DAV/IVS actuary, self-employed since 2011, §6a EStG / §253 HGB valuations."
+        },
+        {
+          "title": "Deal Origination DACH – EBITDA Multiples DACH",
+          "url": "https://dealorigination.de/en/ebitda-multiples-dach",
+          "note": "Benchmark EBITDA multiples across DACH sectors incl. professional/financial services."
+        },
+        {
+          "title": "DUB KMU Multiples 2024",
+          "url": "https://www.dub.de/kmu-multiples/",
+          "note": "SME/professional-services EBITDA multiple ranges used to bracket small actuarial-practice entry pricing."
         }
       ],
       "confidence": 3,
@@ -3271,7 +3531,32 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Independent aktuarielle Sachverstaendigen-/Consulting-GmbHs freely acquirable; only friction is DAV-qualified key-person (Aktuar) retention, not a licence bar.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          {
+            "name": "Institut Prof. Dr. E. Neuburger & Partner GmbH",
+            "hq_region": "Munich (+ Nuremberg), Bavaria",
+            "note": "Owner-managed (inhabergeführt) actuarial/bAV consultancy, ~60 yrs, structured as a 7-partner Institut working purely on a fee basis; independent of insurers/consolidators."
+          },
+          {
+            "name": "DIOMEDEA AG",
+            "hq_region": "Germany (Baden-Württemberg region)",
+            "note": "Independent actuarial practice led by actuary & publicly sworn expert Ulrich Vierneisel; explicitly commission-free/independent, fast Pensionsgutachten turnaround for Direktzusage/Pensionsrückstellungen."
+          },
+          {
+            "name": "Aktuarbüro Mathilde Kolckmann",
+            "hq_region": "Lorch / Rheingau-Taunus, Hesse",
+            "note": "Sole-owner freelance actuary (DAV) and IVS-certified bAV expert, self-employed since 2011, 25+ yrs experience; genuinely independent boutique producing §6a EStG / §253 HGB pension valuations."
+          }
+        ],
+        "ebitda_margin": "Fee-based actuarial/bAV practices run ~25-35% owner-adjusted EBITDA margin (high recurring annual Gutachten renewals, low capital intensity), after normalising principal compensation.",
+        "entry_multiple": "Indicative ~5-8x EBITDA for small owner-run professional-services/actuarial firms in DACH (below broker-book levels; scarcity of qualified DAV/IVS actuaries can push the best assets higher).",
+        "bnb_angle": "Consolidate sub-scale, ageing owner-actuary practices into a single credentialed DAV/IVS bulk-valuation platform; standardise/automate the recurring annual Pensionsgutachten workflow and cross-sell into bAV administration and de-risking mandates for the same corporate clients.",
+        "key_risks": [
+          "Acute succession/key-person risk — value is the individual sworn actuary; DAV/IVS accreditation and client trust do not transfer automatically.",
+          "Commoditisation/price pressure on standard §6a/§253 pension valuations and competition from big-3 (WTW/Mercer/Aon) at the top end."
+        ]
+      },
       "child_ids": []
     },
     "insurance-brokerage-financial-services-value-chain/employee-benefits-occupational-pensions-bav/betriebliche-krankenversicherung-bkv-benefits-vermittlung": {
@@ -3499,6 +3784,26 @@
           "title": "bAV und bKV Outsourcing - Pension Capital",
           "url": "https://pensioncapital.de/bav-und-bkv-outsourcing/",
           "note": "mid-cap end-to-end TPA example"
+        },
+        {
+          "title": "p.c.a.k. – Über uns / bixie bAV-Verwaltung",
+          "url": "https://www.pcak.de/ueber-uns.html",
+          "note": "Independent partner-run TPA; ~500 companies, ~25,000 commitments; operates bixie administration platform."
+        },
+        {
+          "title": "febs Consulting GmbH – Homepage",
+          "url": "https://www.febs-consulting.de/",
+          "note": "Independent Sachverständiger for bAV/Zeitwertkonten incl. administration and actuarial reports."
+        },
+        {
+          "title": "VM Vorsorge & Management – Über uns / Outsourcing",
+          "url": "https://www.vm-vorsorge.de/ueber-uns.html",
+          "note": "Independent, neutral bAV outsourcing with smart!bAV digital administration system."
+        },
+        {
+          "title": "Deal Origination DACH – EBITDA Multiples DACH",
+          "url": "https://dealorigination.de/en/ebitda-multiples-dach",
+          "note": "Multiple benchmarks for recurring-revenue services / financial services in DACH."
         }
       ],
       "confidence": 3,
@@ -3507,7 +3812,32 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Independent TPA/consultancy GmbHs (Lurse, Pension Capital, VM Vorsorge, cp partner); recurring admin/BPO fees not commission — freely acquirable, no dedicated PE platform yet.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          {
+            "name": "p.c.a.k. pension & compensation consultants GmbH",
+            "hq_region": "Munich metropolitan region (remote-first)",
+            "note": "Partner/owner-managed bAV TPA and operator of the 'bixie' administration/calculation platform; ~500 client companies / ~25,000 pension commitments; independent (no insurer/consolidator owner)."
+          },
+          {
+            "name": "febs Consulting GmbH",
+            "hq_region": "Munich (Aschheim), Bavaria",
+            "note": "Independent bAV & Zeitwertkonten specialist / IVS Sachverständiger offering setup, restructuring and ongoing administration plus actuarial reports; owner-operated boutique."
+          },
+          {
+            "name": "VM Vorsorge & Management GmbH & Co. KG",
+            "hq_region": "Germany",
+            "note": "Independent, neutral bAV administration/outsourcing provider with proprietary digital system 'smart!bAV'; owner-run KG, not tied to an insurer or broker consolidator."
+          }
+        ],
+        "ebitda_margin": "Tech-enabled recurring bAV administration/BPO runs ~20-30% EBITDA margin at scale; sub-scale players lower until platform/automation leverage kicks in.",
+        "entry_multiple": "Indicative ~7-10x EBITDA — recurring per-commitment admin fees and high retention command a premium to plain broker books; software/platform-heavy TPAs (bixie/smart!bAV) can attract higher.",
+        "bnb_angle": "Buy one automation-led platform (proprietary admin software) as the hub, then bolt on smaller owner-run bAV consultancies/actuarial boutiques and migrate their manual books onto the single platform — turning project fee revenue into scalable recurring per-Anwartschaft SaaS+BPO revenue.",
+        "key_risks": [
+          "Long, migration-heavy onboarding and integration of legacy books onto one platform; data-quality and legacy-contract complexity slow synergies.",
+          "Competition from insurer-backed (Longial/ERGO, GBG/Gothaer) and PE-backed (CPP/Aventus) platforms plus big-3 consultancies for the same mandates."
+        ]
+      },
       "child_ids": []
     },
     "insurance-brokerage-financial-services-value-chain/financial-investment-advisory-distribution": {
@@ -5391,6 +5721,21 @@
           "title": "Industriemakler - Versicherungsmonitor",
           "url": "https://versicherungsmonitor.de/tag/industriemakler/",
           "note": "consolidation activity concentrated on generalist industrial, leaving specialty niches"
+        },
+        {
+          "title": "Speditions-Assekuranz – Home (family-run since 1987)",
+          "url": "https://speditions-assekuranz.de/",
+          "note": "Independent, family-run transport/forwarding specialist broker since 1987, near Hamburg."
+        },
+        {
+          "title": "Schirmer Assekuranz Makler – Transportversicherungsmakler",
+          "url": "https://www.transport-makler.de/Transportversicherungsmakler_910.aspx",
+          "note": "Independent specialist broker for transport & Verkehrshaftung, Essen; insurer-independent."
+        },
+        {
+          "title": "Deal Origination DACH – EBITDA Multiples DACH",
+          "url": "https://dealorigination.de/en/ebitda-multiples-dach",
+          "note": "Broker multiples 8-12x for €5-20m courtage; independent specialty books lower."
         }
       ],
       "confidence": 3,
@@ -5399,7 +5744,32 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Many owner-operated marine/transport specialty boutiques and Assekuradeure; independent §34d, freely acquirable — thinner dedicated-consolidator coverage than mainstream broking.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          {
+            "name": "Speditions-Assekuranz Versicherungsmakler GmbH",
+            "hq_region": "near Hamburg (Schleswig-Holstein / HH metro)",
+            "note": "Family-run, free independent transport/forwarding specialist broker since 1987; serves forwarders/carriers/warehousemen across Europe, independent of consolidators."
+          },
+          {
+            "name": "Schirmer Assekuranz Makler GmbH",
+            "hq_region": "Essen, North Rhine-Westphalia",
+            "note": "Owner-managed specialist broker for transport & Verkehrshaftung (freight-forwarder/carrier liability, CMR, cargo); insurer-independent, not part of a broker group."
+          },
+          {
+            "name": "Frank Schubert Assekuranzmakler GmbH (FSA24)",
+            "hq_region": "Dresden, Saxony",
+            "note": "Independent §34d broker specialised in Frachtführer-/Verkehrshaftung & CMR cover with own online tariff engine; owner-named GmbH, no consolidator/insurer parent."
+          }
+        ],
+        "ebitda_margin": "Owner-operated specialty transport broker books typically ~25-35% adjusted EBITDA margin (recurring Bestandscourtage, low fixed cost).",
+        "entry_multiple": "Indicative ~6-9x EBITDA for independent specialty broker books; DACH platforms currently paying 8-12x for €5-20m courtage specialty firms.",
+        "bnb_angle": "Assemble a specialty transport/logistics-lines champion by acquiring regional single-line carrier/forwarder-liability boutiques, pooling premium to win facility/binder authority (Assekuradeur mandates) and cross-selling cargo, fleet and cyber into the same logistics client base.",
+        "key_risks": [
+          "Cyclicality and soft-market pressure in marine/transport rates; loss-ratio spikes (theft, CMR claims) can compress carrier appetite and margins.",
+          "Founder/relationship dependence and thin bench at boutiques — retention and knowledge transfer of underwriting relationships is critical."
+        ]
+      },
       "child_ids": []
     },
     "insurance-brokerage-financial-services-value-chain/specialty-lines-broking-cyber-d-o-credit-marine-transport/kunst-spezialobjekt-versicherungsmakler": {
@@ -5664,6 +6034,31 @@
           "title": "Apothekenversicherung - Goettle & Partner",
           "url": "https://www.goettle-partner.de/apotheke",
           "note": "Commission P&C book robust; pharmacy count declining (Apothekensterben) modestly shrinks client base"
+        },
+        {
+          "title": "PharmAssec GmbH – Impressum (Geschäftsführer Bachthaler)",
+          "url": "https://www.pharmassec.de/impressum.htm",
+          "note": "Confirms family Geschäftsführer Gerhard & Beate Bachthaler, Kirchheim unter Teck; independent pharmacy specialist."
+        },
+        {
+          "title": "ApoRisk – Unternehmen/Geschäftsprinzip",
+          "url": "https://aporisk.de/unternehmen-geschaftsprinzip.html",
+          "note": "States ApoRisk GmbH is an independent Versicherungsmakler specialised in pharmacy risks."
+        },
+        {
+          "title": "PriAss – Über mich (Peter Grimm, Geschäftsführer)",
+          "url": "https://www.priass.de/informationen/ueber-mich",
+          "note": "Owner-managed independent broker for Heilberufe/Apotheker."
+        },
+        {
+          "title": "Deal Origination DACH – EBITDA Multiples DACH",
+          "url": "https://dealorigination.de/en/ebitda-multiples-dach",
+          "note": "Insurance broker multiples 8-12x for €5-20m courtage; independents lower."
+        },
+        {
+          "title": "Preisentwicklung bei Versicherungsbeständen und Maklerunternehmen (openPR)",
+          "url": "https://www.openpr.de/news/1309777/Preisentwicklung-bei-Versicherungsbestaenden-und-Maklerunternehmen.html",
+          "note": "Broker book / portfolio pricing and EBITDA-multiple discussion for German broker M&A."
         }
       ],
       "confidence": 3,
@@ -5672,7 +6067,32 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Independent pharmacy-focused Makler (ApoRisk, PharmAssec, Goettle) freely acquirable; standard §34d licence only.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          {
+            "name": "PharmAssec GmbH",
+            "hq_region": "Kirchheim unter Teck, Baden-Württemberg",
+            "note": "Family-run pharmacy-specialist (Deckungskonzept/AllRisk 'PharmaRisk'); managed by Gerhard Bachthaler and daughter Beate Bachthaler, ~20 yrs pharmacy focus, independent (no consolidator/insurer parent)."
+          },
+          {
+            "name": "ApoRisk GmbH",
+            "hq_region": "Karlsruhe, Baden-Württemberg",
+            "note": "Independent Versicherungsmakler specialised exclusively in pharmacies/pharmacists for ~20 yrs; owner/family-operated (Günder), independent of insurers per own broker disclosure."
+          },
+          {
+            "name": "PriAss – Prisma Assekuranzmakler GmbH & Co. KG",
+            "hq_region": "Germany (Heilberufe/Apotheker focus)",
+            "note": "Owner-managed broker for healthcare professions incl. pharmacies; MD/owner Peter Grimm, works with 100+ insurers as independent Makler (not a consolidator platform)."
+          }
+        ],
+        "ebitda_margin": "Specialist commercial broker books typically ~25-35% adjusted EBITDA margin (recurring Bestandscourtage on Sach/Haftpflicht); pharmacy niche sits at upper end given sticky mandatory-cover mandates.",
+        "entry_multiple": "Indicative ~6-9x EBITDA for independent owner-operated broker books; PE-backed platforms currently paying 8-12x for €5-20m courtage firms in DACH.",
+        "bnb_angle": "Build a national pan-Heilwesen commercial platform by rolling up single-branch pharmacy/Ärzte specialists, cross-selling their proprietary pharmacy Deckungskonzepte (AllRisk policies) across the acquired books and adding bAV/private lines to the same locked-in professional clientele.",
+        "key_risks": [
+          "Key-person/founder dependence — mandates and insurer relationships often tied to the named owner, so retention + earn-out critical.",
+          "Structural pharmacy-count decline and margin pressure in the Apotheken market could shrink the addressable client base."
+        ]
+      },
       "child_ids": []
     },
     "insurance-brokerage-financial-services-value-chain/commercial-industrial-insurance-brokerage/architekten-ingenieur-berufshaftpflicht-brokers-planning-construction-professions": {
@@ -6113,6 +6533,16 @@
           "title": "bAV-Komplexitaet auslagern - Longial",
           "url": "https://www.longial.de/aktuelles/news/bav-komplexitaet-auslagern/page",
           "note": "Full outsourcing of benefit/retiree administration; growing outsourcing demand"
+        },
+        {
+          "title": "VM Vorsorge & Management – Für Arbeitgeber (Outsourcing)",
+          "url": "https://www.vm-vorsorge.de/fuer-arbeitgeber.html",
+          "note": "Independent bAV outsourcing / online administration for employers."
+        },
+        {
+          "title": "DUB – KMU-Multiples",
+          "url": "https://www.dub.de/kmu-multiples/",
+          "note": "German SME EBITDA-multiple benchmarks used to frame TPA/BPO valuation."
         }
       ],
       "confidence": 3,
@@ -6121,7 +6551,32 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Independent TPA/Verwaltungs-GmbHs are acquirable; some anchors carrier-owned (Longial/ERGO), but many independent specialist administrators remain.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          {
+            "name": "Corporate Pension Partner (CP Partner GmbH / CPP)",
+            "hq_region": "Hamburg",
+            "note": "Independent ('unabhängiger Partner') bAV/bKV administration BPO with own digital platform; insurer-neutral full-service Verwaltung from analysis to ongoing admin — not owned by an insurer or consolidator."
+          },
+          {
+            "name": "Pension Capital GmbH (PensionCapital)",
+            "hq_region": "Bremen",
+            "note": "Independent bAV/bKV outsourcing specialist since 2003 with fee-based (non-commission) consultants and the PensionDigital admin platform; owner-managed specialist TPA."
+          },
+          {
+            "name": "VM Vorsorge & Management GmbH",
+            "hq_region": "Germany (bundesweit)",
+            "note": "Independent bAV outsourcing provider running employer-side online administration of occupational-pension portfolios; specialist TPA rather than a broker or insurer subsidiary."
+          }
+        ],
+        "ebitda_margin": "~15-30% for recurring per-head/per-contract administration BPO (people- and IT-heavy; margin scales with platform automation and portfolio density).",
+        "entry_multiple": "~7-10x EBITDA — sticky, multi-year recurring admin mandates justify a premium over pure broker books but below high-growth platforms; scale/tech-enabled TPAs can reach ~10-12x.",
+        "bnb_angle": "Build a platform TPA by consolidating sub-scale bAV/bKV administrators onto one digital engine, converting fragmented per-contract admin into a recurring, cross-sellable BPO (add Zeitwertkonten, bKV and bAV consulting) with rising margins from automation.",
+        "key_risks": [
+          "Administration is labour- and compliance-intensive (§-driven bAV law, data quality from legacy carriers); wage inflation and IT-migration risk can erode margins.",
+          "Client concentration on a few large corporate mandates and dependence on insurer/HR-payroll interfaces create churn and integration risk."
+        ]
+      },
       "child_ids": []
     },
     "insurance-brokerage-financial-services-value-chain/employee-benefits-occupational-pensions-bav/aktuarielle-bewertung-pensionsgutachten-heubeck-basiert-hgb-ias-19": {
@@ -6194,6 +6649,26 @@
           "title": "actuarconsult - versicherungsmathematische Gutachten",
           "url": "https://www.actuarconsult.com/",
           "note": "Fragmented field of ~30-60 boutiques; no PE consolidator at SME level"
+        },
+        {
+          "title": "H2B Aktuare - Warum H2B? / Geschaeftsfuehrung (inhabergefuehrt, unabhaengig)",
+          "url": "https://www.h2b-aktuare.de/warum-h2b/",
+          "note": "States full independence of an owner-managed firm; founded 2015 by named Gesellschafter-GF."
+        },
+        {
+          "title": "febs Consulting GmbH - unabhaengiger Sachverstaendiger bAV/Zeitwertkonten",
+          "url": "https://www.febs-consulting.de/",
+          "note": "Independent, owner-managed (Buttler/Baier), creates actuarial balance-sheet Gutachten."
+        },
+        {
+          "title": "GBG-Consulting - Unternehmen / Bewertungsleistungen",
+          "url": "https://gbg-consulting.de/dienstleistungen/bewertung/",
+          "note": "Independent bAV boutique since 1989, Pensionsgutachten with DAV/IVS-qualified staff."
+        },
+        {
+          "title": "Deutsche Aktuarvereinigung (DAV) - Profession/independent association",
+          "url": "https://aktuar.de/en/about-us/",
+          "note": "Context: ~7,000 DAV actuaries; fragmented professional base underpinning boutique roll-up."
         }
       ],
       "confidence": 4,
@@ -6202,7 +6677,32 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Actuarial boutiques (DAV/IVS) are acquirable professional-services firms; actuary is a regulated profession but firm ownership is unrestricted, only key-person retention risk.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          {
+            "name": "H2B Aktuare GmbH",
+            "hq": "Muenchen",
+            "note": "Founded 2015, owner-managed by Gesellschafter-GF Dr. Guenter Hainz, Jan Hartloff and Dr. Markus Bechtoldt; explicitly 'vollstaendige Unabhaengigkeit eines inhabergefuehrten Unternehmens', full actuarial/HGB-IAS19 valuation spectrum."
+          },
+          {
+            "name": "febs Consulting GmbH",
+            "hq": "Grasbrunn bei Muenchen",
+            "note": "Independent Sachverstaendiger for bAV + Zeitwertkonten and licensed Rentenberater; owner-managed by GF-Gesellschafter Andreas Buttler and Manfred Baier; creates versicherungsmathematische (Bilanz-)Gutachten."
+          },
+          {
+            "name": "GBG - Consulting fuer betriebliche Altersversorgung GmbH",
+            "hq": "Hamburg / Koeln",
+            "note": "Independent Mittelstand-focused bAV/Pensionsgutachten boutique since 1989 with DAV actuaries/IVS experts; specialises in Pensionsgutachten and GGF-Versorgung valuations."
+          }
+        ],
+        "ebitda_margin": "~25-35% for fee-based actuarial consulting boutiques (professional-services / recurring valuation mandates).",
+        "entry_multiple": "~6-9x EBITDA for independent DACH SME actuarial/consulting boutiques; recurring HGB/IAS-19 valuation books at the higher end.",
+        "bnb_angle": "Consolidate fragmented DAV-actuary boutiques into a single recurring HGB/IAS-19 valuation platform on shared actuarial tooling, and cross-sell into a bAV/Employee-Benefits brokerage to lock in annual Gutachten revenue.",
+        "key_risks": [
+          "Heavy key-person dependency on certified actuaries (DAV) / IVS experts in a tight talent market.",
+          "Mandates are recurring but re-tendered; margin pressure from software-driven commoditisation of standard valuations."
+        ]
+      },
       "child_ids": []
     },
     "insurance-brokerage-financial-services-value-chain/employee-benefits-occupational-pensions-bav/zeitwertkonten-lebensarbeitszeitkonten-verwaltung-treuhand": {
@@ -6272,6 +6772,21 @@
           "title": "Zeitwertkonto Anbieter im Vergleich 2025 - PensExpert",
           "url": "https://pensexpert.de/2025/07/07/zeitwertkonto-anbieter-im-vergleich/",
           "note": "Small handful of specialist administrators; recurring admin (25-35 EUR/person/yr) plus Treuhandgebuehr"
+        },
+        {
+          "title": "DBZWK - Verwaltung & Treuhandschaft (independent trustee, founder Harald Roeder)",
+          "url": "https://www.dbzwk.de/leistungen/sicherheit-durch-treuhandschaft/",
+          "note": "Confirms independent Treuhandunternehmen and administration since 2004."
+        },
+        {
+          "title": "ZKS Zeitkontenservice GmbH, Berlin (Northdata)",
+          "url": "https://www.northdata.com/ZKS%20Zeitkontenservice%20GmbH,%20Berlin/Amtsgericht%20Charlottenburg%20(Berlin)%20HRB%2095445%20B",
+          "note": "3 shareholders, GF Fred Perniss; operates independently of product providers."
+        },
+        {
+          "title": "Preisentwicklung bei Versicherungsbestaenden und Maklerunternehmen (openPR)",
+          "url": "https://www.openpr.de/news/1309777/Preisentwicklung-bei-Versicherungsbestaenden-und-Maklerunternehmen.html",
+          "note": "German market pricing reference for broker/admin books (EBITDA multiples / commission multiples)."
         }
       ],
       "confidence": 3,
@@ -6280,7 +6795,32 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Verwaltungs-/Treuhand-GmbHs (DBZWK, Foresight, PensExpert) are freely acquirable; no licence-transfer or ownership restriction.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          {
+            "name": "Deutsche Beratungsgesellschaft fuer Zeitwertkonten und Lebensarbeitszeitmodelle mbH (DBZWK)",
+            "hq": "Lorch, Baden-Wuerttemberg",
+            "note": "Founder-led (Gruender/GF Harald Roeder), independent Treuhandunternehmen; konzipiert, verwaltet und sichert Zeitwertkonten aus einer Hand seit 2004 - not part of any insurer/consolidator group."
+          },
+          {
+            "name": "Foresight GmbH",
+            "hq": "Lingen (Ems), Niedersachsen",
+            "note": "Owner-managed by Heinz-Juergen Zink since 2008; pure-play Zeitwertkonten/Lebensarbeitszeit specialist (Konzeption, Sicherung, Verwaltung), independent."
+          },
+          {
+            "name": "ZKS Zeitkontenservice GmbH",
+            "hq": "Berlin",
+            "note": "3 private Gesellschafter (GF Fred Perniss), HRB 95445 B; operates independently of financial-product providers, administers Zeitwertkonten + insolvency protection for SMEs."
+          }
+        ],
+        "ebitda_margin": "~20-30% typical for a recurring Zeitwertkonten administration/Treuhand book (admin/BPO book economics; broker/admin books 20-35%).",
+        "entry_multiple": "~6-9x EBITDA for independent DACH SME admin books; platforms with recurring, insolvency-secured AuA command the upper end.",
+        "bnb_angle": "Roll up sub-scale Zeitwertkonten administrators/trustees into one BaFin-conform, insolvency-secured admin platform, digitise account-keeping to lift margins and cross-sell into a bAV/Employee-Benefits distribution engine.",
+        "key_risks": [
+          "Key-person dependency in small founder-led teams and reliance on Treuhand/insolvency-protection licensing.",
+          "Interest-rate/capital-market sensitivity of guarantee and Wertkonten investment models; regulatory change on insolvency protection (SGB IV)."
+        ]
+      },
       "child_ids": []
     },
     "insurance-brokerage-financial-services-value-chain/employee-benefits-occupational-pensions-bav/unterstuetzungskassen-verwaltung-inkl-pauschaldotierte-u-kasse": {
@@ -7208,6 +7748,21 @@
           "title": "Provisionsabrechnung Software IBePro - Inveda.net",
           "url": "https://ibepro.inveda.net/Provisionsabrechnung-Software.html",
           "note": "pool/distributor commission-settlement software"
+        },
+        {
+          "title": "b-tix GmbH - BiPRO, APIs, Web-Apps / Impressum (founder Markus Heussen, Duesseldorf)",
+          "url": "https://www.b-tix.de/impressum/",
+          "note": "Independent, founder-led BiPRO/Provisionsabrechnung platform (b-OX)."
+        },
+        {
+          "title": "Inveda.net - INEX supported Maklerverwaltungsprogramme / IBePro (BiPRO 430.4)",
+          "url": "https://inex.inveda.net/INEX---Unterstutzte-Maklerverwaltungsprogramme.html",
+          "note": "Independent software house; BiPRO 430.4 provider and IBePro MVP."
+        },
+        {
+          "title": "Lauton Software - ProClient Maklerverwaltungsprogramm (Provisionsabrechnung)",
+          "url": "https://www.lauton-software.de/proclient-maklerverwaltungsprogramm/",
+          "note": "Independent vendor, commission settlement module + BiPRO interface via INEX."
         }
       ],
       "confidence": 3,
@@ -7216,7 +7771,32 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Independent software/BPO GmbHs (b-tix, Inveda/IBePro, CODie, DEMV); asset-light SaaS/BPO fee revenue, freely acquirable, digitisation tailwind (BiPRO 430), no dedicated consolidator.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          {
+            "name": "b-tix GmbH",
+            "hq": "Duesseldorf",
+            "note": "Founder/GF Markus Heussen (BiPRO co-founder); independent BiPRO platform (b-OX/b-tix Client) for networking, commission settlement and Provisionsabrechnung - used even by large brokers (Aon, Ecclesia)."
+          },
+          {
+            "name": "Inveda.net GmbH",
+            "hq": "Leipzig",
+            "note": "Independent software house behind the IBePro Maklerverwaltungsprogramm and the INEX BiPRO 430.4 provider (Postfach/commission retrieval) - standalone GmbH, not a pool/consolidator subsidiary."
+          },
+          {
+            "name": "Lauton Software GmbH",
+            "hq": "Bavaria",
+            "note": "Independent SME software vendor of ProClient MVP incl. commission settlement/control (Provisionsabrechnung) with BiPRO 430.4 interface via INEX; owner-managed vendor."
+          }
+        ],
+        "ebitda_margin": "~25-40% for scaled insurance software / BPO (recurring SaaS + transaction-fee mix).",
+        "entry_multiple": "Software/BPO assets trade above broker books - roughly ~8-12x+ EBITDA (or a revenue multiple for high-growth SaaS) in DACH.",
+        "bnb_angle": "Build a BiPRO-native commission-clearing / abrechnungs-BPO hub: roll up niche MVP and Provisionsabrechnung vendors, migrate their broker bases onto one platform and monetise recurring per-transaction and SaaS fees.",
+        "key_risks": [
+          "Dependency on the BiPRO standard and insurer implementation pace - norm changes force costly re-engineering.",
+          "Customer concentration among a few large brokers, plus legacy tech-debt/integration risk in acquired code bases."
+        ]
+      },
       "child_ids": []
     },
     "insurance-brokerage-financial-services-value-chain/broker-pools-networks-bestandsverwaltung/bestandsverwaltungs-bpo-fuer-verwaiste-vertraege-run-off-servicing": {
@@ -7286,6 +7866,26 @@
           "title": "Versicherungsbestand verkaufen - Deutsche Unternehmensverkauf",
           "url": "https://www.deutsche-unternehmensverkauf.de/versicherungsbestand-verkaufen/",
           "note": "Broker retirement wave = supply of verwaiste Bestaende (demographic tailwind)"
+        },
+        {
+          "title": "Schlemann - Bestandsuebertragung / Betreuung bestehender Versicherungen",
+          "url": "https://schlemann.com/beratung/zielgruppen/kunden/bestandsuebertragung-betreuung-bestehender-versicherungen/",
+          "note": "Founder-led independent broker; takes over and services existing/orphaned contracts on Bestandscourtage."
+        },
+        {
+          "title": "Die Maklerwelt - Versicherungsbestand verkaufen (Bestandskauf + Service/Claims centre Eisenach)",
+          "url": "https://diemaklerwelt.de/bestandskauf/",
+          "note": "Independent buyer/servicer of retiring-broker portfolios with own claims service centre."
+        },
+        {
+          "title": "FinanzPartner Nord - Maklervollmacht und Maklermandat (Bestandsuebertragung)",
+          "url": "https://www.fp-nord.de/maklervollmacht-und-maklermandat/",
+          "note": "Independent broker offering Bestandsuebertragung/servicing of transferred contracts."
+        },
+        {
+          "title": "Preisentwicklung bei Versicherungsbestaenden und Maklerunternehmen (openPR)",
+          "url": "https://www.openpr.de/news/1309777/Preisentwicklung-bei-Versicherungsbestaenden-und-Maklerunternehmen.html",
+          "note": "German pricing reference for orphaned/broker books (commission and EBITDA multiples)."
         }
       ],
       "confidence": 3,
@@ -7294,7 +7894,32 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Verwaltungs-/BPO-GmbHs freely acquirable; servicing of orphaned books needs §34d mandate but no structural ownership bar.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          {
+            "name": "Schlemann e.K. / Dr. Schlemann unabhaengige Finanzberatung",
+            "hq": "Malente, Schleswig-Holstein",
+            "note": "Founder-led by Dr. Berndt Schlemann (independent broker since 2005); specialises in free Bestandsuebertragung and ongoing servicing of orphaned/existing insurance contracts, funded by Bestandscourtage - independent, not a consolidator."
+          },
+          {
+            "name": "Die Maklerwelt (service centre Eisenach)",
+            "hq": "Eisenach, Thueringen",
+            "note": "Independent buyer/servicer of retiring-broker portfolios (Bestandskauf + ongoing Betreuung) with its own claims-service centre; not one of the named pool/consolidator platforms."
+          },
+          {
+            "name": "FinanzPartner Nord GmbH & Co. KG",
+            "hq": "Northern Germany",
+            "note": "Independent owner-operated broker offering Maklervollmacht/Bestandsuebertragung and ongoing servicing of transferred (incl. orphaned) contracts - standalone KG, not consolidator-owned."
+          }
+        ],
+        "ebitda_margin": "~20-35% on a mature, serviced Bestandscourtage book once run centrally (admin/BPO book economics).",
+        "entry_multiple": "~6-9x EBITDA for independent DACH broker/servicing books (often quoted alternatively as ~2-3x annual recurring commission).",
+        "bnb_angle": "Aggregate orphaned and retiring-broker books via free Bestandsuebertragung, service them centrally on one MVP/BPO platform, and monetise retained trailing commissions at scale with a lean cost base.",
+        "key_risks": [
+          "Bestand run-off / lapse (cancellations, mortality) eroding the acquired commission stream.",
+          "Commission-regulation (LVRG / provision caps) and data-protection consent requirements for contract transfers."
+        ]
+      },
       "child_ids": []
     }
   }
