@@ -351,6 +351,11 @@
           "title": "Versicherungsbote – Maklerkonsolidierung in Deutschland",
           "url": "https://www.versicherungsbote.de/id/4939604/Maklerkonsolidierung-in-Deutschland-Entwicklungen-und-Perspektiven/",
           "note": "Consolidator entry multiples (10x average, up to 14-16x) for German broker M&A."
+        },
+        {
+          "title": "CMO Makler Karlsruhe – über uns / Finanz-, Immobilien- & Versicherungsmakler",
+          "url": "https://www.cmo-makler.de/ueber-uns/",
+          "note": "DROPPED: CMO is a generalist Karlsruhe broker (Finanzberatung + Immobilienmakler + Versicherungsmakler, founded ~10 yrs ago) with only a Heilberufe tips page — not a dedicated Heilwesen Fachmakler. The 'von Ärzten für Ärzte' positioning attributed to it actually belongs to PVS Assekuranzmakler. Weak niche-fit."
         }
       ],
       "confidence": 4,
@@ -364,17 +369,17 @@
           {
             "name": "Hagen & Kruse GmbH & Co. KG",
             "hq_region": "Hamburg",
-            "note": "Independent, owner-managed broker (founded 1901; managing partners Jörg Enders & Jörg Will), with a long-standing Heilwesen practice serving 3,500+ practising/employed physicians and MVZ; not part of any consolidator."
+            "note": "Independent, owner-managed broker (Versicherungsmakler seit 1901); works via 80+ insurers and runs a long-standing Heilwesen practice serving 3,500+ niedergelassene/angestellte Ärzte and MVZ. Not part of any consolidator. VERIFIED independent."
           },
           {
             "name": "LIGA-Löffler Versicherungsmakler GmbH & Co. KG",
             "hq_region": "Freiburg im Breisgau",
-            "note": "Independent GmbH & Co. KG (GP + LP, family/owner-held), 30+ years specialising in acute/rehab hospitals, carrier companies and healthcare/therapy professionals — a pure Heilwesen book, not PE-backed or insurer-owned."
+            "note": "Independent GmbH & Co. KG (AG Freiburg HRA 700681, led by Timo Löffler & Christiane Berlage); 30+ yrs specialising in Akut-/Reha-Kliniken, Trägergesellschaften and Heil-/Therapieberufe — a pure Heilwesen book, not PE-/insurer-owned. VERIFIED independent."
           },
           {
-            "name": "CMO Makler (CMO GmbH), Karlsruhe",
-            "hq_region": "Karlsruhe (Baden-Württemberg)",
-            "note": "Independent regional specialist broker positioned 'von Ärzten für Ärzte' for Ärzte/Heilberufe/Heilwesen (Berufshaftpflicht, practice, clinics); owner-operated, not affiliated to the listed consolidators."
+            "name": "PVS Assekuranzmakler GmbH",
+            "hq_region": "Freiburg im Breisgau",
+            "note": "REPLACEMENT for CMO Makler. Physician-founded specialist (gegründet von Ärzten der Privatärztlichen Verrechnungsstelle Freiburg), 'von Ärzten für Ärzte'; pure Heilwesen book covering Ausbildung, Klinik, Praxis, Nachfolge. AG Freiburg HRB 707380, independent §93 HGB broker, not insurer-/consolidator-owned."
           }
         ],
         "ebitda_margin": "~20-35% on a mature commercial/specialist broker book (lean cost base, recurring Courtage); niche Heilwesen books sit at the upper end due to sticky physician/clinic relationships.",
@@ -1214,6 +1219,26 @@
           "title": "openPR – Preisentwicklung bei Versicherungsbeständen und Maklerunternehmen",
           "url": "https://www.openpr.de/news/1309777/Preisentwicklung-bei-Versicherungsbestaenden-und-Maklerunternehmen.html",
           "note": "German broker valuation ranges used to frame affinity-book multiples."
+        },
+        {
+          "title": "Konzept & Marketing: Partnerschaft mit Oakley Capital und Uebernahmeplaene - Versicherungsbote",
+          "url": "https://www.versicherungsbote.de/id/4936138/Konzept--Marketing-Partnerschaft-mit-Oakley-Capital-und-Ubernahmeplane/",
+          "note": "DROPPED Konzept & Marketing: no longer independent - far-reaching partnership with PE investor Oakley Capital (Luxembourg) plus ex-Allianz-Commercial CEO Joachim Mueller; takeover vehicle 'Equity Management GmbH' (Oakley) filed the acquisition of K&M (and affiliated Versifair AG) with the Bundeskartellamt (Nov 2024). This is a PE-backed consolidation platform, an AVOID-LIST-type parent."
+        },
+        {
+          "title": "degenia Versicherungsdienst AG - 'Wir koennen Makler' - wirtschaftsforum.de",
+          "url": "https://www.wirtschaftsforum.de/portraits/degenia-versicherungsdienst-ag/wir-koennen-makler",
+          "note": "REPLACEMENT independence proof: Vorstand Halime Koppius: 'Wir sind seit Gruendung des Unternehmens inhabergefuehrt, vollkommen unabhaengig'; degenia founded by Halime Koppius and Ortwin Spies, economically independent of investors/creditors."
+        },
+        {
+          "title": "Impressum - degenia Versicherungsdienst AG",
+          "url": "https://www.degenia.de/impressum/",
+          "note": "REPLACEMENT confirmation: degenia Versicherungsdienst AG, Bad Kreuznach - active, own Assekuradeur/Konzept business (Makler-facing Deckungskonzepte)."
+        },
+        {
+          "title": "InsurTech hepster receives $10 million Series A - MOINsure GmbH press",
+          "url": "https://news.cision.com/de/moinsure-gmbh/r/hepster-erhalt--10-million-in-series-a-fur-den-ausbau-seiner-embedded-insurance-plattform,c3304113",
+          "note": "hepster VC-financing evidence (Element Ventures/Seventure Partners; later Claret Capital) - retained but flagged as institutionally VC-backed rather than founder/family-owned."
         }
       ],
       "confidence": 3,
@@ -1225,14 +1250,14 @@
       "actionable": {
         "named_targets": [
           {
-            "name": "Konzept & Marketing GmbH (Konzept & Marketing Gruppe)",
-            "hq_region": "Hannover",
-            "note": "Independent affinity concept house/Assekuradeur (founded 2001, 100+ staff, ~7,500 distribution partners) developing private-lines group/affinity concepts; explicitly states cooperating insurers hold no shares and have no influence — owner-controlled, not a consolidator."
+            "name": "degenia Versicherungsdienst AG",
+            "hq_region": "Bad Kreuznach, Rheinland-Pfalz",
+            "note": "Owner-led Assekuradeur/concept house (one of ~13 German Assekuradeure) developing exclusive private-/group-lines Deckungskonzepte for distribution partners. Vorstand/founder Halime Koppius states the firm is 'seit Gruendung inhabergefuehrt, vollkommen unabhaengig' and 'wirtschaftlich unabhaengig von Investoren und Kreditgebern' - not insurer- or consolidator-owned. Replaces Konzept & Marketing."
           },
           {
             "name": "hepster (MOINsure GmbH)",
             "hq_region": "Rostock",
-            "note": "Founder-led embedded/affinity MGA (2016) running group/affinity schemes across mobility, sport, electronics and pet for 3,000+ B2B2X partners; independent of insurers and consolidators (VC-financed — see risks)."
+            "note": "Founder-co-managed embedded/affinity MGA (2016) running group/affinity schemes across mobility, sport, electronics and pet for 3,000+ B2B2X partners; not owned by any insurer or broker consolidator. CAVEAT: VC-financed (Series A/B led by Element Ventures with Seventure Partners and Claret Capital; ~13 shareholders) - institutional investors, so not strictly founder/family-controlled. Retained as niche-fit and free of avoid-list parents, but flagged."
           }
         ],
         "ebitda_margin": "~20-35% for an established affinity/group-scheme operator (recurring scheme commissions/fees, lean shared-service admin); embedded/affinity MGA models can reach the upper end at scale but early-stage platforms run leaner.",
@@ -1457,6 +1482,16 @@
           "title": "Deal Origination DACH – EBITDA Multiples DACH",
           "url": "https://dealorigination.de/en/ebitda-multiples-dach",
           "note": "Broker multiples 8-12x for €5-20m courtage; niche independents lower, MGAs higher."
+        },
+        {
+          "title": "Expatriate Care Consult Versicherungsmakler GmbH – company profile (Dun & Bradstreet / Implisense)",
+          "url": "https://www.dnb.com/business-directory/company-profiles.expatriate_care_consult_versicherungsmakler_gmbh.2a4f4e559ae8a4482b11306c248b2b2f.html",
+          "note": "ECC-Weltweit DROPPED as a separate target: it is affiliated with Care Concept AG (ECC is a named shareholder of Care Concept). Listing both double-counts one platform; consolidated into Care Concept AG."
+        },
+        {
+          "title": "BDAE Group – now a subsidiary of MSH International (deutsche-im-ausland / bdae.com)",
+          "url": "https://www.bdae.com/en/",
+          "note": "SCARCITY NOTE / no pad added: the obvious independent expat candidates are consolidator-owned — BDAE Gruppe is a subsidiary of MSH International since 2017, and KLEMMER International has been part of the Martens & Prahl Group since 2010 (avoid-list). Independent pool is genuinely thin, so kept 2 verified names rather than pad."
         }
       ],
       "confidence": 3,
@@ -1470,17 +1505,12 @@
           {
             "name": "DR-WALTER Versicherungsmakler GmbH",
             "hq_region": "Neunkirchen-Seelscheid, North Rhine-Westphalia",
-            "note": "Independent, ~60-yr owner-run specialist broker/assekuradeur for expats, posted workers, students, au-pairs & digital nomads; own products via Barmenia/Cigna etc., not consolidator- or insurer-owned."
+            "note": "Independent, ~60-yr owner-run specialist broker/assekuradeur for expats, entsandte Mitarbeiter, students, au-pairs & digital nomads; own products via Barmenia/Cigna/Foyer etc., not consolidator- or insurer-owned. VERIFIED independent."
           },
           {
             "name": "Care Concept AG",
             "hq_region": "Bonn, North Rhine-Westphalia",
-            "note": "Independent specialist assekuradeur/broker for international/expat health since 1999, in-house policy issuance & claims; privately held (shareholders Expatriate Care Consult Versicherungsmakler GmbH and HVP Hanse Vertriebspartner AG), no consolidator/listed parent."
-          },
-          {
-            "name": "Expatriate Care Consult Versicherungsmakler GmbH (ECC-Weltweit)",
-            "hq_region": "Bonn, North Rhine-Westphalia",
-            "note": "Owner-managed specialist broker for international insurance (90+ yrs heritage), two private shareholders; independent — though affiliated with Care Concept AG, so treat as one potential platform."
+            "note": "Independent specialist assekuradeur/broker for international/expat health since 1999 with in-house policy issuance & claims; privately held, no consolidator/listed parent. Risk carriers incl. Barmenia/HanseMerkur. VERIFIED independent. (Note: Expatriate Care Consult / ECC-Weltweit is a shareholder-affiliated sister of Care Concept — same platform, so counted once here, not twice.)"
           }
         ],
         "ebitda_margin": "Expat-health specialist brokers/assekuradeure run ~25-35%+ EBITDA margin; MGA/assekuradeur models with binder authority and in-house claims can exceed this on scaled recurring books.",
@@ -3071,17 +3101,11 @@
       "child_ids": [
         "insurance-brokerage-financial-services-value-chain/employee-benefits-occupational-pensions-bav/bav-beratung-vermittlung-firmenkunden-makler",
         "insurance-brokerage-financial-services-value-chain/employee-benefits-occupational-pensions-bav/digitale-bav-verwaltung-saas-tpa-plattformen",
-        "insurance-brokerage-financial-services-value-chain/employee-benefits-occupational-pensions-bav/zeitwertkonten-lebensarbeitszeitkonten-verwaltung",
-        "insurance-brokerage-financial-services-value-chain/employee-benefits-occupational-pensions-bav/aktuarielle-bewertung-pensionsgutachten-direktzusage",
         "insurance-brokerage-financial-services-value-chain/employee-benefits-occupational-pensions-bav/betriebliche-krankenversicherung-bkv-benefits-vermittlung",
         "insurance-brokerage-financial-services-value-chain/employee-benefits-occupational-pensions-bav/unterstuetzungskassen-pensionskassen-rueckdeckung-verwaltung",
-        "insurance-brokerage-financial-services-value-chain/employee-benefits-occupational-pensions-bav/bav-verwaltungs-outsourcing-bpo-end-to-end-tpa",
         "insurance-brokerage-financial-services-value-chain/employee-benefits-occupational-pensions-bav/bav-verwaltungs-outsourcing-tpa-bpo",
         "insurance-brokerage-financial-services-value-chain/employee-benefits-occupational-pensions-bav/aktuarielle-bewertung-pensionsgutachten-heubeck-basiert-hgb-ias-19",
-        "insurance-brokerage-financial-services-value-chain/employee-benefits-occupational-pensions-bav/zeitwertkonten-lebensarbeitszeitkonten-verwaltung-treuhand",
-        "insurance-brokerage-financial-services-value-chain/employee-benefits-occupational-pensions-bav/unterstuetzungskassen-verwaltung-inkl-pauschaldotierte-u-kasse",
-        "insurance-brokerage-financial-services-value-chain/employee-benefits-occupational-pensions-bav/digitale-bav-saas-tpa-plattformen",
-        "insurance-brokerage-financial-services-value-chain/employee-benefits-occupational-pensions-bav/betriebliche-krankenversicherung-bkv-benefits-plattformen"
+        "insurance-brokerage-financial-services-value-chain/employee-benefits-occupational-pensions-bav/zeitwertkonten-lebensarbeitszeitkonten-verwaltung-treuhand"
       ]
     },
     "insurance-brokerage-financial-services-value-chain/employee-benefits-occupational-pensions-bav/bav-beratung-vermittlung-firmenkunden-makler": {
@@ -3323,242 +3347,6 @@
       "actionable": {},
       "child_ids": []
     },
-    "insurance-brokerage-financial-services-value-chain/employee-benefits-occupational-pensions-bav/zeitwertkonten-lebensarbeitszeitkonten-verwaltung": {
-      "id": "insurance-brokerage-financial-services-value-chain/employee-benefits-occupational-pensions-bav/zeitwertkonten-lebensarbeitszeitkonten-verwaltung",
-      "name": "Zeitwertkonten- & Lebensarbeitszeitkonten-Verwaltung",
-      "parent_id": "insurance-brokerage-financial-services-value-chain/employee-benefits-occupational-pensions-bav",
-      "level": 2,
-      "path": [
-        "Insurance Brokerage & Financial Services value chain",
-        "Employee Benefits & Occupational Pensions (bAV)",
-        "Zeitwertkonten- & Lebensarbeitszeitkonten-Verwaltung"
-      ],
-      "value_chain_stage": "services",
-      "description": "Independent designers, trustees (Treuhand) and administrators of time-value / lifetime-working-time accounts that let employees defer salary/overtime for later paid leave, with mandatory insolvency protection (Insolvenzsicherung) under SGB IV. Ongoing account administration plus trustee mandates make this a recurring, compliance-heavy niche.",
-      "scores": {
-        "recurring": 5,
-        "fragmentation": 4,
-        "compliance": 5,
-        "scale": 3,
-        "margin": 4,
-        "growth": 4,
-        "headroom": 4,
-        "reimbursement_risk": 2
-      },
-      "rationale": {
-        "recurring": "Providers run permanent account administration, capital-investment coordination and payroll interfaces over the life of each account.",
-        "fragmentation": "A cluster of independent specialists (DBZWK since 2004, Deutsche Zeitwert, Lurse) plus consultancy arms of WTW/Mercer — no dominant consolidator.",
-        "compliance": "SGB IV §7d mandates insolvency protection and separate asset management; providers sell audit-proof, insolvenzgeschuetzte Verwaltung as core value."
-      },
-      "composite": 74.2,
-      "dach_signals": {
-        "est_players": "~10-20 specialist administrators/trustees",
-        "revenue_band_eur": "EUR 1-15m typical for specialists",
-        "example_companies": [
-          "Deutsche Beratungsgesellschaft fuer Zeitwertkonten (DBZWK)",
-          "Deutsche Zeitwert GmbH",
-          "WTW Deutschland",
-          "Mercer Deutschland",
-          "Lurse"
-        ],
-        "regulation": [
-          "SGB IV §7b-§7f (Wertguthaben & Insolvenzschutz)",
-          "Flexi-II-Gesetz",
-          "Treuhandmodelle (CTA)"
-        ]
-      },
-      "sources": [
-        {
-          "title": "DBZWK - Verwaltung von Zeitwertkonten",
-          "url": "https://www.dbzwk.de/leistungen/verwaltung/",
-          "note": "Full-service Konzeption, Administration, Wertkontenverwaltung, Treuhandschaft since 2004; ZWK-OPTIMA system"
-        },
-        {
-          "title": "Deutsche Zeitwert GmbH startet Verwaltungsplattform (HRM.de)",
-          "url": "https://www.hrm.de/neu-deutsche-zeitwert-gmbh-startet-im-juni-mit-eigener-zeitwertkonten-verwaltungsplattform/",
-          "note": "Product-/provider-independent insolvency-protected ZWK administration platform ZWEK"
-        },
-        {
-          "title": "Administration von Zeitwertkonten - WTW",
-          "url": "https://www.wtwco.com/de-de/solutions/products/administration-von-zeitwertkonten",
-          "note": "Design-to-administration ZWK services from a large consultancy"
-        },
-        {
-          "title": "Zeitwertkonten und Treuhandloesungen - Mercer",
-          "url": "https://www.mercer.com/de-de/solutions/retirement/zeitwertkonten-und-treuhandloesungen/",
-          "note": "Administration of complex ZWK and trustee coordination"
-        },
-        {
-          "title": "Zeitwertkonto Anbieter im Vergleich 2025 - PensExpert",
-          "url": "https://pensexpert.de/2025/07/07/zeitwertkonto-anbieter-im-vergleich/",
-          "note": "provider landscape / independent trustee solutions"
-        },
-        {
-          "title": "Foresight GmbH – Über die Foresight GmbH",
-          "url": "https://www.foresight.gmbh/foresight-gmbh/",
-          "note": "Owner-managed Zeitwertkonten pure-play since 2008 (Inhaber Heinz-Jürgen Zink)."
-        },
-        {
-          "title": "exit-coach – EBITDA Multiples nach Branche & Größe",
-          "url": "https://exit-coach.de/ebitda-multiples/",
-          "note": "German EBITDA-multiple benchmarks used to frame recurring-admin valuation."
-        }
-      ],
-      "confidence": 3,
-      "status": "verified",
-      "why_now": "",
-      "pe_activity": [],
-      "investability": "open",
-      "investability_note": "Independent Verwaltungs-/Treuhand-GmbHs (Deutsche Zeitwert, DBZWK, PensExpert, audalis); admin-fee model, freely acquirable, no dedicated PE consolidator yet.",
-      "actionable": {
-        "named_targets": [
-          {
-            "name": "Foresight GmbH",
-            "hq_region": "Germany (owner-managed by Heinz-Jürgen Zink)",
-            "note": "Clearly inhabergeführt: owner Heinz-Jürgen Zink has worked exclusively on Zeitwertkonten/Lebensarbeitszeit since 2008 — pure-play concept, insolvency-protection and administration specialist, independent of any insurer or consolidator."
-          },
-          {
-            "name": "Deutsche Beratungsgesellschaft für Zeitwertkonten und Lebensarbeitszeitmodelle mbH (DBZWK)",
-            "hq_region": "Germany",
-            "note": "Independent specialist since 2004 delivering the full stack — Konzeption, Administration, Wertkontenverwaltung and Treuhandschaft — 'aus einer Hand'; not owned by a bank/insurer."
-          }
-        ],
-        "ebitda_margin": "~25-40% — recurring, AUM/headcount-linked administration and trustee fees with very high client retention and modest incremental cost once the platform and trust structure are in place.",
-        "entry_multiple": "~8-11x EBITDA — small but sticky, tech-and-trust-based recurring revenue with high switching costs supports a premium to plain broker books; scarcity of qualified operators supports the upper end.",
-        "bnb_angle": "Acquire a Zeitwertkonten concept/trustee specialist as the platform and bolt on adjacent bAV administration and insolvency-protection (Treuhand) mandates, then cross-sell into corporate HR clients — a recurring, high-retention BPO where regulatory complexity is a moat.",
-        "key_risks": [
-          "Very small pool of qualified specialists and heavy key-person dependence (actuarial/legal/trustee know-how) — succession and retention are the core deal risk.",
-          "Regulatory and capital-market sensitivity (insolvency-protection/Treuhand rules, investment returns on the Wertkonten) can affect demand and fee levels."
-        ]
-      },
-      "child_ids": []
-    },
-    "insurance-brokerage-financial-services-value-chain/employee-benefits-occupational-pensions-bav/aktuarielle-bewertung-pensionsgutachten-direktzusage": {
-      "id": "insurance-brokerage-financial-services-value-chain/employee-benefits-occupational-pensions-bav/aktuarielle-bewertung-pensionsgutachten-direktzusage",
-      "name": "Aktuarielle Bewertung & Pensionsgutachten (Direktzusage)",
-      "parent_id": "insurance-brokerage-financial-services-value-chain/employee-benefits-occupational-pensions-bav",
-      "level": 2,
-      "path": [
-        "Insurance Brokerage & Financial Services value chain",
-        "Employee Benefits & Occupational Pensions (bAV)",
-        "Aktuarielle Bewertung & Pensionsgutachten (Direktzusage)"
-      ],
-      "value_chain_stage": "services",
-      "description": "Actuaries and consultancies producing versicherungsmathematische Gutachten for pension provisions (Pensionsrueckstellungen) under HGB/IFRS/US-GAAP, plus advice on funding via Rueckdeckungsversicherung and CTA. Legally required, annually recurring valuation work anchored on the Heubeck-Richttafeln.",
-      "scores": {
-        "recurring": 5,
-        "fragmentation": 4,
-        "compliance": 5,
-        "scale": 3,
-        "margin": 4,
-        "growth": 4,
-        "headroom": 4,
-        "reimbursement_risk": 1
-      },
-      "rationale": {
-        "recurring": "Direktzusagen require an annual actuarial valuation for each balance sheet — a mandatory recurring engagement per client.",
-        "fragmentation": "Heubeck is the reference for mortality tables but the valuation market includes many independent actuaries (e.g. Kolckmann, Hannoversche Kassen) alongside WTW/Mercer.",
-        "compliance": "§253 HGB / IAS 19 mandate actuarial measurement of pension liabilities; Heubeck-Richttafeln are the accepted biometric basis."
-      },
-      "composite": 79.2,
-      "dach_signals": {
-        "est_players": "dozens of actuarial firms + Big-3 consultancies",
-        "revenue_band_eur": "EUR 0.5-10m for independent actuarial practices",
-        "example_companies": [
-          "Heubeck AG",
-          "Aktuarbuero Mathilde Kolckmann",
-          "Hannoversche Kassen",
-          "WTW",
-          "Mercer"
-        ],
-        "regulation": [
-          "§253 HGB (Pensionsrueckstellungen)",
-          "IAS 19 / IFRS",
-          "Heubeck-Richttafeln",
-          "BilMoG"
-        ]
-      },
-      "sources": [
-        {
-          "title": "Versicherungsmathematische Gutachten - Heubeck AG",
-          "url": "https://www.heubeck.de/loesungen/analyse/versicherungsmathematische-gutachten/",
-          "note": "Actuarial valuation of pension obligations under HGB/IFRS; Heubeck-Richttafeln as biometric basis"
-        },
-        {
-          "title": "Pensionsgutachten - Aktuarbuero Mathilde Kolckmann",
-          "url": "https://www.mathilde-kolckmann.de/",
-          "note": "Independent actuary producing Pensionsgutachten and Rueckstellungsberechnungen"
-        },
-        {
-          "title": "Versicherungsmathematische Gutachten - Hannoversche Kassen",
-          "url": "https://www.hannoversche-kassen.de/betriebliche-altersversorgung/Versicherungsmathematische_Gutachten/",
-          "note": "Actuarial gutachten and Rueckdeckung treatment as Planvermoegen"
-        },
-        {
-          "title": "Pensionsgutachten - GBG Consulting",
-          "url": "https://gbg-consulting.de/versicherungsmathematische-gutachten/pensionsgutachten/",
-          "note": "Independent actuarial practice offering §6a EStG / §253 HGB pension valuations"
-        },
-        {
-          "title": "Pensionsgutachten - Neuburger und Partner",
-          "url": "https://www.neuburger.com/kompetenzen/pensionsgutachten/",
-          "note": "60-year owner-operated actuarial firm - fragmented long tail below Big-3"
-        },
-        {
-          "title": "DIOMEDEA AG – Versicherungsmathematische Gutachten / Pensionsrückstellungen",
-          "url": "https://www.diomedea-ag.com/pensionszusage/versicherungsmathematische-gutachten-pensionsrueckstellungen/",
-          "note": "Independent, commission-free actuarial practice (Ulrich Vierneisel, sworn expert) for Direktzusage valuations."
-        },
-        {
-          "title": "Mathilde Kolckmann – Versicherungsmathematische Gutachten",
-          "url": "https://mathilde-kolckmann.de/versicherungsmathematische-Gutachten",
-          "note": "Independent owner-operated DAV/IVS actuary, self-employed since 2011, §6a EStG / §253 HGB valuations."
-        },
-        {
-          "title": "Deal Origination DACH – EBITDA Multiples DACH",
-          "url": "https://dealorigination.de/en/ebitda-multiples-dach",
-          "note": "Benchmark EBITDA multiples across DACH sectors incl. professional/financial services."
-        },
-        {
-          "title": "DUB KMU Multiples 2024",
-          "url": "https://www.dub.de/kmu-multiples/",
-          "note": "SME/professional-services EBITDA multiple ranges used to bracket small actuarial-practice entry pricing."
-        }
-      ],
-      "confidence": 3,
-      "status": "verified",
-      "why_now": "",
-      "pe_activity": [],
-      "investability": "open",
-      "investability_note": "Independent aktuarielle Sachverstaendigen-/Consulting-GmbHs freely acquirable; only friction is DAV-qualified key-person (Aktuar) retention, not a licence bar.",
-      "actionable": {
-        "named_targets": [
-          {
-            "name": "Institut Prof. Dr. E. Neuburger & Partner GmbH",
-            "hq_region": "Munich (+ Nuremberg), Bavaria",
-            "note": "Owner-managed (inhabergeführt) actuarial/bAV consultancy, ~60 yrs, structured as a 7-partner Institut working purely on a fee basis; independent of insurers/consolidators."
-          },
-          {
-            "name": "DIOMEDEA AG",
-            "hq_region": "Germany (Baden-Württemberg region)",
-            "note": "Independent actuarial practice led by actuary & publicly sworn expert Ulrich Vierneisel; explicitly commission-free/independent, fast Pensionsgutachten turnaround for Direktzusage/Pensionsrückstellungen."
-          },
-          {
-            "name": "Aktuarbüro Mathilde Kolckmann",
-            "hq_region": "Lorch / Rheingau-Taunus, Hesse",
-            "note": "Sole-owner freelance actuary (DAV) and IVS-certified bAV expert, self-employed since 2011, 25+ yrs experience; genuinely independent boutique producing §6a EStG / §253 HGB pension valuations."
-          }
-        ],
-        "ebitda_margin": "Fee-based actuarial/bAV practices run ~25-35% owner-adjusted EBITDA margin (high recurring annual Gutachten renewals, low capital intensity), after normalising principal compensation.",
-        "entry_multiple": "Indicative ~5-8x EBITDA for small owner-run professional-services/actuarial firms in DACH (below broker-book levels; scarcity of qualified DAV/IVS actuaries can push the best assets higher).",
-        "bnb_angle": "Consolidate sub-scale, ageing owner-actuary practices into a single credentialed DAV/IVS bulk-valuation platform; standardise/automate the recurring annual Pensionsgutachten workflow and cross-sell into bAV administration and de-risking mandates for the same corporate clients.",
-        "key_risks": [
-          "Acute succession/key-person risk — value is the individual sworn actuary; DAV/IVS accreditation and client trust do not transfer automatically.",
-          "Commoditisation/price pressure on standard §6a/§253 pension valuations and competition from big-3 (WTW/Mercer/Aon) at the top end."
-        ]
-      },
-      "child_ids": []
-    },
     "insurance-brokerage-financial-services-value-chain/employee-benefits-occupational-pensions-bav/betriebliche-krankenversicherung-bkv-benefits-vermittlung": {
       "id": "insurance-brokerage-financial-services-value-chain/employee-benefits-occupational-pensions-bav/betriebliche-krankenversicherung-bkv-benefits-vermittlung",
       "name": "Betriebliche Krankenversicherung (bKV) & Benefits-Vermittlung",
@@ -3712,132 +3500,6 @@
       "investability": "restricted",
       "investability_note": "Third-party admin/outsourcing providers acquirable, but Pensionskassen are BaFin-regulated insurers (often mutual/member-owned) - only the servicing companies, not the vehicles, are buyable.",
       "actionable": {},
-      "child_ids": []
-    },
-    "insurance-brokerage-financial-services-value-chain/employee-benefits-occupational-pensions-bav/bav-verwaltungs-outsourcing-bpo-end-to-end-tpa": {
-      "id": "insurance-brokerage-financial-services-value-chain/employee-benefits-occupational-pensions-bav/bav-verwaltungs-outsourcing-bpo-end-to-end-tpa",
-      "name": "bAV-Verwaltungs-Outsourcing (BPO / End-to-End TPA)",
-      "parent_id": "insurance-brokerage-financial-services-value-chain/employee-benefits-occupational-pensions-bav",
-      "level": 2,
-      "path": [
-        "Insurance Brokerage & Financial Services value chain",
-        "Employee Benefits & Occupational Pensions (bAV)",
-        "bAV-Verwaltungs-Outsourcing (BPO / End-to-End TPA)"
-      ],
-      "value_chain_stage": "services",
-      "description": "Full-service outsourcing of employer pension administration across all Durchfuehrungswege plus Zeitwertkonten (ZWK) and Altersteilzeit (ATZ) — combining actuarial, billing, finance and risk modules. Employers hand over the whole back office under multi-year contracts.",
-      "scores": {
-        "recurring": 5,
-        "fragmentation": 3,
-        "compliance": 5,
-        "scale": 4,
-        "margin": 4,
-        "growth": 4,
-        "headroom": 4,
-        "reimbursement_risk": 2
-      },
-      "rationale": {
-        "recurring": "Multi-year BPO contracts with per-participant administration fees; providers run administration, billing and reporting continuously.",
-        "fragmentation": "A concentrated set of specialists (Lurse) and the Big-3 consultancies (WTW, Mercer, Aon) plus IT houses — mid-cap layer, few micro-players.",
-        "compliance": "Administration must satisfy BetrAVG duties, actuarial reporting and data protection; complexity of 5 Durchfuehrungswege drives outsourcing."
-      },
-      "composite": 74.2,
-      "dach_signals": {
-        "est_players": "~10-20 serious end-to-end TPAs/consultancies",
-        "revenue_band_eur": "EUR 5-100m+ (mid-cap consultancies)",
-        "example_companies": [
-          "Lurse",
-          "WTW Deutschland",
-          "Mercer Deutschland",
-          "Aon Deutschland",
-          "ets software"
-        ],
-        "regulation": [
-          "BetrAVG",
-          "DSGVO",
-          "§253 HGB / IAS 19 reporting",
-          "SGB IV (ZWK/ATZ)"
-        ]
-      },
-      "sources": [
-        {
-          "title": "bAV-Verwaltung IT und Outsourcing (pensions.industries)",
-          "url": "https://pensions.industries/dienstleister/bav-verwaltung-und-outsourcing/",
-          "note": "Provider directory for bAV administration and outsourcing incl. Lurse end-to-end bAV/ZWK/ATZ"
-        },
-        {
-          "title": "Gestaltung von Zeitwertkonten - WTW",
-          "url": "https://www.wtwco.com/de-de/solutions/products/gestaltung-von-zeitwertkonten",
-          "note": "Large consultancy offering design-through-administration outsourcing"
-        },
-        {
-          "title": "Software-Beratung fuer die bAV - DKbAV eG",
-          "url": "https://www.dkbav.de/leistungen-software-beratung.php",
-          "note": "Network of bAV service providers and administration software consulting"
-        },
-        {
-          "title": "bAV effizient managen: Outsourcing als Loesung? - Personalwirtschaft",
-          "url": "https://www.personalwirtschaft.de/themen/comp-ben/bav-effizient-managen-outsourcing-als-loesung-190089/",
-          "note": "structural outsourcing tailwind, cost/complexity drivers"
-        },
-        {
-          "title": "bAV und bKV Outsourcing - Pension Capital",
-          "url": "https://pensioncapital.de/bav-und-bkv-outsourcing/",
-          "note": "mid-cap end-to-end TPA example"
-        },
-        {
-          "title": "p.c.a.k. – Über uns / bixie bAV-Verwaltung",
-          "url": "https://www.pcak.de/ueber-uns.html",
-          "note": "Independent partner-run TPA; ~500 companies, ~25,000 commitments; operates bixie administration platform."
-        },
-        {
-          "title": "febs Consulting GmbH – Homepage",
-          "url": "https://www.febs-consulting.de/",
-          "note": "Independent Sachverständiger for bAV/Zeitwertkonten incl. administration and actuarial reports."
-        },
-        {
-          "title": "VM Vorsorge & Management – Über uns / Outsourcing",
-          "url": "https://www.vm-vorsorge.de/ueber-uns.html",
-          "note": "Independent, neutral bAV outsourcing with smart!bAV digital administration system."
-        },
-        {
-          "title": "Deal Origination DACH – EBITDA Multiples DACH",
-          "url": "https://dealorigination.de/en/ebitda-multiples-dach",
-          "note": "Multiple benchmarks for recurring-revenue services / financial services in DACH."
-        }
-      ],
-      "confidence": 3,
-      "status": "verified",
-      "why_now": "",
-      "pe_activity": [],
-      "investability": "open",
-      "investability_note": "Independent TPA/consultancy GmbHs (Lurse, Pension Capital, VM Vorsorge, cp partner); recurring admin/BPO fees not commission — freely acquirable, no dedicated PE platform yet.",
-      "actionable": {
-        "named_targets": [
-          {
-            "name": "p.c.a.k. pension & compensation consultants GmbH",
-            "hq_region": "Munich metropolitan region (remote-first)",
-            "note": "Partner/owner-managed bAV TPA and operator of the 'bixie' administration/calculation platform; ~500 client companies / ~25,000 pension commitments; independent (no insurer/consolidator owner)."
-          },
-          {
-            "name": "febs Consulting GmbH",
-            "hq_region": "Munich (Aschheim), Bavaria",
-            "note": "Independent bAV & Zeitwertkonten specialist / IVS Sachverständiger offering setup, restructuring and ongoing administration plus actuarial reports; owner-operated boutique."
-          },
-          {
-            "name": "VM Vorsorge & Management GmbH & Co. KG",
-            "hq_region": "Germany",
-            "note": "Independent, neutral bAV administration/outsourcing provider with proprietary digital system 'smart!bAV'; owner-run KG, not tied to an insurer or broker consolidator."
-          }
-        ],
-        "ebitda_margin": "Tech-enabled recurring bAV administration/BPO runs ~20-30% EBITDA margin at scale; sub-scale players lower until platform/automation leverage kicks in.",
-        "entry_multiple": "Indicative ~7-10x EBITDA — recurring per-commitment admin fees and high retention command a premium to plain broker books; software/platform-heavy TPAs (bixie/smart!bAV) can attract higher.",
-        "bnb_angle": "Buy one automation-led platform (proprietary admin software) as the hub, then bolt on smaller owner-run bAV consultancies/actuarial boutiques and migrate their manual books onto the single platform — turning project fee revenue into scalable recurring per-Anwartschaft SaaS+BPO revenue.",
-        "key_risks": [
-          "Long, migration-heavy onboarding and integration of legacy books onto one platform; data-quality and legacy-contract complexity slow synergies.",
-          "Competition from insurer-backed (Longial/ERGO, GBG/Gothaer) and PE-backed (CPP/Aventus) platforms plus big-3 consultancies for the same mandates."
-        ]
-      },
       "child_ids": []
     },
     "insurance-brokerage-financial-services-value-chain/financial-investment-advisory-distribution": {
@@ -5736,6 +5398,16 @@
           "title": "Deal Origination DACH – EBITDA Multiples DACH",
           "url": "https://dealorigination.de/en/ebitda-multiples-dach",
           "note": "Broker multiples 8-12x for €5-20m courtage; independent specialty books lower."
+        },
+        {
+          "title": "Frank Schubert Assekuranzmakler GmbH – Ihr Versicherungsmakler für Berlin",
+          "url": "https://www.fsa-24.de/",
+          "note": "DROPPED: FSA24 is a Berlin/Brandenburg GENERALIST broker (bAV, Kranken, Auto, Heim/Recht/Haftung, Firmenkunden), not the claimed Dresden Frachtführer-/Verkehrshaftungs-/CMR Fachmakler. Niche-fit and HQ claims fail."
+        },
+        {
+          "title": "Lampe & Schwartze Group – About us (owner-operated, transport underwriting since 1858)",
+          "url": "https://www.lampe-schwartze.de/about-us",
+          "note": "REPLACEMENT: partner/owner-led KG, one of Germany's largest owner-operated insurance firms and its largest transport-insurance underwriting agent; genuinely independent."
         }
       ],
       "confidence": 3,
@@ -5748,18 +5420,18 @@
         "named_targets": [
           {
             "name": "Speditions-Assekuranz Versicherungsmakler GmbH",
-            "hq_region": "near Hamburg (Schleswig-Holstein / HH metro)",
-            "note": "Family-run, free independent transport/forwarding specialist broker since 1987; serves forwarders/carriers/warehousemen across Europe, independent of consolidators."
+            "hq_region": "Hollenstedt, near Hamburg",
+            "note": "Family-run (2nd generation), free independent transport/forwarding specialist since 1985 (founder Peter Schlosser); serves Spediteure/Frachtführer/Logistik across Europe, independent of consolidators. VERIFIED independent."
           },
           {
             "name": "Schirmer Assekuranz Makler GmbH",
             "hq_region": "Essen, North Rhine-Westphalia",
-            "note": "Owner-managed specialist broker for transport & Verkehrshaftung (freight-forwarder/carrier liability, CMR, cargo); insurer-independent, not part of a broker group."
+            "note": "Owner-managed specialist broker for Transport & Verkehrshaftung (Speditions-/Frachtführerhaftung, CMR, Cargo); AG Essen HRB 18538, acts exclusively for clients, insurer-independent, not part of a broker group. VERIFIED independent."
           },
           {
-            "name": "Frank Schubert Assekuranzmakler GmbH (FSA24)",
-            "hq_region": "Dresden, Saxony",
-            "note": "Independent §34d broker specialised in Frachtführer-/Verkehrshaftung & CMR cover with own online tariff engine; owner-named GmbH, no consolidator/insurer parent."
+            "name": "Lampe & Schwartze KG",
+            "hq_region": "Bremen",
+            "note": "REPLACEMENT for Frank Schubert Assekuranzmakler. Owner-operated partner-led group (founded 1858; five personally liable partners), Germany's largest underwriting agent for Transportversicherung / marine — a core transport-&-marine specialist, independent of any consolidator/insurer/PE."
           }
         ],
         "ebitda_margin": "Owner-operated specialty transport broker books typically ~25-35% adjusted EBITDA margin (recurring Bestandscourtage, low fixed cost).",
@@ -6821,220 +6493,6 @@
           "Interest-rate/capital-market sensitivity of guarantee and Wertkonten investment models; regulatory change on insolvency protection (SGB IV)."
         ]
       },
-      "child_ids": []
-    },
-    "insurance-brokerage-financial-services-value-chain/employee-benefits-occupational-pensions-bav/unterstuetzungskassen-verwaltung-inkl-pauschaldotierte-u-kasse": {
-      "id": "insurance-brokerage-financial-services-value-chain/employee-benefits-occupational-pensions-bav/unterstuetzungskassen-verwaltung-inkl-pauschaldotierte-u-kasse",
-      "name": "Unterstuetzungskassen-Verwaltung (inkl. pauschaldotierte U-Kasse)",
-      "parent_id": "insurance-brokerage-financial-services-value-chain/employee-benefits-occupational-pensions-bav",
-      "level": 2,
-      "path": [
-        "Insurance Brokerage & Financial Services value chain",
-        "Employee Benefits & Occupational Pensions (bAV)",
-        "Unterstuetzungskassen-Verwaltung (inkl. pauschaldotierte U-Kasse)"
-      ],
-      "value_chain_stage": "services",
-      "description": "Errichtung und laufende Verwaltung von Gruppen- und pauschaldotierten Unterstuetzungskassen (pdUK) als versicherungsfreiem Durchfuehrungsweg der bAV – inkl. Rentenabwicklung, Gutachten und PSV-Handling. Stark spezialisierte, teils kanzleinahe Anbieter mit wiederkehrenden Verwaltungsentgelten.",
-      "scores": {
-        "recurring": 5,
-        "fragmentation": 4,
-        "compliance": 5,
-        "scale": 3,
-        "margin": 4,
-        "growth": 4,
-        "headroom": 5,
-        "reimbursement_risk": 2
-      },
-      "rationale": {
-        "recurring": "Kasse verwaltet laufende Renten- und Anwartschaftsfaelle gegen Entgelt ueber Jahrzehnte.",
-        "fragmentation": "Viele kleine spezialisierte Anbieter (AUTHENT, Deutsche Unterstuetzungskasse) neben Versicherer-Gruppenkassen; stark fragmentiert.",
-        "compliance": "BetrAVG, EStG §4d, PSV-Insolvenzsicherung und steuerliche Anerkennung treiben den Verwaltungsbedarf."
-      },
-      "composite": 74.2,
-      "dach_signals": {
-        "est_players": "~50+ Gruppen-/pauschaldotierte U-Kassen und Verwalter",
-        "revenue_band_eur": "EUR 0.5-5m typisch bei Spezialverwaltern",
-        "example_companies": [
-          "AUTHENT-Gruppe (pdUK, Nuernberg)",
-          "Deutsche Unterstuetzungskasse",
-          "WTW (Gruppen-Unterstuetzungskassen)"
-        ],
-        "regulation": [
-          "BetrAVG",
-          "EStG §4d",
-          "PSVaG-Insolvenzsicherung"
-        ]
-      },
-      "sources": [
-        {
-          "title": "Pauschaldotierte Unterstuetzungskasse – AUTHENT-Gruppe",
-          "url": "https://authent-gruppe.de/pauschaldotierte-unterstuetzungskasse-pduk/",
-          "note": "Hochspezialisierter Anbieter (Nuernberg) fuer pauschaldotierte Unterstuetzungskassen"
-        },
-        {
-          "title": "Gruppen-Unterstuetzungskassen – WTW",
-          "url": "https://www.wtwco.com/de-de/solutions/products/gruppen-unterstuetzungskassen",
-          "note": "Beratung, Produktauswahl und Verwaltung von Unterstuetzungskassen-Leistungen"
-        },
-        {
-          "title": "DUK Deutsche Unterstuetzungskasse",
-          "url": "https://www.deutsche-unterstuetzungskasse.de/",
-          "note": "Unabhaengige, kongruent rueckgedeckte Unterstuetzungskasse als fuehrender Anbieter"
-        },
-        {
-          "title": "Raus aus der pauschaldotierten Unterstuetzungskasse - IPM",
-          "url": "https://www.ipm-bav.de/fachinfos/ipm-aktuell/pauschaldotierte-unterstuetzungskasse/",
-          "note": "IPM as specialist administrator; outsourced Rechts-/Steuer-/Verwaltungs-Backoffice"
-        },
-        {
-          "title": "Bundesverband pauschaldotierte Unterstuetzungskasse",
-          "url": "https://bundesverband-pduk.de/pauschaldotierte-unterstuetzungskasse/",
-          "note": "~50+ groups/administrators; niche with no PE consolidator, bAV tailwind"
-        }
-      ],
-      "confidence": 3,
-      "status": "verified",
-      "why_now": "",
-      "pe_activity": [],
-      "investability": "restricted",
-      "investability_note": "Administration/back-office GmbHs (AUTHENT, IPM) acquirable, but the U-Kasse vehicle itself is typically member-owned e.V. - ownership sits in the admin GmbH, not the Kasse.",
-      "actionable": {},
-      "child_ids": []
-    },
-    "insurance-brokerage-financial-services-value-chain/employee-benefits-occupational-pensions-bav/digitale-bav-saas-tpa-plattformen": {
-      "id": "insurance-brokerage-financial-services-value-chain/employee-benefits-occupational-pensions-bav/digitale-bav-saas-tpa-plattformen",
-      "name": "Digitale bAV-SaaS- / TPA-Plattformen",
-      "parent_id": "insurance-brokerage-financial-services-value-chain/employee-benefits-occupational-pensions-bav",
-      "level": 2,
-      "path": [
-        "Insurance Brokerage & Financial Services value chain",
-        "Employee Benefits & Occupational Pensions (bAV)",
-        "Digitale bAV-SaaS- / TPA-Plattformen"
-      ],
-      "value_chain_stage": "software",
-      "description": "Cloud-Plattformen fuer die digitale, revisionssichere Verwaltung von bAV ueber alle Durchfuehrungswege, mit Schnittstellen zu HR-/Lohnsystemen (DATEV, SAP, Personio) – von reiner SaaS bis zum vollstaendigen System-Outsourcing. Wiederkehrende Lizenz-/Transaktionsumsaetze.",
-      "scores": {
-        "recurring": 5,
-        "fragmentation": 3,
-        "compliance": 4,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
-      },
-      "rationale": {
-        "recurring": "SaaS-Abonnements und Pro-Kopf-Verwaltungsgebuehren binden Kunden langfristig.",
-        "fragmentation": "Grosse Player (Xempus/ehem. xbAV) neben mittelstaendischen Anbietern wie E&R AG und PCaK/bixie – konsolidierbarer Mittelbau.",
-        "compliance": "DSGVO-Konformitaet, revisionssichere Dokumentation und arbeits-/steuerrechtliche Abbildung getrieben, aber Software selbst nicht gesetzlich vorgeschrieben."
-      },
-      "composite": 75.0,
-      "dach_signals": {
-        "est_players": "~10-20 bAV-Software-/Plattformanbieter",
-        "revenue_band_eur": "EUR 2-30m (bis Scale-up-Groesse)",
-        "example_companies": [
-          "Entgelt & Rente AG (E&R)",
-          "PCaK / bixie",
-          "Xempus (ehem. xbAV)"
-        ],
-        "regulation": [
-          "DSGVO",
-          "BetrAVG",
-          "Digitale Rentenuebersicht (RentUEG)"
-        ]
-      },
-      "sources": [
-        {
-          "title": "bixie – bAV Software fuer digitale integrierte Verwaltung",
-          "url": "https://bixie.de/",
-          "note": "Cloud-basiertes bAV-Verwaltungssystem ueber alle Durchfuehrungswege, API zu DATEV/SAP/Personio"
-        },
-        {
-          "title": "E&R AG Cloudloesung – Software und Dienstleistung fuer HR",
-          "url": "https://er-ag.de/",
-          "note": "SaaS bis komplettes System-Outsourcing (TOS) fuer bAV und Entgeltabrechnung, seit 1998"
-        },
-        {
-          "title": "Aus xbAV wird Xempus",
-          "url": "https://www.experten.de/id/4921424/aus-xbav-wird-xempus/",
-          "note": "Fuehrende bAV-Digitalisierungsplattform, >50m EUR Wachstumsfinanzierung, Umbenennung zu Xempus"
-        }
-      ],
-      "confidence": 4,
-      "status": "grounded",
-      "why_now": "",
-      "pe_activity": [],
-      "investability": "open",
-      "investability_note": "",
-      "actionable": {},
-      "child_ids": []
-    },
-    "insurance-brokerage-financial-services-value-chain/employee-benefits-occupational-pensions-bav/betriebliche-krankenversicherung-bkv-benefits-plattformen": {
-      "id": "insurance-brokerage-financial-services-value-chain/employee-benefits-occupational-pensions-bav/betriebliche-krankenversicherung-bkv-benefits-plattformen",
-      "name": "Betriebliche Krankenversicherung (bKV) & Benefits-Plattformen",
-      "parent_id": "insurance-brokerage-financial-services-value-chain/employee-benefits-occupational-pensions-bav",
-      "level": 2,
-      "path": [
-        "Insurance Brokerage & Financial Services value chain",
-        "Employee Benefits & Occupational Pensions (bAV)",
-        "Betriebliche Krankenversicherung (bKV) & Benefits-Plattformen"
-      ],
-      "value_chain_stage": "services",
-      "description": "Beratung, Vermittlung und laufende Verwaltung arbeitgeberfinanzierter betrieblicher Krankenversicherung (bKV) und weiterer Mitarbeiter-Benefits ueber Spezialmakler und digitale Plattformen mit Marktvergleich, Einfuehrung und Bestandsadministration.",
-      "scores": {
-        "recurring": 4,
-        "fragmentation": 4,
-        "compliance": 3,
-        "scale": 0,
-        "margin": 0,
-        "growth": 0,
-        "headroom": 0,
-        "reimbursement_risk": 0
-      },
-      "rationale": {
-        "recurring": "Laufende Bestandsverwaltung und jaehrliche Vertragsbetreuung mit wiederkehrenden Courtagen/Servicegebuehren.",
-        "fragmentation": "Viele spezialisierte bKV-Makler und Plattformen (ofelos, Deutscher bKV-Service) neben Versicherern – stark fragmentiert.",
-        "compliance": "Reguliert (VVG, §34d GewO Maklerpflichten), aber bKV ist freiwillige Arbeitgeberleistung, nicht gesetzlich vorgeschrieben."
-      },
-      "composite": 66.7,
-      "dach_signals": {
-        "est_players": "~60.000 Unternehmen mit bKV (2025); zahlreiche Spezialmakler/Plattformen",
-        "revenue_band_eur": "EUR 0.5-5m typisch bei Spezialmaklern/Plattformen",
-        "example_companies": [
-          "ofelos",
-          "Deutscher bKV-Service (dbkvs)",
-          "Pension Capital (bKV-Outsourcing)"
-        ],
-        "regulation": [
-          "VVG",
-          "GewO §34d",
-          "DSGVO"
-        ]
-      },
-      "sources": [
-        {
-          "title": "Diese Anbieter fuer die betriebliche Krankenversicherung gibt es – ofelos",
-          "url": "https://ofelos.net/betriebliche-krankenversicherung-anbieter",
-          "note": "Digitale Plattform: Marktvergleich, Beratung, Einfuehrung und laufende Verwaltung der bKV; 60.000 Unternehmen mit bKV in 2025"
-        },
-        {
-          "title": "bKV betriebliche Krankenversicherung – Deutscher bKV-Service",
-          "url": "https://dbkvs.de/",
-          "note": "Spezialisierter bKV-Dienstleister fuer Arbeitgeber"
-        },
-        {
-          "title": "bAV und bKV Outsourcing – Pension Capital",
-          "url": "https://pensioncapital.de/bav-und-bkv-outsourcing/",
-          "note": "Verwaltungs-Outsourcing auch fuer bKV-Bestaende"
-        }
-      ],
-      "confidence": 3,
-      "status": "grounded",
-      "why_now": "",
-      "pe_activity": [],
-      "investability": "open",
-      "investability_note": "",
-      "actionable": {},
       "child_ids": []
     },
     "insurance-brokerage-financial-services-value-chain/claims-loss-adjusting-ancillary-services/leckortung-wasserschaden-erstservice-leak-detection": {

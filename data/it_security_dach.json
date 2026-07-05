@@ -3186,6 +3186,21 @@
           "title": "EBITDA Multiples DACH (Deal Origination)",
           "url": "https://dealorigination.de/en/ebitda-multiples-dach",
           "note": "DACH SME EV/EBITDA benchmark; small-scale discount applies."
+        },
+        {
+          "title": "ER Secure GmbH, Gruenwald - Handelsregister/Companyhouse",
+          "url": "https://www.companyhouse.de/ER-Secure-GmbH-Gruenwald",
+          "note": "REASON DROPPED: ER Secure GmbH is NOT active - dissolved / in liquidation. Insolvency proceedings rejected for lack of assets by AG Muenchen (1542 IN 578/24) dated 13.05.2024; Rene Rautenberg now listed only as Liquidator. Fails the 'real & active' test."
+        },
+        {
+          "title": "ViCoTec - Ueber uns / seit 1994, unabhaengig",
+          "url": "https://www.vicotec.de/ueber-uns.html",
+          "note": "KEPT: owner-managed since 1994 (GF Thorsten Brendel), pure independent DSB/IT-security consultancy, healthcare clients. Independence confirmed."
+        },
+        {
+          "title": "Althammer & Kill - Ueber uns (founders, healthcare focus)",
+          "url": "https://www.althammer-kill.de/unternehmen/ueber-uns",
+          "note": "replacement: founder/partner-owned (Thomas Althammer & Niels Kill, founded 2014), independent external-DSB firm with dedicated Gesundheitswesen practice (Krankenhaeuser/Kliniken), 700+ clients; not PE/roll-up/listed."
         }
       ],
       "confidence": 3,
@@ -3197,19 +3212,19 @@
       "actionable": {
         "named_targets": [
           {
-            "name": "ER Secure GmbH",
-            "hq_region": "Grünwald (München); branches Berlin, Düsseldorf, Zossen",
-            "note": "Founder-owned (René Rautenberg, founded 2014), external DSB specialised in healthcare / sensitive patient data (Arztpraxen, Kliniken); independent, not PE/listed."
-          },
-          {
             "name": "ViCoTec IT-Sicherheit & Datenschutz GmbH & Co. KG",
             "hq_region": "Oldenburg (Nordwest)",
-            "note": "Owner-run since 1994 (GF Thorsten Brendel), 250+ SME clients, explicit healthcare focus (Praxen, Kliniken, Pflegedienste); family/owner-operated, independent."
+            "note": "Owner-run since 1994 (GF Thorsten Brendel); in 2016 spun off software arm to become a pure, neutral/independent DSB & IT-security consultancy for owner-managed firms, 250+ SME clients incl. larger medical practices/clinics. Verified independent, not PE/listed."
           },
           {
             "name": "Datenschutz & Gesundheit (Inh. Henning Zander)",
             "hq_region": "Hannover (serves Praxen/Apotheken bundesweit)",
-            "note": "Owner-operated boutique (Diplomjurist, TÜV-cert. DSB) exclusively serving medical/dental practices & pharmacies; small but a clean sector-pure tuck-in."
+            "note": "Owner-operated boutique (Diplomjurist, TUEV-cert. externer DSB & Auditor) exclusively serving Aerzte/Zahnaerzte/Psychotherapeuten & Apotheken; verified sector-pure, independent tuck-in."
+          },
+          {
+            "name": "Althammer & Kill GmbH & Co. KG",
+            "hq_region": "Hannover (plus Duesseldorf & Mannheim offices)",
+            "note": "REPLACEMENT for dropped ER Secure. Founder/partner-owned (Thomas Althammer & Niels Kill, founded 2014); external DSB / info-security consultancy with explicit healthcare & social-sector focus (Krankenhaeuser, Reha-Kliniken), 700+ clients. Owner-operated GmbH & Co. KG, not PE/strategic/listed."
           }
         ],
         "ebitda_margin": "~15-25% EBITDA; per-practice retainers of a few hundred EUR/month keep ticket sizes small but recurring.",
@@ -7035,6 +7050,21 @@
           "title": "fraghugo – externer DSB Arztpraxen ab 79 EUR/Monat",
           "url": "https://www.fraghugo.de/externer-datenschutzbeauftragter-arztpraxen/",
           "note": "Evidence of low-cost commoditisation / price pressure at entry level."
+        },
+        {
+          "title": "ER Secure GmbH, Grünwald – Handelsregister status (Amtsgericht München HRB 238590)",
+          "url": "https://www.companyhouse.de/ER-Secure-GmbH-Gruenwald",
+          "note": "REASON DROPPED: ER Secure GmbH is NOT active — insolvency proceedings rejected for lack of assets on 13.05.2024, company dissolved (aufgelöst); René Rautenberg served as liquidator (Liquidator) 10.07.2024–07.01.2025. Fails the 'real and active' test."
+        },
+        {
+          "title": "Gesundheitsdatenschutz – Datenschutz im Gesundheitswesen | Integrity GmbH",
+          "url": "https://integrity.gmbh/gesundheitsdatenschutz",
+          "note": "replacement: Integrity GmbH – independent, founder/MD-led external DPO (Dr. Eric Heitzer, AG Aachen HRB 22709) with explicit healthcare specialisation (Arztpraxen, MVZ, Kliniken, Pflege, Pharma). Not PE-owned, not a subsidiary, not part of a roll-up."
+        },
+        {
+          "title": "Impressum | Integrity GmbH",
+          "url": "https://integrity.gmbh/impressum",
+          "note": "Confirms independence: Geschäftsführer Dr. Eric Heitzer, Amtsgericht Aachen HRB 22709 — owner-managed GmbH, no strategic/PE parent."
         }
       ],
       "confidence": 3,
@@ -7046,19 +7076,14 @@
       "actionable": {
         "named_targets": [
           {
-            "name": "ER Secure GmbH",
-            "hq": "Grünwald / München, DE",
-            "note": "Founder/MD René Rautenberg; external-DPO provider with explicit healthcare (patient-data / § 203 StGB) specialisation and its own DSGVO management tool. Independent, owner-led."
-          },
-          {
-            "name": "ViCoTec (Vico Consult)",
-            "hq": "Oldenburg region, DE",
-            "note": "Owner-operated external DPO with 20+ years' experience advising ~250 SMEs, dedicated Gesundheitswesen practice (Arztpraxen, Kliniken, Pflege). Neutral/independent, not PE-owned."
+            "name": "ViCoTec (ViCoTec IT-Sicherheit & Datenschutz GmbH & Co. KG)",
+            "hq_region": "Oldenburg region, DE",
+            "note": "Owner-operated external DPO with 20+ years' experience, dedicated Gesundheitswesen practice (Arztpraxen, Kliniken, Apotheken, Pflege). Independent, not PE-owned."
           },
           {
             "name": "OBSECOM GmbH",
-            "hq": "Stuttgart, DE",
-            "note": "Independent external DPO/ISB team, GDD-certified, with a healthcare sector focus (Kliniken, Pflege, Arzt-/Gemeinschaftspraxen). Not part of a roll-up."
+            "hq_region": "Stuttgart, DE",
+            "note": "Independent external DPO/ISB team, GDD-certified, with explicit healthcare focus (Arztpraxen, Gemeinschaftspraxen, Kliniken, Pflege). Owner/partner-led, not part of a roll-up."
           }
         ],
         "ebitda_margin": "~15-25% typical for retainer-based external-DPO practices (people-light, high billable utilisation); productised/tool-supported models (fixed monthly fees per practice) can exceed this at scale.",
