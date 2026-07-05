@@ -524,6 +524,26 @@
           "title": "Versicherungsbote - Maklerbüros Umsatz/Gewinn 2022",
           "url": "https://www.versicherungsbote.de/id/4939604/Maklerkonsolidierung-in-Deutschland-Entwicklungen-und-Perspektiven/",
           "note": "Avg broker revenue EUR 510k / pre-tax profit EUR 174k 2022 (~34% margin proxy)."
+        },
+        {
+          "title": "GGW übernimmt Bernhard Assekuranzmakler - Versicherungsjournal",
+          "url": "https://www.versicherungsjournal.de/unternehmen-und-personen/ggw-uebernimmt-bernhard-assekuranzmakler-149836.php",
+          "note": "DROPPED Bernhard Assekuranz: confirmed acquired by GGW Group / part of Leading Brokers United (LBU) - on avoid-list. Replaced with Dirrigl & Partner."
+        },
+        {
+          "title": "Baubranche - Versicherungsmakler Dirrigl & Partner",
+          "url": "https://www.dirrigl-partner.de/branchen/baubranche/",
+          "note": "Replacement Dirrigl & Partner: independent owner-operated broker with construction-industry practice, Regensburg."
+        },
+        {
+          "title": "Impressum - VOSDELLEN Versicherungsmakler GmbH",
+          "url": "https://vosdellen.de/impressum/",
+          "note": "VOSDELLEN retained - Gesellschafter/GF Heribert Vosdellen, independent Bau-specialist."
+        },
+        {
+          "title": "Impressum - HVV-Heitmann Bauversicherungsmakler",
+          "url": "https://www.bauversicherungsmakler.de/impressum",
+          "note": "HVV Heitmann retained - MD Mandy Heitmann, no insurer participation, independent."
         }
       ],
       "confidence": 4,
@@ -537,17 +557,17 @@
           {
             "name": "VOSDELLEN Versicherungsmakler GmbH",
             "hq_region": "Mönchengladbach / Niederrhein (DE)",
-            "note": "Owner-managed by shareholder-MD Heribert Vosdellen; 40+ yrs working exclusively for mid-sized construction companies and building-material producers - independent broker, no insurer/consolidator ties."
+            "note": "Owner-managed by shareholder Heribert Vosdellen; specialist for Bauunternehmen/Baugewerbe since 1982, acts unbound to any insurer. Impressum confirms no insurer >10% stake - independent."
           },
           {
             "name": "HVV Heitmann Versicherungsmakler und Vermögensberatung GmbH",
             "hq_region": "Olfen / Münsterland (DE)",
-            "note": "Family-led (Mandy Heitmann), specialist broker for the Bau- und Planungsbranche (architects, engineers, contractors) for 40+ yrs; single-shareholder GmbH, independent."
+            "note": "Family-led (MD Mandy Heitmann, HRB 7638 Coesfeld), Fachmakler for the Bau- und Planungsbranche 40+ yrs. Impressum states no insurer participation >10% - independent."
           },
           {
-            "name": "Bernhard Assekuranz (BERNHARD Assekuranzmakler GmbH)",
-            "hq_region": "Sauerlach near Munich (DE)",
-            "note": "Family-owned across three generations, free/unbound broker with a dedicated Baugewerbe/Baustoffindustrie practice; not PE-backed, not part of a consolidator."
+            "name": "Dirrigl & Partner GmbH",
+            "hq_region": "Regensburg (Bavaria, DE)",
+            "note": "REPLACEMENT for Bernhard Assekuranz. Owner-operated independent Industriemakler (geschäftsführender Gesellschafter Bernhard Dirrigl, HRB 4357 Regensburg), 75+ yrs, dedicated Baubranche/Handwerk practice; not PE/insurer/consolidator-owned."
           }
         ],
         "ebitda_margin": "~25-35% on commercial P&C books; German broker firms averaged EUR 510k revenue / EUR 174k pre-tax profit in 2022 (~34% pre-tax), niche construction books at the upper end.",
@@ -771,6 +791,21 @@
           "title": "AgroSecur controlled by FidesSecur (excluded)",
           "url": "https://firmeneintrag.creditreform.de/10179/2011913141/AGROSECUR_VERSICHERUNGSMAKLER_GMBH",
           "note": "Evidence AgroSecur is a FidesSecur subsidiary - excluded from independent targets."
+        },
+        {
+          "title": "Partner - gvf VersicherungsMakler AG",
+          "url": "https://gvf.de/unsere-partner/",
+          "note": "DROPPED DAV Deutsche Agrar Versicherungsmakler GmbH: it is a subsidiary within the gvf Group (acquired/founded by gvf in 2023; MD Harald Herrmann also sits on gvf's board) - not an independent stand-alone target, and redundant with gvf which is already listed."
+        },
+        {
+          "title": "AgroSecur Unternehmen (rejected replacement)",
+          "url": "https://www.agrosecur.de/unternehmen/historie/",
+          "note": "NOT added: AgroSecur is co-owned by insurer Versicherungskammer Bayern and controlled by FidesSecur (Munich) - fails insurer-independence test."
+        },
+        {
+          "title": "Global Agrar & Wein Assekuranz - GLOBAL Group (rejected replacement)",
+          "url": "https://www.global-agrar-wein.com/",
+          "note": "NOT added: bvm Bartz / Global Agrar & Wein joined GLOBAL Group (a top-4 industrial/mid-market broker consolidator) on 1 Jan 2024 - fails independence test. Independent agri-broker pool is genuinely thin (most are insurer/co-op/consolidator-tied), so only 2 verified names kept rather than padding."
         }
       ],
       "confidence": 3,
@@ -783,18 +818,13 @@
         "named_targets": [
           {
             "name": "gvf VersicherungsMakler AG",
-            "hq_region": "Wittenburg (Mecklenburg-Vorpommern)",
-            "note": "Founded 1990 by Christoph Herrmann; owner-managed, independent agri specialist and market leader in East Germany (~EUR 70m premium volume, ~2,350 farm clients). Not consolidator- or insurer-owned."
+            "hq_region": "Chemnitz (Saxony, DE)",
+            "note": "Founded 1990 by Christoph Herrmann; owner/family-managed (Herrmann family on the board), independent agri market leader in East Germany (~2,350 farm clients). Not consolidator- or insurer-owned."
           },
           {
             "name": "AGRAR Versicherungsmakler GmbH & Co. KG",
-            "hq_region": "Salzweg (Passau, Bavaria)",
-            "note": "Independent family KG (Komplementaer Konrad Leirich, HRA 11261 Passau) specialised in farm insurance; VEMA-cooperative member (pool access only, not ownership)."
-          },
-          {
-            "name": "DAV Deutsche Agrar Versicherungsmakler GmbH",
-            "hq_region": "Chemnitz (Saxony)",
-            "note": "Independent specialist broker for large agricultural operations; a separate GmbH that partners with (is not owned by) the gvf network."
+            "hq_region": "Salzweg (Passau, Bavaria, DE)",
+            "note": "Independent family KG (HRA 11261 Passau, Leirich family) specialised in farm insurance; VEMA-cooperative member (pool access only, not ownership). Note: Komplementär succession registered March 2026."
           }
         ],
         "ebitda_margin": "~20-30% EBITDA typical for agri specialist broker books.",
@@ -3375,6 +3405,21 @@
           "title": "ARISECUR ownership by blau direkt",
           "url": "https://www.blaudirekt.de/blog/2015/03/wie-oesterreichische-makler-unsere-tochter-arisecur-sehen/",
           "note": "Evidence ARISECUR (excluded) is a blau direkt subsidiary - supports scarcity of independents."
+        },
+        {
+          "title": "TOGETHER CCA GmbH - Eigentuemer/Gesellschafter (firmenabc.at)",
+          "url": "https://www.firmenabc.at/together-cca-gmbh_wLe",
+          "note": "REASON DROPPED: TOGETHER CCA is NOT independent - it is an insurer/broker-consortium JV. Shareholders include UNIQA Oesterreich (22.59%), Wiener Staedtische (12.49%), DONAU Versicherung (12.50%), GrECo International Holding AG (broker consolidator, 10.01%), Atos and KAPA. Fails 'genuinely independent' (insurer-owned + broker-group owned). Replaced with founder/family-owned AT pools."
+        },
+        {
+          "title": "g&o brokernet - Ueber uns",
+          "url": "https://go-brokernet.at/ueber-uns/",
+          "note": "Replacement 1: owner-operated, familial, independent of investor interests; founders Orasche & Gandler, brokers keep 100% of client base."
+        },
+        {
+          "title": "VERAG Versicherungsmakler - Ueber uns",
+          "url": "https://verag.at/ueber-uns",
+          "note": "Replacement 2: independent, founder/family-controlled Austrian broker pool (Mittendorfer family + operating partners), no PE/consolidator/insurer parent."
         }
       ],
       "confidence": 2,
@@ -3386,9 +3431,14 @@
       "actionable": {
         "named_targets": [
           {
-            "name": "TOGETHER CCA GmbH",
-            "hq_region": "Vienna (Austria)",
-            "note": "Independent Austrian broker-tech / Bestandsverwaltung and comparison platform serving intermediaries across AT (and DACH) for 25+ years; owned via TOGETHER Internet Services / CCA EDV, not a broker consolidator or insurer. MD Gerhard Schuster."
+            "name": "g&o brokernet GmbH",
+            "hq_region": "Salzburg (Austria)",
+            "note": "Owner-operated, family-run Austrian broker network/pool with own digital platform; explicitly independent of any investor interests, partners retain 100% of their client base. Founded by Herbert Orasche and Walter Gandler; Herbert Orasche is MD and principal shareholder (Gandler retired Feb 2025, remains shareholder). Not insurer/consolidator-owned."
+          },
+          {
+            "name": "VERAG Versicherungsmakler GmbH",
+            "hq_region": "Austria (Vienna)",
+            "note": "Independent Austrian broker/'Makler fuer Makler' pool serving independent brokers; founder/family and owner-operated (Mittendorfer family plus operating partners such as Michael Degen). No PE, consolidator or insurer parent. Secondary name given thin genuinely-independent AT/CH pool pool."
           }
         ],
         "ebitda_margin": "~25-40% for platform/software-led revenue (recurring licence + transaction fees).",
@@ -4713,6 +4763,16 @@
           "title": "WealthSummit - FINMA-licensed EAMs & valuation multiples",
           "url": "https://wealthsummit.ch/finma-licensed-eam-switzerland/",
           "note": "5-6x EBITDA for <CHF 500m AuM; 10-15x+ for larger auctioned franchises; ~1,309 licensed EAMs late 2025."
+        },
+        {
+          "title": "REYL & Cie acquires stake in 1875 Finance",
+          "url": "https://www.reyl.com/en/reyl-cie-acquires-stake-1875-finance",
+          "note": "DROPPED 1875 Finance: REYL & Cie (owned by Intesa Sanpaolo bank group) holds a 40% stake - no longer a genuinely bank-independent EAM. Replaced with Bruellan."
+        },
+        {
+          "title": "About us - Bruellan",
+          "url": "https://www.bruellan.ch/en/about-us/",
+          "note": "Replacement Bruellan: founder-owned independent asset manager, FINMA-approved 2008, Geneva."
         }
       ],
       "confidence": 4,
@@ -4726,17 +4786,17 @@
           {
             "name": "Tareno AG",
             "hq_region": "Basel / Zurich / Luxembourg (CH)",
-            "note": "Owner-managed by three active partners, ~CHF 3.3bn AuM, FINMA-regulated collective asset manager; repeatedly BILANZ 'Vermögensverwalter des Jahres' - independent, not PE/bank-owned."
+            "note": "Owner-managed by three active partners, ~CHF 3.3bn AuM, FINMA-licensed (KAG); repeated BILANZ Vermögensverwalter des Jahres. Independent, not bank/PE-owned - structured internal succession."
           },
           {
             "name": "Format Vermögen & Anlagen AG",
             "hq_region": "Widnau (SG) / Zurich / Basel / Lucerne (CH)",
-            "note": "Owner-managed independent FINMA-licensed asset manager (founded 2012 as Trail Consulting, renamed 2020); Swiss-equity / international-bond focus."
+            "note": "Owner-managed independent FINMA-licensed asset manager (founded 2012 as Trail Consulting, renamed 2020); BILANZ Asset Manager of the Year 2024. No group/bank owner."
           },
           {
-            "name": "1875 Finance SA",
-            "hq_region": "Geneva / Zurich / Luxembourg (CH)",
-            "note": "Founder-controlled (four co-founders retain ~60%), ~CHF 13bn AuM MFO/EAM; independent - note a minority strategic partnership with REYL & Cie, so verify cap-table before approach."
+            "name": "Bruellan SA",
+            "hq_region": "Geneva / Crans-Montana / Martigny / Gstaad (CH)",
+            "note": "REPLACEMENT for 1875 Finance. Founder-owned independent Swiss wealth manager (taken over 2001 by Antoine Spillmann & Jean-Paul Tissières), FINMA-licensed since 2008, ~CHF 2bn AuM; not bank/PE-owned."
           }
         ],
         "ebitda_margin": "Wide dispersion: scaled EAMs run healthy AuM-fee margins, but sub-scale boutiques (<CHF 500m AuM) face structural margin pressure from FINIG compliance costs (Deloitte).",

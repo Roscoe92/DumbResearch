@@ -6493,6 +6493,21 @@
           "title": "Viaductus - Valuation Multiples IT-Services 2025",
           "url": "https://www.viaductus.de/en-US/knowledge/topics/it-services/multiples",
           "note": "Recurring managed-services premium vs. classical Systemhaus multiples."
+        },
+        {
+          "title": "SPG übernimmt Gromnitza Systemhaus (CRN)",
+          "url": "https://www.crn.de/news/2025/spg-ubernimmt-gromnitza-systemhaus",
+          "note": "DROPPED Gromnitza Systemhaus GmbH: in April 2025 it joined/was acquired by the Software Partners Group (SPG) roll-up (Oliver Gromnitza now co-shareholder of SPG, company integrated into the group). No longer a standalone independent SME."
+        },
+        {
+          "title": "Gromnitza Systemhaus wird Teil der Software Partners Group",
+          "url": "https://www.gromnitza.de/aktuelles/spg",
+          "note": "Confirms Gromnitza is now part of the SPG group (roll-up), disqualifying it on independence grounds."
+        },
+        {
+          "title": "NovaStor GmbH - owner-managed Made-in-Germany backup/BaaS (Die Deutsche Wirtschaft)",
+          "url": "https://die-deutsche-wirtschaft.de/inv_unternehmen/utzinger-stefan-novastor-gmbh-hamburg-gf/",
+          "note": "REPLACEMENT: NovaStor GmbH Hamburg is owner-managed (GF Stefan Utzinger, owner Adrian Knapp); offers scalable managed-backup/BaaS service models for MSPs. Verified independent, not PE/roll-up/OEM-owned."
         }
       ],
       "confidence": 3,
@@ -6506,12 +6521,12 @@
           {
             "name": "backupheld GmbH",
             "hq": "Witten (Ruhr region, NRW)",
-            "note": "Founder/managing director Nils Kathagen; spun out of a 20-year Ruhr IT-Systemhaus into a dedicated, white-label 'Made in Germany' Cloud-Backup/BaaS provider for MSPs and SMEs. Independent, owner-managed - not PE/OEM-owned."
+            "note": "Founder/managing director Nils Kathagen; white-label 'Made in Germany' Cloud-Backup/BaaS provider for MSPs and SMEs, spun out of IT-Systemhaus Ruhrgebiet. Independent, owner-managed - not PE/OEM-owned. Verified via Impressum/northdata (HRB 21267 Bochum)."
           },
           {
-            "name": "Gromnitza Systemhaus GmbH",
-            "hq": "Betzdorf (Rheinland-Pfalz)",
-            "note": "Owner-operated regional Systemhaus since 1997 (Westerwald/Siegerland) with a productised Managed-Backup line (encrypted, versioned, revision-safe, German DCs, DSGVO/ISO 27001/GoBD). Independent SME."
+            "name": "NovaStor GmbH",
+            "hq": "Hamburg",
+            "note": "Owner-managed German backup/cloud-backup manufacturer & BaaS provider (founded 1993, GF Stefan Utzinger, owner Adrian Knapp); scalable white-label managed-backup service models for MSPs, 'Made in Germany'. Independent, not PE/roll-up/OEM-owned."
           }
         ],
         "ebitda_margin": "~15-25% on the BaaS/managed-backup line (recurring, subscription-priced service revenue is more asset-light and higher-margin than a Systemhaus' hardware/project mix at 8-15%).",
