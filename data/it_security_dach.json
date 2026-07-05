@@ -102,7 +102,13 @@
         "managed-it-cybersecurity-services-value-chain/managed-it-services-it-systemhauser/branchen-spezialisierte-managed-it-gesundheitswesen-arztpraxen-mvz-kliniken",
         "managed-it-cybersecurity-services-value-chain/managed-it-services-it-systemhauser/tisax-automotive-zulieferer-informationssicherheit-managed-services",
         "managed-it-cybersecurity-services-value-chain/managed-it-services-it-systemhauser/managed-private-cloud-infrastructure-server-management-hosting-mittelstand",
-        "managed-it-cybersecurity-services-value-chain/managed-it-services-it-systemhauser/public-sector-kommunal-managed-it-kritis-nah"
+        "managed-it-cybersecurity-services-value-chain/managed-it-services-it-systemhauser/public-sector-kommunal-managed-it-kritis-nah",
+        "managed-it-cybersecurity-services-value-chain/managed-it-services-it-systemhauser/kanzlei-legal-it-rechtsanwaltskanzleien",
+        "managed-it-cybersecurity-services-value-chain/managed-it-services-it-systemhauser/arzt-zahnarztpraxis-mvz-it-healthcare-ti",
+        "managed-it-cybersecurity-services-value-chain/managed-it-services-it-systemhauser/steuerberater-wirtschaftsprufer-kanzlei-it",
+        "managed-it-cybersecurity-services-value-chain/managed-it-services-it-systemhauser/apotheken-it",
+        "managed-it-cybersecurity-services-value-chain/managed-it-services-it-systemhauser/kommunal-public-sector-managed-it",
+        "managed-it-cybersecurity-services-value-chain/managed-it-services-it-systemhauser/hotel-gastronomie-it-pos-pms"
       ]
     },
     "managed-it-cybersecurity-services-value-chain/managed-it-services-it-systemhauser/managed-modern-workplace-microsoft-365-endpoint-as-a-service": {
@@ -1280,7 +1286,14 @@
       "investability": "open",
       "investability_note": "",
       "actionable": {},
-      "child_ids": []
+      "child_ids": [
+        "managed-it-cybersecurity-services-value-chain/managed-security-services-soc-mdr-siem/ot-ics-security-monitoring-industrial-soc-for-kritis-manufacturing/energy-stadtwerke-grid-ot-security-monitoring",
+        "managed-it-cybersecurity-services-value-chain/managed-security-services-soc-mdr-siem/ot-ics-security-monitoring-industrial-soc-for-kritis-manufacturing/water-wastewater-utility-ot-security-monitoring",
+        "managed-it-cybersecurity-services-value-chain/managed-security-services-soc-mdr-siem/ot-ics-security-monitoring-industrial-soc-for-kritis-manufacturing/manufacturing-automotive-plant-ot-security-iec-62443",
+        "managed-it-cybersecurity-services-value-chain/managed-security-services-soc-mdr-siem/ot-ics-security-monitoring-industrial-soc-for-kritis-manufacturing/hospital-klinik-medical-device-ot-security-kritis-gesundheit",
+        "managed-it-cybersecurity-services-value-chain/managed-security-services-soc-mdr-siem/ot-ics-security-monitoring-industrial-soc-for-kritis-manufacturing/rail-transport-ot-security-cenelec-ts-50701",
+        "managed-it-cybersecurity-services-value-chain/managed-security-services-soc-mdr-siem/ot-ics-security-monitoring-industrial-soc-for-kritis-manufacturing/building-automation-glt-ga-ot-security"
+      ]
     },
     "managed-it-cybersecurity-services-value-chain/managed-security-services-soc-mdr-siem/managed-vulnerability-management-continuous-pentesting": {
       "id": "managed-it-cybersecurity-services-value-chain/managed-security-services-soc-mdr-siem/managed-vulnerability-management-continuous-pentesting",
@@ -2309,7 +2322,13 @@
       "investability": "open",
       "investability_note": "",
       "actionable": {},
-      "child_ids": []
+      "child_ids": [
+        "managed-it-cybersecurity-services-value-chain/cybersecurity-consulting-audit-compliance/external-dpo-dsgvo-compliance-as-a-service/gesundheitsdatenschutz-external-dpo-for-arztpraxen-kliniken-apotheken",
+        "managed-it-cybersecurity-services-value-chain/cybersecurity-consulting-audit-compliance/external-dpo-dsgvo-compliance-as-a-service/mittelstand-sme-external-dpo-retainer-pools-dsb-as-a-service",
+        "managed-it-cybersecurity-services-value-chain/cybersecurity-consulting-audit-compliance/external-dpo-dsgvo-compliance-as-a-service/external-dpo-for-vereine-gemeinnutzige-organisationen-public-sector-kommunen-schulen",
+        "managed-it-cybersecurity-services-value-chain/cybersecurity-consulting-audit-compliance/external-dpo-dsgvo-compliance-as-a-service/datenschutz-e-learning-mitarbeiterschulung-subscriptions",
+        "managed-it-cybersecurity-services-value-chain/cybersecurity-consulting-audit-compliance/external-dpo-dsgvo-compliance-as-a-service/iso-27701-pims-tom-vvt-documentation-audit-services"
+      ]
     },
     "managed-it-cybersecurity-services-value-chain/data-protection-privacy-services-dsgvo": {
       "id": "managed-it-cybersecurity-services-value-chain/data-protection-privacy-services-dsgvo",
@@ -3394,7 +3413,13 @@
       "actionable": {},
       "child_ids": [
         "managed-it-cybersecurity-services-value-chain/cloud-hosting-data-center-services/sector-specific-compliant-hosting-healthcare-public-sector/healthcare-compliant-hosting-khzg-digig",
-        "managed-it-cybersecurity-services-value-chain/cloud-hosting-data-center-services/sector-specific-compliant-hosting-healthcare-public-sector/public-sector-verwaltungscloud-hosting"
+        "managed-it-cybersecurity-services-value-chain/cloud-hosting-data-center-services/sector-specific-compliant-hosting-healthcare-public-sector/public-sector-verwaltungscloud-hosting",
+        "managed-it-cybersecurity-services-value-chain/cloud-hosting-data-center-services/sector-specific-compliant-hosting-healthcare-public-sector/klinik-rechenzentrum-khzg-konformes-healthcare-managed-hosting",
+        "managed-it-cybersecurity-services-value-chain/cloud-hosting-data-center-services/sector-specific-compliant-hosting-healthcare-public-sector/gematik-ti-gateway-telematikinfrastruktur-as-a-service-hosting",
+        "managed-it-cybersecurity-services-value-chain/cloud-hosting-data-center-services/sector-specific-compliant-hosting-healthcare-public-sector/kommunal-offentliches-souveranes-hosting-bsi-c5-gaia-x-verwaltungscloud",
+        "managed-it-cybersecurity-services-value-chain/cloud-hosting-data-center-services/sector-specific-compliant-hosting-healthcare-public-sector/kanzlei-steuerberater-compliant-hosting-ra-micro-datev-203-stgb",
+        "managed-it-cybersecurity-services-value-chain/cloud-hosting-data-center-services/sector-specific-compliant-hosting-healthcare-public-sector/revisionssichere-dms-archivierung-as-a-service-gobd-konform",
+        "managed-it-cybersecurity-services-value-chain/cloud-hosting-data-center-services/sector-specific-compliant-hosting-healthcare-public-sector/managed-backup-disaster-recovery-mit-deutscher-datenresidenz-iso-27001"
       ]
     },
     "managed-it-cybersecurity-services-value-chain/cloud-hosting-data-center-services/sector-specific-compliant-hosting-healthcare-public-sector/healthcare-compliant-hosting-khzg-digig": {
@@ -5535,6 +5560,1696 @@
         }
       ],
       "confidence": 3,
+      "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
+      "investability": "open",
+      "investability_note": "",
+      "actionable": {},
+      "child_ids": []
+    },
+    "managed-it-cybersecurity-services-value-chain/managed-it-services-it-systemhauser/kanzlei-legal-it-rechtsanwaltskanzleien": {
+      "id": "managed-it-cybersecurity-services-value-chain/managed-it-services-it-systemhauser/kanzlei-legal-it-rechtsanwaltskanzleien",
+      "name": "Kanzlei-/Legal-IT (Rechtsanwaltskanzleien)",
+      "parent_id": "managed-it-cybersecurity-services-value-chain/managed-it-services-it-systemhauser",
+      "level": 2,
+      "path": [
+        "Managed IT & Cybersecurity Services value chain",
+        "Managed IT Services & IT-Systemhäuser",
+        "Kanzlei-/Legal-IT (Rechtsanwaltskanzleien)"
+      ],
+      "value_chain_stage": "services",
+      "description": "Vertical-specialised Systemhäuser that run managed IT, security and Kanzleisoftware environments (RA-MICRO, DATEV Anwalt, AnNoText) for law firms, including beA integration, DSGVO/BRAO-compliant document handling and Mandantengeheimnis protection.",
+      "scores": {
+        "recurring": 4,
+        "fragmentation": 5,
+        "compliance": 5,
+        "scale": 0,
+        "margin": 0,
+        "growth": 0,
+        "headroom": 0,
+        "reimbursement_risk": 0
+      },
+      "rationale": {
+        "recurring": "Managed-service contracts plus mandatory beA/RA-MICRO patching, backups and monitoring create sticky monthly recurring revenue; providers advertise wartung/support retainers.",
+        "fragmentation": "Dozens of small owner-run 'IT-Systemhaus für Anwälte' firms (Dacher, Stüber, TC EDV, die-digitale-anwaltskanzlei) each regionally focused; no dominant national consolidator.",
+        "compliance": "beA active use mandatory since 2022, plus BRAO §43a Verschwiegenheit and DSGVO make secure IT a legal obligation, not discretionary."
+      },
+      "composite": 91.7,
+      "dach_signals": {
+        "est_players": "~100+ specialised firms (long tail of regional Systemhäuser + RA-MICRO/DATEV partners)",
+        "revenue_band_eur": "EUR 0.5-5m typical owner-operated",
+        "example_companies": [
+          "TC EDV (tcedv.de)",
+          "Dacher Systems (Berlin)",
+          "Stüber Computer (Düsseldorf)",
+          "Die Digitale Anwaltskanzlei",
+          "RAM-Experte / ra-micro-experte.de",
+          "ITR-Service"
+        ],
+        "regulation": [
+          "beA (besonderes elektronisches Anwaltspostfach, Pflicht seit 2022)",
+          "BRAO §43a Verschwiegenheitspflicht",
+          "DSGVO",
+          "GoBD"
+        ]
+      },
+      "sources": [
+        {
+          "title": "IT-Systemhaus für Anwaltskanzleien | beA & Mandantengeheimnis | TC EDV",
+          "url": "https://www.tcedv.de/branchen/anwaltskanzleien",
+          "note": "Specialised law-firm Systemhaus citing beA mandatory use since 2022 and Mandantengeheimnis"
+        },
+        {
+          "title": "IT für Anwaltskanzleien | Dacher Systems Berlin",
+          "url": "https://dacher-systems.de/anwaltskanzleien/",
+          "note": "Regional owner-operated legal-IT provider, RA-MICRO/DATEV + DSGVO focus"
+        },
+        {
+          "title": "IT-Systemhaus für Rechtsanwälte | ITR-Service",
+          "url": "https://www.itr-service.de/spezialisierung/rechtsanwaelte/",
+          "note": "Vertical-specialised managed IT for lawyers"
+        }
+      ],
+      "confidence": 4,
+      "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
+      "investability": "open",
+      "investability_note": "",
+      "actionable": {},
+      "child_ids": []
+    },
+    "managed-it-cybersecurity-services-value-chain/managed-it-services-it-systemhauser/arzt-zahnarztpraxis-mvz-it-healthcare-ti": {
+      "id": "managed-it-cybersecurity-services-value-chain/managed-it-services-it-systemhauser/arzt-zahnarztpraxis-mvz-it-healthcare-ti",
+      "name": "Arzt-/Zahnarztpraxis- & MVZ-IT (Healthcare TI)",
+      "parent_id": "managed-it-cybersecurity-services-value-chain/managed-it-services-it-systemhauser",
+      "level": 2,
+      "path": [
+        "Managed IT & Cybersecurity Services value chain",
+        "Managed IT Services & IT-Systemhäuser",
+        "Arzt-/Zahnarztpraxis- & MVZ-IT (Healthcare TI)"
+      ],
+      "value_chain_stage": "services",
+      "description": "gematik-certified TI-as-a-Service and managed IT providers connecting Arztpraxen, Zahnarztpraxen and MVZ to the Telematikinfrastruktur (TI-Gateway, KIM, ePA, E-Rezept) and running compliant, KBV-conform practice IT.",
+      "scores": {
+        "recurring": 5,
+        "fragmentation": 5,
+        "compliance": 5,
+        "scale": 0,
+        "margin": 0,
+        "growth": 0,
+        "headroom": 0,
+        "reimbursement_risk": 0
+      },
+      "rationale": {
+        "recurring": "TI-as-a-Service is an explicit subscription (setup, support, monitoring of the TI connection) and connectors/gateways require ongoing maintenance contracts.",
+        "fragmentation": "Highly fragmented long tail of regional 'IT für Arztpraxen' specialists (IT Ärzte, HostSpezial) serving ~100k+ practices; no consolidator.",
+        "compliance": "TI connection and gematik-certification are effectively mandatory for SHI-billing practices; healthcare data is KRITIS-adjacent and DSGVO Art. 9 sensitive."
+      },
+      "composite": 100.0,
+      "dach_signals": {
+        "est_players": "~100+ regional healthcare-IT specialists + gematik-certified TI service providers",
+        "revenue_band_eur": "EUR 0.5-5m typical",
+        "example_companies": [
+          "IT Ärzte GmbH (itaerzte.de, gematik-certified TI provider, 15+ yrs)",
+          "HostSpezial Oberfranken",
+          "medatixx (dip.medatixx.de) ecosystem partners"
+        ],
+        "regulation": [
+          "gematik / Telematikinfrastruktur (TI)",
+          "KBV requirements",
+          "KIM / ePA / E-Rezept",
+          "DSGVO Art. 9",
+          "KRITIS (larger MVZ/clinic segment)"
+        ]
+      },
+      "sources": [
+        {
+          "title": "IT Ärzte GmbH - IT-Lösungen für Arztpraxen und MVZ",
+          "url": "https://itaerzte.de/",
+          "note": "gematik-certified TI service provider, 15+ yrs supporting practices/MVZ"
+        },
+        {
+          "title": "TI-Gateway / Telematikinfrastruktur | gematik-zertifiziert",
+          "url": "https://itaerzte.de/ti-gateway-telematikinfrastruktur/",
+          "note": "TI-Gateway managed connection replacing on-site connector hardware"
+        },
+        {
+          "title": "Telematikinfrastruktur für Zahnarztpraxen | gematik",
+          "url": "https://www.gematik.de/zahnarztpraxen",
+          "note": "Regulator confirming TI requirement and process for dental practices"
+        }
+      ],
+      "confidence": 4,
+      "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
+      "investability": "open",
+      "investability_note": "",
+      "actionable": {},
+      "child_ids": [
+        "managed-it-cybersecurity-services-value-chain/managed-it-services-it-systemhauser/arzt-zahnarztpraxis-mvz-it-healthcare-ti/zahnarztpraxis-it-dental"
+      ]
+    },
+    "managed-it-cybersecurity-services-value-chain/managed-it-services-it-systemhauser/arzt-zahnarztpraxis-mvz-it-healthcare-ti/zahnarztpraxis-it-dental": {
+      "id": "managed-it-cybersecurity-services-value-chain/managed-it-services-it-systemhauser/arzt-zahnarztpraxis-mvz-it-healthcare-ti/zahnarztpraxis-it-dental",
+      "name": "Zahnarztpraxis-IT (Dental)",
+      "parent_id": "managed-it-cybersecurity-services-value-chain/managed-it-services-it-systemhauser/arzt-zahnarztpraxis-mvz-it-healthcare-ti",
+      "level": 3,
+      "path": [
+        "Managed IT & Cybersecurity Services value chain",
+        "Managed IT Services & IT-Systemhäuser",
+        "Arzt-/Zahnarztpraxis- & MVZ-IT (Healthcare TI)",
+        "Zahnarztpraxis-IT (Dental)"
+      ],
+      "value_chain_stage": "services",
+      "description": "Sub-niche managed-IT for Zahnarztpraxen: TI connection per gematik/KZBV, dental practice management systems (z.B. medatixx, Dampsoft) plus imaging/röntgen IT and DSGVO-compliant backups.",
+      "scores": {
+        "recurring": 5,
+        "fragmentation": 5,
+        "compliance": 5,
+        "scale": 0,
+        "margin": 0,
+        "growth": 0,
+        "headroom": 0,
+        "reimbursement_risk": 0
+      },
+      "rationale": {
+        "recurring": "Same TI-as-a-Service subscription model plus continuous PVS and imaging support contracts.",
+        "fragmentation": "Regional dental-IT specialists and general Systemhäuser splitting ~40k+ dental practices.",
+        "compliance": "KZBV/gematik TI mandatory for SHI dental billing; imaging data subject to strict retention."
+      },
+      "composite": 100.0,
+      "dach_signals": {
+        "est_players": "Dozens of regional dental/medical-IT specialists",
+        "revenue_band_eur": "EUR 0.3-3m typical",
+        "example_companies": [
+          "CSA-IT (Regensburg/München, Kanzlei & Praxen)",
+          "IT Ärzte GmbH"
+        ],
+        "regulation": [
+          "gematik TI",
+          "KZBV requirements",
+          "DSGVO",
+          "Röntgenverordnung/StrlSchG data retention"
+        ]
+      },
+      "sources": [
+        {
+          "title": "Telematikinfrastruktur (TI) | KZBV",
+          "url": "https://www.kzbv.de/zahnaerzte/digitales/telematikinfrastruktur-ti/",
+          "note": "Dental regulator on TI obligations"
+        },
+        {
+          "title": "Kanzlei & Praxen | CSA-IT",
+          "url": "https://www.csa-it.de/branchen/kanzleien-praxen/",
+          "note": "Systemhaus serving medical/dental practices"
+        }
+      ],
+      "confidence": 3,
+      "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
+      "investability": "open",
+      "investability_note": "",
+      "actionable": {},
+      "child_ids": []
+    },
+    "managed-it-cybersecurity-services-value-chain/managed-it-services-it-systemhauser/steuerberater-wirtschaftsprufer-kanzlei-it": {
+      "id": "managed-it-cybersecurity-services-value-chain/managed-it-services-it-systemhauser/steuerberater-wirtschaftsprufer-kanzlei-it",
+      "name": "Steuerberater-/Wirtschaftsprüfer-Kanzlei-IT",
+      "parent_id": "managed-it-cybersecurity-services-value-chain/managed-it-services-it-systemhauser",
+      "level": 2,
+      "path": [
+        "Managed IT & Cybersecurity Services value chain",
+        "Managed IT Services & IT-Systemhäuser",
+        "Steuerberater-/Wirtschaftsprüfer-Kanzlei-IT"
+      ],
+      "value_chain_stage": "services",
+      "description": "DATEV-Systempartner Systemhäuser running managed IT, DMS and secure cloud (DATEVasp, SmartLogin) for tax-advisory and audit firms, extending compliant infrastructure to the firms' Mandanten (SME clients).",
+      "scores": {
+        "recurring": 5,
+        "fragmentation": 5,
+        "compliance": 4,
+        "scale": 0,
+        "margin": 0,
+        "growth": 0,
+        "headroom": 0,
+        "reimbursement_risk": 0
+      },
+      "rationale": {
+        "recurring": "Managed-service + DATEV support contracts are ongoing; providers explicitly offer Managed Services and Betreuung retainers, and client base is very sticky.",
+        "fragmentation": "Large field of DATEV-Systempartner Systemhäuser (Spectrum ~40 yrs, GME, ITR, netmatics, msts, reitzner) plus netgo's roll-up of the segment; long regional tail.",
+        "compliance": "GoBD, DSGVO and Mandantendaten confidentiality drive the buying, though not as legally hard-mandatory as TI/beA."
+      },
+      "composite": 91.7,
+      "dach_signals": {
+        "est_players": "~100+ DATEV-Systempartner / specialised firms",
+        "revenue_band_eur": "EUR 0.5-5m typical (some larger, e.g. netgo consolidating)",
+        "example_companies": [
+          "Spectrum Computer Systemhaus",
+          "GME GmbH (Köln, DATEV partner)",
+          "netgo tax",
+          "ITR-Service",
+          "netmatics",
+          "msts Systemhaus",
+          "reitzner AG"
+        ],
+        "regulation": [
+          "GoBD",
+          "DSGVO",
+          "DATEV security requirements",
+          "§203 StGB Berufsgeheimnis (WP/StB)"
+        ]
+      },
+      "sources": [
+        {
+          "title": "IT-Systemhaus für Steuerberater | ITR-Service",
+          "url": "https://www.itr-service.de/spezialisierung/steuerberater/",
+          "note": "Specialised managed IT for tax advisors"
+        },
+        {
+          "title": "IT-Systemhaus für Steuerberater | DATEV, DMS, Mandantendaten | TC EDV",
+          "url": "https://www.tcedv.de/branchen/steuerberater/",
+          "note": "DATEVasp/SmartLogin cloud migration and Mandantendaten focus"
+        },
+        {
+          "title": "IT-Lösungen für Kanzleien, Steuerberater & Wirtschaftsprüfer | netgo",
+          "url": "https://www.netgo.de/branchen/kanzleien-steuerberater",
+          "note": "Managed Services for the StB/WP segment (consolidating player)"
+        }
+      ],
+      "confidence": 4,
+      "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
+      "investability": "open",
+      "investability_note": "",
+      "actionable": {},
+      "child_ids": []
+    },
+    "managed-it-cybersecurity-services-value-chain/managed-it-services-it-systemhauser/apotheken-it": {
+      "id": "managed-it-cybersecurity-services-value-chain/managed-it-services-it-systemhauser/apotheken-it",
+      "name": "Apotheken-IT",
+      "parent_id": "managed-it-cybersecurity-services-value-chain/managed-it-services-it-systemhauser",
+      "level": 2,
+      "path": [
+        "Managed IT & Cybersecurity Services value chain",
+        "Managed IT Services & IT-Systemhäuser",
+        "Apotheken-IT"
+      ],
+      "value_chain_stage": "services",
+      "description": "Managed IT and Warenwirtschaft/POS support for public pharmacies including securPharm/NGDA anti-counterfeiting connection, N-Ident authentication and TI/E-Rezept integration under a heavily regulated software ecosystem.",
+      "scores": {
+        "recurring": 4,
+        "fragmentation": 3,
+        "compliance": 5,
+        "scale": 0,
+        "margin": 0,
+        "growth": 0,
+        "headroom": 0,
+        "reimbursement_risk": 0
+      },
+      "rationale": {
+        "recurring": "Warenwirtschaft, securPharm connectivity and TI support are continuous operational dependencies with ongoing service fees.",
+        "fragmentation": "Software layer is concentrated (NOVENTI and ADAS members dominate) but the on-site IT-service/rollout layer is more fragmented across regional providers.",
+        "compliance": "securPharm verification mandatory since Feb 2019 per EU FMD 2011/62/EU + Delegated Reg 2016/161; plus TI/E-Rezept and Apothekenbetriebsordnung."
+      },
+      "composite": 75.0,
+      "dach_signals": {
+        "est_players": "Software concentrated (few houses); regional IT-service layer ~dozens",
+        "revenue_band_eur": "EUR 0.5-5m (service firms); software houses larger",
+        "example_companies": [
+          "NOVENTI",
+          "ADAS-Mitgliedsunternehmen (adas.de)",
+          "NGDA (Netzgesellschaft Deutscher Apotheker)"
+        ],
+        "regulation": [
+          "EU FMD 2011/62/EU & Delegated Reg (EU) 2016/161",
+          "securPharm / NGDA N-Ident",
+          "gematik TI / E-Rezept",
+          "Apothekenbetriebsordnung",
+          "DSGVO"
+        ]
+      },
+      "sources": [
+        {
+          "title": "securPharm - Lösungen | NGDA",
+          "url": "https://ngda.de/loesungen/securpharm",
+          "note": "Mandatory securPharm verification since 09.02.2019 under EU FMD"
+        },
+        {
+          "title": "Mitgliedsunternehmen | ADAS - Bundesverband Deutscher Apothekensoftwarehäuser",
+          "url": "https://portal.adas.de/home/index.php/mitgliedsunternehmen/",
+          "note": "Association listing pharmacy software/IT houses"
+        },
+        {
+          "title": "N-Ident – der sichere Login für Apotheken | NGDA",
+          "url": "https://ngda.de/loesungen/n-ident",
+          "note": "Mandatory authentication for pharmacy system access to securPharm"
+        }
+      ],
+      "confidence": 3,
+      "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
+      "investability": "open",
+      "investability_note": "",
+      "actionable": {},
+      "child_ids": []
+    },
+    "managed-it-cybersecurity-services-value-chain/managed-it-services-it-systemhauser/kommunal-public-sector-managed-it": {
+      "id": "managed-it-cybersecurity-services-value-chain/managed-it-services-it-systemhauser/kommunal-public-sector-managed-it",
+      "name": "Kommunal-/Public-Sector Managed IT",
+      "parent_id": "managed-it-cybersecurity-services-value-chain/managed-it-services-it-systemhauser",
+      "level": 2,
+      "path": [
+        "Managed IT & Cybersecurity Services value chain",
+        "Managed IT Services & IT-Systemhäuser",
+        "Kommunal-/Public-Sector Managed IT"
+      ],
+      "value_chain_stage": "services",
+      "description": "Managed IT, security (SOC) and outsourcing for municipalities and public administration — often as private Systemhäuser adjacent to kommunale Rechenzentren (KDO, AKDB) — driven by OZG digitalisation and BSI IT-Grundschutz/KRITIS obligations.",
+      "scores": {
+        "recurring": 5,
+        "fragmentation": 3,
+        "compliance": 5,
+        "scale": 0,
+        "margin": 0,
+        "growth": 0,
+        "headroom": 0,
+        "reimbursement_risk": 0
+      },
+      "rationale": {
+        "recurring": "Public-sector IT-outsourcing and RZ/network operation are multi-year framework contracts with statutory-funded recurring spend.",
+        "fragmentation": "Mix of large kommunale RZ/anstalten (AKDB, KDO, KRZ) and a long tail of private Systemhäuser (WBS IT-Service, AB-DATA) serving small Kommunen; moderately fragmented at the SME-supplier end.",
+        "compliance": "OZG digitalisation mandate plus BSI IT-Grundschutz and rising KRITIS/NIS2 obligations make security spend mandatory."
+      },
+      "composite": 83.3,
+      "dach_signals": {
+        "est_players": "Regional RZ/anstalten + dozens of private public-sector-focused Systemhäuser",
+        "revenue_band_eur": "EUR 1-10m+ (varies widely; RZ much larger)",
+        "example_companies": [
+          "WBS IT-Service (öffentliche Verwaltung)",
+          "KDO (kommunales RZ Oldenburg)",
+          "AKDB",
+          "AB-DATA (ab-data.de)"
+        ],
+        "regulation": [
+          "OZG (Onlinezugangsgesetz)",
+          "BSI IT-Grundschutz",
+          "KRITIS / NIS2",
+          "DSGVO"
+        ]
+      },
+      "sources": [
+        {
+          "title": "Ihr IT-Partner für den öffentlichen Dienst | WBS IT-Service",
+          "url": "https://www.wbs-it.de/branchen/oeffentliche-verwaltung",
+          "note": "Private Systemhaus specialised in public administration IT"
+        },
+        {
+          "title": "Rechenzentrum und Netzbetrieb für Kommunen | KDO",
+          "url": "https://www.kdo.de/leistungen/rechenzentrum-und-netzbetrieb",
+          "note": "Kommunales RZ operating IT/network for municipalities"
+        },
+        {
+          "title": "IT-Outsourcing für die öffentliche Verwaltung | AB-DATA",
+          "url": "https://ab-data.de/services-it-outsourcing-support/",
+          "note": "Public-sector IT-outsourcing/support provider"
+        }
+      ],
+      "confidence": 3,
+      "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
+      "investability": "open",
+      "investability_note": "",
+      "actionable": {},
+      "child_ids": []
+    },
+    "managed-it-cybersecurity-services-value-chain/managed-it-services-it-systemhauser/hotel-gastronomie-it-pos-pms": {
+      "id": "managed-it-cybersecurity-services-value-chain/managed-it-services-it-systemhauser/hotel-gastronomie-it-pos-pms",
+      "name": "Hotel-/Gastronomie-IT (POS/PMS)",
+      "parent_id": "managed-it-cybersecurity-services-value-chain/managed-it-services-it-systemhauser",
+      "level": 2,
+      "path": [
+        "Managed IT & Cybersecurity Services value chain",
+        "Managed IT Services & IT-Systemhäuser",
+        "Hotel-/Gastronomie-IT (POS/PMS)"
+      ],
+      "value_chain_stage": "services",
+      "description": "Vertical Systemhäuser delivering managed POS, PMS and network IT for hotels and restaurants, including certified TSE cash-register security, DSFinV-K/GoBD-compliant reporting and reservation/inventory integration.",
+      "scores": {
+        "recurring": 4,
+        "fragmentation": 5,
+        "compliance": 4,
+        "scale": 0,
+        "margin": 0,
+        "growth": 0,
+        "headroom": 0,
+        "reimbursement_risk": 0
+      },
+      "rationale": {
+        "recurring": "POS/PMS operation, TSE certificates and support are ongoing service subscriptions; hospitality IT downtime is business-critical, driving retainers.",
+        "fragmentation": "Many small hospitality-IT specialists (42 GmbH, Martin Becker, SoftTec, sys-topia, CSA-IT) serving a huge fragmented Gastro/Hotellerie base.",
+        "compliance": "Since 2020 electronic cash registers must use a certified TSE under KassenSichV, plus DSFinV-K/GoBD reporting to tax authorities."
+      },
+      "composite": 83.3,
+      "dach_signals": {
+        "est_players": "Dozens of regional hospitality-IT/POS specialists",
+        "revenue_band_eur": "EUR 0.5-5m typical",
+        "example_companies": [
+          "42 GmbH (Hotellerie IT-Komplettlösungen)",
+          "Martin Becker GmbH (Hotel-IT/POS)",
+          "SoftTec GmbH",
+          "sys-topia",
+          "CSA-IT (Gastronomie & Hotellerie)"
+        ],
+        "regulation": [
+          "KassenSichV / TSE (Pflicht seit 2020)",
+          "DSFinV-K",
+          "GoBD",
+          "DSGVO"
+        ]
+      },
+      "sources": [
+        {
+          "title": "TSE und Kassensicherungsverordnung (KassenSichV) | 42 GmbH",
+          "url": "https://www.42-gmbh.de/matrix-pos-kassensystem/kassensicherungsverordnung-kassensichv-und-tse-technische-sicherheitseinrichtung/",
+          "note": "Hospitality-IT house on mandatory certified TSE for cash registers"
+        },
+        {
+          "title": "Kassensysteme (POS) | Martin Becker GmbH – Hotel-IT",
+          "url": "https://www.mb-gmbh.de/de/loesungen/kassensysteme",
+          "note": "Dedicated hotel-IT/POS specialist"
+        },
+        {
+          "title": "Gastronomie & Hotellerie | CSA-IT",
+          "url": "https://www.csa-it.de/branchen/gastronomie-hotellerie/",
+          "note": "Regional Systemhaus specialised in hospitality IT"
+        }
+      ],
+      "confidence": 3,
+      "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
+      "investability": "open",
+      "investability_note": "",
+      "actionable": {},
+      "child_ids": []
+    },
+    "managed-it-cybersecurity-services-value-chain/cybersecurity-consulting-audit-compliance/external-dpo-dsgvo-compliance-as-a-service/gesundheitsdatenschutz-external-dpo-for-arztpraxen-kliniken-apotheken": {
+      "id": "managed-it-cybersecurity-services-value-chain/cybersecurity-consulting-audit-compliance/external-dpo-dsgvo-compliance-as-a-service/gesundheitsdatenschutz-external-dpo-for-arztpraxen-kliniken-apotheken",
+      "name": "Gesundheitsdatenschutz – External DPO for Arztpraxen, Kliniken & Apotheken",
+      "parent_id": "managed-it-cybersecurity-services-value-chain/cybersecurity-consulting-audit-compliance/external-dpo-dsgvo-compliance-as-a-service",
+      "level": 3,
+      "path": [
+        "Managed IT & Cybersecurity Services value chain",
+        "Cybersecurity Consulting, Audit & Compliance",
+        "External DPO / DSGVO Compliance-as-a-Service",
+        "Gesundheitsdatenschutz – External DPO for Arztpraxen, Kliniken & Apotheken"
+      ],
+      "value_chain_stage": "services",
+      "description": "Owner-run boutiques acting as external Datenschutzbeauftragter specialised in healthcare, where patient data are 'besondere Kategorien' under Art. 9 DSGVO. Serves practices, MVZs, hospitals, care homes and pharmacies with sector-specific documentation, DSFA and staff training.",
+      "scores": {
+        "recurring": 5,
+        "fragmentation": 5,
+        "compliance": 5,
+        "scale": 0,
+        "margin": 0,
+        "growth": 0,
+        "headroom": 0,
+        "reimbursement_risk": 0
+      },
+      "rationale": {
+        "recurring": "Sold as ongoing monthly/annual DPO mandates with continuous supervision, not one-off projects.",
+        "fragmentation": "Dozens of regional healthcare-datenschutz boutiques (ER Secure, datenschutzundgesundheit.de, Integrity, alphatech, vicotec) with no dominant consolidator.",
+        "compliance": "Mandatory: practices with >=20 people processing data or doing umfangreiche Verarbeitung of Art. 9 health data must appoint a DPO; breaches up to EUR 20m / 4% turnover."
+      },
+      "composite": 100.0,
+      "dach_signals": {
+        "est_players": "several hundred healthcare-focused Datenschutz boutiques",
+        "revenue_band_eur": "EUR 0.3-3m typical",
+        "example_companies": [
+          "ER Secure GmbH",
+          "datenschutzundgesundheit.de",
+          "Integrity GmbH",
+          "alphatech consulting",
+          "ViCoTec"
+        ],
+        "regulation": [
+          "DSGVO Art. 9 / Art. 37-39",
+          "BDSG §38",
+          "SGB / ärztliche Schweigepflicht §203 StGB"
+        ]
+      },
+      "sources": [
+        {
+          "title": "Externer Datenschutzbeauftragter Gesundheitswesen | ER Secure GmbH",
+          "url": "https://www.er-secure.de/externer-datenschutzbeauftragter-gesundheitswesen.php",
+          "note": "Boutique offering external DPO service dedicated to healthcare sector"
+        },
+        {
+          "title": "Externer Datenschutzbeauftragter Arztpraxis | datenschutzundgesundheit.de",
+          "url": "https://www.datenschutzundgesundheit.de/datenschutzbeauftragter-fuer-arztpraxen/",
+          "note": "Specialist external DPO for practices and pharmacies"
+        },
+        {
+          "title": "Datenschutzbeauftragter in Arztpraxis | datenschutz.org",
+          "url": "https://www.datenschutz.org/datenschutzbeauftragter-arztpraxis/",
+          "note": "Confirms >=20-person threshold and mandatory DPO for health data processing"
+        }
+      ],
+      "confidence": 4,
+      "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
+      "investability": "open",
+      "investability_note": "",
+      "actionable": {},
+      "child_ids": []
+    },
+    "managed-it-cybersecurity-services-value-chain/cybersecurity-consulting-audit-compliance/external-dpo-dsgvo-compliance-as-a-service/mittelstand-sme-external-dpo-retainer-pools-dsb-as-a-service": {
+      "id": "managed-it-cybersecurity-services-value-chain/cybersecurity-consulting-audit-compliance/external-dpo-dsgvo-compliance-as-a-service/mittelstand-sme-external-dpo-retainer-pools-dsb-as-a-service",
+      "name": "Mittelstand SME external-DPO retainer pools (DSB-as-a-Service)",
+      "parent_id": "managed-it-cybersecurity-services-value-chain/cybersecurity-consulting-audit-compliance/external-dpo-dsgvo-compliance-as-a-service",
+      "level": 3,
+      "path": [
+        "Managed IT & Cybersecurity Services value chain",
+        "Cybersecurity Consulting, Audit & Compliance",
+        "External DPO / DSGVO Compliance-as-a-Service",
+        "Mittelstand SME external-DPO retainer pools (DSB-as-a-Service)"
+      ],
+      "value_chain_stage": "services",
+      "description": "Volume providers offering the external Datenschutzbeauftragter role to KMU on flat monthly retainers (EUR ~80-1,200/month), bundling a management platform, VVT upkeep, DSFA and staff training. Highly productised, subscription-like, and the most consolidatable long tail.",
+      "scores": {
+        "recurring": 5,
+        "fragmentation": 5,
+        "compliance": 5,
+        "scale": 0,
+        "margin": 0,
+        "growth": 0,
+        "headroom": 0,
+        "reimbursement_risk": 0
+      },
+      "rationale": {
+        "recurring": "Explicit monthly subscription pricing (e.g. from EUR 79-149/month) with auto-renewing DPO mandates.",
+        "fragmentation": "Very long tail from solo consultants to scaled players (frag.hugo, Datenschutzexperte/Proliance, CIVAC, pörtner, Mprotect365); no consolidator holds meaningful share.",
+        "compliance": "Statutory DPO obligation under Art. 37 DSGVO / §38 BDSG for many firms; low discretionary component."
+      },
+      "composite": 100.0,
+      "dach_signals": {
+        "est_players": "~1,500+ firms/consultants offering external-DSB retainers",
+        "revenue_band_eur": "EUR 0.2-5m typical",
+        "example_companies": [
+          "fraghugo.de (frag.hugo)",
+          "Proliance / Datenschutzexperte.de",
+          "CIVAC",
+          "pörtner consulting",
+          "Mprotect365 GmbH"
+        ],
+        "regulation": [
+          "DSGVO Art. 37-39",
+          "BDSG §38 (20-person threshold)"
+        ]
+      },
+      "sources": [
+        {
+          "title": "Externer Datenschutzbeauftragter Kosten | frag.hugo",
+          "url": "https://www.fraghugo.de/externer-datenschutzbeauftragter-kosten/",
+          "note": "Productised external DPO from ~EUR 79/month for small firms"
+        },
+        {
+          "title": "Externer Datenschutzbeauftragter (DSB) vom Experten | Proliance",
+          "url": "https://www.proliance.ai/loesungen/externer-datenschutzbeauftragter",
+          "note": "Scaled DSB-as-a-service with digital platform"
+        },
+        {
+          "title": "Was kostet ein externer Datenschutzbeauftragter? | CIVAC",
+          "url": "https://civac.de/news/was-kostet-ein-externer-datenschutzbeauftragter",
+          "note": "Confirms EUR 300-2,500/month retainer bands, EUR 500-1,200 typical for KMU"
+        }
+      ],
+      "confidence": 4,
+      "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
+      "investability": "open",
+      "investability_note": "",
+      "actionable": {},
+      "child_ids": []
+    },
+    "managed-it-cybersecurity-services-value-chain/cybersecurity-consulting-audit-compliance/external-dpo-dsgvo-compliance-as-a-service/external-dpo-for-vereine-gemeinnutzige-organisationen-public-sector-kommunen-schulen": {
+      "id": "managed-it-cybersecurity-services-value-chain/cybersecurity-consulting-audit-compliance/external-dpo-dsgvo-compliance-as-a-service/external-dpo-for-vereine-gemeinnutzige-organisationen-public-sector-kommunen-schulen",
+      "name": "External DPO for Vereine, gemeinnützige Organisationen & public sector (Kommunen/Schulen)",
+      "parent_id": "managed-it-cybersecurity-services-value-chain/cybersecurity-consulting-audit-compliance/external-dpo-dsgvo-compliance-as-a-service",
+      "level": 3,
+      "path": [
+        "Managed IT & Cybersecurity Services value chain",
+        "Cybersecurity Consulting, Audit & Compliance",
+        "External DPO / DSGVO Compliance-as-a-Service",
+        "External DPO for Vereine, gemeinnützige Organisationen & public sector (Kommunen/Schulen)"
+      ],
+      "value_chain_stage": "services",
+      "description": "Boutiques serving associations, NGOs/NPOs, schools and municipalities, where public bodies must appoint a DPO regardless of headcount (Art. 37(1)(a) DSGVO). Low-ticket but very sticky mandates across a huge, underserved base of small organisations.",
+      "scores": {
+        "recurring": 5,
+        "fragmentation": 5,
+        "compliance": 5,
+        "scale": 0,
+        "margin": 0,
+        "growth": 0,
+        "headroom": 0,
+        "reimbursement_risk": 0
+      },
+      "rationale": {
+        "recurring": "Ongoing annual DPO mandates; public bodies cannot lapse the appointment.",
+        "fragmentation": "Fragmented across small specialist firms (pdatix, ViCoTec, DieComplianceWerkstatt, variso-kommunal) plus many solo consultants.",
+        "compliance": "Every public body/Kommune must appoint a DPO irrespective of size; Vereine must appoint at >=20 data-processing persons."
+      },
+      "composite": 100.0,
+      "dach_signals": {
+        "est_players": "hundreds of firms/solo consultants; ~11,000 Kommunen + hundreds of thousands of Vereine as buyers",
+        "revenue_band_eur": "EUR 0.2-2m typical",
+        "example_companies": [
+          "pdatix",
+          "ViCoTec",
+          "Die Compliancewerkstatt",
+          "variso-kommunal"
+        ],
+        "regulation": [
+          "DSGVO Art. 37(1)(a) (mandatory DPO for public bodies)",
+          "BDSG §38",
+          "Landesdatenschutzgesetze / Schul-DSGVO"
+        ]
+      },
+      "sources": [
+        {
+          "title": "Externer Datenschutzbeauftragter Vereine, gemeinnützige Organisationen | pdatix",
+          "url": "https://pdatix.de/datenschutzbeauftragter-vereine-organisationen/",
+          "note": "Specialist external DPO for associations and NPOs"
+        },
+        {
+          "title": "Externer Datenschutzbeauftragter für Kommunen | Die Compliancewerkstatt",
+          "url": "https://www.diecompliancewerkstatt.de/externer-datenschutzbeauftragter-kommunen/",
+          "note": "External DPO offering for municipalities"
+        },
+        {
+          "title": "FAQ Kommunaler Datenschutz | LfD Niedersachsen",
+          "url": "https://www.lfd.niedersachsen.de/startseite/infothek/faqs_zur_ds_gvo/faq-datenschutz-kommunen-206875.html",
+          "note": "Confirms every Kommune must appoint a DPO regardless of headcount; can be external"
+        }
+      ],
+      "confidence": 4,
+      "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
+      "investability": "open",
+      "investability_note": "",
+      "actionable": {},
+      "child_ids": []
+    },
+    "managed-it-cybersecurity-services-value-chain/cybersecurity-consulting-audit-compliance/external-dpo-dsgvo-compliance-as-a-service/datenschutz-e-learning-mitarbeiterschulung-subscriptions": {
+      "id": "managed-it-cybersecurity-services-value-chain/cybersecurity-consulting-audit-compliance/external-dpo-dsgvo-compliance-as-a-service/datenschutz-e-learning-mitarbeiterschulung-subscriptions",
+      "name": "Datenschutz e-learning / Mitarbeiterschulung subscriptions",
+      "parent_id": "managed-it-cybersecurity-services-value-chain/cybersecurity-consulting-audit-compliance/external-dpo-dsgvo-compliance-as-a-service",
+      "level": 3,
+      "path": [
+        "Managed IT & Cybersecurity Services value chain",
+        "Cybersecurity Consulting, Audit & Compliance",
+        "External DPO / DSGVO Compliance-as-a-Service",
+        "Datenschutz e-learning / Mitarbeiterschulung subscriptions"
+      ],
+      "value_chain_stage": "services",
+      "description": "Recurring online DSGVO staff-training subscriptions with certificates as audit evidence, sold per-seat or via LMS licence. Often cross-sold by DPO boutiques as a high-margin recurring add-on to the mandate.",
+      "scores": {
+        "recurring": 5,
+        "fragmentation": 4,
+        "compliance": 4,
+        "scale": 0,
+        "margin": 0,
+        "growth": 0,
+        "headroom": 0,
+        "reimbursement_risk": 0
+      },
+      "rationale": {
+        "recurring": "Sold per-seat/annual subscription with recurring re-training cycles and LMS licences (e.g. from EUR 99/month).",
+        "fragmentation": "Many independent providers (Gesellschaft für Datenschutz, Datenschutzkanzlei Academy, ShapeMinds, AGAD, iPrendo) plus every DPO firm reselling.",
+        "compliance": "Staff training is a documented Art. 39 DSGVO obligation and a standard audit checkpoint, though not itself a licensing driver."
+      },
+      "composite": 83.3,
+      "dach_signals": {
+        "est_players": "dozens of dedicated e-learning providers + resale by most DPO firms",
+        "revenue_band_eur": "EUR 0.3-5m typical",
+        "example_companies": [
+          "Gesellschaft für Datenschutz mbH",
+          "Datenschutzkanzlei Academy",
+          "ShapeMinds",
+          "AGAD Service GmbH",
+          "iPrendo"
+        ],
+        "regulation": [
+          "DSGVO Art. 39(1)(b) (awareness/training)",
+          "audit/certification evidence requirements"
+        ]
+      },
+      "sources": [
+        {
+          "title": "Mitarbeiterschulung Datenschutz | eLearning | Gesellschaft für Datenschutz",
+          "url": "https://gesellschaft-datenschutz.de/schulung-zertifizierung/datenschutz/datenschutz-schulung/",
+          "note": "Per-seat online DSGVO training from ~EUR 6/person with certificate"
+        },
+        {
+          "title": "DSGVO-Schulungen & eLearning | Datenschutzkanzlei Academy",
+          "url": "https://www.datenschutzkanzlei.de/academy/",
+          "note": "Tiered per-seat e-learning subscriptions with certification"
+        },
+        {
+          "title": "Datenschutzschulung selbst erstellen | iPrendo LMS",
+          "url": "https://www.iprendo.de/e-learning-loesungen/dsgvo-datenschutzschulung/",
+          "note": "LMS subscription from ~EUR 99/month"
+        }
+      ],
+      "confidence": 4,
+      "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
+      "investability": "open",
+      "investability_note": "",
+      "actionable": {},
+      "child_ids": []
+    },
+    "managed-it-cybersecurity-services-value-chain/cybersecurity-consulting-audit-compliance/external-dpo-dsgvo-compliance-as-a-service/iso-27701-pims-tom-vvt-documentation-audit-services": {
+      "id": "managed-it-cybersecurity-services-value-chain/cybersecurity-consulting-audit-compliance/external-dpo-dsgvo-compliance-as-a-service/iso-27701-pims-tom-vvt-documentation-audit-services",
+      "name": "ISO 27701 PIMS, TOM & VVT documentation / audit services",
+      "parent_id": "managed-it-cybersecurity-services-value-chain/cybersecurity-consulting-audit-compliance/external-dpo-dsgvo-compliance-as-a-service",
+      "level": 3,
+      "path": [
+        "Managed IT & Cybersecurity Services value chain",
+        "Cybersecurity Consulting, Audit & Compliance",
+        "External DPO / DSGVO Compliance-as-a-Service",
+        "ISO 27701 PIMS, TOM & VVT documentation / audit services"
+      ],
+      "value_chain_stage": "services",
+      "description": "Consultancies building and auditing Privacy Information Management Systems (ISO/IEC 27701), maintaining the Verzeichnis von Verarbeitungstätigkeiten (Art. 30) and technisch-organisatorische Maßnahmen (Art. 32), plus gap analyses and readiness audits. Recurring surveillance/maintenance cycles tied to certification.",
+      "scores": {
+        "recurring": 4,
+        "fragmentation": 4,
+        "compliance": 5,
+        "scale": 0,
+        "margin": 0,
+        "growth": 0,
+        "headroom": 0,
+        "reimbursement_risk": 0
+      },
+      "rationale": {
+        "recurring": "Certification-linked annual surveillance audits and ongoing VVT/TOM upkeep create repeat mandates.",
+        "fragmentation": "Mid-caps plus a long tail (Intersoft, VARISO, datenschutz cert, HUB24) though large certifiers (TÜV) hold visible share.",
+        "compliance": "VVT (Art. 30) and TOM (Art. 32) are statutory; ISO 27701 PIMS is the certifiable norm, often contractually demanded by enterprise clients."
+      },
+      "composite": 83.3,
+      "dach_signals": {
+        "est_players": "dozens of consultancies + accredited certifiers",
+        "revenue_band_eur": "EUR 0.5-10m typical",
+        "example_companies": [
+          "intersoft consulting services AG",
+          "VARISO",
+          "datenschutz cert GmbH",
+          "HUB24",
+          "TÜV Rheinland"
+        ],
+        "regulation": [
+          "ISO/IEC 27701:2025 PIMS",
+          "DSGVO Art. 30 (VVT)",
+          "DSGVO Art. 32 (TOM)"
+        ]
+      },
+      "sources": [
+        {
+          "title": "ISO 27701: PIMS erfolgreich implementieren | intersoft consulting",
+          "url": "https://www.intersoft-consulting.de/datenschutz/datenschutzberatung/iso-27701/",
+          "note": "PIMS implementation consulting with 70+ consultants"
+        },
+        {
+          "title": "ISO/IEC 27701 Auditierung des DSMS | datenschutz cert GmbH",
+          "url": "https://www.datenschutz-cert.de/leistungen/iso-iec-27701-auditierung-ihres-datenschutz-managementsystems-dsms",
+          "note": "DAkkS-accredited ISO 27701 certification body"
+        },
+        {
+          "title": "Datenschutz ISO 27701 – Audits, Beratung & Zertifizierung | VARISO",
+          "url": "https://variso.de/datenschutz-iso-27701-dsgvo/",
+          "note": "Audit and consulting for PIMS incl. TOM/VVT scope"
+        }
+      ],
+      "confidence": 4,
+      "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
+      "investability": "open",
+      "investability_note": "",
+      "actionable": {},
+      "child_ids": []
+    },
+    "managed-it-cybersecurity-services-value-chain/managed-security-services-soc-mdr-siem/ot-ics-security-monitoring-industrial-soc-for-kritis-manufacturing/energy-stadtwerke-grid-ot-security-monitoring": {
+      "id": "managed-it-cybersecurity-services-value-chain/managed-security-services-soc-mdr-siem/ot-ics-security-monitoring-industrial-soc-for-kritis-manufacturing/energy-stadtwerke-grid-ot-security-monitoring",
+      "name": "Energy / Stadtwerke & Grid OT Security Monitoring",
+      "parent_id": "managed-it-cybersecurity-services-value-chain/managed-security-services-soc-mdr-siem/ot-ics-security-monitoring-industrial-soc-for-kritis-manufacturing",
+      "level": 3,
+      "path": [
+        "Managed IT & Cybersecurity Services value chain",
+        "Managed Security Services (SOC / MDR / SIEM)",
+        "OT / ICS Security Monitoring (Industrial SOC for KRITIS & manufacturing)",
+        "Energy / Stadtwerke & Grid OT Security Monitoring"
+      ],
+      "value_chain_stage": "services",
+      "description": "Owner-run OT/ICS security boutiques delivering anomaly/attack detection and managed OT-SOC for municipal utilities (Stadtwerke), grid operators and power plants across DACH, driven by EnWG and KRITIS obligations.",
+      "scores": {
+        "recurring": 5,
+        "fragmentation": 4,
+        "compliance": 5,
+        "scale": 0,
+        "margin": 0,
+        "growth": 0,
+        "headroom": 0,
+        "reimbursement_risk": 0
+      },
+      "rationale": {
+        "recurring": "Managed OT monitoring / attack-detection is sold as multi-year subscription with mandatory ongoing operation (IT-SiG 2.0 'Systeme zur Angriffserkennung').",
+        "fragmentation": "~900-1,400 Stadtwerke plus hundreds of grid/plant operators, served by a long tail of regional integrators and boutiques; only partial consolidation (EnBW, telent/Landis+Gyr-Rhebo).",
+        "compliance": "EnWG §11.1b IT-Sicherheitskatalog, IT-SiG 2.0, NIS2 and KRITIS-Dachgesetz make OT monitoring statutory for energy operators."
+      },
+      "composite": 91.7,
+      "dach_signals": {
+        "est_players": "~900-1,400 Stadtwerke + several hundred grid/plant operators; dozens of specialist OT-security providers",
+        "revenue_band_eur": "EUR 1-8m typical for boutiques/units",
+        "example_companies": [
+          "Rhebo (Landis+Gyr)",
+          "OMICRON electronics",
+          "KORAMIS / telent",
+          "EnBW Cyber Security",
+          "8com"
+        ],
+        "regulation": [
+          "EnWG §11.1b IT-Sicherheitskatalog",
+          "IT-SiG 2.0 (Systeme zur Angriffserkennung)",
+          "NIS2",
+          "KRITIS-Dachgesetz",
+          "BSI OHSzA"
+        ]
+      },
+      "sources": [
+        {
+          "title": "Rhebo | Angriffserkennung in Energienetzen",
+          "url": "https://www.rhebo.com/de/branchen/kritische-infrastrukturen/energieversorgung",
+          "note": "OT attack-detection specialist (Landis+Gyr) for energy/grid KRITIS"
+        },
+        {
+          "title": "Controlware und OMICRON schützen OT-Infrastrukturen",
+          "url": "https://www.itiko.de/artikel/2252724/pr-zise-angriffserkennung-trifft-professionellen-betrieb-controlware-und-omicron-sch-tzen-gemeinsam-kritische-ot-infrastrukturen.html",
+          "note": "OMICRON as OT-security specialist for energy plants/grids; NIS2/EnWG driver"
+        },
+        {
+          "title": "EWE: Eigenes SOC für IT- und OT-Systeme",
+          "url": "https://www.stadt-und-werk.de/k21-meldungen/eigenes-soc-fuer-it-und-ot-systeme/",
+          "note": "Utility-run OT-SOC offered nationwide to KRITIS operators under NIS2"
+        }
+      ],
+      "confidence": 5,
+      "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
+      "investability": "open",
+      "investability_note": "",
+      "actionable": {},
+      "child_ids": []
+    },
+    "managed-it-cybersecurity-services-value-chain/managed-security-services-soc-mdr-siem/ot-ics-security-monitoring-industrial-soc-for-kritis-manufacturing/water-wastewater-utility-ot-security-monitoring": {
+      "id": "managed-it-cybersecurity-services-value-chain/managed-security-services-soc-mdr-siem/ot-ics-security-monitoring-industrial-soc-for-kritis-manufacturing/water-wastewater-utility-ot-security-monitoring",
+      "name": "Water / Wastewater Utility OT Security Monitoring",
+      "parent_id": "managed-it-cybersecurity-services-value-chain/managed-security-services-soc-mdr-siem/ot-ics-security-monitoring-industrial-soc-for-kritis-manufacturing",
+      "level": 3,
+      "path": [
+        "Managed IT & Cybersecurity Services value chain",
+        "Managed Security Services (SOC / MDR / SIEM)",
+        "OT / ICS Security Monitoring (Industrial SOC for KRITIS & manufacturing)",
+        "Water / Wastewater Utility OT Security Monitoring"
+      ],
+      "value_chain_stage": "services",
+      "description": "Specialist OT-security firms securing SCADA/PLC networks of Wasserwerke, wastewater plants and Zweckverbände in DACH, a highly fragmented KRITIS sub-sector now pulled under NIS2 and the KRITIS-Dachgesetz.",
+      "scores": {
+        "recurring": 5,
+        "fragmentation": 5,
+        "compliance": 5,
+        "scale": 0,
+        "margin": 0,
+        "growth": 0,
+        "headroom": 0,
+        "reimbursement_risk": 0
+      },
+      "rationale": {
+        "recurring": "Continuous passive OT monitoring and recurring assessments contracted per plant; mandatory attack-detection operation under IT-SiG 2.0.",
+        "fragmentation": "~5,900 water suppliers and thousands of wastewater bodies, mostly small municipal Zweckverbände; served by tiny engineering/security boutiques with no dominant consolidator.",
+        "compliance": "Sektor Wasser is core KRITIS; NIS2 (2025) and KRITIS-Dachgesetz (2026) prescribe concrete OT cybersecurity measures for drinking-water and wastewater operators."
+      },
+      "composite": 100.0,
+      "dach_signals": {
+        "est_players": "~5,900 water suppliers + thousands of wastewater/Zweckverbände; long tail of OT-security boutiques",
+        "revenue_band_eur": "EUR 0.5-4m typical",
+        "example_companies": [
+          "Rhebo (Landis+Gyr)",
+          "admeritia GmbH",
+          "8com"
+        ],
+        "regulation": [
+          "NIS2",
+          "KRITIS-Dachgesetz",
+          "IT-SiG 2.0",
+          "BSI B3S Wasser/Abwasser",
+          "DWA-Regelwerk"
+        ]
+      },
+      "sources": [
+        {
+          "title": "Rhebo | Angriffserkennung in Wasser- & Abwasserunternehmen",
+          "url": "https://www.rhebo.com/de/branchen/kritische-infrastrukturen/wasser-und-abwasser",
+          "note": "Dedicated OT attack-detection offering for water/wastewater KRITIS"
+        },
+        {
+          "title": "Sektor Wasser in NIS2 und KRITIS – OpenKRITIS",
+          "url": "https://www.openkritis.de/it-sicherheitsgesetz/sektor_wasser.html",
+          "note": "Regulatory scope: water/wastewater OT obligations under NIS2 and KRITIS"
+        },
+        {
+          "title": "OT-Security – admeritia GmbH (Meldepflicht für KRITIS)",
+          "url": "https://admeritia.de/schwerpunkte/meldepflicht-fuer-kritis/",
+          "note": "OT-security consultancy serving KRITIS operators incl. utilities"
+        }
+      ],
+      "confidence": 5,
+      "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
+      "investability": "open",
+      "investability_note": "",
+      "actionable": {},
+      "child_ids": []
+    },
+    "managed-it-cybersecurity-services-value-chain/managed-security-services-soc-mdr-siem/ot-ics-security-monitoring-industrial-soc-for-kritis-manufacturing/manufacturing-automotive-plant-ot-security-iec-62443": {
+      "id": "managed-it-cybersecurity-services-value-chain/managed-security-services-soc-mdr-siem/ot-ics-security-monitoring-industrial-soc-for-kritis-manufacturing/manufacturing-automotive-plant-ot-security-iec-62443",
+      "name": "Manufacturing / Automotive Plant OT Security (IEC 62443)",
+      "parent_id": "managed-it-cybersecurity-services-value-chain/managed-security-services-soc-mdr-siem/ot-ics-security-monitoring-industrial-soc-for-kritis-manufacturing",
+      "level": 3,
+      "path": [
+        "Managed IT & Cybersecurity Services value chain",
+        "Managed Security Services (SOC / MDR / SIEM)",
+        "OT / ICS Security Monitoring (Industrial SOC for KRITIS & manufacturing)",
+        "Manufacturing / Automotive Plant OT Security (IEC 62443)"
+      ],
+      "value_chain_stage": "services",
+      "description": "Engineering-led OT-security boutiques securing production lines, SCADA and machine networks in DACH industrial/automotive plants via IEC 62443 zoning, segmentation and managed OT-SOC.",
+      "scores": {
+        "recurring": 4,
+        "fragmentation": 5,
+        "compliance": 4,
+        "scale": 0,
+        "margin": 0,
+        "growth": 0,
+        "headroom": 0,
+        "reimbursement_risk": 0
+      },
+      "rationale": {
+        "recurring": "Managed OT-SOC and recurring assessments/hardening, but a meaningful share is still project-based network segmentation and audits.",
+        "fragmentation": "Vast Mittelstand + automotive supplier base served by hundreds of small OT/automation-security specialists; no dominant player.",
+        "compliance": "IEC 62443 is customer/OEM-mandated and NIS2 now captures larger manufacturers as 'important entities', though not every plant is KRITIS."
+      },
+      "composite": 83.3,
+      "dach_signals": {
+        "est_players": "hundreds of OT/automation-security specialists serving thousands of plants",
+        "revenue_band_eur": "EUR 1-5m typical for boutiques",
+        "example_companies": [
+          "NASARI",
+          "admeritia GmbH",
+          "Protektis",
+          "Arvato Systems (OT unit)"
+        ],
+        "regulation": [
+          "IEC 62443",
+          "NIS2",
+          "ISO 27001",
+          "TISAX (automotive)"
+        ]
+      },
+      "sources": [
+        {
+          "title": "OT-Security: Schutz vor Cyber-Risiken in der Fertigung – Arvato Systems",
+          "url": "https://us.arvato-systems.com/blog/cyber-risks-in-production-ot-security-protects",
+          "note": "Manufacturing OT security from risk analysis to NIS2/KRITIS/IEC 62443"
+        },
+        {
+          "title": "IEC 62443 Beratung | OT-Sicherheit für Industrie | NASARI",
+          "url": "https://www.nasari.de/consulting/iec-62443-ot-security-beratung",
+          "note": "Boutique IEC 62443 OT-security consulting (zones/conduits, security-by-design)"
+        },
+        {
+          "title": "OT-Security – Protektis",
+          "url": "https://protektis.de/leistungen/ot-security/",
+          "note": "Specialist OT-security services provider for industrial infrastructures"
+        }
+      ],
+      "confidence": 5,
+      "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
+      "investability": "open",
+      "investability_note": "",
+      "actionable": {},
+      "child_ids": []
+    },
+    "managed-it-cybersecurity-services-value-chain/managed-security-services-soc-mdr-siem/ot-ics-security-monitoring-industrial-soc-for-kritis-manufacturing/hospital-klinik-medical-device-ot-security-kritis-gesundheit": {
+      "id": "managed-it-cybersecurity-services-value-chain/managed-security-services-soc-mdr-siem/ot-ics-security-monitoring-industrial-soc-for-kritis-manufacturing/hospital-klinik-medical-device-ot-security-kritis-gesundheit",
+      "name": "Hospital / Klinik Medical-Device & OT Security (KRITIS Gesundheit)",
+      "parent_id": "managed-it-cybersecurity-services-value-chain/managed-security-services-soc-mdr-siem/ot-ics-security-monitoring-industrial-soc-for-kritis-manufacturing",
+      "level": 3,
+      "path": [
+        "Managed IT & Cybersecurity Services value chain",
+        "Managed Security Services (SOC / MDR / SIEM)",
+        "OT / ICS Security Monitoring (Industrial SOC for KRITIS & manufacturing)",
+        "Hospital / Klinik Medical-Device & OT Security (KRITIS Gesundheit)"
+      ],
+      "value_chain_stage": "services",
+      "description": "Advisory/managed-security boutiques securing hospital OT, building services and networked medical devices in DACH clinics, with mandatory spend under §75c SGB V and the health-sector B3S.",
+      "scores": {
+        "recurring": 4,
+        "fragmentation": 4,
+        "compliance": 5,
+        "scale": 0,
+        "margin": 0,
+        "growth": 0,
+        "headroom": 0,
+        "reimbursement_risk": 0
+      },
+      "rationale": {
+        "recurring": "B3S re-audits every two years and managed monitoring create repeat engagements, though large modernization projects are periodic.",
+        "fragmentation": "~1,900 hospitals plus specialist medical-informationssicherheit advisors; a fragmented advisory market with no consolidator.",
+        "compliance": "§75c SGB V mandates IT-security for ALL hospitals regardless of KRITIS status; KRITIS (>30,000 cases) plus B3S health make spend statutory."
+      },
+      "composite": 83.3,
+      "dach_signals": {
+        "est_players": "~1,900 hospitals; specialist medical-security advisors + regional systemhäuser",
+        "revenue_band_eur": "EUR 0.5-5m typical",
+        "example_companies": [
+          "Axians (Gesundheitswesen)",
+          "TTS (medizinische Informationssicherheit)"
+        ],
+        "regulation": [
+          "§75c SGB V",
+          "§391 SGB V",
+          "B3S Gesundheit (KRITIS)",
+          "NIS2",
+          "MDR (Medizingeräte)"
+        ]
+      },
+      "sources": [
+        {
+          "title": "Sektor Gesundheit in NIS2 und KRITIS – OpenKRITIS",
+          "url": "https://www.openkritis.de/it-sicherheitsgesetz/sektor_gesundheit.html",
+          "note": "KRITIS threshold (30,000 cases), §75c SGB V, B3S health obligations"
+        },
+        {
+          "title": "Cyber Security im Gesundheitswesen – Axians",
+          "url": "https://www.axians.de/portfolio/cyber-security/cyber-security-gesundheitswesen/",
+          "note": "Provider of hospital IT/OT/medical-device security services"
+        },
+        {
+          "title": "Beratung Medizinische Informationssicherheit – TTS",
+          "url": "https://www.tts-security.com/medizinische-informationssicherheit/",
+          "note": "Boutique advisory for medical/clinical information & OT security"
+        }
+      ],
+      "confidence": 4,
+      "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
+      "investability": "open",
+      "investability_note": "",
+      "actionable": {},
+      "child_ids": []
+    },
+    "managed-it-cybersecurity-services-value-chain/managed-security-services-soc-mdr-siem/ot-ics-security-monitoring-industrial-soc-for-kritis-manufacturing/rail-transport-ot-security-cenelec-ts-50701": {
+      "id": "managed-it-cybersecurity-services-value-chain/managed-security-services-soc-mdr-siem/ot-ics-security-monitoring-industrial-soc-for-kritis-manufacturing/rail-transport-ot-security-cenelec-ts-50701",
+      "name": "Rail / Transport OT Security (CENELEC TS 50701)",
+      "parent_id": "managed-it-cybersecurity-services-value-chain/managed-security-services-soc-mdr-siem/ot-ics-security-monitoring-industrial-soc-for-kritis-manufacturing",
+      "level": 3,
+      "path": [
+        "Managed IT & Cybersecurity Services value chain",
+        "Managed Security Services (SOC / MDR / SIEM)",
+        "OT / ICS Security Monitoring (Industrial SOC for KRITIS & manufacturing)",
+        "Rail / Transport OT Security (CENELEC TS 50701)"
+      ],
+      "value_chain_stage": "services",
+      "description": "Highly specialized rail-signalling and rolling-stock cybersecurity boutiques in DACH aligning OT/ICS to CENELEC TS 50701 and IEC 62443, serving railway KRITIS operators and manufacturers.",
+      "scores": {
+        "recurring": 3,
+        "fragmentation": 3,
+        "compliance": 4,
+        "scale": 0,
+        "margin": 0,
+        "growth": 0,
+        "headroom": 0,
+        "reimbursement_risk": 0
+      },
+      "rationale": {
+        "recurring": "Mostly certification, assessment and safety-security engineering projects; recurring monitoring is emerging but less established.",
+        "fragmentation": "Narrow, deep-expertise niche with relatively few accredited players (ICS/SCONRAIL, safety-certification houses) rather than a broad long tail.",
+        "compliance": "TS 50701 / IEC 62443 recognised for fulfilling KRITIS Transport requirements; regulation is the primary buying driver."
+      },
+      "composite": 58.3,
+      "dach_signals": {
+        "est_players": "handful of accredited rail-cyber/OT specialists + safety-certification boutiques",
+        "revenue_band_eur": "EUR 1-10m typical",
+        "example_companies": [
+          "ICS Informatik Consulting Systems",
+          "SCONRAIL"
+        ],
+        "regulation": [
+          "CENELEC TS 50701",
+          "IEC 62443",
+          "IEC 63452",
+          "KRITIS Sektor Transport",
+          "NIS2"
+        ]
+      },
+      "sources": [
+        {
+          "title": "IEC 62443 Zertifizierung für Cybersicherheit im Bahnsektor – think-ics",
+          "url": "https://www.think-safe-think-ics.de/loesung/iec62443-zertifizierung/",
+          "note": "ICS rail OT/ICS cybersecurity & IEC 62443/TS 50701 certification"
+        },
+        {
+          "title": "ICS Informatik Consulting Systems GmbH und SCONRAIL",
+          "url": "https://www.firmenpresse.de/pressinfo2165367-ics-informatik-consulting-systems-gmbh-und-sconrail.html",
+          "note": "Accredited rail cybersecurity auditing/certification partnership"
+        }
+      ],
+      "confidence": 4,
+      "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
+      "investability": "open",
+      "investability_note": "",
+      "actionable": {},
+      "child_ids": []
+    },
+    "managed-it-cybersecurity-services-value-chain/managed-security-services-soc-mdr-siem/ot-ics-security-monitoring-industrial-soc-for-kritis-manufacturing/building-automation-glt-ga-ot-security": {
+      "id": "managed-it-cybersecurity-services-value-chain/managed-security-services-soc-mdr-siem/ot-ics-security-monitoring-industrial-soc-for-kritis-manufacturing/building-automation-glt-ga-ot-security",
+      "name": "Building Automation / GLT (GA) OT Security",
+      "parent_id": "managed-it-cybersecurity-services-value-chain/managed-security-services-soc-mdr-siem/ot-ics-security-monitoring-industrial-soc-for-kritis-manufacturing",
+      "level": 3,
+      "path": [
+        "Managed IT & Cybersecurity Services value chain",
+        "Managed Security Services (SOC / MDR / SIEM)",
+        "OT / ICS Security Monitoring (Industrial SOC for KRITIS & manufacturing)",
+        "Building Automation / GLT (GA) OT Security"
+      ],
+      "value_chain_stage": "services",
+      "description": "OT-security specialists securing building-management systems (GLT/GA), BACnet/KNX networks and smart-building controllers in DACH for KRITIS sites, data centres and public buildings.",
+      "scores": {
+        "recurring": 4,
+        "fragmentation": 5,
+        "compliance": 3,
+        "scale": 0,
+        "margin": 0,
+        "growth": 0,
+        "headroom": 0,
+        "reimbursement_risk": 0
+      },
+      "rationale": {
+        "recurring": "Managed OT security for building systems trends toward monitoring subscriptions, though much is still integration and hardening work.",
+        "fragmentation": "Long tail of GA integrators and TGA/facility specialists adding security; extremely fragmented with no security-focused consolidator.",
+        "compliance": "NIS2 and BIG-EU guidance push building-automation security, but it is an emerging rather than a mandatory buying driver for most operators."
+      },
+      "composite": 75.0,
+      "dach_signals": {
+        "est_players": "hundreds of GA/TGA integrators; small subset with OT-security depth",
+        "revenue_band_eur": "EUR 0.5-4m typical",
+        "example_companies": [
+          "EnBW Cyber Security (Managed Security Service OT)"
+        ],
+        "regulation": [
+          "NIS2",
+          "BIG-EU WG-FM 100 Leitfaden",
+          "ISO 27001",
+          "KRITIS (für betroffene Gebäude)"
+        ]
+      },
+      "sources": [
+        {
+          "title": "EnBW Cyber Security | OT Managed Security Services",
+          "url": "https://www.enbw.com/cyber-security/produkte/managed-security-service-ot.html",
+          "note": "Managed OT security incl. building/infrastructure systems"
+        },
+        {
+          "title": "Leitfaden Cybersicherheit in der Gebäudeautomation – BIG-EU WG-FM 100",
+          "url": "https://www.big-eu.org/wp-content/uploads/sites/6/2024/09/BIG-EU-WG-FM-100-Version-01-Stand-09-24.pdf",
+          "note": "Industry guidance defining OT-security requirements for GA/GLT incl. KRITIS"
+        }
+      ],
+      "confidence": 3,
+      "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
+      "investability": "open",
+      "investability_note": "",
+      "actionable": {},
+      "child_ids": []
+    },
+    "managed-it-cybersecurity-services-value-chain/cloud-hosting-data-center-services/sector-specific-compliant-hosting-healthcare-public-sector/klinik-rechenzentrum-khzg-konformes-healthcare-managed-hosting": {
+      "id": "managed-it-cybersecurity-services-value-chain/cloud-hosting-data-center-services/sector-specific-compliant-hosting-healthcare-public-sector/klinik-rechenzentrum-khzg-konformes-healthcare-managed-hosting",
+      "name": "Klinik-Rechenzentrum & KHZG-konformes Healthcare Managed Hosting",
+      "parent_id": "managed-it-cybersecurity-services-value-chain/cloud-hosting-data-center-services/sector-specific-compliant-hosting-healthcare-public-sector",
+      "level": 3,
+      "path": [
+        "Managed IT & Cybersecurity Services value chain",
+        "Cloud, Hosting & Data-Center Services",
+        "Sector-Specific Compliant Hosting (Healthcare & Public Sector)",
+        "Klinik-Rechenzentrum & KHZG-konformes Healthcare Managed Hosting"
+      ],
+      "value_chain_stage": "services",
+      "description": "Regional Klinik-Rechenzentren and healthcare IT outsourcers running KIS/SAP-IS-H, PACS and clinical apps in TÜViT/ISO-27001-certified German data centres for hospitals and MVZ, sold as multi-year full-outsourcing or hosting contracts. Data residency and KRITIS/DSGVO compliance are the primary buying drivers over price.",
+      "scores": {
+        "recurring": 5,
+        "fragmentation": 4,
+        "compliance": 5,
+        "scale": 0,
+        "margin": 0,
+        "growth": 0,
+        "headroom": 0,
+        "reimbursement_risk": 0
+      },
+      "rationale": {
+        "recurring": "Sold as multi-year outsourcing/hosting contracts with SLAs; RZV has operated clinical IT as a data-centre service since 1968, releases/updates/hardware handled by provider on a recurring basis.",
+        "fragmentation": "Mix of a few large clinical RZ (RZV, akquinet) plus regional healthcare-IT houses (KAMP, Kramer & Crew) and hospital-owned RZ; no dominant consolidator.",
+        "compliance": "Hospitals >30k cases are KRITIS under BSIG §8a; KHZG/DigiG funding, DSGVO patient-data rules and B3S Krankenhaus make German-resident certified operation effectively mandatory."
+      },
+      "composite": 91.7,
+      "dach_signals": {
+        "est_players": "~30-60 specialised clinical RZ / healthcare-IT outsourcers",
+        "revenue_band_eur": "EUR 5-80m (regional houses smaller, EUR 2-10m)",
+        "example_companies": [
+          "RZV Rechenzentrum Volmarstein",
+          "akquinet",
+          "KAMP Netzwerkdienste",
+          "Kramer & Crew"
+        ],
+        "regulation": [
+          "KHZG",
+          "DigiG",
+          "KRITIS/BSIG §8a",
+          "B3S Krankenhaus",
+          "DSGVO",
+          "ISO 27001"
+        ]
+      },
+      "sources": [
+        {
+          "title": "RZV Krankenhaus-IT / Outsourcing",
+          "url": "https://www.rzv.de/loesungen/krankenhaus-it",
+          "note": "Clinical IT operated as data-centre outsourcing since 1968, SAP/KIS hosting for hospitals"
+        },
+        {
+          "title": "akquinet Krankenhäuser / Gesundheitswesen",
+          "url": "https://akquinet.com/gesundheitswesen/krankenhaeuser.html",
+          "note": "Hospital IT services run in TÜViT-certified German data centres"
+        },
+        {
+          "title": "KAMP ITK-Outsourcing Health Care",
+          "url": "https://www.kamp.de/health-care-services/itk-outsourcing.html",
+          "note": "Modern data centre in Ruhr region, outsourcing of entire hospital data centres"
+        },
+        {
+          "title": "Management & Krankenhaus: IT-Outsourcing Trend",
+          "url": "https://www.management-krankenhaus.de/topstories/it-kommunikation/krankenhaus-it-der-trend-geht-zum-outsourcing",
+          "note": "Confirms structural trend to hospital IT outsourcing in Germany"
+        }
+      ],
+      "confidence": 4,
+      "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
+      "investability": "open",
+      "investability_note": "",
+      "actionable": {},
+      "child_ids": []
+    },
+    "managed-it-cybersecurity-services-value-chain/cloud-hosting-data-center-services/sector-specific-compliant-hosting-healthcare-public-sector/gematik-ti-gateway-telematikinfrastruktur-as-a-service-hosting": {
+      "id": "managed-it-cybersecurity-services-value-chain/cloud-hosting-data-center-services/sector-specific-compliant-hosting-healthcare-public-sector/gematik-ti-gateway-telematikinfrastruktur-as-a-service-hosting",
+      "name": "gematik TI-Gateway / Telematikinfrastruktur-as-a-Service Hosting",
+      "parent_id": "managed-it-cybersecurity-services-value-chain/cloud-hosting-data-center-services/sector-specific-compliant-hosting-healthcare-public-sector",
+      "level": 3,
+      "path": [
+        "Managed IT & Cybersecurity Services value chain",
+        "Cloud, Hosting & Data-Center Services",
+        "Sector-Specific Compliant Hosting (Healthcare & Public Sector)",
+        "gematik TI-Gateway / Telematikinfrastruktur-as-a-Service Hosting"
+      ],
+      "value_chain_stage": "services",
+      "description": "Operation of the Highspeed-Konnektor and certified access module in gematik-approved, redundant German data centres so clinics, MVZ and pharmacies reach the Telematikinfrastruktur without on-premise connectors, billed per-connection/per-seat. Requires formal gematik Produkt- und Anbieterzulassung, making it a hard-regulated niche.",
+      "scores": {
+        "recurring": 5,
+        "fragmentation": 2,
+        "compliance": 5,
+        "scale": 0,
+        "margin": 0,
+        "growth": 0,
+        "headroom": 0,
+        "reimbursement_risk": 0
+      },
+      "rationale": {
+        "recurring": "Replaces bought hardware connectors with an ongoing hosted service (monthly per-connection fees, central maintenance/updates); DigiG mandates TI connection for all care facilities since 1 Jul 2025.",
+        "fragmentation": "High regulatory barrier (gematik approval) limits the field to a handful of certified providers (RISE first, then CGM, Telekonnekt), so concentrated rather than fragmented.",
+        "compliance": "gematik Zulassung is legally mandatory to operate a TI-Gateway; DigiG makes TI access itself compulsory, so 100% compliance-driven demand."
+      },
+      "composite": 75.0,
+      "dach_signals": {
+        "est_players": "~5-10 gematik-approved TI-Gateway providers",
+        "revenue_band_eur": "EUR 2-30m (TI subline within larger health-IT firms)",
+        "example_companies": [
+          "RISE (Research Industrial Systems Engineering)",
+          "CompuGroup Medical (CGM)",
+          "Telekonnekt"
+        ],
+        "regulation": [
+          "gematik Produkt-/Anbieterzulassung",
+          "DigiG",
+          "Telematikinfrastruktur/TI 2.0",
+          "DSGVO"
+        ]
+      },
+      "sources": [
+        {
+          "title": "RISE TI-Gateway durch gematik zugelassen",
+          "url": "https://www.rise-world.com/de/news/articles/2024-08-06_presse_rise-ti-gateway-durch-gematik-zugelassen/",
+          "note": "RISE first provider to get gematik approval for TI-Gateway"
+        },
+        {
+          "title": "CGM TI-Gateway erhält Produkt- und Anbieterzulassung der gematik",
+          "url": "https://www.cgm.com/deu_de/magazin/artikel/pressemitteilungen-dach/2026/cgm-ti-gateway-erhaelt-produkt-und-anbieterzulassung-der-gematik.html",
+          "note": "CGM runs Highspeed-Konnektor in two redundant German data centres ~200km apart"
+        },
+        {
+          "title": "gematik: TI-Anbindung einfach erklärt",
+          "url": "https://www.gematik.de/telematikinfrastruktur/alles-zur-ti-anbindung/ti-anbindung-einfach-erklaert",
+          "note": "TI-Gateway is VPN access via certified data centre replacing on-site connector"
+        }
+      ],
+      "confidence": 5,
+      "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
+      "investability": "open",
+      "investability_note": "",
+      "actionable": {},
+      "child_ids": []
+    },
+    "managed-it-cybersecurity-services-value-chain/cloud-hosting-data-center-services/sector-specific-compliant-hosting-healthcare-public-sector/kommunal-offentliches-souveranes-hosting-bsi-c5-gaia-x-verwaltungscloud": {
+      "id": "managed-it-cybersecurity-services-value-chain/cloud-hosting-data-center-services/sector-specific-compliant-hosting-healthcare-public-sector/kommunal-offentliches-souveranes-hosting-bsi-c5-gaia-x-verwaltungscloud",
+      "name": "Kommunal & öffentliches souveränes Hosting (BSI C5 / Gaia-X / Verwaltungscloud)",
+      "parent_id": "managed-it-cybersecurity-services-value-chain/cloud-hosting-data-center-services/sector-specific-compliant-hosting-healthcare-public-sector",
+      "level": 3,
+      "path": [
+        "Managed IT & Cybersecurity Services value chain",
+        "Cloud, Hosting & Data-Center Services",
+        "Sector-Specific Compliant Hosting (Healthcare & Public Sector)",
+        "Kommunal & öffentliches souveränes Hosting (BSI C5 / Gaia-X / Verwaltungscloud)"
+      ],
+      "value_chain_stage": "services",
+      "description": "Sovereign managed hosting and cloud for Behörden and Kommunen operated in German data centres with BSI-C5 Typ-2 testat, feeding the govdigital Deutsche Verwaltungscloud (DVC). Digital sovereignty and data residency in German public-law or German-owned RZ are the explicit procurement driver.",
+      "scores": {
+        "recurring": 5,
+        "fragmentation": 3,
+        "compliance": 5,
+        "scale": 0,
+        "margin": 0,
+        "growth": 0,
+        "headroom": 0,
+        "reimbursement_risk": 0
+      },
+      "rationale": {
+        "recurring": "Public-administration workloads run under multi-year framework contracts / marketplace subscriptions; DVC went live 1 Apr 2025 as an ongoing sovereign cloud marketplace.",
+        "fragmentation": "Public-law RZ (AKDB, Dataport, ekom21, KDO, ITEBO) plus commercial C5-testierte Mittelständler (mitteldeutsche IT, q.beyond, plusserver); regional structure but partly consolidating under govdigital.",
+        "compliance": "C5 has been a federal procurement standard since 2018; sovereignty/data-residency and DSGVO are the binding buying criteria, not price."
+      },
+      "composite": 83.3,
+      "dach_signals": {
+        "est_players": "~50+ kommunale IT-Dienstleister + commercial C5 hosters",
+        "revenue_band_eur": "EUR 5-200m (public RZ large; commercial niche EUR 3-30m)",
+        "example_companies": [
+          "mitteldeutsche IT (mIT)",
+          "q.beyond",
+          "plusserver",
+          "AKDB"
+        ],
+        "regulation": [
+          "BSI C5:2020",
+          "Gaia-X",
+          "Deutsche Verwaltungscloud (DVC)",
+          "DSGVO",
+          "Online-Zugangsgesetz (OZG)"
+        ]
+      },
+      "sources": [
+        {
+          "title": "mitteldeutsche IT: Deutsche Cloud Anbieter (BSI C5 Typ 2)",
+          "url": "https://mitteldeutsche-it.de/deutsche-cloud-anbieter/",
+          "note": "C5 Typ-2 tested, Trusted-Cloud German sovereign hosting"
+        },
+        {
+          "title": "q.beyond erhält C5-Testat nach BSI-Kriterien",
+          "url": "https://www.qbeyond.de/pressemitteilungen/2025/cloud-sicherheit-fuer-den-mittelstand-qbeyond-erhaelt-c5-testat-nach-bsi-kriterien",
+          "note": "Commercial mid-market provider gains C5:2020 attestation"
+        },
+        {
+          "title": "AKDB: Deutschlands Verwaltungs-IT auf dem Weg in die Cloud",
+          "url": "https://www.akdb.de/newsroom/ereport/2-2025/deutschlands-verwaltungs-it-auf-dem-weg-in-die-cloud/",
+          "note": "Deutsche Verwaltungscloud live 1 Apr 2025, govdigital sovereign marketplace"
+        }
+      ],
+      "confidence": 5,
+      "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
+      "investability": "open",
+      "investability_note": "",
+      "actionable": {},
+      "child_ids": []
+    },
+    "managed-it-cybersecurity-services-value-chain/cloud-hosting-data-center-services/sector-specific-compliant-hosting-healthcare-public-sector/kanzlei-steuerberater-compliant-hosting-ra-micro-datev-203-stgb": {
+      "id": "managed-it-cybersecurity-services-value-chain/cloud-hosting-data-center-services/sector-specific-compliant-hosting-healthcare-public-sector/kanzlei-steuerberater-compliant-hosting-ra-micro-datev-203-stgb",
+      "name": "Kanzlei- & Steuerberater-compliant Hosting (RA-MICRO / DATEV, §203 StGB)",
+      "parent_id": "managed-it-cybersecurity-services-value-chain/cloud-hosting-data-center-services/sector-specific-compliant-hosting-healthcare-public-sector",
+      "level": 3,
+      "path": [
+        "Managed IT & Cybersecurity Services value chain",
+        "Cloud, Hosting & Data-Center Services",
+        "Sector-Specific Compliant Hosting (Healthcare & Public Sector)",
+        "Kanzlei- & Steuerberater-compliant Hosting (RA-MICRO / DATEV, §203 StGB)"
+      ],
+      "value_chain_stage": "services",
+      "description": "Managed hosting of law-firm and tax-advisor applications (RA-MICRO, DATEV, Kanzlei-DMS) as cloud workstations in ISO-27001 German high-security data centres, with §203-StGB Berufsgeheimnis and DSGVO compliance as the sales lever. Highly fragmented among regional IT-Systemhäuser specialising in the legal/tax vertical.",
+      "scores": {
+        "recurring": 5,
+        "fragmentation": 5,
+        "compliance": 4,
+        "scale": 0,
+        "margin": 0,
+        "growth": 0,
+        "headroom": 0,
+        "reimbursement_risk": 0
+      },
+      "rationale": {
+        "recurring": "Sold as per-seat monthly hosted-workstation / managed-service subscriptions with backups and support; SPECTRUM alone hosts 700+ law firms recurringly.",
+        "fragmentation": "Dozens of small regional Systemhäuser (SPECTRUM, Fritz GmbH, ambiFOX, bitsteps, K2L) plus RA-MICRO's own partner cloud; classic owner-operated long tail.",
+        "compliance": "§203 StGB professional secrecy and DSGVO force German-resident, encrypted, ISO-27001 operation with AV-Verträge; regulated but somewhat discretionary vs on-prem."
+      },
+      "composite": 91.7,
+      "dach_signals": {
+        "est_players": "~100+ legal/tax-focused IT-Systemhäuser",
+        "revenue_band_eur": "EUR 0.5-10m typical",
+        "example_companies": [
+          "SPECTRUM Computer Systemhaus",
+          "Fritz GmbH",
+          "ambiFOX",
+          "bitsteps"
+        ],
+        "regulation": [
+          "§203 StGB",
+          "DSGVO",
+          "ISO 27001",
+          "BRAO/StBerG Berufsrecht"
+        ]
+      },
+      "sources": [
+        {
+          "title": "SPECTRUM Computer Systemhaus",
+          "url": "https://www.spectrum-news.de/",
+          "note": "700+ law firms hosted from high-security Düsseldorf data centre incl. RA-MICRO/DATEV"
+        },
+        {
+          "title": "Fritz GmbH: Managed IT / Cloud für Anwälte & Steuerberater",
+          "url": "https://www.fritz.gmbh/en/solutions-rechtsanwaelte.htm",
+          "note": "RA-MICRO hosting in GDPR-compliant ISO-27001 German data centres"
+        },
+        {
+          "title": "RA-MICRO Kanzleisoftware Cloud",
+          "url": "https://www.ra-micro.de/produkte/kanzleiorganisation/kanzleisoftware-cloud.html",
+          "note": "RA-MICRO cloud hosted in German contract data centre with daily backups"
+        }
+      ],
+      "confidence": 4,
+      "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
+      "investability": "open",
+      "investability_note": "",
+      "actionable": {},
+      "child_ids": []
+    },
+    "managed-it-cybersecurity-services-value-chain/cloud-hosting-data-center-services/sector-specific-compliant-hosting-healthcare-public-sector/revisionssichere-dms-archivierung-as-a-service-gobd-konform": {
+      "id": "managed-it-cybersecurity-services-value-chain/cloud-hosting-data-center-services/sector-specific-compliant-hosting-healthcare-public-sector/revisionssichere-dms-archivierung-as-a-service-gobd-konform",
+      "name": "Revisionssichere DMS- & Archivierung-as-a-Service (GoBD-konform)",
+      "parent_id": "managed-it-cybersecurity-services-value-chain/cloud-hosting-data-center-services/sector-specific-compliant-hosting-healthcare-public-sector",
+      "level": 3,
+      "path": [
+        "Managed IT & Cybersecurity Services value chain",
+        "Cloud, Hosting & Data-Center Services",
+        "Sector-Specific Compliant Hosting (Healthcare & Public Sector)",
+        "Revisionssichere DMS- & Archivierung-as-a-Service (GoBD-konform)"
+      ],
+      "value_chain_stage": "services",
+      "description": "Hosted document-management and audit-proof (revisionssicher) archiving delivered as a German-resident SaaS/managed service, guaranteeing immutability, completeness and retention per GoBD and HGB/AO. Compliance obligation plus 'Made & Hosted in Germany' data residency drive adoption.",
+      "scores": {
+        "recurring": 5,
+        "fragmentation": 5,
+        "compliance": 4,
+        "scale": 0,
+        "margin": 0,
+        "growth": 0,
+        "headroom": 0,
+        "reimbursement_risk": 0
+      },
+      "rationale": {
+        "recurring": "Delivered as per-user/per-volume SaaS subscriptions with ongoing archiving and retention management; storage of records runs for statutory 6-10 year retention periods.",
+        "fragmentation": "Large field of German DMS/archiving vendors (edoc, IPA-Suite, bitfarm-Archiv, AKTEFIX, smart-store) mostly SME-scale; no dominant hosted-archive consolidator.",
+        "compliance": "GoBD and HGB §257 / AO §147 mandate immutable, traceable retention; regulated but customers can also self-host, so not fully lock-in."
+      },
+      "composite": 91.7,
+      "dach_signals": {
+        "est_players": "~100+ DMS/archiving vendors, subset offering hosted service",
+        "revenue_band_eur": "EUR 1-15m typical",
+        "example_companies": [
+          "edoc solutions",
+          "IPA-Suite",
+          "bitfarm-Archiv (DTV)",
+          "AKTEFIX DMS"
+        ],
+        "regulation": [
+          "GoBD",
+          "HGB §257 / AO §147 Aufbewahrungsfristen",
+          "DSGVO",
+          "ISO 27001"
+        ]
+      },
+      "sources": [
+        {
+          "title": "edoc: Revisionssichere Archivierung mit DMS (GoBD-konform)",
+          "url": "https://edoc.de/blog/revisionssichere-archivierung-mit-dms",
+          "note": "Explains GoBD-compliant audit-proof archiving via DMS"
+        },
+        {
+          "title": "IPA-Suite: Dokumente revisionssicher archivieren",
+          "url": "https://www.ipa-suite.com/dokumente-revisionssicher-archivieren/",
+          "note": "GoBD-compliant archive, 'Made & Hosted in Germany'"
+        },
+        {
+          "title": "bitfarm-Archiv: Audit-proof archiving",
+          "url": "https://www.bitfarm-archiv.com/document-management/glossary/audit-proof-archiving.html",
+          "note": "Defines revisionssichere Archivierung requirements"
+        }
+      ],
+      "confidence": 3,
+      "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
+      "investability": "open",
+      "investability_note": "",
+      "actionable": {},
+      "child_ids": []
+    },
+    "managed-it-cybersecurity-services-value-chain/cloud-hosting-data-center-services/sector-specific-compliant-hosting-healthcare-public-sector/managed-backup-disaster-recovery-mit-deutscher-datenresidenz-iso-27001": {
+      "id": "managed-it-cybersecurity-services-value-chain/cloud-hosting-data-center-services/sector-specific-compliant-hosting-healthcare-public-sector/managed-backup-disaster-recovery-mit-deutscher-datenresidenz-iso-27001",
+      "name": "Managed Backup & Disaster-Recovery mit deutscher Datenresidenz (ISO 27001)",
+      "parent_id": "managed-it-cybersecurity-services-value-chain/cloud-hosting-data-center-services/sector-specific-compliant-hosting-healthcare-public-sector",
+      "level": 3,
+      "path": [
+        "Managed IT & Cybersecurity Services value chain",
+        "Cloud, Hosting & Data-Center Services",
+        "Sector-Specific Compliant Hosting (Healthcare & Public Sector)",
+        "Managed Backup & Disaster-Recovery mit deutscher Datenresidenz (ISO 27001)"
+      ],
+      "value_chain_stage": "services",
+      "description": "Backup-as-a-Service and DR run 24/7 in ISO-27001-certified, often geo-redundant German data centres, marketed on encrypted German-only data residency plus DSGVO/GoBD alignment. A highly fragmented long tail of regional MSPs and Rechenzentren offering managed backup as an add-on or core service.",
+      "scores": {
+        "recurring": 5,
+        "fragmentation": 5,
+        "compliance": 3,
+        "scale": 0,
+        "margin": 0,
+        "growth": 0,
+        "headroom": 0,
+        "reimbursement_risk": 0
+      },
+      "rationale": {
+        "recurring": "Pure subscription/managed-service model (monthly per-TB), 24/7 monitored ITIL operation; inherently recurring with no re-win risk once data sits in the vault.",
+        "fragmentation": "Very large field of regional MSPs and RZ (DATIS, System AG, bluvo, Gromnitza, badencloud, MDSYSTEC) each at low single-digit millions; no consolidator.",
+        "compliance": "German data residency, ISO 27001, DSGVO and GoBD are strong selling points, but backup itself is best-practice rather than strictly law-mandated for most buyers."
+      },
+      "composite": 83.3,
+      "dach_signals": {
+        "est_players": "hundreds of regional MSPs / Rechenzentren",
+        "revenue_band_eur": "EUR 0.5-5m typical",
+        "example_companies": [
+          "DATIS IT-Services",
+          "System AG (@data)",
+          "bluvo",
+          "Gromnitza"
+        ],
+        "regulation": [
+          "ISO 27001",
+          "DSGVO",
+          "GoBD",
+          "German data residency"
+        ]
+      },
+      "sources": [
+        {
+          "title": "DATIS IT-Services: Backup as a Service",
+          "url": "https://www.datis.de/loesungen/backup-as-a-service/",
+          "note": "24/7 monitored BaaS in two ISO-27001 data centres Mannheim/Ludwigshafen"
+        },
+        {
+          "title": "System AG @data: Managed Backup Service",
+          "url": "https://www.system.ag/ueber-uns/news/managed-backup",
+          "note": "ISO-27001 Karlsruhe data centre, German-resident managed backup"
+        },
+        {
+          "title": "Gromnitza: Managed Backup",
+          "url": "https://www.gromnitza.de/managed-services/managed-backup",
+          "note": "Encrypted geo-redundant German backup meeting DSGVO/ISO 27001/GoBD"
+        }
+      ],
+      "confidence": 4,
       "status": "grounded",
       "why_now": "",
       "pe_activity": [],
