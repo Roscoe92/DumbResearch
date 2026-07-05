@@ -45,6 +45,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
+      "actionable": {},
       "child_ids": [
         "testing-inspection-certification-value-chain/calibration-metrology",
         "testing-inspection-certification-value-chain/construction-structural-real-estate-inspection",
@@ -93,6 +94,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
+      "actionable": {},
       "child_ids": [
         "testing-inspection-certification-value-chain/calibration-metrology/accredited-calibration-laboratories-dakks-iso-17025-fixed-lab",
         "testing-inspection-certification-value-chain/calibration-metrology/on-site-field-calibration-services-vor-ort-kalibrierung",
@@ -170,6 +172,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
+      "actionable": {},
       "child_ids": [
         "testing-inspection-certification-value-chain/calibration-metrology/accredited-calibration-laboratories-dakks-iso-17025-fixed-lab/dimensional-metrology-langenmesstechnik-3d-koordinatenmesstechnik",
         "testing-inspection-certification-value-chain/calibration-metrology/accredited-calibration-laboratories-dakks-iso-17025-fixed-lab/electrical-rf-hf-calibration",
@@ -249,6 +252,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Freely acquirable private DAkkS labs; no ownership restriction, roll-up of ~100+ scopes feasible.",
+      "actionable": {},
       "child_ids": []
     },
     "testing-inspection-certification-value-chain/calibration-metrology/accredited-calibration-laboratories-dakks-iso-17025-fixed-lab/electrical-rf-hf-calibration": {
@@ -327,6 +331,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Freely acquirable private DAkkS/ISO 17025 labs; accreditation is scope-bound but transfers with the legal entity, no ownership restriction.",
+      "actionable": {},
       "child_ids": []
     },
     "testing-inspection-certification-value-chain/calibration-metrology/accredited-calibration-laboratories-dakks-iso-17025-fixed-lab/temperature-pressure-humidity-flow-calibration": {
@@ -413,6 +418,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Private ISO 17025 labs are freely acquirable (share/asset deals); DAkkS accreditation is scope-bound but transfers with the operating entity.",
+      "actionable": {},
       "child_ids": []
     },
     "testing-inspection-certification-value-chain/calibration-metrology/accredited-calibration-laboratories-dakks-iso-17025-fixed-lab/torque-force-calibration": {
@@ -498,6 +504,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Freely acquirable DAkkS/ISO 17025 labs (private-pay industrial); no ownership rule, but Trescal/Element Metech/Kiwa already rolling up calibration hard.",
+      "actionable": {},
       "child_ids": []
     },
     "testing-inspection-certification-value-chain/calibration-metrology/on-site-field-calibration-services-vor-ort-kalibrierung": {
@@ -565,6 +572,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Asset-light mobile teams, private B2B, no licence cap; hundreds of independent providers to consolidate.",
+      "actionable": {},
       "child_ids": []
     },
     "testing-inspection-certification-value-chain/calibration-metrology/legal-metrology-verification-eichung-of-trade-measuring-instruments": {
@@ -648,6 +656,7 @@
       "pe_activity": [],
       "investability": "blocked",
       "investability_note": "State monopoly: the Eichung is performed by 16 sovereign Landeseichbehörden; private 'staatlich anerkannte Prüfstellen' are person/appointment-bound, not corporately acquirable. Only tiny private Eichvorbereitung firms are open.",
+      "actionable": {},
       "child_ids": []
     },
     "testing-inspection-certification-value-chain/calibration-metrology/utility-meter-verification-state-recognised-test-bodies-staatlich-anerkannte-prufstellen": {
@@ -720,6 +729,7 @@
       "pe_activity": [],
       "investability": "restricted",
       "investability_note": "State recognition (staatliche Anerkennung under MessEV) is entity-bound and supervised by the Eichbehörde; most bodies are utility-/manufacturer-embedded (often municipal-owned) units, not standalone acquirable firms.",
+      "actionable": {},
       "child_ids": []
     },
     "testing-inspection-certification-value-chain/calibration-metrology/weighing-systems-service-maintenance-eichvorbereitung": {
@@ -799,6 +809,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Service/maintenance/Eichvorbereitung is freely acquirable and virgin; FLAG - the actual Eichung (verification) itself is a state Eichamt / staatlich anerkannte Pruefstelle monopoly, so a buyer captures prep+service, not the statutory stamp.",
+      "actionable": {},
       "child_ids": []
     },
     "testing-inspection-certification-value-chain/calibration-metrology/gas-detection-instrument-calibration-inspection-gaswarngerate": {
@@ -867,6 +878,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Private safety-compliance spend (T021/T023, DGUV 213-056/057, 120-day cycle); manufacturer-independent firms freely acquirable, no consolidator yet.",
+      "actionable": {},
       "child_ids": []
     },
     "testing-inspection-certification-value-chain/calibration-metrology/prufmittelmanagement-calibration-management-services-software": {
@@ -936,6 +948,26 @@
           "title": "CEPS – esz AG Software & Beratung",
           "url": "https://www.esz-ag.de/software-beratung/ceps/",
           "note": "Calibration-management service+software combining recurring service revenue."
+        },
+        {
+          "title": "",
+          "url": "https://www.perschmann-calibration.de/pruefmittelmanagement/trendichub/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.perschmann-calibration.de/pruefmittelmanagement/login-content/news/Partnerschaft-CAQ-PeCal",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.perschmann-calibration.de/pruefmittelmanagement/funktionen/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://aventis-advisors.com/tic-company-valuations/",
+          "note": ""
         }
       ],
       "confidence": 3,
@@ -944,6 +976,21 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Freely acquirable private SaaS/CAQ and service vendors; no licensing barrier.",
+      "actionable": {
+        "named_targets": [
+          "Perschmann Calibration GmbH (trendic hub Prüfmittelmanagement SaaS + Kalibrierung, DE-Server) — perschmann-calibration.de",
+          "CAQ AG (pmm.net Prüfmittelmanagement, integriert mit Perschmann-Kalibrierung) — caq.de",
+          "trendic hub (SaaS-Modul, 4-Wochen-Test, mobile Prüfmittelverwaltung) — perschmann-calibration.de/pruefmittelmanagement"
+        ],
+        "ebitda_margin": "omit — no reliable niche-specific source (mixed SaaS/service)",
+        "entry_multiple": "n/a — proprietary; SaaS component priced on ARR, calibration service ref 7-8x EBITDA sub-EUR30m TIC (Aventis Advisors)",
+        "bnb_angle": "SaaS-plus-service model with sticky recurring recall cycles: bundle a calibration-management platform (trendic hub / pmm.net) with accredited calibration to enforce annual recall revenue, then use the software install base as a moat and acquisition funnel for regional calibration labs.",
+        "key_risks": [
+          "Software often bundled/given away by labs, compressing standalone SaaS value",
+          "CAQ/QM-suite vendors and lab in-house tools compete for the same workflow",
+          "Value only defensible where SaaS is tied to accredited calibration capacity"
+        ]
+      },
       "child_ids": []
     },
     "testing-inspection-certification-value-chain/construction-structural-real-estate-inspection": {
@@ -982,6 +1029,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
+      "actionable": {},
       "child_ids": [
         "testing-inspection-certification-value-chain/construction-structural-real-estate-inspection/structural-design-review-prufstatik-prufingenieure-prufsachverstandige",
         "testing-inspection-certification-value-chain/construction-structural-real-estate-inspection/building-surveying-defect-assessment-bausachverstandige-baugutachter",
@@ -1059,6 +1107,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
+      "actionable": {},
       "child_ids": [
         "testing-inspection-certification-value-chain/construction-structural-real-estate-inspection/structural-design-review-prufstatik-prufingenieure-prufsachverstandige/prufstatik-structural-fire-safety-design-review",
         "testing-inspection-certification-value-chain/construction-structural-real-estate-inspection/structural-design-review-prufstatik-prufingenieure-prufsachverstandige/recurring-inspection-of-sonderbauten-fliegende-bauten"
@@ -1134,6 +1183,7 @@
       "pe_activity": [],
       "investability": "blocked",
       "investability_note": "Anerkennung is strictly personal (M-PPVO): the Prüfingenieur must act as sole owner/managing partner, on own account and free from third-party instructions => de-facto Fremdbesitz-verbot, not acquirable by a financial sponsor.",
+      "actionable": {},
       "child_ids": []
     },
     "testing-inspection-certification-value-chain/construction-structural-real-estate-inspection/structural-design-review-prufstatik-prufingenieure-prufsachverstandige/recurring-inspection-of-sonderbauten-fliegende-bauten": {
@@ -1206,6 +1256,7 @@
       "pe_activity": [],
       "investability": "restricted",
       "investability_note": "Recognition (bauaufsichtlich anerkannter Pruefsachverstaendiger) is person-bound and publicly appointed under state PPVO/BauPruefVO, not freely transferable; corporate TIC bodies (TUEV Nord, LGA) can employ them, so acquirable only via personnel, not the licence.",
+      "actionable": {},
       "child_ids": []
     },
     "testing-inspection-certification-value-chain/construction-structural-real-estate-inspection/building-surveying-defect-assessment-bausachverstandige-baugutachter": {
@@ -1274,6 +1325,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
+      "actionable": {},
       "child_ids": [
         "testing-inspection-certification-value-chain/construction-structural-real-estate-inspection/building-surveying-defect-assessment-bausachverstandige-baugutachter/bauschaden-mangelgutachten-damage-defect-reports",
         "testing-inspection-certification-value-chain/construction-structural-real-estate-inspection/building-surveying-defect-assessment-bausachverstandige-baugutachter/property-valuation-wertgutachten"
@@ -1343,6 +1395,7 @@
       "pe_activity": [],
       "investability": "restricted",
       "investability_note": "ö.b.u.v. public appointment is person-bound; thousands of sole proprietorships mean value is person-dependent and only the GmbH/practice shell is acquirable.",
+      "actionable": {},
       "child_ids": []
     },
     "testing-inspection-certification-value-chain/construction-structural-real-estate-inspection/building-surveying-defect-assessment-bausachverstandige-baugutachter/property-valuation-wertgutachten": {
@@ -1409,6 +1462,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Thousands of owner-operated practices, little PE consolidation; acquirable as GmbH. Friction only where work needs a personal 'öffentlich bestellt und vereidigt' appointment, which is non-transferable but not legally required for the private market.",
+      "actionable": {},
       "child_ids": []
     },
     "testing-inspection-certification-value-chain/construction-structural-real-estate-inspection/energy-performance-certification-geg-energy-advisory-energieausweis-energieberatung": {
@@ -1477,6 +1531,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
+      "actionable": {},
       "child_ids": [
         "testing-inspection-certification-value-chain/construction-structural-real-estate-inspection/energy-performance-certification-geg-energy-advisory-energieausweis-energieberatung/energieausweis-issuance-residential-non-residential",
         "testing-inspection-certification-value-chain/construction-structural-real-estate-inspection/energy-performance-certification-geg-energy-advisory-energieausweis-energieberatung/subsidised-energy-advisory-isfp-bafa-kfw"
@@ -1537,6 +1592,26 @@
           "title": "Energieausweis: Pflicht, Kosten und EU-Reform 2026 - fertighaus.de",
           "url": "https://www.fertighaus.de/ratgeber/energiesparen-nachhaltigkeit/energieausweis/",
           "note": "EU EPBD reform / renovation wave = structural demand tailwind; ultra-fragmented issuer base (virgin headroom)."
+        },
+        {
+          "title": "",
+          "url": "https://reduco.ai/blog/energieausweis/energieausweis-online-erstellen",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://energieausweis24.com/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.gebaeudeenergiepass.de/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.energieausweis-vorschau.de/energieberater.html",
+          "note": ""
         }
       ],
       "confidence": 3,
@@ -1545,6 +1620,22 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Issuer authorisation under §88 GEG is person-bound (engineer/architect/qualified trade), but issuing businesses are freely acquirable; heavily commoditised online price competition caps margins.",
+      "actionable": {
+        "named_targets": [
+          "reduco.ai (Online-Energieausweis + Energieberatung Plattform) — reduco.ai",
+          "Energieausweis Portal / Energieausweis24 (Online-Ausstellung aller GEG-Ausweisarten) — energieausweis24.com",
+          "gebaeudeenergiepass.de (Online-Energieausweis ab 69,95 EUR) — gebaeudeenergiepass.de",
+          "Energieausweis-Vorschau (EAV) (deutschlandweite Ausstellung) — energieausweis-vorschau.de"
+        ],
+        "ebitda_margin": "omit — no reliable niche-specific source",
+        "entry_multiple": "n/a — proprietary; low-ticket volume model, priced on throughput not EBITDA multiple",
+        "bnb_angle": "A digital-issuance platform (reduco/Portal model) can aggregate throughput at 50-500 EUR per certificate and layer higher-value GEG Energieberatung and Sanierungsfahrpläne on top, converting a commoditised document into a lead funnel for retrofit advisory.",
+        "key_risks": [
+          "Tens of thousands of authorised issuers (dena list ~14,000) make it hyper-fragmented and price-competitive",
+          "Consumption certificates are near-commoditised online; thin per-unit margins",
+          "Value migrates to software/lead-gen, so a services-only roll-up has weak moat"
+        ]
+      },
       "child_ids": []
     },
     "testing-inspection-certification-value-chain/construction-structural-real-estate-inspection/energy-performance-certification-geg-energy-advisory-energieausweis-energieberatung/subsidised-energy-advisory-isfp-bafa-kfw": {
@@ -1616,6 +1707,7 @@
       "pe_activity": [],
       "investability": "restricted",
       "investability_note": "Very fragmented (~14,000 experts) but revenue is subsidy-bound - BAFA cut iSFP funding from 80% to 50% (Aug 2024) - and the qualification is person-listed on the Energie-Effizienz-Expertenliste, so acquirable only via people, exposed to statutory tariff/subsidy cuts.",
+      "actionable": {},
       "child_ids": []
     },
     "testing-inspection-certification-value-chain/construction-structural-real-estate-inspection/facade-concrete-building-structural-safety-inspection-verkehrssicherheit": {
@@ -1694,6 +1786,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Private engineering/inspection firms, no licence cap; ageing facade stock and Verkehrssicherungspflicht drive demand.",
+      "actionable": {},
       "child_ids": []
     },
     "testing-inspection-certification-value-chain/construction-structural-real-estate-inspection/infrastructure-bridge-inspection-bauwerksprufung-din-1076": {
@@ -1763,6 +1856,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Private Ingenieurbüros freely acquirable; DEKRA/TÜV present but no financial consolidator dominating the long tail.",
+      "actionable": {},
       "child_ids": []
     },
     "testing-inspection-certification-value-chain/construction-structural-real-estate-inspection/chimney-sweeping-statutory-schornsteinfeger": {
@@ -1844,6 +1938,7 @@
       "pe_activity": [],
       "investability": "restricted",
       "investability_note": "Downgraded from blocked to restricted: only the sovereign function - the hoheitliche Feuerstaettenschau and the bevollmaechtigter-Bezirksschornsteinfeger appointment (7-year terms, awarded by the Land) - is genuinely gated. The free-market sweeping/measurement work and GEG-linked energy advisory are contestable and open to partial roll-up of Schornsteinfeger businesses.",
+      "actionable": {},
       "child_ids": []
     },
     "testing-inspection-certification-value-chain/construction-structural-real-estate-inspection/geotechnical-building-material-site-testing-baugrund-baustoffprufung": {
@@ -1913,6 +2008,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
+      "actionable": {},
       "child_ids": [
         "testing-inspection-certification-value-chain/construction-structural-real-estate-inspection/geotechnical-building-material-site-testing-baugrund-baustoffprufung/geotechnical-soil-investigation-baugrundgutachten",
         "testing-inspection-certification-value-chain/construction-structural-real-estate-inspection/geotechnical-building-material-site-testing-baugrund-baustoffprufung/building-material-on-site-concrete-testing-baustoffprufung"
@@ -1988,6 +2084,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Freely acquirable private engineering offices (developer-paid); project-based not recurring, capital tied in drilling/field kit; consolidators (HPC, Kiwa) only beginning.",
+      "actionable": {},
       "child_ids": []
     },
     "testing-inspection-certification-value-chain/construction-structural-real-estate-inspection/geotechnical-building-material-site-testing-baugrund-baustoffprufung/building-material-on-site-concrete-testing-baustoffprufung": {
@@ -2056,6 +2153,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Freely acquirable accredited labs, but Kiwa/GBA already actively consolidating so entry point is later.",
+      "actionable": {},
       "child_ids": []
     },
     "testing-inspection-certification-value-chain/construction-structural-real-estate-inspection/real-estate-technical-due-diligence-tdd": {
@@ -2135,6 +2233,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Advisory firms freely acquirable; no licence barrier.",
+      "actionable": {},
       "child_ids": []
     },
     "testing-inspection-certification-value-chain/industrial-ndt-materials-testing": {
@@ -2173,6 +2272,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
+      "actionable": {},
       "child_ids": [
         "testing-inspection-certification-value-chain/industrial-ndt-materials-testing/conventional-advanced-ndt-field-services-ut-rt-pt-mt-vt",
         "testing-inspection-certification-value-chain/industrial-ndt-materials-testing/plant-pipeline-tank-in-service-integrity-inspection-betrsichv-zus",
@@ -2251,6 +2351,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
+      "actionable": {},
       "child_ids": [
         "testing-inspection-certification-value-chain/industrial-ndt-materials-testing/conventional-advanced-ndt-field-services-ut-rt-pt-mt-vt/surface-methods-pt-mt-vt",
         "testing-inspection-certification-value-chain/industrial-ndt-materials-testing/conventional-advanced-ndt-field-services-ut-rt-pt-mt-vt/volumetric-advanced-ut-paut-tofd-rt-digital-radiography"
@@ -2321,6 +2422,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Freely acquirable private B2B service firms; EN ISO 9712 personnel certification is person-bound (key-person retention risk) but not an ownership barrier.",
+      "actionable": {},
       "child_ids": []
     },
     "testing-inspection-certification-value-chain/industrial-ndt-materials-testing/conventional-advanced-ndt-field-services-ut-rt-pt-mt-vt/volumetric-advanced-ut-paut-tofd-rt-digital-radiography": {
@@ -2394,6 +2496,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Acquirable private industrial-service firms; FLAG - radiography (RT) requires a Strahlenschutz handling permit (capped-licence), and big TIC (TUEV Nord/Rheinland, Applus, Waygate) plus Metal Check already consolidating advanced UT.",
+      "actionable": {},
       "child_ids": []
     },
     "testing-inspection-certification-value-chain/industrial-ndt-materials-testing/plant-pipeline-tank-in-service-integrity-inspection-betrsichv-zus": {
@@ -2469,6 +2572,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
+      "actionable": {},
       "child_ids": [
         "testing-inspection-certification-value-chain/industrial-ndt-materials-testing/plant-pipeline-tank-in-service-integrity-inspection-betrsichv-zus/refinery-chemical-turnaround-piping-inspection"
       ]
@@ -2539,6 +2643,7 @@
       "pe_activity": [],
       "investability": "restricted",
       "investability_note": "NDT contracting is acquirable, but the in-service integrity mandate on pressure piping requires ZÜS designation; refinery end-market also structurally shrinking.",
+      "actionable": {},
       "child_ids": []
     },
     "testing-inspection-certification-value-chain/industrial-ndt-materials-testing/materials-mechanical-testing-labs-iso-17025": {
@@ -2625,6 +2730,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Several hundred private accredited labs, freely acquirable; but strategics (Mistras/GMA, Kiwa, Element, SGS) already consolidating so whitespace narrowing.",
+      "actionable": {},
       "child_ids": []
     },
     "testing-inspection-certification-value-chain/industrial-ndt-materials-testing/metallurgical-failure-analysis-vdi-3822": {
@@ -2709,6 +2815,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Private-pay specialist labs, freely acquirable; small population and strong key-expert dependence create integration/retention friction rather than a legal block.",
+      "actionable": {},
       "child_ids": []
     },
     "testing-inspection-certification-value-chain/industrial-ndt-materials-testing/coating-corrosion-inspection-frosio-nace": {
@@ -2788,6 +2895,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Freely acquirable, asset-light inspector micro-firms (private industrial/offshore/wind pay); virgin and owner-operated, but the target pool is small (EUR0.2-3m each) limiting platform scale.",
+      "actionable": {},
       "child_ids": []
     },
     "testing-inspection-certification-value-chain/industrial-ndt-materials-testing/dimensional-geometric-metrology-services-cmm-ct-lohnmessung": {
@@ -2863,6 +2971,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Freely acquirable job-measurement firms; capital-heavy CMM/CT kit and automotive cyclicality temper the model, but no financial consolidator yet.",
+      "actionable": {},
       "child_ids": []
     },
     "testing-inspection-certification-value-chain/industrial-ndt-materials-testing/welding-procedure-welder-certification-slv-dvs": {
@@ -2942,6 +3051,7 @@
       "pe_activity": [],
       "investability": "restricted",
       "investability_note": "Core network (GSI-SLV) is owned by the DVS industry association as a non-profit; individual SLVs are e.V./GSI-GmbH members. Association/non-profit ownership makes the core structurally hard to acquire; only a few independent exam bodies are open.",
+      "actionable": {},
       "child_ids": []
     },
     "testing-inspection-certification-value-chain/periodic-technical-safety-inspection": {
@@ -2980,6 +3090,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
+      "actionable": {},
       "child_ids": [
         "testing-inspection-certification-value-chain/periodic-technical-safety-inspection/statutory-vehicle-inspection-hu-au-29-stvzo",
         "testing-inspection-certification-value-chain/periodic-technical-safety-inspection/pressure-equipment-tank-systems-betrsichv-uanlg",
@@ -3075,6 +3186,7 @@
       "pe_activity": [],
       "investability": "restricted",
       "investability_note": "Set to restricted to match the gated children: rolling up franchised test points, aaSoP engineers and partner workshops is possible, but the core Prueforganisation / Ueberwachungsorganisation licence (and the aaSoP appointment) is regulator-gated and cannot simply be acquired.",
+      "actionable": {},
       "child_ids": [
         "testing-inspection-certification-value-chain/periodic-technical-safety-inspection/statutory-vehicle-inspection-hu-au-29-stvzo/passenger-car-motorcycle-hu-au",
         "testing-inspection-certification-value-chain/periodic-technical-safety-inspection/statutory-vehicle-inspection-hu-au-29-stvzo/commercial-vehicle-safety-inspection-sp-29-stvzo"
@@ -3156,6 +3268,7 @@
       "pe_activity": [],
       "investability": "restricted",
       "investability_note": "HU is a sovereign task; amtliche Anerkennung is held by only 4 organisations (TÜV/DEKRA/GTÜ/KÜS) and the Betrauung of the inspection engineer lapses if he leaves the org and is non-transferable. Only the host workshops/Prüfstützpunkte are acquirable, not the recognition itself.",
+      "actionable": {},
       "child_ids": []
     },
     "testing-inspection-certification-value-chain/periodic-technical-safety-inspection/statutory-vehicle-inspection-hu-au-29-stvzo/commercial-vehicle-safety-inspection-sp-29-stvzo": {
@@ -3223,6 +3336,7 @@
       "pe_activity": [],
       "investability": "blocked",
       "investability_note": "STATE-MONOPOLY: SP/HU can only be signed by the 4 amtlich anerkannte Ueberwachungsorganisationen (TUEV/DEKRA/GTUE/KUES) or betraute Kfz-Werkstaetten under their oversight; new ÜO recognition is effectively closed and fees are set by state Gebuehrenordnung.",
+      "actionable": {},
       "child_ids": []
     },
     "testing-inspection-certification-value-chain/periodic-technical-safety-inspection/pressure-equipment-tank-systems-betrsichv-uanlg": {
@@ -3287,6 +3401,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
+      "actionable": {},
       "child_ids": [
         "testing-inspection-certification-value-chain/periodic-technical-safety-inspection/pressure-equipment-tank-systems-betrsichv-uanlg/pressure-vessels-boilers-piping",
         "testing-inspection-certification-value-chain/periodic-technical-safety-inspection/pressure-equipment-tank-systems-betrsichv-uanlg/filling-stations-fuel-chemical-tank-systems"
@@ -3357,6 +3472,7 @@
       "pe_activity": [],
       "investability": "blocked",
       "investability_note": "State-designated ZÜS monopoly (accredited/designated via ZLS Munich, ~9 bodies), already inside the big TÜVs/DEKRA; capped-licence niche, structurally un-acquirable as a new platform.",
+      "actionable": {},
       "child_ids": []
     },
     "testing-inspection-certification-value-chain/periodic-technical-safety-inspection/pressure-equipment-tank-systems-betrsichv-uanlg/filling-stations-fuel-chemical-tank-systems": {
@@ -3425,6 +3541,7 @@
       "pe_activity": [],
       "investability": "restricted",
       "investability_note": "Fragmented private Sachverständigenbüros/Fachbetriebe are acquirable, but inspections require §52/§53 AwSV-recognised experts (person/organisation-bound recognition) and, for filling-station pressure/ÜAnlage duties, ZÜS accreditation — a licensing hurdle on transfer.",
+      "actionable": {},
       "child_ids": []
     },
     "testing-inspection-certification-value-chain/periodic-technical-safety-inspection/lifting-equipment-crane-inspection-dguv-v52-54": {
@@ -3493,6 +3610,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Crane-inspection SMEs are freely acquirable; Prüfsachverständige now personnel-certified under DIN EN ISO/IEC 17024 (DGUV Test) - person-bound competence but no ownership barrier.",
+      "actionable": {},
       "child_ids": []
     },
     "testing-inspection-certification-value-chain/periodic-technical-safety-inspection/electrical-installation-inspection-dguv-v3-e-check": {
@@ -3557,6 +3675,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
+      "actionable": {},
       "child_ids": [
         "testing-inspection-certification-value-chain/periodic-technical-safety-inspection/electrical-installation-inspection-dguv-v3-e-check/portable-electrical-equipment-ortsveranderlich",
         "testing-inspection-certification-value-chain/periodic-technical-safety-inspection/electrical-installation-inspection-dguv-v3-e-check/fixed-installations-machines-ortsfest"
@@ -3625,6 +3744,26 @@
           "title": "DGUV Info - Pruefung ortsveraenderlicher elektrischer Betriebsmittel",
           "url": "https://publikationen.dguv.de/regelwerk/dguv-informationen/829/pruefung-ortsveraenderlicher-elektrischer-betriebsmittel-praxistipps-fuer-betriebe",
           "note": "Legal recurring mandate; robust private-pay revenue base."
+        },
+        {
+          "title": "",
+          "url": "https://oms-pruefservice.de/pruefkonzepte/elektrische-geraetepruefung-dguv-v3/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.piepenbrock.de/dienstleistungen/betriebsmittelpruefung/pruefservice-dguv-v3/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.dodra.de/dguv-v3-pruefung-muenchen-kosten",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://aventis-advisors.com/tic-company-valuations/",
+          "note": ""
         }
       ],
       "confidence": 5,
@@ -3633,6 +3772,22 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Freely acquirable, asset-light, statutorily-mandated recurring service (private employer-pay); FLAG - 3i-backed OMS Pruefservice is already the DACH consolidator (900+ staff, 43 sites), so whitespace is closing fast.",
+      "actionable": {
+        "named_targets": [
+          "OMS Prüfservice (DGUV V3, 41+ Standorte bundesweit) — oms-pruefservice.de",
+          "E+Service+Check GmbH (zert. Fachbetrieb, ortsveränderliche Geräte) — e-service-check.de",
+          "Piepenbrock Prüfservice DGUV V3 (FM-Konzern-Sparte) — piepenbrock.de",
+          "GP Prüfservice (DGUV V3 Prüfungen) — gp-pruefservice.de"
+        ],
+        "ebitda_margin": "12-20% (TIC-sector band, Aventis Advisors)",
+        "entry_multiple": "n/a — proprietary; sector ref 7-8x EBITDA sub-EUR30m TIC (Aventis Advisors)",
+        "bnb_angle": "High-frequency, low-ticket recurring device testing is ideal for route-density roll-up: consolidate regional Prüfservice SMEs, densify technician routes, and standardise per-device pricing plus digital certificate/asset registers to lock in annual recall cycles.",
+        "key_risks": [
+          "Commoditised per-device pricing (from ~2.80 EUR) pressures margins at scale",
+          "Labour-supply constraint on qualified Elektrofachkräfte",
+          "Already an active consolidation arena (OMS, E+Service+Check) — entry multiples for scaled platforms may be full"
+        ]
+      },
       "child_ids": []
     },
     "testing-inspection-certification-value-chain/periodic-technical-safety-inspection/electrical-installation-inspection-dguv-v3-e-check/fixed-installations-machines-ortsfest": {
@@ -3700,6 +3855,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Acquirable Elektrofachbetriebe, but 3i-backed OMS (market leader, 900+ staff, 43 DACH sites) is already actively rolling up; late entry.",
+      "actionable": {},
       "child_ids": []
     },
     "testing-inspection-certification-value-chain/periodic-technical-safety-inspection/elevator-escalator-inspection-betrsichv-zus": {
@@ -3772,6 +3928,7 @@
       "pe_activity": [],
       "investability": "restricted",
       "investability_note": "Large mandated recurring TAM (~657k lifts, 2-yr cycle) but only ~9 accredited lift ZÜS, dominated by TÜV/DEKRA; ZÜS accreditation is a capped, hard-to-obtain licence, so entry/acquisition faces heavy regulatory friction.",
+      "actionable": {},
       "child_ids": []
     },
     "testing-inspection-certification-value-chain/periodic-technical-safety-inspection/playground-amusement-ride-inspection-din-en-1176-fliegende-bauten": {
@@ -3846,6 +4003,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Freely acquirable inspection SMEs with recurring per-site annual municipal contracts; Spielplatzprüfer qualification (DIN 79161) is person-bound but not an ownership barrier; no financial consolidator yet.",
+      "actionable": {},
       "child_ids": []
     },
     "testing-inspection-certification-value-chain/periodic-technical-safety-inspection/work-equipment-ppe-inspection-ladders-racking-psa-against-falls": {
@@ -3912,6 +4070,26 @@
           "title": "3i Group - OMS Pruefservice",
           "url": "https://www.3i.com/private-equity/our-portfolio/oms-pruefservice/",
           "note": "Adjacent PE platform that could extend into safety-equipment inspection - headroom risk to monitor."
+        },
+        {
+          "title": "",
+          "url": "https://www.os-pruefservice.de/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://asz-gmbh.de/pruefservice/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://sni-nord.de/en/regalinspektion/weitere-uvv-pruefungen/uvv-inspection-of-steps-and-ladders/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://aventis-advisors.com/tic-company-valuations/",
+          "note": ""
         }
       ],
       "confidence": 4,
@@ -3920,6 +4098,22 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Freely acquirable, asset-light, annual statutory (BetrSichV §14 / DGUV) recurring inspection with private employer-pay; highly fragmented SMEs and no dedicated financial consolidator yet (watch OMS-type adjacency expansion).",
+      "actionable": {
+        "named_targets": [
+          "OS-Prüfservice (Regal-, Leiter- & Hubwagenprüfung, bundesweit) — os-pruefservice.de",
+          "MS Arbeitsschutz (Arbeitsmittelprüfung Regal/Leiter/PSAgA) — msarbeitsschutz.de",
+          "asz GmbH (Prüfservice, bundesweit) — asz-gmbh.de",
+          "SNI-Nord GmbH (Regalinspektion, UVV Leitern/Tritte) — sni-nord.de"
+        ],
+        "ebitda_margin": "12-20% (TIC-sector band, Aventis Advisors; not niche-specific)",
+        "entry_multiple": "n/a — proprietary; sector ref 7-8x EBITDA for sub-EUR30m TIC targets (Aventis Advisors)",
+        "bnb_angle": "Classic route-density buy-and-build: acquire several regional Prüfservice SMEs, standardise on shared inspection software/certificate archiving and cross-sell ladder+racking+PSA+DGUV-V3 into one recurring annual visit to lift technician utilisation.",
+        "key_risks": [
+          "Very low barriers to entry (befähigte Person only) keep pricing competitive and churn high",
+          "Owner/technician-dependent; retention and requalification risk on exit",
+          "Overlap with electrical (DGUV V3) roll-ups already bidding for the same regional books"
+        ]
+      },
       "child_ids": []
     },
     "testing-inspection-certification-value-chain/periodic-technical-safety-inspection/explosion-protection-inspection-atex-trbs-1201": {
@@ -3985,6 +4179,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
+      "actionable": {},
       "child_ids": []
     },
     "testing-inspection-certification-value-chain/product-testing-certification": {
@@ -4023,6 +4218,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
+      "actionable": {},
       "child_ids": [
         "testing-inspection-certification-value-chain/product-testing-certification/ce-marking-conformity-assessment-horizontal",
         "testing-inspection-certification-value-chain/product-testing-certification/electrical-product-safety-emc-emv-testing",
@@ -4103,6 +4299,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
+      "actionable": {},
       "child_ids": [
         "testing-inspection-certification-value-chain/product-testing-certification/ce-marking-conformity-assessment-horizontal/notified-body-eu-type-examination",
         "testing-inspection-certification-value-chain/product-testing-certification/ce-marking-conformity-assessment-horizontal/ce-coordination-technical-file-consultancy"
@@ -4164,6 +4361,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
+      "actionable": {},
       "child_ids": []
     },
     "testing-inspection-certification-value-chain/product-testing-certification/ce-marking-conformity-assessment-horizontal/ce-coordination-technical-file-consultancy": {
@@ -4214,6 +4412,26 @@
           "title": "Leitfaden zur neuen Maschinenverordnung | IHK Bodensee-Oberschwaben",
           "url": "https://www.ihk.de/bodensee-oberschwaben/innovation/innovation-und-technologie/ce-kennzeichnung-und-normen/leitfaden-zur-neuen-maschinenverordnung-5592318",
           "note": "Regulatory change driving repeat consultancy demand"
+        },
+        {
+          "title": "",
+          "url": "https://www.ce-koordination.de/dienstleister/ce-kennzeichnung-maschinen/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.ibf-solutions.com/ce-kennzeichnung-und-konformitaetserklaerung",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.highdoc.de/leistungen/ce-kennzeichnung-maschinenrichtlinie/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.midok.de/ce-kennzeichnung-von-maschinen/",
+          "note": ""
         }
       ],
       "confidence": 4,
@@ -4222,6 +4440,22 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
+      "actionable": {
+        "named_targets": [
+          "Knorre GmbH / CE-Koordination (CE-Kennzeichnung Maschinen, Dienstleister) — ce-koordination.de",
+          "IBF Solutions (CE-Kennzeichnung & Konformitätserklärung, Risikobeurteilungs-Software) — ibf-solutions.com",
+          "HighDoc (CE-Kennzeichnung Maschinenrichtlinie) — highdoc.de",
+          "midok (CE-Kennzeichnung von Maschinen und Anlagen) — midok.de"
+        ],
+        "ebitda_margin": "omit — no niche-specific source (project-engineering consultancy)",
+        "entry_multiple": "n/a — proprietary; sector ref 7-8x EBITDA sub-EUR30m TIC (Aventis Advisors)",
+        "bnb_angle": "Blend a software backbone (risk-assessment/technical-file tooling à la IBF) with acquired engineering consultancies to move from 100-200h one-off machine projects toward retained per-manufacturer compliance mandates and recurring update work under the new EU Machinery Regulation.",
+        "key_risks": [
+          "Self-certification means the manufacturer can insource; low switching costs",
+          "Deeply people/engineer-dependent utilisation model, hard to scale margins",
+          "Regulatory transition (Machinery Regulation 2027) is a tailwind but adds delivery/re-training complexity"
+        ]
+      },
       "child_ids": []
     },
     "testing-inspection-certification-value-chain/product-testing-certification/electrical-product-safety-emc-emv-testing": {
@@ -4299,6 +4533,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
+      "actionable": {},
       "child_ids": [
         "testing-inspection-certification-value-chain/product-testing-certification/electrical-product-safety-emc-emv-testing/emc-emv-lab-testing",
         "testing-inspection-certification-value-chain/product-testing-certification/electrical-product-safety-emc-emv-testing/electrical-safety-low-voltage-testing"
@@ -4361,6 +4596,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
+      "actionable": {},
       "child_ids": []
     },
     "testing-inspection-certification-value-chain/product-testing-certification/electrical-product-safety-emc-emv-testing/electrical-safety-low-voltage-testing": {
@@ -4418,6 +4654,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
+      "actionable": {},
       "child_ids": []
     },
     "testing-inspection-certification-value-chain/product-testing-certification/wireless-radio-equipment-red": {
@@ -4487,6 +4724,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
+      "actionable": {},
       "child_ids": []
     },
     "testing-inspection-certification-value-chain/product-testing-certification/machinery-safety-functional-safety": {
@@ -4559,6 +4797,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
+      "actionable": {},
       "child_ids": [
         "testing-inspection-certification-value-chain/product-testing-certification/machinery-safety-functional-safety/machinery-directive-type-examination-annex-iv",
         "testing-inspection-certification-value-chain/product-testing-certification/machinery-safety-functional-safety/functional-safety-iec-61508-sil-assessment"
@@ -4619,6 +4858,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
+      "actionable": {},
       "child_ids": []
     },
     "testing-inspection-certification-value-chain/product-testing-certification/machinery-safety-functional-safety/functional-safety-iec-61508-sil-assessment": {
@@ -4685,6 +4925,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
+      "actionable": {},
       "child_ids": []
     },
     "testing-inspection-certification-value-chain/product-testing-certification/toys-consumer-products-gs-mark": {
@@ -4762,6 +5003,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
+      "actionable": {},
       "child_ids": [
         "testing-inspection-certification-value-chain/product-testing-certification/toys-consumer-products-gs-mark/toy-testing-en-71",
         "testing-inspection-certification-value-chain/product-testing-certification/toys-consumer-products-gs-mark/gs-mark-consumer-product-certification"
@@ -4823,6 +5065,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
+      "actionable": {},
       "child_ids": []
     },
     "testing-inspection-certification-value-chain/product-testing-certification/toys-consumer-products-gs-mark/gs-mark-consumer-product-certification": {
@@ -4882,6 +5125,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
+      "actionable": {},
       "child_ids": []
     },
     "testing-inspection-certification-value-chain/product-testing-certification/construction-products-cpr-u-zeichen-abz": {
@@ -4952,6 +5196,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
+      "actionable": {},
       "child_ids": []
     },
     "testing-inspection-certification-value-chain/product-testing-certification/pressure-gas-appliances-ped-gar": {
@@ -5017,6 +5262,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
+      "actionable": {},
       "child_ids": []
     },
     "testing-inspection-certification-value-chain/product-testing-certification/medical-device-notified-bodies-light-overlaps-medical": {
@@ -5081,6 +5327,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
+      "actionable": {},
       "child_ids": []
     },
     "testing-inspection-certification-value-chain/fire-occupational-safety-inspection-advisory": {
@@ -5119,6 +5366,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
+      "actionable": {},
       "child_ids": [
         "testing-inspection-certification-value-chain/fire-occupational-safety-inspection-advisory/fire-safety-expert-inspection-advisory-brandschutz",
         "testing-inspection-certification-value-chain/fire-occupational-safety-inspection-advisory/occupational-safety-technical-services-sicherheitstechnische-betreuung-external-sifa",
@@ -5191,6 +5439,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
+      "actionable": {},
       "child_ids": [
         "testing-inspection-certification-value-chain/fire-occupational-safety-inspection-advisory/fire-safety-expert-inspection-advisory-brandschutz/external-brandschutzbeauftragte-fire-safety-officer-outsourcing",
         "testing-inspection-certification-value-chain/fire-occupational-safety-inspection-advisory/fire-safety-expert-inspection-advisory-brandschutz/brandschutzkonzepte-prufsachverstandige-brandschutz"
@@ -5249,6 +5498,26 @@
           "title": "Brandschutzbeauftragter: Pflichten und Aufgaben (DEKRA Akademie)",
           "url": "https://www.dekra-akademie.de/content/berufsbild-brandschutzbeauftragter",
           "note": "qualification and duties of fire-safety officer"
+        },
+        {
+          "title": "",
+          "url": "https://www.ullertec.de/leistungen/brandschutz/externer-brandschutzbeauftragter/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://prosafecon.de/externer-brandschutzbeauftragter/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://123ingenieure.de/brandschutzbeauftragter/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.swl-brandschutz.de/externer-brandschutzbeauftragter/",
+          "note": ""
         }
       ],
       "confidence": 4,
@@ -5257,6 +5526,22 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
+      "actionable": {
+        "named_targets": [
+          "Ullertec GmbH (externer Brandschutzbeauftragter n. DGUV 205-003, Bochum/NRW + bundesweit) — ullertec.de",
+          "ProSafeCon (externer Brandschutzbeauftragter, deutschlandweit) — prosafecon.de",
+          "123Ingenieure GmbH (Brandschutzbetreuung bundesweit) — 123ingenieure.de",
+          "SWL-Brandschutz GmbH (externer Brandschutzbeauftragter) — swl-brandschutz.de"
+        ],
+        "ebitda_margin": "omit — no niche-specific source (people-utilisation advisory model)",
+        "entry_multiple": "n/a — proprietary; sector ref 7-8x EBITDA sub-EUR30m TIC (Aventis Advisors)",
+        "bnb_angle": "Consolidate regional owner-operators into a retained-officer platform with standardised documentation/walk-through workflow; recurring appointed-officer contracts give predictable subscription-like revenue and a natural upsell into training and Gefährdungsbeurteilung.",
+        "key_risks": [
+          "Highly fragmented, freelancer-heavy field with thin defensibility and easy self-provision by clients",
+          "Personal-appointment nature ties revenue to named individuals, complicating scale and exit",
+          "Competition from large TIC brands (DEKRA, Securitas, TÜV) on national accounts"
+        ]
+      },
       "child_ids": []
     },
     "testing-inspection-certification-value-chain/fire-occupational-safety-inspection-advisory/fire-safety-expert-inspection-advisory-brandschutz/brandschutzkonzepte-prufsachverstandige-brandschutz": {
@@ -5320,6 +5605,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
+      "actionable": {},
       "child_ids": []
     },
     "testing-inspection-certification-value-chain/fire-occupational-safety-inspection-advisory/occupational-safety-technical-services-sicherheitstechnische-betreuung-external-sifa": {
@@ -5383,6 +5669,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
+      "actionable": {},
       "child_ids": [
         "testing-inspection-certification-value-chain/fire-occupational-safety-inspection-advisory/occupational-safety-technical-services-sicherheitstechnische-betreuung-external-sifa/uberbetrieblicher-sicherheitsdienst-ubs-retained-external-sifa"
       ]
@@ -5440,6 +5727,21 @@
           "title": "baua Bericht: Bedarf an Fachkräften für Arbeitssicherheit",
           "url": "https://www.baua.de/DE/Angebote/Publikationen/Berichte/F2388.pdf",
           "note": "official study on SiFa demand/supply in Germany"
+        },
+        {
+          "title": "",
+          "url": "https://www.ibs.de/arbeitssicherheit/fachkraft-fuer-arbeitssicherheit/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.2besecured.de/externe-fachkraft-fuer-arbeitssicherheit/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.integion.de/arbeitssicherheit/externe-fachkraft-fuer-arbeitssicherheit/",
+          "note": ""
         }
       ],
       "confidence": 3,
@@ -5448,6 +5750,21 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
+      "actionable": {
+        "named_targets": [
+          "IBS - Ingenieurbüro für Arbeitssicherheit (externe FaSi, deutschlandweit) — ibs.de",
+          "2besecured (externe Fachkraft für Arbeitssicherheit, bundesweit) — 2besecured.de",
+          "Integion (externe SiFa; München/Nürnberg/Passau) — integion.de"
+        ],
+        "ebitda_margin": "omit — no niche-specific source (retained-advisory people model)",
+        "entry_multiple": "n/a — proprietary; sector ref 7-8x EBITDA sub-EUR30m TIC (Aventis Advisors)",
+        "bnb_angle": "Roll up regional/solo SiFa books into an ASiG-compliant retained platform: annual per-headcount retainers are subscription-like, and bundling betriebsärztliche + sicherheitstechnische Betreuung under DGUV Vorschrift 2 raises revenue per client and switching costs.",
+        "key_risks": [
+          "Very large long tail of solo providers keeps pricing and defensibility low",
+          "§19 ASiG allows self-provision; demand is mandated but supplier-substitutable",
+          "Named-appointment model means key-person/retention risk across acquired offices"
+        ]
+      },
       "child_ids": []
     },
     "testing-inspection-certification-value-chain/fire-occupational-safety-inspection-advisory/hazard-assessment-compliance-documentation-gefahrdungsbeurteilung": {
@@ -5510,6 +5827,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
+      "actionable": {},
       "child_ids": [
         "testing-inspection-certification-value-chain/fire-occupational-safety-inspection-advisory/hazard-assessment-compliance-documentation-gefahrdungsbeurteilung/psychische-gefahrdungsbeurteilung-psychological-risk-assessment",
         "testing-inspection-certification-value-chain/fire-occupational-safety-inspection-advisory/hazard-assessment-compliance-documentation-gefahrdungsbeurteilung/explosionsschutzdokument-explosion-protection-document"
@@ -5562,6 +5880,26 @@
           "title": "Psychische Gefährdungsbeurteilung Gesetz – ArbSchG §5 (Safe-Mind)",
           "url": "https://safe-mind.de/de/psychische-gefaehrdungsbeurteilung-gesetz",
           "note": "legal basis and provider service"
+        },
+        {
+          "title": "",
+          "url": "https://dearemployee.de/pgb/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.dekra.de/de/dearemployee-verfahren/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://safe-mind.de/de/vergleich",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://safe-mind.de/de/gb-psych",
+          "note": ""
         }
       ],
       "confidence": 4,
@@ -5570,6 +5908,21 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
+      "actionable": {
+        "named_targets": [
+          "DearEmployee GmbH (Berlin; scientifically validated GBpsych survey; DEKRA partners the DearEmployee-Verfahren) — dearemployee.de",
+          "Safe Mind (GBpsych SaaS; also runs a 16-provider market comparison) — safe-mind.de",
+          "youCcom / COPSOQ-based providers (named in Safe Mind's comparison) — safe-mind.de/de/vergleich"
+        ],
+        "ebitda_margin": "omit — no reliable niche-specific source",
+        "entry_multiple": "n/a — proprietary; early-stage SaaS priced on ARR/growth rather than EBITDA",
+        "bnb_angle": "Software-led buy-and-build: anchor on a validated survey SaaS (DearEmployee/Safe Mind) and bolt on boutique occupational-psychology consultancies to convert one-off project fees into recurring annual re-assessment subscriptions as GDA enforcement tightens.",
+        "key_risks": [
+          "Immature, low-barrier market with many boutique and free/COPSOQ alternatives",
+          "Enforcement intensity varies by Land, so mandated demand is uneven",
+          "Anonymity/DSGVO requirements (min. group size n=5) constrain SME product-market fit"
+        ]
+      },
       "child_ids": []
     },
     "testing-inspection-certification-value-chain/fire-occupational-safety-inspection-advisory/hazard-assessment-compliance-documentation-gefahrdungsbeurteilung/explosionsschutzdokument-explosion-protection-document": {
@@ -5627,6 +5980,26 @@
           "title": "Explosionsschutzdokument (DGUV Information 213-106)",
           "url": "https://publikationen.dguv.de/widgets/pdf/download/article/3360",
           "note": "official guidance on required document content"
+        },
+        {
+          "title": "",
+          "url": "https://bahrex.de/explosionsschutzdokument-erstellen-lassen/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://dhrw-engineering.de/bereiche/explosionsschutz/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.aep-ingenieurbuero.de/leistungen/explosionsschutz",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://tecnicum.com/consulting/evaluierung-explosionsgefaehrdeter-bereiche-1",
+          "note": ""
         }
       ],
       "confidence": 4,
@@ -5635,6 +6008,22 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
+      "actionable": {
+        "named_targets": [
+          "BAHREX (Explosionsschutzdokument, Zoneneinteilung, Prüfung aus einer Hand) — bahrex.de",
+          "DHRW Engineering (ATEX-Spezialisten, deutschlandweit) — dhrw-engineering.de",
+          "AEP Zimmer Ingenieurgesellschaft mbH (Explosionsschutz Full-Service) — aep-ingenieurbuero.de",
+          "tec.nicum consulting (Ex-Schutz-Beratung) — tecnicum.com"
+        ],
+        "ebitda_margin": "omit — no niche-specific source (specialist engineering consultancy)",
+        "entry_multiple": "n/a — proprietary; sector ref 7-8x EBITDA sub-EUR30m TIC (Aventis Advisors)",
+        "bnb_angle": "Niche Ex-Schutz expertise commands premium day-rates (documents from ~975 EUR) with recurring re-validation and inspection follow-on; a specialist consolidator could combine documentation, ATEX equipment inspection and training to become the DACH reference brand ahead of TÜV/DEKRA units.",
+        "key_risks": [
+          "Deep-specialist labour is scarce and hard to replace on exit",
+          "Small addressable base ('Too small' quadrant) caps platform size",
+          "Competes with well-resourced TÜV/DEKRA Ex-Schutz divisions for larger accounts"
+        ]
+      },
       "child_ids": []
     },
     "testing-inspection-certification-value-chain/fire-occupational-safety-inspection-advisory/construction-site-safety-coordination-sigeko-baustellenverordnung": {
@@ -5690,6 +6079,21 @@
           "title": "SiGeKo beauftragen – zertifizierte Experten in ganz Deutschland",
           "url": "https://www.sigeko-in-der-region.de/",
           "note": "nationwide placement platform, evidence of fragmented supply"
+        },
+        {
+          "title": "",
+          "url": "https://www.fkc-gmbh.de/leistungen/arbeitsschutz/baustellenkoordination-sigeko",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.sigekos.de/sigeko.html",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.tuv.com/germany/de/lp/academy-lifecare/arbeitsmedizinischer-dienst/main-navigation/arbeitssicherheit/sicherheit-auf-baustellen/",
+          "note": ""
         }
       ],
       "confidence": 4,
@@ -5698,6 +6102,22 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
+      "actionable": {
+        "named_targets": [
+          "ecoprotec GmbH (SiGeKo / Baustellensicherheit) — ecoprotec.de",
+          "FKC GmbH (Baustellenkoordination SiGeKo) — fkc-gmbh.de",
+          "sigekos.de (Netzwerk von Sicherheitskoordinatoren) — sigekos.de",
+          "TÜV Rheinland (SiGeKo-Koordination Großbaustellen) — tuv.com"
+        ],
+        "ebitda_margin": "omit — no niche-specific source (day-rate project services)",
+        "entry_multiple": "n/a — proprietary; sector ref 7-8x EBITDA sub-EUR30m TIC (Aventis Advisors)",
+        "bnb_angle": "Project-driven but demand-mandated by Baustellenverordnung; a consolidator can aggregate certified SiGeKo freelancers/offices into a managed panel, standardise SiGe-Plan tooling and pursue framework agreements with large developers and public clients for repeat pipeline.",
+        "key_risks": [
+          "Project/day-rate revenue is lumpier and less recurring than periodic inspection",
+          "Coordinator qualification tied to individuals; retention/exit risk",
+          "Construction-cycle cyclicality directly hits volumes"
+        ]
+      },
       "child_ids": []
     },
     "testing-inspection-certification-value-chain/fire-occupational-safety-inspection-advisory/external-occupational-physicians-arbeitsmedizinische-betreuung-light": {
@@ -5761,6 +6181,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
+      "actionable": {},
       "child_ids": []
     },
     "testing-inspection-certification-value-chain/fire-occupational-safety-inspection-advisory/workplace-exposure-measurement-gefahrstoffe-larm": {
@@ -5818,6 +6239,26 @@
           "title": "Arbeitsplatzmessung auf Gefahrstoffe (DEKRA)",
           "url": "https://www.dekra.de/de/arbeitsplatzmessung/",
           "note": "accredited lab measurement service under §7 GefStoffV"
+        },
+        {
+          "title": "",
+          "url": "https://www.ias-gruppe.de/sicherheit/messungen",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.muellerbbm.de/mueller-bbm/aktuelles/gefahrstoffmessungen-am-arbeitsplatz-messstelle-fuer-gefahrstoffmessung/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.sphaera.de/arbeitsplatzmessungen",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://aventis-advisors.com/tic-company-valuations/",
+          "note": ""
         }
       ],
       "confidence": 4,
@@ -5826,6 +6267,22 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
+      "actionable": {
+        "named_targets": [
+          "ias-Gruppe Messstelle (DAkkS-akkreditiert n. §7 GefStoffV; Gefahrstoff/Lärm/Vibration) — ias-gruppe.de",
+          "Müller-BBM Industry Solutions GmbH (Messstelle Gefahrstoffe/Schall) — muellerbbm.de",
+          "SPHÄRA GmbH (Arbeitsplatzmessungen & Gefahrstoffe) — sphaera.de",
+          "DEKRA (akkreditierte Messstelle §7 Abs.10 GefStoffV) — dekra.de"
+        ],
+        "ebitda_margin": "12-20% (TIC-sector band; sampling+lab model — Aventis Advisors)",
+        "entry_multiple": "n/a — proprietary; sector ref 7-8x EBITDA sub-EUR30m TIC (Aventis Advisors)",
+        "bnb_angle": "Accredited Messstellen combine recurring measurement campaigns (EUR2k-20k) with lab analytics; a consolidator can knit together the dozens of DAkkS-accredited stations (BUA directory) to build regional coverage and cross-sell into Gefährdungsbeurteilung and environmental-lab workflows.",
+        "key_risks": [
+          "DAkkS §7-accreditation and specialist metrologists limit supply and slow integration",
+          "Dominated at the top by DEKRA/TÜV SÜD/TÜV Rheinland on national accounts",
+          "Capital and calibration intensity plus campaign-based (lumpy) demand"
+        ]
+      },
       "child_ids": []
     },
     "testing-inspection-certification-value-chain/fire-occupational-safety-inspection-advisory/safety-emergency-training-brandschutzhelfer-ersthelfer": {
@@ -5882,6 +6339,26 @@
           "title": "Ersthelfer werden (VBG)",
           "url": "https://www.vbg.de/cms/arbeitsschutz/arbeitsschutz-organisieren/erste-hilfe-brandschutz-notfallorganisation/erste-hilfe/ersthelfer-werden",
           "note": "statutory first-aider requirement and refresh cycle"
+        },
+        {
+          "title": "",
+          "url": "https://praevencio.de/erste-hilfe-kurs/kombischulung/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.helpfirst.de/brandschutzhelfer-ausbildung/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://brandschutz-zentrale.de/brandschutzhelfer/brandschutzhelfer-ausbildung/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://brandschutzfinder.de/ratgeber/brandschutzhelfer-ausbildung-guide/",
+          "note": ""
         }
       ],
       "confidence": 4,
@@ -5890,6 +6367,22 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
+      "actionable": {
+        "named_targets": [
+          "Praevencio (Kombi Brandschutzhelfer + Ersthelfer an einem Tag, bundesweit) — praevencio.de",
+          "Help First Akademie (DGUV 205-023, 50+ Standorte) — helpfirst.de",
+          "Brandschutz-Zentrale (Brandschutz/Erste-Hilfe-Schulungen, online + vor Ort) — brandschutz-zentrale.de",
+          "DEKRA Akademie (Brandschutzhelfer-Ausbildung inhouse bundesweit) — dekra-akademie.de"
+        ],
+        "ebitda_margin": "omit — no niche-specific source (trainer-utilisation model)",
+        "entry_multiple": "n/a — proprietary; sector ref 7-8x EBITDA sub-EUR30m TIC (Aventis Advisors)",
+        "bnb_angle": "Mandatory, high-repeat courses (inhouse ~600-1,500 EUR per session for up to 15) suit a national trainer-network roll-up: standardise curriculum, add a booking/LMS platform, and cross-sell Brandschutzhelfer + Ersthelfer + evacuation combos to raise trainer utilisation and per-client wallet.",
+        "key_risks": [
+          "Very low barriers; hundreds of local providers and franchise/association competition (ADAC, aid organisations)",
+          "Trainer availability and travel logistics cap scalability",
+          "Price-sensitive, commoditised per-participant economics"
+        ]
+      },
       "child_ids": []
     },
     "testing-inspection-certification-value-chain/management-system-process-certification": {
@@ -5928,6 +6421,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
+      "actionable": {},
       "child_ids": [
         "testing-inspection-certification-value-chain/management-system-process-certification/generic-iso-management-system-certification-iso-9001-14001-45001",
         "testing-inspection-certification-value-chain/management-system-process-certification/information-security-data-certification-iso-27001-tisax-bsi",
@@ -6007,6 +6501,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
+      "actionable": {},
       "child_ids": [
         "testing-inspection-certification-value-chain/management-system-process-certification/generic-iso-management-system-certification-iso-9001-14001-45001/quality-management-iso-9001",
         "testing-inspection-certification-value-chain/management-system-process-certification/generic-iso-management-system-certification-iso-9001-14001-45001/environmental-oh-s-iso-14001-iso-45001"
@@ -6067,6 +6562,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
+      "actionable": {},
       "child_ids": []
     },
     "testing-inspection-certification-value-chain/management-system-process-certification/generic-iso-management-system-certification-iso-9001-14001-45001/environmental-oh-s-iso-14001-iso-45001": {
@@ -6125,6 +6621,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
+      "actionable": {},
       "child_ids": []
     },
     "testing-inspection-certification-value-chain/management-system-process-certification/information-security-data-certification-iso-27001-tisax-bsi": {
@@ -6194,6 +6691,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
+      "actionable": {},
       "child_ids": [
         "testing-inspection-certification-value-chain/management-system-process-certification/information-security-data-certification-iso-27001-tisax-bsi/iso-iec-27001-isms-certification",
         "testing-inspection-certification-value-chain/management-system-process-certification/information-security-data-certification-iso-27001-tisax-bsi/tisax-automotive-information-security-assessment"
@@ -6247,6 +6745,31 @@
           "title": "Richtige ISO 27001 Zertifizierungsstelle finden (acato)",
           "url": "https://acato.de/iso-27001-zertifizierungsstellen/",
           "note": "Discusses accredited vs non-accredited ISO 27001 body landscape in Germany"
+        },
+        {
+          "title": "",
+          "url": "https://www.tuvsud.com/de-de/dienstleistungen/auditierung-und-zertifizierung/cyber-security-zertifizierung/iso-27001",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.socotec-certification-international.de/leistungen/iso-27001-zertifizierung",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.proliance.ai/blog/iso-27001-zertifizierungsstellen-vergleich",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://acato.de/zertifizierungsstellen-deutschland/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://aventis-advisors.com/tic-company-valuations/",
+          "note": ""
         }
       ],
       "confidence": 4,
@@ -6255,6 +6778,22 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
+      "actionable": {
+        "named_targets": [
+          "DQS (DAkkS-akkreditierte ISMS-Zertifizierung) — dqs.de",
+          "TÜV SÜD (DAkkS-akkreditiert n. ISO/IEC 27006-1) — tuvsud.com",
+          "SOCOTEC Certification Deutschland (Halblech; DAkkS-akkreditiert) — socotec-certification-international.de",
+          "GUTcert (Berlin; ISO/IEC 27001) — gut-cert.de"
+        ],
+        "ebitda_margin": "12-20% (TIC-sector band, Aventis Advisors)",
+        "entry_multiple": "n/a — proprietary; sector ref: TIC targets >EUR30m attract double-digit EV/EBITDA, <EUR30m 7-8x (Aventis Advisors)",
+        "bnb_angle": "Audit fees of ~EUR10-25k per 3-year cycle recur automatically; consolidate mid-size DAkkS-accredited bodies to build auditor scale, then cross-sell 27001 alongside TISAX, ISO 9001/14001 and NIS2-driven scopes into the same client base as demand surges.",
+        "key_risks": [
+          "DAkkS accreditation and auditor supply are the binding constraint on growth",
+          "~30-50 accredited bodies plus TÜV majors make it competitive; auditor wage inflation",
+          "Independence/conflict rules limit bundling of consulting with certification"
+        ]
+      },
       "child_ids": []
     },
     "testing-inspection-certification-value-chain/management-system-process-certification/information-security-data-certification-iso-27001-tisax-bsi/tisax-automotive-information-security-assessment": {
@@ -6318,6 +6857,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
+      "actionable": {},
       "child_ids": []
     },
     "testing-inspection-certification-value-chain/management-system-process-certification/sector-specific-qms-certification-iatf-16949-en-9100": {
@@ -6388,6 +6928,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
+      "actionable": {},
       "child_ids": []
     },
     "testing-inspection-certification-value-chain/management-system-process-certification/energy-environmental-management-certification-iso-50001-emas": {
@@ -6452,6 +6993,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
+      "actionable": {},
       "child_ids": []
     },
     "testing-inspection-certification-value-chain/management-system-process-certification/sustainability-esg-csrd-assurance": {
@@ -6537,6 +7079,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
+      "actionable": {},
       "child_ids": []
     },
     "testing-inspection-certification-value-chain/management-system-process-certification/supply-chain-social-compliance-audits-smeta-bsci-lksg": {
@@ -6607,6 +7150,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
+      "actionable": {},
       "child_ids": []
     },
     "testing-inspection-certification-value-chain/management-system-process-certification/product-chain-organic-regulated-process-certification-light": {
@@ -6676,6 +7220,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
+      "actionable": {},
       "child_ids": []
     },
     "testing-inspection-certification-value-chain/environmental-water-emissions-testing": {
@@ -6741,6 +7286,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
+      "actionable": {},
       "child_ids": [
         "testing-inspection-certification-value-chain/environmental-water-emissions-testing/emission-immission-measurement-29b-bimschg-messstellen",
         "testing-inspection-certification-value-chain/environmental-water-emissions-testing/environmental-analytics-soil-water-waste-bbodschv-awsv-krwg",
@@ -6807,6 +7353,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
+      "actionable": {},
       "child_ids": []
     },
     "testing-inspection-certification-value-chain/environmental-water-emissions-testing/environmental-analytics-soil-water-waste-bbodschv-awsv-krwg": {
@@ -6862,6 +7409,31 @@
           "title": "AGROLAB Group - Wasseranalytik",
           "url": "https://agrolab.com/de/produkte-leistungen/wasseranalytik.html",
           "note": "Accredited water analytics confirming scope"
+        },
+        {
+          "title": "",
+          "url": "https://www.agrolab.com/de/agrolab-labor-gmbh-bruckberg.html",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.eurofins.de/umwelt/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.sgs.com/en-de/news/2021/04/synlab-analytics-and-services-becomes-sgs-analytics",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://geodata-umwelt.de/labor/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://aventis-advisors.com/tic-company-valuations/",
+          "note": ""
         }
       ],
       "confidence": 3,
@@ -6870,6 +7442,22 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
+      "actionable": {
+        "named_targets": [
+          "AGROLAB GROUP (DAkkS D-PL-14289; Boden/Abfall/Eluat/Wasser, Multi-Standort DE) — agrolab.com",
+          "Eurofins Umwelt Deutschland (17025-akkreditiertes LaN­etzwerk) — eurofins.de/umwelt",
+          "SGS Analytics (ex-SYNLAB A&S, DE/Benelux Umweltlabore) — sgs.com",
+          "GEO data Umwelt (regionales DAkkS-Wasser-/Umweltlabor, Bolt-on-Kandidat) — geodata-umwelt.de"
+        ],
+        "ebitda_margin": "12-20% (TIC-sector band; lab testing is asset-intensive so at lower end — Aventis Advisors)",
+        "entry_multiple": "sub-EUR30m targets ~7-8x EBITDA, >EUR30m double-digit EV/EBITDA (Aventis Advisors); precedent: SGS bought SYNLAB A&S for ~EUR550m (2021)",
+        "bnb_angle": "The most 'platform-ready' niche here: a fragmented long tail of DAkkS-accredited labs is actively consolidating under AGROLAB/Eurofins/SGS. A buy-and-build can add regional labs to fill sampling density, share accreditation scope and lift utilisation of expensive LC-MS/GC-MS capacity.",
+        "key_risks": [
+          "Capital-intensive (instrumentation, accreditation) depresses margins vs asset-light TIC",
+          "Majors (SGS, Eurofins, AGROLAB) already bidding up quality regional assets",
+          "Regulatory method changes and sample-volume cyclicality (construction/remediation-linked)"
+        ]
+      },
       "child_ids": []
     },
     "testing-inspection-certification-value-chain/environmental-water-emissions-testing/drinking-water-legionella-testing-trinkwv": {
@@ -6931,6 +7519,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
+      "actionable": {},
       "child_ids": []
     },
     "testing-inspection-certification-value-chain/food-feed-agricultural-testing": {
@@ -6993,6 +7582,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
+      "actionable": {},
       "child_ids": [
         "testing-inspection-certification-value-chain/food-feed-agricultural-testing/food-safety-contaminant-analytics-iso-17025",
         "testing-inspection-certification-value-chain/food-feed-agricultural-testing/microbiological-shelf-life-testing",
@@ -7060,6 +7650,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
+      "actionable": {},
       "child_ids": []
     },
     "testing-inspection-certification-value-chain/food-feed-agricultural-testing/microbiological-shelf-life-testing": {
@@ -7121,6 +7712,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
+      "actionable": {},
       "child_ids": []
     },
     "testing-inspection-certification-value-chain/food-feed-agricultural-testing/feed-agricultural-input-testing": {
@@ -7174,6 +7766,26 @@
           "title": "Eurofins Deutschland - Lebensmittel/Futtermittel Analytik",
           "url": "https://www.eurofins.de/lebensmittel/",
           "note": "Feed and agricultural input testing in the Eurofins network"
+        },
+        {
+          "title": "",
+          "url": "https://agrolab.com/de/agrolab-lufa-kiel-deutschland.html",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.agrolab.com/de/produkte-leistungen/futteruntersuchungen-gmp/anerkannte-analytik-fuer-qs-und-gmp.html",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.eurofins.de/umwelt/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://aventis-advisors.com/tic-company-valuations/",
+          "note": ""
         }
       ],
       "confidence": 3,
@@ -7182,6 +7794,21 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
+      "actionable": {
+        "named_targets": [
+          "AGROLAB LUFA GmbH (Kiel; DIN EN 17025, GMP+/QS-anerkannt für Futtermittel) — agrolab.com",
+          "Eurofins (Futter-/Agraranalytik im LaN­etzwerk) — eurofins.de",
+          "AGROLAB Agrar und Umwelt GmbH (Kiel; Dünger/Boden/Ernteprodukte) — agrolab.com"
+        ],
+        "ebitda_margin": "12-20% (TIC-sector band; asset-intensive lab, lower end — Aventis Advisors)",
+        "entry_multiple": "sub-EUR30m ~7-8x EBITDA; >EUR30m double-digit (Aventis Advisors)",
+        "bnb_angle": "Feed/agri-input labs overlap heavily with environmental analytics and are consolidating under the same AGROLAB/Eurofins roofs; QS and GMP+ scheme recognition is the moat, so bolt-ons that add accredited scopes (mycotoxins, GMO, residues) deepen a broader agri-testing platform.",
+        "key_risks": [
+          "Same asset intensity and accreditation dependency as environmental labs",
+          "Concentrated buyer landscape (AGROLAB, Eurofins) limits independent-platform white space",
+          "Exposure to agricultural commodity/season cycles and scheme (QS/GMP+) rule changes"
+        ]
+      },
       "child_ids": []
     },
     "testing-inspection-certification-value-chain/periodic-technical-safety-inspection/vehicle-type-approval-homologation-typgenehmigung-21-stvzo-einzelabnahme": {
@@ -7248,6 +7875,7 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "",
+      "actionable": {},
       "child_ids": []
     }
   }

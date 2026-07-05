@@ -313,6 +313,26 @@
           "title": "kanalprofi GmbH - Kanalinspektion, Dichtheit, Reinigung",
           "url": "https://www.kanalprofi.de/",
           "note": "Typical owner-operated regional specialist illustrating fragmentation."
+        },
+        {
+          "title": "",
+          "url": "https://www.kanalservicegruppe.com/unternehmensgruppe-kanalservice-holding-ag/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.swietelsky-faber.de/de/leistungen/prueftechnik-tv-inspektion.php",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://kanaltechnik.com/wp/dienstleistung/tv-inspektion",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.capstonepartners.com/insights/article-industrial-environmental-services-market-update/",
+          "note": ""
         }
       ],
       "confidence": 4,
@@ -321,7 +341,22 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Hundreds of privately-held owner-operated certified operators; freely acquirable (private property-side work is no municipal monopoly), though municipal sewer contracts run via public tender.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          "Kanalservice Holding AG / Kanalservice Gruppe (kanalservicegruppe.com) - active DE/CH Buy & Build consolidator in underground-infrastructure services",
+          "Swietelsky-Faber Kanalsanierung GmbH (swietelsky-faber.de) - Prüftechnik / TV-Inspektion",
+          "SCHNURRER Kanaltechnik GmbH (kanaltechnik.com) - TV-Inspektion, Dichtheitsprüfung, Deformationsmessung",
+          "MB Rohrfuchs (mb-rohrfuchs.de) - regional TV-Inspektion / Dichtheitsprüfung operator"
+        ],
+        "ebitda_margin": "omit - no reliable public band for this niche",
+        "entry_multiple": "n/a - proprietary; note an active strategic consolidator (Kanalservice Holding) already competing for assets",
+        "bnb_angle": "Kanalservice Holding AG already runs a Buy & Build across DE/CH underground-infrastructure services - proof the roll-up works; consolidate regional TV-Inspektion/Dichtheitsprüfung operators as the diagnostic front-end that pulls through statutory rehabilitation spend.",
+        "key_risks": [
+          "Capital-intensive (camera/jetting trucks) - per-vehicle economics limit margin",
+          "Heavy municipal-tender exposure creates pricing pressure",
+          "Shortage of certified operators; competition from an already-scaled consolidator"
+        ]
+      },
       "child_ids": []
     },
     "environmental-services-value-chain/industrial-sewer-cleaning-services/statutory-separator-emptying-service-fett-oel-leichtfluessigkeitsabscheider": {
@@ -413,6 +448,16 @@
           "title": "Grease separator disposal - Manufacturers, Traders & Suppliers",
           "url": "https://www.industrystock.com/en/companies/Environmental-Technology/Disposal/Hazardous-Waste/Grease-separator-disposal",
           "note": "Fragmented supplier base (~23 listed) across DE/AT/CH indicating long owner-operated tail."
+        },
+        {
+          "title": "",
+          "url": "https://www.remondis-ascontrol.de/abscheider-full-service/abscheiderservice/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.boerdner.de/leistungen/saugwagen-abscheiderservice/fettabscheider-wartung-und-reinigung/",
+          "note": ""
         }
       ],
       "confidence": 4,
@@ -421,7 +466,21 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Freely acquirable private route-service business; several hundred owner-operated targets, no ownership restriction.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          "REMONDIS AS-CONTROL / REMONDIS Industrie Service (remondis-ascontrol.de) - nationwide Abscheider full-service",
+          "Nehlsen AG (nehlsen.com) - separator maintenance, general inspection, refurbishment",
+          "BÖRDNER Städtereinigung GmbH (boerdner.de) - regional Saugwagen / Abscheiderservice"
+        ],
+        "ebitda_margin": "omit - no reliable public band (largely embedded in diversified waste groups)",
+        "entry_multiple": "n/a - proprietary",
+        "bnb_angle": "[Duplicate pointer node] Mandatory emptying intervals give sticky, route-density economics - consolidate regional Abscheiderdienste into a route-based platform; REMONDIS AS-CONTROL is the incumbent nationwide model to displace at the SME layer.",
+        "key_risks": [
+          "REMONDIS and Nehlsen already run nationwide networks with scale advantages",
+          "Most standalone service is embedded in larger waste-disposal groups (thin pool of clean targets)",
+          "Low ticket per service; disposal-cost and regulatory dependency"
+        ]
+      },
       "child_ids": []
     },
     "environmental-services-value-chain/industrial-sewer-cleaning-services/industrial-high-pressure-vacuum-cleaning-hoechstdruck-saugtechnik": {
@@ -934,6 +993,26 @@
           "title": "MTS Mobile Tiefbau Saugsysteme",
           "url": "http://www.saugbagger.com/en",
           "note": "Fragmented operator base, per-truck economics, capital-heavy fleets (low margin/asset-lightness)."
+        },
+        {
+          "title": "",
+          "url": "https://www.mas-service.eu/saugbagger-service",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.maertens-industrie-service.de/saugbagger-mieten",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://mobilsauger.de/saugbagger-vermietung-deutschlandweit/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.rsp.com/en/",
+          "note": ""
         }
       ],
       "confidence": 4,
@@ -942,7 +1021,22 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Owner-operated per-truck operators, freely acquirable; no financial consolidator present, only a new VDBUM interest group.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          "MAS GmbH - Saugbagger Service (mas-service.eu) - mobile suction-excavator hire incl. operator, 24/7 nationwide",
+          "Märtens Industrie Service (maertens-industrie-service.de) - suction-excavator hire, air-conveyor/suction technology",
+          "MSD Mobile Saugbagger Dienste OHG (mobilsauger.de) - nationwide suction-excavator rental",
+          "STW GmbH (Duisburg) - Saugbaggervermietung operator"
+        ],
+        "ebitda_margin": "omit - no reliable public band for this niche",
+        "entry_multiple": "n/a - proprietary (capital-intensive, per-truck economics)",
+        "bnb_angle": "German OEM depth (RSP, MTS) gives cheap, serviceable fleet supply; consolidate regional operators (billing ~EUR 230/hr incl. operator) into a fleet-utilisation platform serving utility-strike-avoidance demand from grid/fibre/pipe works.",
+        "key_risks": [
+          "Capital-intensive per-truck model with high fleet-utilisation sensitivity",
+          "Cyclical with construction/infrastructure activity",
+          "Operator-labour scarcity and transport/logistics cost"
+        ]
+      },
       "child_ids": []
     },
     "environmental-services-value-chain/industrial-sewer-cleaning-services/hazardous-confined-space-industrial-cleaning-gefahrstoff-behaelterbefahrung": {
@@ -1278,6 +1372,31 @@
           "title": "wlw – Ingenieurbueros fuer Schallschutz (Germany)",
           "url": "https://www.wlw.de/de/suche/ingenieurbueros-fuer-schallschutz/country/germany",
           "note": "Large, highly fragmented pool of independent acoustics/noise engineering firms; no financial consolidator visible."
+        },
+        {
+          "title": "",
+          "url": "https://akustikbuero.de/tag/bekanntgegebene-messstelle-nach-%C2%A7-29b-bimschg-fuer-geraeusche-und-erschuetterungen/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://bekon-akustik.de/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://lairm.de/qualifiziert/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://normecuppenkamp.com/schallimmissionsschutz/prognosen/gewerbe-industrie/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://aventis-advisors.com/tic-company-valuations/",
+          "note": ""
         }
       ],
       "confidence": 3,
@@ -1286,7 +1405,22 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Owner-operated acoustics Ingenieurbueros, asset-light, no Fremdbesitzverbot; firm-level accreditation transfers on acquisition.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          "Akustikbüro Dahms GmbH (akustikbuero.de) - §29b BImSchG bekanntgegebene Messstelle for noise/vibration",
+          "BEKON Lärmschutz & Akustik GmbH (bekon-akustik.de) - §29b Messstelle, consulting + planning",
+          "LAIRM CONSULT GmbH (lairm.de) - nationwide acoustics/Immissionsschutz Ingenieurbüro",
+          "Normec Uppenkamp (normecuppenkamp.com) - §29b Messstelle, already part of PE-backed Normec buy-and-build TIC group"
+        ],
+        "ebitda_margin": "12-20% (TIC / accredited-testing proxy band, Aventis Advisors) - directional only",
+        "entry_multiple": "n/a - proprietary for SME add-ons; sector context: listed TIC ~12x EV/EBITDA, 10-yr average 14.2x (Aventis)",
+        "bnb_angle": "Normec's roll-up of accredited Messstellen (incl. Uppenkamp) proves the model - bundle §29b acoustic Messstellen into a multi-domain accredited-testing platform riding permitting- and neighbour-nuisance-driven demand.",
+        "key_risks": [
+          "Key-person / accreditation dependency (DAkkS, §29b bekanntgegeben personnel)",
+          "Largely project-based rather than recurring revenue",
+          "Small firm sizes (EUR 0.3-3m) mean many transactions needed to build scale"
+        ]
+      },
       "child_ids": []
     },
     "environmental-services-value-chain/environmental-consulting-monitoring-compliance/emissions-immissions-measurement-accredited-messstellen/workplace-hazardous-substance-exposure-measurement-trgs-402": {
@@ -1696,6 +1830,16 @@
           "title": "proenvi – Immissionsschutz- & Stoerfallbeauftragter (BImSchG)",
           "url": "https://www.proenvi.de/infos/Infos_Immissionsschutzbeauftragter_Stoerfallbeauftragter_auf_Grundlage_BImschG.php",
           "note": "Mandate-driven recurring advisory (~EUR 5-15k/yr); fragmented provider base."
+        },
+        {
+          "title": "",
+          "url": "https://www.bregau.de/dienstleistungen/externe-betriebsbeauftragte/betriebsbeauftragter-immissionsschutz/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.um-s.eu/dienstleistungen/externer-beauftragter/externer-stoerfall-immissionsschutzbeauftragter",
+          "note": ""
         }
       ],
       "confidence": 3,
@@ -1704,7 +1848,22 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "External appointment expressly permitted; officer is a named qualified employee but the consulting firm is freely ownable (no Fremdbesitzverbot). Small ticket size caps TAM.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          "proenvi (proenvi.de) - external Immissionsschutz-/Störfallbeauftragter provider",
+          "bregau GmbH (bregau.de) - externe Betriebsbeauftragte incl. Immissionsschutz",
+          "UM&S Umweltmanagement & Sicherheit (um-s.eu) - externer Störfall-/Immissionsschutzbeauftragter",
+          "CIVAC (civac.de) - outsourced Umweltbeauftragten compliance"
+        ],
+        "ebitda_margin": "omit - no reliable public band for this niche",
+        "entry_multiple": "n/a - proprietary (sub-scale advisory SMEs)",
+        "bnb_angle": "Consolidate fragmented regional consultancies into a single outsourced-Beauftragter platform with sticky annual mandates, cross-selling the adjacent statutory officer roles (Abfall-, Gewässerschutz-, Gefahrgut-, Datenschutzbeauftragter) into the same client base.",
+        "key_risks": [
+          "Key-person risk: mandates hinge on a few certified qualified individuals (5. BImSchV Fachkunde)",
+          "Very low ticket (~EUR 1,500-3,500 per mandate/yr) means scale requires a high mandate count",
+          "Addressable base is capped by 4./5. BImSchV plant thresholds; deregulation would shrink demand"
+        ]
+      },
       "child_ids": []
     },
     "environmental-services-value-chain/environmental-consulting-monitoring-compliance/outsourced-statutory-environmental-officers-betriebsbeauftragte/abfall-gewasserschutzbeauftragter-59-krwg-64-whg": {
@@ -2347,6 +2506,21 @@
           "title": "Oekologische Baubegleitung - enviro-plan",
           "url": "https://www.enviro-plan.de/ressorts-leistungen/umweltbaubegleitung/%C3%B6kologische-baubegleitung.html",
           "note": "Typical owner-operated specialist; nature-conservation mandate + rail/grid/wind buildout drives structural growth."
+        },
+        {
+          "title": "",
+          "url": "https://www.iproconsult.com/de/kompetenzen/oekologische-baubegleitung-umweltbaubegleitung",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.gruenstifter.com/kompetenzen/oekologische-baubegleitung-und-bauueberwachung",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://umweltbaubegleitung.de/",
+          "note": ""
         }
       ],
       "confidence": 3,
@@ -2355,7 +2529,22 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Owner-operated Ingenieurbueros/Umweltplanungsbueros freely acquirable; only large engineering consultancies (Sweco etc.) aggregate the niche - little dedicated PE roll-up yet.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          "IPROconsult GmbH (iproconsult.com) - ökologische Baubegleitung / Umweltbaubegleitung",
+          "Grünstifter GmbH (gruenstifter.com) - ÖBB/UBB and construction supervision",
+          "Dr. Klein (umweltbaubegleitung.de) - 25+ yrs UBB/ÖBB for utility lines in NRW & Niedersachsen",
+          "enviro-plan (enviro-plan.de) - ökologische Baubegleitung"
+        ],
+        "ebitda_margin": "omit - no reliable public band for this niche",
+        "entry_multiple": "n/a - proprietary",
+        "bnb_angle": "Grid, renewables and infrastructure buildout (Energiewende) makes ÖBB a mandated line item on virtually every permitted project - consolidate landscape-planning/ÖBB Büros into a national field-services platform riding grid-expansion and pipeline capex.",
+        "key_risks": [
+          "Key-person dependency on qualified ecologists/landscape planners",
+          "Project- and tender-driven, not contractually recurring",
+          "Scarcity of qualified field surveyors limits organic scaling"
+        ]
+      },
       "child_ids": []
     },
     "environmental-services-value-chain/hazardous-materials-pollutant-removal": {
@@ -2534,6 +2723,26 @@
           "title": "dach.de – Kosten Asbestdachsanierung",
           "url": "https://www.dach.de/post/was-kostet-eine-asbestsanierung-des-daches",
           "note": "Confirms bound-asbestos roof/facade (Eternit 1950-1993) large installed base driving secular demand."
+        },
+        {
+          "title": "",
+          "url": "https://dachdecker.org/ein-und-aufsteiger/aufsteiger/bildungsangebote/seminare-detail/grundlehrgang-asbest-zum-erwerb-der-sachkunde-nach-nr-2-7-der-trgs-519-anlage-4c-1194",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://nrw-asbest.de/zertifizierungen/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.as-asbest.de/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.capstonepartners.com/insights/article-industrial-environmental-services-market-update/",
+          "note": ""
         }
       ],
       "confidence": 3,
@@ -2542,7 +2751,22 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Private building-owner pay; TRGS 519 is a firm-level qualification, targets freely acquirable across roofing/facade/abatement trades.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          "Prangenberg & Zaum GmbH (Viersen) - demolition + Asbest/Schadstoffsanierung incl. Asbestzement",
+          "AS - ASBEST GmbH (as-asbest.de) - asbestos-cement roof/façade/pipe removal",
+          "NRW-Asbest (nrw-asbest.de) - TRGS-519-certified Asbestzement/Schadstoffsanierung firm",
+          "TRGS 519 Anlage 4C-qualified roofing/façade trades (via ZVDH member network)"
+        ],
+        "ebitda_margin": "omit - no reliable public band for this niche",
+        "entry_multiple": "n/a - proprietary; sector context: environmental-services deal medians rose 15.0x -> 20.9x in 2025 (Capstone)",
+        "bnb_angle": "A large installed Asbestzement roof/façade stock plus energy-retrofit triggers (PV mounting, insulation) drives removal volume; the lower TRGS-519 Anlage 4C barrier lets roofing/façade trades scale - roll up regional Anlage-4C firms and bundle reroof + PV to lift ticket size.",
+        "key_risks": [
+          "Lower qualification barrier means commoditised, price-competitive work",
+          "Cyclical with roofing/construction demand",
+          "Asbestos-disposal cost and liability exposure"
+        ]
+      },
       "child_ids": []
     },
     "environmental-services-value-chain/hazardous-materials-pollutant-removal/asbestos-removal-abatement-asbestsanierung-trgs-519/weakly-bound-asbestos-asi-works-spritzasbest-trgs-519-full-sachkunde": {
@@ -2893,6 +3117,16 @@
           "title": "Heinrich Schmid – Schimmelsanierung",
           "url": "https://www.heinrich-schmid.com/leistungen/schimmelsanierung/",
           "note": "Representative fragmented craft-firm provider base."
+        },
+        {
+          "title": "",
+          "url": "https://www.belfor.com/de/de/unsere-leistungen/schadensanierung/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.polygongroup.com/de-DE/service/wasserschaden/wasserschadensanierung/",
+          "note": ""
         }
       ],
       "confidence": 3,
@@ -2901,7 +3135,21 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Highly fragmented (~28,000 firms, only ~287 TUV-certified), owner-operated, no financial consolidator; freely acquirable. Insurance/private-pay revenue.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          "BELFOR Deutschland GmbH (belfor.com) - global damage-restoration leader incl. Schimmelpilzbekämpfung",
+          "Polygon Deutschland (polygongroup.com) - water-damage & mould restoration, operating since 1992",
+          "Heinrich Schmid - trade group with Schadstoff/Schimmel capability"
+        ],
+        "ebitda_margin": "omit - no reliable public band for this niche",
+        "entry_multiple": "n/a - proprietary",
+        "bnb_angle": "Below the BELFOR/Polygon insurance-restoration majors sits a large tail of small certified Schimmelsanierer tied to insurance-claim referrals - consolidate certified specialists into a regional network that can win framework agreements with insurers.",
+        "key_risks": [
+          "Large-loss segment dominated by scaled insurance-restoration majors (BELFOR, Polygon)",
+          "Low certification barrier means many general trades compete on price",
+          "Revenue dependent on insurance-claim referral flow"
+        ]
+      },
       "child_ids": []
     },
     "environmental-services-value-chain/hazardous-materials-pollutant-removal/fire-water-damage-restoration-brand-wasserschadensanierung": {
@@ -4998,6 +5246,26 @@
           "title": "Reconomy erwirbt RENE AG - Reverse Logistics Group",
           "url": "https://rev-log.com/de/reconomy-erwirbt-rene-ag/",
           "note": "WEEE/EPR compliance add-on; expanding EPR full-service; secular EPR/PPWR tailwind."
+        },
+        {
+          "title": "",
+          "url": "https://deutsche-recycling.com/blog/checklist-for-verpackungsgesetz-and-lucid-registration/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.verpackungsregister.org/en/information-system-participation-and-data-reporting",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.epr-compliance.com/de/verpackungen",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.tanso.de/en/blog/epr-under-the-ppwr-extended-producer-responsibility-modulated-fees-and-registration-in-the-lucid-register",
+          "note": ""
         }
       ],
       "confidence": 4,
@@ -5006,7 +5274,22 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Asset-light advisory freely acquirable; recurring B2B compliance fees, no ownership restriction.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          "Deutsche Recycling GmbH (deutsche-recycling.com) - LUCID registration + multi-country EPR compliance-as-a-service",
+          "Lizenzero (Interzero) - online packaging-licensing platform",
+          "Reclay Group - dual-system operator + EPR advisory / authorised representative",
+          "take-e-way / EPR-Compliance.com (epr-compliance.com) - producer registration & reporting service"
+        ],
+        "ebitda_margin": "omit - no reliable public band for this niche",
+        "entry_multiple": "n/a - proprietary",
+        "bnb_angle": "The EU PPWR applies directly from 12 Aug 2026 (VerpackG replaced by VerpackDG), sharply raising multi-country EPR complexity and eco-modulation reporting - consolidate national advisers into a pan-European compliance-as-a-service platform with recurring annual reporting fees.",
+        "key_risks": [
+          "Incumbents (Landbell, Interzero/Lizenzero, Reclay) are already scaled and vertically integrated into dual systems",
+          "Revenue partly rests on regulatory-complexity arbitrage that digitalisation of LUCID could compress",
+          "Fee pressure as licensing becomes commoditised online"
+        ]
+      },
       "child_ids": []
     },
     "environmental-services-value-chain/contaminated-site-remediation-geo-environmental": {
@@ -5342,6 +5625,16 @@
           "title": "bbr: PFAS und Co. - warum die Altlastensanierung jetzt mehr Bedeutung bekommt",
           "url": "https://bbr-online.de/wp-content/uploads/2025/09/003_bbr_09_2025_03_Editorial.pdf",
           "note": "New PFAS drinking-water limits (2026/2028) drive structural demand for specialists."
+        },
+        {
+          "title": "",
+          "url": "https://cornelsen.group/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://resources.bauer.de/de/pfas",
+          "note": ""
         }
       ],
       "confidence": 4,
@@ -5350,7 +5643,21 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Private specialist remediation/consulting firms, polluter-pays project revenue; freely acquirable.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          "Cornelsen Umwelttechnologie GmbH (cornelsen.group) - patented PerfluorAd PFAS treatment + mobile fire-water/soil-washing systems",
+          "BAUER Resources GmbH (resources.bauer.de) - mobile PFAS soil-washing and groundwater purification plants",
+          "Arcadis Germany - multinational remediation engineering incumbent"
+        ],
+        "ebitda_margin": "omit - no reliable public band for this niche",
+        "entry_multiple": "n/a - proprietary (premium project pricing)",
+        "bnb_angle": "AFFF firefighting-foam legacy at airports, refineries and Bundeswehr sites plus tightening PFAS limits drive premium, technically-defensible projects; back a proprietary-IP specialist (PerfluorAd, soil washing) as a platform to acquire regional Altlasten firms and add PFAS capability.",
+        "key_risks": [
+          "Technically hard - PFAS is not fully degradable, residual fractions remain (execution/warranty risk)",
+          "Project-lumpy, non-recurring revenue",
+          "Large multinationals (Arcadis) compete; regulatory-limit timelines are uncertain"
+        ]
+      },
       "child_ids": []
     },
     "environmental-services-value-chain/contaminated-site-remediation-geo-environmental/demolition-with-contamination-hazardous-building-remediation-rueckbau-schadstoffsanierung": {
@@ -5423,6 +5730,16 @@
           "title": "Was ist neu an der neuen TRGS 519 - Bauportal BG BAU",
           "url": "https://bauportal.bgbau.de/bauportal-12020/thema/sanierung-und-bauwerksunterhalt/was-ist-neu-an-der-neuen-trgs-519",
           "note": "Expanded asbestos scope (putties/adhesives from 2015) enlarging remediation backlog; demand tailwind."
+        },
+        {
+          "title": "",
+          "url": "https://www.wlw.com/en/company/prangenberg-zaum-gmbh-1667632",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.capstonepartners.com/insights/article-industrial-environmental-services-market-update/",
+          "note": ""
         }
       ],
       "confidence": 4,
@@ -5431,7 +5748,22 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Openly acquirable; TRGS-519 Sachkunde/Fachbetrieb licensing is a hurdle but transferable, very fragmented owner-operated tail.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          "Prangenberg & Zaum GmbH (Viersen) - 30+ yrs demolition, Schadstoffsanierung, recycling & disposal",
+          "AS - ASBEST GmbH (as-asbest.de) - asbestos & hazardous-materials remediation specialist",
+          "WIWA Entkernung & Sanierung (wiwa-entkernung-sanierung.de) - Schadstoff-/Asbestsanierung Hamburg + DE",
+          "Asbest Korte (asbest-korte.de) - Fachfirma Asbest-/Schadstoffsanierung"
+        ],
+        "ebitda_margin": "omit - no reliable public band for this niche",
+        "entry_multiple": "n/a - proprietary; sector context: environmental-services strategic deal medians rose 15.0x -> 20.9x in 2025 (Capstone)",
+        "bnb_angle": "Ageing pre-1990 building stock plus decarbonisation-led redevelopment drive structural volume; consolidate TRGS-519 Schadstoffsanierer with selective-demolition capacity into a regional platform capturing the survey-to-disposal chain.",
+        "key_risks": [
+          "Revenue is project-based and cyclical with construction/redevelopment",
+          "High occupational-safety liability exposure (asbestos, PCB, PAK, KMF)",
+          "Disposal-cost volatility and qualified-labour scarcity"
+        ]
+      },
       "child_ids": []
     },
     "environmental-services-value-chain/contaminated-site-remediation-geo-environmental/war-ordnance-uxo-clearance-kampfmittelraeumung": {
@@ -7155,6 +7487,21 @@
           "title": "Die passende Wartungsfirma fuer Ihre Kleinklaeranlage",
           "url": "https://www.klaeranlagen-vergleich.de/die-passende-wartungsfirma-fuer-ihre-kleinklaeranalge.html",
           "note": "Recurring statutory maintenance contracts, highly fragmented supplier base"
+        },
+        {
+          "title": "",
+          "url": "https://www.klaeranlagenprofi.de/wartung-klaeranlagen.html",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.atbwater.com/de-DE/service/wartung/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.klaeranlagen-vergleich.de/kleinklaeranlagen-wartung.html",
+          "note": ""
         }
       ],
       "confidence": 3,
@@ -7163,7 +7510,22 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Thousands of DWA-certified owner-operated Wartungsfirmen, virgin fragmentation with no financial consolidator; private homeowner-pay mandated maintenance is robust; low ticket per visit caps scale.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          "Kläranlagenprofi (klaeranlagenprofi.de) - Wartung of full/partial-biological Kleinkläranlagen",
+          "Dietz AW (dietz-aw.de) - Kleinkläranlagen Wartung, Reparatur, Sanierung",
+          "ATB Water (atbwater.com) - manufacturer Wartungsservice",
+          "Krenkel AWT (krenkel-awt.de) - Wartungsverträge KKA"
+        ],
+        "ebitda_margin": "omit - no reliable public band for this niche",
+        "entry_multiple": "n/a - proprietary",
+        "bnb_angle": "Legally mandated Wartungsvertrag (2-3 visits/yr per district permit) makes revenue highly recurring and sticky - consolidate regional certified Wartungsfirmen into a density-based route platform across DE's ~2m decentralised plants.",
+        "key_risks": [
+          "Very low ticket (~EUR 105-250 per visit) needs a huge contract base to scale",
+          "Rural route density / fuel cost erodes per-stop margin",
+          "Manufacturer-tied service (KLARO, Graf, ATB) captures a share of installed base"
+        ]
+      },
       "child_ids": []
     },
     "environmental-services-value-chain/water-wastewater-services/decentralized-sewage-plants-kleinklaeranlagen-service-emptying/faecal-sludge-emptying-disposal-fakalschlammentsorgung": {
@@ -7599,6 +7961,21 @@
           "title": "ReFood: Fettabscheiderservice",
           "url": "https://www.refood.de/leistungen/fettabscheiderservice/",
           "note": "Large players (Remondis, ReFood) plus many regional firms - fragmented with consolidation whitespace; UCO recovered has value."
+        },
+        {
+          "title": "",
+          "url": "https://www.boerdner.de/leistungen/saugwagen-abscheiderservice/fettabscheider-wartung-und-reinigung/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.remondis-industrie-service.de/en/services/grease-trap-services/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.nehlsen.com/en/services/separator/grease-separators",
+          "note": ""
         }
       ],
       "confidence": 4,
@@ -7607,7 +7984,21 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Private certified service firms, gastronomy-funded high-frequency contracts; freely acquirable.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          "BÖRDNER Städtereinigung GmbH (boerdner.de) - Fettabscheider Wartung & Reinigung",
+          "REMONDIS Industrie Service / AS-CONTROL (remondis-industrie-service.de) - grease-separator full-service",
+          "Nehlsen AG (nehlsen.com) - grease-separator installation, cleaning, maintenance"
+        ],
+        "ebitda_margin": "omit - no reliable public band for this niche",
+        "entry_multiple": "n/a - proprietary",
+        "bnb_angle": "Monthly emptying at restaurants, canteens and food producers creates dense, recurring urban route books - roll up regional Fettabscheiderdienste around depot clusters and cross-sell the 5-yearly general inspection.",
+        "key_risks": [
+          "REMONDIS / Nehlsen scale incumbents with nationwide reach",
+          "Low ticket (EUR 150-400 per emptying)",
+          "Disposal-cost and DIN 4040-100 enforcement dependency"
+        ]
+      },
       "child_ids": []
     },
     "environmental-services-value-chain/water-wastewater-services/separator-abscheider-emptying-service/light-liquid-oil-separator-service-din-en-858-din-1999-100": {
@@ -7668,6 +8059,21 @@
           "title": "Abscheiderservice - Drekopf Kanalservice",
           "url": "https://www.drekopf-kanalservice.de/abscheiderservice/",
           "note": "Regional operator example; DIN EN 858 statutory servicing recurring."
+        },
+        {
+          "title": "",
+          "url": "https://www.remondis-industrie-service.de/en/services/grease-trap-services/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.nehlsen.com/en/services/separator",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.boerdner.de/leistungen/saugwagen-abscheiderservice/fettabscheider-wartung-und-reinigung/",
+          "note": ""
         }
       ],
       "confidence": 4,
@@ -7676,7 +8082,21 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Freely acquirable statutory route-service (petrol stations/workshops); hundreds of owner-operated firms, small tickets.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          "REMONDIS Industrie Service / AS-CONTROL (remondis-industrie-service.de) - oil/light-liquid separator full-service",
+          "Nehlsen AG (nehlsen.com) - separator emptying, maintenance & general inspection",
+          "BÖRDNER Städtereinigung GmbH (boerdner.de) - regional Saugwagen / Abscheiderservice"
+        ],
+        "ebitda_margin": "omit - no reliable public band for this niche",
+        "entry_multiple": "n/a - proprietary",
+        "bnb_angle": "Statutory ~6-monthly service plus 5-year tightness testing at forecourts, workshops and car washes creates recurring route density - roll up regional operators around depot clusters to compress drive-time per stop.",
+        "key_risks": [
+          "REMONDIS / Nehlsen are scaled incumbents",
+          "Low ticket (EUR 200-600 per service) requires dense route books",
+          "Demand tied to DIN EN 858 / disposal-regulation enforcement"
+        ]
+      },
       "child_ids": []
     },
     "environmental-services-value-chain/water-wastewater-services/drinking-water-legionella-testing": {
@@ -7815,6 +8235,21 @@
           "title": "Liste der Untersuchungsstellen nach TrinkwV | MLR Baden-Wuerttemberg",
           "url": "https://mlr.baden-wuerttemberg.de/fileadmin/redaktion/m-mlr/intern/dateien/PDFs/Verbraucherschutz/Liste_der_Untersuchungsstellen_fuer_Trinkwasser_02.pdf",
           "note": "Register showing large accredited-lab count per Land"
+        },
+        {
+          "title": "",
+          "url": "https://www.eurofins.de/umwelt/schadstoffe-mikrobiologie/legionellen/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.agrolab.com/de/produkte-leistungen/wasseranalytik/legionellen.html",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://aventis-advisors.com/tic-company-valuations/",
+          "note": ""
         }
       ],
       "confidence": 4,
@@ -7823,7 +8258,22 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Statutory TrinkwV periodic testing = large recurring, private landlord-pay TAM; lab layer asset-light. Eurofins/SGS/AGROLAB already rolling up labs but sampling network still fragmented and acquirable.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          "SGS Institut Fresenius GmbH (sgs-institut-fresenius.de) - accredited Legionella sampling & analysis per TrinkwV/42. BImSchV",
+          "Eurofins Umwelt (eurofins.de) - accredited drinking-water/Legionella labs, regional sampling",
+          "AGROLAB Group (agrolab.com) - accredited sampling techs across DE + AT",
+          "ÖHMI Analytik GmbH - accredited water-analysis lab"
+        ],
+        "ebitda_margin": "12-20% (TIC / accredited-testing band, Aventis Advisors); premium lab operators 18-23%",
+        "entry_multiple": "n/a - proprietary for SME add-ons; sector context: listed TIC ~12x EV/EBITDA, 10-yr avg 14.2x (Aventis); environmental-lab M&A live (ALS acquired German lab Wessling Group, 2024)",
+        "bnb_angle": "ALS's 2024 acquisition of German lab Wessling shows environmental-lab consolidation is live - roll up regional accredited samplers plus mid-size labs into a network monetising statutory TrinkwV testing cycles with recurring, calendar-driven demand.",
+        "key_risks": [
+          "Majors (SGS, Eurofins, AGROLAB, ALS) are already scaled buyers competing for assets",
+          "Sampling layer is low-margin and commoditised",
+          "Accreditation, logistics and QA intensity raise fixed cost"
+        ]
+      },
       "child_ids": []
     },
     "environmental-services-value-chain/water-wastewater-services/drinking-water-legionella-testing/backflow-rpz-systemtrenner-testing": {

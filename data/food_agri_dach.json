@@ -763,6 +763,11 @@
           "title": "Analysen, Beratung, HACCP-Konzepte – Hygiene Netzwerk",
           "url": "https://www.hygiene-netzwerk.de/leistungen/analysen-beratung-haccp-konzepte-lieferanten-checks-mitarbeiterschulungen",
           "note": "Consortium model shows fragmentation of consulting/training providers ripe for roll-up."
+        },
+        {
+          "title": "",
+          "url": "https://haccp-hygienemanagement.de/haccp-schulungen/",
+          "note": ""
         }
       ],
       "confidence": 4,
@@ -771,7 +776,20 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Hundreds of privately owned, asset-light consultancies/training providers; freely acquirable (trainer Sachkunde is personal but transferable, not a corporate ownership block).",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          "VOREST AG (Pfinztal) - HACCP/IFS training provider since 1999; 150+ classroom seminars, 200+ e-learning courses, 1,200+ template documents (verified vorest-ag.com)",
+          "haccp-hygienemanagement.de - dedicated HACCP/food-hygiene training portal/brand (verified)",
+          "TÜV NORD Bildung - TIC-academy incumbent, potential strategic anchor/exit route (verified via search)"
+        ],
+        "entry_multiple": "n/a - proprietary (fragmented owner-operated training/advisory; no reliable public comps)",
+        "bnb_angle": "Buy a scaled e-learning/documentation anchor (VOREST-type) with an owned course library and SaaS-style LMS, then bolt on freelance-heavy regional consultancies to convert one-off seminars into recurring compliance retainers and cross-sell to their food-SME books.",
+        "key_risks": [
+          "Key-person/freelancer dependence - value walks out the door without earn-outs and non-competes",
+          "Low barriers to entry and commoditised online belehrung pricing pressure margins",
+          "TIC majors (TÜV/DEKRA/SGS academies) can undercut on brand and bundle with certification"
+        ]
+      },
       "child_ids": []
     },
     "food-agriculture-services-value-chain/food-certification-auditing/packaging-sustainability-certification-fsc-pefc-epr-lucid-compliance": {
@@ -1328,6 +1346,26 @@
           "title": "Eismann Tiefkühl-Heimservice (Wikipedia) - Gilde Buy Out Partners",
           "url": "https://de.wikipedia.org/wiki/Eismann_Tiefk%C3%BChl-Heimservice",
           "note": "PE ownership precedent in the segment."
+        },
+        {
+          "title": "",
+          "url": "https://www.n-tu.de/transport-spedition/kuehltransporte/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.spedition-oehrle.de/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.spedition-wennekamp.de/kuehl-und-lebensmittel-logistik/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.vdkl.de/mitglieder/kuehlspeditionen/",
+          "note": ""
         }
       ],
       "confidence": 3,
@@ -1336,7 +1374,21 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Freely acquirable owner-operated GmbHs; several hundred regional players, capital-heavy fleets. PE precedent exists (Eismann/Gilde; Nagel-Group scale) but regional multi-drop tier still fragmented.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          "NTU Spedition - regional chilled/thermo-logistics multi-drop distribution (verified n-tu.de)",
+          "Oehrle Spedition - Bavaria regional multitemperature multi-chamber distribution of frozen/fresh/dry goods (verified spedition-oehrle.de)",
+          "Spedition Wennekamp GmbH - temperature-controlled food & chilled logistics specialist (verified spedition-wennekamp.de)",
+          "Schmitt-Kühltransporte GmbH - dedicated refrigerated transport operator (verified schmitt-kuehltransporte.de)"
+        ],
+        "entry_multiple": "n/a - proprietary (regional Kühlspeditionen sell privately; no reliable public SME comps)",
+        "bnb_angle": "Fragmented owner-operated chilled multi-drop routes carry sticky retail/foodservice delivery relationships; consolidate adjacent regional Frischedienst firms into a contiguous route network to raise multi-drop density, share multi-temperature fleet and back-office, and pitch national retail/foodservice tenders.",
+        "key_risks": [
+          "Capital-intensive, low-margin trucking exposed to fuel, wage and driver-shortage inflation",
+          "Customer concentration on a few retail/foodservice accounts",
+          "Scale majors (Nagel-Group, DFDS) and rising cold-chain compliance capex pressure the tail"
+        ]
+      },
       "child_ids": []
     },
     "food-agriculture-services-value-chain/cold-chain-food-logistics/foodservice-catering-delivery-wholesale-zustellgrohandel": {
@@ -1789,6 +1841,21 @@
           "title": "HACCP - Testo SE & Co. KGaA",
           "url": "https://www.testo.com/de-DE/compliance-monitoring/haccp/c/applications_compliance_monitoring_haccp",
           "note": "World market leader in measurement; fragmented software layer around hardware."
+        },
+        {
+          "title": "",
+          "url": "https://www.comotix.com/de/anwendungen/temperaturueberwachung/lebensmittel-gastronomie-haccp-12487152/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.linemetrics.com/de/anwendungsfaelle/haccp-kuehlraum-monitoring-fuer-lebensmittel/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.testo.com/en-UK/solutions/food-safety-management",
+          "note": ""
         }
       ],
       "confidence": 3,
@@ -1797,7 +1864,21 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "SaaS/sensor vendors freely acquirable; no dominant PE software consolidator yet in DACH.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          "Sencono - WLAN sensor-box HACCP logging on a EUR 4.95/measuring-point monthly full-service flatrate (verified sencono.de)",
+          "COMOTIX - 4G/5G eSIM IoT temperature monitoring with SMS/app alarms and audit-ready HACCP logs (verified comotix.com)",
+          "PSsystec SMARThaccp - cloud data-logger platform (EUR 8/month cloud) sold via Frigotechnik channel (verified)",
+          "LineMetrics - radio-sensor + gateway HACCP cold-room monitoring, DACH-active (verified linemetrics.com)"
+        ],
+        "entry_multiple": "n/a - proprietary (early-stage subscription vendors; valuations negotiated on ARR, not disclosed)",
+        "bnb_angle": "HACCP temperature-documentation is a legal must-have with high-retention SaaS economics (EUR 5-8/sensor/month recurring); acquire a hardware-agnostic cloud platform and bolt on sub-scale regional loggers to consolidate ARR, cut per-site churn and cross-sell into pest/hygiene compliance monitoring.",
+        "key_risks": [
+          "Low technical barriers and price war (sub-EUR5/sensor flatrates) commoditise the hardware",
+          "testo (Saveris) and other instrument majors can bundle and out-scale niche vendors",
+          "Value sits in recurring ARR - churn and hardware-swap costs can erode unit economics"
+        ]
+      },
       "child_ids": []
     },
     "food-agriculture-services-value-chain/cold-chain-food-logistics/bonded-veterinary-controlled-food-import-handling": {
@@ -2071,6 +2152,26 @@
           "title": "Umsatz von Lohnunternehmen – Statista",
           "url": "https://de.statista.com/statistik/daten/studie/163392/umfrage/umsatz-von-lohnunternehmen-in-der-landwirtschaft-seit-2004/",
           "note": "Sector turnover data underpinning large, fragmented TAM."
+        },
+        {
+          "title": "",
+          "url": "https://www.lohnunternehmen-bunge.de/guelleausbringung/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://agrardienste.de/guelleausbringung/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.lohnunternehmen-kemper.de/leistungen/gaersubstratausbringung",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://frener-leutkirch.de/dienstleistungen/guelletechnik/",
+          "note": ""
         }
       ],
       "confidence": 4,
@@ -2079,7 +2180,21 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Hundreds of privately owned Lohnunternehmen (>3,000 professional firms, ~EUR 4.5bn sector), no financial consolidator yet; Maschinenring co-ops compete but individual firms are acquirable.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          "Lohnunternehmen Bunge - dedicated Gülleausbringung service line (verified lohnunternehmen-bunge.de)",
+          "Gaspers Lohnunternehmen GmbH - slurry application + logistics (verified agrardienste.de)",
+          "Lohnunternehmen Kemper - Gärsubstrat/slurry application contractor (verified lohnunternehmen-kemper.de)",
+          "Frener Lohnunternehmen GmbH (Leutkirch) - Gülletechnik incl. drag-hose/injection (verified frener-leutkirch.de)"
+        ],
+        "entry_multiple": "n/a - proprietary (regional Lohnunternehmen sell privately; no public comps)",
+        "bnb_angle": "Regulation (bodennahe Ausbringung mandate under DüV/TA Luft) forces farms to hire specialist injection/drag-shoe fleets; consolidate 4-6 regional contractors into a density platform sharing high-capex Vredo/Zunhammer/Samson kit and GPS logistics to raise fleet utilisation and win multi-farm framework contracts.",
+        "key_risks": [
+          "Highly seasonal, weather-dependent utilisation of expensive assets",
+          "Skilled-driver scarcity and rising equipment/fuel costs compress margins",
+          "Nitrate/DüV policy swings can shift demand faster than fleet can re-tool"
+        ]
+      },
       "child_ids": []
     },
     "food-agriculture-services-value-chain/agricultural-contracting-farm-services/agricultural-contracting-lohnunternehmen/harvesting-ernte-silage-mahdrusch-hackfrucht": {
@@ -2340,6 +2455,21 @@
           "title": "Ausschreibungen fuer Biomasseanlagen | Bundesnetzagentur",
           "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/ElektrizitaetundGas/Ausschreibungen/Biomasse/start.html",
           "note": "Award tariffs (~16-19 ct/kWh) drive plant economics and service demand"
+        },
+        {
+          "title": "",
+          "url": "https://www.bwe-energie.de/biogas/bhkw-service",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.envitec-biogas.com/service/technical-service",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.envitec-biogas.com/service/repowering",
+          "note": ""
         }
       ],
       "confidence": 4,
@@ -2348,7 +2478,20 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Independent service/repowering firms serving ~9,600 plants are freely acquirable and largely un-consolidated (OEMs like Schmack/PlanET plus a long tail); revenue is heavily tied to EEG tariffs/Ausschreibung and plants may decommission at subsidy expiry (2026-2030).",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          "bwe Energiesysteme GmbH - manufacturer-independent BHKW service (MAN/MWM/Jenbacher/2G), specialising in repowering old spark-ignition engines (verified bwe-energie.de)",
+          "EnviTec Service GmbH - technical service, repowering, flexibilisation across the installed base (verified envitec-biogas.com)",
+          "2G Energy AG - CHP OEM with service partner network; strategic anchor/exit route (verified)"
+        ],
+        "entry_multiple": "n/a - proprietary (specialist service firms; no public DACH comps)",
+        "bnb_angle": "The ~9,600 German biogas plants are ageing out of 20-year EEG tariffs and must flexibilise/repower CHP to chase capacity-market and CO2 upside; roll up manufacturer-independent service crews into a national maintenance platform with recurring service contracts plus repowering project pipeline as a value kicker.",
+        "key_risks": [
+          "EEG/EEG-follow-on subsidy uncertainty determines whether plants repower or shut down",
+          "OEM service arms (2G, MWM/Caterpillar, Jenbacher) compete for the same contracts",
+          "Skilled gas-engine technician shortage caps organic scaling"
+        ]
+      },
       "child_ids": []
     },
     "food-agriculture-services-value-chain/agricultural-contracting-farm-services/biogas-plant-operation-service/substrate-digestate-logistics": {
@@ -2769,6 +2912,16 @@
           "title": "DLG-Merkblatt 364 – Reinigung und Desinfektion von Stallanlagen",
           "url": "https://www.dlg.org/mediacenter/dlg-merkblaetter/dlg-merkblatt-364-hygienetechnik-und-managementhinweise-zur-reinigung-und-desinfektion-von-stallanlagen",
           "note": "Biosecurity (ASP, avian flu) drives structural demand for professional R&D services."
+        },
+        {
+          "title": "",
+          "url": "https://www.stadiko.de/de/dienstleistungen/stallreinigung-und-desinfektion/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.destec.eu/stalldesinfektion/",
+          "note": ""
         }
       ],
       "confidence": 3,
@@ -2777,7 +2930,20 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Dozens-to-hundreds of regional, owner-operated hygiene firms, no financial consolidator; barn cleaning itself is not licence-bound (unlike sister niches Besamung/Klauenpflege), so freely acquirable.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          "stadiko - professional stall cleaning + wet/fumigation disinfection and pest control for livestock, slaughterhouses and food processors (verified stadiko.de)",
+          "Farmworker Stallreinigung - dedicated stall cleaning, disinfection and water hygiene service (verified farmworker-stallreinigung.de)",
+          "DESTEC - specialist Stalldesinfektion service (verified destec.eu)"
+        ],
+        "entry_multiple": "n/a - proprietary (small regional hygiene contractors; no public comps)",
+        "bnb_angle": "Biosecurity mandates (ASP/avian-influenza-driven cleaning-and-disinfection between batches) make contracted stall hygiene non-discretionary; roll up regional poultry/pig hygiene crews into a multi-region biosecurity platform serving integrators on framework contracts, cross-selling into pest control and water-line hygiene.",
+        "key_risks": [
+          "Demand spikes are disease-outbreak driven and hard to forecast/staff for",
+          "Low barriers to entry keep the tail highly fragmented and price-competitive",
+          "Chemical/biocide handling and labour compliance raise operating cost"
+        ]
+      },
       "child_ids": []
     },
     "food-agriculture-services-value-chain/agricultural-contracting-farm-services/precision-ag-drone-soil-mapping-services": {
@@ -3336,6 +3502,11 @@
           "title": "Wartung und Reparatur - Lindemann Industrie Service",
           "url": "https://lindemann-service.de/wartung-und-reparatur/",
           "note": "Manufacturer-independent servicer; ~200-400 fragmented DE firms, owner-operated."
+        },
+        {
+          "title": "",
+          "url": "https://www.de.processing.handtmann.com/services/kundendienst-wartung",
+          "note": ""
         }
       ],
       "confidence": 3,
@@ -3344,7 +3515,20 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Private owner-operated field-service firms freely acquirable; asset-light recurring maintenance, no PE consolidator visible.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          "Schönherr (schoenherr-technik.de) - manufacturer-independent service/repair of butchery machines of all makes (verified)",
+          "Handtmann Service GmbH & Co. KG - OEM service network (fillers/portioning) for meat & dairy, Biberach + Georgsmarienhütte hubs (verified handtmann.com)",
+          "Lindemann Industrie-Service - manufacturer-independent maintenance/repair of processing equipment (verified lindemann-service.de)"
+        ],
+        "entry_multiple": "n/a - proprietary (owner-operated service SMEs; no public comps)",
+        "bnb_angle": "Meat/dairy/brewery processors need fast, manufacturer-independent uptime on cutters/fillers/separators/pasteurisers; consolidate specialist service SMEs into a cross-vertical field-service platform with 24/7 dispatch and spare-parts pooling to win plant-wide maintenance framework contracts independent of OEMs.",
+        "key_risks": [
+          "OEM service arms (GEA, Handtmann) capture warranty-period and proprietary-parts work",
+          "Deep, machine-specific technician expertise is scarce and slow to transfer",
+          "Customer plant consolidation/closures can concentrate revenue risk"
+        ]
+      },
       "child_ids": []
     },
     "food-agriculture-services-value-chain/food-processing-equipment-service-hygiene/industrial-cip-clean-in-place-systems-hygienic-cleaning-service": {
@@ -3426,6 +3610,11 @@
           "title": "EHEDG - European Hygienic Engineering & Design Group",
           "url": "https://www.ehedg.org/",
           "note": "Hygienic-design reference; used to delineate CIP-hardware vs cleaning-labour scope"
+        },
+        {
+          "title": "",
+          "url": "https://www.akk-food.de/",
+          "note": ""
         }
       ],
       "confidence": 3,
@@ -3434,7 +3623,19 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Fragmented long tail of 150-300 system/service integrators is freely acquirable, but the consumables/chemistry layer is dominated by majors (Ecolab ~30% share, Diversey, Christeyns) who anchor recurring hygiene contracts - partial consolidation from the top.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          "Jürgen Löhrke GmbH (Lübeck, est. 1984) - leading independent CIP/process-hygiene systems + full project planning and after-sales service (verified loehrke.com)",
+          "AKK Industrieservice & Handels GmbH / AKK Food GmbH (Marktl) - mobile CIP systems, heat-exchanger/tank hygiene service, TOC-based CIP verification (verified akk-service.de / akk-food.de)"
+        ],
+        "entry_multiple": "n/a - proprietary (specialist systems/service Mittelstand; no reliable public comps)",
+        "bnb_angle": "CIP plant needs periodic validation, retrofit and hygiene verification, generating recurring service revenue on an installed base; acquire an independent systems anchor (Löhrke-type) and bolt on mobile-CIP/heat-exchanger service firms to build a validation-plus-service annuity across food, beverage and pharma - differentiated from chemistry majors that sell consumables.",
+        "key_risks": [
+          "Chemistry majors (Ecolab, Diversey) bundle CIP chemicals with service and dominate accounts",
+          "Capex-cyclical new-system sales if recurring service mix is thin",
+          "Hygienic-engineering and validation talent is scarce and integration-sensitive"
+        ]
+      },
       "child_ids": []
     },
     "food-agriculture-services-value-chain/food-processing-equipment-service-hygiene/weighing-checkweighing-foreign-body-inspection-equipment-service": {
@@ -3757,6 +3958,21 @@
           "title": "Meyer Grosskuechentechnik - Service & Wartung",
           "url": "https://www.meyer-grosskuechentechnik.de/grosskuechentechnik/",
           "note": "Typical owner-operated regional service/maintenance provider"
+        },
+        {
+          "title": "",
+          "url": "https://www.gts-kuechentechnik.de/kundendienst-wartung-reparatur-grosskuechen.php",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.paulat-gastro.de/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.servicekontor24.de/",
+          "note": ""
         }
       ],
       "confidence": 3,
@@ -3765,7 +3981,20 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "1,000+ small owner-operated service/maintenance Fachbetriebe (EUR 0.5-8m) across DE/AT, largely virgin with no visible financial consolidator - freely acquirable; only mild Sachkunde needs (gas/refrigerant handling), asset-light recurring maintenance revenue.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          "GTS Großküchentechnik & Service GmbH (Berlin, HRB 73113) - planning + own maintenance/emergency service for combi ovens, dishwashers, cooking & refrigeration (verified gts-kuechentechnik.de)",
+          "Paulat Großküchentechnik & Service GmbH (Neuenhagen) - large spare-parts warehouse, steam & dishwashing service (verified paulat-gastro.de)",
+          "Servicekontor24 - fully manufacturer-independent nationwide Großküchen service (verified servicekontor24.de)"
+        ],
+        "entry_multiple": "n/a - proprietary (owner-operated service SMEs; no public comps)",
+        "bnb_angle": "Manufacturer-independent maintenance of combi ovens/dishwashers/refrigeration is sticky, contract-based and recession-resistant (hospitals, care homes, canteens keep cooking); consolidate regional service SMEs into a national field-service platform with shared technician dispatch, spare-parts pooling and framework contracts across multi-site foodservice/care operators.",
+        "key_risks": [
+          "Technician recruitment/retention is the binding growth constraint",
+          "OEM-tied service (Rational, Winterhalter, Hobart) locks warranty-period work",
+          "Fragmented, low-ticket callouts make route density and dispatch tech essential to margin"
+        ]
+      },
       "child_ids": []
     },
     "food-agriculture-services-value-chain/food-processing-equipment-service-hygiene/process-water-f-b-water-treatment-service": {
@@ -3838,6 +4067,16 @@
           "title": "Wasseraufbereitung für Gewerbe & Industrie – BESTE Wasseraufbereitung",
           "url": "https://www.beste-wasser.de/branchen/gewerbe-industrie",
           "note": "50+yr independent service firm; Legionella/biofilm protection – illustrates fragmented recurring-service base."
+        },
+        {
+          "title": "",
+          "url": "https://www.euwa.com/services.html",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://hercowater.com/en/sectors/watertreatment-for-beverage-industry",
+          "note": ""
         }
       ],
       "confidence": 4,
@@ -3846,7 +4085,19 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "~150-300 privately owned service firms freely acquirable; strategics (Veolia, Kurita) present at the top but the maintenance/Legionella-monitoring service layer remains fragmented.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          "EUWA H.H. Eumann GmbH (Gärtringen) - 50+ yrs beverage-industry water treatment, made-in-Germany turnkey + service/system support (verified euwa.com)",
+          "Herco Wassertechnik GmbH - ~80 yrs, part of international PWG Group; brewery/dairy/beverage systems with nationwide maintenance, validation & retrofit service (verified hercowater.com)"
+        ],
+        "entry_multiple": "n/a - proprietary (mid-market industrial-service Mittelstand; no reliable public comps)",
+        "bnb_angle": "F&B producers need continuous softening/RO/disinfection uptime and validation, generating recurring service/retrofit revenue on installed plant; acquire a systems anchor (EUWA/Herco-type) and bolt on regional service firms to convert one-off plant sales into a recurring maintenance + consumables annuity across breweries and dairies.",
+        "key_risks": [
+          "Project/capex cyclicality if the mix is skewed to new-build vs. recurring service",
+          "Global majors (Veolia Water Technologies) and OEMs compete on large accounts",
+          "Engineering talent and validation know-how are hard to scale/integrate"
+        ]
+      },
       "child_ids": []
     },
     "food-agriculture-services-value-chain/agri-inputs-distribution-advisory-land-management": {
@@ -4949,6 +5200,26 @@
           "title": "Anticimex Deutschland",
           "url": "https://www.anticimex.de/",
           "note": ">480 staff DE, W&S Insekt Control acquired Jan 2026 - consolidator active in HACCP/food monitoring"
+        },
+        {
+          "title": "",
+          "url": "https://www.anticimex.de/food-safety/ifs-food/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.rentokil-initial.de/presse-und-aktuelles/schadlingsbekampfer-mochten-die-professionalitat-der-branche-starken",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://ctacquisitions.com/pest-control-business-valuation-guide/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://ctacquisitions.com/answers/why-pest-control-higher-multiples/",
+          "note": ""
         }
       ],
       "confidence": 4,
@@ -4957,7 +5228,21 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Freely acquirable B2B service; only friction is Sachkunde §15 IfSG/biocide licensing of technicians, which transfers with the business. Rentokil/Anticimex already bundle this into multi-site food-industry contracts.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          "Anticimex Deutschland - EQT-backed market leader, digital IFS Food/IFS Logistics real-time reporting, 480+ staff DE (verified anticimex.de)",
+          "Rentokil Initial GmbH - global consolidator, IFS-capable food-facility contracts, GPCB co-founder (verified rentokil-initial.de)",
+          "APC AG - 30+ years, nationwide expert network, strong food-industry reputation (verified, GPCB co-founder)"
+        ],
+        "ebitda_margin": "~20% at owner-operator level (US pest-control benchmark; DACH directionally similar, source ctacquisitions.com)",
+        "entry_multiple": "6.9-10x EBITDA for mid-market operators with high recurring revenue; 3.3-6x for single-route owner-operators (US pest-control benchmark, source ctacquisitions.com)",
+        "bnb_angle": "IFS/BRC-driven standing monitoring contracts are near-100% recurring and audit-mandatory; consolidate IFS-capable regional Schädlingsbekämpfer into a food-industry-focused platform (bait-station networks + digital documentation) to win multi-site framework deals from food manufacturers and cold-chain operators - the exact playbook Anticimex/Rentokil are running.",
+        "key_risks": [
+          "PE-backed strategics (Anticimex/EQT, Rentokil) bid up quality assets and compress entry multiples",
+          "Digital-documentation capability is now table-stakes; laggard SMEs need reinvestment",
+          "Biocide regulation and technician certification (DIN EN 16636) raise compliance cost"
+        ]
+      },
       "child_ids": []
     },
     "food-agriculture-services-value-chain/pest-control-food-industry-hygiene/commercial-food-industry-pest-control-schadlingsbekampfung-haccp-monitoring/digital-connected-smart-pest-monitoring-iot-fallen": {
@@ -5087,6 +5372,21 @@
           "title": "Anticimex Deutschland",
           "url": "https://www.anticimex.de/",
           "note": "PE-backed consolidator, latest tuck-in Jan 2026 - little virgin whitespace left"
+        },
+        {
+          "title": "",
+          "url": "https://navoco.de/schaedlingsbekaempfungsunternehmen-in-deutschland/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://ctacquisitions.com/pest-control-business-valuation-guide/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://ctacquisitions.com/answers/why-pest-control-higher-multiples/",
+          "note": ""
         }
       ],
       "confidence": 5,
@@ -5095,7 +5395,21 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Freely acquirable (Sachkundenachweis transfers with firm), but this is THE crowded consolidation lane: Rentokil (~30% EU share) and PE-backed Anticimex are actively rolling up the 800-1,200 DE firms.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          "APC AG - nationwide expert network, strong commercial/food & healthcare book, GPCB co-founder (verified)",
+          "Anticimex Deutschland - PE-backed (EQT) consolidator active across commercial/urban segments (verified anticimex.de)",
+          "hentschke + sawatzki - established commercial pest-control operator and GPCB co-founder (verified via GPCB)"
+        ],
+        "ebitda_margin": "~20% at owner-operator level (US pest-control benchmark; source ctacquisitions.com)",
+        "entry_multiple": "3.3-6x EBITDA for single-route owner-operators; up to 6.9-10x for platform-scale operators with high recurring revenue (US benchmark, source ctacquisitions.com)",
+        "bnb_angle": "The ~800-1,200 general Kammerjäger SMEs are the cheapest entry tier for a density roll-up; acquire owner-operated books, convert callout work to service contracts, and layer in route optimisation - a lower-multiple feeder into the higher-value IFS food-facility segment.",
+        "key_risks": [
+          "Lower recurring-revenue mix than food-facility contracts caps multiples and stickiness",
+          "Owner dependence and thin documentation complicate integration/handover",
+          "Well-funded strategics compete for the same regional books"
+        ]
+      },
       "child_ids": []
     },
     "food-agriculture-services-value-chain/pest-control-food-industry-hygiene/stored-product-structural-fumigation-begasung-vorratsschutz": {
@@ -5640,6 +5954,21 @@
           "title": "Eurofins Lebensmittel-Labore Deutschland",
           "url": "https://www.eurofins.de/lebensmittel/labore/",
           "note": "Dense Eurofins DE micro/food lab network - strategic consolidator present"
+        },
+        {
+          "title": "",
+          "url": "https://www.bav-institut.de/de/news/Mikrobiologische-Lebensmitteluntersuchungen-nach-der-VO-EG-2073-2005",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://laboratoryforsale.com/valuing/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.exitstrategiesgroup.com/business-valuation-101-for-testing-laboratories/",
+          "note": ""
         }
       ],
       "confidence": 4,
@@ -5648,7 +5977,21 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Private labs freely acquirable, but Eurofins, SGS, Tentamus, GBA/Certania and Agrolab are already running buy-and-build across DE micro food testing - limited whitespace.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          "BAV-Institut (Offenburg) - accredited food micro lab; Salmonella/Listeria/STEC via 24h RT-PCR + ISO/§64 LFGB methods per VO (EG) 2073/2005 (verified bav-institut.de)",
+          "Labor Kneißler (Burglengenfeld) - accredited food micro lab, official §37 (EU) 2017/625 / §43 LFGB counter-sample lab, TVC + pathogen detection (verified labor-kneissler.de)",
+          "AGROLAB Group - accredited multi-site lab network with routine food microbiology (verified agrolab.com)"
+        ],
+        "ebitda_margin": "no reliable DACH-specific band located (omitted)",
+        "entry_multiple": "3-4.5x EBITDA for sub-EUR1m-EBITDA labs; 5-8x for larger labs with strong SQF/HACCP/BRCGS records (testing-lab benchmark, source exitstrategiesgroup.com / laboratoryforsale.com)",
+        "bnb_angle": "Routine batch pathogen/TVC testing under VO 2073/2005 is legally mandated and recurring; consolidate accredited regional micro labs, standardise on rapid PCR to cut turnaround, and pool sampling logistics to win multi-site food-manufacturer framework contracts - the sub-scale tier Eurofins/AGROLAB have not yet rolled up.",
+        "key_risks": [
+          "Eurofins/AGROLAB consolidation raises entry prices and competes on turnaround",
+          "Capex for rapid-PCR automation and DAkkS accreditation upkeep favours scale",
+          "Per-test price commoditisation on routine indicator counts compresses margin"
+        ]
+      },
       "child_ids": []
     },
     "food-agriculture-services-value-chain/food-safety-testing-laboratories/chemical-residues-contaminants": {
@@ -6280,6 +6623,26 @@
           "title": "Eurofins Lebensmittelanalytik",
           "url": "https://www.eurofins.de/lebensmittel/",
           "note": "Environmental/personnel hygiene swab monitoring offered as recurring service"
+        },
+        {
+          "title": "",
+          "url": "https://www.bav-institut.de/de/news/Umgebungsuntersuchungen-auf-Listeria-monocytogenes-in-Lebensmittelbetrieben",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.bio-diagnostix.de/de/lebensmittel/betriebshygiene/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.labor-hygiene.de/leistungen",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.exitstrategiesgroup.com/business-valuation-101-for-testing-laboratories/",
+          "note": ""
         }
       ],
       "confidence": 3,
@@ -6288,7 +6651,20 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Freely acquirable; recurring, relatively asset-light sampling + lab work across a fragmented 300-500+ provider base, though pest/hygiene and lab consolidators both touch this segment.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          "BAV-Institut (Offenburg) - accredited lab running surface/environmental swab and Listeria-monocytogenes environmental monitoring programmes for food plants (verified bav-institut.de)",
+          "Bio-Diagnostix Labor GmbH (Reken) - Betriebshygiene/food swab-monitoring service (verified bio-diagnostix.de)",
+          "labor-hygiene.de - micro & hygiene lab covering food, water and surface monitoring (verified)"
+        ],
+        "entry_multiple": "3-4.5x EBITDA for sub-EUR1m-EBITDA labs; 5-8x at greater scale (small/mid testing-lab benchmark, source exitstrategiesgroup.com)",
+        "bnb_angle": "HACCP monitoring plans require routine swab/ATP sampling with sticky, repeatable per-site volumes; consolidate accredited environmental-hygiene labs plus their sampling logistics into a network cross-selling micro testing, and bundle personnel-hygiene checks - a recurring, audit-driven annuity.",
+        "key_risks": [
+          "Eurofins/AGROLAB and larger micro labs compete for the same accredited scope",
+          "Low per-sample ticket makes courier/sampling logistics the margin lever",
+          "DAkkS accreditation maintenance is a fixed compliance cost that penalises sub-scale labs"
+        ]
+      },
       "child_ids": []
     },
     "food-agriculture-services-value-chain/food-safety-testing-laboratories/environmental-hygiene-water-testing-for-food-producers/process-drinking-water-legionella-testing": {
@@ -6351,6 +6727,26 @@
           "title": "Trinkwasseranalyse gemaess Trinkwasserverordnung - TUEV SUED",
           "url": "https://www.tuvsud.com/de-de/branchen/gesundheit-und-medizintechnik/arbeits-gesundheitsschutz/mikrobiologisches-monitoring-firmenkunden/trinkwasseranalyse",
           "note": "Only ISO-17025-accredited labs may perform the required tests; confirms recurring accredited-testing model."
+        },
+        {
+          "title": "",
+          "url": "https://www.agrolab.com/de/produkte-leistungen/wasseranalytik/legionellen.html",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.eurofins.de/umwelt/schadstoffe-mikrobiologie/legionellen/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.labor-kneissler.de/qualitaet/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.exitstrategiesgroup.com/business-valuation-101-for-testing-laboratories/",
+          "note": ""
         }
       ],
       "confidence": 4,
@@ -6359,7 +6755,20 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Large fragmented base of DIN EN ISO 17025 water labs, freely acquirable; TrinkwV mandates recurring Legionella testing (statutory but privately paid), giving durable recurring demand and roll-up whitespace.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          "AGROLAB Group - accredited water-analytics labs (Kiel, Potsdam, Eching, Fellbach, Leopoldshöhe) with regional sampling across all DE states + AT (verified agrolab.com)",
+          "Eurofins Umwelt - accredited Legionella/TrinkwV testing, own labs + accredited sampling per DIN EN ISO 19458 (verified eurofins.de)",
+          "Labor Kneißler (Burglengenfeld) - accredited drinking-water + food micro lab, official §64 LFGB counter-sample lab (verified labor-kneissler.de)"
+        ],
+        "entry_multiple": "3-4.5x EBITDA for sub-EUR1m-EBITDA labs; 5-8x at greater scale (small/mid testing-lab benchmark, source exitstrategiesgroup.com / laboratoryforsale.com)",
+        "bnb_angle": "Legionella/process-water testing is legally periodic and route-based; consolidate accredited regional water labs into a network with shared accreditation, courier/sampling logistics and cross-sell into food-plant micro testing - though Eurofins/AGROLAB set a high acquisitive bar.",
+        "key_risks": [
+          "Eurofins and AGROLAB are aggressive consolidators that inflate asset prices",
+          "Accreditation (DAkkS) and sampling logistics are capital/compliance-heavy to scale",
+          "Commoditised per-sample pricing on routine Legionella panels squeezes margins"
+        ]
+      },
       "child_ids": []
     },
     "food-agriculture-services-value-chain/food-safety-testing-laboratories/feed-agricultural-sample-testing": {

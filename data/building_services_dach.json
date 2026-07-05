@@ -439,6 +439,26 @@
           "title": "Elektrische Anlagen VdS, DGUV V3, PV | TÜV NORD",
           "url": "https://www.tuev-nord.de/de/dienstleistungen/pruefung-und-gutachten/elektrische-anlagen-vds-dguv-v3/",
           "note": "Large installed base across all commercial buildings; thousands of small providers, no dominant consolidator."
+        },
+        {
+          "title": "",
+          "url": "https://www.e-service-check.de/leistungen/pruefung-ortsveraenderlicher-geraete-betriebsmittel/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://dpg-gruppe.de/leistungen/regalpruefung/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.messtechnik-paderborn.de/leistungen/pruefung-ortsveraenderlicher-elektrischer-betriebsmittel-nach-dguv-v3",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://aventis-advisors.com/tic-company-valuations/",
+          "note": ""
         }
       ],
       "confidence": 3,
@@ -447,7 +467,21 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Testing/service GmbHs freely acquirable; DGUV V3 is a firm-/Elektrofachkraft-level compliance service, no person-bound licence blocking a share deal.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          "E+Service+Check GmbH (e-service-check.de) - DGUV V3 testing incl. ortsfeste Anlagen",
+          "DPG-Gruppe (dpg-gruppe.de) - elektrische Betriebssicherheitspruefung (ortsfest & ortsveraenderlich)",
+          "Messtechnik Paderborn (messtechnik-paderborn.de) - DGUV V3 / DIN VDE 0105-100 fixed-installation testing"
+        ],
+        "ebitda_margin": "Compliance-inspection/TIC segment 12-20% (Aventis Advisors, 2024)",
+        "entry_multiple": "~7-8x EV/EBITDA for sub-EUR 30m TIC/inspection SMEs (Aventis Advisors, Sep-2024) - proprietary at deal level",
+        "bnb_angle": "Fixed-installation testing of distribution boards, machines and PV/EV connections is a higher-ticket, stickier scope than portable testing and expands naturally with the electrification (PV/EV/heat-pump) build-out; it anchors the same electrical-safety platform that runs portable and Regal inspection.",
+        "key_risks": [
+          "Requires qualified electricians (Elektrofachkraft), a scarcer resource than for portable testing",
+          "Thousands of providers and overlap with TGA/electrical contractors keeps pricing competitive",
+          "Ticket size varies widely by site, making revenue quality and route planning harder to standardise"
+        ]
+      },
       "child_ids": []
     },
     "building-facility-technical-services-value-chain/electrical-services-building-automation/statutory-electrical-safety-testing-dguv-v3-e-check/portable-equipment-testing-ortsveranderliche-betriebsmittel-dguv-v3": {
@@ -506,6 +540,26 @@
           "title": "DGUV Information 203-071 Wiederkehrende Prüfungen",
           "url": "https://publikationen.dguv.de/widgets/pdf/download/article/787",
           "note": "Statutory recurring-test mandate underpins durable recurring revenue"
+        },
+        {
+          "title": "",
+          "url": "https://www.e-service-check.de/leistungen/pruefung-ortsveraenderlicher-geraete-betriebsmittel/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://dpg-gruppe.de/leistungen/regalpruefung/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.messtechnik-paderborn.de/leistungen/pruefung-ortsveraenderlicher-elektrischer-betriebsmittel-nach-dguv-v3",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://aventis-advisors.com/tic-company-valuations/",
+          "note": ""
         }
       ],
       "confidence": 4,
@@ -514,7 +568,21 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Testing needs only a 'befähigte Person'/Elektrofachkraft, not a Handwerks-Meister; companies freely acquirable, but E+Service+Check is already a scaled PE-style platform.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          "E+Service+Check GmbH (e-service-check.de) - specialist DGUV V3 testing of ortsveraenderliche Betriebsmittel, national footprint",
+          "DPG-Gruppe (dpg-gruppe.de) - Betriebssicherheitspruefung incl. ortsveraenderliche Betriebsmittel",
+          "Messtechnik Paderborn (messtechnik-paderborn.de) - DGUV V3 portable-appliance testing"
+        ],
+        "ebitda_margin": "Compliance-inspection/TIC segment 12-20% (Aventis Advisors, 2024); per-device volume testing at density can exceed the band",
+        "entry_multiple": "~7-8x EV/EBITDA for sub-EUR 30m TIC/inspection SMEs (Aventis Advisors, Sep-2024) - proprietary at deal level",
+        "bnb_angle": "Per-device annual testing is pure high-frequency annuity and the natural anchor scope of an electrical-safety roll-up; a platform layers fixed-installation, Regal and thermography scope onto the same customer visit to raise revenue per site.",
+        "key_risks": [
+          "Thousands of providers and low barriers (electrically instructed person) make it the most commoditised, price-pressured slice",
+          "Extending inspection intervals when fault rate is <2% structurally erodes recurring volume",
+          "Customer concentration and race-to-the-bottom per-device pricing without genuine route density"
+        ]
+      },
       "child_ids": []
     },
     "building-facility-technical-services-value-chain/electrical-services-building-automation/statutory-electrical-safety-testing-dguv-v3-e-check/e-check-private-residential-safety-seal": {
@@ -859,6 +927,26 @@
           "title": "Thiele KG – USV/NEA Service & Support",
           "url": "https://www.thiele-kg.de/service-support.html",
           "note": "Typical regional EUR 1-30m specialist; recurring maintenance model"
+        },
+        {
+          "title": "",
+          "url": "https://de.e-tecpowerman.com/wartung-und-service/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://nea-tec-gmbh.de/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "http://www.amppower.de/service.html",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.zeppelin-powersystems.com/de/de/loesungen/turn-key-anlagen/nea-und-usv-systeme/",
+          "note": ""
         }
       ],
       "confidence": 3,
@@ -867,7 +955,22 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Independent service firms freely acquirable; service (not new-install) largely avoids Elektro-Meisterpflicht; no dominant financial consolidator surfaced.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          "E-TEC Power Management (e-tecpowerman.com) - bundesweiter USV & NEA Wartungs-/Service-Anbieter",
+          "NEA-TEC GmbH (nea-tec-gmbh.de) - Notstromversorgung Inbetriebnahme, Wartung, Service",
+          "AMP Power (amppower.de) - Rund-um-Service fuer NEA und USV",
+          "Zeppelin Power Systems (zeppelin-powersystems.com) - NEA/USV turnkey & maintenance (CAT aggregates)"
+        ],
+        "ebitda_margin": "No published niche margin - omitted; margin driven by mandatory recurring maintenance/test contracts on critical estates",
+        "entry_multiple": "n/a - proprietary; data-centre/critical-power tailwind supports premium interest, but large-cap facilities index (15.3x, Lincoln Q2-2025) overstates SME pricing",
+        "bnb_angle": "Data-centre, hospital and critical-building growth drives mandatory recurring USV/NEA testing and maintenance on assets that cannot fail; a service platform consolidates independent specialists to build a national field force with 24/7 SLA coverage that owners will pay a premium for.",
+        "key_risks": [
+          "Heavy manufacturer/dealer influence (CAT/Zeppelin, Schneider, Vertiv) over parts and warranty ties service to OEM channels",
+          "Skilled generator/UPS technician scarcity limits response-time coverage and organic scaling",
+          "Revenue mix mixes lumpy install/commissioning with the recurring base - annuity must be isolated in diligence"
+        ]
+      },
       "child_ids": []
     },
     "building-facility-technical-services-value-chain/electrical-services-building-automation/lightning-protection-surge-blitzschutz-uberspannungsschutz": {
@@ -933,6 +1036,31 @@
           "title": "VDB - Verband Deutscher Blitzschutzfirmen",
           "url": "https://blitzschutz.eu/",
           "note": "Trade body; several hundred certified Fachbetriebe, standards-driven recurring inspection/maintenance"
+        },
+        {
+          "title": "",
+          "url": "https://thornar.com/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.thormaehlen.de/startseite/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://bavaria-blitzschutzbau.de/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://blitzschutz.eu/mitgliedschaft/mitglieder-liste",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://aventis-advisors.com/tic-company-valuations/",
+          "note": ""
         }
       ],
       "confidence": 3,
@@ -941,7 +1069,22 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Not a standalone zulassungspflichtiges Vollhandwerk (VDB-Fachbetrieb certification, done by electricians/roofers); owner-operated, no financial consolidator surfaced.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          "THORNAR AG (thornar.com) - platform founded 2020 by consolidating five Blitzschutz specialists; validates the roll-up thesis",
+          "Hans Thormaehlen GmbH & Co. KG (thormaehlen.de) - Blitzschutz & Elektrotechnik Fachbetrieb",
+          "Bavaria Blitzschutzbau GmbH (bavaria-blitzschutzbau.de) - regional Blitzschutz-Fachbetrieb",
+          "VDB member base (blitzschutz.eu) - several hundred Fachbetriebe as a sourcing funnel"
+        ],
+        "ebitda_margin": "No niche-specific published margin found - omitted rather than fabricated; broader compliance-inspection/TIC band 12-20% (Aventis Advisors, 2024) is the nearest proxy",
+        "entry_multiple": "n/a - proprietary; nearest benchmark ~7-8x EV/EBITDA for sub-EUR 30m TIC/inspection SMEs (Aventis Advisors, Sep-2024)",
+        "bnb_angle": "THORNAR already proves five-firm consolidation works; a second platform can aggregate VDB Fachbetriebe where DIN EN 62305 install plus insurer/VdS-driven recurring inspection gives sticky revenue, then cross-sell surge protection and PV/EV lightning scope onto an electrical-testing route.",
+        "key_risks": [
+          "THORNAR as a first mover already competes for the same scarce Blitzschutz-Fachkraft labour and acquisition targets",
+          "Revenue skews project/install (new-build and PV-driven) rather than pure annuity, adding cyclicality vs. pure inspection niches",
+          "Very small owner-operated targets; qualified-personnel scarcity is the binding growth constraint"
+        ]
+      },
       "child_ids": []
     },
     "building-facility-technical-services-value-chain/electrical-services-building-automation/ev-charging-install-o-m-ladeinfrastruktur": {
@@ -1438,6 +1581,26 @@
           "title": "Fire protection: growing market, low downturn risk, attractive margins (S&B Strategy)",
           "url": "https://www.sandb-strategy.com/en/publications/insights/Fire-protection-a-growing-market-with-low-downturn-risk-and-attractive-margins",
           "note": "Brandschutz consolidation wave underway (e.g. Fire Holding/DBAG-TBS, ENTRO/LLCP) => headroom narrowing."
+        },
+        {
+          "title": "",
+          "url": "https://www.minimax-mobile.com/ratgeber/glossar/wandhydrantenanlagen-wartung-und-pruefung",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://marxfeuerschutz.de/leistungen/leistungen-feuerschutzabschlusse/feststellanlagen/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.dgwz.de/neue-din-14462",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://aventis-advisors.com/tic-company-valuations/",
+          "note": ""
         }
       ],
       "confidence": 4,
@@ -1446,7 +1609,20 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Service by Sachkundige/befaehigte Person (DIN 14462/EN 671) - qualification hurdle only, no Fremdbesitzverbot; freely acquirable.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          "Minimax Mobile Services (minimax-mobile.com) - Prufung/Wartung Wandhydranten, Uber-/Unterflurhydranten, herstelleruebergreifend, GRIF-Siegel",
+          "Marx Feuerschutz (marxfeuerschutz.de) - Wandhydranten & Loeschwasseranlagen service (regional, Munich)"
+        ],
+        "ebitda_margin": "Compliance-inspection/TIC band 12-20% (Aventis Advisors, 2024); annual cadence supports recurring-service economics",
+        "entry_multiple": "~7-8x EV/EBITDA for sub-EUR 30m TIC/inspection SMEs (Aventis Advisors, Sep-2024) - proprietary at deal level",
+        "bnb_angle": "The July-2023 DIN 14462 revision broadened mandatory test scope and raised operator maintenance obligations (and cost), expanding the annual Wandhydranten/Loeschwasser inspection wallet; this bolts directly onto an extinguisher/Brandschutz route, sharing customers and technicians.",
+        "key_risks": [
+          "Minimax and other fire-protection majors already own the consolidated water-supply service scope",
+          "Bundled inside broader Brandschutz contracts, limiting standalone target availability and pricing power",
+          "New 2023 test steps raise qualified-personnel and equipment requirements per job"
+        ]
+      },
       "child_ids": []
     },
     "building-facility-technical-services-value-chain/fire-protection-systems-brandschutz/fire-alarm-detection-bma-service": {
@@ -1518,6 +1694,31 @@
           "title": "Unternehmensverkauf Brandschutz | MIND Partners",
           "url": "https://www.mind-partners.com/en/market-insights/unternehmensverkauf-brandschutz",
           "note": "4,500+ fire-protection firms, extremely fragmented; PE + strategic consolidation wave now forming (headroom narrowing)."
+        },
+        {
+          "title": "",
+          "url": "https://gngruppe.com/unsere-leistungen/wartung-brandmeldeanlagen/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://wito-sicherheitstechnik.de/wartung-brandmeldeanlage/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.dietrich-safety.de/services/brandmeldeanlagen-nach-din-14675/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.lincolninternational.com/perspectives/articles/ma-activity-in-fire-and-life-safety-services-continues-to-heat-up-2024/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://pitchbook.com/profiles/company/570296-35",
+          "note": ""
         }
       ],
       "confidence": 4,
@@ -1526,7 +1727,22 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "DIN 14675 certification is firm-level (transferable in a share deal), not person-bound; ~1,900 certified Errichter, freely acquirable.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          "GN Gruppe (gngruppe.com) - zertifizierter DIN-14675-Facherrichter, BMA-Wartung",
+          "WiTo Sicherheitstechnik (wito-sicherheitstechnik.de) - DIN-14675 BMA-Wartung",
+          "DIETRICH Brandschutz (dietrich-safety.de) - Fachfirma Brandmeldeanlagen nach DIN 14675",
+          "Jaus Sicherheitstechnik (jaus-sicherheit.de) - zertifizierter BMA-Fachbetrieb"
+        ],
+        "ebitda_margin": "Fire & life-safety services attracting strong PE interest; no niche BMA figure published - broader TIC/facilities band 12-20% (Aventis Advisors, 2024) as proxy",
+        "entry_multiple": "n/a - proprietary; German comp: ERGE Deutsche Brandschutz acquired by Apleona (Jan-2024); large-cap facilities index 15.3x EV/EBITDA (Lincoln, Q2-2025), SMEs materially below",
+        "bnb_angle": "DIN-14675 + ISO-9001 certification is a real moat vs. extinguisher work, and quarterly/annual BMA maintenance plus the mandatory Sachverstaendigenpruefung cycle makes contracts very sticky; owners can switch away from the installer, so a certified independent platform can win takeovers of OEM-installed estates.",
+        "key_risks": [
+          "DIN-14675 certification and specialist labour are the binding constraint on integrating acquired firms",
+          "OEMs (Bosch, Honeywell, Siemens/Minimax) dominate large accounts and can defend maintenance bases",
+          "Higher revenue ticket comes with more project/install cyclicality than pure inspection niches"
+        ]
+      },
       "child_ids": []
     },
     "building-facility-technical-services-value-chain/fire-protection-systems-brandschutz/sprinkler-water-mist-water-extinguishing-systems": {
@@ -1835,6 +2051,26 @@
           "title": "Investitionspotenziale im technischen Brandschutz (tga-praxis.de)",
           "url": "https://www.tga-praxis.de/news/entwicklungen-und-investitionspotenziale-im-technischen-brandschutz.html",
           "note": "PE interest rising in technical fire protection; damper-inspection sub-niche still largely un-consolidated."
+        },
+        {
+          "title": "",
+          "url": "https://www.fischer-industrieservice.com/brandschutzklappen-wartung/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.roter-kaeltetechnik.de/wartung-brandschutzklappen/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://gf-servicetec.de/leistung/brandschutzpruefungen/brandschutzklappen-und-lueftungsanlagen/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://aventis-advisors.com/tic-company-valuations/",
+          "note": ""
         }
       ],
       "confidence": 4,
@@ -1843,7 +2079,21 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Inspection by befaehigte Person per DIN 14677 - certification hurdle only, no ownership prohibition; asset-light and freely acquirable.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          "Fischer Industrieservice (fischer-industrieservice.com) - Brandschutzklappen-Wartung nach DIN 14677",
+          "Roter Kaltetechnik (roter-kaeltetechnik.de) - Wartung/Reinigung Brandschutzklappen mit Technikerteams",
+          "GF Servicetec Brandschutztechnik (gf-servicetec.de) - Prufung/Wartung Brandschutzklappen & Luftungsanlagen"
+        ],
+        "ebitda_margin": "Compliance-inspection/TIC segment 12-20% (Aventis Advisors TIC report, 2024); route-dense damper SMEs typically at the upper end",
+        "entry_multiple": "~7-8x EV/EBITDA for sub-EUR 30m TIC/inspection SMEs (Aventis Advisors, Sep-2024); double-digit only above EUR 30m sales - proprietary at individual deal level",
+        "bnb_angle": "Bolt HVAC fire-damper inspection onto an existing DGUV V3 / Brandschutz route platform: same building estate, same buyer, incremental DIN-14677 Sachkunde. Consolidating hundreds of sub-EUR 4m Fachbetriebe densifies technician routes and cross-sells damper work into extinguisher, BMA and door contracts.",
+        "key_risks": [
+          "Scarcity of DIN-14677-qualified 'Fachkraft fur Brandschutzklappen' constrains organic growth and inflates wage costs",
+          "Work is bundled inside broader HVAC/FM contracts, so standalone damper firms have weak pricing power and revenue leakage to TGA generalists",
+          "Highly fragmented, sub-scale targets with owner-technician key-person dependency and thin, informal contract books"
+        ]
+      },
       "child_ids": []
     },
     "building-facility-technical-services-value-chain/fire-protection-systems-brandschutz/passive-fire-protection-dampers-doors-compartmentation/fire-doors-gates-hold-open-devices": {
@@ -1910,6 +2160,31 @@
           "title": "DIN EN 16034 (Beuth)",
           "url": "https://www.beuth.de/de/norm/din-en-16034/",
           "note": "Correct product standard is DIN EN 16034; hold-open device maintenance is DIN 14677."
+        },
+        {
+          "title": "",
+          "url": "https://brandmauer-nord.de/brandschutztechnik/feststellanlagen-nach-din-14677/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://marxfeuerschutz.de/leistungen/leistungen-feuerschutzabschlusse/feststellanlagen/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.torservice-deutschlandweit-kfk.de/pruefung-wartung/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.dgwz.de/neue-norm-din-14677-instandhaltung-von-feststellanlagen",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://aventis-advisors.com/tic-company-valuations/",
+          "note": ""
         }
       ],
       "confidence": 4,
@@ -1918,7 +2193,21 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Maintenance/inspection firms freely acquirable; new DIN 14677:2025 person-competency rule is a service requirement, not an ownership block.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          "Brandmauer Nord (brandmauer-nord.de) - Feststellanlagen-Instandhaltung nach DIN 14677",
+          "Marx Feuerschutz (marxfeuerschutz.de) - Feuerschutzabschlusse & Feststellanlagen, Munich",
+          "KFK Torservice & Safety Pruefservice (torservice-deutschlandweit-kfk.de) - herstellerunabhaengige DIN 14677/18650/ASR A1.7 Tor- & Turprufung"
+        ],
+        "ebitda_margin": "Compliance-inspection/TIC segment 12-20% (Aventis Advisors TIC report, 2024)",
+        "entry_multiple": "~7-8x EV/EBITDA for sub-EUR 30m TIC/inspection SMEs (Aventis Advisors, Sep-2024) - proprietary at deal level",
+        "bnb_angle": "Annual DIN-14677 hold-open and Feuerschutzabschluss inspection is a recurring, code-locked wedge that rides the same door/gate estate as industrial-door and access work; a platform can merge Feststellanlagen, Industrietor and BMA inspection under one technician route.",
+        "key_risks": [
+          "Standard mandates a certified 'Fachkraft fur Feststellanlagen' - talent bottleneck limits scaling",
+          "Scope overlaps with door OEM service arms (Hormann, Novoferm) and electronic-security firms, compressing independents' margins",
+          "Small ticket sizes and quarterly-plus-annual cadence create high administrative/scheduling overhead per euro of revenue"
+        ]
+      },
       "child_ids": []
     },
     "building-facility-technical-services-value-chain/fire-protection-systems-brandschutz/gas-special-extinguishing-systems": {
@@ -2754,6 +3043,21 @@
           "title": "Blumenbecker – Industrietor Service",
           "url": "https://www.blumenbecker.com/industrial-service/industrial-doors",
           "note": "Fragmented regional service market with mandatory periodic inspections"
+        },
+        {
+          "title": "",
+          "url": "https://www.pruefservice.de/uvv-pruefung-wartung-kundendienst-tore/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.pruefservice.de/pruefung-verladerampen-hubtische/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://aventis-advisors.com/tic-company-valuations/",
+          "note": ""
         }
       ],
       "confidence": 3,
@@ -2762,7 +3066,21 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Independent service/inspection firms freely acquirable; maintenance largely outside Metallbauer-Meisterpflicht; OEM service (Hörmann/Novoferm) is the main competitor, no financial roll-up surfaced.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          "KFK Torservice & Safety Pruefservice GmbH (torservice-deutschlandweit-kfk.de) - bundesweiter herstellerunabhaengiger Tor-, Tur- & Verladetechnik-Service (Hormann, Novoferm, Crawford, HAFA)",
+          "Pruefservice.de - UVV-Pruefung/Wartung Tore nach ASR A1.7 und Verladerampen/Hubtische",
+          "Hormann / Novoferm OEM service arms - incumbent captive-base benchmark"
+        ],
+        "ebitda_margin": "No niche-specific figure published - omitted; UVV/DGUV inspection + repair mix implies TIC/facilities-adjacent economics 12-20% (Aventis Advisors, 2024)",
+        "entry_multiple": "n/a - proprietary; sub-EUR 30m technical-service SMEs benchmark ~7-8x EV/EBITDA (Aventis Advisors, Sep-2024)",
+        "bnb_angle": "Statutory UVV/DGUV inspection of industrial doors, gates and loading-dock equipment (ASR A1.7, DIN 18650, DIN 14677) is a compliance-locked recurring service on a large fragmented estate; a herstellerunabhaengig platform (like KFK) consolidates regional Torservice firms and captures maintenance/repair off the OEM installed base with strong spare-parts pull-through.",
+        "key_risks": [
+          "Door OEMs (Hormann, Novoferm) run large captive service networks and control spare parts",
+          "Highly fragmented regional firms with owner-technician dependency and informal contract books",
+          "Repair/parts revenue is less annuity-like than pure inspection, adding demand variability"
+        ]
+      },
       "child_ids": []
     },
     "building-facility-technical-services-value-chain/technical-fm-building-envelope/fassaden-glasreinigung-hohenzugang-seilzugangstechnik": {
@@ -3593,6 +3911,26 @@
           "title": "42. BImSchV - Verdunstungskühlanlagen (TÜV SÜD)",
           "url": "https://www.tuvsud.com/de-de/branchen/real-estate/technische-gebaeudeausruestung-und-aufzuege/raumlufttechnik-klimatechnik/hygienegerechter-und-sicherer-betrieb-von-rueckkuehlwerken",
           "note": ">30,000 affected systems in DE since 2017 mandate; strong secular growth"
+        },
+        {
+          "title": "",
+          "url": "https://www.aquagroup.com/en/legal-information/42-bimschv-hygiene-in-cooling-towers/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.veoliawatertechnologies.de/anwendungen/kuehlwasseraufbereitung/42-bimschv-bundesimmissionsschutzverordnung",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://aqua-technik-gmbh.de/42-bimschv-und-legionellen-aufklaerung-und-informationen/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://aventis-advisors.com/tic-company-valuations/",
+          "note": ""
         }
       ],
       "confidence": 3,
@@ -3601,7 +3939,21 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Water-hygiene service plus accredited labs (VDI 2047) - no Handwerk licence bar; >30,000 regulated systems, mandate-driven; fragmented, early.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          "aquagroup holding GmbH (aquagroup.com) - cooling-tower hygiene under 42. BImSchV",
+          "Veolia Water Technologies Deutschland (veoliawatertechnologies.de) - Kuehlwasseraufbereitung / 42. BImSchV Legionella control",
+          "Aqua-Technik GmbH (aqua-technik-gmbh.de) - 42. BImSchV Legionella hygiene service"
+        ],
+        "ebitda_margin": "Accredited lab/TIC band 12-20% (Aventis Advisors, 2024); Eurofins/SGS-type accredited testing sits 18-23% - hygiene-service SMEs typically lower",
+        "entry_multiple": "~7-8x EV/EBITDA for sub-EUR 30m TIC/inspection SMEs; accredited-lab platforms with growth achieve double digits (Aventis Advisors, Sep-2024) - proprietary at deal level",
+        "bnb_angle": "The 42. BImSchV (in force since 2017) creates mandatory recurring sampling every ~3 months plus five-yearly expert inspection - combine an accredited lab with a water-hygiene service arm to own both the sampling annuity and the remediation upsell.",
+        "key_risks": [
+          "Sampling must run through accredited labs (DIN EN ISO 11731/19458); without accreditation the model is only the low-margin service leg",
+          "Well-capitalised majors (Veolia, Eurofins, SGS, TUV) already contest this scope",
+          "Enforcement/registration intensity varies by Bundesland, creating uneven demand"
+        ]
+      },
       "child_ids": []
     },
     "building-facility-technical-services-value-chain/hvac-ventilation-cooling-service/f-gas-leak-checks-refrigerant-compliance-f-gase-vo-chemklimaschutzv": {
@@ -4181,6 +4533,26 @@
           "title": "Liste mit 800 Aufzugsfirmen + Branchenübersicht – listflix",
           "url": "https://listflix.de/bauunternehmen/tga-unternehmen/aufzugsfirmen/",
           "note": "~800 lift firms; SME segment holds >30% share vs Big Four OEMs."
+        },
+        {
+          "title": "",
+          "url": "https://www.schaufler-liftservice.de/wissenswertes/aufzug-hersteller/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://ak-aufzuege.de/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.schmitt-aufzuege.de/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.lift-journal.de/aktuell/schindler-uebernimmt-vier-unternehmen",
+          "note": ""
         }
       ],
       "confidence": 4,
@@ -4189,7 +4561,22 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Aftermarket service contracts freely transferable; ~765k lift installed base and ~800 independents make it acquirable, no ownership block.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          "Schaufler Liftservice (schaufler-liftservice.de) - herstellerunabhaengiger Aufzugsservice",
+          "AK Aufzuege (ak-aufzuege.de) - independent lift service, Southern Germany",
+          "Schmitt Aufzuege (schmitt-aufzuege.de) - multi-brand service & modernisation",
+          "HERZ Aufzuege Berlin (herz-aufzuege.de) - manufacturer-independent maintenance"
+        ],
+        "ebitda_margin": "No independent-lift-specific margin published - omitted; recurring maintenance is the value driver (EUR 1,000-3,000/lift/yr)",
+        "entry_multiple": "n/a - proprietary; sector M&A is intense (KONE/TK Elevator 2026; Wittur/KKR 2024; Schindler AVD roll-up), so competition for assets is high and pricing bespoke",
+        "bnb_angle": "~800 SMEs hold ~40% share and any owner can legally switch provider off an OEM contract - a platform aggregates independents (as Schindler's Aufzugsverbund Deutschland is already doing) to build regional route density and capture EN-81-driven takeovers of the OEM installed base.",
+        "key_risks": [
+          "OEMs (KONE, Schindler, TKE, Otis) defend their base aggressively and are themselves acquiring independents",
+          "VmA independents automatically lose membership if bought by a multinational - buyer identity affects positioning",
+          "Spare-parts access and modernisation capex needs can erode the maintenance-margin thesis"
+        ]
+      },
       "child_ids": []
     },
     "building-facility-technical-services-value-chain/lift-escalator-service/oem-lift-service-big-four-captive-base": {
@@ -4689,6 +5076,21 @@
           "title": "Notrufsystem für Aufzüge ist Pflicht – Schindler",
           "url": "https://www.schindler.de/de/service/optionen/notruf.html",
           "note": "Emergency-call system mandatory for every lift since 2020 – structural recurring demand."
+        },
+        {
+          "title": "",
+          "url": "https://www.securitas.de/services/remote/aufzugnotruf/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://midas-leitstelle.de/aufzugnotruf/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.sveag.de/news/notrufaufschaltung-hamburg-rechtssicherheit-24-7-schutz",
+          "note": ""
         }
       ],
       "confidence": 4,
@@ -4697,7 +5099,22 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Subscription monitoring business freely acquirable; mandatory Notruf since 2020 drives recurring private revenue, no ownership restriction.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          "Notrufe24 e.K. (notrufe24.de) - Aufzugsnotrufzentrale, >26,000 active connections (Nov-2025)",
+          "Securitas Deutschland (securitas.de) - >43,000 lift systems on its Notruf/service centres",
+          "Midas Leitstelle (midas-leitstelle.de) - 24/7 Aufzugnotruf monitoring",
+          "SVEAG (sveag.de) - manufacturer-independent EN 81-28 Aufschaltung"
+        ],
+        "ebitda_margin": "No published niche margin - omitted; economics driven by high-margin recurring ~EUR 5-20/lift/month monitoring subscription",
+        "entry_multiple": "n/a - proprietary; subscription-monitoring assets with dense connection bases typically command premium multiples but no niche comp is public",
+        "bnb_angle": "EN 81-28 makes 24/7 monitored emergency communication mandatory on the entire lift stock, giving a pure per-lift subscription annuity; a monitoring platform aggregates Aufschaltung books (Notrufe24, SVEAG-type centres) that ride independently of the mechanical service contract, with strong operating leverage as connections scale on one Leitstelle.",
+        "key_risks": [
+          "OEMs and security majors (KONE, Securitas) bundle monitoring into service contracts, limiting standalone SAM",
+          "Telecoms transition (analogue GSM/2G shutdown) forces device retrofit capex across the base",
+          "Leitstelle certification, redundancy and data-protection obligations raise fixed-cost floor"
+        ]
+      },
       "child_ids": []
     },
     "building-facility-technical-services-value-chain/lift-escalator-service/statutory-lift-inspection-zus-tic-overlap": {
@@ -4959,6 +5376,26 @@
           "title": "Marktforschung Sicherheitsbranche – openPR",
           "url": "https://www.openpr.de/news/1274701/Marktforschung-zur-Sicherheitsbranche-Trends-und-Wachstumsprognosen-fuer-die-kommenden-Jahre.html",
           "note": "German security sector ~EUR10bn, 6-8% growth to 2028."
+        },
+        {
+          "title": "",
+          "url": "https://avt-gmbh.de/loesung/wartung-von-einbruchmeldesystemen/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.talk-gmbh.de/Leistungen/Sicherheitstechnik/EinbruchmeldeanlagenEMA",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.securitas.de/services/sicherheitstechnik/einbruchmeldeanlagen-ueberfallmeldeanlagen/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://www.lincolninternational.com/publications/facilities-services-market-update-q2-2025/",
+          "note": ""
         }
       ],
       "confidence": 4,
@@ -4967,7 +5404,22 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Errichter/Wartung firms freely acquirable (VdS certification is firm-level, not an ownership block); highly fragmented BHE installer base.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          "AVT GmbH (avt-gmbh.de) - bundesweite Wartung von Einbruchmeldesystemen",
+          "TALK GmbH (talk-gmbh.de) - EMA/Sicherheitstechnik Errichter & Wartung, Dortmund",
+          "Securitas Deutschland (securitas.de) - EMA/UEMA install & service at scale",
+          "Telenot Errichter network (manufacturer, ~470 staff) - VdS-recognised installer channel"
+        ],
+        "ebitda_margin": "No published EMA-Wartung-specific margin found - omitted; facilities/security-services proxy only",
+        "entry_multiple": "n/a - proprietary; broader facilities-services SMEs trade well below the large-cap Lincoln Facilities index of 15.3x EV/EBITDA (Q2-2025)",
+        "bnb_angle": "The annual VdS/insurer-mandated Wartung contract is the annuity core of EMA - a platform buys installer books largely for their recurring maintenance base and monitoring aufschaltung, then standardises on one product line (e.g. Telenot) to lift service margin.",
+        "key_risks": [
+          "Installed-base loyalty is fragile - buildings can switch service provider, so contract stickiness must be diligenced",
+          "Tied to VdS-Errichter accreditation and manufacturer certification; loss of either impairs the base",
+          "Revenue mix contaminated by lumpy install work; isolating the pure Wartung annuity requires careful carve-out"
+        ]
+      },
       "child_ids": []
     },
     "building-facility-technical-services-value-chain/security-access-systems/alarm-receiving-monitoring-centres-nsl-leitstellen": {
@@ -5822,6 +6274,16 @@
           "title": "Legionellenprüfung von Trinkwasser – SGS Institut Fresenius",
           "url": "https://sgs-institut-fresenius.de/en/industries-environment/hygiene-diagnostics/legionella",
           "note": "TrinkwV mandates recurring legionella testing via DAkkS-accredited labs – structural demand."
+        },
+        {
+          "title": "",
+          "url": "https://www.eurofins.de/umwelt/schadstoffe-mikrobiologie/legionellen/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://aventis-advisors.com/tic-company-valuations/",
+          "note": ""
         }
       ],
       "confidence": 4,
@@ -5830,7 +6292,20 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Sampling firms and accredited labs freely acquirable; DAkkS accreditation is firm-level, but environmental-testing labs (SGS, Agrolab, ALS) already consolidating the analytics side.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          "SGS Institut Fresenius (sgs-institut-fresenius.de) - accredited TrinkwV Legionella sampling & analysis",
+          "Eurofins Umwelt (eurofins.de) - accredited Legionella sampling & lab network with external-Probenehmer channel"
+        ],
+        "ebitda_margin": "Accredited testing/TIC 18-23% for the majors, sector band overall 12-20% (Aventis Advisors, 2024)",
+        "entry_multiple": "~7-8x EV/EBITDA sub-EUR 30m; growing accredited-lab platforms reach double digits (Aventis Advisors, Sep-2024) - proprietary at deal level",
+        "bnb_angle": "TrinkwV forces repeat Legionella sampling on every central hot-water system >400 L; the accreditation barrier splits the market into a low-margin Probenehmer field and a scarce accredited-lab layer - the roll-up play is to own accredited lab capacity and vertically integrate the regional sampling networks feeding it.",
+        "key_risks": [
+          "Consolidators Eurofins and SGS already dominate accredited capacity - independent labs are the scarce, expensive assets",
+          "Sampling-only firms are commoditised and easily disintermediated by lab-owned Probenehmer networks",
+          "Regulatory sampling frequency/thresholds (TrinkwV revisions) directly swing volume"
+        ]
+      },
       "child_ids": []
     },
     "building-facility-technical-services-value-chain/plumbing-sanitary-water-hygiene-shk/drinking-water-hygiene-legionella-trinkwv/gefahrdungsanalyse-hygienic-remediation": {
@@ -6408,6 +6883,26 @@
           "title": "Pruefung von Arbeitsmitteln nach DGUV V3 - GBS",
           "url": "https://gbs-gesellschaft.de/leistungen/pruefung-von-arbeitsmitteln-nach-dguv-v3/",
           "note": "External Pruefdienstleister market; overlaps DGUV V3 electrical inspection routes"
+        },
+        {
+          "title": "",
+          "url": "https://dpg-gruppe.de/leistungen/regalpruefung/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://arbeitssicherheit-fachkraft.de/regalpruefung/",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://lagerknecht.de/regalpruefung-din-en-15635",
+          "note": ""
+        },
+        {
+          "title": "",
+          "url": "https://aventis-advisors.com/tic-company-valuations/",
+          "note": ""
         }
       ],
       "confidence": 3,
@@ -6416,7 +6911,21 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Inspection service (befaehigte Person qualification, not Anlage-A Handwerk); freely acquirable, fragmented befaehigte-Personen/route firms, little financial consolidator yet.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          "DPG-Gruppe (dpg-gruppe.de) - elektrische & nichtelektrische Betriebssicherheitspruefung incl. Regalpruefung DIN EN 15635",
+          "arbeitssicherheit-fachkraft.de - bundesweite Regalpruefung nach DIN EN 15635 / DGUV 208-061",
+          "DEKRA / TUV inspection arms - incumbent Regalpruefung providers to benchmark against"
+        ],
+        "ebitda_margin": "Compliance-inspection/TIC segment 12-20% (Aventis Advisors, 2024); high-frequency, route-based rack/ladder checks skew to the upper end",
+        "entry_multiple": "~7-8x EV/EBITDA for sub-EUR 30m TIC/inspection SMEs (Aventis Advisors, Sep-2024) - proprietary at deal level",
+        "bnb_angle": "Rack (DIN EN 15635, ~EUR 2.50-7.00 per Regalfeld), ladder and PSA checks share the exact building/logistics estate and 'befaehigte Person' skill set as DGUV V3 electrical testing, so this is the cheapest adjacency to bolt onto an electrical-safety platform for one-visit, multi-scope route density.",
+        "key_risks": [
+          "Very low ticket size per Regalfeld means the model only works at high route density / national coverage",
+          "Certification barrier is only a 'befaehigte Person', so entry is easy and price competition is intense",
+          "Heavy overlap and direct competition with DGUV V3 firms and TIC majors (DEKRA, TUV) already offering the scope"
+        ]
+      },
       "child_ids": []
     }
   }

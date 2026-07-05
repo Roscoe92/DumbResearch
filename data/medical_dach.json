@@ -388,6 +388,31 @@
           "title": "Effiziente Gestaltung von Pharmakovigilanz-Systemen (Diapharm)",
           "url": "https://www.diapharm.com/news/effiziente-gestaltung-von-pharmakovigilanz-systemen/",
           "note": "Rising regulatory complexity drives outsourced PV demand"
+        },
+        {
+          "title": "Diapharm - Pharmacovigilance / EU-QPPV & Graduated Plan Officer",
+          "url": "https://www.diapharm.com/en/product-areas/medicinal-products/pharmacovigilance/graduated-plan-officer",
+          "note": "PV services incl. EU-QPPV and local QPPVs DACH/Benelux"
+        },
+        {
+          "title": "CSO Pharma - Pharmacovigilance / Qualified Person (QPPV)",
+          "url": "https://www.cso-pharma.eu/en/services/pharmacovigilance/qualified-person-qppv.html",
+          "note": "PV outsourcing incl. QPPV and Stufenplanbeauftragter"
+        },
+        {
+          "title": "ENTOURAGE - Pharmacovigilance / QPPV Services",
+          "url": "https://theentourage.de/en/expertise/pharmacovigilance/",
+          "note": "PV consulting, signal detection, QPPV on demand"
+        },
+        {
+          "title": "Cencora - AmerisourceBergen completes acquisition of PharmaLex",
+          "url": "https://investor.cencora.com/news/news-details/2023/AmerisourceBergen-Completes-Acquisition-of-PharmaLex/default.aspx",
+          "note": "EUR1.28bn strategic exit precedent for pharma-services platforms"
+        },
+        {
+          "title": "Delancey Street Partners - Outsourced Pharma Services year in review",
+          "url": "https://www.delanceystreetpartners.com/wp-content/uploads/2023/02/Pharma-Services-2022-Year-in-Review_.pdf",
+          "note": "CRO median LTM EBITDA multiple ~14.5x"
         }
       ],
       "confidence": 3,
@@ -396,7 +421,21 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "B2B service firms/freelancers, freely acquirable; no ownership restriction and no financial consolidator yet",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          "VigiPRO GmbH (Wuppertal) - founder-owned PV/QPPV/Stufenplanbeauftragter service provider",
+          "Diapharm (Muenster) - privately held PV services incl. EU-QPPV and local QPPVs across DACH/Benelux",
+          "CSO Pharma - PV outsourcing (QPPV/Stufenplanbeauftragter, PV audits, SOPs/training)",
+          "ENTOURAGE - PV consulting, signal detection and QPPV-on-demand"
+        ],
+        "entry_multiple": "n/a - proprietary/bilateral for SME boutiques; CRO/pharma-services comps ~11-15x EV/EBITDA at scale (CRO median ~14.5x LTM), used for a platform exit",
+        "bnb_angle": "Consolidate PV boutiques and freelancers into a scaled outsourced drug-safety platform (case processing, PSUR/DSUR/RMP authoring, signal management, rentable EU-QPPV) monetising MAH outsourcing amid QPPV scarcity, with a strategic exit to a CDMO/CRO consolidator (cf. PharmaLex acquired by Cencora for EUR1.28bn).",
+        "key_risks": [
+          "QPPV/PV-scientist talent scarcity and key-person dependence",
+          "Pricing/margin pressure from large CROs and offshore case-processing centres",
+          "Client concentration among small MAHs; project revenue lumpiness"
+        ]
+      },
       "child_ids": []
     },
     "medical-value-chain/pharmaceuticals-biotech/contract-development-manufacturing-cdmo-cmo": {
@@ -4097,6 +4136,36 @@
           "title": "B.A.D GmbH (BG prevent) - corporate occupational-health provider",
           "url": "https://www.bad-gmbh.de/",
           "note": "Evidence that leading occupational-health providers are corporately owned, i.e. no ownership restriction -> investability open"
+        },
+        {
+          "title": "IAS Gruppe - Gesundheits-Experte in der Arbeitswelt",
+          "url": "https://www.ias-gruppe.de/",
+          "note": "~1,500 experts, ~110 locations; largest independent (non-BG) occupational-health platform"
+        },
+        {
+          "title": "AMD ingepp - Arbeitsmedizinischer Dienst Neubrandenburg",
+          "url": "https://amd.ingepp.de/",
+          "note": "Regional owner-operated AMD, Mecklenburg-Vorpommern"
+        },
+        {
+          "title": "AMD Bocholt - Arbeitsmedizin, Verkehrsmedizin",
+          "url": "https://www.amd-bocholt.com/",
+          "note": "Regional occupational-medicine SME"
+        },
+        {
+          "title": "AMD der Kreishandwerkerschaft GmbH",
+          "url": "https://www.amd-kh.de/",
+          "note": "Regional AMD (founded 1998), Handwerk member firms"
+        },
+        {
+          "title": "BG prevent (ex-B.A.D) - Wikipedia",
+          "url": "https://de.wikipedia.org/wiki/BG_prevent",
+          "note": "BG-owned anchor: ~3,700 staff, ~900 physicians, 210k+ client firms; structurally not-for-sale"
+        },
+        {
+          "title": "FOCUS - Healthcare EBITDA Multiples 2026",
+          "url": "https://focusbankers.com/healthcare-ebitda-multiples/",
+          "note": "Healthcare-services median ~11.5x EV/EBITDA"
         }
       ],
       "confidence": 4,
@@ -4109,7 +4178,21 @@
       ],
       "investability": "open",
       "investability_note": "No Fremdbesitzverbot/Kassensitz restriction applies to occupational health (ASiG/ArbMedVV services, not SGB V Kassenzulassung). Providers are already PE-/corporately owned (B.A.D, IAS, TUEV). The Betriebsaerztemangel is an operational staffing constraint, not an ownership bar. Consider relocating this leaf out of POCT into a services/care branch.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          "IAS Gruppe - privately held, ~1,500 experts (physicians, engineers, psychologists) at ~110 locations; the largest non-BG independent occupational-health platform and a potential anchor",
+          "AMD ingepp (Neubrandenburg) - regional owner-operated arbeitsmedizinischer Dienst focused on eastern Mecklenburg-Vorpommern",
+          "AMD Bocholt - regional occupational/traffic-medicine provider serving companies, municipalities and care facilities",
+          "AMD der Kreishandwerkerschaft GmbH (Mosel-Eifel-Hunsrueck) - regional AMD founded 1998 serving Handwerk member firms"
+        ],
+        "entry_multiple": "n/a - proprietary/bilateral for regional AMD SMEs; broader healthcare-services median ~11.5x EV/EBITDA (2026), small add-ons below",
+        "bnb_angle": "Consolidate fragmented regional AMDs into a national ASiG/DGUV-Vorschrift-2 platform capturing legally mandatory, supply-constrained recurring occupational-health demand amid the Betriebsaerztemangel, and cross-sell BGM/corporate-health services.",
+        "key_risks": [
+          "Acute, worsening occupational-physician shortage limits capacity/scaling and inflates staff cost",
+          "Scale competition from BG-owned non-profits (BG prevent, ~3,700 staff / 210k client firms) with structural cost/price advantages and not-for-sale status",
+          "Physician-personal client relationships create retention/key-person risk post-acquisition"
+        ]
+      },
       "child_ids": []
     },
     "medical-value-chain/diagnostics-laboratory/laborlogistik-probenkurier-ivd-verbrauchsvertrieb": {
@@ -7410,6 +7493,36 @@
           "title": "MPBetreibV | Johner Institut",
           "url": "https://www.johner-institut.de/blog/regulatory-affairs/mpbetreibv-medizinprodukte-betreiberverordnung/",
           "note": "STK/MTK are statutory, recurring, plannable maintenance contracts billed to hospital budgets (asset-light, moderate reimbursement exposure)."
+        },
+        {
+          "title": "EBA AG - Medizintechnik Service, STK/MTK, Medizintechnik-Management",
+          "url": "https://www.eba-ag.de/medizintechnik/management/",
+          "note": "Manufacturer-independent full-service clinical engineering incl. operator-responsibility outsourcing for clinics/MVZ"
+        },
+        {
+          "title": "STRUCK Medizintechnik GmbH - STK und MTK Pruefungen nach MPBetreibV",
+          "url": "https://www.struck-med.de/serviceleistungen/stk-und-mtk-pr%C3%BCfungen/",
+          "note": "Full-service STK/MTK compliance provider"
+        },
+        {
+          "title": "ComService GmbH - MTK + STK jetzt auch bei ComService",
+          "url": "https://comservice-ffo.de/mtk-stk-messtechnische-und-sicherheitstechnische-kontrolle-bei-comservice/",
+          "note": "Regional medtech service firm offering combined STK/MTK"
+        },
+        {
+          "title": "KS Medizintechnik - Pruefung von Medizintechnik und Geraeten",
+          "url": "https://www.ksmedizintechnik.de/info-service/technischer-kundendienst/pruefung/",
+          "note": "Independent device inspection/service"
+        },
+        {
+          "title": "Healthcare IB Guide - MedTech valuation multiples & comps",
+          "url": "https://ibinterviewquestions.com/guides/healthcare-investment-banking/medtech-valuation-multiples-comps",
+          "note": "Medical-device EBITDA multiples ~6.7x ($1-3m) to ~10.4x ($5-10m)"
+        },
+        {
+          "title": "FOCUS - Healthcare EBITDA Multiples 2026",
+          "url": "https://focusbankers.com/healthcare-ebitda-multiples/",
+          "note": "Healthcare-services median ~11.5x EV/EBITDA; small add-ons below"
         }
       ],
       "confidence": 4,
@@ -7422,7 +7535,21 @@
       ],
       "investability": "open",
       "investability_note": "Owner-operated independent service firms freely acquirable; no OEM/licence lock beyond standard MPBetreibV competence.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          "EBA AG - manufacturer-independent full-service clinical engineering (STK/MTK + operator-responsibility outsourcing at a fixed annual fee) for private/public clinics, rehab clinics and MVZ Germany-wide",
+          "STRUCK Medizintechnik GmbH (Medical Concept) - full-service STK/MTK inspections per MPBetreibV incl. inventory management and device documentation",
+          "ComService GmbH (Frankfurt/Oder) - regional medtech service firm that added combined MTK+STK to its offering",
+          "KS Medizintechnik - independent technical customer service and device inspection (STK/MTK)"
+        ],
+        "entry_multiple": "~6-9x EV/EBITDA indicative (medical-device service firms trade ~6.7x at EUR1-3m EBITDA rising toward ~10x at EUR5-10m; sub-scale SME add-ons at the low end); largely proprietary/bilateral at founder-SME scale",
+        "bnb_angle": "Build a vendor-neutral clinical-engineering platform and bolt on owner-operated regional service firms into a Germany-wide, recurring-contract 'operator-responsibility as a service' offering as hospitals externalise in-house biomedical engineering under Krankenhausreform cost pressure.",
+        "key_risks": [
+          "OEM service arms defending high-margin proprietary maintenance/service contracts and spare-parts access",
+          "Scarcity and certification burden of biomedical service technicians caps organic growth",
+          "Dependence on multi-year hospital framework tenders (price pressure, churn, concentration)"
+        ]
+      },
       "child_ids": []
     },
     "medical-value-chain/healthcare-services-outsourcing/hospital-medical-textile-laundry-services-textilservice": {
@@ -10380,6 +10507,26 @@
           "title": "Anforderungen an Informationssicherheit in Krankenhaeusern (DSN Group)",
           "url": "https://www.datenschutz-notizen.de/anforderungen-an-die-it-bzw-informationssicherheit-in-krankenhaeusern-3829002/",
           "note": "Shows the still-fragmented specialist ISB/B3S advisory field; no dedicated hospital-DSB PE platform."
+        },
+        {
+          "title": "DSN GROUP - Informationssicherheit im Gesundheitswesen / bei KRITIS-Betreibern",
+          "url": "https://www.dsn-group.de/informationssicherheit/informationssicherheit-bei-kritis-betreibern",
+          "note": "External ISB for 80+ orgs incl. hospitals/KRITIS"
+        },
+        {
+          "title": "activeMind AG - Gesundheit, Medizin und Pharma (B3S/KRITIS)",
+          "url": "https://www.activemind.de/themen/gesundheit/",
+          "note": "DSB + ISMS incl. B3S/KRITIS-Nachweis for healthcare"
+        },
+        {
+          "title": "vicotec - Informationssicherheitsbeauftragter (ISB)",
+          "url": "https://www.vicotec.de/informationssicherheitsbeauftragter.html",
+          "note": "External ISB provider, Oldenburg/Bremen"
+        },
+        {
+          "title": "FOCUS - Healthcare EBITDA Multiples 2026",
+          "url": "https://focusbankers.com/healthcare-ebitda-multiples/",
+          "note": "Healthcare-services multiple context for recurring-retainer valuation"
         }
       ],
       "confidence": 3,
@@ -10392,7 +10539,20 @@
       ],
       "investability": "open",
       "investability_note": "Retainer/advisory firms freely acquirable; finite (~1,900 hospitals) but high-value mandate-driven client base.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          "DSN GROUP - external ISB/DSB for 80+ organisations incl. hospitals and KRITIS operators; runs the datenschutz-notizen blog",
+          "activeMind AG (Munich/Berlin) - DSB + information-security incl. B3S/KRITIS-Nachweis and ISMS for healthcare/pharma",
+          "vicotec (Oldenburg/Bremen region) - external ISB (Informationssicherheitsbeauftragter) provider"
+        ],
+        "entry_multiple": "~6-10x EV/EBITDA (specialist cyber/ISMS advisory; recurring per-hospital retainer base pushes toward the upper end); proprietary/bilateral for boutiques",
+        "bnb_angle": "Consolidate hospital-DSB/ISB specialists into a regulated recurring-retainer platform on durable Sec 391 (ex-75c) SGB V / B3S / NIS2 mandates, funded partly by KHZG, converting one-off ISMS/B3S build-outs (EUR50-200k) into multi-year retainers (EUR1.5-8k/month).",
+        "key_risks": [
+          "Cybersecurity-talent scarcity and wage inflation compress margins",
+          "Competition from scaled MSSPs and certifiers (TUEV SUED) with brand and capital",
+          "Liability/reputational exposure when a client hospital suffers a ransomware incident"
+        ]
+      },
       "child_ids": []
     },
     "medical-value-chain/payers-regulatory-ecosystem/healthcare-data-protection-labelling-compliance-services/external-data-protection-officer-dsb-for-healthcare/mvz-practice-group-external-dsb-ambulatory": {
@@ -10476,6 +10636,21 @@
           "title": "Anforderungen an die IT-/Informationssicherheit (DSN Group)",
           "url": "https://www.datenschutz-notizen.de/anforderungen-an-die-it-bzw-informationssicherheit-in-krankenhaeusern-3829002/",
           "note": "Illustrates the fragmented specialist DSB/consultancy landscape; no healthcare-only consolidator."
+        },
+        {
+          "title": "datenschutzundgesundheit.de - Datenschutzbeauftragter fuer Arztpraxen",
+          "url": "https://www.datenschutzundgesundheit.de/datenschutzbeauftragter-fuer-arztpraxen/",
+          "note": "Dedicated healthcare DSB boutique"
+        },
+        {
+          "title": "QMedicus - Datenschutz-Beratung Arztpraxis MVZ",
+          "url": "https://www.qmedicus.de/main/leistungen-fuer-die-arztpraxis/datenschutz-beratung-arztpraxis",
+          "note": "DSB + QM for ambulatory practices"
+        },
+        {
+          "title": "IB Interview Questions - Current M&A multiples 2025-2026",
+          "url": "https://ibinterviewquestions.com/guides/valuation-investment-banking/current-ma-multiples-across-sectors-2025-2026",
+          "note": "Professional-services LMM range ~4-7x EBITDA"
         }
       ],
       "confidence": 3,
@@ -10488,7 +10663,21 @@
       ],
       "investability": "open",
       "investability_note": "Ordinary advisory/retainer firms, freely acquirable; no ownership restriction, only tiny ticket sizes.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          "TYR.legal - external Datenschutzbeauftragter specialised in Arztpraxen & MVZ",
+          "datenschutzundgesundheit.de - external DSB dedicated to Arztpraxen/healthcare",
+          "fraghugo (fraghugo.de) - external DSB for practices from EUR79/month, bundesweit",
+          "QMedicus - Datenschutz-Beratung for Arztpraxis/MVZ (bundled with QM)"
+        ],
+        "entry_multiple": "~4-7x EV/EBITDA (lower-middle-market professional-/legal-tech services range); mostly proprietary/bilateral for founder boutiques",
+        "bnb_angle": "Roll up healthcare-specialist DSB boutiques and legal-tech providers into a subscription DSB + TI/IT-security platform for MVZ/BAG, using founder-boutique Nachfolge for cheap bolt-ons and cross-selling ISMS/TI-security into the installed practice base.",
+        "key_risks": [
+          "Low switching costs on commoditised flat-fee retainers (EUR79-500/month) limit pricing power",
+          "Well-capitalised generalist DSGVO-as-a-service platforms (DataGuard, heyData) can enter the vertical",
+          "Regulatory dependence: any change to the >=20-person DSB-appointment trigger reshapes demand"
+        ]
+      },
       "child_ids": []
     },
     "medical-value-chain/payers-regulatory-ecosystem/healthcare-data-protection-labelling-compliance-services/external-data-protection-officer-dsb-for-healthcare/pharma-medtech-external-dsb-life-sciences-specialist": {
@@ -10653,6 +10842,21 @@
           "title": "NIS2, DORA, ISO 27001 & EU AI Act - Compliance im Mittelstand (mekos)",
           "url": "https://www.mekos.de/tech-talk-uebersicht/compliance-nis2-dora-bait-vait-iso-eu-ai-act/",
           "note": "Broad Mittelstand demand; fragmented consultancy supply"
+        },
+        {
+          "title": "activeMind AG - Datenschutz, Informationssicherheit, KI",
+          "url": "https://www.activemind.de/",
+          "note": "ISO 27001/ISMS and DSGVO audit incl. healthcare/life-sciences"
+        },
+        {
+          "title": "DSN GROUP - Wir organisieren Informationssicherheit",
+          "url": "https://www.dsn-group.de/informationssicherheit",
+          "note": "Managed ISMS/ISB and audits for regulated clients"
+        },
+        {
+          "title": "FOCUS - Healthcare EBITDA Multiples 2026",
+          "url": "https://focusbankers.com/healthcare-ebitda-multiples/",
+          "note": "Multiple context for recurring compliance-services revenue"
         }
       ],
       "confidence": 3,
@@ -10661,7 +10865,19 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Freely acquirable consultancies, asset-light recurring managed services, private-pay B2B; fragmented (200+) with roll-ups only just emerging",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          "activeMind AG (Munich/Berlin) - ISO 27001 / ISMS and DSGVO audit for healthcare and life-sciences clients",
+          "DSN GROUP - external ISMS/ISB operation and audits for regulated/KRITIS clients incl. healthcare"
+        ],
+        "entry_multiple": "~6-10x EV/EBITDA (specialist ISMS/cyber advisory; managed-ISMS recurring revenue at the upper end); proprietary/bilateral for boutiques",
+        "bnb_angle": "Build a subscription managed-ISMS/audit platform for healthcare and life-sciences clients newly caught by NIS2 and DORA, converting one-off gap assessments/TOM reviews into recurring managed-ISMS ARR and cross-selling DSB mandates.",
+        "key_risks": [
+          "ISMS/security-consultant talent scarcity and retention",
+          "Commoditisation of ISO 27001 readiness services",
+          "Overlap and competition with generalist ISMS platforms and certifiers"
+        ]
+      },
       "child_ids": []
     },
     "medical-value-chain/pharmaceuticals-biotech/gxp-gmp-compliance-services/gmp-gxp-consulting-auditing/computerised-system-validation-csv-csa": {
@@ -10726,6 +10942,16 @@
           "title": "Computer System Validation (CSV) for Pharma – Network Assistance",
           "url": "https://computervalidierung.berlin/computer-system-validation/",
           "note": "CSVMP aligned to GAMP 5 2nd ed and FDA CSA"
+        },
+        {
+          "title": "DHC Dr. Herterich & Consultants - Unternehmen / GxP Compliance & CSV",
+          "url": "https://www.dhc-consulting.com/en/gxp-compliance/software-validation/",
+          "note": "CSV/GxP specialist since 1996, Saarbruecken/Buelach"
+        },
+        {
+          "title": "IB Interview Questions - Current M&A multiples 2025-2026",
+          "url": "https://ibinterviewquestions.com/guides/valuation-investment-banking/current-ma-multiples-across-sectors-2025-2026",
+          "note": "Professional/IT-services LMM ~4-7x EBITDA"
         }
       ],
       "confidence": 4,
@@ -10734,7 +10960,20 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Asset-light B2B consulting, freely acquirable; highly fragmented DACH landscape (DHC, Valicare and ~100-200 consultancies/freelancers) with no dominant financial consolidator yet.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          "DHC Dr. Herterich & Consultants GmbH (Saarbruecken / Buelach CH) - CSV/GxP compliance specialist since 1996 (SAP + software validation)",
+          "Valicare GmbH (Frankfurt am Main) - 100+ engineers/scientists, CSV plus qualification & validation for pharma/biotech/ATMP",
+          "Network Assistance GmbH (Berlin) - pharma-IT system house delivering CSV (GAMP 5, Annex 11, 21 CFR Part 11) since 1999"
+        ],
+        "entry_multiple": "~5-9x EV/EBITDA (LMM professional/IT-services base ~4-7x, with a premium for specialist regulated life-sciences consulting); proprietary/bilateral for boutiques",
+        "bnb_angle": "Consolidate CSV/CSA boutiques into a scaled GxP-IT validation platform riding the GAMP 5 2nd-edition / risk-based CSA shift and cloud/LIMS/MES validation demand, converting project work into recurring managed-validation retainers.",
+        "key_risks": [
+          "Pure people-business: consultant utilisation and retention drive margins",
+          "Project/day-rate revenue lumpiness versus recurring revenue",
+          "Commoditisation and offshore/CRO competition on standard validation work"
+        ]
+      },
       "child_ids": []
     },
     "medical-value-chain/pharmaceuticals-biotech/gxp-gmp-compliance-services/gmp-gxp-consulting-auditing/qp-on-demand-qp-as-a-service-sachkundige-person-14-amg": {
@@ -10884,6 +11123,21 @@
           "title": "GMP Anhang 1: Praxis-Guide fuer Reinraum & Kalibrierung (Verikal)",
           "url": "https://www.verikal.de/gmp-anhang-1-praxis-guide/",
           "note": "Annex 1 (25.08.2023) mandates risk-based requalification intervals (~6 mo Grade A/B) = recurring DQ/IQ/OQ/PQ revenue"
+        },
+        {
+          "title": "Testo Industrial Services - Reinraumqualifizierung (ISO 14644, VDI 2083, Annex 1)",
+          "url": "https://www.testotis.com/",
+          "note": "ISO 17025-accredited cleanroom qualification, Kirchzarten"
+        },
+        {
+          "title": "Valicare GmbH - GMP-Compliant Qualification & Validation",
+          "url": "https://www.valicare.com/en/services/qualification-validation",
+          "note": "Facility/equipment qualification and requalification"
+        },
+        {
+          "title": "Bloomberg Law - BC Partners reaches deal for Tentamus",
+          "url": "https://news.bloomberglaw.com/mergers-and-acquisitions/bc-partners-is-said-to-near-deal-for-german-labs-group-tentamus",
+          "note": "PE appetite for pharma-testing/TIC roll-ups; ~EUR1bn valuation"
         }
       ],
       "confidence": 3,
@@ -10896,7 +11150,19 @@
       ],
       "investability": "open",
       "investability_note": "Owner-operated engineering/metrology GmbHs, freely acquirable; no Fremdbesitz or statutory-seat constraint.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          "Testo Industrial Services GmbH (Kirchzarten) - ISO 17025-accredited cleanroom qualification (DQ/IQ/OQ/PQ) to ISO 14644, VDI 2083 and EU-GMP Annex 1 (part of Testo group)",
+          "Valicare GmbH (Frankfurt am Main) - GMP-compliant qualification & validation of equipment/facilities plus requalification services"
+        ],
+        "entry_multiple": "n/a - proprietary/bilateral for engineering/metrology boutiques; scaled TIC/lab platforms have traded materially higher (Tentamus valued ~EUR1bn, BC Partners 2021)",
+        "bnb_angle": "Consolidate cleanroom/GMP qualification and metrology boutiques into a TIC-style recurring-requalification platform riding the 2023 EU-GMP Annex 1 tightening and DACH ATMP/sterile capacity build-out; the Tentamus (BC Partners + Auctus) pharma-testing roll-up is the template.",
+        "key_risks": [
+          "Metrology/qualification-engineer scarcity limits scaling",
+          "Capital-intensive accredited measurement equipment and ISO 17025/17020 maintenance burden",
+          "Project cyclicality tied to pharma capex phasing"
+        ]
+      },
       "child_ids": []
     },
     "medical-value-chain/pharmaceuticals-biotech/gxp-gmp-compliance-services/gmp-gxp-consulting-auditing/gdp-cold-chain-audits-good-distribution-practice": {
@@ -11311,6 +11577,11 @@
           "title": "Kontor MED: ERP für Medizintechnik mit UDI & MDR",
           "url": "https://erp-software.org/software/kontor-med/",
           "note": "Example of fragmented small specialist software/data providers"
+        },
+        {
+          "title": "IB Interview Questions - Current M&A multiples 2025-2026",
+          "url": "https://ibinterviewquestions.com/guides/valuation-investment-banking/current-ma-multiples-across-sectors-2025-2026",
+          "note": "Professional-services LMM ~4-7x EBITDA"
         }
       ],
       "confidence": 3,
@@ -11319,7 +11590,19 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "RA-consulting/software firms freely acquirable; fragmented (~50-100 providers), no consolidator.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          "Johner Institut GmbH (Konstanz) - founder-led (Prof. Dr. Christian Johner) MDR/UDI/EUDAMED consulting for medtech and IVD manufacturers",
+          "Note: GS1 Germany (UDI issuing agency) and VDE (notified body) are infrastructure/not-for-sale rather than roll-up targets; pure-play UDI/EUDAMED is a feature typically embedded in broader MDR RA firms"
+        ],
+        "entry_multiple": "~4-7x EV/EBITDA (LMM professional-services range) if valued standalone; too small as a pure-play - better as an add-on within a larger MDR RA platform",
+        "bnb_angle": "Bundle UDI/EUDAMED data-management as a recurring managed-service add-on within a broader MDR regulatory-affairs platform rather than a standalone roll-up; sticky post-go-live data-maintenance retainers deepen manufacturer relationships.",
+        "key_risks": [
+          "Too-small standalone TAM (feature, not a platform)",
+          "Dependence on EUDAMED mandatory-timeline and regulatory pace",
+          "Commoditisation via software/issuing agencies (GS1) and RA-firm in-housing"
+        ]
+      },
       "child_ids": []
     },
     "medical-value-chain/payers-regulatory-ecosystem/regulatory-affairs-market-access-hta-pharmacovigilance-services/regulatory-affairs-mdr-consulting-medtech/notified-body-liaison-conformity-assessment-support": {
@@ -11535,6 +11818,11 @@
           "title": "VigiPRO GmbH",
           "url": "https://vigipro.de/en/",
           "note": "Example of the small, fragmented DACH QPPV/PV provider pool with no identified PE consolidator."
+        },
+        {
+          "title": "Diapharm - Graduated Plan Officer per Sec 63a AMG & EU-QPPV",
+          "url": "https://www.diapharm.com/en/product-areas/medicinal-products/pharmacovigilance/graduated-plan-officer",
+          "note": "EU-QPPV plus national/local QPPVs DACH/Benelux"
         }
       ],
       "confidence": 3,
@@ -11543,7 +11831,21 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Expert consultancies fully acquirable; revenue is pharma-MAH retainers, no statutory tariff exposure.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          "CSO Pharma - acts as EU-QPPV and Stufenplanbeauftragter (Sec 63a AMG) for MAHs",
+          "ENTOURAGE - provides experienced QPPVs as outsourcing, interim or backup solution",
+          "Diapharm (Muenster) - EU-QPPV plus national/local QPPVs for DACH and Benelux",
+          "VigiPRO GmbH (Wuppertal) - QPPV / Stufenplanbeauftragter as a service"
+        ],
+        "entry_multiple": "n/a - proprietary/bilateral; economics are per-mandate retainers (~EUR3-15k/month per MAH); platform exit references CRO/pharma-services ~11-15x EV/EBITDA",
+        "bnb_angle": "Aggregate rentable EU-QPPV and local-safety-contact capacity into a platform that monetises the acute QPPV shortage as high-margin recurring retainers, bolting on national QPPV representatives across DACH to serve MAHs bilaterally.",
+        "key_risks": [
+          "Extreme key-person/QPPV-availability risk given 24/7 personal legal responsibility",
+          "Commoditisation as more freelancers and boutiques enter the QPPV-on-demand market",
+          "Regulatory-liability exposure if a client's PV system fails an EMA/BfArM inspection"
+        ]
+      },
       "child_ids": []
     },
     "medical-value-chain/payers-regulatory-ecosystem/regulatory-affairs-market-access-hta-pharmacovigilance-services/pharmacovigilance-outsourcing-qppv-stufenplanbeauftragter/literature-monitoring-signal-management": {
@@ -12319,6 +12621,26 @@
           "title": "Sicherheitstechnische Kontrolle – Wikipedia",
           "url": "https://de.wikipedia.org/wiki/Sicherheitstechnische_Kontrolle",
           "note": "STK is a mandatory recurring inspection under MPBetreibV; confirms sticky non-discretionary demand."
+        },
+        {
+          "title": "ComService GmbH - MTK + STK",
+          "url": "https://comservice-ffo.de/mtk-stk-messtechnische-und-sicherheitstechnische-kontrolle-bei-comservice/",
+          "note": "Regional combined STK/MTK provider"
+        },
+        {
+          "title": "EBA AG - Sicherheitstechnische Kontrollen (STK)",
+          "url": "https://www.eba-ag.de/index.php/medizintechnik/sicherheitstechnische-kontrollen/",
+          "note": "Manufacturer-independent STK of Anlage-1 devices"
+        },
+        {
+          "title": "KS Medizintechnik - Pruefung von Medizintechnik",
+          "url": "https://www.ksmedizintechnik.de/info-service/technischer-kundendienst/pruefung/",
+          "note": "Independent STK/device inspection"
+        },
+        {
+          "title": "Healthcare IB Guide - MedTech valuation multiples & comps",
+          "url": "https://ibinterviewquestions.com/guides/healthcare-investment-banking/medtech-valuation-multiples-comps",
+          "note": "Medical-device EBITDA multiples ~6.7x-10.4x"
         }
       ],
       "confidence": 3,
@@ -12331,7 +12653,21 @@
       ],
       "investability": "open",
       "investability_note": "Owner-operated regional Medizintechnik-service GmbHs, freely acquirable; no ownership restriction, only technician-qualification requirements under MPBetreibV.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          "STRUCK Medizintechnik GmbH - STK per Sec 11 MPBetreibV incl. AED/defibrillator STK, full-service compliance",
+          "ComService GmbH (Frankfurt/Oder) - regional service firm offering combined STK/MTK",
+          "EBA AG - manufacturer-independent STK of Anlage-1 devices for clinics, practices and MVZ",
+          "KS Medizintechnik - independent technical service and device inspection (STK)"
+        ],
+        "entry_multiple": "~6-9x EV/EBITDA indicative (medical-device services ~6.7x at EUR1-3m EBITDA to ~10x at EUR5-10m); sub-scale SME add-ons at the low end, largely proprietary/bilateral",
+        "bnb_angle": "Build a recurring-revenue STK platform on non-discretionary MPBetreibV Sec 11 demand for higher-risk Anlage-1 devices, consolidating owner-operated regional service firms hit by their own Nachfolge wave into a geographically dense route network.",
+        "key_risks": [
+          "OEM / authorised-service competition on Anlage-1 device servicing and parts",
+          "Technician qualification and scarcity constrain capacity",
+          "Low pricing power on standardised inspection tasks; density needed for route efficiency"
+        ]
+      },
       "child_ids": []
     },
     "medical-value-chain/medical-devices-equipment/medical-equipment-servicing-inspection-maintenance-medizintechnik-service/statutory-safety-metrology-inspections-stk-mtk-per-mpbetreibv/messtechnische-kontrolle-mtk-of-anlage-2-measuring-devices": {
@@ -12408,6 +12744,21 @@
           "title": "Landesamt fuer Mess- und Eichwesen Berlin-Brandenburg: MTK-Anbieterliste",
           "url": "https://lme.berlin-brandenburg.de/sixcms/media.php/bb1.a.3932.de/Messtechnische%20Kontrolldienste%20-%20Anbieter.pdf",
           "note": "Registry of many small independent MTK providers - fragmented, no consolidator."
+        },
+        {
+          "title": "Distler Medizintechnik - Messtechnische Kontrolle (MTK)",
+          "url": "https://www.distler.de/leistungen/messtechnische-kontrolle-mtk",
+          "note": "ISO 13485 MTK/STK specialist, mail-in/loaner model, since 2005"
+        },
+        {
+          "title": "EBA AG - Medizintechnik Management (STK & MTK)",
+          "url": "https://www.eba-ag.de/medizintechnik/management/",
+          "note": "Manufacturer-independent MTK"
+        },
+        {
+          "title": "Healthcare IB Guide - MedTech valuation multiples & comps",
+          "url": "https://ibinterviewquestions.com/guides/healthcare-investment-banking/medtech-valuation-multiples-comps",
+          "note": "Medical-device EBITDA multiples ~6.7x at EUR1-3m EBITDA"
         }
       ],
       "confidence": 3,
@@ -12420,7 +12771,21 @@
       ],
       "investability": "open",
       "investability_note": "Owner-operated B2B service firms freely acquirable; only accreditation/qualified-personnel requirement, no ownership restriction.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          "Distler Medizintechnik - ISO 13485-certified MTK/STK specialist (blood-pressure devices, thermometers) with mail-in/loaner logistics; MTK since 2005",
+          "ComService GmbH (Frankfurt/Oder) - regional firm offering combined MTK + STK",
+          "EBA AG - manufacturer-independent MTK (formerly Eichung) of measuring devices for clinics/practices",
+          "KS Medizintechnik - independent device inspection incl. MTK"
+        ],
+        "entry_multiple": "~6-9x EV/EBITDA indicative (medical-device services ~6.7x at EUR1-3m EBITDA); sub-scale, largely proprietary/bilateral",
+        "bnb_angle": "Aggregate calibration-cycle MTK revenue (mandatory ~2-yearly per Sec 14 MPBetreibV / MessEG) on a fragmented technician base; a mail-in/loaner logistics model (as run by Distler) scales nationally with route/logistics density.",
+        "key_risks": [
+          "Very small ticket sizes and thin per-unit economics",
+          "Overlap and price competition with STK providers and calibration labs",
+          "Technician certification requirements and reference-standard traceability costs"
+        ]
+      },
       "child_ids": []
     },
     "medical-value-chain/medical-devices-equipment/medical-equipment-servicing-inspection-maintenance-medizintechnik-service/statutory-safety-metrology-inspections-stk-mtk-per-mpbetreibv/electrical-safety-inspection-under-dguv-vorschrift-3": {
@@ -14937,6 +15302,21 @@
           "title": "sermo.com: Private-Equity-Firmen kaufen Arztpraxen",
           "url": "https://www.sermo.com/de/resources/private-equity-firmen-kaufen-arztpraxen-auswirkungen-auf-aerzte-und-patientenversorgung/",
           "note": "PE buy-and-build in therapy/practices; Ergo takeover-offer penetration only ~8.8% - early whitespace."
+        },
+        {
+          "title": "APELOS Therapie GmbH",
+          "url": "https://apelos.de/",
+          "note": "Multi-site therapy operator"
+        },
+        {
+          "title": "MAJUNKE - Waterland/ATHERA (Rehacon) buys further therapy providers",
+          "url": "https://majunke.com/dreifacher-erfolg-fuer-waterlands-physiotherapie-gruppe-athera-kauft-weitere-therapieanbieter-zu",
+          "note": "ATHERA roll-up incl. GANTZE Zentrum; Ergo/Physio/Logo consolidation precedent"
+        },
+        {
+          "title": "Waterland Private Equity - Athera",
+          "url": "https://www.waterlandpe.com/company/athera/",
+          "note": "Largest DE therapy network, 100+ centres, ~1,200 experts incl. occupational therapy"
         }
       ],
       "confidence": 4,
@@ -14945,7 +15325,20 @@
       "pe_activity": [],
       "investability": "open",
       "investability_note": "Heilmittelpraxen acquirable with Kassenzulassung and employed therapists; no ownership prohibition, earlier-stage than physio.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          "APELOS Therapie GmbH - multi-site therapy operator (physio/therapy) as an in-scope bolt-on/platform base",
+          "GANTZE Zentrum fuer Gesundheit (Wertingen) - broad multi-service centre incl. occupational therapy / hand therapy (acquired into ATHERA)",
+          "ATHERA (Rehacon, Waterland-backed) - Germany's largest therapy network (100+ centres, ~1,200 experts) incl. Ergotherapie; the proven consolidator/comparable"
+        ],
+        "entry_multiple": "n/a - proprietary/bilateral for single practices; broader healthcare-services median ~11.5x EV/EBITDA (2026), small Heilmittel add-ons well below platform level",
+        "bnb_angle": "Aggregate GKV-Heilmittel Ergotherapie practices (physician-prescription-driven, recurring caseload) into a multi-therapy platform (physio/ergo/logo) capturing owner Nachfolge plus central admin/recruiting scale; ATHERA/Waterland proves the multi-therapy roll-up model.",
+        "key_risks": [
+          "GKV Heilmittel price regulation caps achievable margins",
+          "Acute therapist shortage and wage inflation constrain organic growth",
+          "Extreme fragmentation drives high per-practice integration/PMI cost and therapist-retention risk"
+        ]
+      },
       "child_ids": []
     },
     "medical-value-chain/care-delivery-providers/non-physician-outpatient-therapy-heilmittelerbringer-physio-ergo-logo/speech-therapy-practices-logopaedie-sprachtherapie": {
@@ -15104,6 +15497,16 @@
           "title": "Der Fuss - Ein rares Gut: der Podologe",
           "url": "https://der-fuss.de/ein-rares-gut-der-podologe/",
           "note": "BV-Podologie/sector reporting on podologist scarcity and practice base"
+        },
+        {
+          "title": "Bundesverband Podologie e.V. - An- und Verkauf",
+          "url": "https://www.bv-fuer-podologie.de/an-und-verkauf.html",
+          "note": "Practice buy/sell board; buyer seeking NRW practices with 3+ rooms; evidences Nachfolge and no scaled consolidator"
+        },
+        {
+          "title": "Podologie Berlin - Diabetische Fussbehandlung",
+          "url": "https://podologieberlin.com/diabetische-fussbehandlung/",
+          "note": "Illustrative single-site DFS Podologie practice"
         }
       ],
       "confidence": 3,
@@ -15116,7 +15519,20 @@
       ],
       "investability": "open",
       "investability_note": "Heilmittel practices acquirable (no Fremdbesitzverbot); friction is only the person-linked Kassenzulassung per practice, so buy-and-build is feasible.",
-      "actionable": {},
+      "actionable": {
+        "named_targets": [
+          "No PE-backed consolidator or scaled platform exists (verified white space): the acquirable universe is single-site DFS-focused Podologie practices; ~96% are Kleinstunternehmen/freelancers",
+          "Podologie Berlin (podologieberlin.com) - illustrative in-scope single-site DFS/diabetic-foot practice",
+          "Bundesverband Podologie e.V. An-/Verkauf board is the practical sourcing channel (e.g. an active buyer seeking NRW practices with 3+ treatment rooms)"
+        ],
+        "entry_multiple": "n/a - proprietary/bilateral; sub-scale single practices with small absolute EBITDA per unit",
+        "bnb_angle": "Greenfield roll-up of GKV-reimbursed DFS Podologie practices into a diabetic-foot-care platform on rising diabetes prevalence and an ageing owner base facing Nachfolge; the absence of any incumbent consolidator makes this genuine first-mover white space.",
+        "key_risks": [
+          "Extreme fragmentation (~96% micro-enterprises) requires a very high deal count to reach scale",
+          "GKV reimbursement dependence caps pricing; practitioner scarcity",
+          "Small absolute EBITDA per unit and owner-operator retention risk"
+        ]
+      },
       "child_ids": []
     },
     "medical-value-chain/care-delivery-providers/non-physician-outpatient-therapy-heilmittelerbringer-physio-ergo-logo/nutrition-therapy-ernaehrungstherapie": {
