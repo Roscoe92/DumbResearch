@@ -100,6 +100,9 @@
   .scorepill .big{ font-size:20px; font-weight:800; line-height:1; }
   .scorepill .lbl{ font-size:9px; text-transform:uppercase; letter-spacing:.04em; color:var(--muted); }
   .whynow .v{ background:var(--chip); border-left:3px solid var(--link); padding:8px 10px; border-radius:0 6px 6px 0; }
+  .actionbox{ background:var(--chip); border-left:3px solid var(--q-act); padding:9px 11px; border-radius:0 6px 6px 0; font-size:12.5px; }
+  .actionbox .al{ color:var(--muted); font-size:10px; text-transform:uppercase; letter-spacing:.04em; margin-right:5px; }
+  .actionbox .risks{ margin:3px 0 0; padding-left:16px; } .actionbox .risks li{ margin:1px 0; }
   .invnote{ color:var(--muted); font-size:11.5px; margin-top:4px; }
   .empty{ color:var(--muted); padding:40px 8px; text-align:center; }
   #it-shortlist{ margin-top:18px; border-top:1px solid var(--line); padding-top:12px; }
@@ -260,6 +263,15 @@
     return '<div class="crit"><div class="row"><span class="name">'+label+'</span>'
       +'<span class="track"><span class="fill" style="width:'+pct+'%;background:'+col+'"></span></span>'
       +'<span class="val">'+(val>0?val:'–')+'</span></div>'+(why?'<div class="why">'+esc(why)+'</div>':'')+'</div>'; }
+  function actionableHtml(a){ if(!a) return ''; var keys=['named_targets','ebitda_margin','entry_multiple','bnb_angle','key_risks'];
+    var any=keys.some(function(k){ return a[k] && (a[k].length||typeof a[k]==='string'); }); if(!any) return '';
+    var h='<div class="sig actionbox"><div class="k">Actionable — deal angle</div>';
+    if(a.bnb_angle) h+='<div class="v" style="margin-bottom:6px">'+esc(a.bnb_angle)+'</div>';
+    if(a.ebitda_margin) h+='<div><span class="al">EBITDA margin</span> '+esc(a.ebitda_margin)+'</div>';
+    if(a.entry_multiple) h+='<div><span class="al">Entry multiple</span> '+esc(a.entry_multiple)+'</div>';
+    if(a.named_targets&&a.named_targets.length) h+='<div style="margin-top:5px"><span class="al">Targets</span> '+a.named_targets.map(function(x){return '<span class="tag">'+esc(x)+'</span>';}).join('')+'</div>';
+    if(a.key_risks&&a.key_risks.length) h+='<div style="margin-top:5px"><span class="al">Key risks</span><ul class="risks">'+a.key_risks.map(function(x){return '<li>'+esc(x)+'</li>';}).join('')+'</ul></div>';
+    return h+'</div>'; }
   function showSide(n){ var s=n.scores||{}, r=n.rationale||{}, sig=n.dach_signals||{}, inv=n.investability||'open'; var html='';
     html+='<div class="scorepill"><div class="big" style="color:'+color(n._attr)+'">'+(n._attr>0?Math.round(n._attr):'–')+'</div><div class="lbl">attract</div></div>';
     html+='<h2>'+esc(n.name)+'</h2>';
@@ -285,6 +297,7 @@
     html+='</div>';
     if(n.why_now){ html+='<div class="sig whynow"><div class="k">Why now</div><div class="v">'+esc(n.why_now)+'</div></div>'; }
     if(n.pe_activity&&n.pe_activity.length){ html+='<div class="sig"><div class="k">Consolidation / PE activity</div><div class="v">'+n.pe_activity.map(function(x){return '<span class="tag">'+esc(x)+'</span>';}).join('')+'</div></div>'; }
+    html+=actionableHtml(n.actionable);
     if(n.confidence) html+='<div class="sig"><span class="k">Evidence confidence</span> <span class="v">'+n.confidence+'/5'+(n.status==='verified'?' · <span style="color:var(--q-act);font-weight:700">✓ verified</span>':'')+'</span></div>';
     if(n.sources&&n.sources.length){ html+='<div class="sig"><div class="k">Sources</div>';
       n.sources.forEach(function(x){ html+='<div class="src" style="margin:5px 0"><a href="'+esc(x.url)+'" target="_blank" rel="noopener">'+esc(x.title||x.url)+'</a>'+(x.note?'<div class="note">'+esc(x.note)+'</div>':'')+'</div>'; });

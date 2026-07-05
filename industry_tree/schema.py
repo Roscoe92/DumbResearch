@@ -105,6 +105,8 @@ class Node:
     pe_activity: list[str] = field(default_factory=list) # verification: known consolidators / PE platforms
     investability: str = "open"                          # gate: open | restricted | blocked
     investability_note: str = ""                         # why open/restricted/blocked
+    actionable: dict = field(default_factory=dict)       # enrichment: named_targets[], ebitda_margin,
+    #   entry_multiple, bnb_angle, key_risks[] — sourced deal-relevant detail on top candidates
     child_ids: list[str] = field(default_factory=list)
 
     # ---- serialization ----------------------------------------------------

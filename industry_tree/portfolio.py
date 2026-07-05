@@ -51,6 +51,7 @@ def _point(tree: Tree, node: Node, industry: str) -> dict:
         },
         "why_now": node.why_now,
         "pe_activity": node.pe_activity,
+        "actionable": node.actionable,
         "confidence": node.confidence,
         "status": node.status,
         "sources": [{"title": x.title, "url": x.url, "note": x.note} for x in node.sources],

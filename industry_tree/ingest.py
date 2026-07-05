@@ -242,6 +242,8 @@ def _edit_node(node, fields: dict) -> None:
     for f in ("investability", "investability_note", "why_now"):
         if fields.get(f):
             setattr(node, f, fields[f])
+    if isinstance(fields.get("actionable"), dict):
+        node.actionable.update({k: v for k, v in fields["actionable"].items() if v})
     if isinstance(fields.get("pe_activity"), list):
         node.pe_activity = fields["pe_activity"]
     if fields.get("confidence"):

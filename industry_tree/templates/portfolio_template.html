@@ -43,6 +43,9 @@
   .src a{ color:var(--link); text-decoration:none; font-size:12px; } .src .note{ color:var(--muted); font-size:11px; }
   .scorepill{ float:right; text-align:center; } .scorepill .big{ font-size:20px; font-weight:800; line-height:1; } .scorepill .lbl{ font-size:9px; text-transform:uppercase; color:var(--muted); }
   .whynow .v{ background:var(--chip); border-left:3px solid var(--link); padding:8px 10px; border-radius:0 6px 6px 0; }
+  .actionbox{ background:var(--chip); border-left:3px solid #3f9d58; padding:9px 11px; border-radius:0 6px 6px 0; font-size:12.5px; }
+  .actionbox .al{ color:var(--muted); font-size:10px; text-transform:uppercase; letter-spacing:.04em; margin-right:5px; }
+  .actionbox .risks{ margin:3px 0 0; padding-left:16px; } .actionbox .risks li{ margin:1px 0; }
   .invnote{ color:var(--muted); font-size:11.5px; margin-top:4px; }
   #pf-list h3{ font-size:12px; text-transform:uppercase; letter-spacing:.04em; color:var(--muted); margin:0 0 8px; }
   #pf-list table{ width:100%; border-collapse:collapse; font-size:12px; }
@@ -127,6 +130,16 @@
     html+='</div>';
     if(pt.why_now) html+='<div class="sig whynow"><div class="k">Why now</div><div class="v">'+esc(pt.why_now)+'</div></div>';
     if(pt.pe_activity&&pt.pe_activity.length) html+='<div class="sig"><div class="k">Consolidation / PE activity</div><div class="v">'+pt.pe_activity.map(function(x){return '<span class="tag">'+esc(x)+'</span>';}).join('')+'</div></div>';
+    var a=pt.actionable;
+    if(a&&(a.bnb_angle||a.ebitda_margin||a.entry_multiple||(a.named_targets&&a.named_targets.length)||(a.key_risks&&a.key_risks.length))){
+      html+='<div class="sig actionbox"><div class="k">Actionable — deal angle</div>';
+      if(a.bnb_angle) html+='<div class="v" style="margin-bottom:6px">'+esc(a.bnb_angle)+'</div>';
+      if(a.ebitda_margin) html+='<div><span class="al">EBITDA margin</span> '+esc(a.ebitda_margin)+'</div>';
+      if(a.entry_multiple) html+='<div><span class="al">Entry multiple</span> '+esc(a.entry_multiple)+'</div>';
+      if(a.named_targets&&a.named_targets.length) html+='<div style="margin-top:5px"><span class="al">Targets</span> '+a.named_targets.map(function(x){return '<span class="tag">'+esc(x)+'</span>';}).join('')+'</div>';
+      if(a.key_risks&&a.key_risks.length) html+='<div style="margin-top:5px"><span class="al">Key risks</span><ul class="risks">'+a.key_risks.map(function(x){return '<li>'+esc(x)+'</li>';}).join('')+'</ul></div>';
+      html+='</div>';
+    }
     if(pt.sources&&pt.sources.length){ html+='<div class="sig"><div class="k">Sources</div>'; pt.sources.forEach(function(x){ html+='<div class="src" style="margin:5px 0"><a href="'+esc(x.url)+'" target="_blank" rel="noopener">'+esc(x.title||x.url)+'</a>'+(x.note?'<div class="note">'+esc(x.note)+'</div>':'')+'</div>'; }); html+='</div>'; }
     side.innerHTML=html; }
 
