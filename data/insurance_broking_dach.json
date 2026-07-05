@@ -102,7 +102,13 @@
         "insurance-brokerage-financial-services-value-chain/commercial-industrial-insurance-brokerage/transport-logistics-specialist-brokers",
         "insurance-brokerage-financial-services-value-chain/commercial-industrial-insurance-brokerage/agriculture-agrar-specialist-brokers",
         "insurance-brokerage-financial-services-value-chain/commercial-industrial-insurance-brokerage/financial-lines-cyber-d-o-specialty-wholesale-brokers",
-        "insurance-brokerage-financial-services-value-chain/commercial-industrial-insurance-brokerage/renewable-energy-specialist-brokers"
+        "insurance-brokerage-financial-services-value-chain/commercial-industrial-insurance-brokerage/renewable-energy-specialist-brokers",
+        "insurance-brokerage-financial-services-value-chain/commercial-industrial-insurance-brokerage/heilwesen-healthcare-professional-brokers-arzte-apotheken-pflege-kliniken",
+        "insurance-brokerage-financial-services-value-chain/commercial-industrial-insurance-brokerage/architekten-ingenieur-berufshaftpflicht-brokers-planning-construction-professions",
+        "insurance-brokerage-financial-services-value-chain/commercial-industrial-insurance-brokerage/transport-logistik-spedition-brokers-verkehrshaftung-warentransport",
+        "insurance-brokerage-financial-services-value-chain/commercial-industrial-insurance-brokerage/landwirtschaft-agrar-brokers-farms-agri-businesses",
+        "insurance-brokerage-financial-services-value-chain/commercial-industrial-insurance-brokerage/wohnungswirtschaft-immobilien-brokers-property-managers-housing-cos-weg",
+        "insurance-brokerage-financial-services-value-chain/commercial-industrial-insurance-brokerage/kfz-flotten-fuhrpark-brokers-fleet-motor-fleet-specialists"
       ]
     },
     "insurance-brokerage-financial-services-value-chain/commercial-industrial-insurance-brokerage/generalist-sme-commercial-brokers-gewerbemakler": {
@@ -1989,7 +1995,12 @@
         "insurance-brokerage-financial-services-value-chain/broker-pools-networks-bestandsverwaltung/vergleichs-tarifrechner-comparison-quote-engines",
         "insurance-brokerage-financial-services-value-chain/broker-pools-networks-bestandsverwaltung/bipro-middleware-bestandsdaten-digitization-tech",
         "insurance-brokerage-financial-services-value-chain/broker-pools-networks-bestandsverwaltung/maklerverbuende-servicegesellschaften-broker-cooperatives-networks",
-        "insurance-brokerage-financial-services-value-chain/broker-pools-networks-bestandsverwaltung/dach-cross-border-pool-broker-tech-platforms-at-ch"
+        "insurance-brokerage-financial-services-value-chain/broker-pools-networks-bestandsverwaltung/dach-cross-border-pool-broker-tech-platforms-at-ch",
+        "insurance-brokerage-financial-services-value-chain/broker-pools-networks-bestandsverwaltung/bestandskauf-maklernachfolge-plattformen-courtage-buch-aufkaufer",
+        "insurance-brokerage-financial-services-value-chain/broker-pools-networks-bestandsverwaltung/maklerverwaltungsprogramme-mvp-kernsoftware",
+        "insurance-brokerage-financial-services-value-chain/broker-pools-networks-bestandsverwaltung/vergleichs-analysesoftware-fuer-makler-tarifrechner",
+        "insurance-brokerage-financial-services-value-chain/broker-pools-networks-bestandsverwaltung/digitale-courtage-provisionsabrechnungs-plattformen-bipro-bpo",
+        "insurance-brokerage-financial-services-value-chain/broker-pools-networks-bestandsverwaltung/bestandsverwaltungs-bpo-fuer-verwaiste-vertraege-run-off-servicing"
       ]
     },
     "insurance-brokerage-financial-services-value-chain/broker-pools-networks-bestandsverwaltung/vollsortiment-maklerpools-commission-aggregation-override-courtage": {
@@ -2664,7 +2675,13 @@
         "insurance-brokerage-financial-services-value-chain/employee-benefits-occupational-pensions-bav/aktuarielle-bewertung-pensionsgutachten-direktzusage",
         "insurance-brokerage-financial-services-value-chain/employee-benefits-occupational-pensions-bav/betriebliche-krankenversicherung-bkv-benefits-vermittlung",
         "insurance-brokerage-financial-services-value-chain/employee-benefits-occupational-pensions-bav/unterstuetzungskassen-pensionskassen-rueckdeckung-verwaltung",
-        "insurance-brokerage-financial-services-value-chain/employee-benefits-occupational-pensions-bav/bav-verwaltungs-outsourcing-bpo-end-to-end-tpa"
+        "insurance-brokerage-financial-services-value-chain/employee-benefits-occupational-pensions-bav/bav-verwaltungs-outsourcing-bpo-end-to-end-tpa",
+        "insurance-brokerage-financial-services-value-chain/employee-benefits-occupational-pensions-bav/bav-verwaltungs-outsourcing-tpa-bpo",
+        "insurance-brokerage-financial-services-value-chain/employee-benefits-occupational-pensions-bav/aktuarielle-bewertung-pensionsgutachten-heubeck-basiert-hgb-ias-19",
+        "insurance-brokerage-financial-services-value-chain/employee-benefits-occupational-pensions-bav/zeitwertkonten-lebensarbeitszeitkonten-verwaltung-treuhand",
+        "insurance-brokerage-financial-services-value-chain/employee-benefits-occupational-pensions-bav/unterstuetzungskassen-verwaltung-inkl-pauschaldotierte-u-kasse",
+        "insurance-brokerage-financial-services-value-chain/employee-benefits-occupational-pensions-bav/digitale-bav-saas-tpa-plattformen",
+        "insurance-brokerage-financial-services-value-chain/employee-benefits-occupational-pensions-bav/betriebliche-krankenversicherung-bkv-benefits-plattformen"
       ]
     },
     "insurance-brokerage-financial-services-value-chain/employee-benefits-occupational-pensions-bav/bav-beratung-vermittlung-firmenkunden-makler": {
@@ -3964,7 +3981,13 @@
         "insurance-brokerage-financial-services-value-chain/claims-loss-adjusting-ancillary-services/leckortung-leak-detection-non-obvious-insurer-paid-niche",
         "insurance-brokerage-financial-services-value-chain/claims-loss-adjusting-ancillary-services/wasser-brandschadensanierung-trocknung-restoration-coordination",
         "insurance-brokerage-financial-services-value-chain/claims-loss-adjusting-ancillary-services/kfz-schadenmanagement-bpo-rechnungsprufung-claims-tech-bpo",
-        "insurance-brokerage-financial-services-value-chain/claims-loss-adjusting-ancillary-services/assistance-soforthilfe-dienstleister-emergency-assistance"
+        "insurance-brokerage-financial-services-value-chain/claims-loss-adjusting-ancillary-services/assistance-soforthilfe-dienstleister-emergency-assistance",
+        "insurance-brokerage-financial-services-value-chain/claims-loss-adjusting-ancillary-services/leckortung-wasserschaden-erstservice-leak-detection",
+        "insurance-brokerage-financial-services-value-chain/claims-loss-adjusting-ancillary-services/kfz-schadengutachter-motor-damage-appraisal",
+        "insurance-brokerage-financial-services-value-chain/claims-loss-adjusting-ancillary-services/gebaude-bausachverstandige-sach-schadenregulierung",
+        "insurance-brokerage-financial-services-value-chain/claims-loss-adjusting-ancillary-services/brand-wasserschadensanierung-property-restoration",
+        "insurance-brokerage-financial-services-value-chain/claims-loss-adjusting-ancillary-services/24h-schaden-notdienst-assistance-netzwerke",
+        "insurance-brokerage-financial-services-value-chain/claims-loss-adjusting-ancillary-services/schaden-sanierungssteuerung-claims-bpo-fur-versicherer"
       ]
     },
     "insurance-brokerage-financial-services-value-chain/claims-loss-adjusting-ancillary-services/kfz-schadengutachter-independent-motor-loss-appraisers": {
@@ -5174,6 +5197,1668 @@
         }
       ],
       "confidence": 4,
+      "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
+      "investability": "open",
+      "investability_note": "",
+      "actionable": {},
+      "child_ids": []
+    },
+    "insurance-brokerage-financial-services-value-chain/commercial-industrial-insurance-brokerage/heilwesen-healthcare-professional-brokers-arzte-apotheken-pflege-kliniken": {
+      "id": "insurance-brokerage-financial-services-value-chain/commercial-industrial-insurance-brokerage/heilwesen-healthcare-professional-brokers-arzte-apotheken-pflege-kliniken",
+      "name": "Heilwesen / healthcare-professional brokers (Ärzte, Apotheken, Pflege, Kliniken)",
+      "parent_id": "insurance-brokerage-financial-services-value-chain/commercial-industrial-insurance-brokerage",
+      "level": 2,
+      "path": [
+        "Insurance Brokerage & Financial Services value chain",
+        "Commercial & Industrial Insurance Brokerage",
+        "Heilwesen / healthcare-professional brokers (Ärzte, Apotheken, Pflege, Kliniken)"
+      ],
+      "value_chain_stage": "distribution",
+      "description": "Fachmakler specializing in commercial cover for the German healthcare economy - practices, pharmacies, care homes, therapists, clinics - where profession-specific Betriebs-/Berufshaftpflicht, Praxisinhalt and cyber/data risks require deep sector expertise. Owner-run advisers dominate; the Heilwesennetzwerk alone federates dozens of independent specialist brokers.",
+      "scores": {
+        "recurring": 5,
+        "fragmentation": 4,
+        "compliance": 5,
+        "scale": 0,
+        "margin": 0,
+        "growth": 0,
+        "headroom": 0,
+        "reimbursement_risk": 0
+      },
+      "rationale": {
+        "recurring": "Practices/pharmacies/care homes carry mandatory annual Berufs- and Betriebshaftpflicht that renews indefinitely, producing sticky renewal-commission books.",
+        "fragmentation": "Hundreds of small owner-run Heilwesen-Fachmakler; Heilwesennetzwerk (hwnw.de) exists precisely to federate the fragmented long tail.",
+        "compliance": "Kammer/Berufsordnung obligations, MPBetreibV, ApBetrO and care-home operator duties make cover effectively mandatory and specialist-driven."
+      },
+      "composite": 91.7,
+      "dach_signals": {
+        "est_players": "~200-400 healthcare-focused specialist brokers (Heilwesennetzwerk federates dozens)",
+        "revenue_band_eur": "EUR 0.5-4m typical",
+        "example_companies": [
+          "Heilwesennetzwerk (hwnw.de)",
+          "Richthammer Versicherungsmakler GmbH & Co. KG",
+          "CMO Makler (Karlsruhe)",
+          "priass / medicus regio partner"
+        ],
+        "regulation": [
+          "Heilberufe-Kammergesetze / Berufsordnungen",
+          "MPBetreibV",
+          "ApBetrO (Apothekenbetriebsordnung)",
+          "care-home operator liability (Heimrecht)"
+        ]
+      },
+      "sources": [
+        {
+          "title": "Heilwesennetzwerk - Berater fuer Absicherungen im Heilwesen",
+          "url": "https://hwnw.de/mitglieder/heilwesen-berater/",
+          "note": "Network federating independent healthcare-specialist brokers - evidences fragmentation"
+        },
+        {
+          "title": "Richthammer - Versicherungsloesungen fuer Heilberufe",
+          "url": "https://www.richthammer.de/firmen/versicherungsloesungen-fuer-heilberufe/",
+          "note": "Example owner-run Heilwesen Fachmakler"
+        },
+        {
+          "title": "CMO Makler - Versicherungen Aerzte/Heilberufe/Heilwesen",
+          "url": "https://www.cmo-makler.de/versicherungen-aerzte-heilberufe-heilwesen",
+          "note": "Regional specialist broker for medical professions"
+        }
+      ],
+      "confidence": 4,
+      "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
+      "investability": "open",
+      "investability_note": "",
+      "actionable": {},
+      "child_ids": [
+        "insurance-brokerage-financial-services-value-chain/commercial-industrial-insurance-brokerage/heilwesen-healthcare-professional-brokers-arzte-apotheken-pflege-kliniken/apotheken-fachmakler-pharmacy-specialist-brokers"
+      ]
+    },
+    "insurance-brokerage-financial-services-value-chain/commercial-industrial-insurance-brokerage/heilwesen-healthcare-professional-brokers-arzte-apotheken-pflege-kliniken/apotheken-fachmakler-pharmacy-specialist-brokers": {
+      "id": "insurance-brokerage-financial-services-value-chain/commercial-industrial-insurance-brokerage/heilwesen-healthcare-professional-brokers-arzte-apotheken-pflege-kliniken/apotheken-fachmakler-pharmacy-specialist-brokers",
+      "name": "Apotheken-Fachmakler (pharmacy specialist brokers)",
+      "parent_id": "insurance-brokerage-financial-services-value-chain/commercial-industrial-insurance-brokerage/heilwesen-healthcare-professional-brokers-arzte-apotheken-pflege-kliniken",
+      "level": 3,
+      "path": [
+        "Insurance Brokerage & Financial Services value chain",
+        "Commercial & Industrial Insurance Brokerage",
+        "Heilwesen / healthcare-professional brokers (Ärzte, Apotheken, Pflege, Kliniken)",
+        "Apotheken-Fachmakler (pharmacy specialist brokers)"
+      ],
+      "value_chain_stage": "distribution",
+      "description": "Sub-niche brokers arranging pharmacy-specific packages (Apothekeninhalt, Betriebsunterbrechung, Berufs-/Vertrauensschadenhaftpflicht, Retax-/Rezeptrisiken) under ApBetrO duties for Germany's owner-run pharmacies.",
+      "scores": {
+        "recurring": 5,
+        "fragmentation": 4,
+        "compliance": 5,
+        "scale": 0,
+        "margin": 0,
+        "growth": 0,
+        "headroom": 0,
+        "reimbursement_risk": 0
+      },
+      "rationale": {
+        "recurring": "~17,000 Apotheken each need continuously renewing commercial packages tied to the pharmacy licence.",
+        "fragmentation": "Served by small specialist brokers and networks rather than a dominant consolidator.",
+        "compliance": "ApBetrO operating duties and Fremdbesitzverbot make cover a licence-adjacent necessity."
+      },
+      "composite": 91.7,
+      "dach_signals": {
+        "est_players": "few dozen pharmacy-focused specialists",
+        "revenue_band_eur": "EUR 0.5-3m typical",
+        "example_companies": [
+          "priass (Heilberufe/Apotheker)",
+          "Heilwesennetzwerk members"
+        ],
+        "regulation": [
+          "ApBetrO",
+          "Apothekengesetz (ApoG)",
+          "mandatory Berufshaftpflicht for pharmacists"
+        ]
+      },
+      "sources": [
+        {
+          "title": "priass - Versicherungen fuer Heilberufe (Aerzte und Apotheker)",
+          "url": "https://www.priass.de/heilberufe/versicherungen",
+          "note": "Specialist advising pharmacists on profession-specific cover"
+        }
+      ],
+      "confidence": 3,
+      "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
+      "investability": "open",
+      "investability_note": "",
+      "actionable": {},
+      "child_ids": []
+    },
+    "insurance-brokerage-financial-services-value-chain/commercial-industrial-insurance-brokerage/architekten-ingenieur-berufshaftpflicht-brokers-planning-construction-professions": {
+      "id": "insurance-brokerage-financial-services-value-chain/commercial-industrial-insurance-brokerage/architekten-ingenieur-berufshaftpflicht-brokers-planning-construction-professions",
+      "name": "Architekten- & Ingenieur-Berufshaftpflicht brokers (planning/construction professions)",
+      "parent_id": "insurance-brokerage-financial-services-value-chain/commercial-industrial-insurance-brokerage",
+      "level": 2,
+      "path": [
+        "Insurance Brokerage & Financial Services value chain",
+        "Commercial & Industrial Insurance Brokerage",
+        "Architekten- & Ingenieur-Berufshaftpflicht brokers (planning/construction professions)"
+      ],
+      "value_chain_stage": "distribution",
+      "description": "Fachmakler placing mandatory professional-indemnity (Berufshaftpflicht) and object/project cover for architects, engineers, master builders and site managers - a Kammer-linked, statutorily required class. AIA has served this niche 50+ years with 15,000+ insured planners, alongside a tail of smaller Bau-specialist brokers.",
+      "scores": {
+        "recurring": 5,
+        "fragmentation": 3,
+        "compliance": 5,
+        "scale": 0,
+        "margin": 0,
+        "growth": 0,
+        "headroom": 0,
+        "reimbursement_risk": 0
+      },
+      "rationale": {
+        "recurring": "Chamber membership requires continuous Berufshaftpflicht, so policies renew annually for the professional's whole career.",
+        "fragmentation": "AIA is a large anchor but a long tail of regional Bau-/Planer-specialist brokers remains acquirable below it.",
+        "compliance": "Admission to the Architekten-/Ingenieurkammer is conditional on evidenced Berufshaftpflicht; since 2013 also builders/site managers/developers."
+      },
+      "composite": 83.3,
+      "dach_signals": {
+        "est_players": "~50-100 specialist brokers for planning/construction professions",
+        "revenue_band_eur": "EUR 1-5m typical",
+        "example_companies": [
+          "AIA AG (Duesseldorf)",
+          "bauversicherungsmakler.de"
+        ],
+        "regulation": [
+          "Architekten-/Ingenieurkammergesetze (mandatory Berufshaftpflicht)",
+          "Musterbauordnung / 2013 duty for Bauleiter & Bautraeger"
+        ]
+      },
+      "sources": [
+        {
+          "title": "AIA - Berufshaftpflicht fuer Architekten & Ingenieure",
+          "url": "https://www.aia.de/versicherung/beruflicher-versicherungsschutz/berufshaftpflicht/ueberblick",
+          "note": "50+ year specialist; scale of insured planning offices/planners"
+        },
+        {
+          "title": "versicherdich.de - Berufshaftpflicht Architekten und Ingenieure",
+          "url": "https://versicherdich.de/berufshaftpflicht/architekten-und-ingenieure/",
+          "note": "Confirms mandatory chamber-linked cover and minimum sums"
+        }
+      ],
+      "confidence": 4,
+      "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
+      "investability": "open",
+      "investability_note": "",
+      "actionable": {},
+      "child_ids": []
+    },
+    "insurance-brokerage-financial-services-value-chain/commercial-industrial-insurance-brokerage/transport-logistik-spedition-brokers-verkehrshaftung-warentransport": {
+      "id": "insurance-brokerage-financial-services-value-chain/commercial-industrial-insurance-brokerage/transport-logistik-spedition-brokers-verkehrshaftung-warentransport",
+      "name": "Transport / Logistik / Spedition brokers (Verkehrshaftung & Warentransport)",
+      "parent_id": "insurance-brokerage-financial-services-value-chain/commercial-industrial-insurance-brokerage",
+      "level": 2,
+      "path": [
+        "Insurance Brokerage & Financial Services value chain",
+        "Commercial & Industrial Insurance Brokerage",
+        "Transport / Logistik / Spedition brokers (Verkehrshaftung & Warentransport)"
+      ],
+      "value_chain_stage": "distribution",
+      "description": "Spezialmakler placing carrier/forwarder liability (Verkehrshaftung per HGB/CMR), cargo (Warentransport) and warehouse-keeper cover for hauliers, freight forwarders and logistics operators - a technical class where ADSp/CMR expertise is a moat. Several firms position explicitly as 'Spezialmakler fuer Speditionen'.",
+      "scores": {
+        "recurring": 5,
+        "fragmentation": 4,
+        "compliance": 5,
+        "scale": 0,
+        "margin": 0,
+        "growth": 0,
+        "headroom": 0,
+        "reimbursement_risk": 0
+      },
+      "rationale": {
+        "recurring": "Every haulier/forwarder needs continuously renewing Verkehrshaftung/cargo cover tied to operating licences and ADSp trading terms.",
+        "fragmentation": "Multiple independent owner-run transport specialists (Schirmer, FSA24, Amschler, Bernhard) with no single dominant national roll-up yet.",
+        "compliance": "HGB carrier liability, CMR for cross-border and ADSp minimum forwarding-insurance requirement make cover effectively mandatory."
+      },
+      "composite": 91.7,
+      "dach_signals": {
+        "est_players": "~50-150 transport/logistics specialist brokers",
+        "revenue_band_eur": "EUR 0.5-4m typical",
+        "example_companies": [
+          "Schirmer Assekuranz Makler (transport-makler.de)",
+          "FSA24 (Frachtfuehrerversicherung)",
+          "Amschler Versicherungen",
+          "Bernhard Assekuranz"
+        ],
+        "regulation": [
+          "HGB Frachtrecht (Verkehrshaftung)",
+          "CMR-Uebereinkommen",
+          "ADSp (minimum forwarding insurance)"
+        ]
+      },
+      "sources": [
+        {
+          "title": "Schirmer Assekuranz - Spezialmakler fuer Speditionen",
+          "url": "https://www.transport-makler.de/Spezialmakler-fuer-Speditionen-_555.aspx",
+          "note": "Firm self-positioned as transport/forwarding specialist broker"
+        },
+        {
+          "title": "FSA24 - Frachtfuehrerversicherung Verkehrshaftung & CMR",
+          "url": "https://www.fsa24.de/",
+          "note": "Specialist in carrier liability / CMR cover"
+        },
+        {
+          "title": "Amschler Versicherungen - Verkehrshaftung",
+          "url": "https://www.amschler-versicherungen.de/de/produkte/verkehrshaftung/",
+          "note": "Transport-industry specialist broker"
+        }
+      ],
+      "confidence": 4,
+      "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
+      "investability": "open",
+      "investability_note": "",
+      "actionable": {},
+      "child_ids": []
+    },
+    "insurance-brokerage-financial-services-value-chain/commercial-industrial-insurance-brokerage/landwirtschaft-agrar-brokers-farms-agri-businesses": {
+      "id": "insurance-brokerage-financial-services-value-chain/commercial-industrial-insurance-brokerage/landwirtschaft-agrar-brokers-farms-agri-businesses",
+      "name": "Landwirtschaft / Agrar brokers (farms, agri-businesses)",
+      "parent_id": "insurance-brokerage-financial-services-value-chain/commercial-industrial-insurance-brokerage",
+      "level": 2,
+      "path": [
+        "Insurance Brokerage & Financial Services value chain",
+        "Commercial & Industrial Insurance Brokerage",
+        "Landwirtschaft / Agrar brokers (farms, agri-businesses)"
+      ],
+      "value_chain_stage": "distribution",
+      "description": "Regional Fachmakler serving farms and agribusiness with agricultural Betriebshaftpflicht, machinery/livestock, buildings and increasingly weather/crop cover - a class needing farm-specific risk surveys and strong local relationships. Highly fragmented across rural Germany/Austria.",
+      "scores": {
+        "recurring": 4,
+        "fragmentation": 5,
+        "compliance": 3,
+        "scale": 0,
+        "margin": 0,
+        "growth": 0,
+        "headroom": 0,
+        "reimbursement_risk": 0
+      },
+      "rationale": {
+        "recurring": "Farm liability, machinery and buildings cover renew annually with high retention given local relationships.",
+        "fragmentation": "Dozens of small regional Agrar-specialist brokers (AGRAR versicherungsmakler, GV Makler, Liebich & Schroeder, VML) with no dominant consolidator.",
+        "compliance": "Livestock-keeper liability (§833 BGB) and operator duties drive demand, though cover is largely voluntary rather than statutory."
+      },
+      "composite": 75.0,
+      "dach_signals": {
+        "est_players": "~100+ regional agri specialist brokers",
+        "revenue_band_eur": "EUR 0.3-3m typical",
+        "example_companies": [
+          "AGRAR versicherungsmakler KG",
+          "GV Makler",
+          "Liebich & Schroeder",
+          "VML Versicherungsmakler"
+        ],
+        "regulation": [
+          "Tierhalterhaftung §833 BGB",
+          "SVLFG (agricultural social insurance context)",
+          "environmental/operator liability"
+        ]
+      },
+      "sources": [
+        {
+          "title": "AGRAR versicherungsmakler KG - Betriebshaftpflicht",
+          "url": "https://www.agrarversicherungsmakler.de/betriebshaftpflicht",
+          "note": "Dedicated agricultural specialist broker with farm risk surveys"
+        },
+        {
+          "title": "GV Makler - Landwirtschaftliche Betriebshaftpflicht",
+          "url": "https://gvmakler.de/leistungen/landwirtschaftliche-betriebshaftpflicht",
+          "note": "Nationwide independent agri broker, 20+ years"
+        },
+        {
+          "title": "Liebich & Schroeder - Nutzen Versicherungsmakler fuer Landwirte",
+          "url": "https://www.liebichundschroeder.de/nutzen-versicherungsmakler-fuer-landwirte/",
+          "note": "Farm-specialist broker value proposition"
+        }
+      ],
+      "confidence": 3,
+      "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
+      "investability": "open",
+      "investability_note": "",
+      "actionable": {},
+      "child_ids": []
+    },
+    "insurance-brokerage-financial-services-value-chain/commercial-industrial-insurance-brokerage/wohnungswirtschaft-immobilien-brokers-property-managers-housing-cos-weg": {
+      "id": "insurance-brokerage-financial-services-value-chain/commercial-industrial-insurance-brokerage/wohnungswirtschaft-immobilien-brokers-property-managers-housing-cos-weg",
+      "name": "Wohnungswirtschaft / Immobilien brokers (property managers, housing cos, WEG)",
+      "parent_id": "insurance-brokerage-financial-services-value-chain/commercial-industrial-insurance-brokerage",
+      "level": 2,
+      "path": [
+        "Insurance Brokerage & Financial Services value chain",
+        "Commercial & Industrial Insurance Brokerage",
+        "Wohnungswirtschaft / Immobilien brokers (property managers, housing cos, WEG)"
+      ],
+      "value_chain_stage": "distribution",
+      "description": "Specialist brokers arranging portfolio building, liability and loss-of-rent cover plus framework agreements for property managers, housing companies, cooperatives and WEG associations - large, sticky recurring premium pools per managed portfolio. Pantaenius, Dr. Klein Wowi and GGW anchor the top; a tail of Wohnungswirtschaft-focused brokers remains acquirable.",
+      "scores": {
+        "recurring": 5,
+        "fragmentation": 3,
+        "compliance": 3,
+        "scale": 0,
+        "margin": 0,
+        "growth": 0,
+        "headroom": 0,
+        "reimbursement_risk": 0
+      },
+      "rationale": {
+        "recurring": "Portfolio/framework Gebaeudeversicherung renews continuously across large managed unit counts, giving very high retention.",
+        "fragmentation": "Concentration at the top (Pantaenius, Dr. Klein Wowi, GGW) but many mid-size regional Wohnungswirtschaft brokers (Wahler, ACCURA, Kloeber) remain independent.",
+        "compliance": "Property-manager duties and WEG-reform obligations drive cover, though largely contractual rather than strictly statutory."
+      },
+      "composite": 66.7,
+      "dach_signals": {
+        "est_players": "~50-100 housing/real-estate specialist brokers",
+        "revenue_band_eur": "EUR 1-5m typical",
+        "example_companies": [
+          "Pantaenius",
+          "Dr. Klein Wowi Finanz",
+          "Wahler & Co.",
+          "ACCURA Versicherungsmakler",
+          "Kloeber"
+        ],
+        "regulation": [
+          "WEG-Reform / property-manager duties",
+          "GdW/framework agreements",
+          "building-insurance market conduct"
+        ]
+      },
+      "sources": [
+        {
+          "title": "Pantaenius - Versicherungskonzepte fuer die Wohnungswirtschaft",
+          "url": "https://www.pantaenius.eu/de/branchen/wohnungswirtschaft/loesungen/",
+          "note": "Leading housing-industry specialist broker"
+        },
+        {
+          "title": "Wahler & Co. - Wohnungswirtschaft Konzepte",
+          "url": "https://www.wahler-versicherungsmakler.de/leistungsspektrum/wohnungswirtschaft/",
+          "note": "Mid-size specialist for housing-industry clients"
+        },
+        {
+          "title": "GGW - Absicherung fuer die Immobilienwirtschaft",
+          "url": "https://www.ggw.de/branchen/immobilienwirtschaft",
+          "note": "Consolidator active in this vertical"
+        }
+      ],
+      "confidence": 4,
+      "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
+      "investability": "open",
+      "investability_note": "",
+      "actionable": {},
+      "child_ids": []
+    },
+    "insurance-brokerage-financial-services-value-chain/commercial-industrial-insurance-brokerage/kfz-flotten-fuhrpark-brokers-fleet-motor-fleet-specialists": {
+      "id": "insurance-brokerage-financial-services-value-chain/commercial-industrial-insurance-brokerage/kfz-flotten-fuhrpark-brokers-fleet-motor-fleet-specialists",
+      "name": "Kfz-Flotten / Fuhrpark brokers (fleet & motor-fleet specialists)",
+      "parent_id": "insurance-brokerage-financial-services-value-chain/commercial-industrial-insurance-brokerage",
+      "level": 2,
+      "path": [
+        "Insurance Brokerage & Financial Services value chain",
+        "Commercial & Industrial Insurance Brokerage",
+        "Kfz-Flotten / Fuhrpark brokers (fleet & motor-fleet specialists)"
+      ],
+      "value_chain_stage": "distribution",
+      "description": "Owner-run specialist brokers bundling company vehicle fleets into framework motor policies (Flotten-/Fuhrparkversicherung), managing telematics, claims and renewal tenders for fleets from ~5 to 500+ vehicles. Mandatory Kfz-Haftpflicht plus complex fleet economics create a technical, sticky recurring class.",
+      "scores": {
+        "recurring": 5,
+        "fragmentation": 4,
+        "compliance": 5,
+        "scale": 0,
+        "margin": 0,
+        "growth": 0,
+        "headroom": 0,
+        "reimbursement_risk": 0
+      },
+      "rationale": {
+        "recurring": "Kfz-Haftpflicht is legally mandatory and fleet framework contracts renew annually with heavy claims-servicing lock-in.",
+        "fragmentation": "Many owner-operated fleet specialists (FVO, Dittmeier, vfm, Wahler) - FVO alone 23+ years owner-operated - with no dominant national roll-up.",
+        "compliance": "PflVG makes motor-liability cover statutory; fleet halter-liability and duty-of-care obligations reinforce demand."
+      },
+      "composite": 91.7,
+      "dach_signals": {
+        "est_players": "~100+ fleet/motor-fleet specialist brokers",
+        "revenue_band_eur": "EUR 0.5-5m typical",
+        "example_companies": [
+          "FVO GmbH (fuhrpark-versicherung.de)",
+          "Dittmeier Versicherungsmakler",
+          "vfm-makler",
+          "Wahler & Co."
+        ],
+        "regulation": [
+          "Pflichtversicherungsgesetz (PflVG) - mandatory Kfz-Haftpflicht",
+          "Halterhaftung",
+          "fleet duty-of-care / Fuhrparkmanagement"
+        ]
+      },
+      "sources": [
+        {
+          "title": "FVO GmbH - Fuhrparkversicherung und Flottenversicherung",
+          "url": "https://www.fuhrpark-versicherung.de/",
+          "note": "Owner-operated broker 23+ years specialized in fleet insurance"
+        },
+        {
+          "title": "Dittmeier - Grosskunden-Flottenversicherung",
+          "url": "https://www.dittmeier.de/Versicherungen/Flottenversicherung/Gro%C3%9Fkunden-Flottenversicherung",
+          "note": "Fleet-insurance specialist broker"
+        }
+      ],
+      "confidence": 4,
+      "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
+      "investability": "open",
+      "investability_note": "",
+      "actionable": {},
+      "child_ids": []
+    },
+    "insurance-brokerage-financial-services-value-chain/employee-benefits-occupational-pensions-bav/bav-verwaltungs-outsourcing-tpa-bpo": {
+      "id": "insurance-brokerage-financial-services-value-chain/employee-benefits-occupational-pensions-bav/bav-verwaltungs-outsourcing-tpa-bpo",
+      "name": "bAV-Verwaltungs-Outsourcing / TPA (BPO)",
+      "parent_id": "insurance-brokerage-financial-services-value-chain/employee-benefits-occupational-pensions-bav",
+      "level": 2,
+      "path": [
+        "Insurance Brokerage & Financial Services value chain",
+        "Employee Benefits & Occupational Pensions (bAV)",
+        "bAV-Verwaltungs-Outsourcing / TPA (BPO)"
+      ],
+      "value_chain_stage": "services",
+      "description": "Auslagerung der laufenden bAV-Administration (Bestandsverwaltung, Rentenabwicklung, Arbeitgeber-/Arbeitnehmer-Kommunikation, Schnittstellen zur Entgeltabrechnung) an spezialisierte Dienstleister. In DACH ein Mix aus grossen Beratungshaeusern und vielen inhabergefuehrten Spezialverwaltern mit wiederkehrenden Verwaltungsvertraegen.",
+      "scores": {
+        "recurring": 5,
+        "fragmentation": 3,
+        "compliance": 5,
+        "scale": 0,
+        "margin": 0,
+        "growth": 0,
+        "headroom": 0,
+        "reimbursement_risk": 0
+      },
+      "rationale": {
+        "recurring": "Mehrjaehrige Verwaltungsvertraege mit Pro-Kopf-/Pro-Anwartschaft-Gebuehren; Bestand wird laufend administriert statt einmalig verkauft.",
+        "fragmentation": "Grosse Consultants (WTW, Mercer, Lurse) plus langer Schwanz an Spezial-TPAs wie Pension Capital, cppartner, VM Vorsorge & Management.",
+        "compliance": "BetrAVG, komplexe steuer-/sozialversicherungs-/arbeitsrechtliche Regeln machen Auslagerung wegen Compliance-Aufwand zum Kauftreiber."
+      },
+      "composite": 83.3,
+      "dach_signals": {
+        "est_players": "~50-100 spezialisierte bAV-Verwalter/TPAs plus Consultants",
+        "revenue_band_eur": "EUR 1-10m typisch bei Spezialverwaltern",
+        "example_companies": [
+          "Lurse AG",
+          "Pension Capital GmbH",
+          "cp partner GmbH",
+          "VM Vorsorge & Management",
+          "WTW (bAV-Verwaltung)"
+        ],
+        "regulation": [
+          "BetrAVG",
+          "EStG/LStR bAV",
+          "SGB IV",
+          "DSGVO"
+        ]
+      },
+      "sources": [
+        {
+          "title": "bAV-Verwaltung IT und Outsourcing – pensions.industries",
+          "url": "https://pensions.industries/dienstleister/bav-verwaltung-und-outsourcing/",
+          "note": "Uebersicht der bAV-Verwaltungs- und Outsourcing-Dienstleister in Deutschland"
+        },
+        {
+          "title": "bAV-Verwaltung – bAV-freie Zone (cp partner)",
+          "url": "https://www.cppartner.de/betriebliche-altersvorsorge/bav-verwaltung/",
+          "note": "Spezialdienstleister fuer Auslagerung der laufenden bAV-Verwaltung"
+        },
+        {
+          "title": "bAV und bKV Outsourcing – Pension Capital",
+          "url": "https://pensioncapital.de/bav-und-bkv-outsourcing/",
+          "note": "Owner-run TPA fuer bAV- und bKV-Outsourcing"
+        },
+        {
+          "title": "Betriebliche Altersversorgung (bAV) – Lurse",
+          "url": "https://www.lurse.de/expertise/betriebliche-altersversorgung-bav/",
+          "note": "End-to-End Administration ueber Plattform P-LIVE (Admin, Aktuariat, Abrechnung)"
+        }
+      ],
+      "confidence": 4,
+      "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
+      "investability": "open",
+      "investability_note": "",
+      "actionable": {},
+      "child_ids": []
+    },
+    "insurance-brokerage-financial-services-value-chain/employee-benefits-occupational-pensions-bav/aktuarielle-bewertung-pensionsgutachten-heubeck-basiert-hgb-ias-19": {
+      "id": "insurance-brokerage-financial-services-value-chain/employee-benefits-occupational-pensions-bav/aktuarielle-bewertung-pensionsgutachten-heubeck-basiert-hgb-ias-19",
+      "name": "Aktuarielle Bewertung & Pensionsgutachten (Heubeck-basiert, HGB/IAS 19)",
+      "parent_id": "insurance-brokerage-financial-services-value-chain/employee-benefits-occupational-pensions-bav",
+      "level": 2,
+      "path": [
+        "Insurance Brokerage & Financial Services value chain",
+        "Employee Benefits & Occupational Pensions (bAV)",
+        "Aktuarielle Bewertung & Pensionsgutachten (Heubeck-basiert, HGB/IAS 19)"
+      ],
+      "value_chain_stage": "services",
+      "description": "Versicherungsmathematische Gutachten zur Bewertung von Pensions-/Personalrueckstellungen nach HGB, IFRS/IAS 19 und Steuerrecht, meist auf Basis der Heubeck-Richttafeln. Wiederkehrendes, gesetzlich getriebenes Bilanzierungsgeschaeft mit Heubeck als Marktprimus und zahlreichen Aktuar-Boutiquen.",
+      "scores": {
+        "recurring": 5,
+        "fragmentation": 3,
+        "compliance": 5,
+        "scale": 0,
+        "margin": 0,
+        "growth": 0,
+        "headroom": 0,
+        "reimbursement_risk": 0
+      },
+      "rationale": {
+        "recurring": "Jaehrliche Bewertung zu jedem Bilanzstichtag ist Pflicht; Mandate laufen ueber Jahre stabil.",
+        "fragmentation": "Heubeck marktbeherrschend, dazu Mercer/WTW und kleine spezialisierte Aktuar-Boutiquen wie H2B Aktuare.",
+        "compliance": "HGB §253, IAS 19, EStG §6a und IDW-Verlautbarungen machen das Gutachten gesetzlich zwingend."
+      },
+      "composite": 83.3,
+      "dach_signals": {
+        "est_players": "~30-60 aktuarielle Beratungs-/Gutachterfirmen (DAV-Mitglieder)",
+        "revenue_band_eur": "EUR 0.5-5m typisch bei Aktuar-Boutiquen",
+        "example_companies": [
+          "Heubeck AG",
+          "H2B Aktuare GmbH",
+          "Mercer (aktuarielle Dienstleistungen)",
+          "WTW"
+        ],
+        "regulation": [
+          "HGB §253",
+          "IAS 19",
+          "EStG §6a",
+          "Heubeck-Richttafeln 2018 G",
+          "IDW-Verlautbarungen"
+        ]
+      },
+      "sources": [
+        {
+          "title": "Versicherungsmathematische Gutachten – HEUBECK AG",
+          "url": "https://www.heubeck.de/loesungen/analyse/versicherungsmathematische-gutachten/",
+          "note": "Marktfuehrer fuer Pensionsgutachten nach HGB/IFRS/US-GAAP auf Basis Heubeck-Richttafeln"
+        },
+        {
+          "title": "Neue biometrische Rechnungsgrundlagen: Richttafeln 2018 G – H2B Aktuare",
+          "url": "https://www.h2b-aktuare.de/neue-biometrische-rechnungsgrundlagen-richttafeln-2018-g/",
+          "note": "Beispiel einer spezialisierten Aktuar-Boutique"
+        },
+        {
+          "title": "Aktuarielle Dienstleistungen – Mercer",
+          "url": "https://www.mercer.com/de-de/solutions/retirement/aktuarielle-dienstleistungen/",
+          "note": "Aktuarielle Gutachten und bAV-Bewertung nach nationalen/internationalen Standards"
+        }
+      ],
+      "confidence": 5,
+      "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
+      "investability": "open",
+      "investability_note": "",
+      "actionable": {},
+      "child_ids": []
+    },
+    "insurance-brokerage-financial-services-value-chain/employee-benefits-occupational-pensions-bav/zeitwertkonten-lebensarbeitszeitkonten-verwaltung-treuhand": {
+      "id": "insurance-brokerage-financial-services-value-chain/employee-benefits-occupational-pensions-bav/zeitwertkonten-lebensarbeitszeitkonten-verwaltung-treuhand",
+      "name": "Zeitwertkonten- / Lebensarbeitszeitkonten-Verwaltung & Treuhand",
+      "parent_id": "insurance-brokerage-financial-services-value-chain/employee-benefits-occupational-pensions-bav",
+      "level": 2,
+      "path": [
+        "Insurance Brokerage & Financial Services value chain",
+        "Employee Benefits & Occupational Pensions (bAV)",
+        "Zeitwertkonten- / Lebensarbeitszeitkonten-Verwaltung & Treuhand"
+      ],
+      "value_chain_stage": "services",
+      "description": "Konzeption, laufende Wertkontenverwaltung, Insolvenzsicherung (Treuhand/CTA) und Abrechnung von Zeitwertkonten (Wertguthaben nach Flexi-II). Spezialisierte Verwalter uebernehmen Administration plus Treuhandschaft mit wiederkehrenden Gebuehren.",
+      "scores": {
+        "recurring": 5,
+        "fragmentation": 4,
+        "compliance": 5,
+        "scale": 0,
+        "margin": 0,
+        "growth": 0,
+        "headroom": 0,
+        "reimbursement_risk": 0
+      },
+      "rationale": {
+        "recurring": "Laufende Kontenfuehrung, Kapitalanlage-Reporting und Treuhandschaft ueber die gesamte Ansparphase.",
+        "fragmentation": "Wenige Spezialisten (DBZWK, Foresight) neben Versicherer-Treuhandloesungen und Mercer – kein dominanter Konsolidierer.",
+        "compliance": "Flexi-II-Gesetz und SGB IV verlangen gesetzliche Insolvenzsicherung des Wertguthabens (Treuhand/CTA)."
+      },
+      "composite": 91.7,
+      "dach_signals": {
+        "est_players": "~10-20 spezialisierte Verwalter/Treuhaender",
+        "revenue_band_eur": "EUR 0.5-5m typisch bei Spezialisten",
+        "example_companies": [
+          "Deutsche Beratungsgesellschaft fuer Zeitwertkonten (DBZWK) mbH",
+          "Foresight GmbH",
+          "Mercer (Zeitwertkonten & Treuhand)"
+        ],
+        "regulation": [
+          "Flexi-II-Gesetz",
+          "SGB IV (Insolvenzsicherung Wertguthaben)",
+          "EStG"
+        ]
+      },
+      "sources": [
+        {
+          "title": "Deutsche Beratungsgesellschaft fuer Zeitwertkonten (DBZWK)",
+          "url": "https://www.dbzwk.de/",
+          "note": "Konzipiert, integriert und verwaltet seit 2004 Zeitwertkonten inkl. Wertkontenverwaltung und Treuhandschaft"
+        },
+        {
+          "title": "Beratungshaus Foresight GmbH – Anbieter fuer Zeitwertkonten",
+          "url": "https://www.foresight.gmbh/foresight-gmbh/",
+          "note": "Konzeption, Einfuehrung, gesetzliche Sicherung und Verwaltung von Zeitwertkonten"
+        },
+        {
+          "title": "Zeitwertkonten und Treuhandloesungen – Mercer",
+          "url": "https://www.mercer.com/de-de/solutions/retirement/zeitwertkonten-und-treuhandloesungen/",
+          "note": "Kontenadministration und Insolvenzsicherung ueber Mercer Treuhand"
+        }
+      ],
+      "confidence": 4,
+      "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
+      "investability": "open",
+      "investability_note": "",
+      "actionable": {},
+      "child_ids": []
+    },
+    "insurance-brokerage-financial-services-value-chain/employee-benefits-occupational-pensions-bav/unterstuetzungskassen-verwaltung-inkl-pauschaldotierte-u-kasse": {
+      "id": "insurance-brokerage-financial-services-value-chain/employee-benefits-occupational-pensions-bav/unterstuetzungskassen-verwaltung-inkl-pauschaldotierte-u-kasse",
+      "name": "Unterstuetzungskassen-Verwaltung (inkl. pauschaldotierte U-Kasse)",
+      "parent_id": "insurance-brokerage-financial-services-value-chain/employee-benefits-occupational-pensions-bav",
+      "level": 2,
+      "path": [
+        "Insurance Brokerage & Financial Services value chain",
+        "Employee Benefits & Occupational Pensions (bAV)",
+        "Unterstuetzungskassen-Verwaltung (inkl. pauschaldotierte U-Kasse)"
+      ],
+      "value_chain_stage": "services",
+      "description": "Errichtung und laufende Verwaltung von Gruppen- und pauschaldotierten Unterstuetzungskassen (pdUK) als versicherungsfreiem Durchfuehrungsweg der bAV – inkl. Rentenabwicklung, Gutachten und PSV-Handling. Stark spezialisierte, teils kanzleinahe Anbieter mit wiederkehrenden Verwaltungsentgelten.",
+      "scores": {
+        "recurring": 5,
+        "fragmentation": 4,
+        "compliance": 5,
+        "scale": 0,
+        "margin": 0,
+        "growth": 0,
+        "headroom": 0,
+        "reimbursement_risk": 0
+      },
+      "rationale": {
+        "recurring": "Kasse verwaltet laufende Renten- und Anwartschaftsfaelle gegen Entgelt ueber Jahrzehnte.",
+        "fragmentation": "Viele kleine spezialisierte Anbieter (AUTHENT, Deutsche Unterstuetzungskasse) neben Versicherer-Gruppenkassen; stark fragmentiert.",
+        "compliance": "BetrAVG, EStG §4d, PSV-Insolvenzsicherung und steuerliche Anerkennung treiben den Verwaltungsbedarf."
+      },
+      "composite": 91.7,
+      "dach_signals": {
+        "est_players": "~50+ Gruppen-/pauschaldotierte U-Kassen und Verwalter",
+        "revenue_band_eur": "EUR 0.5-5m typisch bei Spezialverwaltern",
+        "example_companies": [
+          "AUTHENT-Gruppe (pdUK, Nuernberg)",
+          "Deutsche Unterstuetzungskasse",
+          "WTW (Gruppen-Unterstuetzungskassen)"
+        ],
+        "regulation": [
+          "BetrAVG",
+          "EStG §4d",
+          "PSVaG-Insolvenzsicherung"
+        ]
+      },
+      "sources": [
+        {
+          "title": "Pauschaldotierte Unterstuetzungskasse – AUTHENT-Gruppe",
+          "url": "https://authent-gruppe.de/pauschaldotierte-unterstuetzungskasse-pduk/",
+          "note": "Hochspezialisierter Anbieter (Nuernberg) fuer pauschaldotierte Unterstuetzungskassen"
+        },
+        {
+          "title": "Gruppen-Unterstuetzungskassen – WTW",
+          "url": "https://www.wtwco.com/de-de/solutions/products/gruppen-unterstuetzungskassen",
+          "note": "Beratung, Produktauswahl und Verwaltung von Unterstuetzungskassen-Leistungen"
+        },
+        {
+          "title": "DUK Deutsche Unterstuetzungskasse",
+          "url": "https://www.deutsche-unterstuetzungskasse.de/",
+          "note": "Unabhaengige, kongruent rueckgedeckte Unterstuetzungskasse als fuehrender Anbieter"
+        }
+      ],
+      "confidence": 4,
+      "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
+      "investability": "open",
+      "investability_note": "",
+      "actionable": {},
+      "child_ids": []
+    },
+    "insurance-brokerage-financial-services-value-chain/employee-benefits-occupational-pensions-bav/digitale-bav-saas-tpa-plattformen": {
+      "id": "insurance-brokerage-financial-services-value-chain/employee-benefits-occupational-pensions-bav/digitale-bav-saas-tpa-plattformen",
+      "name": "Digitale bAV-SaaS- / TPA-Plattformen",
+      "parent_id": "insurance-brokerage-financial-services-value-chain/employee-benefits-occupational-pensions-bav",
+      "level": 2,
+      "path": [
+        "Insurance Brokerage & Financial Services value chain",
+        "Employee Benefits & Occupational Pensions (bAV)",
+        "Digitale bAV-SaaS- / TPA-Plattformen"
+      ],
+      "value_chain_stage": "software",
+      "description": "Cloud-Plattformen fuer die digitale, revisionssichere Verwaltung von bAV ueber alle Durchfuehrungswege, mit Schnittstellen zu HR-/Lohnsystemen (DATEV, SAP, Personio) – von reiner SaaS bis zum vollstaendigen System-Outsourcing. Wiederkehrende Lizenz-/Transaktionsumsaetze.",
+      "scores": {
+        "recurring": 5,
+        "fragmentation": 3,
+        "compliance": 4,
+        "scale": 0,
+        "margin": 0,
+        "growth": 0,
+        "headroom": 0,
+        "reimbursement_risk": 0
+      },
+      "rationale": {
+        "recurring": "SaaS-Abonnements und Pro-Kopf-Verwaltungsgebuehren binden Kunden langfristig.",
+        "fragmentation": "Grosse Player (Xempus/ehem. xbAV) neben mittelstaendischen Anbietern wie E&R AG und PCaK/bixie – konsolidierbarer Mittelbau.",
+        "compliance": "DSGVO-Konformitaet, revisionssichere Dokumentation und arbeits-/steuerrechtliche Abbildung getrieben, aber Software selbst nicht gesetzlich vorgeschrieben."
+      },
+      "composite": 75.0,
+      "dach_signals": {
+        "est_players": "~10-20 bAV-Software-/Plattformanbieter",
+        "revenue_band_eur": "EUR 2-30m (bis Scale-up-Groesse)",
+        "example_companies": [
+          "Entgelt & Rente AG (E&R)",
+          "PCaK / bixie",
+          "Xempus (ehem. xbAV)"
+        ],
+        "regulation": [
+          "DSGVO",
+          "BetrAVG",
+          "Digitale Rentenuebersicht (RentUEG)"
+        ]
+      },
+      "sources": [
+        {
+          "title": "bixie – bAV Software fuer digitale integrierte Verwaltung",
+          "url": "https://bixie.de/",
+          "note": "Cloud-basiertes bAV-Verwaltungssystem ueber alle Durchfuehrungswege, API zu DATEV/SAP/Personio"
+        },
+        {
+          "title": "E&R AG Cloudloesung – Software und Dienstleistung fuer HR",
+          "url": "https://er-ag.de/",
+          "note": "SaaS bis komplettes System-Outsourcing (TOS) fuer bAV und Entgeltabrechnung, seit 1998"
+        },
+        {
+          "title": "Aus xbAV wird Xempus",
+          "url": "https://www.experten.de/id/4921424/aus-xbav-wird-xempus/",
+          "note": "Fuehrende bAV-Digitalisierungsplattform, >50m EUR Wachstumsfinanzierung, Umbenennung zu Xempus"
+        }
+      ],
+      "confidence": 4,
+      "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
+      "investability": "open",
+      "investability_note": "",
+      "actionable": {},
+      "child_ids": []
+    },
+    "insurance-brokerage-financial-services-value-chain/employee-benefits-occupational-pensions-bav/betriebliche-krankenversicherung-bkv-benefits-plattformen": {
+      "id": "insurance-brokerage-financial-services-value-chain/employee-benefits-occupational-pensions-bav/betriebliche-krankenversicherung-bkv-benefits-plattformen",
+      "name": "Betriebliche Krankenversicherung (bKV) & Benefits-Plattformen",
+      "parent_id": "insurance-brokerage-financial-services-value-chain/employee-benefits-occupational-pensions-bav",
+      "level": 2,
+      "path": [
+        "Insurance Brokerage & Financial Services value chain",
+        "Employee Benefits & Occupational Pensions (bAV)",
+        "Betriebliche Krankenversicherung (bKV) & Benefits-Plattformen"
+      ],
+      "value_chain_stage": "services",
+      "description": "Beratung, Vermittlung und laufende Verwaltung arbeitgeberfinanzierter betrieblicher Krankenversicherung (bKV) und weiterer Mitarbeiter-Benefits ueber Spezialmakler und digitale Plattformen mit Marktvergleich, Einfuehrung und Bestandsadministration.",
+      "scores": {
+        "recurring": 4,
+        "fragmentation": 4,
+        "compliance": 3,
+        "scale": 0,
+        "margin": 0,
+        "growth": 0,
+        "headroom": 0,
+        "reimbursement_risk": 0
+      },
+      "rationale": {
+        "recurring": "Laufende Bestandsverwaltung und jaehrliche Vertragsbetreuung mit wiederkehrenden Courtagen/Servicegebuehren.",
+        "fragmentation": "Viele spezialisierte bKV-Makler und Plattformen (ofelos, Deutscher bKV-Service) neben Versicherern – stark fragmentiert.",
+        "compliance": "Reguliert (VVG, §34d GewO Maklerpflichten), aber bKV ist freiwillige Arbeitgeberleistung, nicht gesetzlich vorgeschrieben."
+      },
+      "composite": 66.7,
+      "dach_signals": {
+        "est_players": "~60.000 Unternehmen mit bKV (2025); zahlreiche Spezialmakler/Plattformen",
+        "revenue_band_eur": "EUR 0.5-5m typisch bei Spezialmaklern/Plattformen",
+        "example_companies": [
+          "ofelos",
+          "Deutscher bKV-Service (dbkvs)",
+          "Pension Capital (bKV-Outsourcing)"
+        ],
+        "regulation": [
+          "VVG",
+          "GewO §34d",
+          "DSGVO"
+        ]
+      },
+      "sources": [
+        {
+          "title": "Diese Anbieter fuer die betriebliche Krankenversicherung gibt es – ofelos",
+          "url": "https://ofelos.net/betriebliche-krankenversicherung-anbieter",
+          "note": "Digitale Plattform: Marktvergleich, Beratung, Einfuehrung und laufende Verwaltung der bKV; 60.000 Unternehmen mit bKV in 2025"
+        },
+        {
+          "title": "bKV betriebliche Krankenversicherung – Deutscher bKV-Service",
+          "url": "https://dbkvs.de/",
+          "note": "Spezialisierter bKV-Dienstleister fuer Arbeitgeber"
+        },
+        {
+          "title": "bAV und bKV Outsourcing – Pension Capital",
+          "url": "https://pensioncapital.de/bav-und-bkv-outsourcing/",
+          "note": "Verwaltungs-Outsourcing auch fuer bKV-Bestaende"
+        }
+      ],
+      "confidence": 3,
+      "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
+      "investability": "open",
+      "investability_note": "",
+      "actionable": {},
+      "child_ids": []
+    },
+    "insurance-brokerage-financial-services-value-chain/claims-loss-adjusting-ancillary-services/leckortung-wasserschaden-erstservice-leak-detection": {
+      "id": "insurance-brokerage-financial-services-value-chain/claims-loss-adjusting-ancillary-services/leckortung-wasserschaden-erstservice-leak-detection",
+      "name": "Leckortung & Wasserschaden-Erstservice (leak detection)",
+      "parent_id": "insurance-brokerage-financial-services-value-chain/claims-loss-adjusting-ancillary-services",
+      "level": 2,
+      "path": [
+        "Insurance Brokerage & Financial Services value chain",
+        "Claims, Loss Adjusting & Ancillary Services",
+        "Leckortung & Wasserschaden-Erstservice (leak detection)"
+      ],
+      "value_chain_stage": "services",
+      "description": "Owner-run und Franchise-Betriebe, die bei Wasserschäden Lecks zerstörungsarm orten (Thermografie, Tracergas, Akustik) und den Schaden-Erstservice/Bautrocknung übernehmen. Klassische, wiederkehrende Leistung auf Gebäude-/Wohngebäudeversicherungsfälle.",
+      "scores": {
+        "recurring": 4,
+        "fragmentation": 5,
+        "compliance": 3,
+        "scale": 0,
+        "margin": 0,
+        "growth": 0,
+        "headroom": 0,
+        "reimbursement_risk": 0
+      },
+      "rationale": {
+        "recurring": "Leckortung wird bei bestehendem versichertem Schaden von der Wohngebäudeversicherung getragen; kontinuierlicher Fallstrom aus Versicherer-/Vermittlernetzen.",
+        "fragmentation": "LOCATEC allein >60 Standorte als regionale, inhaberbetriebene Betriebe plus dutzende unabhängige Spezialisten (Blue Detect, Specht, Leckageortung.de) - kein dominanter Konsolidierer.",
+        "compliance": "Kostenerstattung an Versicherungsbedingungen (nachgewiesener versicherter Schaden, Dokumentation) geknüpft, aber Regulierung selbst kein Kaufzwang."
+      },
+      "composite": 75.0,
+      "dach_signals": {
+        "est_players": "mehrere hundert Betriebe (LOCATEC allein >60 Standorte / >200 Fahrzeuge)",
+        "revenue_band_eur": "EUR 0.3-3m typical",
+        "example_companies": [
+          "LOCATEC Ortungstechnik",
+          "Blue Detect",
+          "Specht GmbH (Norddeutschland)",
+          "Leckageortung.de"
+        ],
+        "regulation": [
+          "VGB Wohngebäude-Versicherungsbedingungen",
+          "Leckortungsklausel / Kostenerstattung Gebäudeversicherung"
+        ]
+      },
+      "sources": [
+        {
+          "title": "LOCATEC | Leckortung & SchadenERSTservice",
+          "url": "https://www.locatec.de/",
+          "note": "Marktführer Leckortung DACH, >25 Jahre, inhabergeführte Standorte"
+        },
+        {
+          "title": "LOCATEC Standorte / Franchise",
+          "url": "https://franchise.locatec.de/home",
+          "note": ">60 Standorte, >200 Einsatzfahrzeuge DE/AT, Franchise mit inhabergeführten Regionalbetrieben"
+        },
+        {
+          "title": "Leckageortung - Verivox Ratgeber",
+          "url": "https://www.verivox.de/wohngebaeudeversicherung/ratgeber/zahlt-die-gebaeudeversicherung-eine-leckortung-1118785/",
+          "note": "Gebäudeversicherung trägt Leckortungskosten bei versichertem Schaden"
+        },
+        {
+          "title": "Blue Detect Leckageortung",
+          "url": "https://www.bluedetect.de/",
+          "note": "unabhängiger Leckortungs-Spezialbetrieb"
+        }
+      ],
+      "confidence": 4,
+      "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
+      "investability": "open",
+      "investability_note": "",
+      "actionable": {},
+      "child_ids": []
+    },
+    "insurance-brokerage-financial-services-value-chain/claims-loss-adjusting-ancillary-services/kfz-schadengutachter-motor-damage-appraisal": {
+      "id": "insurance-brokerage-financial-services-value-chain/claims-loss-adjusting-ancillary-services/kfz-schadengutachter-motor-damage-appraisal",
+      "name": "Kfz-Schadengutachter (motor damage appraisal)",
+      "parent_id": "insurance-brokerage-financial-services-value-chain/claims-loss-adjusting-ancillary-services",
+      "level": 2,
+      "path": [
+        "Insurance Brokerage & Financial Services value chain",
+        "Claims, Loss Adjusting & Ancillary Services",
+        "Kfz-Schadengutachter (motor damage appraisal)"
+      ],
+      "value_chain_stage": "services",
+      "description": "Freie, meist inhabergeführte Kfz-Sachverständigenbüros, die nach Unfällen Schadengutachten, Restwert- und Wiederbeschaffungswertermittlung erstellen - überwiegend für Haftpflicht-/Kasko-Fälle und Werkstattnetze.",
+      "scores": {
+        "recurring": 4,
+        "fragmentation": 5,
+        "compliance": 3,
+        "scale": 0,
+        "margin": 0,
+        "growth": 0,
+        "headroom": 0,
+        "reimbursement_risk": 0
+      },
+      "rationale": {
+        "recurring": "Konstante Fallzahl aus Verkehrsunfällen; Gutachten pro Schaden neu beauftragt über Werkstatt-/Versicherer-/Anwaltsnetze.",
+        "fragmentation": "~10.000 Kfz-Sachverständigenbüros in DE, BVSK-Verband nur ~1.000 Mitglieder in 17 Landesgruppen; DAT/SSH/intertaxexpert bündeln nur Teile.",
+        "compliance": "Begriff 'Sachverständiger' nicht geschützt, aber ~80% BVSK-Mitglieder oeffentlich bestellt/zertifiziert; Qualifikation prägt Panel-Zugang."
+      },
+      "composite": 75.0,
+      "dach_signals": {
+        "est_players": "~10,000 Kfz-Sachverständigenbüros in DE",
+        "revenue_band_eur": "EUR 0.2-2m typical",
+        "example_companies": [
+          "SSH Sachverständige (>200 Standorte)",
+          "DAT Expert-Partner",
+          "intertaxexpert (~600 Büros)",
+          "ADAC Vertragssachverständige"
+        ],
+        "regulation": [
+          "oeffentliche Bestellung §36 GewO",
+          "BVSK-Honorartableau",
+          "DAT/Audatex Kalkulationsstandards"
+        ]
+      },
+      "sources": [
+        {
+          "title": "BVSK e.V. - Bundesverband Kfz-Sachverständige",
+          "url": "https://www.bvsk.de/",
+          "note": "~1.000 Mitglieder in 17 Landesgruppen; ~10.000 Büros bundesweit"
+        },
+        {
+          "title": "Wie sich das Geschaeft fuer freie Gutachter veraendert - schaden.news",
+          "url": "https://schaden.news/de/article/link/43310/reportage-wie-sich-das-geschaeft-fuer-freie-gutachter-veraendert",
+          "note": "intertaxexpert-Netzwerk mit bis zu 600 Sachverständigenbüros"
+        },
+        {
+          "title": "SSH Sachverständige",
+          "url": "https://www.schaden-schnell-hilfe.de/",
+          "note": "Kfz-Gutachter-Netzwerk >200 Standorte"
+        },
+        {
+          "title": "DAT Kfz-Sachverständige finden",
+          "url": "https://www.dat.de/sachverstaendige/",
+          "note": "DAT Expert-Partner an mehreren hundert Standorten"
+        }
+      ],
+      "confidence": 4,
+      "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
+      "investability": "open",
+      "investability_note": "",
+      "actionable": {},
+      "child_ids": []
+    },
+    "insurance-brokerage-financial-services-value-chain/claims-loss-adjusting-ancillary-services/gebaude-bausachverstandige-sach-schadenregulierung": {
+      "id": "insurance-brokerage-financial-services-value-chain/claims-loss-adjusting-ancillary-services/gebaude-bausachverstandige-sach-schadenregulierung",
+      "name": "Gebäude-/Bausachverständige & Sach-Schadenregulierung",
+      "parent_id": "insurance-brokerage-financial-services-value-chain/claims-loss-adjusting-ancillary-services",
+      "level": 2,
+      "path": [
+        "Insurance Brokerage & Financial Services value chain",
+        "Claims, Loss Adjusting & Ancillary Services",
+        "Gebäude-/Bausachverständige & Sach-Schadenregulierung"
+      ],
+      "value_chain_stage": "services",
+      "description": "Ingenieur- und Sachverständigenbüros, die Gebäude-, Hausrat-, Elementar- und Haftpflichtschäden im Versicherungsauftrag besichtigen, Ursache/Umfang feststellen und im Außendienst regulieren (Außenregulierung / Aussersachverständige).",
+      "scores": {
+        "recurring": 4,
+        "fragmentation": 5,
+        "compliance": 3,
+        "scale": 0,
+        "margin": 0,
+        "growth": 0,
+        "headroom": 0,
+        "reimbursement_risk": 0
+      },
+      "rationale": {
+        "recurring": "Versicherer lagern Besichtigung/Regulierung von Gebäude- und Sachschäden dauerhaft an PLZ-gebietsweise beauftragte Büros aus - stetiger Auftragsstrom.",
+        "fragmentation": "Viele kleine Ingenieur-/Sachverständigenbüros plus Netzvermittler (Deutsche Schaden-Service, DSH); kein dominanter Konsolidierer.",
+        "compliance": "Oeffentlich bestellte/zertifizierte Sachverständige für Bauwesen bevorzugt; Regulierung an Versicherungsbedingungen und Beweissicherung gebunden."
+      },
+      "composite": 75.0,
+      "dach_signals": {
+        "est_players": "mehrere tausend Ingenieur-/Sachverständigenbüros",
+        "revenue_band_eur": "EUR 0.3-3m typical",
+        "example_companies": [
+          "Sachverständigenbüro Cremer",
+          "Ingenieur- und Sachverständigenbüro Rachfahl",
+          "Deutsche Schaden-Service GmbH",
+          "Deutsche Schadenshilfe (Gutachtervermittlung)"
+        ],
+        "regulation": [
+          "oeffentliche Bestellung §36 GewO / DIN EN ISO 17024",
+          "VGB/AHB Versicherungsbedingungen",
+          "Beweissicherungsverfahren"
+        ]
+      },
+      "sources": [
+        {
+          "title": "Schadenregulierer / Bausachverständiger - Cremer",
+          "url": "https://www.sachverstaendigercremer.de/schadenregulierer-2/",
+          "note": "inhabergeführtes Büro für Gebäudeschadenregulierung im Versicherungsauftrag"
+        },
+        {
+          "title": "Deutsche Schaden-Service GmbH - Versicherungen",
+          "url": "https://www.deutscheschadenservice.de/versicherungen/",
+          "note": "deutschlandweites Netz von Sachverständigen für Haftpflicht-/Sachschadenregulierung"
+        },
+        {
+          "title": "Außenregulierer - Gabler Versicherungslexikon",
+          "url": "https://www.versicherungsmagazin.de/lexikon/aussenregulierer-1944623.html",
+          "note": "definiert PLZ-gebietsweise Vor-Ort-Regulierung von Sachschäden"
+        },
+        {
+          "title": "Gebäudesachverständiger - Deutsche Schadenshilfe",
+          "url": "https://deutsche-schadenshilfe.de/sachverstaendige/gebaeudesachverstaendiger-gutachter-fuer-gebaeudeschaeden/",
+          "note": "Gutachtervermittlung fuer Gebaeudeschaeden gegenueber Versicherung"
+        }
+      ],
+      "confidence": 4,
+      "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
+      "investability": "open",
+      "investability_note": "",
+      "actionable": {},
+      "child_ids": []
+    },
+    "insurance-brokerage-financial-services-value-chain/claims-loss-adjusting-ancillary-services/brand-wasserschadensanierung-property-restoration": {
+      "id": "insurance-brokerage-financial-services-value-chain/claims-loss-adjusting-ancillary-services/brand-wasserschadensanierung-property-restoration",
+      "name": "Brand- & Wasserschadensanierung (property restoration)",
+      "parent_id": "insurance-brokerage-financial-services-value-chain/claims-loss-adjusting-ancillary-services",
+      "level": 2,
+      "path": [
+        "Insurance Brokerage & Financial Services value chain",
+        "Claims, Loss Adjusting & Ancillary Services",
+        "Brand- & Wasserschadensanierung (property restoration)"
+      ],
+      "value_chain_stage": "services",
+      "description": "Sanierungsbetriebe, die nach Brand-, Wasser- und Elementarschäden Trocknung, Dekontamination und Wiederherstellung durchführen - hoch versicherungsgetrieben, mit langem Schwanz regionaler inhabergeführter Firmen unter den Großen (Belfor, Polygon).",
+      "scores": {
+        "recurring": 4,
+        "fragmentation": 4,
+        "compliance": 3,
+        "scale": 0,
+        "margin": 0,
+        "growth": 0,
+        "headroom": 0,
+        "reimbursement_risk": 0
+      },
+      "rationale": {
+        "recurring": "Stetiger Fallstrom aus Wohngebäude-/Hausrat-/Gewerbeschäden; Polygon allein ~130.000 Aufträge/Jahr; Sanierer arbeiten eng mit Versicherer-Regulierern.",
+        "fragmentation": "Spitze konsolidiert (Belfor Weltmarktführer, Polygon 32+ Standorte), aber breiter Long-Tail regionaler Brand-/Wasserschadensanierer (D.S., artus).",
+        "compliance": "Kontaminationsanalyse (Asbest, PAK, Ruß), Entsorgungs- und Arbeitsschutzvorgaben; versicherungskonforme Angebote erforderlich."
+      },
+      "composite": 66.7,
+      "dach_signals": {
+        "est_players": "hunderte regionale Sanierungsbetriebe unter 2-3 Großen",
+        "revenue_band_eur": "EUR 1-10m typical (Long-Tail EUR 1-3m)",
+        "example_companies": [
+          "Belfor Deutschland",
+          "Polygon Deutschland (ehem. PolygonVatro)",
+          "D.S. Brand- & Wasserschadensanierung GmbH & Co. KG",
+          "artus BSG"
+        ],
+        "regulation": [
+          "GefahrstoffV/TRGS 519 (Asbest)",
+          "VDI 6202 Schadstoffsanierung",
+          "versicherungskonforme Kostenkalkulation"
+        ]
+      },
+      "sources": [
+        {
+          "title": "PolygonVatro / Polygon Deutschland - Wikipedia",
+          "url": "https://de.wikipedia.org/wiki/PolygonVatro",
+          "note": "Sanierung nach Brand/Wasser, ~130.000 Aufträge/Jahr, 32 Standorte, Historie ISS->Polygon AB"
+        },
+        {
+          "title": "BELFOR Deutschland - Schadensanierung",
+          "url": "https://www.belfor.com/de/de/unsere-leistungen/schadensanierung/",
+          "note": "Weltmarktführer Schadensanierung, Zusammenarbeit mit Versicherern"
+        },
+        {
+          "title": "D.S. Brand- & Wasserschadensanierung GmbH & Co. KG",
+          "url": "https://www.ds-brandsanierung.de/",
+          "note": "regionaler Sanierer, arbeitet mit Versicherungs-Regulierern"
+        },
+        {
+          "title": "Brandschadensanierung - Deutsche Schadenshilfe",
+          "url": "https://deutsche-schadenshilfe.de/brandschaden/brandschadensanierung-firmen-kosten-preise-brandschadensanierer/",
+          "note": "Vermittlung von Sanierern, Kontaminationsanalyse, Versicherungsabwicklung"
+        }
+      ],
+      "confidence": 4,
+      "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
+      "investability": "open",
+      "investability_note": "",
+      "actionable": {},
+      "child_ids": []
+    },
+    "insurance-brokerage-financial-services-value-chain/claims-loss-adjusting-ancillary-services/24h-schaden-notdienst-assistance-netzwerke": {
+      "id": "insurance-brokerage-financial-services-value-chain/claims-loss-adjusting-ancillary-services/24h-schaden-notdienst-assistance-netzwerke",
+      "name": "24h-Schaden-Notdienst & Assistance-Netzwerke",
+      "parent_id": "insurance-brokerage-financial-services-value-chain/claims-loss-adjusting-ancillary-services",
+      "level": 2,
+      "path": [
+        "Insurance Brokerage & Financial Services value chain",
+        "Claims, Loss Adjusting & Ancillary Services",
+        "24h-Schaden-Notdienst & Assistance-Netzwerke"
+      ],
+      "value_chain_stage": "services",
+      "description": "Netzwerke und Einzelbetriebe für 24h-Notdienst bei Rohrbruch, Sanitär-, Elektro- und Schlüsselnotfällen - Erstintervention und Schadenbegrenzung, häufig über Versicherer-Schutzbriefe (Assistance) getriggert.",
+      "scores": {
+        "recurring": 4,
+        "fragmentation": 5,
+        "compliance": 2,
+        "scale": 0,
+        "margin": 0,
+        "growth": 0,
+        "headroom": 0,
+        "reimbursement_risk": 0
+      },
+      "rationale": {
+        "recurring": "Notfälle treten kontinuierlich auf; Versicherer-Schutzbriefe (ADAC Zuhause-Schutzbrief, Allianz Haus-/Wohnungsschutzbrief) speisen dauerhaft Aufträge in Handwerkernetze.",
+        "fragmentation": "Tausende lokale Sanitär-/Notdienstbetriebe plus Vermittler-Plattformen (Schadenfrosch, MeinNotdienst24, WorkerNow) - stark zersplittert.",
+        "compliance": "Wenig regulatorischer Zwang; getrieben durch Assistance-Verträge und Verfügbarkeitszusagen statt Gesetz."
+      },
+      "composite": 66.7,
+      "dach_signals": {
+        "est_players": "tausende lokale Notdienstbetriebe / mehrere Vermittlungsnetze",
+        "revenue_band_eur": "EUR 0.2-2m typical",
+        "example_companies": [
+          "Schadenfrosch (24h Sanitär Notdienst)",
+          "MeinNotdienst24",
+          "WorkerNow",
+          "Rohrreinigung Bach"
+        ],
+        "regulation": [
+          "Assistance-/Schutzbrief-Verträge (ADAC, Allianz)",
+          "Hausrat-Zusatzbausteine (Handwerker-Service)"
+        ]
+      },
+      "sources": [
+        {
+          "title": "Allianz Haus- und Wohnungsschutzbrief",
+          "url": "https://www.allianz.de/recht-und-eigentum/hausratversicherung/haus-und-wohnungsschutzbrief/",
+          "note": "24h-Notfallservice über Versicherer-Schutzbrief, Handwerkernetz"
+        },
+        {
+          "title": "ADAC Zuhause-Schutzbrief",
+          "url": "https://www.adac.de/produkte/versicherungen/zuhause-schutzbrief/tarife-und-leistungen/",
+          "note": "24/7 Handwerkernetz über Versicherungsprodukt"
+        },
+        {
+          "title": "Schadenfrosch - 24h Sanitär Notdienst",
+          "url": "https://www.schadenfrosch.de/",
+          "note": "24h Notdienst-Netzwerk Sanitär/Wasserschaden"
+        },
+        {
+          "title": "MeinNotdienst24 - 24h Notdienst Deutschland",
+          "url": "https://meinnotdienst24.de/",
+          "note": "bundesweites Notdienst-Vermittlungsnetz Elektrik/Sanitär/Schlüssel"
+        }
+      ],
+      "confidence": 3,
+      "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
+      "investability": "open",
+      "investability_note": "",
+      "actionable": {},
+      "child_ids": []
+    },
+    "insurance-brokerage-financial-services-value-chain/claims-loss-adjusting-ancillary-services/schaden-sanierungssteuerung-claims-bpo-fur-versicherer": {
+      "id": "insurance-brokerage-financial-services-value-chain/claims-loss-adjusting-ancillary-services/schaden-sanierungssteuerung-claims-bpo-fur-versicherer",
+      "name": "Schaden-/Sanierungssteuerung & Claims-BPO für Versicherer",
+      "parent_id": "insurance-brokerage-financial-services-value-chain/claims-loss-adjusting-ancillary-services",
+      "level": 2,
+      "path": [
+        "Insurance Brokerage & Financial Services value chain",
+        "Claims, Loss Adjusting & Ancillary Services",
+        "Schaden-/Sanierungssteuerung & Claims-BPO für Versicherer"
+      ],
+      "value_chain_stage": "services",
+      "description": "Dienstleister, die für Versicherer die Steuerung von Reparatur-, Sanierungs- und Sachverständigenaufträgen sowie Außenregulierung/Claims-BPO übernehmen - Bündelung fragmentierter Handwerker-/Sachverständigennetze auf vertraglicher Basis.",
+      "scores": {
+        "recurring": 5,
+        "fragmentation": 3,
+        "compliance": 3,
+        "scale": 0,
+        "margin": 0,
+        "growth": 0,
+        "headroom": 0,
+        "reimbursement_risk": 0
+      },
+      "rationale": {
+        "recurring": "Rahmenverträge mit Versicherern und Werkstatt-/Sanierernetzen mit einheitlichen Preis- und Qualitätsstandards - vertraglich wiederkehrender Volumenstrom.",
+        "fragmentation": "Oberer Markt konsolidiert (Innovation Group/Allianz, SPN, riparo, DEKRA), aber viele regionale Regulierungs-/Steuerungsbüros und Außenregulierungs-BPOs im Long-Tail.",
+        "compliance": "Datenschutz, Versicherungsvertragsrecht und Regulierungspflichten; oft outsourcinggetrieben, aber kein reiner Gesetzeszwang."
+      },
+      "composite": 66.7,
+      "dach_signals": {
+        "est_players": "wenige Große + Long-Tail regionaler Regulierungs-/Steuerungsbüros",
+        "revenue_band_eur": "EUR 1-20m+ (BPO-Skala)",
+        "example_companies": [
+          "Innovation Group (Allianz)",
+          "SPN Schaden-Prozess-Netzwerk",
+          "riparo (Provinzial/R+V/Württembergische)",
+          "excon Claims Solutions",
+          "Deutsche Schaden-Service"
+        ],
+        "regulation": [
+          "VVG / Regulierungspflichten",
+          "DSGVO Auftragsverarbeitung",
+          "Werkstatt-/Sanierer-Rahmenvereinbarungen"
+        ]
+      },
+      "sources": [
+        {
+          "title": "Schadensteuerung - Gabler Versicherungslexikon",
+          "url": "https://www.versicherungsmagazin.de/lexikon/schadensteuerung-1946565.html",
+          "note": "definiert Steuerung von Reparatur-/Sanierungsaufträgen; Innovation Group, SPN, riparo Gesellschafterstruktur"
+        },
+        {
+          "title": "Dienstleisternetzwerk - Gabler Versicherungslexikon",
+          "url": "https://www.versicherungsmagazin.de/lexikon/dienstleisternetzwerk-1944966.html",
+          "note": "einheitliche Preis-/Qualitätsstandards zwischen Versicherern und Dienstleistern"
+        },
+        {
+          "title": "excon - Field Claims Settlement / Außenregulierung",
+          "url": "https://www.excon.com/en/services-solutions/claims-solutions/field-claims-settlement",
+          "note": "Claims-BPO / Außenregulierung für Versicherer"
+        },
+        {
+          "title": "Digitales Schadenmanagement - DEKRA",
+          "url": "https://www.dekra.de/de/digitales-schadenmanagement/",
+          "note": "Schaden-/Sanierungssteuerung als Dienstleistung für Versicherer"
+        }
+      ],
+      "confidence": 3,
+      "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
+      "investability": "open",
+      "investability_note": "",
+      "actionable": {},
+      "child_ids": []
+    },
+    "insurance-brokerage-financial-services-value-chain/broker-pools-networks-bestandsverwaltung/bestandskauf-maklernachfolge-plattformen-courtage-buch-aufkaufer": {
+      "id": "insurance-brokerage-financial-services-value-chain/broker-pools-networks-bestandsverwaltung/bestandskauf-maklernachfolge-plattformen-courtage-buch-aufkaufer",
+      "name": "Bestandskauf-/Maklernachfolge-Plattformen (Courtage-Buch-Aufkäufer)",
+      "parent_id": "insurance-brokerage-financial-services-value-chain/broker-pools-networks-bestandsverwaltung",
+      "level": 2,
+      "path": [
+        "Insurance Brokerage & Financial Services value chain",
+        "Broker Pools, Networks & Bestandsverwaltung",
+        "Bestandskauf-/Maklernachfolge-Plattformen (Courtage-Buch-Aufkäufer)"
+      ],
+      "value_chain_stage": "distribution",
+      "description": "Spezialplattformen, die Versicherungsbestände (Courtage-/Provisionsbücher) altersbedingt ausscheidender Makler per Asset-Deal aufkaufen und gegen Einmalzahlung oder lebenslange Maklerrente die laufenden Courtagen übernehmen. Sie monetarisieren die DACH-Nachfolgewelle bei ~46.000 Versicherungsmaklern.",
+      "scores": {
+        "recurring": 5,
+        "fragmentation": 4,
+        "compliance": 3,
+        "scale": 0,
+        "margin": 0,
+        "growth": 0,
+        "headroom": 0,
+        "reimbursement_risk": 0
+      },
+      "rationale": {
+        "recurring": "Erworbene Bestände liefern jahrzehntelang laufende Bestands-/Betreuungscourtage; Policen Direkt kaufte in einem Q2 32 Bestände mit ~20 Mio. EUR Prämien und 1,65 Mio. EUR laufender Courtage.",
+        "fragmentation": "Mehrere konkurrierende Aufkäufer (Policen Direkt, Resultate Institut, blau direkt, Fonds Finanz) neben langem Schwanz von Nachfolge-Vermittlern und Boersen.",
+        "compliance": "GewO §34d-Erlaubnis, Datenschutz-/Bestandsuebertragungszustimmung und IDD-Betreuungspflicht regeln den Transfer, sind aber nicht Kaufmotiv."
+      },
+      "composite": 75.0,
+      "dach_signals": {
+        "est_players": "~10-20 aktive Aufkaeufer + Boersen; ~46.000 §34d-Makler als Verkaeuferpool",
+        "revenue_band_eur": "Bestandswerte typ. EUR 0.2-3m pro Deal; Aufkaeufer-Plattformen EUR 5-50m Umsatz",
+        "example_companies": [
+          "Policen Direkt (Maklerkauf)",
+          "Resultate Institut",
+          "blau direkt (Maklerrente)",
+          "Fonds Finanz Bestandskauf"
+        ],
+        "regulation": [
+          "GewO §34d",
+          "IDD Betreuungspflicht",
+          "DSGVO Bestandsuebertragung"
+        ]
+      },
+      "sources": [
+        {
+          "title": "Policen Direkt: Maklerbestaende mit 20 Mio. Euro Praemienvolumen verkauft",
+          "url": "https://www.dasinvestment.com/policen-direkt-versicherungsmakler-bestandskauf/",
+          "note": "Marktfuehrer beim Aufkauf kleiner/mittlerer Makler-Bestaende; 32 Bestaende/Quartal, 1,65 Mio. EUR Courtage, >300 Bestaende insgesamt"
+        },
+        {
+          "title": "Modell Bestandsverkauf - Policen Direkt Maklerkauf",
+          "url": "https://maklerkauf-policendirekt.de/modell-bestandsverkauf/",
+          "note": "Nachfolgemodell: Makler erhaelt 90-100% der Courtage bzw. lebenslange Rente gegen Bestandsuebertragung"
+        },
+        {
+          "title": "Bestandskauf - Fonds Finanz",
+          "url": "https://www.fondsfinanz.de/unternehmen/bestandskauf",
+          "note": "Pool kauft Bestaende oder uebernimmt sie zur Betreuung"
+        }
+      ],
+      "confidence": 4,
+      "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
+      "investability": "open",
+      "investability_note": "",
+      "actionable": {},
+      "child_ids": []
+    },
+    "insurance-brokerage-financial-services-value-chain/broker-pools-networks-bestandsverwaltung/maklerverwaltungsprogramme-mvp-kernsoftware": {
+      "id": "insurance-brokerage-financial-services-value-chain/broker-pools-networks-bestandsverwaltung/maklerverwaltungsprogramme-mvp-kernsoftware",
+      "name": "Maklerverwaltungsprogramme (MVP-Kernsoftware)",
+      "parent_id": "insurance-brokerage-financial-services-value-chain/broker-pools-networks-bestandsverwaltung",
+      "level": 2,
+      "path": [
+        "Insurance Brokerage & Financial Services value chain",
+        "Broker Pools, Networks & Bestandsverwaltung",
+        "Maklerverwaltungsprogramme (MVP-Kernsoftware)"
+      ],
+      "value_chain_stage": "software",
+      "description": "Kern-CRM/Bestandsverwaltungssoftware, mit der Makler Kunden, Vertraege, Schaeden und Dokumente verwalten; das operative Rueckgrat jeder Bestandsbetreuung und Uebernahme. Der DACH-Markt konsolidiert sich sichtbar unter wenigen Plattformen.",
+      "scores": {
+        "recurring": 5,
+        "fragmentation": 3,
+        "compliance": 3,
+        "scale": 0,
+        "margin": 0,
+        "growth": 0,
+        "headroom": 0,
+        "reimbursement_risk": 0
+      },
+      "rationale": {
+        "recurring": "SaaS-Lizenzen pro Nutzer/Monat mit sehr hohen Wechselkosten (Migration ganzer Bestaende), faktisch vertraglich wiederkehrend.",
+        "fragmentation": "Konsolidierung laeuft: Acturis (AMS/VIAS) beansprucht >50% Marktanteil, Hypoport/Smart InsurTech buendelt IWM u.a.; Zahl kleiner MVP-Anbieter sinkt stetig.",
+        "compliance": "GDV/BiPRO-Normen und DSGVO-Datenhaltung sind Pflicht, treiben Kaufentscheidung aber nur mittelbar."
+      },
+      "composite": 66.7,
+      "dach_signals": {
+        "est_players": "~15-25 MVP-Anbieter, schrumpfend durch M&A",
+        "revenue_band_eur": "Smart InsurTech Segmentumsatz ~65 Mio. EUR (2023); Nischenanbieter EUR 1-10m",
+        "example_companies": [
+          "AssFinet / Acturis (AMS, VIAS)",
+          "Smart InsurTech / IWM (Hypoport)",
+          "meinMVP",
+          "keasy",
+          "zeitsprung"
+        ],
+        "regulation": [
+          "BiPRO-Normen",
+          "GDV-Standards",
+          "DSGVO"
+        ]
+      },
+      "sources": [
+        {
+          "title": "Konsolidierung der Branche II: Marktmacht der Softwareanbieter",
+          "url": "https://versicherungswirtschaft-heute.de/maerkte-und-vertrieb/2020-08-03/konsolidierung-der-branche-ii-marktmacht-der-softwareanbieter/",
+          "note": "Acturis uebernimmt AssFinet/Lutronik, >50% Marktanteil mit AMS/VIAS; Zahl kleiner MVP-Anbieter sinkt"
+        },
+        {
+          "title": "Ueber uns / Plattform - Smart InsurTech",
+          "url": "https://www.smartinsurtech.de/maklerverwaltungsprogramm/",
+          "note": "Cloud-MVP Smart Admin mit BiPRO, Bestandsverwaltung und Abrechnung; Hypoport-Tochter mit ~65 Mio. EUR Segmentumsatz"
+        },
+        {
+          "title": "Das MVP der neuesten Generation | meinMVP",
+          "url": "https://www.meinmvp.de/",
+          "note": "Web-basiertes MVP mit Beratung, Vergleich und Verwaltung"
+        }
+      ],
+      "confidence": 4,
+      "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
+      "investability": "open",
+      "investability_note": "",
+      "actionable": {},
+      "child_ids": []
+    },
+    "insurance-brokerage-financial-services-value-chain/broker-pools-networks-bestandsverwaltung/vergleichs-analysesoftware-fuer-makler-tarifrechner": {
+      "id": "insurance-brokerage-financial-services-value-chain/broker-pools-networks-bestandsverwaltung/vergleichs-analysesoftware-fuer-makler-tarifrechner",
+      "name": "Vergleichs- & Analysesoftware fuer Makler (Tarifrechner)",
+      "parent_id": "insurance-brokerage-financial-services-value-chain/broker-pools-networks-bestandsverwaltung",
+      "level": 2,
+      "path": [
+        "Insurance Brokerage & Financial Services value chain",
+        "Broker Pools, Networks & Bestandsverwaltung",
+        "Vergleichs- & Analysesoftware fuer Makler (Tarifrechner)"
+      ],
+      "value_chain_stage": "software",
+      "description": "Tarif-Vergleichs- und Analysetools, mit denen Makler Angebote rechnen, Ratings erstellen und Antraege ausloesen; oft direkt in MVPs integriert. Quasi unverzichtbar im Beratungsprozess und stark abo-basiert.",
+      "scores": {
+        "recurring": 5,
+        "fragmentation": 3,
+        "compliance": 3,
+        "scale": 0,
+        "margin": 0,
+        "growth": 0,
+        "headroom": 0,
+        "reimbursement_risk": 0
+      },
+      "rationale": {
+        "recurring": "Lizenz-/Aboverträge pro Sparte, in tägliche Beratung eingebettet; jährlich re-lizenziert.",
+        "fragmentation": "Fuehrend NAFI (67% Nutzung Kfz), softfair.ONE (29%), VEMA-Rechner (28%), M&M Office (27%) - mehrere spezialisierte Anbieter statt eines Monopols.",
+        "compliance": "IDD-Beratungsdokumentation und best-advice-Pflichten machen Vergleichsdoku faktisch notwendig, aber nicht statutar erzwungenes Spend."
+      },
+      "composite": 66.7,
+      "dach_signals": {
+        "est_players": "~10-15 relevante Vergleichs-/Analyseanbieter",
+        "revenue_band_eur": "EUR 3-40m Umsatz je Anbieter",
+        "example_companies": [
+          "NAFI GmbH",
+          "MORGEN & MORGEN (M&M Office, JDC-nah)",
+          "softfair",
+          "VEMA-Rechner"
+        ],
+        "regulation": [
+          "IDD Beratungs-/Dokumentationspflicht",
+          "VVG Informationspflichten"
+        ]
+      },
+      "sources": [
+        {
+          "title": "Vergleichsprogramme: Welche Tools Makler nutzen und was sie erwarten",
+          "url": "https://www.asscompact.de/nachrichten/vergleichsprogramme-welche-tools-makler-nutzen-und-was-sie-erwarten",
+          "note": "NAFI 67%, softfair.ONE 29%, VEMA 28%, M&M Office 27% Nutzungsanteile"
+        },
+        {
+          "title": "Startseite - MORGEN & MORGEN GmbH",
+          "url": "https://morgenundmorgen.com/",
+          "note": "Marktfuehrer Analyse-/Vergleichssoftware mit eigener Tarifnachrechnung"
+        },
+        {
+          "title": "NAFI Online Rechner",
+          "url": "https://geldio.de/nafi-online-rechner/",
+          "note": "Kfz-Vergleichs- und Verwaltungstool, >30 Jahre am Markt"
+        }
+      ],
+      "confidence": 4,
+      "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
+      "investability": "open",
+      "investability_note": "",
+      "actionable": {},
+      "child_ids": []
+    },
+    "insurance-brokerage-financial-services-value-chain/broker-pools-networks-bestandsverwaltung/digitale-courtage-provisionsabrechnungs-plattformen-bipro-bpo": {
+      "id": "insurance-brokerage-financial-services-value-chain/broker-pools-networks-bestandsverwaltung/digitale-courtage-provisionsabrechnungs-plattformen-bipro-bpo",
+      "name": "Digitale Courtage-/Provisionsabrechnungs-Plattformen (BiPRO-BPO)",
+      "parent_id": "insurance-brokerage-financial-services-value-chain/broker-pools-networks-bestandsverwaltung",
+      "level": 2,
+      "path": [
+        "Insurance Brokerage & Financial Services value chain",
+        "Broker Pools, Networks & Bestandsverwaltung",
+        "Digitale Courtage-/Provisionsabrechnungs-Plattformen (BiPRO-BPO)"
+      ],
+      "value_chain_stage": "software",
+      "description": "Spezialsoftware und BPO, die Provisions-/Courtagedaten vieler Versicherer per BiPRO-Norm 430 automatisiert einlesen, Vermittlerstrukturen zuordnen und Abrechnungen erstellen - Kernprozess von Pools, Vertrieben und Bestandsverwaltern.",
+      "scores": {
+        "recurring": 5,
+        "fragmentation": 4,
+        "compliance": 4,
+        "scale": 0,
+        "margin": 0,
+        "growth": 0,
+        "headroom": 0,
+        "reimbursement_risk": 0
+      },
+      "rationale": {
+        "recurring": "Monatliche/quartalsweise Abrechnungslaeufe als laufende SaaS-/BPO-Leistung; hohe Prozessbindung.",
+        "fragmentation": "Zersplittert unter Spezialanbietern (b-tix, Inveda/IBePro) plus MVP-integrierte Loesungen - kein dominanter Standard-Consolidator.",
+        "compliance": "BiPRO-Normen 430.x sind De-facto-Pflichtstandard fuer den Abrechnungsverkehr; korrekte Provisionsabrechnung ist regulatorisch/handelsrechtlich sensibel."
+      },
+      "composite": 83.3,
+      "dach_signals": {
+        "est_players": "~10-20 Abrechnungs-/BiPRO-Spezialisten und Dienstleister",
+        "revenue_band_eur": "EUR 1-15m typisch",
+        "example_companies": [
+          "b-tix GmbH",
+          "Inveda.net (IBePro)",
+          "Smart InsurTech (Abrechnungsmodul)"
+        ],
+        "regulation": [
+          "BiPRO-Norm 430.3 / 430.7 Provisionsabrechnung",
+          "HGB Provisionsrecht"
+        ]
+      },
+      "sources": [
+        {
+          "title": "Provisionsabrechnung | BiPRO",
+          "url": "https://www.bipro.net/projekte/provisionsabrechnung",
+          "note": "BiPRO-Norm 430.3 (2011) / 430.7 (2019) fuer elektronische Provisionsabrechnung zwischen Versicherer und Vermittler"
+        },
+        {
+          "title": "IBePro - Bestandsverwaltung und Provisionsabrechnung | Inveda.net",
+          "url": "https://ibepro.inveda.net/",
+          "note": "Software fuer Bestandsverwaltung und Courtageabrechnung fuer Pools/Vertriebe"
+        },
+        {
+          "title": "Courtageabrechnung - b-tix",
+          "url": "https://www.b-tix.de/tag/courtageabrechnung/",
+          "note": "BiPRO-basierte Abrechnungs-/Web-App-Loesungen"
+        }
+      ],
+      "confidence": 3,
+      "status": "grounded",
+      "why_now": "",
+      "pe_activity": [],
+      "investability": "open",
+      "investability_note": "",
+      "actionable": {},
+      "child_ids": []
+    },
+    "insurance-brokerage-financial-services-value-chain/broker-pools-networks-bestandsverwaltung/bestandsverwaltungs-bpo-fuer-verwaiste-vertraege-run-off-servicing": {
+      "id": "insurance-brokerage-financial-services-value-chain/broker-pools-networks-bestandsverwaltung/bestandsverwaltungs-bpo-fuer-verwaiste-vertraege-run-off-servicing",
+      "name": "Bestandsverwaltungs-BPO fuer verwaiste Vertraege (Run-off-Servicing)",
+      "parent_id": "insurance-brokerage-financial-services-value-chain/broker-pools-networks-bestandsverwaltung",
+      "level": 2,
+      "path": [
+        "Insurance Brokerage & Financial Services value chain",
+        "Broker Pools, Networks & Bestandsverwaltung",
+        "Bestandsverwaltungs-BPO fuer verwaiste Vertraege (Run-off-Servicing)"
+      ],
+      "value_chain_stage": "distribution",
+      "description": "Dienstleister und Pools, die verwaiste bzw. uebernommene Bestaende operativ betreuen (Kundenservice, Schadenbearbeitung, Cross-Selling) statt sie zu kaufen - laufende Betreuungscourtage gegen Servicing der Policen-Buecher.",
+      "scores": {
+        "recurring": 5,
+        "fragmentation": 4,
+        "compliance": 4,
+        "scale": 0,
+        "margin": 0,
+        "growth": 0,
+        "headroom": 0,
+        "reimbursement_risk": 0
+      },
+      "rationale": {
+        "recurring": "Laufende Bestands-/Betreuungscourtage solange die Vertraege bestehen; klassisches Annuitaeten-Servicing.",
+        "fragmentation": "Zahlreiche Pools und Bestandsservicer (Fonds Finanz, Policen Direkt, DEMV) plus regionale Betreuer ohne dominanten Konsolidator verwaister Bestaende.",
+        "compliance": "IDD-Betreuungspflicht, §34d-Erlaubnis und Beschwerdemanagement machen laufendes, regelkonformes Servicing verpflichtend."
+      },
+      "composite": 83.3,
+      "dach_signals": {
+        "est_players": "~10-30 Pools/BPO-Servicer plus langer Schwanz",
+        "revenue_band_eur": "EUR 2-30m Umsatz je Servicer",
+        "example_companies": [
+          "Fonds Finanz (Bestand zur Betreuung)",
+          "Policen Direkt",
+          "Deutscher Maklerverbund (DEMV)"
+        ],
+        "regulation": [
+          "IDD Betreuungspflicht",
+          "GewO §34d",
+          "VersVermV Beschwerdemanagement"
+        ]
+      },
+      "sources": [
+        {
+          "title": "Bestandskauf - Bestaende verkaufen oder zur Betreuung uebernehmen | Fonds Finanz",
+          "url": "https://www.fondsfinanz.de/unternehmen/bestandskauf",
+          "note": "Pool uebernimmt Bestaende ausdruecklich auch zur laufenden Betreuung, nicht nur zum Kauf"
+        },
+        {
+          "title": "Ruhestand fuer Versicherungsmakler: Nachfolger gesucht? - DEMV",
+          "url": "https://www.demv.de/blog/makleralltag/maklernachfolge",
+          "note": "Dienstleister/Pool-Modelle fuer Bestandsbetreuung und Nachfolge"
+        }
+      ],
+      "confidence": 3,
       "status": "grounded",
       "why_now": "",
       "pe_activity": [],
