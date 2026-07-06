@@ -86,6 +86,50 @@ class DachSignals:
 
 
 @dataclass
+class Target:
+    """A concrete, acquirable DACH company on a niche long-list (deal origination).
+
+    Keyed back to the screening tree by (sector, niche_path = leaf Node.path).
+    Firmographics are web-research-grade estimates (public sources) meant to be
+    enriched later with register/CRM data; every company carries its source(s).
+    fit_score (0-100) is computed by origination.fit_score() from the components
+    in `fit`; PE/listed/strategic-owned companies are dropped, not scored.
+    """
+
+    name: str = ""
+    legal_name: str = ""
+    website: str = ""
+    sector: str = ""
+    niche: str = ""                                     # leaf name (display)
+    niche_path: list[str] = field(default_factory=list) # join key -> leaf Node.path
+    hq_region: str = ""                                 # city / Bundesland / AT / CH
+    founded: str = ""
+    est_revenue_band: str = ""                          # e.g. "EUR 2-5m"
+    est_employees: str = ""                             # e.g. "20-50"
+    ownership: str = ""                                 # founder | family | management | independent
+    independent: bool = True
+    succession_signal: str = ""                         # evidence of owner-succession opportunity
+    role: str = "bolt-on"                               # platform | bolt-on
+    approach_note: str = ""                             # why-now hook to reach out
+    fit: dict = field(default_factory=dict)             # component scores (size/independence/...)
+    fit_score: float = 0.0                              # 0-100 composite
+    status: str = "candidate"                           # candidate | verified | dropped
+    confidence: int = 0                                 # 1-5 evidence confidence
+    sources: list["Source"] = field(default_factory=list)
+
+    def to_dict(self) -> dict:
+        return asdict(self)
+
+    @classmethod
+    def from_dict(cls, d: dict) -> "Target":
+        d = dict(d)
+        d["sources"] = [Source(**s) if isinstance(s, dict) else Source(url=str(s))
+                        for s in (d.get("sources") or [])]
+        known = cls.__dataclass_fields__.keys()
+        return cls(**{k: v for k, v in d.items() if k in known})
+
+
+@dataclass
 class Node:
     id: str
     name: str

@@ -1,0 +1,211 @@
+<title>DACH target universe — Peak Two</title>
+<style>
+:root{
+  --ground:#f6f7f9; --surface:#ffffff; --surface-2:#fbfcfd;
+  --ink:#141d29; --muted:#5c6773; --faint:#8b96a2;
+  --hairline:#e4e8ed; --hairline-2:#eef1f4; --accent:#2f6f9f;
+  --good:#2f8f5b; --good-bg:#e7f4ec; --warn:#b7791f; --warn-bg:#f7efdd;
+  --crit:#c0392b; --crit-bg:#f7e6e3; --neutral-bg:#eceff2;
+  --shadow:0 1px 2px rgba(20,29,41,.05),0 2px 8px rgba(20,29,41,.04);
+}
+@media (prefers-color-scheme:dark){:root{
+  --ground:#0f151d; --surface:#182230; --surface-2:#141d29;
+  --ink:#e8edf2; --muted:#93a0ad; --faint:#6c7885;
+  --hairline:#26313f; --hairline-2:#202a37; --accent:#6bb2e0;
+  --good:#5fc188; --good-bg:#16311f; --warn:#e0b25a; --warn-bg:#332813;
+  --crit:#e57a6d; --crit-bg:#3a1e1a; --neutral-bg:#212b39;
+  --shadow:0 1px 2px rgba(0,0,0,.3),0 2px 10px rgba(0,0,0,.25);
+}}
+:root[data-theme="light"]{--ground:#f6f7f9;--surface:#ffffff;--surface-2:#fbfcfd;--ink:#141d29;--muted:#5c6773;--faint:#8b96a2;--hairline:#e4e8ed;--hairline-2:#eef1f4;--accent:#2f6f9f;--good:#2f8f5b;--good-bg:#e7f4ec;--warn:#b7791f;--warn-bg:#f7efdd;--crit:#c0392b;--crit-bg:#f7e6e3;--neutral-bg:#eceff2;--shadow:0 1px 2px rgba(20,29,41,.05),0 2px 8px rgba(20,29,41,.04);}
+:root[data-theme="dark"]{--ground:#0f151d;--surface:#182230;--surface-2:#141d29;--ink:#e8edf2;--muted:#93a0ad;--faint:#6c7885;--hairline:#26313f;--hairline-2:#202a37;--accent:#6bb2e0;--good:#5fc188;--good-bg:#16311f;--warn:#e0b25a;--warn-bg:#332813;--crit:#e57a6d;--crit-bg:#3a1e1a;--neutral-bg:#212b39;--shadow:0 1px 2px rgba(0,0,0,.3),0 2px 10px rgba(0,0,0,.25);}
+*{box-sizing:border-box} html,body{margin:0}
+body{background:var(--ground);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;font-size:14.5px;line-height:1.5;-webkit-font-smoothing:antialiased}
+.tnum{font-variant-numeric:tabular-nums}
+.wrap{max-width:1320px;margin:0 auto;padding:0 20px}
+header.mast{padding:34px 0 18px;border-bottom:1px solid var(--hairline)}
+.eyebrow{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);font-weight:600;margin:0 0 9px}
+h1{font-family:Georgia,"Times New Roman",serif;font-weight:600;font-size:31px;line-height:1.12;letter-spacing:-.01em;margin:0 0 9px;text-wrap:balance;max-width:22ch}
+.lede{color:var(--muted);max-width:70ch;margin:0;font-size:15px}
+.stats{display:flex;flex-wrap:wrap;gap:0;margin-top:20px;border:1px solid var(--hairline);border-radius:10px;background:var(--surface);overflow:hidden}
+.stat{flex:1 1 0;min-width:110px;padding:12px 16px;border-right:1px solid var(--hairline-2)}
+.stat:last-child{border-right:none}
+.stat .n{font-family:Georgia,serif;font-size:22px;font-weight:600}
+.stat .l{font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--faint);margin-top:2px}
+.controls{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--ground) 90%,transparent);-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);border-bottom:1px solid var(--hairline);padding:11px 0;margin-bottom:16px}
+.controls .wrap{display:flex;flex-wrap:wrap;gap:9px 12px;align-items:center}
+.chips{display:flex;flex-wrap:wrap;gap:6px;flex:1 1 auto}
+.chip{cursor:pointer;user-select:none;border:1px solid var(--hairline);background:var(--surface);color:var(--muted);font-size:12px;padding:4px 10px 4px 8px;border-radius:999px;display:inline-flex;align-items:center;gap:6px;font-weight:500}
+.chip .dot{width:8px;height:8px;border-radius:50%;background:var(--sc,#888);flex:none}
+.chip[aria-pressed="true"]{background:var(--sc,var(--accent));border-color:var(--sc,var(--accent));color:#fff}
+.chip[aria-pressed="true"] .dot{background:rgba(255,255,255,.9)}
+.chip.all[aria-pressed="true"]{background:var(--ink);border-color:var(--ink);color:var(--ground)}
+.tools{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.search{border:1px solid var(--hairline);background:var(--surface);color:var(--ink);border-radius:8px;padding:6px 10px;font-size:13px;width:160px;font-family:inherit}
+.search:focus,select.sel:focus{outline:2px solid var(--accent);outline-offset:1px;border-color:var(--accent)}
+select.sel{border:1px solid var(--hairline);background:var(--surface);color:var(--ink);border-radius:8px;padding:6px 8px;font-size:12.5px;font-family:inherit;cursor:pointer}
+.toggle{cursor:pointer;user-select:none;border:1px solid var(--hairline);background:var(--surface);color:var(--muted);font-size:12px;padding:5px 10px;border-radius:8px;font-weight:500}
+.toggle[aria-pressed="true"]{background:var(--warn-bg);border-color:var(--warn);color:var(--warn)}
+.layout{display:grid;grid-template-columns:1fr 360px;gap:18px;align-items:start;padding-bottom:30px}
+@media (max-width:1000px){.layout{grid-template-columns:1fr}}
+.tablewrap{overflow-x:auto;border:1px solid var(--hairline);border-radius:12px;background:var(--surface);box-shadow:var(--shadow)}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+thead th{position:sticky;top:0;background:var(--surface-2);text-align:left;font-size:11px;text-transform:uppercase;letter-spacing:.06em;color:var(--faint);font-weight:600;padding:9px 12px;border-bottom:1px solid var(--hairline);cursor:pointer;white-space:nowrap}
+thead th.sorted{color:var(--accent)}
+tbody td{padding:9px 12px;border-bottom:1px solid var(--hairline-2);vertical-align:middle}
+tbody tr{cursor:pointer}
+tbody tr:hover{background:var(--surface-2)}
+tbody tr.sel{background:color-mix(in srgb,var(--accent) 10%,transparent)}
+.fit{font-family:Georgia,serif;font-weight:600;font-size:15px;width:34px;display:inline-block;text-align:right}
+.fitbar{display:inline-block;height:5px;border-radius:3px;background:var(--accent);vertical-align:middle;margin-left:7px;opacity:.8}
+.cname{font-weight:600;color:var(--ink)}
+.csub{color:var(--faint);font-size:11.5px}
+.sdot{width:8px;height:8px;border-radius:50%;display:inline-block;margin-right:6px;vertical-align:baseline}
+.flag{font-size:10.5px;font-weight:700;padding:2px 6px;border-radius:5px;background:var(--warn-bg);color:var(--warn);white-space:nowrap}
+.rolep{font-size:10.5px;font-weight:600;padding:2px 6px;border-radius:5px;background:var(--neutral-bg);color:var(--muted)}
+.rolep.platform{background:color-mix(in srgb,var(--accent) 16%,transparent);color:var(--accent)}
+/* detail */
+aside{position:sticky;top:64px}
+.detail{border:1px solid var(--hairline);border-radius:12px;background:var(--surface);box-shadow:var(--shadow);border-top:3px solid var(--sc,var(--accent));padding:16px 17px;max-height:calc(100vh - 90px);overflow:auto}
+.detail .stag{font-size:11px;letter-spacing:.06em;text-transform:uppercase;font-weight:600;color:var(--sc)}
+.detail h2{font-family:Georgia,serif;font-size:20px;margin:3px 0 2px;line-height:1.15}
+.detail .web a{color:var(--accent);text-decoration:none;font-size:13px}
+.detail .niche{color:var(--muted);font-size:12.5px;margin:2px 0 10px}
+.fitrow{display:flex;align-items:center;gap:10px;margin:8px 0 12px}
+.fitbig{font-family:Georgia,serif;font-size:30px;font-weight:600;line-height:1}
+.fitcomp{flex:1;display:flex;flex-direction:column;gap:3px}
+.fitcomp .cr{display:flex;align-items:center;gap:6px;font-size:11px;color:var(--muted)}
+.fitcomp .cr .lab{width:74px;flex:none}
+.fitcomp .cr .tk{flex:1;height:5px;border-radius:3px;background:var(--hairline)}
+.fitcomp .cr .fl{height:5px;border-radius:3px;background:var(--accent)}
+.kv{display:grid;grid-template-columns:auto 1fr;gap:3px 12px;font-size:13px;margin:10px 0}
+.kv .k{color:var(--faint);font-size:11px;text-transform:uppercase;letter-spacing:.05em;padding-top:2px}
+.kv .v{color:var(--ink)}
+.box{border-radius:8px;padding:9px 11px;font-size:13px;margin-top:9px;background:var(--surface-2);border:1px solid var(--hairline-2)}
+.box .bt{font-size:10.5px;text-transform:uppercase;letter-spacing:.06em;color:var(--faint);font-weight:600;margin-bottom:3px}
+.box.succ{background:var(--warn-bg);border-color:transparent}
+.box.succ .bt{color:var(--warn)}
+.src{margin-top:5px;font-size:12.5px}
+.src a{color:var(--accent);text-decoration:none}
+.src .note{color:var(--faint);font-size:11.5px}
+.empty{color:var(--muted);padding:40px 14px;text-align:center}
+.placeholder{color:var(--faint);padding:34px 16px;text-align:center;font-size:13.5px}
+footer{border-top:1px solid var(--hairline);padding:20px 0 40px;color:var(--faint);font-size:12px;line-height:1.6}
+footer b{color:var(--muted);font-weight:600}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+
+<header class="mast"><div class="wrap">
+  <p class="eyebrow">Peak Two · DACH Deal Origination</p>
+  <h1>Target universe — independent companies to originate</h1>
+  <p class="lede">A pre-qualified long-list of real, founder- and family-owned DACH companies across the highest-priority niches from the screen. Ranked by acquisition <b>fit</b> (size · independence · succession · platform role · geography). Web-research-grade firmographics with a source on every company — built to enrich with your own register/CRM data. PE-, listed- and strategic-owned firms are screened out.</p>
+  <div class="stats" id="stats"></div>
+</div></header>
+
+<div class="controls"><div class="wrap">
+  <div class="chips" id="chips"></div>
+  <div class="tools">
+    <button class="toggle" id="succ" aria-pressed="false">Succession signal</button>
+    <select class="sel" id="role"><option value="">All roles</option><option value="platform">Platform</option><option value="bolt-on">Bolt-on</option></select>
+    <input class="search" id="search" type="search" placeholder="Search company / niche…" aria-label="Search">
+  </div>
+</div></div>
+
+<main class="wrap"><div class="layout">
+  <div class="tablewrap"><table>
+    <thead><tr>
+      <th data-sort="fit" class="sorted">Fit</th>
+      <th data-sort="name">Company</th>
+      <th data-sort="niche">Sector · niche</th>
+      <th data-sort="hq">HQ</th>
+      <th data-sort="revenue">Revenue</th>
+      <th data-sort="ownership">Ownership</th>
+      <th data-sort="role">Role</th>
+    </tr></thead>
+    <tbody id="rows"></tbody>
+  </table></div>
+  <aside><div class="detail" id="detail"><div class="placeholder">Select a company to see its origination profile — firmographics, succession signal, why-now approach hook, and sources.</div></div></aside>
+</div></main>
+
+<footer><div class="wrap">
+  <b>Fit score (0-100):</b> size-fit 25 (revenue in the acquirable SME band) · independence 25 · succession-urgency 25 · platform role 15 · geography 10. <b>Method:</b> long-lists built by web research over association member lists, Impressum pages and press; independence checked and PE/listed/strategic owners dropped. Firmographics are estimates for prioritisation — confirm in diligence. Every company carries its source(s).
+</div></footer>
+
+<script>
+const DATA=__DATA_JSON__, META=__META_JSON__;
+const rowsEl=document.getElementById('rows'), detail=document.getElementById('detail');
+let active=new Set(), q='', roleF='', succOnly=false, sortKey='fit', sortDir=-1, selName=null;
+
+document.getElementById('stats').innerHTML=[
+  [String(META.sectors.length),'Sectors'],[String(META.n_niches),'Priority niches'],
+  [String(META.n_companies),'Independent targets'],[String(META.n_succession),'Succession-flagged'],
+].map(s=>`<div class="stat"><div class="n tnum">${s[0]}</div><div class="l">${s[1]}</div></div>`).join('');
+
+const chipbox=document.getElementById('chips');
+const allChip=document.createElement('button');
+allChip.className='chip all';allChip.textContent='All sectors';allChip.setAttribute('aria-pressed','true');
+allChip.onclick=()=>{active.clear();sync();render()};chipbox.appendChild(allChip);
+META.sectors.forEach(s=>{const b=document.createElement('button');b.className='chip';b.style.setProperty('--sc',s.color);
+  b.setAttribute('aria-pressed','false');b.innerHTML=`<span class="dot"></span>${esc(s.name.split(' & ')[0].split(',')[0])}`;
+  b._n=s.name;b.onclick=()=>{active.has(s.name)?active.delete(s.name):active.add(s.name);sync();render()};chipbox.appendChild(b);});
+function sync(){allChip.setAttribute('aria-pressed',active.size===0?'true':'false');
+  [...chipbox.querySelectorAll('.chip')].forEach(c=>{if(c._n)c.setAttribute('aria-pressed',active.has(c._n)?'true':'false')});}
+
+document.getElementById('search').addEventListener('input',e=>{q=e.target.value.toLowerCase().trim();render()});
+document.getElementById('role').addEventListener('change',e=>{roleF=e.target.value;render()});
+document.getElementById('succ').addEventListener('click',e=>{succOnly=!succOnly;e.target.setAttribute('aria-pressed',succOnly);render()});
+document.querySelectorAll('thead th').forEach(th=>th.addEventListener('click',()=>{
+  const k=th.getAttribute('data-sort'); if(sortKey===k) sortDir*=-1; else {sortKey=k;sortDir=(k==='fit')?-1:1;}
+  document.querySelectorAll('thead th').forEach(x=>x.classList.remove('sorted')); th.classList.add('sorted'); render();}));
+
+function esc(s){return (s==null?'':''+s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
+const maxfit=Math.max(...DATA.map(d=>d.fit),1);
+
+function filtered(){
+  let r=DATA.filter(d=>active.size===0||active.has(d.sector));
+  if(roleF) r=r.filter(d=>(d.role||'')===roleF);
+  if(succOnly) r=r.filter(d=>d.succession);
+  if(q) r=r.filter(d=>(d.name+' '+d.legal_name+' '+d.niche+' '+d.sector+' '+d.hq+' '+d.approach).toLowerCase().includes(q));
+  r.sort((a,b)=>{let x=a[sortKey],y=b[sortKey]; if(typeof x==='number'&&typeof y==='number')return (x-y)*sortDir;
+    return (''+x).localeCompare(''+y)*sortDir;});
+  return r;
+}
+function render(){
+  const r=filtered();
+  rowsEl.innerHTML = r.length ? r.map(d=>{
+    const bw=Math.round(d.fit/maxfit*46);
+    return `<tr data-n="${esc(d.name)}" class="${d.name===selName?'sel':''}">
+      <td><span class="fit tnum">${d.fit}</span><span class="fitbar" style="width:${bw}px;background:${d.color}"></span></td>
+      <td><div class="cname">${esc(d.name)}</div><div class="csub">${esc(d.hq||'')}${d.founded?' · est. '+esc(d.founded):''}</div></td>
+      <td><span class="sdot" style="background:${d.color}"></span><span class="csub">${esc(d.sector.split(' & ')[0].split(',')[0])}</span><div class="csub" style="margin-left:14px">${esc(d.niche)}</div></td>
+      <td class="csub">${esc(d.hq||'—')}</td>
+      <td class="csub">${esc(d.revenue||'—')}</td>
+      <td class="csub">${esc(d.ownership||'—')}${d.succession?' <span class="flag">succession</span>':''}</td>
+      <td><span class="rolep ${d.role==='platform'?'platform':''}">${esc(d.role||'bolt-on')}</span></td>
+    </tr>`;}).join('') : `<tr><td colspan="7" class="empty">No companies match. Clear filters to see the full long-list.</td></tr>`;
+  [...rowsEl.querySelectorAll('tr[data-n]')].forEach(tr=>tr.addEventListener('click',()=>{selName=tr.getAttribute('data-n');render();showDetail(DATA.find(d=>d.name===selName));}));
+}
+function comp(lab,val,max){const p=Math.round((val||0)/max*100);return `<div class="cr"><span class="lab">${lab}</span><span class="tk"><span class="fl" style="width:${p}%"></span></span><span class="tnum">${val||0}</span></div>`;}
+function showDetail(d){
+  if(!d){detail.innerHTML='<div class="placeholder">Select a company.</div>';return;}
+  const f=d.fitc||{};
+  let h=`<div style="--sc:${d.color}">`;
+  h+=`<div class="stag" style="color:${d.color}">${esc(d.sector)}</div>`;
+  h+=`<h2>${esc(d.name)}</h2>`;
+  if(d.legal_name&&d.legal_name!==d.name) h+=`<div class="csub">${esc(d.legal_name)}</div>`;
+  if(d.website) h+=`<div class="web"><a href="${/^https?:/.test(d.website)?esc(d.website):'https://'+esc(d.website)}" target="_blank" rel="noopener">${esc(d.website.replace(/^https?:\/\//,''))}</a></div>`;
+  h+=`<div class="niche">${esc(d.niche)}</div>`;
+  h+=`<div class="fitrow"><div class="fitbig" style="color:${d.color}">${d.fit}</div><div class="fitcomp">`
+    +comp('Size',f.size,25)+comp('Independent',f.independence,25)+comp('Succession',f.succession,25)+comp('Platform',f.platform,15)+comp('Geography',f.geography,10)
+    +`</div></div>`;
+  h+='<div class="kv">';
+  const kv=[['HQ',d.hq],['Founded',d.founded],['Revenue',d.revenue],['Employees',d.employees],['Ownership',d.ownership],['Role',d.role],['Confidence',d.conf?d.conf+'/5':'']];
+  kv.forEach(([k,v])=>{if(v)h+=`<div class="k">${k}</div><div class="v">${esc(v)}</div>`;});
+  h+='</div>';
+  if(d.succession) h+=`<div class="box succ"><div class="bt">Succession signal</div>${esc(d.succession)}</div>`;
+  if(d.approach) h+=`<div class="box"><div class="bt">Why-now approach</div>${esc(d.approach)}</div>`;
+  if(d.sources&&d.sources.length){h+='<div class="box"><div class="bt">Sources</div>';
+    d.sources.forEach(s=>{h+=`<div class="src"><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.title||s.url)}</a>${s.note?'<div class="note">'+esc(s.note)+'</div>':''}</div>`;});h+='</div>';}
+  h+='</div>'; detail.innerHTML=h;
+}
+render();
+</script>

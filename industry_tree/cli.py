@@ -112,6 +112,17 @@ def cmd_portfolio(args) -> int:
     return 0
 
 
+def cmd_origination(args) -> int:
+    from .origination import load_book, render_target_universe, write_longlist_csv
+    targets, niches = load_book(args.book)
+    live = [t for t in targets if t.status != "dropped"]
+    render_target_universe(targets, niches, args.out, title=args.title, standalone=not args.fragment)
+    write_longlist_csv(live, args.csv)
+    n_niches = len({" > ".join(t.niche_path) for t in live})
+    print(f"target universe: {len(live)} companies across {n_niches} niches -> {args.out} + {args.csv}")
+    return 0
+
+
 def cmd_generate(args) -> int:
     from .generate import generate_tree
     out = Path(args.out) if args.out else Path(f"data/{args.root.lower().replace(' ', '_')}_{args.region.lower()}.json")
@@ -166,6 +177,14 @@ def main(argv=None) -> int:
     pf.add_argument("--title", default="DACH cross-industry portfolio")
     pf.add_argument("--fragment", action="store_true", help="emit body fragment only (for hosted embeds)")
     pf.set_defaults(func=cmd_portfolio)
+
+    og = sub.add_parser("origination", help="TargetBook -> filterable company long-list HTML + CSV")
+    og.add_argument("book", help="dach_targets.json TargetBook")
+    og.add_argument("--out", default="data/dach_target_universe.html")
+    og.add_argument("--csv", default="data/dach_target_longlist.csv")
+    og.add_argument("--title", default="DACH target universe — Peak Two")
+    og.add_argument("--fragment", action="store_true", help="emit body fragment only (for hosted embeds)")
+    og.set_defaults(func=cmd_origination)
 
     g = sub.add_parser("generate", help="auto-generate a tree via an LLM backend (needs API key)")
     g.add_argument("--root", required=True)
