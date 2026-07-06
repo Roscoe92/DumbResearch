@@ -186,6 +186,68 @@ def ingest_longlists(blobs: list[dict], niche_meta: dict[str, dict]) -> list[Tar
     return out
 
 
+# ---- review / verify verdicts ---------------------------------------------
+_ADJUSTABLE = ("legal_name", "hq_region", "founded", "est_revenue_band",
+               "est_employees", "ownership", "website", "role", "succession_signal")
+
+
+def apply_verdicts(targets: list[Target], verdicts: list[dict]) -> dict:
+    """Apply a review/adjust/verify pass under the DROP-UNLESS-VERIFIED policy.
+
+    Each verdict: {name, niche?, verdict: verified|flag|drop, reason?, fields?{...}}.
+    Matched by normalized name (disambiguated by niche when supplied). verified/flag
+    keep the company (merge non-empty `fields`, re-run fit_score); flag appends the
+    reason to approach_note. drop -> status="dropped". Any target NOT covered by a
+    verdict is ALSO dropped (default-drop when unconfirmed). Returns counts.
+    """
+    by_key: dict[tuple, list[Target]] = {}
+    for t in targets:
+        by_key.setdefault((_norm_name(t.name), " > ".join(t.niche_path)), []).append(t)
+    by_name: dict[str, list[Target]] = {}
+    for t in targets:
+        by_name.setdefault(_norm_name(t.name), []).append(t)
+
+    seen: set[int] = set()
+    counts = {"verified": 0, "flag": 0, "drop": 0, "unmatched": 0}
+    for v in verdicts:
+        nm = _norm_name(v.get("name") or "")
+        if not nm:
+            continue
+        niche = " > ".join(v.get("niche_path") or []) if v.get("niche_path") else None
+        cands = by_key.get((nm, niche)) if niche else None
+        if not cands:
+            cands = by_name.get(nm)
+        if not cands:
+            counts["unmatched"] += 1
+            continue
+        t = cands[0]
+        verdict = (v.get("verdict") or "drop").lower()
+        fields = v.get("fields") or {}
+        if verdict in ("verified", "flag", "ok", "keep"):
+            for k in _ADJUSTABLE:
+                if fields.get(k):
+                    setattr(t, k, fields[k])
+            if "independent" in fields:
+                t.independent = bool(fields["independent"])
+            if verdict in ("flag",) and v.get("reason"):
+                t.approach_note = (t.approach_note + f"  [Verify: {v['reason']}]").strip()
+            fit_score(t)  # re-score after field changes
+            t.status = "flagged" if verdict == "flag" else "verified"
+            counts["flag" if verdict == "flag" else "verified"] += 1
+        else:  # drop / anything else
+            t.status = "dropped"
+            if v.get("reason"):
+                t.approach_note = (t.approach_note + f"  [Dropped: {v['reason']}]").strip()
+            counts["drop"] += 1
+        seen.add(id(t))
+    # default-drop: any target not addressed by a verdict
+    for t in targets:
+        if id(t) not in seen and t.status != "dropped":
+            t.status = "dropped"
+            counts["drop"] += 1
+    return counts
+
+
 # ---- CSV ------------------------------------------------------------------
 def write_longlist_csv(targets: list[Target], out_path: str | Path) -> Path:
     cols = ["sector", "niche", "company", "legal_name", "website", "hq_region", "founded",

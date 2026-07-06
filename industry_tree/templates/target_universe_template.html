@@ -58,6 +58,9 @@ tbody tr.sel{background:color-mix(in srgb,var(--accent) 10%,transparent)}
 .fit{font-family:Georgia,serif;font-weight:600;font-size:15px;width:34px;display:inline-block;text-align:right}
 .fitbar{display:inline-block;height:5px;border-radius:3px;background:var(--accent);vertical-align:middle;margin-left:7px;opacity:.8}
 .cname{font-weight:600;color:var(--ink)}
+.vbadge{font-size:9.5px;font-weight:700;padding:1px 5px;border-radius:4px;margin-left:6px;letter-spacing:.02em;vertical-align:middle;text-transform:uppercase}
+.vbadge.verified{background:var(--good-bg);color:var(--good)}
+.vbadge.flagged{background:var(--warn-bg);color:var(--warn)}
 .csub{color:var(--faint);font-size:11.5px}
 .sdot{width:8px;height:8px;border-radius:50%;display:inline-block;margin-right:6px;vertical-align:baseline}
 .flag{font-size:10.5px;font-weight:700;padding:2px 6px;border-radius:5px;background:var(--warn-bg);color:var(--warn);white-space:nowrap}
@@ -137,7 +140,7 @@ let active=new Set(), q='', roleF='', succOnly=false, sortKey='fit', sortDir=-1,
 
 document.getElementById('stats').innerHTML=[
   [String(META.sectors.length),'Sectors'],[String(META.n_niches),'Priority niches'],
-  [String(META.n_companies),'Independent targets'],[String(META.n_succession),'Succession-flagged'],
+  [String(META.n_companies),'Verified targets'],[String(META.n_succession),'Succession-flagged'],
 ].map(s=>`<div class="stat"><div class="n tnum">${s[0]}</div><div class="l">${s[1]}</div></div>`).join('');
 
 const chipbox=document.getElementById('chips');
@@ -175,7 +178,7 @@ function render(){
     const bw=Math.round(d.fit/maxfit*46);
     return `<tr data-n="${esc(d.name)}" class="${d.name===selName?'sel':''}">
       <td><span class="fit tnum">${d.fit}</span><span class="fitbar" style="width:${bw}px;background:${d.color}"></span></td>
-      <td><div class="cname">${esc(d.name)}</div><div class="csub">${esc(d.hq||'')}${d.founded?' · est. '+esc(d.founded):''}</div></td>
+      <td><div class="cname">${esc(d.name)}${d.status==='verified'?'<span class="vbadge verified">✓ verified</span>':(d.status==='flagged'?'<span class="vbadge flagged">verify</span>':'')}</div><div class="csub">${esc(d.hq||'')}${d.founded?' · est. '+esc(d.founded):''}</div></td>
       <td><span class="sdot" style="background:${d.color}"></span><span class="csub">${esc(d.sector.split(' & ')[0].split(',')[0])}</span><div class="csub" style="margin-left:14px">${esc(d.niche)}</div></td>
       <td class="csub">${esc(d.hq||'—')}</td>
       <td class="csub">${esc(d.revenue||'—')}</td>
