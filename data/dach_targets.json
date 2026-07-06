@@ -2502,7 +2502,7 @@
     },
     {
       "name": "AVIATICS",
-      "legal_name": "",
+      "legal_name": "AVIATICS GmbH & Co. KG",
       "website": "https://www.aviatics.de",
       "sector": "Environmental Services",
       "niche": "Immissionsschutz- & Störfallbeauftragter (§53/§58a BImSchG)",
@@ -3289,7 +3289,7 @@
         "OT / ICS Security Monitoring (Industrial SOC for KRITIS & manufacturing)",
         "Water / Wastewater Utility OT Security Monitoring"
       ],
-      "hq_region": "Bornheim (near Bonn), NRW, DE",
+      "hq_region": "Darmstadt / Ratingen",
       "founded": "",
       "est_revenue_band": "EUR 5-15m",
       "est_employees": "40-90",
@@ -3297,7 +3297,7 @@
       "independent": true,
       "succession_signal": "36+ years in business — long-established, potential ownership-transition window",
       "role": "platform",
-      "approach_note": "Independent IT-security/IAM consultancy (36+ yrs) with a dedicated KRITIS IT/OT-security practice; broad enough to anchor a buy-and-build.",
+      "approach_note": "Independent IT-security/IAM consultancy (36+ yrs) with a dedicated KRITIS IT/OT-security practice; broad enough to anchor a buy-and-build.  [Verify: broad IT/OT-security & biometrics provider, not water-OT-pure; confirm niche fit.]",
       "fit": {
         "size": 25,
         "independence": 25,
@@ -3307,7 +3307,7 @@
       },
       "fit_score": 85.0,
       "status": "candidate",
-      "confidence": 3,
+      "confidence": 2,
       "sources": [
         {
           "title": "TWINSOFT KRITIS IT/OT-Security",
@@ -5733,7 +5733,7 @@
       "independent": true,
       "succession_signal": "Founded 1988 by Dr. Stefan Sandner; now led by Dr. Thilo Sandner (2nd generation) - family-held KG with 4 partners",
       "role": "platform",
-      "approach_note": "Broadest independent DACH/Benelux QPPV & local-safety network under one roof - natural anchor platform for a PV roll-up.",
+      "approach_note": "Broadest independent DACH/Benelux QPPV & local-safety network under one roof - natural anchor platform for a PV roll-up.  [Verify: broad pharma consultancy; total size likely above the EUR 1-30m SME band — PV is one line.]",
       "fit": {
         "size": 25,
         "independence": 25,
