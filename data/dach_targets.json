@@ -196,7 +196,7 @@
         "geography": 10
       },
       "fit_score": 70.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 4,
       "sources": [
         {
@@ -239,7 +239,7 @@
         "geography": 10
       },
       "fit_score": 70.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 4,
       "sources": [
         {
@@ -273,7 +273,7 @@
       "independent": true,
       "succession_signal": "",
       "role": "bolt-on",
-      "approach_note": "Owner-run Arbeitsschutz service doing the full Regal/Leiter/PSAgA triad plus external SiFa and a PPE onlineshop - clean tuck-in for a southwest cluster.",
+      "approach_note": "Owner-run Arbeitsschutz service doing the full Regal/Leiter/PSAgA triad plus external SiFa and a PPE onlineshop - clean tuck-in for a southwest cluster.  [Dropped: Real in-niche inspector (ladders/racking/PSA against falls, Bühl/Südbaden) but presents as a single Sicherheitsfachkraft — micro, size unconfirmable, likely below SME floor. https://www.msarbeitsschutz.de/arbeitsmittelpruefung]",
       "fit": {
         "size": 14,
         "independence": 25,
@@ -282,7 +282,7 @@
         "geography": 10
       },
       "fit_score": 65.0,
-      "status": "candidate",
+      "status": "dropped",
       "confidence": 3,
       "sources": [
         {
@@ -316,7 +316,7 @@
       "independent": true,
       "succession_signal": "",
       "role": "bolt-on",
-      "approach_note": "Regional owner-operator (Ozan Sen) for Regal/Leiter/Hubwagen inspection around Kronach/Coburg/Sonneberg; likely micro/solo, so a low-price tuck-in rather than an anchor.",
+      "approach_note": "Regional owner-operator (Ozan Sen) for Regal/Leiter/Hubwagen inspection around Kronach/Coburg/Sonneberg; likely micro/solo, so a low-price tuck-in rather than an anchor.  [Dropped: Micro one-person startup (Ozan Sen, mobile only, Ludwigsstadt) only 'fully operational from April 2026'; below SME scale and not established. https://www.os-pruefservice.de/]",
       "fit": {
         "size": 10,
         "independence": 25,
@@ -325,7 +325,7 @@
         "geography": 10
       },
       "fit_score": 61.0,
-      "status": "candidate",
+      "status": "dropped",
       "confidence": 2,
       "sources": [
         {
@@ -363,7 +363,7 @@
         "geography": 10
       },
       "fit_score": 79.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 4,
       "sources": [
         {
@@ -380,7 +380,7 @@
     },
     {
       "name": "PSA-Check Poelmann",
-      "legal_name": "PSA-Check Poelmann",
+      "legal_name": "PSA-CHECK Poelmann GmbH",
       "website": "https://www.psa-check.com",
       "sector": "Testing, Inspection & Certification",
       "niche": "Work Equipment & PPE Inspection (Ladders, Racking, PSA against falls)",
@@ -406,7 +406,7 @@
         "geography": 10
       },
       "fit_score": 70.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 4,
       "sources": [
         {
@@ -440,7 +440,7 @@
       "independent": true,
       "succession_signal": "",
       "role": "bolt-on",
-      "approach_note": "Handwerksmeister-run inspector (racking, ladders/steps, mobile scaffolds, roof-access ladders, anchor points, PSAgA) with digital documentation and the regalpruefer24/psagaprüfer trademarks - broad-scope tuck-in in the north.",
+      "approach_note": "Handwerksmeister-run inspector (racking, ladders/steps, mobile scaffolds, roof-access ladders, anchor points, PSAgA) with digital documentation and the regalpruefer24/psagaprüfer trademarks - broad-scope tuck-in in the north.  [Dropped: Sole proprietorship (Arnd Meyer-Ahrens e.K., Alfstedt, founded 2010); micro owner-only racking/PPE inspection operation, below SME scale (regalpruefer24.de/ueber-uns/)]",
       "fit": {
         "size": 14,
         "independence": 25,
@@ -449,7 +449,7 @@
         "geography": 10
       },
       "fit_score": 65.0,
-      "status": "candidate",
+      "status": "dropped",
       "confidence": 4,
       "sources": [
         {
@@ -483,7 +483,7 @@
       "independent": true,
       "succession_signal": "",
       "role": "bolt-on",
-      "approach_note": "Owner-operator (Eduard Huwa) ladder + racking inspector across the Lahn-Dill / Siegen area - small local tuck-in to fill a Hessen/Siegerland gap.",
+      "approach_note": "Owner-operator (Eduard Huwa) ladder + racking inspector across the Lahn-Dill / Siegen area - small local tuck-in to fill a Hessen/Siegerland gap.  [Dropped: Owner Eduard Huwa single-inspector micro operation (est. 0.1-1m), below SME threshold. https://huwa-pruefservice.de/]",
       "fit": {
         "size": 10,
         "independence": 25,
@@ -492,7 +492,7 @@
         "geography": 10
       },
       "fit_score": 61.0,
-      "status": "candidate",
+      "status": "dropped",
       "confidence": 3,
       "sources": [
         {
@@ -521,7 +521,7 @@
       "independent": true,
       "succession_signal": "20+ years in operation - founder-era business",
       "role": "bolt-on",
-      "approach_note": "Owner-managed, DEKRA-certified Meisterbetrieb covering racking, ladders, mezzanines, mobile platforms and UVV across Nordbayern - solid Franconian tuck-in with 20+ yrs of local relationships.",
+      "approach_note": "Owner-managed, DEKRA-certified Meisterbetrieb covering racking, ladders, mezzanines, mobile platforms and UVV across Nordbayern - solid Franconian tuck-in with 20+ yrs of local relationships.  [Verify: Active DEKRA-certified Meisterbetrieb (Adelsdorf, 20+ yrs) doing ladder/racking inspection across Franconia; in-niche but likely small/owner-only, legal form & revenue unconfirmed. https://www.holewa-arbeitsschutz.de/ueber-uns]",
       "fit": {
         "size": 14,
         "independence": 25,
@@ -530,7 +530,7 @@
         "geography": 10
       },
       "fit_score": 74.0,
-      "status": "candidate",
+      "status": "flagged",
       "confidence": 3,
       "sources": [
         {
@@ -564,7 +564,7 @@
       "independent": true,
       "succession_signal": "",
       "role": "bolt-on",
-      "approach_note": "Small owner business (Michael Reumann) doing DIN EN 15635 / DGUV 108-007 racking inspections - micro tuck-in for a southern Bavaria route.",
+      "approach_note": "Small owner business (Michael Reumann) doing DIN EN 15635 / DGUV 108-007 racking inspections - micro tuck-in for a southern Bavaria route.  [Dropped: Sole proprietor Michael Reumann, micro one-person rack-inspection operation (~EUR 0.1-1m); fails SME check; also Steinkirchen is Niedersachsen (21720), not Bayern https://www.regalpruefung-reumann.de/impressum/]",
       "fit": {
         "size": 10,
         "independence": 25,
@@ -573,7 +573,7 @@
         "geography": 10
       },
       "fit_score": 61.0,
-      "status": "candidate",
+      "status": "dropped",
       "confidence": 3,
       "sources": [
         {
@@ -611,7 +611,7 @@
         "geography": 10
       },
       "fit_score": 65.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 3,
       "sources": [
         {
@@ -654,7 +654,7 @@
         "geography": 10
       },
       "fit_score": 70.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 4,
       "sources": [
         {
@@ -688,7 +688,7 @@
       "independent": true,
       "succession_signal": "Founded 1987 by Erich Czulkowski; now led by Benjamin Czulkowski (2nd generation) - generational transition in progress",
       "role": "bolt-on",
-      "approach_note": "2nd-gen family industrial-services firm offering full PSAgA testing alongside its montage core - tuck-in for PSA competence, or a carve-out of the inspection line.",
+      "approach_note": "2nd-gen family industrial-services firm offering full PSAgA testing alongside its montage core - tuck-in for PSA competence, or a carve-out of the inspection line.  [Verify: Active family-owned firm (est. 1987, Dommershausen + Düsseldorf) offering ladder/rack/PSAgA inspections, but core business is industrial assembly/relocation & logistics; inspection is a secondary line (https://czulkowski-industriemontagen.de/leiterpruefung/, https://czulkowski-industriemontagen.de/our-company/?lang=en)]",
       "fit": {
         "size": 14,
         "independence": 25,
@@ -697,7 +697,7 @@
         "geography": 10
       },
       "fit_score": 69.0,
-      "status": "candidate",
+      "status": "flagged",
       "confidence": 3,
       "sources": [
         {
@@ -731,7 +731,7 @@
       "independent": true,
       "succession_signal": "",
       "role": "bolt-on",
-      "approach_note": "Owner-run Saxon provider doing PSAgA (DGUV 112-198/312-906), racking (DGUV 108-007) and ladder inspection 'from one hand' - tuck-in to open an eastern-Germany route.",
+      "approach_note": "Owner-run Saxon provider doing PSAgA (DGUV 112-198/312-906), racking (DGUV 108-007) and ladder inspection 'from one hand' - tuck-in to open an eastern-Germany route.  [Dropped: Real & in-niche (UVV/PSAgA/ladder/racking inspection, Bautzen) but no legal entity/size confirmable — appears to be a micro regional befähigte-Person operation; SME size cannot be positively confirmed. https://kuhn-arbeitssicherheit.de/]",
       "fit": {
         "size": 14,
         "independence": 25,
@@ -740,7 +740,7 @@
         "geography": 10
       },
       "fit_score": 65.0,
-      "status": "candidate",
+      "status": "dropped",
       "confidence": 3,
       "sources": [
         {
@@ -774,7 +774,7 @@
       "independent": true,
       "succession_signal": "",
       "role": "bolt-on",
-      "approach_note": "Owner UVV inspector spanning racking, door systems, loading ramps, cranes and vehicle lifts - multi-asset tuck-in with racking as an entry point.",
+      "approach_note": "Owner UVV inspector spanning racking, door systems, loading ramps, cranes and vehicle lifts - multi-asset tuck-in with racking as an entry point.  [Dropped: Small Schiltberg inspection outfit (likely sole proprietorship, no GmbH), cannot positively confirm SME size (EUR 1-30m); likely micro. https://www.gewerbeverzeichnis-deutschland.de/pruefservice-rieger-nach-uvv-bgv-bgr/708022.html]",
       "fit": {
         "size": 14,
         "independence": 25,
@@ -783,7 +783,7 @@
         "geography": 10
       },
       "fit_score": 65.0,
-      "status": "candidate",
+      "status": "dropped",
       "confidence": 3,
       "sources": [
         {
@@ -812,7 +812,7 @@
       "independent": true,
       "succession_signal": "",
       "role": "bolt-on",
-      "approach_note": "Racking builder/assembler that also runs Regal/Steigleiter/Leiter inspection across NRW - tuck-in combining montage plus recurring inspection revenue.",
+      "approach_note": "Racking builder/assembler that also runs Regal/Steigleiter/Leiter inspection across NRW - tuck-in combining montage plus recurring inspection revenue.  [Verify: Real independent owner-run firm (Leverkusen, 30+ yrs) doing racking/ladder inspection per DIN EN 15635 & DGUV; caveat: no legal form/HRB found and size unconfirmable (also part supplier of shelving). https://pms-regalbau.de/Regalpruefung]",
       "fit": {
         "size": 14,
         "independence": 25,
@@ -821,7 +821,7 @@
         "geography": 10
       },
       "fit_score": 65.0,
-      "status": "candidate",
+      "status": "flagged",
       "confidence": 2,
       "sources": [
         {
@@ -889,7 +889,7 @@
       "independent": true,
       "succession_signal": "",
       "role": "bolt-on",
-      "approach_note": "Upper-Austrian lagertechnik/racking family firm with certified Regalinspektoren offering ÖNORM EN 15635 inspection - tuck-in for AT racking coverage (inspection is a side line to racking supply).",
+      "approach_note": "Upper-Austrian lagertechnik/racking family firm with certified Regalinspektoren offering ÖNORM EN 15635 inspection - tuck-in for AT racking coverage (inspection is a side line to racking supply).  [Dropped: Primarily a shelving/storage-systems (Regale & Lagertechnik) supplier in Upper Austria; racking inspection (ÖNORM EN 15635) is an ancillary add-on, not a pure-play inspection SME. https://www.ohrner.at/produkte/regalueberpruefung-oenorm-en-15635]",
       "fit": {
         "size": 14,
         "independence": 25,
@@ -898,7 +898,7 @@
         "geography": 8
       },
       "fit_score": 63.0,
-      "status": "candidate",
+      "status": "dropped",
       "confidence": 2,
       "sources": [
         {
@@ -927,7 +927,7 @@
       "independent": true,
       "succession_signal": "",
       "role": "bolt-on",
-      "approach_note": "Young founder-led Swiss racking specialist doing rack + ladder inspection per SN EN 15635 / SUVA - a Swiss-market entry tuck-in (small, early-stage).",
+      "approach_note": "Young founder-led Swiss racking specialist doing rack + ladder inspection per SN EN 15635 / SUVA - a Swiss-market entry tuck-in (small, early-stage).  [Dropped: Swiss, founded 2022, ~micro (EUR 0.1-1m) racking seller/installer with inspection as a side service - below SME scale, not an inspection specialist. https://search.ch/tel/oensingen/roggenweg-9/lts-regalsysteme-gmbh]",
       "fit": {
         "size": 10,
         "independence": 25,
@@ -936,7 +936,7 @@
         "geography": 8
       },
       "fit_score": 59.0,
-      "status": "candidate",
+      "status": "dropped",
       "confidence": 3,
       "sources": [
         {
@@ -972,7 +972,7 @@
       "independent": true,
       "succession_signal": "",
       "role": "platform",
-      "approach_note": "Founder-run legal-tech with 200+ mandates incl. Arztpraxen/MVZ from EUR79/mo; ideal subscription-DSB anchor with cross-sell of ISMS/IT-security.",
+      "approach_note": "Founder-run legal-tech with 200+ mandates incl. Arztpraxen/MVZ from EUR79/mo; ideal subscription-DSB anchor with cross-sell of ISMS/IT-security.  [Verify: Real founder-owned Hamburg DSB firm (est 2013, Oehmichen/Hagel), but a generalist low-cost KMU DSB (ab 79€/Mo), not an MVZ/healthcare specialist — niche fit is loose. https://www.fraghugo.de/externer-datenschutzbeauftragter-hamburg-fuer-unternehmen/]",
       "fit": {
         "size": 25,
         "independence": 25,
@@ -981,7 +981,7 @@
         "geography": 10
       },
       "fit_score": 81.0,
-      "status": "candidate",
+      "status": "flagged",
       "confidence": 4,
       "sources": [
         {
@@ -1017,7 +1017,7 @@
       "independent": true,
       "succession_signal": "",
       "role": "bolt-on",
-      "approach_note": "Boutique law firm / TUEV-DSB specialised in Arztpraxen & MVZ (also DiGA, Apotheken) - qualified healthcare-DSB bolt-on for a platform.",
+      "approach_note": "Boutique law firm / TUEV-DSB specialised in Arztpraxen & MVZ (also DiGA, Apotheken) - qualified healthcare-DSB bolt-on for a platform.  [Dropped: Real & in-niche (external DSB) but founded 2024, single GF Tomas Krause, EUR 25k capital - cannot confirm SME scale; likely micro/one-person, sub-band. https://www.northdata.de/TYR%20Rechtsanwaltsgesellschaft%20mbH,%20N%C3%BCrnberg/HRB%2043595]",
       "fit": {
         "size": 14,
         "independence": 25,
@@ -1026,7 +1026,7 @@
         "geography": 10
       },
       "fit_score": 65.0,
-      "status": "candidate",
+      "status": "dropped",
       "confidence": 4,
       "sources": [
         {
@@ -1062,7 +1062,7 @@
       "independent": true,
       "succession_signal": "Sole proprietor (Einzelunternehmen) dependent on one principal - classic person-risk / succession candidate",
       "role": "bolt-on",
-      "approach_note": "One-man specialist (Diplomjurist, TUEV-DSB) dedicated to Aerzte/Zahnaerzte/Apotheken - cheap founder-Nachfolge tuck-in for the installed practice base.",
+      "approach_note": "One-man specialist (Diplomjurist, TUEV-DSB) dedicated to Aerzte/Zahnaerzte/Apotheken - cheap founder-Nachfolge tuck-in for the installed practice base.  [Dropped: Micro one-person Einzelunternehmen (Henning Zander solo, external DSB for practices/pharmacies); below SME scale. https://www.datenschutzundgesundheit.de/impressum/]",
       "fit": {
         "size": 14,
         "independence": 25,
@@ -1071,7 +1071,7 @@
         "geography": 10
       },
       "fit_score": 69.0,
-      "status": "candidate",
+      "status": "dropped",
       "confidence": 4,
       "sources": [
         {
@@ -1107,7 +1107,7 @@
       "independent": true,
       "succession_signal": "Active since 1998, single principal Marion Meyer - long-running owner-led boutique, plausible succession",
       "role": "bolt-on",
-      "approach_note": "QM + Datenschutz bundle for Arztpraxis/MVZ since 1998; DSB cross-sell into an existing QM client base - bolt-on with sticky installed base.",
+      "approach_note": "QM + Datenschutz bundle for Arztpraxis/MVZ since 1998; DSB cross-sell into an existing QM client base - bolt-on with sticky installed base.  [Dropped: Solo consultancy of owner Marion Meyer (QM + external DSB for practices); micro one-person shop below SME threshold. https://www.qmedicus.de/main/ueber-uns/marion-meyer/]",
       "fit": {
         "size": 14,
         "independence": 25,
@@ -1116,7 +1116,7 @@
         "geography": 10
       },
       "fit_score": 69.0,
-      "status": "candidate",
+      "status": "dropped",
       "confidence": 3,
       "sources": [
         {
@@ -1152,7 +1152,7 @@
       "independent": true,
       "succession_signal": "",
       "role": "platform",
-      "approach_note": "Praxis-IT-as-a-Service + externer DSB for Arztpraxen/MVZ - bundles IT/TI and Datenschutz, natural anchor for a DSB + IT-security platform.",
+      "approach_note": "Praxis-IT-as-a-Service + externer DSB for Arztpraxen/MVZ - bundles IT/TI and Datenschutz, natural anchor for a DSB + IT-security platform.  [Verify: Real & founder-managed (Claus Böhle), Berlin-Adlershof; offers external DSB for practices/MVZ but core is practice-IT as a service, DSB one line; size unconfirmed. https://nordprax.de/beauftragter-datenschutz/]",
       "fit": {
         "size": 14,
         "independence": 25,
@@ -1161,7 +1161,7 @@
         "geography": 10
       },
       "fit_score": 70.0,
-      "status": "candidate",
+      "status": "flagged",
       "confidence": 4,
       "sources": [
         {
@@ -1197,7 +1197,7 @@
       "independent": true,
       "succession_signal": "",
       "role": "bolt-on",
-      "approach_note": "Owner-managed compliance boutique running external DSB for Arztpraxen/MVZ (BvD/DICO member) - healthcare vertical bolt-on in the Rhineland.",
+      "approach_note": "Owner-managed compliance boutique running external DSB for Arztpraxen/MVZ (BvD/DICO member) - healthcare vertical bolt-on in the Rhineland.  [Verify: Real independent external-DSB firm (HRA 32080 Köln, Klos/Rothe), in-niche external DSB; but healthcare/MVZ-ambulatory focus is one of many sectors served (pharma/auto/retail/finance), not confirmed specialization. https://www.northdata.com/Two%20Towers%20Consulting%20GmbH%20&%20Co%C2%B7%20KG,%20K%C3%B6ln/HRA%2032080]",
       "fit": {
         "size": 14,
         "independence": 25,
@@ -1206,7 +1206,7 @@
         "geography": 10
       },
       "fit_score": 65.0,
-      "status": "candidate",
+      "status": "flagged",
       "confidence": 3,
       "sources": [
         {
@@ -1235,14 +1235,14 @@
         "MVZ & practice-group external DSB (ambulatory)"
       ],
       "hq_region": "Aachen, NRW",
-      "founded": "2021",
+      "founded": "2019",
       "est_revenue_band": "",
       "est_employees": "5-20",
       "ownership": "management",
       "independent": true,
       "succession_signal": "Continued the practice previously run by Dr. Eric Heitzer (business transferred 2021) - itself an example of DSB-Nachfolge",
       "role": "platform",
-      "approach_note": "Owner-managed Datenschutz/Compliance GmbH with dedicated Gesundheitsdatenschutz line (Praxen/MVZ/Kliniken) - broader platform with healthcare vertical.",
+      "approach_note": "Owner-managed Datenschutz/Compliance GmbH with dedicated Gesundheitsdatenschutz line (Praxen/MVZ/Kliniken) - broader platform with healthcare vertical.  [Verify: Real, managing-shareholder-owned (Dr. Eric Heitzer, HRB 22709, incorporated 2019); healthcare-focused external DSB for MVZ/hospitals/Pflege, but small and revenue unconfirmed. https://www.integrity-pflege.de/]",
       "fit": {
         "size": 14,
         "independence": 25,
@@ -1251,7 +1251,7 @@
         "geography": 10
       },
       "fit_score": 74.0,
-      "status": "candidate",
+      "status": "flagged",
       "confidence": 3,
       "sources": [
         {
@@ -1296,7 +1296,7 @@
         "geography": 10
       },
       "fit_score": 65.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 4,
       "sources": [
         {
@@ -1341,7 +1341,7 @@
         "geography": 10
       },
       "fit_score": 70.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 3,
       "sources": [
         {
@@ -1377,7 +1377,7 @@
       "independent": true,
       "succession_signal": "",
       "role": "bolt-on",
-      "approach_note": "Owner-run IT + TUEV-DSB house with a dedicated Arztpraxis/Apotheke Datenschutz line - combines DSB with IT/TI, tuck-in for eastern DE.",
+      "approach_note": "Owner-run IT + TUEV-DSB house with a dedicated Arztpraxis/Apotheke Datenschutz line - combines DSB with IT/TI, tuck-in for eastern DE.  [Verify: Active Leipzig IT/data-protection firm (since 2003) with a genuine Arztpraxis/MVZ external-DSB offering; owner-run but small and legal form/size unconfirmed. https://www.kemian.de/datenschutzberatung/datenschutz-nach-branchen/datenschutz-in-der-arztpraxis/]",
       "fit": {
         "size": 14,
         "independence": 25,
@@ -1386,7 +1386,7 @@
         "geography": 10
       },
       "fit_score": 65.0,
-      "status": "candidate",
+      "status": "flagged",
       "confidence": 3,
       "sources": [
         {
@@ -1422,7 +1422,7 @@
       "independent": true,
       "succession_signal": "",
       "role": "bolt-on",
-      "approach_note": "Founded by doctors + lawyers as all-inclusive external DSB for Arztpraxen/MVZ - domain-specialist legal-tech bolt-on with document-package product.",
+      "approach_note": "Founded by doctors + lawyers as all-inclusive external DSB for Arztpraxen/MVZ - domain-specialist legal-tech bolt-on with document-package product.  [Verify: Real doctor-&-lawyer-founded external DSB service for practices/MVZ nationwide, independent & in-niche, but size/legal entity unconfirmed (321legal.de)]",
       "fit": {
         "size": 14,
         "independence": 25,
@@ -1431,7 +1431,7 @@
         "geography": 10
       },
       "fit_score": 65.0,
-      "status": "candidate",
+      "status": "flagged",
       "confidence": 3,
       "sources": [
         {
@@ -1476,7 +1476,7 @@
         "geography": 10
       },
       "fit_score": 81.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 4,
       "sources": [
         {
@@ -1512,7 +1512,7 @@
       "independent": true,
       "succession_signal": "",
       "role": "bolt-on",
-      "approach_note": "Owner-run Datenschutz/IT-Sicherheit GmbH (TUEV-DSB) serving Gesundheitswesen incl. Arztpraxen - southern-DE bolt-on combining DSB + ISMS/ISO27001.",
+      "approach_note": "Owner-run Datenschutz/IT-Sicherheit GmbH (TUEV-DSB) serving Gesundheitswesen incl. Arztpraxen - southern-DE bolt-on combining DSB + ISMS/ISO27001.  [Dropped: Real (HRB 21253 Memmingen) KBV-certified §75b DSB for practices, but GmbH only registered 04-Sep-2024 — too new, revenue unconfirmable and likely micro. https://www.northdata.de/DatenW%C3%A4chter%20GmbH,%20Offingen/Amtsgericht%20Memmingen%20HRB%2021253]",
       "fit": {
         "size": 14,
         "independence": 25,
@@ -1521,7 +1521,7 @@
         "geography": 10
       },
       "fit_score": 65.0,
-      "status": "candidate",
+      "status": "dropped",
       "confidence": 3,
       "sources": [
         {
@@ -1566,7 +1566,7 @@
         "geography": 8
       },
       "fit_score": 63.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 4,
       "sources": [
         {
@@ -1602,7 +1602,7 @@
       "independent": true,
       "succession_signal": "",
       "role": "bolt-on",
-      "approach_note": "Owner-managed external-DSB firm serving Arztpraxen across the BW region (Stuttgart/Reutlingen/Karlsruhe/Freiburg) - regional bolt-on to densify the practice base.",
+      "approach_note": "Owner-managed external-DSB firm serving Arztpraxen across the BW region (Stuttgart/Reutlingen/Karlsruhe/Freiburg) - regional bolt-on to densify the practice base.  [Verify: Real & independent, Stuttgart; external DSB (GDD-certified) serving practices/MVZ but also notaries/law firms/associations — healthcare is one segment; size unconfirmed. https://www.obsecom.eu/]",
       "fit": {
         "size": 14,
         "independence": 25,
@@ -1611,7 +1611,7 @@
         "geography": 10
       },
       "fit_score": 65.0,
-      "status": "candidate",
+      "status": "flagged",
       "confidence": 3,
       "sources": [
         {
@@ -1647,7 +1647,7 @@
       "independent": true,
       "succession_signal": "",
       "role": "platform",
-      "approach_note": "Founder-owned (Dr. Andreas Pinheiro) team of Juristen + IT running external DSB for Arztpraxen/Kliniken with own DSM system - platform-grade in NRW.",
+      "approach_note": "Founder-owned (Dr. Andreas Pinheiro) team of Juristen + IT running external DSB for Arztpraxen/Kliniken with own DSM system - platform-grade in NRW.  [Verify: Real independent GmbH (Köln, led by Dr. Andreas Pinheiro & N. Motiee Tehrani) doing external DSB for Arztpraxen/Kliniken/MVZ; caveat: small consultancy, revenue likely at/below bottom of SME band. https://ap-datenschutz.de/datenschutzberater-gesundheitseinrichtungen/]",
       "fit": {
         "size": 14,
         "independence": 25,
@@ -1656,7 +1656,7 @@
         "geography": 10
       },
       "fit_score": 70.0,
-      "status": "candidate",
+      "status": "flagged",
       "confidence": 3,
       "sources": [
         {
@@ -1701,7 +1701,7 @@
         "geography": 10
       },
       "fit_score": 65.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 3,
       "sources": [
         {
@@ -1737,7 +1737,7 @@
       "independent": true,
       "succession_signal": "",
       "role": "bolt-on",
-      "approach_note": "Founder-led (Roderich Pilars de Pilar) DSB/IT-security firm offering external DSB for Arztpraxen at EUR90/doctor/mo - transparent per-doctor pricing, easy tuck-in.",
+      "approach_note": "Founder-led (Roderich Pilars de Pilar) DSB/IT-security firm offering external DSB for Arztpraxen at EUR90/doctor/mo - transparent per-doctor pricing, easy tuck-in.  [Verify: Real independent GmbH (Köln) offering external DSB for Arztpraxen/MVZ; caveat: low price points (€90/doctor/mo) suggest small size, possibly below SME band. https://tulos.de/datenschutzbeauftragter-fuer-arztpraxis/]",
       "fit": {
         "size": 14,
         "independence": 25,
@@ -1746,7 +1746,7 @@
         "geography": 10
       },
       "fit_score": 65.0,
-      "status": "candidate",
+      "status": "flagged",
       "confidence": 3,
       "sources": [
         {
@@ -1782,7 +1782,7 @@
       "independent": true,
       "succession_signal": "Firm active since 1994 under long-standing owner-GF - long-tenure principal, plausible succession angle",
       "role": "bolt-on",
-      "approach_note": "Long-established owner-run Datenschutz/IT-security firm (Weser-Ems) serving healthcare - regional bolt-on with DSB + IT-security cross-sell.",
+      "approach_note": "Long-established owner-run Datenschutz/IT-security firm (Weser-Ems) serving healthcare - regional bolt-on with DSB + IT-security cross-sell.  [Verify: Active founder-run GmbH & Co. KG, Oldenburg; general external DSB (250+ clients across IT/tax/legal/medical), not an MVZ/ambulatory-DSB specialist https://www.vicotec.de/externer-datenschutzbeauftragter.html]",
       "fit": {
         "size": 14,
         "independence": 25,
@@ -1791,7 +1791,7 @@
         "geography": 10
       },
       "fit_score": 69.0,
-      "status": "candidate",
+      "status": "flagged",
       "confidence": 3,
       "sources": [
         {
@@ -1808,7 +1808,7 @@
     },
     {
       "name": "DeltaMed Sued",
-      "legal_name": "DeltaMed Sued",
+      "legal_name": "DeltaMed Süd GmbH & Co. KG",
       "website": "https://www.deltamedsued.de/",
       "sector": "Medical & Healthcare",
       "niche": "MVZ & practice-group external DSB (ambulatory)",
@@ -1827,7 +1827,7 @@
       "independent": true,
       "succession_signal": "",
       "role": "platform",
-      "approach_note": "Dedicated external-DSB provider across Arztpraxis/MVZ/Apotheke/Klinik plus Verbaende/Pharma - broad healthcare-only mandate, southern-DE platform candidate.",
+      "approach_note": "Dedicated external-DSB provider across Arztpraxis/MVZ/Apotheke/Klinik plus Verbaende/Pharma - broad healthcare-only mandate, southern-DE platform candidate.  [Verify: Real independent Ludwigsburg healthcare-management consultancy (GmbH & Co. KG) offering external DSB for practices/MVZ, but DSB is one of several services (QM, hygiene, org) not a pure-play; size unconfirmed. https://www.deltamedsued.de/externer-datenschutzbeauftragter-arztpraxis]",
       "fit": {
         "size": 14,
         "independence": 25,
@@ -1836,7 +1836,7 @@
         "geography": 10
       },
       "fit_score": 70.0,
-      "status": "candidate",
+      "status": "flagged",
       "confidence": 3,
       "sources": [
         {
@@ -1872,7 +1872,7 @@
       "independent": true,
       "succession_signal": "",
       "role": "bolt-on",
-      "approach_note": "Swiss external Datenschutzberater for Arztpraxen/Praxisgemeinschaften/smaller Spitaeler under nDSG - the CH bolt-on to extend a DACH DSB platform.",
+      "approach_note": "Swiss external Datenschutzberater for Arztpraxen/Praxisgemeinschaften/smaller Spitaeler under nDSG - the CH bolt-on to extend a DACH DSB platform.  [Dropped: SIDD Institut für Datenschutz und Datensicherheit GmbH is in liquidation (Dec 2024) - not active. https://www.moneyhouse.ch/en/company/sidd-institut-fuer-datenschutz-und-datensiche-6556536441]",
       "fit": {
         "size": 14,
         "independence": 25,
@@ -1881,7 +1881,7 @@
         "geography": 8
       },
       "fit_score": 63.0,
-      "status": "candidate",
+      "status": "dropped",
       "confidence": 3,
       "sources": [
         {
@@ -1912,7 +1912,7 @@
       "independent": true,
       "succession_signal": "",
       "role": "bolt-on",
-      "approach_note": "Owner-led law firm (Ines Kirschenhofer, TUEV-DSB) acting as external DSB for Arztpraxen/MVZ/Krankenhaeuser - Bavaria legal-boutique bolt-on.",
+      "approach_note": "Owner-led law firm (Ines Kirschenhofer, TUEV-DSB) acting as external DSB for Arztpraxen/MVZ/Krankenhaeuser - Bavaria legal-boutique bolt-on.  [Dropped: Two-partner general law firm (labor/IP/contract/data-protection law) offering external DSB among many services - micro generalist Kanzlei, not a healthcare-niche SME. https://www.datenschutzanwaelte-bayern.de/]",
       "fit": {
         "size": 14,
         "independence": 25,
@@ -1921,7 +1921,7 @@
         "geography": 10
       },
       "fit_score": 65.0,
-      "status": "candidate",
+      "status": "dropped",
       "confidence": 3,
       "sources": [
         {
@@ -1957,7 +1957,7 @@
       "independent": true,
       "succession_signal": "",
       "role": "bolt-on",
-      "approach_note": "Healthcare-only external DSB brand (TUEV, Art.37 DSGVO) focused on Arztpraxen - small specialist tuck-in; ownership/legal entity to be confirmed.",
+      "approach_note": "Healthcare-only external DSB brand (TUEV, Art.37 DSGVO) focused on Arztpraxen - small specialist tuck-in; ownership/legal entity to be confirmed.  [Dropped: Only a service webpage; no confirmable legal entity, HQ, ownership or SME size — likely micro one-person offering, cannot verify https://www.praxisschutz.net/]",
       "fit": {
         "size": 14,
         "independence": 25,
@@ -1966,7 +1966,7 @@
         "geography": 6
       },
       "fit_score": 61.0,
-      "status": "candidate",
+      "status": "dropped",
       "confidence": 2,
       "sources": [
         {
@@ -2005,7 +2005,7 @@
         "geography": 10
       },
       "fit_score": 90.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 4,
       "sources": [
         {
@@ -2049,7 +2049,7 @@
         "geography": 10
       },
       "fit_score": 85.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 3,
       "sources": [
         {
@@ -2077,10 +2077,10 @@
         "Immissionsschutz- & Störfallbeauftragter (§53/§58a BImSchG)"
       ],
       "hq_region": "Winsen (Luhe), Niedersachsen",
-      "founded": "",
+      "founded": "1997",
       "est_revenue_band": "EUR 2-5m",
       "est_employees": "20-50",
-      "ownership": "founder",
+      "ownership": "family",
       "independent": true,
       "succession_signal": "founder-led by Dr. Nils-Oliver Höppner",
       "role": "platform",
@@ -2093,7 +2093,7 @@
         "geography": 10
       },
       "fit_score": 90.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 4,
       "sources": [
         {
@@ -2124,7 +2124,7 @@
       "founded": "1976",
       "est_revenue_band": "EUR 10-20m",
       "est_employees": "50-150",
-      "ownership": "family",
+      "ownership": "management/employee (AG with employee participation)",
       "independent": true,
       "succession_signal": "founder Dr. Werner A. Poppe now only Aufsichtsrats-Vorsitzender; operating board handed to Dr. Hillwig/Dr. Goldner – generational transition in progress",
       "role": "platform",
@@ -2137,7 +2137,7 @@
         "geography": 10
       },
       "fit_score": 90.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 3,
       "sources": [
         {
@@ -2181,7 +2181,7 @@
         "geography": 10
       },
       "fit_score": 81.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 4,
       "sources": [
         {
@@ -2216,7 +2216,7 @@
       "independent": true,
       "succession_signal": "",
       "role": "bolt-on",
-      "approach_note": "Gefahrstoff-/Compliance house also providing external Betriebsbeauftragte für Umweltschutz (Immissionsschutz etc.); owner-managed (GF Schnurbusch/Budde) – tuck-in with adjacent Gefahrstoff cross-sell.",
+      "approach_note": "Gefahrstoff-/Compliance house also providing external Betriebsbeauftragte für Umweltschutz (Immissionsschutz etc.); owner-managed (GF Schnurbusch/Budde) – tuck-in with adjacent Gefahrstoff cross-sell.  [Dropped: Real family GmbH but niche mismatch: does Gefahrstoff/Gefahrgut consulting, safety data sheets & external Gefahrgutbeauftragter — not Immissionsschutz-/Störfallbeauftragter per BImSchG. https://www.chemical-check.de/]",
       "fit": {
         "size": 25,
         "independence": 25,
@@ -2225,7 +2225,7 @@
         "geography": 10
       },
       "fit_score": 76.0,
-      "status": "candidate",
+      "status": "dropped",
       "confidence": 3,
       "sources": [
         {
@@ -2260,7 +2260,7 @@
       "independent": true,
       "succession_signal": "",
       "role": "bolt-on",
-      "approach_note": "Chemical-compliance firm supplying external Betriebsbeauftragte für den Umweltschutz plus Gefahrgut/ChemVerbotsV experts – tuck-in that widens the statutory-officer catalogue.",
+      "approach_note": "Chemical-compliance firm supplying external Betriebsbeauftragte für den Umweltschutz plus Gefahrgut/ChemVerbotsV experts – tuck-in that widens the statutory-officer catalogue.  [Dropped: NOT independent — part of Infraserv Höchst Group since January 2020 (strategic subsidiary). https://www.chemie.de/firmen/3261/kft-chemieservice-gmbh.html]",
       "fit": {
         "size": 25,
         "independence": 25,
@@ -2269,7 +2269,7 @@
         "geography": 10
       },
       "fit_score": 76.0,
-      "status": "candidate",
+      "status": "dropped",
       "confidence": 3,
       "sources": [
         {
@@ -2297,7 +2297,7 @@
         "Immissionsschutz- & Störfallbeauftragter (§53/§58a BImSchG)"
       ],
       "hq_region": "Hamburg",
-      "founded": "",
+      "founded": "1993",
       "est_revenue_band": "EUR 1-3m",
       "est_employees": "5-20",
       "ownership": "management",
@@ -2313,7 +2313,7 @@
         "geography": 10
       },
       "fit_score": 76.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 3,
       "sources": [
         {
@@ -2344,7 +2344,7 @@
       "founded": "",
       "est_revenue_band": "EUR 1-3m",
       "est_employees": "10-30",
-      "ownership": "management",
+      "ownership": "family (Schrübbers)",
       "independent": true,
       "succession_signal": "",
       "role": "bolt-on",
@@ -2357,7 +2357,7 @@
         "geography": 10
       },
       "fit_score": 76.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 4,
       "sources": [
         {
@@ -2392,7 +2392,7 @@
       "independent": true,
       "succession_signal": "",
       "role": "bolt-on",
-      "approach_note": "Nationwide Umweltberatung (Abfall/Entsorgung core) that also fields external Immissionsschutz-/Störfallbeauftragte – existing target; GF Annette Zech, since 1995.",
+      "approach_note": "Nationwide Umweltberatung (Abfall/Entsorgung core) that also fields external Immissionsschutz-/Störfallbeauftragte – existing target; GF Annette Zech, since 1995.  [Verify: Real, independent Solingen consultancy (HRB 16361, MD A. Zech) but core focus is Abfall/waste consulting & training; Immissionsschutzbeauftragter is a training offering, not clearly a core outsourcing service. https://www.northdata.com/proenvi%20Gesellschaft%20f%C3%BCr%20Umweltberatung%20mbH,%20Solingen/Amtsgericht%20Wuppertal%20HRB%2016361]",
       "fit": {
         "size": 25,
         "independence": 25,
@@ -2401,7 +2401,7 @@
         "geography": 10
       },
       "fit_score": 76.0,
-      "status": "candidate",
+      "status": "flagged",
       "confidence": 3,
       "sources": [
         {
@@ -2445,7 +2445,7 @@
         "geography": 10
       },
       "fit_score": 78.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 3,
       "sources": [
         {
@@ -2529,7 +2529,7 @@
         "geography": 10
       },
       "fit_score": 85.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 3,
       "sources": [
         {
@@ -2564,7 +2564,7 @@
       "independent": true,
       "succession_signal": "GmbH founded 2023 as reorganisation of a predecessor Einzel-Ingenieurbüro with long-time employees (Früh/Reiling) – succession/handover just executed",
       "role": "bolt-on",
-      "approach_note": "Recently incorporated successor of an older BW Umweltschutz/Sicherheit Ingenieurbüro; provides external Immissionsschutz-/Störfallbeauftragte – young legal entity, established client base.",
+      "approach_note": "Recently incorporated successor of an older BW Umweltschutz/Sicherheit Ingenieurbüro; provides external Immissionsschutz-/Störfallbeauftragte – young legal entity, established client base.  [Verify: Real (HRB 748586 Mannheim), management-owned (Reiling/Früh), in-niche BImSchG permitting/officers; but newly founded 2023 so stated EUR 1-3m size unconfirmed. https://www.companyhouse.de/INGUS-Ingenieurbuero-fuer-Umweltschutz-und-Sicherheit-GmbH-Kaempfelbach]",
       "fit": {
         "size": 25,
         "independence": 25,
@@ -2573,7 +2573,7 @@
         "geography": 10
       },
       "fit_score": 80.0,
-      "status": "candidate",
+      "status": "flagged",
       "confidence": 3,
       "sources": [
         {
@@ -2608,7 +2608,7 @@
       "independent": true,
       "succession_signal": "30+ years in the field; owner-managed (GF Yavuz Sucu)",
       "role": "bolt-on",
-      "approach_note": "Arbeitssicherheit + Beauftragtenwesen firm offering external Immissionsschutz-, Abfall-, Gefahrgut- & Datenschutzbeauftragte – multi-role tuck-in in southern Germany.",
+      "approach_note": "Arbeitssicherheit + Beauftragtenwesen firm offering external Immissionsschutz-, Abfall-, Gefahrgut- & Datenschutzbeauftragte – multi-role tuck-in in southern Germany.  [Dropped: Real firm but core is occupational safety (Arbeits-/Brandschutz); statutory Immissionsschutz-/Störfallbeauftragter role not positively confirmed as offered (https://www.ihs-s.de/arbeitssicherheit/)]",
       "fit": {
         "size": 25,
         "independence": 25,
@@ -2617,7 +2617,7 @@
         "geography": 10
       },
       "fit_score": 80.0,
-      "status": "candidate",
+      "status": "dropped",
       "confidence": 3,
       "sources": [
         {
@@ -2661,7 +2661,7 @@
         "geography": 10
       },
       "fit_score": 73.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 3,
       "sources": [
         {
@@ -2689,7 +2689,7 @@
         "Immissionsschutz- & Störfallbeauftragter (§53/§58a BImSchG)"
       ],
       "hq_region": "Ennepetal, NRW (+ Bonn/Düsseldorf)",
-      "founded": "",
+      "founded": "2005",
       "est_revenue_band": "EUR 1-3m",
       "est_employees": "5-20",
       "ownership": "family",
@@ -2705,7 +2705,7 @@
         "geography": 10
       },
       "fit_score": 76.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 3,
       "sources": [
         {
@@ -2740,7 +2740,7 @@
       "independent": true,
       "succession_signal": "owner-managed by Dipl.-Ing. Dirk Schwerter",
       "role": "bolt-on",
-      "approach_note": "Owner-managed büro for betrieblichen Umweltschutz appointed as external ISB (Immissionsschutz), Abfall- & Gewässerschutzbeauftragter for many industrial clients – pure-niche tuck-in.",
+      "approach_note": "Owner-managed büro for betrieblichen Umweltschutz appointed as external ISB (Immissionsschutz), Abfall- & Gewässerschutzbeauftragter for many industrial clients – pure-niche tuck-in.  [Verify: Real, in-niche (external ISB per 5. BImSchV for many industrial clients), founder Dipl.-Ing. Dirk Schwerter, Wuppertal; small owner-operated Ingenieurbüro, SME scale unconfirmed. https://www.ib-schwerter.de/]",
       "fit": {
         "size": 18,
         "independence": 25,
@@ -2749,7 +2749,7 @@
         "geography": 10
       },
       "fit_score": 73.0,
-      "status": "candidate",
+      "status": "flagged",
       "confidence": 3,
       "sources": [
         {
@@ -2777,7 +2777,7 @@
         "Immissionsschutz- & Störfallbeauftragter (§53/§58a BImSchG)"
       ],
       "hq_region": "Rottenburg am Neckar, Baden-Württemberg",
-      "founded": "",
+      "founded": "1990",
       "est_revenue_band": "EUR 1-3m",
       "est_employees": "5-20",
       "ownership": "independent",
@@ -2793,7 +2793,7 @@
         "geography": 10
       },
       "fit_score": 76.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 3,
       "sources": [
         {
@@ -2821,10 +2821,10 @@
         "Immissionsschutz- & Störfallbeauftragter (§53/§58a BImSchG)"
       ],
       "hq_region": "Viersen, NRW",
-      "founded": "",
+      "founded": "1998",
       "est_revenue_band": "EUR 1-3m",
       "est_employees": "5-20",
-      "ownership": "founder",
+      "ownership": "family",
       "independent": true,
       "succession_signal": "founder-managed by öbuv Sachverständiger Helmut van Ool",
       "role": "bolt-on",
@@ -2837,7 +2837,7 @@
         "geography": 10
       },
       "fit_score": 85.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 3,
       "sources": [
         {
@@ -2881,7 +2881,7 @@
         "geography": 10
       },
       "fit_score": 85.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 3,
       "sources": [
         {
@@ -2925,7 +2925,7 @@
         "geography": 10
       },
       "fit_score": 78.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 3,
       "sources": [
         {
@@ -2960,7 +2960,7 @@
       "independent": true,
       "succession_signal": "owner-run personal brand (Donato Muro)",
       "role": "bolt-on",
-      "approach_note": "Owner-led Düsseldorf practice offering external Störfallbeauftragter plus Brandschutz/SiGeKo – niche tuck-in; legal entity/size not fully confirmed (verify before approach).",
+      "approach_note": "Owner-led Düsseldorf practice offering external Störfallbeauftragter plus Brandschutz/SiGeKo – niche tuck-in; legal entity/size not fully confirmed (verify before approach).  [Dropped: Personal brand of sole Inhaber Donato Muro — a one-person consultancy, fails SME (not a plausible EUR 1-2m firm). https://sicherheitsingenieur.nrw/impressum/kontakt/]",
       "fit": {
         "size": 18,
         "independence": 25,
@@ -2969,7 +2969,7 @@
         "geography": 10
       },
       "fit_score": 73.0,
-      "status": "candidate",
+      "status": "dropped",
       "confidence": 2,
       "sources": [
         {
@@ -2997,14 +2997,14 @@
         "Immissionsschutz- & Störfallbeauftragter (§53/§58a BImSchG)"
       ],
       "hq_region": "Solingen, NRW",
-      "founded": "",
+      "founded": "1999",
       "est_revenue_band": "EUR 1-2m",
       "est_employees": "2-10",
       "ownership": "founder",
       "independent": true,
       "succession_signal": "owner-managed partnership (GbR)",
       "role": "bolt-on",
-      "approach_note": "Small owner-run Ingenieurbüro for Sicherheit/Qualität/Umweltschutz taking on external Immissionsschutz-, Störfall- & Abfallbeauftragter – micro tuck-in (GbR; confirm scale).",
+      "approach_note": "Small owner-run Ingenieurbüro for Sicherheit/Qualität/Umweltschutz taking on external Immissionsschutz-, Störfall- & Abfallbeauftragter – micro tuck-in (GbR; confirm scale).  [Verify: Founder-owned GbR (Walbersdorf & Wiechert, est. 1999) offering external Immissionsschutzbeauftragter §54 BImSchG; small 2-founder office near/below size floor (https://2w-consulting.de/beauftragtenwesen/)]",
       "fit": {
         "size": 18,
         "independence": 25,
@@ -3013,7 +3013,7 @@
         "geography": 10
       },
       "fit_score": 73.0,
-      "status": "candidate",
+      "status": "flagged",
       "confidence": 2,
       "sources": [
         {
@@ -3048,7 +3048,7 @@
       "independent": true,
       "succession_signal": "MD/owner Heiko Rudolph in role since founding (2004), 20-yr anniversary passed",
       "role": "platform",
-      "approach_note": "Pure-play OT/ICS assessor (IEC 62443 / BSI-KritisV) — ideal platform to add a recurring industrial-SOC and cross-sell into water KRITIS under NIS2.",
+      "approach_note": "Pure-play OT/ICS assessor (IEC 62443 / BSI-KritisV) — ideal platform to add a recurring industrial-SOC and cross-sell into water KRITIS under NIS2.  [Verify: Real founder-run (Heiko Rudolph, est. 2004) OT/ICS security firm, Langenfeld; broad OT security engineering/consulting, not a water/wastewater managed-SOC specialist https://www.admeritia.de/]",
       "fit": {
         "size": 25,
         "independence": 25,
@@ -3057,7 +3057,7 @@
         "geography": 8
       },
       "fit_score": 88.0,
-      "status": "candidate",
+      "status": "flagged",
       "confidence": 4,
       "sources": [
         {
@@ -3080,14 +3080,14 @@
         "Water / Wastewater Utility OT Security Monitoring"
       ],
       "hq_region": "Hagenberg, Oberösterreich, AT (+ DE sites)",
-      "founded": "",
+      "founded": "2012",
       "est_revenue_band": "EUR 2-5m",
       "est_employees": "20-40",
       "ownership": "founder",
       "independent": true,
       "succession_signal": "",
       "role": "platform",
-      "approach_note": "Austrian owner-managed OT-security specialist explicitly serving water & wastewater KRITIS — strong DACH platform for NIS2/NISG 2026 wave.",
+      "approach_note": "Austrian owner-managed OT-security specialist explicitly serving water & wastewater KRITIS — strong DACH platform for NIS2/NISG 2026 wave.  [Verify: Real independent OT-security specialist (Hagenberg AT, founded 2012, >20 experts); serves water/wastewater but is broad OT consulting/assessment, not a dedicated water-utility SOC 'monitoring' service. https://limessecurity.com/en/about-us/]",
       "fit": {
         "size": 25,
         "independence": 25,
@@ -3096,7 +3096,7 @@
         "geography": 8
       },
       "fit_score": 79.0,
-      "status": "candidate",
+      "status": "flagged",
       "confidence": 4,
       "sources": [
         {
@@ -3126,7 +3126,7 @@
       "independent": true,
       "succession_signal": "",
       "role": "platform",
-      "approach_note": "Independent MSSP with BSI-IT-Grundschutz-certified SOC already monitoring KRITIS/OT — anchor platform to specialise into water utility OT monitoring.",
+      "approach_note": "Independent MSSP with BSI-IT-Grundschutz-certified SOC already monitoring KRITIS/OT — anchor platform to specialise into water utility OT monitoring.  [Dropped: PE-backed: Hannover Finanz took a stake in 8com in Feb 2025 — fails independence. https://www.crowe-bpg.de/en/news/2025-02-crowe-supports-hannover-finanz-its-investment-cybersecurity-specialist-8com]",
       "fit": {
         "size": 25,
         "independence": 25,
@@ -3135,7 +3135,7 @@
         "geography": 10
       },
       "fit_score": 81.0,
-      "status": "candidate",
+      "status": "dropped",
       "confidence": 4,
       "sources": [
         {
@@ -3174,7 +3174,7 @@
         "geography": 10
       },
       "fit_score": 81.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 5,
       "sources": [
         {
@@ -3209,7 +3209,7 @@
       "independent": true,
       "succession_signal": "",
       "role": "bolt-on",
-      "approach_note": "Management-owned KRITIS IT/OT-security & PMO firm; recent rebrand (Business Change to AVATIO, Dec 2024) signals a growth/repositioning moment — good tuck-in.",
+      "approach_note": "Management-owned KRITIS IT/OT-security & PMO firm; recent rebrand (Business Change to AVATIO, Dec 2024) signals a growth/repositioning moment — good tuck-in.  [Verify: Real independent (MDs Münstermann/Hansmann, HRB 50442, ex Business Change GmbH) in KRITIS/OT security, but advisory/consulting rather than a managed SOC; water sub-niche not specifically confirmed. https://avatio.de/impressum]",
       "fit": {
         "size": 25,
         "independence": 25,
@@ -3218,7 +3218,7 @@
         "geography": 10
       },
       "fit_score": 76.0,
-      "status": "candidate",
+      "status": "flagged",
       "confidence": 3,
       "sources": [
         {
@@ -3262,7 +3262,7 @@
         "geography": 10
       },
       "fit_score": 76.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 4,
       "sources": [
         {
@@ -3297,7 +3297,7 @@
       "independent": true,
       "succession_signal": "36+ years in business — long-established, potential ownership-transition window",
       "role": "platform",
-      "approach_note": "Independent IT-security/IAM consultancy (36+ yrs) with a dedicated KRITIS IT/OT-security practice; broad enough to anchor a buy-and-build.  [Verify: broad IT/OT-security & biometrics provider, not water-OT-pure; confirm niche fit.]",
+      "approach_note": "Independent IT-security/IAM consultancy (36+ yrs) with a dedicated KRITIS IT/OT-security practice; broad enough to anchor a buy-and-build.  [Verify: broad IT/OT-security & biometrics provider, not water-OT-pure; confirm niche fit.]  [Verify: Real, active, independent (36 yrs, Ratingen, KG w/ Twinsoft Beteiligungs-GmbH as GP); does broad IT/OT security & identity mgmt, NOT specifically a water/wastewater-utility OT SOC - niche fit is a stretch. https://www.northdata.com/Twinsoft%20GmbH%20&%20Co%C2%B7%20KG%20Gesellschaft%20f%C3%BCr%20Softwareentwicklung,%20Ratingen/Amtsgericht%20Darmstadt%20HRA%2083001]",
       "fit": {
         "size": 25,
         "independence": 25,
@@ -3306,7 +3306,7 @@
         "geography": 10
       },
       "fit_score": 85.0,
-      "status": "candidate",
+      "status": "flagged",
       "confidence": 2,
       "sources": [
         {
@@ -3336,7 +3336,7 @@
       "independent": true,
       "succession_signal": "",
       "role": "bolt-on",
-      "approach_note": "Industrial cyber-defense boutique doing OT risk assessments & KRITIS audits (rail/power/IoT); add water-utility monitoring. Ownership via shareholder agreement — confirm independence in diligence.",
+      "approach_note": "Industrial cyber-defense boutique doing OT risk assessments & KRITIS audits (rail/power/IoT); add water-utility monitoring. Ownership via shareholder agreement — confirm independence in diligence.  [Verify: Active Berlin OT/ICS & KRITIS cyber firm (HRB 183851 B, 5 shareholders, independent) but the specific water/wastewater sub-niche is not confirmed and firm is small/early-stage. https://www.northdata.com/INCYDE%20industrial%20cyber%20defense%20GmbH,%20Berlin/Amtsgericht%20Charlottenburg%20(Berlin)%20HRB%20183851%20B]",
       "fit": {
         "size": 25,
         "independence": 25,
@@ -3345,7 +3345,7 @@
         "geography": 10
       },
       "fit_score": 76.0,
-      "status": "candidate",
+      "status": "flagged",
       "confidence": 3,
       "sources": [
         {
@@ -3380,7 +3380,7 @@
       "independent": true,
       "succession_signal": "",
       "role": "bolt-on",
-      "approach_note": "Founder-run OT-security consultancy (IEC 62443, NIS2, secure OT remote-maintenance) for energy & KRITIS; small (UG, EUR 1k capital) — early-stage bolt-on / capacity add.",
+      "approach_note": "Founder-run OT-security consultancy (IEC 62443, NIS2, secure OT remote-maintenance) for energy & KRITIS; small (UG, EUR 1k capital) — early-stage bolt-on / capacity add.  [Verify: Real (HRB 23120 Bonn), founder-owned, genuinely in-niche (OT-Security IEC 62443/NIS2 for KRITIS incl. water); but UG (haftungsbeschränkt) implies a very small/early firm near or below SME floor. https://www.northdata.de/Blackfort%20Technology%20UG,%20Bonn/HRB%2023120]",
       "fit": {
         "size": 18,
         "independence": 25,
@@ -3389,7 +3389,7 @@
         "geography": 10
       },
       "fit_score": 69.0,
-      "status": "candidate",
+      "status": "flagged",
       "confidence": 2,
       "sources": [
         {
@@ -3424,7 +3424,7 @@
       "independent": true,
       "succession_signal": "",
       "role": "platform",
-      "approach_note": "Founder-owned Swiss OT-security specialist for critical infrastructure/EVU with its own SCADA test-lab; the Swiss anchor for a DACH OT-monitoring roll-up.",
+      "approach_note": "Founder-owned Swiss OT-security specialist for critical infrastructure/EVU with its own SCADA test-lab; the Swiss anchor for a DACH OT-monitoring roll-up.  [Verify: Real & founder-owned (2019, Kaisten AG; Lenzin/Amsler) OT/ICS security firm, but focus is energy/industrial audit-training-consulting, not managed SOC monitoring and not water/wastewater-specific; young/small. https://alsec.ch/]",
       "fit": {
         "size": 25,
         "independence": 25,
@@ -3433,7 +3433,7 @@
         "geography": 8
       },
       "fit_score": 79.0,
-      "status": "candidate",
+      "status": "flagged",
       "confidence": 4,
       "sources": [
         {
@@ -3468,7 +3468,7 @@
       "independent": true,
       "succession_signal": "",
       "role": "bolt-on",
-      "approach_note": "Owner-managed industrial IT-security vendor (se.MIS secure remote-access/management) explicitly targeting water & energy KRITIS — a product bolt-on to a monitoring platform.",
+      "approach_note": "Owner-managed industrial IT-security vendor (se.MIS secure remote-access/management) explicitly targeting water & energy KRITIS — a product bolt-on to a monitoring platform.  [Dropped: Niche mismatch: sematicon is a general industrial OT-security product vendor (se.MIS secure-access suite), not a water/wastewater-utility OT security monitoring/SOC service; also an AG. https://www.sematicon.com/]",
       "fit": {
         "size": 25,
         "independence": 25,
@@ -3477,7 +3477,7 @@
         "geography": 10
       },
       "fit_score": 76.0,
-      "status": "candidate",
+      "status": "dropped",
       "confidence": 3,
       "sources": [
         {
@@ -3504,7 +3504,7 @@
         "OT / ICS Security Monitoring (Industrial SOC for KRITIS & manufacturing)",
         "Water / Wastewater Utility OT Security Monitoring"
       ],
-      "hq_region": "AT",
+      "hq_region": "Gänserndorf, Niederösterreich (AT)",
       "founded": "",
       "est_revenue_band": "EUR 0.5-2m",
       "est_employees": "5-20",
@@ -3518,10 +3518,10 @@
         "independence": 25,
         "succession": 6,
         "platform": 10,
-        "geography": 10
+        "geography": 8
       },
-      "fit_score": 69.0,
-      "status": "candidate",
+      "fit_score": 67.0,
+      "status": "verified",
       "confidence": 3,
       "sources": [
         {
@@ -3544,7 +3544,7 @@
         "Water / Wastewater Utility OT Security Monitoring"
       ],
       "hq_region": "Bühl / Köln, DE",
-      "founded": "",
+      "founded": "2001",
       "est_revenue_band": "EUR 1-3m",
       "est_employees": "10-20",
       "ownership": "founder",
@@ -3560,7 +3560,7 @@
         "geography": 10
       },
       "fit_score": 76.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 3,
       "sources": [
         {
@@ -3595,7 +3595,7 @@
       "independent": true,
       "succession_signal": "Founder Jörg Deusinger + next-gen Steffen Deusinger both in management since 2019 — active family succession underway",
       "role": "bolt-on",
-      "approach_note": "Family-owned, BSI-listed IT systemhaus running KRITIS §8a water-sector audits; add recurring OT monitoring and cross-sell into its utility base.",
+      "approach_note": "Family-owned, BSI-listed IT systemhaus running KRITIS §8a water-sector audits; add recurring OT monitoring and cross-sell into its utility base.  [Verify: Real independent IT-Systemhaus/infosec firm (HRB 90706 Hanau, 25+ yrs, family), but the narrow water/wastewater-utility OT-security specialization is not specifically confirmed — general ISO27001/infosec/DSB. https://www.northdata.com/DE-Bit-Computerservice%20GmbH,%20Gelnhausen/Amtsgericht%20Hanau%20HRB%2090706]",
       "fit": {
         "size": 25,
         "independence": 25,
@@ -3604,7 +3604,7 @@
         "geography": 10
       },
       "fit_score": 85.0,
-      "status": "candidate",
+      "status": "flagged",
       "confidence": 3,
       "sources": [
         {
@@ -3639,7 +3639,7 @@
       "independent": true,
       "succession_signal": "Founded 1992 by five engineers — 30+ yrs, likely generational-transition candidate",
       "role": "platform",
-      "approach_note": "Independent automation + OT-security house delivering IRMA attack-detection built to B3S Wasser/Abwasser (W1060/M1060); water-native integrator that could anchor a monitoring platform.",
+      "approach_note": "Independent automation + OT-security house delivering IRMA attack-detection built to B3S Wasser/Abwasser (W1060/M1060); water-native integrator that could anchor a monitoring platform.  [Verify: Active independent Bremen firm (est. 1992) with OT-security/NIS2 products (ACRON/IRMA) used in water sector, but primarily a software vendor rather than a pure managed-SOC provider (https://videc.de/en/company/, https://www.northdata.com/VIDEC%20Data%20Engineering%20GmbH,%20Bremen/HRB%2014489)]",
       "fit": {
         "size": 25,
         "independence": 25,
@@ -3648,7 +3648,7 @@
         "geography": 10
       },
       "fit_score": 85.0,
-      "status": "candidate",
+      "status": "flagged",
       "confidence": 3,
       "sources": [
         {
@@ -3678,7 +3678,7 @@
       "independent": true,
       "succession_signal": "",
       "role": "bolt-on",
-      "approach_note": "Independent, ISO-27001-certified OT-security consultancy (network transparency, risk, KRITIS) serving water/utilities — founder-led (Thomas Kress) tuck-in.",
+      "approach_note": "Independent, ISO-27001-certified OT-security consultancy (network transparency, risk, KRITIS) serving water/utilities — founder-led (Thomas Kress) tuck-in.  [Dropped: 2025 consolidation/rebrand from merger of TKUC & TheUnified brands (Thomas Kress group); broad cyber+telecom, not independent SME nor water/wastewater OT niche https://www.it-management.today/deutsche-cyberkom-startet-neue-aera-fuer-sichere-it]",
       "fit": {
         "size": 25,
         "independence": 25,
@@ -3687,7 +3687,7 @@
         "geography": 10
       },
       "fit_score": 76.0,
-      "status": "candidate",
+      "status": "dropped",
       "confidence": 3,
       "sources": [
         {
@@ -3717,7 +3717,7 @@
       "independent": true,
       "succession_signal": "",
       "role": "bolt-on",
-      "approach_note": "Founder-led cyber/OT-security firm (Dr. Gregor Krah) building a KRITIS OT practice (ALSEC partnership) — capacity/geography bolt-on into the water-utility monitoring theme.",
+      "approach_note": "Founder-led cyber/OT-security firm (Dr. Gregor Krah) building a KRITIS OT practice (ALSEC partnership) — capacity/geography bolt-on into the water-utility monitoring theme.  [Verify: Real, independent OT/cyber security consultancy addressing KRITIS incl. water/energy (OT partner Alsec CH); young/small, SME revenue unconfirmed. https://cypurge.com/ot-security/]",
       "fit": {
         "size": 25,
         "independence": 25,
@@ -3726,7 +3726,7 @@
         "geography": 10
       },
       "fit_score": 76.0,
-      "status": "candidate",
+      "status": "flagged",
       "confidence": 3,
       "sources": [
         {
@@ -3800,7 +3800,7 @@
         "geography": 10
       },
       "fit_score": 90.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 4,
       "sources": [
         {
@@ -3844,7 +3844,7 @@
         "geography": 10
       },
       "fit_score": 81.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 4,
       "sources": [
         {
@@ -3888,7 +3888,7 @@
         "geography": 10
       },
       "fit_score": 85.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 4,
       "sources": [
         {
@@ -3932,7 +3932,7 @@
         "geography": 10
       },
       "fit_score": 90.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 4,
       "sources": [
         {
@@ -3967,7 +3967,7 @@
       "independent": true,
       "succession_signal": "",
       "role": "platform",
-      "approach_note": "One of the larger independent (Endreß family) full-service Brandschutz houses with dedicated external Brandschutzbeauftragte team and multiple sites - a potential platform anchor at the top of the SME band.",
+      "approach_note": "One of the larger independent (Endreß family) full-service Brandschutz houses with dedicated external Brandschutzbeauftragte team and multiple sites - a potential platform anchor at the top of the SME band.  [Verify: Active independent Brandschutz engineering firm (Bad Homburg HRB 15700, 30+ yrs, multi-branch) offering external Brandschutzbeauftragte; size near top of band (est 12-25m) and scope is broader fire-protection engineering. https://endress-brandschutz.de/leistungen/organisatorischer-brandschutz/brandschutzbeauftragte]",
       "fit": {
         "size": 25,
         "independence": 25,
@@ -3976,7 +3976,7 @@
         "geography": 10
       },
       "fit_score": 81.0,
-      "status": "candidate",
+      "status": "flagged",
       "confidence": 3,
       "sources": [
         {
@@ -4011,7 +4011,7 @@
       "independent": true,
       "succession_signal": "Fast-growing founder firm (Martin Schöndienst) that just incorporated to GmbH (01/2025) - growth/build-up candidate rather than exit",
       "role": "bolt-on",
-      "approach_note": "Founder-built Ingenieurbüro acting as external Brandschutzbeauftragter and FaSi in the Schwarzwald/BW region; recently converted GbR->GmbH signalling scale ambition.",
+      "approach_note": "Founder-built Ingenieurbüro acting as external Brandschutzbeauftragter and FaSi in the Schwarzwald/BW region; recently converted GbR->GmbH signalling scale ambition.  [Verify: Real founder-run firm (Hüfingen, Martin Schöndienst) offering external Brandschutzbeauftragte/Arbeitssicherheit; caveat: started 2014 as one-man engineering office, only converted to GmbH 01.01.2025, small size. https://www.as-schoendienst.de/ueber-uns/]",
       "fit": {
         "size": 18,
         "independence": 25,
@@ -4020,7 +4020,7 @@
         "geography": 10
       },
       "fit_score": 78.0,
-      "status": "candidate",
+      "status": "flagged",
       "confidence": 4,
       "sources": [
         {
@@ -4055,7 +4055,7 @@
       "independent": true,
       "succession_signal": "",
       "role": "bolt-on",
-      "approach_note": "Founder-led (Christian Schünzel) Ingenieurbüro for Arbeitssicherheit + vorbeugender Brandschutz incl. external Brandschutzbeauftragter in the Munich-Augsburg corridor - clean regional tuck-in.",
+      "approach_note": "Founder-led (Christian Schünzel) Ingenieurbüro for Arbeitssicherheit + vorbeugender Brandschutz incl. external Brandschutzbeauftragter in the Munich-Augsburg corridor - clean regional tuck-in.  [Dropped: Micro Ingenieurbüro: founded 2020, only 1-4 employees (owner Christian Schünzel) — below SME floor. https://www.bayern-international.de/en/company-database/company-details/amu-beratung-ingenieurbuero-schuenzel-1040964]",
       "fit": {
         "size": 18,
         "independence": 25,
@@ -4064,7 +4064,7 @@
         "geography": 10
       },
       "fit_score": 69.0,
-      "status": "candidate",
+      "status": "dropped",
       "confidence": 3,
       "sources": [
         {
@@ -4099,7 +4099,7 @@
       "independent": true,
       "succession_signal": "",
       "role": "bolt-on",
-      "approach_note": "Young founder firm (GF Sandro Ullering) offering external Brandschutzbeauftragter n. DGUV 205-003 plus Arbeitssicherheit across the Ruhrgebiet - buy-and-grow tuck-in.",
+      "approach_note": "Young founder firm (GF Sandro Ullering) offering external Brandschutzbeauftragter n. DGUV 205-003 plus Arbeitssicherheit across the Ruhrgebiet - buy-and-grow tuck-in.  [Verify: Founder-run Bochum external Brandschutz/occupational-safety provider, in-niche and active, but only founded 2023 and small (ullertec.de/leistungen/brandschutz/externer-brandschutzbeauftragter/)]",
       "fit": {
         "size": 18,
         "independence": 25,
@@ -4108,7 +4108,7 @@
         "geography": 10
       },
       "fit_score": 69.0,
-      "status": "candidate",
+      "status": "flagged",
       "confidence": 4,
       "sources": [
         {
@@ -4152,7 +4152,7 @@
         "geography": 10
       },
       "fit_score": 81.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 4,
       "sources": [
         {
@@ -4196,7 +4196,7 @@
         "geography": 10
       },
       "fit_score": 80.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 4,
       "sources": [
         {
@@ -4213,7 +4213,7 @@
     },
     {
       "name": "ProSafeCon",
-      "legal_name": "",
+      "legal_name": "ProSafeCon GmbH",
       "website": "https://prosafecon.de/",
       "sector": "Testing, Inspection & Certification",
       "niche": "External Brandschutzbeauftragte / Fire-Safety Officer outsourcing",
@@ -4223,7 +4223,7 @@
         "Fire-Safety Expert Inspection & Advisory (Brandschutz)",
         "External Brandschutzbeauftragte / Fire-Safety Officer outsourcing"
       ],
-      "hq_region": "Deutschland (bundesweit; HQ nicht eindeutig)",
+      "hq_region": "Düsseldorf, NRW",
       "founded": "",
       "est_revenue_band": "EUR 1-3m",
       "est_employees": "10-30",
@@ -4240,7 +4240,7 @@
         "geography": 10
       },
       "fit_score": 76.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 2,
       "sources": [
         {
@@ -4279,7 +4279,7 @@
         "geography": 10
       },
       "fit_score": 76.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 3,
       "sources": [
         {
@@ -4318,7 +4318,7 @@
         "geography": 8
       },
       "fit_score": 79.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 4,
       "sources": [
         {
@@ -4345,7 +4345,7 @@
         "Fire-Safety Expert Inspection & Advisory (Brandschutz)",
         "External Brandschutzbeauftragte / Fire-Safety Officer outsourcing"
       ],
-      "hq_region": "Deutschland (Region nicht bestätigt)",
+      "hq_region": "Eschweiler, Nordrhein-Westfalen",
       "founded": "",
       "est_revenue_band": "EUR 1-3m",
       "est_employees": "10-30",
@@ -4362,7 +4362,7 @@
         "geography": 10
       },
       "fit_score": 76.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 2,
       "sources": [
         {
@@ -4374,7 +4374,7 @@
     },
     {
       "name": "Lange Brandschutz",
-      "legal_name": "",
+      "legal_name": "LANGE Brandschutz GmbH",
       "website": "https://www.lange-brandschutz.de/",
       "sector": "Testing, Inspection & Certification",
       "niche": "External Brandschutzbeauftragte / Fire-Safety Officer outsourcing",
@@ -4384,7 +4384,7 @@
         "Fire-Safety Expert Inspection & Advisory (Brandschutz)",
         "External Brandschutzbeauftragte / Fire-Safety Officer outsourcing"
       ],
-      "hq_region": "Deutschland (Region nicht bestätigt)",
+      "hq_region": "Laatzen, Niedersachsen",
       "founded": "",
       "est_revenue_band": "EUR 1-3m",
       "est_employees": "10-30",
@@ -4392,7 +4392,7 @@
       "independent": true,
       "succession_signal": "",
       "role": "bolt-on",
-      "approach_note": "Provider fielding VdS-trained external Brandschutzbeauftragte and Brandschutzkonzepte; verify legal entity and ownership before approach.",
+      "approach_note": "Provider fielding VdS-trained external Brandschutzbeauftragte and Brandschutzkonzepte; verify legal entity and ownership before approach.  [Verify: Confirmed active LANGE Brandschutz GmbH (HRB 216109 Hannover), Laatzen; external Brandschutzbeauftragter, independent — but SME size unconfirmed https://www.northdata.com/LANGE%20Brandschutz%20GmbH,%20Laatzen/Amtsgericht%20Hannover%20HRB%20216109]",
       "fit": {
         "size": 25,
         "independence": 25,
@@ -4401,7 +4401,7 @@
         "geography": 10
       },
       "fit_score": 76.0,
-      "status": "candidate",
+      "status": "flagged",
       "confidence": 2,
       "sources": [
         {
@@ -4440,7 +4440,7 @@
         "geography": 8
       },
       "fit_score": 79.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 4,
       "sources": [
         {
@@ -4475,7 +4475,7 @@
       "independent": true,
       "succession_signal": "",
       "role": "bolt-on",
-      "approach_note": "Owner-led (Franz Kulicek) Viennese firm combining external Brandschutzbeauftragte with maintenance and a 24/7 Notrufzentrale - recurring-service tuck-in for an Austrian roll-up.",
+      "approach_note": "Owner-led (Franz Kulicek) Viennese firm combining external Brandschutzbeauftragte with maintenance and a 24/7 Notrufzentrale - recurring-service tuck-in for an Austrian roll-up.  [Dropped: NOT founder-independent - 100% owned by Contero Holding GmbH (rep René Hofmann, not founder Kulicek); holding/consolidator ownership. https://brandschutzbeauftragte.at/]",
       "fit": {
         "size": 25,
         "independence": 25,
@@ -4484,7 +4484,7 @@
         "geography": 8
       },
       "fit_score": 74.0,
-      "status": "candidate",
+      "status": "dropped",
       "confidence": 3,
       "sources": [
         {
@@ -4501,7 +4501,7 @@
     },
     {
       "name": "A.RED Feuerlöscher und Brandschutz",
-      "legal_name": "A.Red (Jürgen Ameseder)",
+      "legal_name": "A.RED e.U. (Jürgen Ameseder)",
       "website": "https://www.a-red.at/",
       "sector": "Testing, Inspection & Certification",
       "niche": "External Brandschutzbeauftragte / Fire-Safety Officer outsourcing",
@@ -4519,7 +4519,7 @@
       "independent": true,
       "succession_signal": "",
       "role": "bolt-on",
-      "approach_note": "Owner-run (Jürgen Ameseder) Vienna fire-protection firm offering external Brandschutzbeauftragte/Brandwart plus extinguisher service - product+service tuck-in with recurring maintenance base.",
+      "approach_note": "Owner-run (Jürgen Ameseder) Vienna fire-protection firm offering external Brandschutzbeauftragte/Brandwart plus extinguisher service - product+service tuck-in with recurring maintenance base.  [Verify: Real AT family firm (A.RED e.U., Wien, Ameseder) offering external Brandschutzbeauftragte, but core is fire-extinguisher sales/service; e.U. sole-prop likely small/near SME floor. https://www.wlw.at/de/firma/ared-eu-1749671]",
       "fit": {
         "size": 25,
         "independence": 25,
@@ -4528,7 +4528,7 @@
         "geography": 8
       },
       "fit_score": 74.0,
-      "status": "candidate",
+      "status": "flagged",
       "confidence": 3,
       "sources": [
         {
@@ -4572,7 +4572,7 @@
         "geography": 8
       },
       "fit_score": 74.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 3,
       "sources": [
         {
@@ -4607,7 +4607,7 @@
       "independent": true,
       "succession_signal": "",
       "role": "bolt-on",
-      "approach_note": "Swiss provider offering external SiBe Brandschutz mandate management (VKF); small, verify size/ownership - potential CH tuck-in.",
+      "approach_note": "Swiss provider offering external SiBe Brandschutz mandate management (VKF); small, verify size/ownership - potential CH tuck-in.  [Dropped: Swiss external SiBe-Brandschutz service exists but no legal entity, HQ or size confirmable; likely a one-person consultancy — cannot verify SME status. https://siebura.ch/sibe_brandschutz_aufgaben/]",
       "fit": {
         "size": 10,
         "independence": 25,
@@ -4616,7 +4616,7 @@
         "geography": 8
       },
       "fit_score": 59.0,
-      "status": "candidate",
+      "status": "dropped",
       "confidence": 2,
       "sources": [
         {
@@ -4656,7 +4656,7 @@
         "geography": 10
       },
       "fit_score": 100.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 5,
       "sources": [
         {
@@ -4701,7 +4701,7 @@
         "geography": 10
       },
       "fit_score": 90.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 4,
       "sources": [
         {
@@ -4736,7 +4736,7 @@
       "independent": true,
       "succession_signal": "",
       "role": "bolt-on",
-      "approach_note": "Regionaler IT-/Medizintechnik-Dienstleister für Praxen/MVZ, der STK+MTK neu ins Angebot aufgenommen hat - Ost-Brandenburg-Abdeckung, Cross-Sell-Potenzial",
+      "approach_note": "Regionaler IT-/Medizintechnik-Dienstleister für Praxen/MVZ, der STK+MTK neu ins Angebot aufgenommen hat - Ost-Brandenburg-Abdeckung, Cross-Sell-Potenzial  [Verify: Active independent practice/MVZ-IT firm (Frankfurt Oder) that recently added certified STK/MTK; in-niche but device-inspection is an adjacent add-on to core IT business, and serves practices not hospitals. https://comservice-ffo.de/mtk-stk-messtechnische-und-sicherheitstechnische-kontrolle-bei-comservice/]",
       "fit": {
         "size": 25,
         "independence": 25,
@@ -4745,7 +4745,7 @@
         "geography": 10
       },
       "fit_score": 76.0,
-      "status": "candidate",
+      "status": "flagged",
       "confidence": 4,
       "sources": [
         {
@@ -4790,7 +4790,7 @@
         "geography": 10
       },
       "fit_score": 85.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 4,
       "sources": [
         {
@@ -4834,7 +4834,7 @@
         "geography": 10
       },
       "fit_score": 81.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 5,
       "sources": [
         {
@@ -4869,7 +4869,7 @@
       "independent": true,
       "succession_signal": "",
       "role": "bolt-on",
-      "approach_note": "Medizinprodukte aus einer Hand mit Prüfung/Wartung/Reparatur (STK/MTK) - regionaler Baustein für den Großraum Stuttgart/Neckar-Alb",
+      "approach_note": "Medizinprodukte aus einer Hand mit Prüfung/Wartung/Reparatur (STK/MTK) - regionaler Baustein für den Großraum Stuttgart/Neckar-Alb  [Verify: Active independent Großbettlingen firm (HRB Stuttgart 225658), but core business is medical-device/Sanitätshaus sales (beds, stretchers) with STK/MTK service secondary; niche-fit caveat. https://www.northdata.com/TBM%20-%20Medizintechnik%20GmbH,%20Gro%C3%9Fbettlingen/Amtsgericht%20Stuttgart%20HRB%20225658]",
       "fit": {
         "size": 14,
         "independence": 25,
@@ -4878,7 +4878,7 @@
         "geography": 10
       },
       "fit_score": 65.0,
-      "status": "candidate",
+      "status": "flagged",
       "confidence": 3,
       "sources": [
         {
@@ -4905,7 +4905,7 @@
         "Hospital Facility, Hygiene & Technical Services",
         "Clinical engineering / MedTech maintenance (STK/MTK)"
       ],
-      "hq_region": "Rostock, Mecklenburg-Vorpommern",
+      "hq_region": "Bentwisch (Landkreis Rostock), Mecklenburg-Vorpommern",
       "founded": "1990",
       "est_revenue_band": "",
       "est_employees": "",
@@ -4913,7 +4913,7 @@
       "independent": true,
       "succession_signal": "Gründer Holger Graf übergab nach 30+ Jahren im April 2023 die Führung an Philipp Graf und Chris Wagner - laufender Generationenwechsel",
       "role": "bolt-on",
-      "approach_note": "Seit 1990 in Rostock; frisch vollzogene Nachfolge - Anknüpfungspunkt für Wachstumskapital/Konsolidierung im norddeutschen Raum (Schwerpunkt Intensiv-/Homecare, mit STK/MTK)",
+      "approach_note": "Seit 1990 in Rostock; frisch vollzogene Nachfolge - Anknüpfungspunkt für Wachstumskapital/Konsolidierung im norddeutschen Raum (Schwerpunkt Intensiv-/Homecare, mit STK/MTK)  [Verify: Real, active MedTech-service firm Bentwisch (Rostock), founded 1990; family-led but leadership transitioned 2023 to Philipp Graf + non-family co-MD Chris Wagner. https://www.graf-mt.de/]",
       "fit": {
         "size": 14,
         "independence": 25,
@@ -4922,7 +4922,7 @@
         "geography": 10
       },
       "fit_score": 74.0,
-      "status": "candidate",
+      "status": "flagged",
       "confidence": 3,
       "sources": [
         {
@@ -4957,7 +4957,7 @@
       "independent": true,
       "succession_signal": "",
       "role": "bolt-on",
-      "approach_note": "Herstellerunabhängige, ISO-9001-zertifizierte Prüf-/Wartungsfirma für STK/MTK/DGUV V3 (außer Röntgen/Beatmung/Laser) - klarer Tuck-in im Norden",
+      "approach_note": "Herstellerunabhängige, ISO-9001-zertifizierte Prüf-/Wartungsfirma für STK/MTK/DGUV V3 (außer Röntgen/Beatmung/Laser) - klarer Tuck-in im Norden  [Verify: Real manufacturer-independent STK/MTK medtech service GmbH in Schleswig-Holstein, independent & in-niche, but size (revenue) unconfirmed - possibly small. https://mt-nord.de/]",
       "fit": {
         "size": 14,
         "independence": 25,
@@ -4966,7 +4966,7 @@
         "geography": 10
       },
       "fit_score": 65.0,
-      "status": "candidate",
+      "status": "flagged",
       "confidence": 3,
       "sources": [
         {
@@ -5006,7 +5006,7 @@
         "geography": 10
       },
       "fit_score": 76.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 3,
       "sources": [
         {
@@ -5050,7 +5050,7 @@
         "geography": 10
       },
       "fit_score": 74.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 4,
       "sources": [
         {
@@ -5081,11 +5081,11 @@
       "founded": "1949",
       "est_revenue_band": "",
       "est_employees": "~30",
-      "ownership": "management",
+      "ownership": "owner-managed (Ralf Timm, since 2017)",
       "independent": true,
       "succession_signal": "Übernahme 2017 durch Ralf Timm (Asset-Deal inkl. 30 Mitarbeiter) - traditionsreicher Betrieb seit 1949, jüngerer Eigentümerwechsel",
       "role": "bolt-on",
-      "approach_note": "Regionaler Medizintechnik-Fachhandel mit eigenem STK-/Reparaturservice (§11 MPBetreibV) für SH/Hamburg - ~30 Mitarbeiter, solider Norddeutschland-Baustein",
+      "approach_note": "Regionaler Medizintechnik-Fachhandel mit eigenem STK-/Reparaturservice (§11 MPBetreibV) für SH/Hamburg - ~30 Mitarbeiter, solider Norddeutschland-Baustein  [Verify: Real & independent (owner Ralf Timm, MBO mid-2017; founded 1949, Rendsburg); performs STK/MTK per MPBetreibV but core business is medical-supply retail/Fachhandel, so clinical-engineering is one service line. https://medical1.sh/ueber-uns/]",
       "fit": {
         "size": 14,
         "independence": 25,
@@ -5094,7 +5094,7 @@
         "geography": 10
       },
       "fit_score": 69.0,
-      "status": "candidate",
+      "status": "flagged",
       "confidence": 4,
       "sources": [
         {
@@ -5122,14 +5122,14 @@
         "Clinical engineering / MedTech maintenance (STK/MTK)"
       ],
       "hq_region": "Dresden, Sachsen",
-      "founded": "",
+      "founded": "2008",
       "est_revenue_band": "",
       "est_employees": "",
-      "ownership": "management",
+      "ownership": "founder",
       "independent": true,
       "succession_signal": "",
       "role": "bolt-on",
-      "approach_note": "Regionaler Anbieter von Klinik-/Praxisausstattung mit medizintechnischem Service (Wartung/Reparatur) - Anknüpfungspunkt für Sachsen-Abdeckung",
+      "approach_note": "Regionaler Anbieter von Klinik-/Praxisausstattung mit medizintechnischem Service (Wartung/Reparatur) - Anknüpfungspunkt für Sachsen-Abdeckung  [Verify: Active independent GmbH (HRB 26251 Dresden, founded 2008) but primarily a medical-device dealer with add-on technical service; small (2023 balance-sheet ~EUR 600k). https://www.northdata.com/MEPRO%20Dr%C2%B7%20Stehr%20Medizintechnik%20GmbH,%20Dresden/HRB%2026251]",
       "fit": {
         "size": 14,
         "independence": 25,
@@ -5138,7 +5138,7 @@
         "geography": 10
       },
       "fit_score": 65.0,
-      "status": "candidate",
+      "status": "flagged",
       "confidence": 3,
       "sources": [
         {
@@ -5182,7 +5182,7 @@
         "geography": 10
       },
       "fit_score": 74.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 3,
       "sources": [
         {
@@ -5211,14 +5211,14 @@
         "Messtechnische Kontrolle (MTK) of Anlage-2 measuring devices"
       ],
       "hq_region": "Köln, NRW",
-      "founded": "",
+      "founded": "2023",
       "est_revenue_band": "EUR 1-5m",
       "est_employees": "10-30",
       "ownership": "founder",
       "independent": true,
       "succession_signal": "",
       "role": "bolt-on",
-      "approach_note": "Owner-run (Tobias Butz) firm doing MTK, STK, DGUV-V3, maintenance & repair on-site in Köln/Aachen/Düsseldorf/Bonn plus nationwide mail-in - dense Rhineland bolt-on.",
+      "approach_note": "Owner-run (Tobias Butz) firm doing MTK, STK, DGUV-V3, maintenance & repair on-site in Köln/Aachen/Düsseldorf/Bonn plus nationwide mail-in - dense Rhineland bolt-on.  [Verify: Real founder-run GmbH (Köln, HRB 113540, MD Tobias Butz) doing exact MTK/STK per MPBetreibV; caveat: only founded Jan 2023 with 25k capital, likely below stated EUR 1-5m band. https://butz-medizintechnik.de/MTK-STK-Wartung-und-Pruefung-von-Medizinprodukten]",
       "fit": {
         "size": 25,
         "independence": 25,
@@ -5227,7 +5227,7 @@
         "geography": 10
       },
       "fit_score": 76.0,
-      "status": "candidate",
+      "status": "flagged",
       "confidence": 4,
       "sources": [
         {
@@ -5262,7 +5262,7 @@
       "independent": true,
       "succession_signal": "",
       "role": "bolt-on",
-      "approach_note": "Inhabergeführter Fachbetrieb (Martin Wittig) für STK/MTK-Prüfung, Instandhaltung und Vertrieb, bundesweiter Service - Neugründung, Skalierung über Plattform denkbar",
+      "approach_note": "Inhabergeführter Fachbetrieb (Martin Wittig) für STK/MTK-Prüfung, Instandhaltung und Vertrieb, bundesweiter Service - Neugründung, Skalierung über Plattform denkbar  [Dropped: Founded 2024, appears to be single-founder micro startup (Martin Wittig, ex-Fresenius); cannot confirm SME ~1-30m revenue. https://www.companyhouse.de/Wittig-medical-GmbH-Leisnig]",
       "fit": {
         "size": 14,
         "independence": 25,
@@ -5271,7 +5271,7 @@
         "geography": 10
       },
       "fit_score": 65.0,
-      "status": "candidate",
+      "status": "dropped",
       "confidence": 2,
       "sources": [
         {
@@ -5315,7 +5315,7 @@
         "geography": 10
       },
       "fit_score": 74.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 3,
       "sources": [
         {
@@ -5345,7 +5345,7 @@
       "independent": true,
       "succession_signal": "Inhabergeführtes Einzelunternehmen (e.K., Dipl.-Ing. Gerriet Mondorf) - klassischer Kleinstbetrieb mit Nachfolgethema",
       "role": "bolt-on",
-      "approach_note": "STK/MTK-Prüfung und Reparatur plus externe Fachkraft für Arbeitssicherheit für Praxen/Gesundheitseinrichtungen im Raum Hamburg - kleiner Tuck-in (Größe prüfen, evtl. sub-scale)",
+      "approach_note": "STK/MTK-Prüfung und Reparatur plus externe Fachkraft für Arbeitssicherheit für Praxen/Gesundheitseinrichtungen im Raum Hamburg - kleiner Tuck-in (Größe prüfen, evtl. sub-scale)  [Dropped: Sole-proprietor e.K. run by Dipl.-Ing. Gerriet Mondorf as an individual external Sifa/technician; reads as a micro one-person shop, SME size (~EUR1-30m) not supportable (https://www.gemomed.de/ueber-uns.html)]",
       "fit": {
         "size": 14,
         "independence": 25,
@@ -5354,7 +5354,7 @@
         "geography": 10
       },
       "fit_score": 74.0,
-      "status": "candidate",
+      "status": "dropped",
       "confidence": 2,
       "sources": [
         {
@@ -5389,7 +5389,7 @@
       "independent": true,
       "succession_signal": "",
       "role": "bolt-on",
-      "approach_note": "Technikservice für Medizingeräte mit STK/MTK/DGUV-V3-Prüfungen und Wartung, >10 Jahre Klinikerfahrung - Rhein-Neckar-Baustein (Rechtsform/Eigentum noch verifizieren)",
+      "approach_note": "Technikservice für Medizingeräte mit STK/MTK/DGUV-V3-Prüfungen und Wartung, >10 Jahre Klinikerfahrung - Rhein-Neckar-Baustein (Rechtsform/Eigentum noch verifizieren)  [Dropped: New, very small Rhein-Neckar STK/MTK provider; no confirmable legal entity/registration or SME size — likely micro, cannot positively verify https://cromed-medcheck.de/]",
       "fit": {
         "size": 14,
         "independence": 25,
@@ -5398,7 +5398,7 @@
         "geography": 10
       },
       "fit_score": 65.0,
-      "status": "candidate",
+      "status": "dropped",
       "confidence": 2,
       "sources": [
         {
@@ -5443,7 +5443,7 @@
         "geography": 10
       },
       "fit_score": 100.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 4,
       "sources": [
         {
@@ -5478,7 +5478,7 @@
       "independent": true,
       "succession_signal": "",
       "role": "bolt-on",
-      "approach_note": "Spezialisierter Dienstleister für Prüfungen, Reparaturen und Wartung medizinischer Geräte mit Vor-Ort-Service - kleiner Tuck-in (Standort/Eigentum verifizieren)",
+      "approach_note": "Spezialisierter Dienstleister für Prüfungen, Reparaturen und Wartung medizinischer Geräte mit Vor-Ort-Service - kleiner Tuck-in (Standort/Eigentum verifizieren)  [Dropped: Only a website/Instagram surface; no legal form, register entry, location, ownership or size confirmable - cannot verify real SME/independence. https://www.mdservicemedizintechnik.de/]",
       "fit": {
         "size": 14,
         "independence": 25,
@@ -5487,7 +5487,7 @@
         "geography": 10
       },
       "fit_score": 65.0,
-      "status": "candidate",
+      "status": "dropped",
       "confidence": 2,
       "sources": [
         {
@@ -5517,7 +5517,7 @@
       "independent": true,
       "succession_signal": "100 % im Eigentum von DI (FH) Reinhard Manzenreiter - inhabergeführtes Ingenieurbüro, Nachfolge/Skalierung offen",
       "role": "bolt-on",
-      "approach_note": "Wiederkehrende sicherheits- und messtechnische Prüfungen (STK/MTK) sowie Reparatur/Wartung in Oberösterreich - AT-Tuck-in, alleiniger Gesellschafter",
+      "approach_note": "Wiederkehrende sicherheits- und messtechnische Prüfungen (STK/MTK) sowie Reparatur/Wartung in Oberösterreich - AT-Tuck-in, alleiniger Gesellschafter  [Dropped: Micro shop: founded 2019, only ~2 employees (HG Linz 516638m) — well below SME revenue floor. https://www.firmenabc.at/safemedtec-gmbh_zHhH]",
       "fit": {
         "size": 14,
         "independence": 25,
@@ -5526,7 +5526,7 @@
         "geography": 8
       },
       "fit_score": 72.0,
-      "status": "candidate",
+      "status": "dropped",
       "confidence": 3,
       "sources": [
         {
@@ -5561,7 +5561,7 @@
       "independent": true,
       "succession_signal": "Seit ~30 Jahren eigentümergeführt - langjähriges Management (GF Ing. Lukas Dolesch)",
       "role": "platform",
-      "approach_note": "Eigentümergeführte, akkreditierte Prüf-/Inspektionsstelle für Medizintechnik (STK, Elektrotechnik, Planung, Risikomanagement EN 80001) mit drei Standorten - österreichweiter Plattformkandidat",
+      "approach_note": "Eigentümergeführte, akkreditierte Prüf-/Inspektionsstelle für Medizintechnik (STK, Elektrotechnik, Planung, Risikomanagement EN 80001) mit drei Standorten - österreichweiter Plattformkandidat  [Verify: Active accredited AT MedTech inspection/service firm, multi-site (Wien/Grambach/Lustenau), management-led, but revenue unconfirmed (firmen.wko.at/gsm-gesellschaft-für-sicherheit-in-der-medizintechnik-gmbh/wien/)]",
       "fit": {
         "size": 14,
         "independence": 25,
@@ -5570,7 +5570,7 @@
         "geography": 8
       },
       "fit_score": 72.0,
-      "status": "candidate",
+      "status": "flagged",
       "confidence": 4,
       "sources": [
         {
@@ -5614,7 +5614,7 @@
         "geography": 8
       },
       "fit_score": 72.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 3,
       "sources": [
         {
@@ -5689,7 +5689,7 @@
       "independent": true,
       "succession_signal": "Seit 1985 aktiv - langjährig eigentümer-/geschäftsleitergeführt (Sven Widmer)",
       "role": "bolt-on",
-      "approach_note": "Unabhängiger Schweizer Anbieter für Verkauf/Wartung von Medizintechnik (Physio/Chiro/Pflege) - Service/STK derzeit an HOSPITEC ausgelagert, daher eher Kunden-/Vertriebs-Tuck-in mit Insourcing-Potenzial",
+      "approach_note": "Unabhängiger Schweizer Anbieter für Verkauf/Wartung von Medizintechnik (Physio/Chiro/Pflege) - Service/STK derzeit an HOSPITEC ausgelagert, daher eher Kunden-/Vertriebs-Tuck-in mit Insourcing-Potenzial  [Dropped: Not active: in liquidation, bankruptcy opened 16.01.2023, proceedings discontinued for lack of assets. https://www.moneyhouse.ch/de/company/fritac-medizintechnik-ag-21190259731]",
       "fit": {
         "size": 14,
         "independence": 25,
@@ -5698,7 +5698,7 @@
         "geography": 8
       },
       "fit_score": 67.0,
-      "status": "candidate",
+      "status": "dropped",
       "confidence": 2,
       "sources": [
         {
@@ -5742,7 +5742,7 @@
         "geography": 10
       },
       "fit_score": 90.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 4,
       "sources": [
         {
@@ -5777,7 +5777,7 @@
       "independent": true,
       "succession_signal": "Independent since 1994; founder Dr. Maximilian Regenold still eponymous owner/MD",
       "role": "platform",
-      "approach_note": "30-year founder-led end-to-end regulatory/clinical/PV house - a scaled independent that could anchor or bolt into a PV platform.",
+      "approach_note": "30-year founder-led end-to-end regulatory/clinical/PV house - a scaled independent that could anchor or bolt into a PV platform.  [Verify: Active founder-owned regulatory/CRO/pharmacovigilance firm (est. 1994, Titisee-Neustadt), in-niche, but 100+ staff multinational — at/above top of SME size band. https://www.regenold.com/about.html]",
       "fit": {
         "size": 14,
         "independence": 25,
@@ -5786,7 +5786,7 @@
         "geography": 10
       },
       "fit_score": 79.0,
-      "status": "candidate",
+      "status": "flagged",
       "confidence": 4,
       "sources": [
         {
@@ -5821,7 +5821,7 @@
       "independent": true,
       "succession_signal": "",
       "role": "platform",
-      "approach_note": "Founder-owned (Haucke/Aumer) pharma-consulting group with a distinct PV/QPPV-on-demand cluster; size at upper end of band - verify PV-line carve-out fit.",
+      "approach_note": "Founder-owned (Haucke/Aumer) pharma-consulting group with a distinct PV/QPPV-on-demand cluster; size at upper end of band - verify PV-line carve-out fit.  [Verify: Active founder-led Munich pharma CRO (QPPV/PV/GVP, clinical trials); real & in-niche but stated EUR 20-40m is near/above SME ceiling and unconfirmed https://theentourage.de/en/expertise/qppv-services/]",
       "fit": {
         "size": 18,
         "independence": 25,
@@ -5830,7 +5830,7 @@
         "geography": 10
       },
       "fit_score": 74.0,
-      "status": "candidate",
+      "status": "flagged",
       "confidence": 2,
       "sources": [
         {
@@ -5874,7 +5874,7 @@
         "geography": 10
       },
       "fit_score": 90.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 4,
       "sources": [
         {
@@ -5918,7 +5918,7 @@
         "geography": 10
       },
       "fit_score": 81.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 4,
       "sources": [
         {
@@ -5963,7 +5963,7 @@
         "geography": 10
       },
       "fit_score": 81.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 4,
       "sources": [
         {
@@ -6008,7 +6008,7 @@
         "geography": 10
       },
       "fit_score": 81.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 4,
       "sources": [
         {
@@ -6053,7 +6053,7 @@
         "geography": 10
       },
       "fit_score": 85.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 4,
       "sources": [
         {
@@ -6089,7 +6089,7 @@
       "independent": true,
       "succession_signal": "",
       "role": "bolt-on",
-      "approach_note": "Positions itself for SMEs with a complete service including an external QPPV - a rentable-QPPV tuck-in; size and ownership to be confirmed on approach.",
+      "approach_note": "Positions itself for SMEs with a complete service including an external QPPV - a rentable-QPPV tuck-in; size and ownership to be confirmed on approach.  [Dropped: Small PV consultancy with no confirmable legal entity (no GmbH/HRB) and unconfirmable SME size/independence. https://www.pharmasupport.de/dienstleistungen/pharmakovigilanz]",
       "fit": {
         "size": 25,
         "independence": 25,
@@ -6098,7 +6098,7 @@
         "geography": 10
       },
       "fit_score": 76.0,
-      "status": "candidate",
+      "status": "dropped",
       "confidence": 2,
       "sources": [
         {
@@ -6128,7 +6128,7 @@
       "independent": true,
       "succession_signal": "",
       "role": "bolt-on",
-      "approach_note": "Young founder-led PV boutique (Dr. Ilona Schonn, est. 2017) - modular PV services from single reports to full PV-system build; growth-stage bolt-on.",
+      "approach_note": "Young founder-led PV boutique (Dr. Ilona Schonn, est. 2017) - modular PV services from single reports to full PV-system build; growth-stage bolt-on.  [Verify: Real founder-owned PV specialist (Dr. Ilona Schonn, est 2017, Lüneburg) offering QPPV/PSUR/signal mgmt; growing team but revenue not confirmed (likely small). https://elbpv.de/ueber-uns/]",
       "fit": {
         "size": 14,
         "independence": 25,
@@ -6137,7 +6137,7 @@
         "geography": 10
       },
       "fit_score": 65.0,
-      "status": "candidate",
+      "status": "flagged",
       "confidence": 4,
       "sources": [
         {
@@ -6173,7 +6173,7 @@
       "independent": true,
       "succession_signal": "",
       "role": "bolt-on",
-      "approach_note": "Owner-led consultancy that takes over EU-QPPV and Stufenplanbeauftragter (Sec 63a AMG) functions and their deputies - a rentable-QPPV tuck-in; confirm scale before pursuing.",
+      "approach_note": "Owner-led consultancy that takes over EU-QPPV and Stufenplanbeauftragter (Sec 63a AMG) functions and their deputies - a rentable-QPPV tuck-in; confirm scale before pursuing.  [Dropped: Solo consultancy/interim-management practice of owner Dr. Monika Boos ('Pharmacovigilance by Passion') - a micro one-person shop, not an SME. https://www.linkedin.com/in/dr-monika-boos-ll-m-49ab45a6/]",
       "fit": {
         "size": 25,
         "independence": 25,
@@ -6182,7 +6182,7 @@
         "geography": 10
       },
       "fit_score": 76.0,
-      "status": "candidate",
+      "status": "dropped",
       "confidence": 2,
       "sources": [
         {
@@ -6213,7 +6213,7 @@
       "independent": true,
       "succession_signal": "",
       "role": "bolt-on",
-      "approach_note": "Small independent Swiss GMP/GDP house offering an external PV-responsible person/QPPV - useful bilateral Swiss QPPV capacity; likely near the micro threshold, verify size.",
+      "approach_note": "Small independent Swiss GMP/GDP house offering an external PV-responsible person/QPPV - useful bilateral Swiss QPPV capacity; likely near the micro threshold, verify size.  [Verify: Real, independent PV/QPPV consultancy but Swiss (Bischofszell CH, non-EU/EEA) - questionable fit for EU-QPPV (must reside in EU/EEA); small, size unconfirmed. https://www.moneyhouse.ch/en/company/pharmatrend-gmbh-12578983351]",
       "fit": {
         "size": 18,
         "independence": 25,
@@ -6222,7 +6222,7 @@
         "geography": 10
       },
       "fit_score": 69.0,
-      "status": "candidate",
+      "status": "flagged",
       "confidence": 2,
       "sources": [
         {
@@ -6267,7 +6267,7 @@
         "geography": 10
       },
       "fit_score": 76.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 3,
       "sources": [
         {
@@ -6311,7 +6311,7 @@
         "geography": 10
       },
       "fit_score": 73.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 4,
       "sources": [
         {
@@ -6338,7 +6338,7 @@
         "Contract Research (CRO) & Clinical-Trial Support",
         "Pharmacovigilance & drug-safety services (QPPV, PSUR, signal mgmt)"
       ],
-      "hq_region": "Switzerland (CH)",
+      "hq_region": "Baar (Zug), Switzerland",
       "founded": "2004",
       "est_revenue_band": "",
       "est_employees": "10-30",
@@ -6355,7 +6355,7 @@
         "geography": 8
       },
       "fit_score": 77.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 3,
       "sources": [
         {
@@ -6399,7 +6399,7 @@
         "geography": 10
       },
       "fit_score": 74.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 3,
       "sources": [
         {
@@ -6443,7 +6443,7 @@
         "geography": 10
       },
       "fit_score": 80.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 3,
       "sources": [
         {
@@ -6478,7 +6478,7 @@
       "independent": true,
       "succession_signal": "Owner Dipl. Biol. Axel Struß, ~20 yrs experience",
       "role": "bolt-on",
-      "approach_note": "Owner-operator Austrian PV/regulatory firm (Pharmakovigilanzbeauftragter, info officer) - AT market access; near-micro (e.U.), verify scale.",
+      "approach_note": "Owner-operator Austrian PV/regulatory firm (Pharmakovigilanzbeauftragter, info officer) - AT market access; near-micro (e.U.), verify scale.  [Dropped: One-person e.U. (Dipl. Biol. Axel Struß) solo consultant taking statutory roles (QPPV/Informationsbeauftragter); micro, not an SME (https://www.struss-consulting.at/)]",
       "fit": {
         "size": 14,
         "independence": 25,
@@ -6487,7 +6487,7 @@
         "geography": 8
       },
       "fit_score": 67.0,
-      "status": "candidate",
+      "status": "dropped",
       "confidence": 2,
       "sources": [
         {
@@ -6523,7 +6523,7 @@
       "independent": true,
       "succession_signal": "",
       "role": "bolt-on",
-      "approach_note": "Owner-operated PV/QM outsourcing practice (Steffen Suhr) taking QPPV/Stufenplanbeauftragter and deputy roles; likely small so verify it is above the micro threshold before pursuing.",
+      "approach_note": "Owner-operated PV/QM outsourcing practice (Steffen Suhr) taking QPPV/Stufenplanbeauftragter and deputy roles; likely small so verify it is above the micro threshold before pursuing.  [Dropped: Solo consultancy of owner Dr. Thomas Stuhr (founded 2018) — one-person QPPV/PV shop, fails SME (not a plausible EUR 1-2m firm). https://www.stuhr-consulting.de/ueber-uns]",
       "fit": {
         "size": 18,
         "independence": 25,
@@ -6532,7 +6532,7 @@
         "geography": 10
       },
       "fit_score": 69.0,
-      "status": "candidate",
+      "status": "dropped",
       "confidence": 2,
       "sources": [
         {
@@ -6567,7 +6567,7 @@
       "independent": true,
       "succession_signal": "",
       "role": "bolt-on",
-      "approach_note": "Austrian owner-operated consultancy with a PV/risk-management line - AT footprint bolt-on; near-micro (e.U.), verify headcount.",
+      "approach_note": "Austrian owner-operated consultancy with a PV/risk-management line - AT footprint bolt-on; near-micro (e.U.), verify headcount.  [Dropped: Registered as e.U. (sole proprietorship), no evidence of SME scale, size unconfirmed and likely micro (pharmaexpert.at/wb/pages/de/unternehmen/pharmakovigilanz.html)]",
       "fit": {
         "size": 14,
         "independence": 25,
@@ -6576,7 +6576,7 @@
         "geography": 8
       },
       "fit_score": 63.0,
-      "status": "candidate",
+      "status": "dropped",
       "confidence": 2,
       "sources": [
         {
@@ -6588,7 +6588,7 @@
     },
     {
       "name": "THE FORCE",
-      "legal_name": "The Force (Novustat/THE FORCE GmbH)",
+      "legal_name": "THE FORCE CT GmbH",
       "website": "https://the-force.com",
       "sector": "Medical & Healthcare",
       "niche": "EU-QPPV as a service",
@@ -6607,7 +6607,7 @@
       "independent": true,
       "succession_signal": "",
       "role": "bolt-on",
-      "approach_note": "ISO-9001 certified 'QPPV-as-a-Service' provider (Heidenheim/Berlin/Porto) explicitly productising the QPPV function - directly on-thesis; confirm ownership on approach.",
+      "approach_note": "ISO-9001 certified 'QPPV-as-a-Service' provider (Heidenheim/Berlin/Porto) explicitly productising the QPPV function - directly on-thesis; confirm ownership on approach.  [Verify: Real, independent PV/regulatory firm Heidenheim (legal name THE FORCE CT GmbH), QPPV-as-a-service; young/small, size unconfirmed. https://the-force.com/qppv-as-a-service/]",
       "fit": {
         "size": 25,
         "independence": 25,
@@ -6616,7 +6616,7 @@
         "geography": 10
       },
       "fit_score": 76.0,
-      "status": "candidate",
+      "status": "flagged",
       "confidence": 3,
       "sources": [
         {
@@ -6652,7 +6652,7 @@
       "independent": true,
       "succession_signal": "",
       "role": "platform",
-      "approach_note": "Established RA+PV house (~31 staff) that supplies Stufenplanbeauftragter/EU-QPPV plus a 24h medical contact hotline - combined RA and QPPV capacity makes it a strong platform.",
+      "approach_note": "Established RA+PV house (~31 staff) that supplies Stufenplanbeauftragter/EU-QPPV plus a 24h medical contact hotline - combined RA and QPPV capacity makes it a strong platform.  [Dropped: NOT independent — acquired by ProductLife Group (France) 2014, fully integrated and renamed ProductLife Germany GmbH as of 01/2022. https://www.productlifegroup.com/news-kohne-pharma-becomes-productlife-germany/]",
       "fit": {
         "size": 25,
         "independence": 25,
@@ -6661,7 +6661,7 @@
         "geography": 10
       },
       "fit_score": 81.0,
-      "status": "candidate",
+      "status": "dropped",
       "confidence": 3,
       "sources": [
         {
@@ -6742,7 +6742,7 @@
         "geography": 10
       },
       "fit_score": 76.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 4,
       "sources": [
         {
@@ -6778,7 +6778,7 @@
       "independent": true,
       "succession_signal": "Founded 1991 by Dr. Stefan Wissel & Prof. Dr. Hanns Haeberlein; 30+ year old family-owned group",
       "role": "platform",
-      "approach_note": "Family-owned, independent pharma-services group offering EU-QPPV within a broader analytics/PV portfolio; PV is one line, so approach for the QPPV capacity or as a broad platform.",
+      "approach_note": "Family-owned, independent pharma-services group offering EU-QPPV within a broader analytics/PV portfolio; PV is one line, so approach for the QPPV capacity or as a broad platform.  [Verify: Active family-owned independent pharma-services group (est. 1991, ~150 staff, 3 sites); QPPV is only one line of a broad CRO/CDMO and size sits at/above top of band (https://www.hwi-group.de/en/company/hwi_group, https://www.northdata.com/HWI%20pharma%20services%20GmbH,%20R%C3%BClzheim/Amtsgericht%20Landau%20HRB%2021388)]",
       "fit": {
         "size": 18,
         "independence": 25,
@@ -6787,7 +6787,7 @@
         "geography": 10
       },
       "fit_score": 83.0,
-      "status": "candidate",
+      "status": "flagged",
       "confidence": 3,
       "sources": [
         {
@@ -6832,7 +6832,7 @@
         "geography": 10
       },
       "fit_score": 81.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 4,
       "sources": [
         {
@@ -6864,7 +6864,7 @@
       "founded": "",
       "est_revenue_band": "EUR 5-12m",
       "est_employees": "50+",
-      "ownership": "management",
+      "ownership": "management / co-owner (Dr. Stefan Zohmann since 2021)",
       "independent": true,
       "succession_signal": "Ownership transferred in 2021 (Dr. Stefan Zohmann CEO & co-owner since 2021)",
       "role": "platform",
@@ -6877,7 +6877,7 @@
         "geography": 8
       },
       "fit_score": 83.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 4,
       "sources": [
         {
@@ -6913,7 +6913,7 @@
       "independent": true,
       "succession_signal": "",
       "role": "bolt-on",
-      "approach_note": "Provides qualified, trained QPPV and Deputy QPPV plus GVP QMS support in Switzerland - a Swiss QPPV-capacity tuck-in; small, confirm it clears the micro threshold.",
+      "approach_note": "Provides qualified, trained QPPV and Deputy QPPV plus GVP QMS support in Switzerland - a Swiss QPPV-capacity tuck-in; small, confirm it clears the micro threshold.  [Dropped: Acquired by GXP Engaged Auditing Services GmbH in 2024; no longer independent (https://www.gxp-auditing.com/news-and-resources/gxp-engaged-auditing-services-gmbh-has-acquired-swisspharmaudit-gmbh/)]",
       "fit": {
         "size": 18,
         "independence": 25,
@@ -6922,7 +6922,7 @@
         "geography": 8
       },
       "fit_score": 67.0,
-      "status": "candidate",
+      "status": "dropped",
       "confidence": 2,
       "sources": [
         {
@@ -6960,7 +6960,7 @@
         "geography": 10
       },
       "fit_score": 85.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 3,
       "sources": [
         {
@@ -7003,7 +7003,7 @@
         "geography": 10
       },
       "fit_score": 76.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 3,
       "sources": [
         {
@@ -7046,7 +7046,7 @@
         "geography": 10
       },
       "fit_score": 76.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 3,
       "sources": [
         {
@@ -7089,7 +7089,7 @@
         "geography": 10
       },
       "fit_score": 85.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 3,
       "sources": [
         {
@@ -7132,7 +7132,7 @@
         "geography": 10
       },
       "fit_score": 85.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 3,
       "sources": [
         {
@@ -7175,7 +7175,7 @@
         "geography": 10
       },
       "fit_score": 95.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 3,
       "sources": [
         {
@@ -7218,7 +7218,7 @@
         "geography": 10
       },
       "fit_score": 85.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 4,
       "sources": [
         {
@@ -7261,7 +7261,7 @@
         "geography": 10
       },
       "fit_score": 90.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 4,
       "sources": [
         {
@@ -7304,7 +7304,7 @@
         "geography": 10
       },
       "fit_score": 76.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 3,
       "sources": [
         {
@@ -7333,7 +7333,7 @@
       "independent": true,
       "succession_signal": "",
       "role": "bolt-on",
-      "approach_note": "Junger inhabergeführter Blitz-/Überspannungsschutzbetrieb im Großraum München - kleiner Tuck-in zum Aufbau eines Südbayern-Standbeins (im Kontextfile als bekanntes Ziel gelistet).",
+      "approach_note": "Junger inhabergeführter Blitz-/Überspannungsschutzbetrieb im Großraum München - kleiner Tuck-in zum Aufbau eines Südbayern-Standbeins (im Kontextfile als bekanntes Ziel gelistet).  [Verify: Real, in-niche, independent (GF Schneider/Fochler, HRB 213069) but only 2-10 employees/founded 2014 - bottom of SME size band. https://www.northdata.com/Bavaria%20Blitzschutzbau%20GmbH,%20Garching%20b%C2%B7%20M%C3%BCnchen/Amtsgericht%20M%C3%BCnchen%20HRB%20213069]",
       "fit": {
         "size": 18,
         "independence": 25,
@@ -7342,7 +7342,7 @@
         "geography": 10
       },
       "fit_score": 69.0,
-      "status": "candidate",
+      "status": "flagged",
       "confidence": 3,
       "sources": [
         {
@@ -7385,7 +7385,7 @@
         "geography": 10
       },
       "fit_score": 85.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 4,
       "sources": [
         {
@@ -7428,7 +7428,7 @@
         "geography": 8
       },
       "fit_score": 78.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 4,
       "sources": [
         {
@@ -7471,7 +7471,7 @@
         "geography": 10
       },
       "fit_score": 85.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 3,
       "sources": [
         {
@@ -7514,7 +7514,7 @@
         "geography": 8
       },
       "fit_score": 83.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 3,
       "sources": [
         {
@@ -7540,7 +7540,7 @@
         "Electrical Services & Building Automation",
         "Lightning Protection & Surge (Blitzschutz / Überspannungsschutz)"
       ],
-      "hq_region": "Wien (Zweigstelle Kärnten), AT",
+      "hq_region": "Weitensfeld im Gurktal, Kärnten (+ Wien), AT",
       "founded": "2011",
       "est_revenue_band": "EUR 0.5-2m",
       "est_employees": "5-15",
@@ -7548,7 +7548,7 @@
       "independent": true,
       "succession_signal": "",
       "role": "bolt-on",
-      "approach_note": "Inhabergeführter Familienbetrieb (Willibald Reichenhauser) mit Standbein Wien + Kärnten - kleiner Tuck-in für Ostösterreich/Süd.",
+      "approach_note": "Inhabergeführter Familienbetrieb (Willibald Reichenhauser) mit Standbein Wien + Kärnten - kleiner Tuck-in für Ostösterreich/Süd.  [Verify: Real founder-owned lightning-protection firm (Willibald Reichenhauser, self-employed 2011, GmbH ~2021) serving Wien/Kärnten; small (est ~0.5-2m, near/below SME floor). https://blitzschutz-reichenhauser.at/ueber-uns/]",
       "fit": {
         "size": 18,
         "independence": 25,
@@ -7557,7 +7557,7 @@
         "geography": 8
       },
       "fit_score": 67.0,
-      "status": "candidate",
+      "status": "flagged",
       "confidence": 3,
       "sources": [
         {
@@ -7600,7 +7600,7 @@
         "geography": 8
       },
       "fit_score": 93.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 3,
       "sources": [
         {
@@ -7643,7 +7643,7 @@
         "geography": 8
       },
       "fit_score": 88.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 4,
       "sources": [
         {
@@ -7686,7 +7686,7 @@
         "geography": 8
       },
       "fit_score": 83.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 3,
       "sources": [
         {
@@ -7720,7 +7720,7 @@
       "independent": true,
       "succession_signal": "",
       "role": "bolt-on",
-      "approach_note": "Junger, wachsender NÖ-Fachbetrieb für Blitzschutz/Erdung - kleiner Add-on, um ein Ost-Österreich-Cluster zu verdichten.",
+      "approach_note": "Junger, wachsender NÖ-Fachbetrieb für Blitzschutz/Erdung - kleiner Add-on, um ein Ost-Österreich-Cluster zu verdichten.  [Verify: Real founder-run AT Blitzschutz firm (Christian Gemeinböck), FN 549653p, but founded 2021 and very small (gpk-austria.at/RECHTLICHES/IMPRESSUM/)]",
       "fit": {
         "size": 18,
         "independence": 25,
@@ -7729,7 +7729,7 @@
         "geography": 8
       },
       "fit_score": 67.0,
-      "status": "candidate",
+      "status": "flagged",
       "confidence": 2,
       "sources": [
         {
@@ -7763,7 +7763,7 @@
       "independent": true,
       "succession_signal": "",
       "role": "bolt-on",
-      "approach_note": "Von Branchen-Profi André Trisko gegründeter Wiener Fachbetrieb (~12 MA) - Add-on zur Verdichtung des Raums Wien/NÖ.",
+      "approach_note": "Von Branchen-Profi André Trisko gegründeter Wiener Fachbetrieb (~12 MA) - Add-on zur Verdichtung des Raums Wien/NÖ.  [Verify: Real founder-owned (André Trisko) lightning-protection firm, Gerasdorf/Wien 2017; small (~EUR 0.5-2m), size near/below SME floor. https://www.triskoblitzschutzbau.at/]",
       "fit": {
         "size": 18,
         "independence": 25,
@@ -7772,7 +7772,7 @@
         "geography": 8
       },
       "fit_score": 67.0,
-      "status": "candidate",
+      "status": "flagged",
       "confidence": 3,
       "sources": [
         {
@@ -7815,7 +7815,7 @@
         "geography": 8
       },
       "fit_score": 78.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 2,
       "sources": [
         {
@@ -7849,7 +7849,7 @@
       "independent": true,
       "succession_signal": "",
       "role": "bolt-on",
-      "approach_note": "VKF-anerkannter Blitzschutz-Fachbetrieb (Electrosuisse-Mitglied) im Aargau - CH-Markteintritt/Add-on; verbunden mit Blitzableiterbau Heim (DE), daher als Gruppe ansprechbar.",
+      "approach_note": "VKF-anerkannter Blitzschutz-Fachbetrieb (Electrosuisse-Mitglied) im Aargau - CH-Markteintritt/Add-on; verbunden mit Blitzableiterbau Heim (DE), daher als Gruppe ansprechbar.  [Verify: Real independent CH lightning-protection GmbH (founded 2017, Stein AG, CHE-197.148.428) but young/likely near or below the SME revenue floor. https://www.moneyhouse.ch/en/company/blitzschutz-k-heim-gmbh-2367492601]",
       "fit": {
         "size": 18,
         "independence": 25,
@@ -7858,7 +7858,7 @@
         "geography": 10
       },
       "fit_score": 69.0,
-      "status": "candidate",
+      "status": "flagged",
       "confidence": 3,
       "sources": [
         {
@@ -7892,7 +7892,7 @@
       "independent": true,
       "succession_signal": "Einzelfirma 'amitec R. Iseli Blitzschutz' 2025 im HR gelöscht - Umstrukturierung/Nachfolge-/Rechtsformthema; Inhaber René Iseli",
       "role": "bolt-on",
-      "approach_note": "Berner Blitz-/Erdungsspezialist mit langer Historie (Nachfolger R. Iseli); HR-Löschung der Einzelfirma 2025 deutet auf Übergangssituation - CH-Add-on, Struktur/Nachfolge klären.",
+      "approach_note": "Berner Blitz-/Erdungsspezialist mit langer Historie (Nachfolger R. Iseli); HR-Löschung der Einzelfirma 2025 deutet auf Übergangssituation - CH-Add-on, Struktur/Nachfolge klären.  [Dropped: Sole proprietorship deleted/cancelled from Swiss commercial register in 2025; no longer active (https://business-monitor.ch/en/companies/233446-amitec-r-iseli-blitzschutz)]",
       "fit": {
         "size": 10,
         "independence": 25,
@@ -7901,7 +7901,7 @@
         "geography": 8
       },
       "fit_score": 68.0,
-      "status": "candidate",
+      "status": "dropped",
       "confidence": 2,
       "sources": [
         {
@@ -7945,7 +7945,7 @@
         "geography": 10
       },
       "fit_score": 69.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 4,
       "sources": [
         {
@@ -7973,7 +7973,7 @@
         "Zahnarztpraxis-IT (Dental)"
       ],
       "hq_region": "Salem (Bodensee) / Baden-Württemberg",
-      "founded": "2020",
+      "founded": "1999",
       "est_revenue_band": "EUR 1-3m",
       "est_employees": "10-30",
       "ownership": "founder",
@@ -7989,7 +7989,7 @@
         "geography": 10
       },
       "fit_score": 76.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 4,
       "sources": [
         {
@@ -8033,7 +8033,7 @@
         "geography": 10
       },
       "fit_score": 69.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 4,
       "sources": [
         {
@@ -8068,7 +8068,7 @@
       "independent": true,
       "succession_signal": "",
       "role": "platform",
-      "approach_note": "Founder-led (Kevin Schmitt) pure dental system/software house with 300-400 practices nationwide - broad enough to anchor a Dental-IT platform in the south.",
+      "approach_note": "Founder-led (Kevin Schmitt) pure dental system/software house with 300-400 practices nationwide - broad enough to anchor a Dental-IT platform in the south.  [Verify: Active dental-IT systemhaus in Bamberg (400+ practices), but rapid MD churn (Kevin Schmitt→Nestmann 12/2024→Daniel Beck 01/2026) + purpose incl. 'Erwerb von Beteiligungen' in a heavily consolidated dental sector — founder-independence not confirmable. https://www.northdata.com/Maximal%20Dental%20GmbH,%20Bamberg/HRB%208862]",
       "fit": {
         "size": 25,
         "independence": 25,
@@ -8077,7 +8077,7 @@
         "geography": 10
       },
       "fit_score": 81.0,
-      "status": "candidate",
+      "status": "flagged",
       "confidence": 4,
       "sources": [
         {
@@ -8121,7 +8121,7 @@
         "geography": 10
       },
       "fit_score": 80.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 3,
       "sources": [
         {
@@ -8156,7 +8156,7 @@
       "independent": true,
       "succession_signal": "",
       "role": "bolt-on",
-      "approach_note": "Owner-managed (Alfred Mayer, Sebastian Schmaus) dental-IT / TI managed-services provider in Munich - young, growth-stage tuck-in for a Bavaria cluster.",
+      "approach_note": "Owner-managed (Alfred Mayer, Sebastian Schmaus) dental-IT / TI managed-services provider in Munich - young, growth-stage tuck-in for a Bavaria cluster.  [Verify: Real founder-run dental-practice IT provider (Munich), in-niche; caveat: only founded 2022, likely at/below bottom of SME size band. https://www.jploy.com/]",
       "fit": {
         "size": 25,
         "independence": 25,
@@ -8165,7 +8165,7 @@
         "geography": 10
       },
       "fit_score": 76.0,
-      "status": "candidate",
+      "status": "flagged",
       "confidence": 3,
       "sources": [
         {
@@ -8209,7 +8209,7 @@
         "geography": 10
       },
       "fit_score": 76.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 3,
       "sources": [
         {
@@ -8253,7 +8253,7 @@
         "geography": 10
       },
       "fit_score": 81.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 3,
       "sources": [
         {
@@ -8297,7 +8297,7 @@
         "geography": 10
       },
       "fit_score": 81.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 3,
       "sources": [
         {
@@ -8332,7 +8332,7 @@
       "independent": true,
       "succession_signal": "",
       "role": "bolt-on",
-      "approach_note": "Founder-led (Benedikt Seuss) systemhouse, 30+ staff, certified dental/medical TI provider - multi-vertical but sizeable dental base; note not dental-pure.",
+      "approach_note": "Founder-led (Benedikt Seuss) systemhouse, 30+ staff, certified dental/medical TI provider - multi-vertical but sizeable dental base; note not dental-pure.  [Verify: Real independent IT-Systemhaus (MD Benedikt Seuss, Boppard/Koblenz), but a general multi-vertical systemhaus; dental is only one of several verticals, not a dental-IT specialist. https://bs2-computer.de/]",
       "fit": {
         "size": 25,
         "independence": 25,
@@ -8341,7 +8341,7 @@
         "geography": 10
       },
       "fit_score": 76.0,
-      "status": "candidate",
+      "status": "flagged",
       "confidence": 2,
       "sources": [
         {
@@ -8385,7 +8385,7 @@
         "geography": 10
       },
       "fit_score": 69.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 3,
       "sources": [
         {
@@ -8420,7 +8420,7 @@
       "independent": true,
       "succession_signal": "",
       "role": "bolt-on",
-      "approach_note": "Owner-run dental-IT specialist (Thorsten Weber) in the Rhineland working across major dental software/imaging brands - small tuck-in; verify size before approach.",
+      "approach_note": "Owner-run dental-IT specialist (Thorsten Weber) in the Rhineland working across major dental software/imaging brands - small tuck-in; verify size before approach.  [Dropped: Sole proprietorship (Inhaber Thorsten Weber, Hilden); micro one-person shop ~0.3-1m, below SME threshold (it-service.dental/impressum/)]",
       "fit": {
         "size": 10,
         "independence": 25,
@@ -8429,7 +8429,7 @@
         "geography": 10
       },
       "fit_score": 61.0,
-      "status": "candidate",
+      "status": "dropped",
       "confidence": 2,
       "sources": [
         {
@@ -8464,7 +8464,7 @@
       "independent": true,
       "succession_signal": "",
       "role": "bolt-on",
-      "approach_note": "Owner (Holger Grimm) dental IT + practice-marketing specialist, 20+ yrs - small but sticky; marketing add-on differentiates. Verify revenue.",
+      "approach_note": "Owner (Holger Grimm) dental IT + practice-marketing specialist, 20+ yrs - small but sticky; marketing add-on differentiates. Verify revenue.  [Dropped: Real owner-run dental IT (Holger Grimm, e.K., Siegen) but micro one-person shop (~EUR 0.3-1m), below SME floor. https://www.xallum.de/ueber-uns/]",
       "fit": {
         "size": 10,
         "independence": 25,
@@ -8473,7 +8473,7 @@
         "geography": 10
       },
       "fit_score": 61.0,
-      "status": "candidate",
+      "status": "dropped",
       "confidence": 2,
       "sources": [
         {
@@ -8508,7 +8508,7 @@
       "independent": true,
       "succession_signal": "",
       "role": "bolt-on",
-      "approach_note": "Owner-run vendor-neutral dental & dental-lab IT house (Martin Röll) in Rhein-Main - small tuck-in; check for succession given single-owner structure.",
+      "approach_note": "Owner-run vendor-neutral dental & dental-lab IT house (Martin Röll) in Rhein-Main - small tuck-in; check for succession given single-owner structure.  [Dropped: Micro one-person shop — sole proprietorship 'dentacom - Martin Röll', Mainz; below SME threshold. https://dentacom.de/kontakt/]",
       "fit": {
         "size": 10,
         "independence": 25,
@@ -8517,7 +8517,7 @@
         "geography": 10
       },
       "fit_score": 61.0,
-      "status": "candidate",
+      "status": "dropped",
       "confidence": 2,
       "sources": [
         {
@@ -8552,7 +8552,7 @@
       "independent": true,
       "succession_signal": "",
       "role": "bolt-on",
-      "approach_note": "Single-owner (Andreas Hinderberger) dental IT-systembetreuung near Regensburg - micro/small; sole-owner structure is a natural succession candidate.",
+      "approach_note": "Single-owner (Andreas Hinderberger) dental IT-systembetreuung near Regensburg - micro/small; sole-owner structure is a natural succession candidate.  [Dropped: Micro one-person sole proprietorship (Andreas Hinderberger, founded 1997), below SME threshold. https://firmeneintrag.creditreform.de/93197/8230279372/ANDREAS_HINDERBERGER_BITS_DENTS]",
       "fit": {
         "size": 10,
         "independence": 25,
@@ -8561,7 +8561,7 @@
         "geography": 10
       },
       "fit_score": 61.0,
-      "status": "candidate",
+      "status": "dropped",
       "confidence": 2,
       "sources": [
         {
@@ -8596,7 +8596,7 @@
       "independent": true,
       "succession_signal": "",
       "role": "bolt-on",
-      "approach_note": "Owner-run 'EDV-Systemhaus für Zahnärzte' (Daniel Weber) in the Allgäu - regional dental-pure tuck-in extending southern coverage.",
+      "approach_note": "Owner-run 'EDV-Systemhaus für Zahnärzte' (Daniel Weber) in the Allgäu - regional dental-pure tuck-in extending southern coverage.  [Dropped: Micro UG (haftungsbeschränkt) in Bergen (not Waltenhofen), HRB Traunstein 27070, est ~0.3-1m; below SME size threshold / micro shop. https://www.northdata.de/Dental+Team+Informatik+UG,+Bergen/Amtsgericht+Traunstein+HRB+27070]",
       "fit": {
         "size": 10,
         "independence": 25,
@@ -8605,7 +8605,7 @@
         "geography": 10
       },
       "fit_score": 61.0,
-      "status": "candidate",
+      "status": "dropped",
       "confidence": 2,
       "sources": [
         {
@@ -8622,7 +8622,7 @@
     },
     {
       "name": "Computer-Spezialisten.de",
-      "legal_name": "",
+      "legal_name": "MCL Computer-Spezialisten.de GmbH",
       "website": "https://computer-spezialisten.de/it-zahnarztpraxis/",
       "sector": "Managed IT & Cybersecurity",
       "niche": "Zahnarztpraxis-IT (Dental)",
@@ -8640,7 +8640,7 @@
       "independent": true,
       "succession_signal": "",
       "role": "bolt-on",
-      "approach_note": "Regional systemhouse serving dentists/orthodontists from Bodensee to Greater Stuttgart with IT-flatrates - dental customer base to fold into a BW cluster; verify entity/owner.",
+      "approach_note": "Regional systemhouse serving dentists/orthodontists from Bodensee to Greater Stuttgart with IT-flatrates - dental customer base to fold into a BW cluster; verify entity/owner.  [Verify: Real owner-managed IT-Systemhaus (MCL Computer-Spezialisten.de GmbH, Überlingen, founded 2006) serving dental practices, but not dental-exclusive (also GPs, crafts, law firms). https://www.goyellow.de/home/elektro-elektronik-mcl-computer-spezialisten-de-gmbh-ueberlingen--2mnzr3.html]",
       "fit": {
         "size": 18,
         "independence": 25,
@@ -8649,7 +8649,7 @@
         "geography": 10
       },
       "fit_score": 69.0,
-      "status": "candidate",
+      "status": "flagged",
       "confidence": 2,
       "sources": [
         {
@@ -8693,7 +8693,7 @@
         "geography": 8
       },
       "fit_score": 67.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 4,
       "sources": [
         {
@@ -8728,7 +8728,7 @@
       "independent": true,
       "succession_signal": "",
       "role": "bolt-on",
-      "approach_note": "Austrian SME IT provider with a dedicated dental/practice-IT offering across Baden, Wien, NÖ and Burgenland - rare AT dental entry point; verify legal entity, owner and size.",
+      "approach_note": "Austrian SME IT provider with a dedicated dental/practice-IT offering across Baden, Wien, NÖ and Burgenland - rare AT dental entry point; verify legal entity, owner and size.  [Verify: Real small IT shop in Baden/Wien with a dental-practice landing page, but generalist (PC/laptop repair, contracts from 89€/mo) not dental-specialist; likely micro. https://www.simplit.at/lp/loesungenaerzte.html]",
       "fit": {
         "size": 18,
         "independence": 25,
@@ -8737,7 +8737,7 @@
         "geography": 8
       },
       "fit_score": 67.0,
-      "status": "candidate",
+      "status": "flagged",
       "confidence": 2,
       "sources": [
         {
@@ -8781,7 +8781,7 @@
         "geography": 10
       },
       "fit_score": 81.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 4,
       "sources": [
         {
@@ -8825,7 +8825,7 @@
         "geography": 10
       },
       "fit_score": 81.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 4,
       "sources": [
         {
@@ -8869,7 +8869,7 @@
         "geography": 10
       },
       "fit_score": 85.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 4,
       "sources": [
         {
@@ -8886,7 +8886,7 @@
     },
     {
       "name": "IEPB",
-      "legal_name": "Institut zur Evaluierung psychischer Belastungen am Arbeitsplatz GmbH",
+      "legal_name": "IEPB GmbH",
       "website": "https://www.iepb.at",
       "sector": "Testing, Inspection & Certification",
       "niche": "Psychische Gefährdungsbeurteilung (psychological risk assessment)",
@@ -8913,7 +8913,7 @@
         "geography": 8
       },
       "fit_score": 67.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 4,
       "sources": [
         {
@@ -8957,7 +8957,7 @@
         "geography": 10
       },
       "fit_score": 76.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 3,
       "sources": [
         {
@@ -9001,7 +9001,7 @@
         "geography": 10
       },
       "fit_score": 90.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 4,
       "sources": [
         {
@@ -9045,7 +9045,7 @@
         "geography": 10
       },
       "fit_score": 81.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 3,
       "sources": [
         {
@@ -9080,7 +9080,7 @@
       "independent": true,
       "succession_signal": "",
       "role": "bolt-on",
-      "approach_note": "Founder-led employee-survey SaaS with a GDA-compliant GB-psych module and DACH benchmark data - software tuck-in (confirm any VC on cap table).",
+      "approach_note": "Founder-led employee-survey SaaS with a GDA-compliant GB-psych module and DACH benchmark data - software tuck-in (confirm any VC on cap table).  [Dropped: Honestly MT GmbH (HRB 84298 Köln) is a VC/angel/crowdfunded employee-survey SaaS startup (Klaas Kersting, Seedmatch) — not independent owner-run and not a TIC Gefährdungsbeurteilung service firm; fails independence & in-niche. https://www.northdata.com/Honestly%20MT%20GmbH,%20K%C3%B6ln/HRB%2084298]",
       "fit": {
         "size": 25,
         "independence": 25,
@@ -9089,7 +9089,7 @@
         "geography": 10
       },
       "fit_score": 76.0,
-      "status": "candidate",
+      "status": "dropped",
       "confidence": 3,
       "sources": [
         {
@@ -9120,11 +9120,11 @@
       "founded": "1995",
       "est_revenue_band": "EUR 15-25m",
       "est_employees": "150-250",
-      "ownership": "management",
+      "ownership": "founder",
       "independent": true,
       "succession_signal": "founded 1995, long-standing MD Gerhard Klicka - large owner-managed firm nearing a generational/ownership transition",
       "role": "platform",
-      "approach_note": "Austria's largest occupational-health consultancy with a full arbeitspsychologie/Evaluierung line - a sizeable AT anchor (upper end of the acquirable band; confirm ownership).",
+      "approach_note": "Austria's largest occupational-health consultancy with a full arbeitspsychologie/Evaluierung line - a sizeable AT anchor (upper end of the acquirable band; confirm ownership).  [Verify: Active Vienna occupational-health/safety group, founder-owned (Karazman 95% / Klicka 5%), does psych. Gefährdungsbeurteilung, but est. EUR 15-25m is near top of SME band and it is a leading AT occupational-health provider. https://www.firmenabc.at/ibg-innovatives-betriebliches-gesundheitsmanagement-gmbh_zKI]",
       "fit": {
         "size": 25,
         "independence": 25,
@@ -9133,7 +9133,7 @@
         "geography": 8
       },
       "fit_score": 83.0,
-      "status": "candidate",
+      "status": "flagged",
       "confidence": 3,
       "sources": [
         {
@@ -9177,7 +9177,7 @@
         "geography": 10
       },
       "fit_score": 76.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 4,
       "sources": [
         {
@@ -9221,7 +9221,7 @@
         "geography": 10
       },
       "fit_score": 76.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 3,
       "sources": [
         {
@@ -9251,7 +9251,7 @@
       "independent": true,
       "succession_signal": "family-run engineering office, 25+ yrs in market",
       "role": "bolt-on",
-      "approach_note": "Family-run arbeitsschutz engineering firm with an arbeits-/organisationspsychologie and GB-psych line - Rhineland tuck-in.",
+      "approach_note": "Family-run arbeitsschutz engineering firm with an arbeits-/organisationspsychologie and GB-psych line - Rhineland tuck-in.  [Dropped: NOT independent: acquired by consolidator Arsipa Gruppe in Dec 2025 (rebranded into Arsipa), advised by GSK Stockmann. https://arsipa.de/blog/arsipa-und-mplus-buendeln-expertise-in-deutschland/]",
       "fit": {
         "size": 25,
         "independence": 25,
@@ -9260,7 +9260,7 @@
         "geography": 10
       },
       "fit_score": 85.0,
-      "status": "candidate",
+      "status": "dropped",
       "confidence": 3,
       "sources": [
         {
@@ -9335,7 +9335,7 @@
       "independent": true,
       "succession_signal": "",
       "role": "bolt-on",
-      "approach_note": "GDA-compliant GB-psych SaaS that also publishes the 16-24 provider market comparison - a young software tuck-in (legal entity/founders not yet verified; partners Handwerkskammer Trier).",
+      "approach_note": "GDA-compliant GB-psych SaaS that also publishes the 16-24 provider market comparison - a young software tuck-in (legal entity/founders not yet verified; partners Handwerkskammer Trier).  [Dropped: Micro SaaS/comparison-site startup (GB-Psych software from €699/yr), no confirmable legal entity/HQ/size; below SME threshold. https://safe-mind.de/de/psychische-gefaehrdungsbeurteilung]",
       "fit": {
         "size": 10,
         "independence": 25,
@@ -9344,7 +9344,7 @@
         "geography": 6
       },
       "fit_score": 57.0,
-      "status": "candidate",
+      "status": "dropped",
       "confidence": 2,
       "sources": [
         {
@@ -9379,7 +9379,7 @@
       "independent": true,
       "succession_signal": "",
       "role": "bolt-on",
-      "approach_note": "Psychologist-developed GB-psych online tool ('Belastungsradar') - early-stage software tuck-in (confirm legal entity/ownership of (r)evolution GmbH).",
+      "approach_note": "Psychologist-developed GB-psych online tool ('Belastungsradar') - early-stage software tuck-in (confirm legal entity/ownership of (r)evolution GmbH).  [Dropped: SaaS survey tool (Belastungsradar, €5/interview freemium) from research institute (r)evolution research intelligence GmbH; micro/product, est ~0.1-1m, below SME services threshold. https://www.belastungsradar.de/]",
       "fit": {
         "size": 10,
         "independence": 25,
@@ -9388,7 +9388,7 @@
         "geography": 6
       },
       "fit_score": 57.0,
-      "status": "candidate",
+      "status": "dropped",
       "confidence": 2,
       "sources": [
         {
@@ -9405,7 +9405,7 @@
     },
     {
       "name": "ZAGS Dresden",
-      "legal_name": "",
+      "legal_name": "ZAGS Zentrum für Arbeit und Gesundheit Sachsen GmbH",
       "website": "https://www.zags-dresden.de",
       "sector": "Testing, Inspection & Certification",
       "niche": "Psychische Gefährdungsbeurteilung (psychological risk assessment)",
@@ -9416,10 +9416,10 @@
         "Psychische Gefährdungsbeurteilung (psychological risk assessment)"
       ],
       "hq_region": "Dresden, Sachsen",
-      "founded": "",
+      "founded": "2001",
       "est_revenue_band": "EUR 1-3m",
       "est_employees": "10-30",
-      "ownership": "independent",
+      "ownership": "management",
       "independent": true,
       "succession_signal": "",
       "role": "bolt-on",
@@ -9432,7 +9432,7 @@
         "geography": 10
       },
       "fit_score": 76.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 2,
       "sources": [
         {
@@ -9444,7 +9444,7 @@
     },
     {
       "name": "G&S Team Hamburg",
-      "legal_name": "G&S GmbH",
+      "legal_name": "G&S Gesundheit und Sicherheit für Betriebe GmbH",
       "website": "https://gs-team-hamburg.de",
       "sector": "Testing, Inspection & Certification",
       "niche": "Psychische Gefährdungsbeurteilung (psychological risk assessment)",
@@ -9471,7 +9471,7 @@
         "geography": 10
       },
       "fit_score": 76.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 2,
       "sources": [
         {
@@ -9500,7 +9500,7 @@
       "independent": true,
       "succession_signal": "",
       "role": "bolt-on",
-      "approach_note": "Pure-play externer ISB (ab ~1.4k EUR/Mo) + vCISO retainers on ISO 27001 / BSI IT-Grundschutz / NIS2 for SMEs; founder-led (Maximilian Schildmann), ideal methodology-standardisation tuck-in.",
+      "approach_note": "Pure-play externer ISB (ab ~1.4k EUR/Mo) + vCISO retainers on ISO 27001 / BSI IT-Grundschutz / NIS2 for SMEs; founder-led (Maximilian Schildmann), ideal methodology-standardisation tuck-in.  [Verify: Real founder-led external ISB/vCISO firm (ISO 27001), in-niche; but very small (ISB ab 1.400€/Monat, OWL/NRW) so likely near/below SME floor. https://www.ing-ism.de/]",
       "fit": {
         "size": 18,
         "independence": 25,
@@ -9509,7 +9509,7 @@
         "geography": 10
       },
       "fit_score": 69.0,
-      "status": "candidate",
+      "status": "flagged",
       "confidence": 4,
       "sources": [
         {
@@ -9552,7 +9552,7 @@
         "geography": 8
       },
       "fit_score": 88.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 4,
       "sources": [
         {
@@ -9586,7 +9586,7 @@
       "independent": true,
       "succession_signal": "",
       "role": "bolt-on",
-      "approach_note": "Interdisciplinary ISB/DSB practice with 500+ mandates selling continuous ISO 27001/KRITIS/NIS2 monitoring 'ab 300 EUR/Monat' - recurring-revenue book ideal to convert into monthly monitoring contracts.",
+      "approach_note": "Interdisciplinary ISB/DSB practice with 500+ mandates selling continuous ISO 27001/KRITIS/NIS2 monitoring 'ab 300 EUR/Monat' - recurring-revenue book ideal to convert into monthly monitoring contracts.  [Verify: Active independent GmbH (est 2012, Dresden) doing external ISB/NIS2/TISAX/ISMS; low entry pricing (ab 300 €/Mo) suggests it may sit at/below SME floor. https://informationssicherheitsbeauftragter-dresden.de/services/]",
       "fit": {
         "size": 25,
         "independence": 25,
@@ -9595,7 +9595,7 @@
         "geography": 10
       },
       "fit_score": 76.0,
-      "status": "candidate",
+      "status": "flagged",
       "confidence": 4,
       "sources": [
         {
@@ -9638,7 +9638,7 @@
         "geography": 10
       },
       "fit_score": 76.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 4,
       "sources": [
         {
@@ -9681,7 +9681,7 @@
         "geography": 10
       },
       "fit_score": 81.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 4,
       "sources": [
         {
@@ -9724,7 +9724,7 @@
         "geography": 10
       },
       "fit_score": 90.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 4,
       "sources": [
         {
@@ -9767,7 +9767,7 @@
         "geography": 10
       },
       "fit_score": 81.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 4,
       "sources": [
         {
@@ -9810,7 +9810,7 @@
         "geography": 10
       },
       "fit_score": 76.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 4,
       "sources": [
         {
@@ -9853,7 +9853,7 @@
         "geography": 10
       },
       "fit_score": 76.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 4,
       "sources": [
         {
@@ -9896,7 +9896,7 @@
         "geography": 10
       },
       "fit_score": 69.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 4,
       "sources": [
         {
@@ -9922,7 +9922,7 @@
         "Managed Security Services (SOC / MDR / SIEM)",
         "Managed Compliance / vCISO & Continuous NIS2-ISO-27001-TISAX Monitoring"
       ],
-      "hq_region": "München (Bayern)",
+      "hq_region": "Oberhaching (Raum München), Bayern",
       "founded": "",
       "est_revenue_band": "EUR 3-10m",
       "est_employees": "20-80",
@@ -9939,7 +9939,7 @@
         "geography": 10
       },
       "fit_score": 81.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 3,
       "sources": [
         {
@@ -9982,7 +9982,7 @@
         "geography": 10
       },
       "fit_score": 76.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 3,
       "sources": [
         {
@@ -10025,7 +10025,7 @@
         "geography": 10
       },
       "fit_score": 76.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 3,
       "sources": [
         {
@@ -10068,7 +10068,7 @@
         "geography": 8
       },
       "fit_score": 67.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 3,
       "sources": [
         {
@@ -10102,7 +10102,7 @@
       "independent": true,
       "succession_signal": "",
       "role": "bolt-on",
-      "approach_note": "Owner-managed (Najib Ziaie) Zürich cybersecurity firm offering CISO-as-a-Service and ISO 27001 gap analysis - Swiss bolt-on for the platform's cross-border footprint.",
+      "approach_note": "Owner-managed (Najib Ziaie) Zürich cybersecurity firm offering CISO-as-a-Service and ISO 27001 gap analysis - Swiss bolt-on for the platform's cross-border footprint.  [Verify: Real, independent Swiss cyber consultancy (CISO-as-a-Service, ISO 27001), Zürich; size small/unconfirmed near bottom of band. https://blueguard.ch/]",
       "fit": {
         "size": 18,
         "independence": 25,
@@ -10111,7 +10111,7 @@
         "geography": 8
       },
       "fit_score": 67.0,
-      "status": "candidate",
+      "status": "flagged",
       "confidence": 3,
       "sources": [
         {
@@ -10154,7 +10154,7 @@
         "geography": 8
       },
       "fit_score": 79.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 3,
       "sources": [
         {
@@ -10181,7 +10181,7 @@
         "Managed Compliance / vCISO & Continuous NIS2-ISO-27001-TISAX Monitoring"
       ],
       "hq_region": "Augsburg (Bayern)",
-      "founded": "",
+      "founded": "2019",
       "est_revenue_band": "EUR 3-8m",
       "est_employees": "~50",
       "ownership": "management",
@@ -10197,7 +10197,7 @@
         "geography": 10
       },
       "fit_score": 90.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 3,
       "sources": [
         {
@@ -10270,7 +10270,7 @@
       "independent": true,
       "succession_signal": "",
       "role": "platform",
-      "approach_note": "Owner-managed regional IT/security house with dedicated vCISO / ISBaaS line building & running client ISMS; broad enough to anchor a compliance-as-a-service platform.",
+      "approach_note": "Owner-managed regional IT/security house with dedicated vCISO / ISBaaS line building & running client ISMS; broad enough to anchor a compliance-as-a-service platform.  [Dropped: Not independent: part of accompio Group (IT consolidator) since early 2025. https://www.netz16.de/leistungen/vciso-isbaas/]",
       "fit": {
         "size": 25,
         "independence": 25,
@@ -10279,7 +10279,7 @@
         "geography": 10
       },
       "fit_score": 81.0,
-      "status": "candidate",
+      "status": "dropped",
       "confidence": 3,
       "sources": [
         {
@@ -10300,7 +10300,7 @@
         "Cybersecurity Consulting, Audit & Compliance",
         "External ISB / vCISO / ISMS-as-a-Service"
       ],
-      "hq_region": "Bruchsal, Baden-Württemberg, DE",
+      "hq_region": "Bellheim, Rheinland-Pfalz, DE",
       "founded": "",
       "est_revenue_band": "EUR 3-10m",
       "est_employees": "30-60",
@@ -10317,7 +10317,7 @@
         "geography": 10
       },
       "fit_score": 81.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 3,
       "sources": [
         {
@@ -10355,7 +10355,7 @@
         "geography": 10
       },
       "fit_score": 90.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 4,
       "sources": [
         {
@@ -10398,7 +10398,7 @@
         "geography": 10
       },
       "fit_score": 76.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 4,
       "sources": [
         {
@@ -10425,7 +10425,7 @@
         "External ISB / vCISO / ISMS-as-a-Service"
       ],
       "hq_region": "Mainz, Rheinland-Pfalz, DE",
-      "founded": "",
+      "founded": "2019",
       "est_revenue_band": "EUR 1-3m",
       "est_employees": "10-25",
       "ownership": "founder",
@@ -10441,7 +10441,7 @@
         "geography": 10
       },
       "fit_score": 76.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 4,
       "sources": [
         {
@@ -10468,7 +10468,7 @@
         "External ISB / vCISO / ISMS-as-a-Service"
       ],
       "hq_region": "Hutthurm (bei Passau) + München, Bayern, DE",
-      "founded": "",
+      "founded": "2013",
       "est_revenue_band": "EUR 3-8m",
       "est_employees": "30-50",
       "ownership": "founder",
@@ -10484,7 +10484,7 @@
         "geography": 10
       },
       "fit_score": 81.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 5,
       "sources": [
         {
@@ -10527,7 +10527,7 @@
         "geography": 10
       },
       "fit_score": 76.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 4,
       "sources": [
         {
@@ -10570,7 +10570,7 @@
         "geography": 10
       },
       "fit_score": 90.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 4,
       "sources": [
         {
@@ -10604,7 +10604,7 @@
       "independent": true,
       "succession_signal": "",
       "role": "bolt-on",
-      "approach_note": "Small owner-managed firm (GF Mark Deyerl, ex-Microsoft, CISSP) offering vCISO for Mittelstand; niche tuck-in bringing incident-response credibility.",
+      "approach_note": "Small owner-managed firm (GF Mark Deyerl, ex-Microsoft, CISSP) offering vCISO for Mittelstand; niche tuck-in bringing incident-response credibility.  [Dropped: Real founder GmbH (2016, Nusse) but an emerging general SME MSP (360° IT/Office365), not a genuine ISB/vCISO specialist, and micro-sized (~<1.5m) — niche fit & SME size not confirmable. https://www.unternehmensverzeichnis.org/wentracon-gmbh-nusse-2502621156855]",
       "fit": {
         "size": 10,
         "independence": 25,
@@ -10613,7 +10613,7 @@
         "geography": 10
       },
       "fit_score": 61.0,
-      "status": "candidate",
+      "status": "dropped",
       "confidence": 4,
       "sources": [
         {
@@ -10656,7 +10656,7 @@
         "geography": 10
       },
       "fit_score": 90.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 4,
       "sources": [
         {
@@ -10699,7 +10699,7 @@
         "geography": 10
       },
       "fit_score": 69.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 3,
       "sources": [
         {
@@ -10716,7 +10716,7 @@
     },
     {
       "name": "Generation Secure",
-      "legal_name": "",
+      "legal_name": "Generation Secure GmbH",
       "website": "https://generation-secure.de/",
       "sector": "Managed IT & Cybersecurity",
       "niche": "External ISB / vCISO / ISMS-as-a-Service",
@@ -10733,7 +10733,7 @@
       "independent": true,
       "succession_signal": "20+ years experience cited",
       "role": "bolt-on",
-      "approach_note": "External CISO / ISB for mid-market with 20+ yrs experience and a specialist network; ownership/legal entity not yet verified — confirm independence before approach.",
+      "approach_note": "External CISO / ISB for mid-market with 20+ yrs experience and a specialist network; ownership/legal entity not yet verified — confirm independence before approach.  [Verify: Real, in-niche external ISB/vCISO/ISMS provider, founder-led (Dr. Anja Beyer-Peters), TeleTrust member; small specialist consultancy, SME revenue unconfirmed. https://www.teletrust.de/ueber-teletrust/mitglieder/mitglied/generation-secure-gmbh/]",
       "fit": {
         "size": 18,
         "independence": 25,
@@ -10742,7 +10742,7 @@
         "geography": 10
       },
       "fit_score": 73.0,
-      "status": "candidate",
+      "status": "flagged",
       "confidence": 2,
       "sources": [
         {
@@ -10771,7 +10771,7 @@
       "independent": true,
       "succession_signal": "",
       "role": "bolt-on",
-      "approach_note": "External ISB for companies + municipalities up to ISO 27001 certification; strong Kommunal angle for NIS2 wave, but legal entity/ownership unverified — diligence needed.",
+      "approach_note": "External ISB for companies + municipalities up to ISO 27001 certification; strong Kommunal angle for NIS2 wave, but legal entity/ownership unverified — diligence needed.  [Verify: Active Munich consultancy offering external ISB/ISMS/ISO27001 support; ownership and size not independently confirmed (likely small). https://secure-consult.com/beratung/informationssicherheit/externer-informationssicherheitsbeauftragter/]",
       "fit": {
         "size": 18,
         "independence": 25,
@@ -10780,7 +10780,7 @@
         "geography": 10
       },
       "fit_score": 69.0,
-      "status": "candidate",
+      "status": "flagged",
       "confidence": 2,
       "sources": [
         {
@@ -10809,7 +10809,7 @@
       "independent": true,
       "succession_signal": "founded 1987 (35+ years)",
       "role": "platform",
-      "approach_note": "Independent IT house (GF Holger Imhof & Daniel Seitle, ~100 staff) with productised ISBaaS / vCISO line and TISAX/ISO 27001 capability, expanding across DACH incl. Austria; upper-band platform anchor.",
+      "approach_note": "Independent IT house (GF Holger Imhof & Daniel Seitle, ~100 staff) with productised ISBaaS / vCISO line and TISAX/ISO 27001 capability, expanding across DACH incl. Austria; upper-band platform anchor.  [Verify: Real & 100% owner-managed (employee MBO by Imhof & Seitle), since 1987, Ingolstadt/Regensburg; offers ISBaaS/vCISO but is a broad systemhaus and EUR 10-30m band unverified. https://wk-it.com/cyber-security-services/vciso/]",
       "fit": {
         "size": 25,
         "independence": 25,
@@ -10818,7 +10818,7 @@
         "geography": 8
       },
       "fit_score": 83.0,
-      "status": "candidate",
+      "status": "flagged",
       "confidence": 3,
       "sources": [
         {
@@ -10845,14 +10845,14 @@
         "External ISB / vCISO / ISMS-as-a-Service"
       ],
       "hq_region": "Bärnbach (Steiermark), AT",
-      "founded": "",
+      "founded": "2023",
       "est_revenue_band": "EUR 0.3-1.5m",
       "est_employees": "3-10",
       "ownership": "founder",
       "independent": true,
       "succession_signal": "founder DI Herwart Wermescher advising since 2011",
       "role": "bolt-on",
-      "approach_note": "Founder-led Austrian vCISO / external-CISO boutique (also brand kmusec.com) focused on NIS2 / NISG 2026, ISO 27001 & risk for Steiermark & DACH Mittelstand; entry point into Austrian NIS2 wave.",
+      "approach_note": "Founder-led Austrian vCISO / external-CISO boutique (also brand kmusec.com) focused on NIS2 / NISG 2026, ISO 27001 & risk for Steiermark & DACH Mittelstand; entry point into Austrian NIS2 wave.  [Verify: Real founder-run vCISO/NIS2 boutique (Herwart Wermescher, FN 603485d) but registered 2023 and essentially single-principal (firmen.wko.at/wermescher-advisory-gmbh)]",
       "fit": {
         "size": 10,
         "independence": 25,
@@ -10861,7 +10861,7 @@
         "geography": 8
       },
       "fit_score": 68.0,
-      "status": "candidate",
+      "status": "flagged",
       "confidence": 4,
       "sources": [
         {
@@ -10895,7 +10895,7 @@
       "independent": true,
       "succession_signal": "",
       "role": "bolt-on",
-      "approach_note": "Founder-led Swiss data-protection & infosec consultancy (external CISO/ISB, ISO 27001, DPO) since 2017 with high-retention retainer mandates (vCISO from CHF 60k/yr); Swiss beachhead for the platform.",
+      "approach_note": "Founder-led Swiss data-protection & infosec consultancy (external CISO/ISB, ISO 27001, DPO) since 2017 with high-retention retainer mandates (vCISO from CHF 60k/yr); Swiss beachhead for the platform.  [Verify: Real founder-owned Swiss firm (Priverion GmbH, Baar 2017); external DPO for >70% of clients + ISMS SaaS, but small (~CHF 0.5-2m) and DPO/software-weighted. https://www.northdata.com/Priverion%20GmbH,%20Baar/CHE-211.830.805]",
       "fit": {
         "size": 18,
         "independence": 25,
@@ -10904,7 +10904,7 @@
         "geography": 8
       },
       "fit_score": 67.0,
-      "status": "candidate",
+      "status": "flagged",
       "confidence": 4,
       "sources": [
         {
@@ -10938,7 +10938,7 @@
       "independent": true,
       "succession_signal": "",
       "role": "bolt-on",
-      "approach_note": "Founder-led (CEO Günther Woll, ISO 27001 Senior Lead Auditor) ISMS-Light / ISO 27001 / TISAX boutique for Swiss KMU (20-500 staff) since 2018; sharp methodology, small team — clean tuck-in.",
+      "approach_note": "Founder-led (CEO Günther Woll, ISO 27001 Senior Lead Auditor) ISMS-Light / ISO 27001 / TISAX boutique for Swiss KMU (20-500 staff) since 2018; sharp methodology, small team — clean tuck-in.  [Verify: Real independent CH ISO27001/TISAX consultancy for KMU, but very small (CHF 0.3-1.5m) — near micro, size at bottom of SME range. https://wollconsulting.ch/]",
       "fit": {
         "size": 10,
         "independence": 25,
@@ -10947,7 +10947,7 @@
         "geography": 8
       },
       "fit_score": 59.0,
-      "status": "candidate",
+      "status": "flagged",
       "confidence": 4,
       "sources": [
         {
@@ -10981,7 +10981,7 @@
       "independent": true,
       "succession_signal": "",
       "role": "bolt-on",
-      "approach_note": "Independent Swiss ISMS/ISO 27001 & IKT-Mindeststandard consultancy (IT auditor Guido Marsch) guiding KMU through certification; legal entity unverified — confirm before approach.",
+      "approach_note": "Independent Swiss ISMS/ISO 27001 & IKT-Mindeststandard consultancy (IT auditor Guido Marsch) guiding KMU through certification; legal entity unverified — confirm before approach.  [Dropped: Appears to be a one-person consultancy (Guido Marsch, individual IT auditor); no legal entity/HRB and cannot confirm SME size (~1-30m). https://www.cybersecurity-schweiz.com/ueber-uns/]",
       "fit": {
         "size": 10,
         "independence": 25,
@@ -10990,7 +10990,7 @@
         "geography": 8
       },
       "fit_score": 59.0,
-      "status": "candidate",
+      "status": "dropped",
       "confidence": 2,
       "sources": [
         {
@@ -11030,7 +11030,7 @@
         "geography": 10
       },
       "fit_score": 85.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 4,
       "sources": [
         {
@@ -11066,7 +11066,7 @@
       "independent": true,
       "succession_signal": "",
       "role": "bolt-on",
-      "approach_note": "Independent BW service firm serving many clinics/practices with repair, inspection and maintenance of EKG/lung-function/ergometry devices per MPBetreibV - regional density play in the Stuttgart/Reutlingen area.",
+      "approach_note": "Independent BW service firm serving many clinics/practices with repair, inspection and maintenance of EKG/lung-function/ergometry devices per MPBetreibV - regional density play in the Stuttgart/Reutlingen area.  [Verify: Active independent Reutlingen GmbH (3 managers) offering STK inspections, but core business is medical/orthopedic device wholesale; STK is a secondary service line (https://firmeneintrag.creditreform.de/72770/7270224075/VERMED_TEC_C_W_VERTRIEBS_GMBH)]",
       "fit": {
         "size": 25,
         "independence": 25,
@@ -11075,7 +11075,7 @@
         "geography": 10
       },
       "fit_score": 76.0,
-      "status": "candidate",
+      "status": "flagged",
       "confidence": 3,
       "sources": [
         {
@@ -11120,7 +11120,7 @@
         "geography": 10
       },
       "fit_score": 76.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 3,
       "sources": [
         {
@@ -11137,7 +11137,7 @@
     },
     {
       "name": "HWV R. Blome GmbH",
-      "legal_name": "HWV R. Blome GmbH",
+      "legal_name": "Hanseatische Wirtschafts- und Vertriebsgesellschaft für Ärztebedarf R. Blome GmbH",
       "website": "https://www.hwv-med.de",
       "sector": "Medical & Healthcare",
       "niche": "Sicherheitstechnische Kontrolle (STK) of Anlage-1 devices",
@@ -11165,7 +11165,7 @@
         "geography": 10
       },
       "fit_score": 90.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 4,
       "sources": [
         {
@@ -11201,7 +11201,7 @@
       "independent": true,
       "succession_signal": "Business taken over/relaunched by owner Michaela Herzberg in early 2017 - owner-operated",
       "role": "bolt-on",
-      "approach_note": "Owner-run Praxisausstatter near Berlin with diagnostics and MTK for blood-pressure devices - Berlin/Brandenburg tuck-in.",
+      "approach_note": "Owner-run Praxisausstatter near Berlin with diagnostics and MTK for blood-pressure devices - Berlin/Brandenburg tuck-in.  [Verify: Active Einzelunternehmen (Michaela/Ralph Herzberg), Stahnsdorf; Praxisausstatter with STK/MTK/DGUV-V3 service — real & in-niche but small/sole-prop, size near floor https://faust-medizintechnik.de/stk-mtk-reparaturservice/]",
       "fit": {
         "size": 18,
         "independence": 25,
@@ -11210,7 +11210,7 @@
         "geography": 10
       },
       "fit_score": 73.0,
-      "status": "candidate",
+      "status": "flagged",
       "confidence": 3,
       "sources": [
         {
@@ -11246,7 +11246,7 @@
       "independent": true,
       "succession_signal": "",
       "role": "bolt-on",
-      "approach_note": "Certified (ISO 13485) STK/MTK service division in the Rhein-Main region focused on AED, blood-pressure monitors and thermometers - regional bolt-on (note: operated as division of KESSEL medintim GmbH).",
+      "approach_note": "Certified (ISO 13485) STK/MTK service division in the Rhein-Main region focused on AED, blood-pressure monitors and thermometers - regional bolt-on (note: operated as division of KESSEL medintim GmbH).  [Dropped: Distler Medizintechnik merged into KESSEL medintim GmbH in 2019; now only a service brand/division of a medical-device manufacturer, not an independent SME (lifepr.de/newsroom/kessel-medintim-gmbh-mrfelden-walldorf)]",
       "fit": {
         "size": 25,
         "independence": 25,
@@ -11255,7 +11255,7 @@
         "geography": 10
       },
       "fit_score": 76.0,
-      "status": "candidate",
+      "status": "dropped",
       "confidence": 3,
       "sources": [
         {
@@ -11291,7 +11291,7 @@
       "independent": true,
       "succession_signal": "",
       "role": "bolt-on",
-      "approach_note": "Bavarian testing-service pure-play (STK, MTK, DGUV V3, maintenance, software updates) - small independent tuck-in south of Munich.",
+      "approach_note": "Bavarian testing-service pure-play (STK, MTK, DGUV V3, maintenance, software updates) - small independent tuck-in south of Munich.  [Dropped: Appears to be a micro one-person Prüfdienstleister (mobile-only contact, no GmbH/HRB found); cannot confirm SME size. https://www.muenchen-medizintechnik.de/]",
       "fit": {
         "size": 18,
         "independence": 25,
@@ -11300,7 +11300,7 @@
         "geography": 10
       },
       "fit_score": 69.0,
-      "status": "candidate",
+      "status": "dropped",
       "confidence": 3,
       "sources": [
         {
@@ -11336,7 +11336,7 @@
       "independent": true,
       "succession_signal": "",
       "role": "bolt-on",
-      "approach_note": "Engineer-led STK/MTK/DGUV V3 pure-play (infusion tech, monitoring, patient/care beds) operating nationwide - focused independent tuck-in.",
+      "approach_note": "Engineer-led STK/MTK/DGUV V3 pure-play (infusion tech, monitoring, patient/care beds) operating nationwide - focused independent tuck-in.  [Dropped: In-niche STK/MTK/DGUV-V3 inspection but no identifiable legal entity/HQ and appears to be a very small engineer-led operation; cannot positively confirm it is an SME (not micro). https://mtcheck.de/]",
       "fit": {
         "size": 18,
         "independence": 25,
@@ -11345,7 +11345,7 @@
         "geography": 6
       },
       "fit_score": 65.0,
-      "status": "candidate",
+      "status": "dropped",
       "confidence": 3,
       "sources": [
         {
@@ -11376,7 +11376,7 @@
       "independent": true,
       "succession_signal": "",
       "role": "bolt-on",
-      "approach_note": "Owner (Tobias Kollbeck) e.K. supplying and servicing medical devices (incl. syringe/infusion pumps, monitoring) for GPs, dialysis, care and rescue in Saxony - eastern-German bolt-on (STK offering to be confirmed).",
+      "approach_note": "Owner (Tobias Kollbeck) e.K. supplying and servicing medical devices (incl. syringe/infusion pumps, monitoring) for GPs, dialysis, care and rescue in Saxony - eastern-German bolt-on (STK offering to be confirmed).  [Verify: Real independent owner-run e.K. (Tobias Kollbeck since 2008, roots 1978, Ottendorf-Okrilla) doing STK/MTK/DGUV3; small and operates as B.Braun/Aesculap service partner but not a subsidiary. https://www.kollbeck-mt.de/]",
       "fit": {
         "size": 25,
         "independence": 25,
@@ -11385,7 +11385,7 @@
         "geography": 10
       },
       "fit_score": 76.0,
-      "status": "candidate",
+      "status": "flagged",
       "confidence": 2,
       "sources": [
         {
@@ -11414,7 +11414,7 @@
         "Sicherheitstechnische Kontrolle (STK) of Anlage-1 devices"
       ],
       "hq_region": "Recklinghausen, Nordrhein-Westfalen",
-      "founded": "",
+      "founded": "1978",
       "est_revenue_band": "EUR 3-10m",
       "est_employees": "20-50",
       "ownership": "family",
@@ -11430,7 +11430,7 @@
         "geography": 10
       },
       "fit_score": 85.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 3,
       "sources": [
         {
@@ -11462,11 +11462,11 @@
       "founded": "2000",
       "est_revenue_band": "EUR 2-5m",
       "est_employees": "20-40",
-      "ownership": "independent",
+      "ownership": "division of BAU Unternehmensgruppe (owner-managed group)",
       "independent": true,
       "succession_signal": "",
       "role": "bolt-on",
-      "approach_note": "Specialist STK/MTK (§11/§12 MPBetreibV) arm of the privately held BAU Unternehmensgruppe (35+ experts, founded 2000) focused on medical occupational safety - independent group bolt-on.",
+      "approach_note": "Specialist STK/MTK (§11/§12 MPBetreibV) arm of the privately held BAU Unternehmensgruppe (35+ experts, founded 2000) focused on medical occupational safety - independent group bolt-on.  [Verify: Real, in-niche (STK/MTK of medical devices) but a division of the owner-managed BAU Unternehmensgruppe (ex Medical Büro für Arbeit und Umwelt Service GmbH), not standalone. https://bau-medizintechnik.com/ueber-uns/]",
       "fit": {
         "size": 25,
         "independence": 25,
@@ -11475,7 +11475,7 @@
         "geography": 6
       },
       "fit_score": 72.0,
-      "status": "candidate",
+      "status": "flagged",
       "confidence": 3,
       "sources": [
         {
@@ -11511,7 +11511,7 @@
       "independent": true,
       "succession_signal": "",
       "role": "platform",
-      "approach_note": "Management-owned (MBO ex-UCB Pharma) medium-sized medtech service group already consolidating regional firms (RÖSCH, POST/HKT, Herrmann) with STK/MTK/DGUV V3 - a ready-made multi-site platform (or competing consolidator to watch).",
+      "approach_note": "Management-owned (MBO ex-UCB Pharma) medium-sized medtech service group already consolidating regional firms (RÖSCH, POST/HKT, Herrmann) with STK/MTK/DGUV V3 - a ready-made multi-site platform (or competing consolidator to watch).  [Verify: Active independent GmbH (HRB 24458, single shareholder), Essen; core is ultrasound device sales with STK/MTK service as a segment, size near top of band https://www.northdata.com/Aurosan%20GmbH,%20Essen/HRB%2024458]",
       "fit": {
         "size": 25,
         "independence": 25,
@@ -11520,7 +11520,7 @@
         "geography": 10
       },
       "fit_score": 81.0,
-      "status": "candidate",
+      "status": "flagged",
       "confidence": 3,
       "sources": [
         {
@@ -11556,7 +11556,7 @@
       "independent": true,
       "succession_signal": "",
       "role": "bolt-on",
-      "approach_note": "Manufacturer-independent repair/maintenance firm (15+ yrs, ultrasound-probe niche) offering MTK/STK on-site & in-workshop - technical depth to bolt into a service platform near Bremen.",
+      "approach_note": "Manufacturer-independent repair/maintenance firm (15+ yrs, ultrasound-probe niche) offering MTK/STK on-site & in-workshop - technical depth to bolt into a service platform near Bremen.  [Dropped: Actual business is trading used/new ultrasound systems and (via Probe Secure GmbH) ultrasound-probe repair, not MTK/STK statutory inspection; niche mismatch (https://www.medsecure.net/ueber-uns/, https://www.northdata.com/MED%20Secure%20GmbH,%20Stuhr/Amtsgericht%20Walsrode%20HRB%20111489)]",
       "fit": {
         "size": 18,
         "independence": 25,
@@ -11565,7 +11565,7 @@
         "geography": 10
       },
       "fit_score": 69.0,
-      "status": "candidate",
+      "status": "dropped",
       "confidence": 3,
       "sources": [
         {
@@ -11582,7 +11582,7 @@
     },
     {
       "name": "MBS Medizintechnik",
-      "legal_name": "MBS Medizintechnik",
+      "legal_name": "MBS Medizintechnik GmbH",
       "website": "https://www.mbs-medizintechnik.com",
       "sector": "Medical & Healthcare",
       "niche": "Sicherheitstechnische Kontrolle (STK) of Anlage-1 devices",
@@ -11597,11 +11597,11 @@
       "founded": "",
       "est_revenue_band": "EUR 0.3-2m",
       "est_employees": "5-20",
-      "ownership": "independent",
+      "ownership": "founder",
       "independent": true,
       "succession_signal": "",
       "role": "bolt-on",
-      "approach_note": "AED/defibrillator-focused service provider doing STK (battery/function/parts) with manufacturer partnerships - narrow but recurring-demand bolt-on (ownership/size to verify).",
+      "approach_note": "AED/defibrillator-focused service provider doing STK (battery/function/parts) with manufacturer partnerships - narrow but recurring-demand bolt-on (ownership/size to verify).  [Verify: Real independent GmbH (HRB 44853 Nürnberg, MD Marcel Mohr) doing STK on AED/defibrillators; in-niche but small/micro and heavily AED-focused. https://www.mbs-medizintechnik.com/Rechtliches/Impressum/]",
       "fit": {
         "size": 18,
         "independence": 25,
@@ -11610,7 +11610,7 @@
         "geography": 6
       },
       "fit_score": 65.0,
-      "status": "candidate",
+      "status": "flagged",
       "confidence": 2,
       "sources": [
         {
@@ -11641,7 +11641,7 @@
       "independent": true,
       "succession_signal": "",
       "role": "platform",
-      "approach_note": "Austrian ISO 17020-accredited inspection body managing ~30,000 medical devices with own STK/MTK medical-engineer team - the DACH-southern anchor for an Austria expansion (verify ownership/independence).",
+      "approach_note": "Austrian ISO 17020-accredited inspection body managing ~30,000 medical devices with own STK/MTK medical-engineer team - the DACH-southern anchor for an Austria expansion (verify ownership/independence).  [Dropped: NOT independent - 100% subsidiary of Vinzenz Gruppe Service GmbH (hospital group); also large (~180 employees, ~30,000 devices). https://www.biz-up.at/partner/santesis-technisches-gebaeudemanagement-service-gmbh]",
       "fit": {
         "size": 25,
         "independence": 25,
@@ -11650,7 +11650,7 @@
         "geography": 8
       },
       "fit_score": 79.0,
-      "status": "candidate",
+      "status": "dropped",
       "confidence": 3,
       "sources": [
         {
@@ -11678,15 +11678,15 @@
         "Statutory safety & metrology inspections (STK/MTK per MPBetreibV)",
         "Sicherheitstechnische Kontrolle (STK) of Anlage-1 devices"
       ],
-      "hq_region": "Schweiz (CH)",
-      "founded": "",
+      "hq_region": "Zürich, CH",
+      "founded": "2000",
       "est_revenue_band": "EUR 3-15m",
       "est_employees": "10-50",
       "ownership": "independent",
       "independent": true,
       "succession_signal": "",
       "role": "bolt-on",
-      "approach_note": "Swiss medtech specialist (diagnostics/simulation/reanimation) with its own MTK/STK experts and infrastructure and manufacturer-certified equipment - a Swiss entry point for cross-border STK build-up (verify ownership).",
+      "approach_note": "Swiss medtech specialist (diagnostics/simulation/reanimation) with its own MTK/STK experts and infrastructure and manufacturer-certified equipment - a Swiss entry point for cross-border STK build-up (verify ownership).  [Verify: Real & independent since 2000, Zürich; runs own STK/MTK infrastructure but core business is distribution/reseller of medical devices (custo med, ergoline, Philips etc.), STK a service line. https://reavita.ch/dienstleistungen/service-unterhalt/]",
       "fit": {
         "size": 25,
         "independence": 25,
@@ -11695,7 +11695,7 @@
         "geography": 8
       },
       "fit_score": 74.0,
-      "status": "candidate",
+      "status": "flagged",
       "confidence": 3,
       "sources": [
         {
@@ -11726,7 +11726,7 @@
       "independent": true,
       "succession_signal": "",
       "role": "bolt-on",
-      "approach_note": "Owner-led firm (Marvin Schön & Christoph Bartram) offering STK per §11 MPBetreibV - young founder-run bolt-on (region/size to confirm).",
+      "approach_note": "Owner-led firm (Marvin Schön & Christoph Bartram) offering STK per §11 MPBetreibV - young founder-run bolt-on (region/size to confirm).  [Dropped: Website exists (STK page) but no confirmable legal entity, HQ, ownership or size; likely micro; cannot verify SME/independence. https://www.schoen-medizintechnik.de/stk-pruefung-nach-mp-betriebs-verordnung.html]",
       "fit": {
         "size": 18,
         "independence": 25,
@@ -11735,7 +11735,7 @@
         "geography": 6
       },
       "fit_score": 65.0,
-      "status": "candidate",
+      "status": "dropped",
       "confidence": 2,
       "sources": [
         {
@@ -11766,7 +11766,7 @@
       "independent": true,
       "succession_signal": "",
       "role": "platform",
-      "approach_note": "ISO-13485 MTK/STK specialist with mail-in/loaner logistics that already scales nationally; now a division of family-owned KESSEL medintim - could be carved out as a national MTK platform anchor.",
+      "approach_note": "ISO-13485 MTK/STK specialist with mail-in/loaner logistics that already scales nationally; now a division of family-owned KESSEL medintim - could be carved out as a national MTK platform anchor.  [Dropped: Not independent — 'now part of KESSEL', operates as a Geschäftsbereich of KESSEL medintim GmbH. https://www.distler.de/kontakt]",
       "fit": {
         "size": 25,
         "independence": 25,
@@ -11775,7 +11775,7 @@
         "geography": 10
       },
       "fit_score": 81.0,
-      "status": "candidate",
+      "status": "dropped",
       "confidence": 3,
       "sources": [
         {
@@ -11811,7 +11811,7 @@
       "independent": true,
       "succession_signal": "Owner-operated Einzelunternehmen (Jens Schwalbe) - single-owner dependence",
       "role": "bolt-on",
-      "approach_note": "Owner-run STK/MTK/DGUV-V3 shop also operating the mtk-muenchen.de brand and an online Medizinproduktebuch - a clean Bavarian tuck-in around Munich.",
+      "approach_note": "Owner-run STK/MTK/DGUV-V3 shop also operating the mtk-muenchen.de brand and an online Medizinproduktebuch - a clean Bavarian tuck-in around Munich.  [Dropped: Micro one-person operation (formerly BayMedTec UG; est ~0.2-1m) — below SME floor. https://www.muenchen-medizintechnik.de/impressum.html]",
       "fit": {
         "size": 10,
         "independence": 25,
@@ -11820,7 +11820,7 @@
         "geography": 10
       },
       "fit_score": 65.0,
-      "status": "candidate",
+      "status": "dropped",
       "confidence": 4,
       "sources": [
         {
@@ -11856,7 +11856,7 @@
       "independent": true,
       "succession_signal": "",
       "role": "bolt-on",
-      "approach_note": "Reutlingen-area practice-service firm doing STK/MTK/validation/repair; member of the Co-med Fachhändler-Verbund (cooperative, not PE-owned) - independently owned regional bolt-on.",
+      "approach_note": "Reutlingen-area practice-service firm doing STK/MTK/validation/repair; member of the Co-med Fachhändler-Verbund (cooperative, not PE-owned) - independently owned regional bolt-on.  [Verify: Active Reutlingen firm offering MTK/STK per MPBetreibV, but core business is medical-supplies retail/distribution (20,000+ products); inspection is an ancillary service line. https://www.mtr-medizintechnik.de/]",
       "fit": {
         "size": 25,
         "independence": 25,
@@ -11865,7 +11865,7 @@
         "geography": 10
       },
       "fit_score": 76.0,
-      "status": "candidate",
+      "status": "flagged",
       "confidence": 3,
       "sources": [
         {
@@ -11910,7 +11910,7 @@
         "geography": 10
       },
       "fit_score": 81.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 3,
       "sources": [
         {
@@ -11946,7 +11946,7 @@
       "independent": true,
       "succession_signal": "Owner-operated (Sebastian Bernjus) - single-owner dependence",
       "role": "bolt-on",
-      "approach_note": "Berlin MTK specialist for analog & digital blood-pressure devices tested in an in-house TÜV-certified facility - mail-in volume model, ideal tuck-in to a national loaner network.",
+      "approach_note": "Berlin MTK specialist for analog & digital blood-pressure devices tested in an in-house TÜV-certified facility - mail-in volume model, ideal tuck-in to a national loaner network.  [Dropped: Sole proprietorship (IMB Bernjus e.K., HRA 43997 B), micro ~0.2-1m instrument-repair shop, not an SME MTK operator (openregister.de/company/DE-HRA-F1103-43997)]",
       "fit": {
         "size": 10,
         "independence": 25,
@@ -11955,7 +11955,7 @@
         "geography": 10
       },
       "fit_score": 65.0,
-      "status": "candidate",
+      "status": "dropped",
       "confidence": 4,
       "sources": [
         {
@@ -11991,7 +11991,7 @@
       "independent": true,
       "succession_signal": "Owner-operated Einzelunternehmen (Harald Löwe), registered in Handwerksrolle Schwaben - single-owner dependence",
       "role": "bolt-on",
-      "approach_note": "Allgäu owner-run inspection & advisory firm doing MTK incl. ergometer - a clean southern-Bavaria tuck-in.",
+      "approach_note": "Allgäu owner-run inspection & advisory firm doing MTK incl. ergometer - a clean southern-Bavaria tuck-in.  [Dropped: Real owner-operated (Harald Löwe, sole proprietorship, Waltenhofen) doing STK/MTK, but micro one-person shop (~EUR 0.2-1m), below SME floor. https://www.loewe-med.de/ueber-uns/]",
       "fit": {
         "size": 10,
         "independence": 25,
@@ -12000,7 +12000,7 @@
         "geography": 10
       },
       "fit_score": 65.0,
-      "status": "candidate",
+      "status": "dropped",
       "confidence": 4,
       "sources": [
         {
@@ -12045,7 +12045,7 @@
         "geography": 10
       },
       "fit_score": 85.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 4,
       "sources": [
         {
@@ -12090,7 +12090,7 @@
         "geography": 10
       },
       "fit_score": 81.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 4,
       "sources": [
         {
@@ -12135,7 +12135,7 @@
         "geography": 10
       },
       "fit_score": 73.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 4,
       "sources": [
         {
@@ -12180,7 +12180,7 @@
         "geography": 10
       },
       "fit_score": 80.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 3,
       "sources": [
         {
@@ -12225,7 +12225,7 @@
         "geography": 10
       },
       "fit_score": 90.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 3,
       "sources": [
         {
@@ -12270,7 +12270,7 @@
         "geography": 10
       },
       "fit_score": 88.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 4,
       "sources": [
         {
@@ -12306,7 +12306,7 @@
       "independent": true,
       "succession_signal": "",
       "role": "bolt-on",
-      "approach_note": "Northern-German Gerätemanagement partner (STK/MTK, BGV-A3, X-ray QC) covering Bremen/Niedersachsen/Hamburg/SH plus a medtech shop - regional density bolt-on; verify ownership.",
+      "approach_note": "Northern-German Gerätemanagement partner (STK/MTK, BGV-A3, X-ray QC) covering Bremen/Niedersachsen/Hamburg/SH plus a medtech shop - regional density bolt-on; verify ownership.  [Verify: Active independent Bremen medtech supplier/service doing STK/MTK across Bremen/Niedersachsen/Hamburg; in-niche but legal form and revenue not fully confirmable. https://www.hwv-med.de/geraetemanagement]",
       "fit": {
         "size": 25,
         "independence": 25,
@@ -12315,7 +12315,7 @@
         "geography": 10
       },
       "fit_score": 76.0,
-      "status": "candidate",
+      "status": "flagged",
       "confidence": 2,
       "sources": [
         {
@@ -12327,7 +12327,7 @@
     },
     {
       "name": "medi.sys scheuer (notfall-medizin.de)",
-      "legal_name": "medi.sys scheuer (Inhaber Christian Scheuer)",
+      "legal_name": "medi.sys scheuer KG",
       "website": "https://www.notfall-medizin.de",
       "sector": "Medical & Healthcare",
       "niche": "Messtechnische Kontrolle (MTK) of Anlage-2 measuring devices",
@@ -12338,7 +12338,7 @@
         "Statutory safety & metrology inspections (STK/MTK per MPBetreibV)",
         "Messtechnische Kontrolle (MTK) of Anlage-2 measuring devices"
       ],
-      "hq_region": "Deutschland (Region unbestätigt)",
+      "hq_region": "Furth im Wald, Bayern",
       "founded": "",
       "est_revenue_band": "EUR 0.5-2m",
       "est_employees": "1-10",
@@ -12346,7 +12346,7 @@
       "independent": true,
       "succession_signal": "Owner (Christian Scheuer) ~30 years in medtech distribution/service - owner-operated",
       "role": "bolt-on",
-      "approach_note": "Long-established owner-run medtech distributor/servicer offering MTK per MPBetreibV alongside a Medizinprodukte-Management shop - owner-dependent tuck-in.",
+      "approach_note": "Long-established owner-run medtech distributor/servicer offering MTK per MPBetreibV alongside a Medizinprodukte-Management shop - owner-dependent tuck-in.  [Verify: Real independent KG (HRA 8428 AG Regensburg, Inhaber Christian Scheuer, ~30 yrs) offering STK/MTK, but core business is medtech/emergency-equipment trade & retail (eBay shop) rather than pure MTK inspection. https://www.northdata.com/medi%C2%B7sys%20scheuer%20KG,%20Furth%20i%C2%B7%20Wald/Amtsgericht%20Regensburg%20HRA%208428]",
       "fit": {
         "size": 18,
         "independence": 25,
@@ -12355,7 +12355,7 @@
         "geography": 10
       },
       "fit_score": 73.0,
-      "status": "candidate",
+      "status": "flagged",
       "confidence": 3,
       "sources": [
         {
@@ -12379,7 +12379,7 @@
         "Messtechnische Kontrolle (MTK) of Anlage-2 measuring devices"
       ],
       "hq_region": "Siegen, NRW (Standorte u.a. Leverkusen, Celle, Erfurt, Dresden, Frankfurt, Gilching)",
-      "founded": "",
+      "founded": "1981",
       "est_revenue_band": "EUR 5-20m",
       "est_employees": "50-150",
       "ownership": "family",
@@ -12395,7 +12395,7 @@
         "geography": 10
       },
       "fit_score": 81.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 4,
       "sources": [
         {
@@ -12440,7 +12440,7 @@
         "geography": 10
       },
       "fit_score": 76.0,
-      "status": "candidate",
+      "status": "verified",
       "confidence": 3,
       "sources": [
         {
