@@ -5031,7 +5031,7 @@
           "Erlos"
         ],
         "regulation": [
-          "BattG / BattG2",
+          "BattDG (Batterierecht-Durchführungsgesetz, replaced BattG on 07.10.2025)",
           "EU Battery Regulation 2023/1542",
           "stiftung ear (battery register)"
         ]
@@ -6289,7 +6289,7 @@
         "regulation": [
           "KrWG",
           "Deponieverordnung (DepV)",
-          "Sicherheitsleistung (Sec. 19 DepV)"
+          "Sicherheitsleistung (§ 18 DepV)"
         ]
       },
       "sources": [
@@ -6602,7 +6602,7 @@
         ],
         "regulation": [
           "GewAbfV",
-          "KrWG Sec. 7 Getrennthaltung"
+          "KrWG §9 (Getrennte Sammlung / Getrennthaltung)"
         ]
       },
       "sources": [

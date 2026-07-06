@@ -6519,7 +6519,8 @@
           "FSA24 (Frachtführerversicherung)"
         ],
         "regulation": [
-          "HGB Frachtführerhaftung (Mindestsumme EUR 600.000)",
+          "HGB Frachtfuehrerhaftung (§§ 407 ff. HGB, Haftungsgrenze 8,33 SZR/kg nach § 431 HGB)",
+          "§ 7a GüKG (Pflicht-Güterschaden-Haftpflichtversicherung, Mindestversicherungssumme EUR 600.000 je Schadenereignis)",
           "CMR-Übereinkommen",
           "§34d GewO / IDD"
         ]

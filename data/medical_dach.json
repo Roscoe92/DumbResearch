@@ -1151,7 +1151,8 @@
           "The Entourage (QP on demand)"
         ],
         "regulation": [
-          "AMG §15",
+          "AMG §19 (Chargenzertifizierung/-freigabe durch die sachkundige Person)",
+          "AMG §14/§15 (Bestellung/Sachkenntnis der sachkundigen Person)",
           "AMWHV §§16-18",
           "EU-GMP Annex 16"
         ]
@@ -10619,9 +10620,9 @@
           "probandenversicherung.de"
         ],
         "regulation": [
-          "§40 AMG",
+          "§40b Abs. 3 AMG (Probandenversicherung)",
           "EU-CTR 536/2014",
-          "GCP-Verordnung"
+          "ICH-GCP (E6) (GCP-Verordnung zum 27.01.2022 aufgehoben)"
         ]
       },
       "sources": [
@@ -12195,7 +12196,7 @@
           "GVP Module I",
           "Directive 2001/83/EC",
           "EMA QPPV requirements",
-          "§63b AMG"
+          "§63a AMG"
         ]
       },
       "sources": [
@@ -12363,7 +12364,7 @@
           "GVP Module VII",
           "ICH E2C(R2) PBRER",
           "EURD list / PSUSA",
-          "§63b AMG"
+          "§63d AMG"
         ]
       },
       "sources": [
@@ -13416,7 +13417,7 @@
         ],
         "regulation": [
           "StrlSchG §172 (Sachverständige)",
-          "StrlSchV §88",
+          "StrlSchV §116 (Konstanzprüfung)",
           "DIN 6868 (Konstanzprüfung)",
           "Ärztliche Stelle"
         ]
@@ -13714,8 +13715,8 @@
           "Coloplast Homecare"
         ],
         "regulation": [
-          "SGB V 126/127 Prequalifizierung",
-          "GKV-Hilfsmittelverzeichnis PG 31 Schienen/Verbandmittel",
+          "§126/§127 SGB V Präqualifizierung",
+          "§31 SGB V Verbandmittel (moderne Wundauflagen)",
           "MDR (EU) 2017/745"
         ]
       },
@@ -13999,7 +14000,7 @@
           "Heimbeatmungsservice Brambring Jaschke"
         ],
         "regulation": [
-          "GKV-IPReG (Intensivpflege- und Rehabilitationsstaerkungsgesetz, 2021)",
+          "GKV-IPReG (Intensivpflege- und Rehabilitationsstärkungsgesetz, 2020)",
           "SGB V 37c ausserklinische Intensivpflege",
           "GKV-Hilfsmittelverzeichnis PG 14 Inhalations-/Atemtherapiegeraete"
         ]
@@ -14235,7 +14236,7 @@
         ],
         "regulation": [
           "SGB V 126/127 Prequalifizierung",
-          "GKV-Hilfsmittelverzeichnis PG 17 Kompressionstherapie / PG 23 Bandagen",
+          "GKV-Hilfsmittelverzeichnis PG 17 Kompressionstherapie / PG 05 Bandagen",
           "MDR (EU) 2017/745"
         ]
       },
@@ -14385,7 +14386,7 @@
         ],
         "regulation": [
           "SGB V 126/127 Prequalifizierung",
-          "GKV-Hilfsmittelverzeichnis PG 24 Brustexoprothesen",
+          "GKV-Hilfsmittelverzeichnis PG 37 Brustexoprothesen",
           "MDR (EU) 2017/745"
         ]
       },
@@ -14970,7 +14971,7 @@
       },
       "composite": 68.3,
       "dach_signals": {
-        "est_players": "~15,400 ambulant services (DE, Dec 2024)",
+        "est_players": "~15,400 ambulant services (DE, end-2023, Destatis Pflegestatistik 2023)",
         "revenue_band_eur": "EUR 0.5-5m typical per firm",
         "example_companies": [
           "advita Pflegedienst",
@@ -14979,7 +14980,7 @@
         ],
         "regulation": [
           "SGB XI §36 Pflegesachleistung",
-          "SGB XI §113 MD-Qualitätsprüfung (Pflege-TÜV)",
+          "SGB XI §114 MD-Qualitätsprüfung (Pflege-TÜV)",
           "Landesrahmenverträge §75 SGB XI"
         ]
       },
@@ -17813,7 +17814,7 @@
           "ALL MEDICAL / HonorarArzt.de"
         ],
         "regulation": [
-          "Scheinselbständigkeit / §7 SGB IV (BSG 2022 Honorararzt rulings)",
+          "Scheinselbständigkeit / §7 SGB IV (BSG 2019 Honorararzt rulings)",
           "Approbation/ärztliche Berufsordnung"
         ]
       },
@@ -18030,7 +18031,7 @@
       },
       "composite": 79.2,
       "dach_signals": {
-        "est_players": "Many local service/validation providers; ~50k+ dental practices as demand base",
+        "est_players": "Many local service/validation providers; ~36,000 Zahnarztpraxen (44,052 Vertragszahnärzte, 2023) as demand base",
         "revenue_band_eur": "EUR 0.2-5m per service firm",
         "example_companies": [
           "biocheck Hygienetechnisches Labor",

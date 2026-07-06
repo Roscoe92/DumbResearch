@@ -2169,7 +2169,7 @@
         "Fire dampers (Brandschutzklappen) inspection"
       ],
       "value_chain_stage": "services",
-      "description": "Function testing and maintenance of ventilation fire dampers on a DIN 14677 cycle, typically in HVAC-heavy commercial and industrial buildings.",
+      "description": "Function testing and maintenance of ventilation fire dampers (Brandschutzklappen) per product standard DIN EN 15650, with maintenance intervals set by manufacturer instructions / DIN 31051 (typically 6-monthly, extendable to annual after two clean checks), typically in HVAC-heavy commercial and industrial buildings.",
       "scores": {
         "recurring": 5,
         "fragmentation": 5,
@@ -2194,9 +2194,10 @@
           "e-service-check"
         ],
         "regulation": [
-          "DIN 14677",
+          "DIN EN 15650",
+          "DIN 31051 / DIN EN 13306 (Instandhaltung)",
           "ArbStättV",
-          "LBO"
+          "LBO/MLAR"
         ]
       },
       "sources": [
@@ -6891,7 +6892,7 @@
           "regional Probenehmer"
         ],
         "regulation": [
-          "TrinkwV §14b",
+          "TrinkwV §31",
           "UBA sampling recommendations",
           "DIN EN ISO 11731"
         ]
@@ -7356,7 +7357,7 @@
         "Submetering & Heat-Cost Allocation (Messdienst)"
       ],
       "value_chain_stage": "services",
-      "description": "Statutory heat-cost allocator and water-meter reading, billing and device provision under the Heizkostenverordnung - a highly recurring, mandated market but a rare concentrated exception to SHK fragmentation. The Bundeskartellamt's Sektoruntersuchung Submetering (shares as of March 2016) found Techem ~28%, ista ~26%, Brunata-Metrona ~16%, Minol ~8% and Kalorimeta (KALO) ~6% - the top five holding ~84% of devices.",
+      "description": "Statutory heat-cost allocator and water-meter reading, billing and device provision under the Heizkostenverordnung - a highly recurring, mandated market but a rare concentrated exception to SHK fragmentation. The Bundeskartellamt's Sektoruntersuchung Submetering (published May 2017, market data for 2014) found Techem ~29% and ista ~24% by device inventory; the two leaders together held a revenue share of 50-60% and the five largest providers (also Brunata-Metrona ~17%, plus Minol and Kalorimeta/KALO) together held 70-80% - a competition-free oligopoly.",
       "scores": {
         "recurring": 5,
         "fragmentation": 1,
