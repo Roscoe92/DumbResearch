@@ -830,11 +830,7 @@
           "Waagen-Schmitt GmbH (waagen-schmitt.de, Hamburg) - independent multi-brand scale service incl. Eichvorbereitung coordination",
           "Waagen Friederichs (waagen-friederichs.de) - independent regional scale-service firm"
         ],
-        "ebitda_margin": {
-          "band": "~12-18% (service; blended down by product resale)",
-          "basis": "sector-level; niche proprietary",
-          "source": "https://aventis-advisors.com/tic-industry/"
-        },
+        "ebitda_margin": "~12-18% (service; blended down by product resale) (sector-level; niche proprietary)",
         "entry_multiple": "n/a - proprietary",
         "bnb_angle": "Roll up succession-stage family scale-service firms into a national weighing-service platform on recurring maintenance + Eichvorbereitung contracts, with DAkkS-tested reference weights and OEM-agnostic service as the moat.",
         "key_risks": [
@@ -932,11 +928,7 @@
           "SAW Arbeitsschutz / security@work (saw-arbeitsschutz.de) - independent multi-brand gas-detector calibration/adjustment/service",
           "abrix GmbH (abrix.de) - independent gas-detector calibration, testing, maintenance & repair per DGUV 213-056/057"
         ],
-        "ebitda_margin": {
-          "band": "~12-20% (recurring service)",
-          "basis": "sector-level; niche proprietary",
-          "source": "https://aventis-advisors.com/tic-industry/"
-        },
+        "ebitda_margin": "~12-20% (recurring service) (sector-level; niche proprietary)",
         "entry_multiple": "n/a - proprietary",
         "bnb_angle": "Consolidate manufacturer-independent gas-detector calibration/service workshops into a recurring-maintenance platform driven by the quarterly DGUV bump-test/calibration duty, using multi-brand independence (Dräger/MSA/Honeywell) versus OEM lock-in as the wedge.",
         "key_risks": [
@@ -1954,11 +1946,7 @@
           "EZI Ingenieure GmbH (ezi-ingenieure.de) - independent firm specialised in DIN 1076 inspection of small/medium bridges",
           "Bechert + Partner (bechertundpartner.de) - independent multi-site Ingenieurbüro for DIN 1076 Bauwerksprüfung"
         ],
-        "ebitda_margin": {
-          "band": "~12-20% (TIC-sector norm)",
-          "basis": "sector-level; niche-specific proprietary",
-          "source": "https://aventis-advisors.com/tic-industry/"
-        },
+        "ebitda_margin": "~12-20% (TIC-sector norm) (sector-level; niche-specific proprietary)",
         "entry_multiple": "n/a - proprietary",
         "bnb_angle": "Consolidate VFIB-certified Ingenieurbüros into a national Bauwerksprüfung platform riding the German bridge-renovation supercycle (Autobahn GmbH and Deutsche Bahn backlogs); statutory 6-year DIN 1076 cycles give predictable recurring revenue.",
         "key_risks": [
@@ -2552,11 +2540,7 @@
           "ZEROS GmbH (zeros-gmbh.de) - independent multi-site ZfP/NDT lab & field service since 1995 (Berlin, Bavaria, Baden-Württemberg)",
           "AWT Peters GmbH (awt-peters.de, Kirchzarten) - owner-managed (Dirk Peters) NDT field-service specialist, regional market leader for pipeline/plant/steel construction"
         ],
-        "ebitda_margin": {
-          "band": "~12-18% (low-capex, technician-driven)",
-          "basis": "sector-level; niche proprietary",
-          "source": "https://aventis-advisors.com/tic-industry/"
-        },
+        "ebitda_margin": "~12-18% (low-capex, technician-driven) (sector-level; niche proprietary)",
         "entry_multiple": "n/a - proprietary",
         "bnb_angle": "Aggregate owner-managed ZfP field-service firms into a low-capex, high-volume surface-inspection platform for weld/casting QA in plant, pipeline and steel construction, monetising recurring personnel re-certification and framework contracts.",
         "key_risks": [
@@ -3053,11 +3037,7 @@
           "korrotec (korrotec.de) - independent FROSIO inspector / QA in heavy corrosion protection of steel and concrete",
           "IDS Oberflächentechnik (id-s.de) - independent FROSIO Level III coating inspection / Fertigungsüberwachung"
         ],
-        "ebitda_margin": {
-          "band": "~12-18% (people-driven TIC service)",
-          "basis": "sector-level; niche proprietary",
-          "source": "https://aventis-advisors.com/tic-industry/"
-        },
+        "ebitda_margin": "~12-18% (people-driven TIC service) (sector-level; niche proprietary)",
         "entry_multiple": "n/a - proprietary",
         "bnb_angle": "Aggregate FROSIO/NACE inspector micro-firms into a QA-inspection platform for offshore wind, tanks/pipelines and steel fabrication, riding energy-transition steel demand; scale converts key-man risk into a managed roster.",
         "key_risks": [
@@ -3800,11 +3780,7 @@
           "HAISCH KRAN GmbH & Co. KG (haisch-kran.de, Göppingen) - independent, manufacturer-agnostic crane inspection per DGUV V52/V3 (60+ yrs)",
           "Heckl / kran-uvv.de (Aichach) - independent Prüfsachverständiger for crane UVV/DGUV inspection"
         ],
-        "ebitda_margin": {
-          "band": "~12-18% (field-service; blended with repair)",
-          "basis": "sector-level; niche proprietary",
-          "source": "https://aventis-advisors.com/tic-industry/"
-        },
+        "ebitda_margin": "~12-18% (field-service; blended with repair) (sector-level; niche proprietary)",
         "entry_multiple": "n/a - proprietary",
         "bnb_angle": "Roll up manufacturer-independent crane-inspection SMEs into a recurring statutory-inspection platform (annual §26 plus 4-yearly Sachverständigen-Prüfung), differentiating on OEM-agnostic multi-brand coverage and software-driven scheduling.",
         "key_risks": [
@@ -4239,11 +4215,7 @@
           "grieseler GmbH (grieseler-gmbh.de) - independent, certified Spielplatzprüfer doing DIN EN 1176 inspections",
           "Spielplatzservice (spielplatz-inspektion.de) - independent qualified playground-inspection SME"
         ],
-        "ebitda_margin": {
-          "band": "~12-18% (field-service TIC)",
-          "basis": "sector-level; niche proprietary",
-          "source": "https://aventis-advisors.com/tic-industry/"
-        },
+        "ebitda_margin": "~12-18% (field-service TIC) (sector-level; niche proprietary)",
         "entry_multiple": "n/a - proprietary",
         "bnb_angle": "Roll up certified Spielplatzprüfer SMEs into a recurring annual-inspection platform for municipalities, housing associations and Kitas (DIN EN 1176 mandates an annual main inspection), adding SaaS defect-tracking to lift route density and margin.",
         "key_risks": [
@@ -4870,11 +4842,7 @@
           "AKUVIB Engineering and Testing GmbH (Bochum) - independent DAkkS-accredited lab combining EMV, environmental simulation and vibration under one roof",
           "s-team (s-team.de) - DAkkS-accredited independent EMV measurement lab"
         ],
-        "ebitda_margin": {
-          "band": "~12-20% (TIC-sector norm; often mid-teens given chamber capex)",
-          "basis": "sector-level; niche-specific figures proprietary",
-          "source": "https://aventis-advisors.com/tic-industry/"
-        },
+        "ebitda_margin": "~12-20% (TIC-sector norm; often mid-teens given chamber capex) (sector-level; niche-specific figures proprietary)",
         "entry_multiple": "n/a - proprietary",
         "bnb_angle": "Buy-and-build a multi-site accredited EMV platform by rolling up owner-succession labs, sharing shielded/anechoic chamber utilisation and cross-selling adjacent RED and e-mark work. Capex-heavy chambers create a real barrier once a hub-and-spoke footprint is assembled.",
         "key_risks": [
@@ -5035,11 +5003,7 @@
           "IB-Lenhardt AG (ib-lenhardt.com, St. Ingbert) - independent radio/EMV testing group with own accredited IBL-Lab GmbH and KL-Certification GmbH (NB/TCB/FCB)",
           "EMCCons DR. RAŠEK GmbH & Co. KG (emcc.de, Ebermannstadt) - privately/owner-owned RED & EMC lab and Notified Body (NB 0678), independent"
         ],
-        "ebitda_margin": {
-          "band": "~12-20% (chamber-capex-heavy)",
-          "basis": "sector-level; niche proprietary",
-          "source": "https://aventis-advisors.com/tic-industry/"
-        },
+        "ebitda_margin": "~12-20% (chamber-capex-heavy) (sector-level; niche proprietary)",
         "entry_multiple": "n/a - proprietary",
         "bnb_angle": "Back one of the last independent radio/RED lab-plus-Notified-Body platforms to consolidate a rapidly thinning field (Phoenix Testlab sold to NMi in 2025, CETECOM now inside the RWTUEV group); IoT and the cyber-security RED requirements (Art. 3.3 d-f from Aug 2025) are the demand catalyst.",
         "key_risks": [
@@ -5412,11 +5376,7 @@
         "named_targets": [
           "CTL GmbH Bielefeld (ctl-bielefeld.de) - independent DAkkS-accredited EN 71 toy lab, explicitly without shareholdings/conflicts (note: genuinely independent SME toy labs are scarce - the field is dominated by TUEV/SGS Fresenius/Intertek/DEKRA, and SLG is part of TUEV Rheinland)"
         ],
-        "ebitda_margin": {
-          "band": "~12-20% (TIC-sector norm)",
-          "basis": "sector-level; niche proprietary",
-          "source": "https://aventis-advisors.com/tic-industry/"
-        },
+        "ebitda_margin": "~12-20% (TIC-sector norm) (sector-level; niche proprietary)",
         "entry_multiple": "n/a - proprietary",
         "bnb_angle": "Build an independent consumer-product/toy-safety testing platform (EN 71 mechanical + chemical + REACH) for importers/retailers; the EU Toy Safety Regulation revision and REACH SVHC tightening drive test volume.",
         "key_risks": [
@@ -5581,11 +5541,7 @@
           "PÜZ BAU GmbH (puezbau.de) - independent PÜZ-Stelle for testing/surveillance/certification of construction products (since 2006/07)",
           "ZERTbauprüf GmbH (zertbaupruef.de) - independent DAkkS-accredited/notified FPC conformity-assessment body (since 2013)"
         ],
-        "ebitda_margin": {
-          "band": "~12-20% (TIC-sector norm)",
-          "basis": "sector-level; niche proprietary",
-          "source": "https://aventis-advisors.com/tic-industry/"
-        },
+        "ebitda_margin": "~12-20% (TIC-sector norm) (sector-level; niche proprietary)",
         "entry_multiple": "n/a - proprietary",
         "bnb_angle": "Consolidate DIBt-recognised PÜZ-Stellen into a construction-products certification + factory-production-control surveillance platform; the German national route (abZ / Ü-Zeichen) is a regulatory moat with recurring surveillance revenue.",
         "key_risks": [
@@ -7415,11 +7371,7 @@
           "IFU-CERT GmbH (ifu-cert.de, Hanover) - independent accredited certification body for ISO 50001 / EMAS (30+ yrs)",
           "Arqum Zert GmbH (arqumzert.de, Munich) - independent DAkkS-accredited ISO 50001 certifier with DAU-approved EMAS Umweltgutachter"
         ],
-        "ebitda_margin": {
-          "band": "~15-25% (asset-light certification/audit)",
-          "basis": "sector-level; niche proprietary",
-          "source": "https://aventis-advisors.com/tic-industry/"
-        },
+        "ebitda_margin": "~15-25% (asset-light certification/audit) (sector-level; niche proprietary)",
         "entry_multiple": "n/a - proprietary",
         "bnb_angle": "Consolidate accredited energy/environmental certification bodies plus EMAS Umweltgutachter into an asset-light platform riding EnEfG statutory demand (large energy consumers must certify ISO 50001 or EMAS), with recurring 3-year surveillance cycles.",
         "key_risks": [
@@ -7598,11 +7550,7 @@
         "named_targets": [
           "RITTWEGER + TEAM (rittweger-team.de) - independent German provider of SA8000/SMETA/BSCI social audits + supplier rating, EcoVadis training partner (note: genuinely independent SME pure-play social auditors are scarce in DACH - most on-site audit capacity sits with TÜV/SGS/BV/Intertek/Eurofins/QIMA)"
         ],
-        "ebitda_margin": {
-          "band": "~10-18% (labour-intensive audit)",
-          "basis": "sector-level; niche proprietary",
-          "source": "https://aventis-advisors.com/tic-industry/"
-        },
+        "ebitda_margin": "~10-18% (labour-intensive audit) (sector-level; niche proprietary)",
         "entry_multiple": "n/a - proprietary",
         "bnb_angle": "LkSG/CSDDD create structural demand, but on-site auditing is consolidated under the majors - the investable independent white-space is a tech-enabled supplier due-diligence/monitoring layer bolted onto a certified audit arm rather than a pure audit roll-up.",
         "key_risks": [
@@ -7833,11 +7781,7 @@
           "öko-control GmbH (oeko-control.com, Dessau-Roßlau) - independent §29b-BImSchG bekanntgegebene Messstelle for air-pollutant emission measurement",
           "Müller-BBM Industry Solutions GmbH (mbbm-ind.com, Planegg) - independent, employee-owned §29b Messstelle for emissions/immissions, odour, noise & vibration (~400 staff; larger)"
         ],
-        "ebitda_margin": {
-          "band": "~12-20% (TIC-sector norm)",
-          "basis": "sector-level; niche proprietary",
-          "source": "https://aventis-advisors.com/tic-industry/"
-        },
+        "ebitda_margin": "~12-20% (TIC-sector norm) (sector-level; niche proprietary)",
         "entry_multiple": "n/a - proprietary",
         "bnb_angle": "Build a national §29b-bekanntgegebene measurement platform by acquiring regional Messstellen; recurring statutory periodic-measurement mandates plus continuous-monitoring calibration create annuity revenue, and TA Luft / 41. BImSchV tightening drives volume.",
         "key_risks": [
@@ -8196,11 +8140,7 @@
           "OEHMI Analytik GmbH (oehmi-analytik.de, Magdeburg) - independent accredited food/water/agricultural/environmental analytics lab, privately held under OEHMI AG (1990-92 management buy-out)",
           "AGROLAB Group / AGROLAB GmbH (agrolab.com, Landshut) - independent family-owned (founder/CEO Dr. Paul Wimmer) accredited food/water/agricultural contaminant analytics lab group (~2,600 staff, 30+ sites); named best family-owned chemical company 2025 (SZ ranking)"
         ],
-        "ebitda_margin": {
-          "band": "~12-20% (TIC-sector norm)",
-          "basis": "sector-level; niche proprietary",
-          "source": "https://aventis-advisors.com/tic-industry/"
-        },
+        "ebitda_margin": "~12-20% (TIC-sector norm) (sector-level; niche proprietary)",
         "entry_multiple": "n/a - proprietary",
         "bnb_angle": "Assemble an independent food-contaminant analytics platform as a challenger to Eurofins/Tentamus/SGS Institut Fresenius: consolidate owner-succession labs, centralise high-capex LC-MS/GC-MS, and cross-sell retailer-QMS residue/authenticity testing.",
         "key_risks": [

@@ -203,7 +203,10 @@
     if(t<0.5){ u=t/0.5; r=a[0]+(b[0]-a[0])*u; gg=a[1]+(b[1]-a[1])*u; bb=a[2]+(b[2]-a[2])*u; }
     else{ u=(t-0.5)/0.5; r=b[0]+(g[0]-b[0])*u; gg=b[1]+(g[1]-b[1])*u; bb=b[2]+(g[2]-b[2])*u; }
     return 'rgb('+Math.round(r)+','+Math.round(gg)+','+Math.round(bb)+')'; }
-  function esc(s){ return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
+  function esc(s){ return (s==null?'':''+s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
+  function tgtName(x){ return (x&&typeof x==='object')?(x.name||x.company||''):x; }
+  function tgtNote(x){ return (x&&typeof x==='object')?(x.note||x.hq||x.ownership||x.location||''):''; }
+  function scal(v){ if(v==null) return ''; if(typeof v==='object'){ var s=v.band||v.value||v.range||v.text||v.margin||v.multiple||''; var n=v.note||v.basis||''; return (''+s)+(n?' ('+n+')':''); } return v; }
   function find(n,id){ if(n.id===id)return n; var r=null; (n.children||[]).some(function(c){ r=find(c,id); return !!r; }); return r; }
   function leaves(){ var o=[]; (function w(n){ if(!(n.children&&n.children.length)) o.push(n); else n.children.forEach(w); })(DATA); return o; }
   function anyDescMatch(n){ if(query&&n.name.toLowerCase().indexOf(query)>=0) return true; return (n.children||[]).some(anyDescMatch); }
@@ -266,11 +269,11 @@
   function actionableHtml(a){ if(!a) return ''; var keys=['named_targets','ebitda_margin','entry_multiple','bnb_angle','key_risks'];
     var any=keys.some(function(k){ return a[k] && (a[k].length||typeof a[k]==='string'); }); if(!any) return '';
     var h='<div class="sig actionbox"><div class="k">Actionable — deal angle</div>';
-    if(a.bnb_angle) h+='<div class="v" style="margin-bottom:6px">'+esc(a.bnb_angle)+'</div>';
-    if(a.ebitda_margin) h+='<div><span class="al">EBITDA margin</span> '+esc(a.ebitda_margin)+'</div>';
-    if(a.entry_multiple) h+='<div><span class="al">Entry multiple</span> '+esc(a.entry_multiple)+'</div>';
-    if(a.named_targets&&a.named_targets.length) h+='<div style="margin-top:5px"><span class="al">Targets</span> '+a.named_targets.map(function(x){return '<span class="tag">'+esc(x)+'</span>';}).join('')+'</div>';
-    if(a.key_risks&&a.key_risks.length) h+='<div style="margin-top:5px"><span class="al">Key risks</span><ul class="risks">'+a.key_risks.map(function(x){return '<li>'+esc(x)+'</li>';}).join('')+'</ul></div>';
+    if(a.bnb_angle) h+='<div class="v" style="margin-bottom:6px">'+esc(scal(a.bnb_angle))+'</div>';
+    if(a.ebitda_margin) h+='<div><span class="al">EBITDA margin</span> '+esc(scal(a.ebitda_margin))+'</div>';
+    if(a.entry_multiple) h+='<div><span class="al">Entry multiple</span> '+esc(scal(a.entry_multiple))+'</div>';
+    if(a.named_targets&&a.named_targets.length) h+='<div style="margin-top:5px"><span class="al">Targets</span><ul class="risks">'+a.named_targets.map(function(x){ var nt=tgtNote(x); return '<li><b>'+esc(tgtName(x))+'</b>'+(nt?' — '+esc(nt):'')+'</li>'; }).join('')+'</ul></div>';
+    if(a.key_risks&&a.key_risks.length) h+='<div style="margin-top:5px"><span class="al">Key risks</span><ul class="risks">'+a.key_risks.map(function(x){return '<li>'+esc(scal(x))+'</li>';}).join('')+'</ul></div>';
     return h+'</div>'; }
   function showSide(n){ var s=n.scores||{}, r=n.rationale||{}, sig=n.dach_signals||{}, inv=n.investability||'open'; var html='';
     html+='<div class="scorepill"><div class="big" style="color:'+color(n._attr)+'">'+(n._attr>0?Math.round(n._attr):'–')+'</div><div class="lbl">attract</div></div>';
